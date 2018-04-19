@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_comb-proofs">
+<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_comb-proofs" newid="sec_comb-proofs">
   <title>Combinatorial Proofs</title>
 
 
   <introduction>
-    <investigation>
+    <investigation newid="sec_comb-proofs">
 
       <p>
-        <ol>
-          <li>
+        <ol newid="sec_comb-proofs">
+          <li newid="sec_comb-proofs">
             <p>
               The Stanley Cup is decided in a best of 7 tournament between two teams.
               In how many ways can your team win?
               Let's answer this question two ways:
 
-              <ol>
-                <li>
+              <ol newid="sec_comb-proofs">
+                <li newid="sec_comb-proofs">
                   How many of the 7 games does your team need to win?
                   How many ways can this happen?
                 </li>
-                <li>
+                <li newid="sec_comb-proofs">
                   What if the tournament goes all 7 games?
                   So you win the last game.
                   How many ways can the first 6 games go down?
                 </li>
-                <li>
+                <li newid="sec_comb-proofs">
                   What if the tournament goes just 6 games?
                   How many ways can this happen?
                   What about 5 games?
                   4 games?
                 </li>
-                <li>
+                <li newid="sec_comb-proofs">
                   What are the two different ways to compute the number of ways your team can win?
                   Write down an equation involving binomial coefficients
                   (that is, <m>{n \choose k}</m>'s).
@@ -40,7 +40,7 @@
             </p>
           </li>
 
-          <li>
+          <li newid="sec_comb-proofs">
             Generalize.
             What if the rules changed and you played a best of <m>9</m> tournament (5 wins required)?
             What if you played an <m>n</m> game tournament with <m>k</m> wins required to be named champion?
@@ -52,16 +52,16 @@
   </introduction>
 
 
-  <subsection xml:id="subsec_patternsPascal">
+  <subsection xml:id="subsec_patternsPascal" newid="subsec_patternsPascal">
     <title>Patterns in Pascal's Triangle</title>
-    <p>
+    <p newid="subsec_patternsPascal">
       Have a look again at Pascal's triangle.
       Forget for a moment where it comes from.
       Just look at it as a mathematical object.
       What do you notice?
     </p>
     <sidebyside width="80%">
-      <image xml:id="pascal-small">
+      <image xml:id="pascal-small" newid="subsec_patternsPascal">
         <latex-image>
           \begin{tikzpicture}
   \def\r{.5}
@@ -96,30 +96,30 @@
         </latex-image>
       </image>
     </sidebyside>
-    <p>
+    <p newid="subsec_patternsPascal">
       There are lots of patterns hidden away in the triangle,
       enough to fill a reasonably sized book.
       Here are just a few of the most obvious ones:
 
-      <ol>
-        <li>
+      <ol newid="subsec_patternsPascal">
+        <li newid="subsec_patternsPascal">
           The entries on the border of the triangle are all 1.
         </li>
-        <li>
+        <li newid="subsec_patternsPascal">
             Any entry not on the border is the sum of the two entries above it.
         </li>
-        <li>
+        <li newid="subsec_patternsPascal">
           The triangle is symmetric.
           In any row, entries on the left side are mirrored on the right side.
         </li>
-        <li>
+        <li newid="subsec_patternsPascal">
           The sum of all entries on a given row is a power of 2.
           (You should check this!)
         </li>
       </ol>
     </p>
 
-    <p>
+    <p newid="subsec_patternsPascal">
       We would like to state these observations in a more precise way,
       and then prove that they are correct.
       Now each entry in Pascal's triangle is in fact a binomial coefficient.
@@ -128,75 +128,75 @@
       (which we will call row 1, even though it is not the top-most row)
       consists of <m>{1 \choose 0}</m> and <m>{1 \choose 1}</m>.
       Row 4 (the row 1, 4, 6, 4, 1) consists of the binomial coefficients
-      <me>
+      <me newid="subsec_patternsPascal">
         {4 \choose 0} ~~ {4 \choose 1} ~~ {4 \choose 2} ~~ {4 \choose 3} ~~ {4 \choose 4}.
       </me>
     </p>
 
-    <p>
+    <p newid="subsec_patternsPascal">
       Given this description of the elements in Pascal's triangle,
       we can rewrite the above observations as follows:
 
-      <ol>
-        <li><m>{n \choose 0} = 1</m> and <m>{n \choose n} = 1</m>.</li>
-        <li><m>{n \choose k} = {n-1 \choose k-1} + {n-1 \choose k}</m>.</li>
-        <li><m>{n \choose k} = {n \choose n-k}</m>.</li>
-        <li><m>{n\choose 0} + {n \choose 1} + {n \choose 2} + \cdots + {n \choose n} = 2^n</m>.</li>
+      <ol newid="subsec_patternsPascal">
+        <li newid="subsec_patternsPascal"><m>{n \choose 0} = 1</m> and <m>{n \choose n} = 1</m>.</li>
+        <li newid="subsec_patternsPascal"><m>{n \choose k} = {n-1 \choose k-1} + {n-1 \choose k}</m>.</li>
+        <li newid="subsec_patternsPascal"><m>{n \choose k} = {n \choose n-k}</m>.</li>
+        <li newid="subsec_patternsPascal"><m>{n\choose 0} + {n \choose 1} + {n \choose 2} + \cdots + {n \choose n} = 2^n</m>.</li>
       </ol>
     </p>
 
-    <p>
+    <p newid="subsec_patternsPascal">
       Each of these is an example of a <term>binomial identity</term>:
           <idx><h>binomial identity</h></idx>
       an identity (i.e., equation) involving binomial coefficients.
-    </p>
+    </p newid="subsec_patternsPascal">
 
-    <p>
+    <p newid="subsec_patternsPascal">
       Our goal is to establish these identities.
       We wish to prove that they hold for all values of <m>n</m> and <m>k</m>.
       These proofs can be done in many ways.
       One option would be to give algebraic proofs,
       using the formula for <m>{n \choose k}</m>:
-      <me>
+      <me newid="subsec_patternsPascal">
         {n \choose k} = \frac{n!}{(n-k)!\,k!}.
       </me>
     </p>
 
-    <p>
+    <p newid="subsec_patternsPascal">
       Here's how you might do that for the second identity above.
     </p>
-    <example>
-      <statement>
-        <p>
+    <example newid="subsec_patternsPascal">
+      <statement newid="subsec_patternsPascal">
+        <p newid="subsec_patternsPascal">
           Give an algebraic proof for the binomial identity
-          <me>
+          <me newid="subsec_patternsPascal">
             {n \choose k} = {n-1\choose k-1} + {n-1 \choose k}.
           </me>
         </p>
       </statement>
-      <solution>
-        <proof>
-          <p>
+      <solution newid="subsec_patternsPascal">
+        <proof newid="subsec_patternsPascal">
+          <p newid="subsec_patternsPascal">
             By the definition of <m>{n \choose k}</m>, we have
-            <me>
+            <me newid="subsec_patternsPascal">
               {n-1 \choose k-1} = \frac{(n-1)!}{(n-1-(k-1))!(k-1)!} = \frac{(n-1)!}{(n-k)!(k-1)!}</me>
               and
-            <me> {n-1 \choose k} = \frac{(n-1)!}{(n-1-k)!k!}.
+            <me newid="subsec_patternsPascal"> {n-1 \choose k} = \frac{(n-1)!}{(n-1-k)!k!}.
             </me>
           </p>
 
-          <p>
+          <p newid="subsec_patternsPascal">
             Thus, starting with the right-hand side of the equation:
-            <md>
-              <mrow> {n-1 \choose k-1} + {n-1 \choose k} \amp = \frac{(n-1)!}{(n-k)!(k-1)!}+ \frac{(n-1)!}{(n-1-k)!\,k!}</mrow>
-              <mrow> \amp = \frac{(n-1)!k}{(n-k)!\,k!} + \frac{(n-1)!(n-k)}{(n-k)!\,k!}</mrow>
-              <mrow> \amp = \frac{(n-1)!(k+n-k)}{(n-k)!\,k!}</mrow>
-              <mrow> \amp = \frac{n!}{(n-k)!\, k!}</mrow>
-              <mrow> \amp = {n \choose k}</mrow>
+            <md newid="subsec_patternsPascal">
+              <mrow newid="subsec_patternsPascal"> {n-1 \choose k-1} + {n-1 \choose k} \amp = \frac{(n-1)!}{(n-k)!(k-1)!}+ \frac{(n-1)!}{(n-1-k)!\,k!}</mrow>
+              <mrow newid="subsec_patternsPascal"> \amp = \frac{(n-1)!k}{(n-k)!\,k!} + \frac{(n-1)!(n-k)}{(n-k)!\,k!}</mrow>
+              <mrow newid="subsec_patternsPascal"> \amp = \frac{(n-1)!(k+n-k)}{(n-k)!\,k!}</mrow>
+              <mrow newid="subsec_patternsPascal"> \amp = \frac{n!}{(n-k)!\, k!}</mrow>
+              <mrow newid="subsec_patternsPascal"> \amp = {n \choose k}</mrow>
             </md>.
           </p>
 
-          <p>
+          <p newid="subsec_patternsPascal">
             The second line
             (where the common denominator is found)
             works because <m>k(k-1)! = k!</m> and <m>(n-k)(n-k-1)! = (n-k)!</m>.
@@ -205,7 +205,7 @@
       </solution>
 
     </example>
-    <p>
+    <p newid="subsec_patternsPascal">
       This is certainly a valid proof, but also is entirely useless.
       Even if you understand the proof perfectly,
       it does not tell you <em>why</em> the identity is true.
@@ -213,14 +213,14 @@
       and then say why that is also what <m>{n-1 \choose k-1} + {n-1 \choose k}</m> means.
       Let's see how this works for the four identities we observed above.
     </p>
-    <example>
-      <statement>
-        <p>
+    <example newid="subsec_patternsPascal">
+      <statement newid="subsec_patternsPascal">
+        <p newid="subsec_patternsPascal">
           Explain why <m>{n \choose 0} = 1</m> and <m>{n \choose n} = 1</m>.
         </p>
       </statement>
-      <solution>
-        <p>
+      <solution newid="subsec_patternsPascal">
+        <p newid="subsec_patternsPascal">
           What do these binomial coefficients tell us?
           Well, <m>{n \choose 0}</m> gives the number of ways to select 0 objects from a collection of <m>n</m> objects.
           There is only one way to do this, namely to not select any of the objects.
@@ -232,7 +232,7 @@
           Thus <m>{n \choose n} = 1</m>.
         </p>
 
-        <p>
+        <p newid="subsec_patternsPascal">
           Alternatively,
           we know that <m>{n \choose 0}</m> is the number of <m>n</m>-bit strings with weight 0.
           There is only one such string, the string of all 0's.
@@ -251,14 +251,14 @@
       </solution>
     </example>
 
-    <example>
-      <statement>
-        <p>
+    <example newid="subsec_patternsPascal">
+      <statement newid="subsec_patternsPascal">
+        <p newid="subsec_patternsPascal">
           Explain why <m>{n \choose k} = {n-1 \choose k-1} + {n-1 \choose k}</m>.
         </p>
       </statement>
-      <solution>
-        <p>
+      <solution newid="subsec_patternsPascal">
+         newid="subsec_patternsPascal"<p>
           The easiest way to see this is to consider bit strings.
           <m>{n \choose k}</m> is the number of bit strings of length <m>n</m> containing <m>k</m> 1's.
           Of all of these strings, some start with a 1 and the rest start with a 0.
@@ -278,7 +278,7 @@
           Therefore <m>{n \choose k} = {n-1\choose k-1} + {n-1 \choose k}</m>.
         </p>
 
-        <p>
+        <p newid="subsec_patternsPascal">
           Another way: consider the question,
           how many ways can you select <m>k</m> pizza toppings from a menu containing <m>n</m> choices?
           One way to do this is just <m>{n \choose k}</m>.
@@ -297,20 +297,20 @@
           Thus <m>{n \choose k} = {n-1\choose k-1} + {n-1 \choose k}</m>.
         </p>
 
-        <p>
+        <p newid="subsec_patternsPascal">
           You can also explain (prove) this identity by counting subsets, or even lattice paths.
         </p>
       </solution>
     </example>
 
-    <example xml:id="example-symmetry-formula">
-      <statement>
-        <p>
+    <example xml:id="example-symmetry-formula" newid="example-symmetry-formula">
+      <statement newid="example-symmetry-formula">
+        <p newid="example-symmetry-formula">
           Prove the binomial identity <m>{n \choose k} = {n \choose n-k}</m>.
         </p>
       </statement>
-      <solution>
-        <p>
+      <solution newid="example-symmetry-formula">
+        <p newid="example-symmetry-formula">
           Why is this true?
           <m>{n \choose k}</m> counts the number of ways to select <m>k</m> things from <m>n</m> choices.
           On the other hand,
@@ -325,7 +325,7 @@
           So the set of outcomes should be the same.
         </p>
 
-        <p>
+        <p newid="example-symmetry-formula">
           Let's try the pizza counting example like we did above.
           How many ways are there to pick <m>k</m> toppings from a list of <m>n</m> choices?
           On the one hand, the answer is simply <m>{n \choose k}</m>.
@@ -339,7 +339,7 @@
           Thus these two answers must be the same: <m>{n \choose k} = {n \choose n-k}</m>.
         </p>
 
-        <p>
+        <p newid="example-symmetry-formula">
           You can also prove (explain) this identity using bit strings, subsets, or lattice paths.
           The bit string argument is nice:
           <m>{n \choose k}</m> counts the number of bit strings of length <m>n</m> with <m>k</m> 1's.
@@ -352,14 +352,14 @@
       </solution>
     </example>
 
-    <example>
-      <statement>
-        <p>
+    <example newid="subsec_patternsPascal">
+      <statement newid="subsec_patternsPascal">
+        <p newid="subsec_patternsPascal">
           Prove the binomial identity <m>{n\choose 0} + {n \choose 1} + {n\choose 2} + \cdots + {n \choose n} = 2^n</m>.
         </p>
       </statement>
-      <solution>
-        <p>
+      <solution newid="subsec_patternsPascal">
+        <p newid="subsec_patternsPascal">
           Let's do a <q>pizza proof</q> again.
           We need to find a question about pizza toppings which has <m>2^n</m> as the answer.
           How about this:
@@ -368,12 +368,12 @@
           using each topping at most once?
         </p>
 
-        <p>
+        <p newid="subsec_patternsPascal">
           On one hand, the answer is <m>2^n</m>.
           For each topping you can say <q>yes</q> or <q>no,</q> so you have two choices for each topping.
         </p>
 
-        <p>
+        <p newid="subsec_patternsPascal">
           On the other hand,
           divide the possible pizzas into disjoint groups:
           the pizzas with no toppings, the pizzas with one topping, the pizzas with two toppings, etc.
@@ -386,22 +386,22 @@
           We have:
         </p>
 
-        <p>
-          <ul>
-            <li>Pizzas with 0 toppings: <m>{n \choose 0}</m></li>
-            <li>Pizzas with 1 topping: <m>{n \choose 1}</m></li>
-            <li>Pizzas with 2 toppings: <m>{n \choose 2}</m></li>
-            <li> <m>\vdots</m></li>
-            <li>Pizzas with <m>n</m> toppings: <m>{n \choose n}</m>.</li>
+        <p newid="subsec_patternsPascal">
+          <ul newid="subsec_patternsPascal">
+            <li newid="subsec_patternsPascal">Pizzas with 0 toppings: <m>{n \choose 0}</m></li>
+            <li newid="subsec_patternsPascal">Pizzas with 1 topping: <m>{n \choose 1}</m></li>
+            <li newid="subsec_patternsPascal">Pizzas with 2 toppings: <m>{n \choose 2}</m></li>
+            <li newid="subsec_patternsPascal"> <m>\vdots</m></li>
+            <li newid="subsec_patternsPascal">Pizzas with <m>n</m> toppings: <m>{n \choose n}</m>.</li>
           </ul>
         </p>
 
-        <p>
+        <p newid="subsec_patternsPascal">
           The total number of possible pizzas will be the sum of these,
           which is exactly the left-hand side of the identity we are trying to prove.
         </p>
 
-        <p>
+        <p newid="subsec_patternsPascal">
           Again,
           we could have proved the identity using subsets,
           bit strings, or lattice paths
@@ -409,7 +409,7 @@
         </p>
       </solution>
     </example>
-    <p>
+    <p newid="subsec_patternsPascal">
       Hopefully this gives some idea of how explanatory proofs of binomial identities can go.
       It is worth pointing out that more traditional proofs can also be beautiful.
       <fn>Most every binomial identity can be proved using mathematical induction,
@@ -419,32 +419,32 @@
       consider the following rather slick proof of the last identity.
     </p>
 
-    <p>
+    <p newid="subsec_patternsPascal">
       Expand the binomial <m>(x+y)^n</m>:
-      <me>
+      <me newid="subsec_patternsPascal">
         (x + y)^n
         =
         {n \choose 0}x^n + {n \choose 1}x^{n-1}y + {n \choose 2}x^{n-2}y^2 + \cdots + {n \choose n-1}x\cdot y^n + {n \choose n}y^n
       </me>.
     </p>
 
-    <p>
+    <p newid="subsec_patternsPascal">
       Let <m>x = 1</m> and <m>y = 1</m>. We get:
-      <me>
+      <me newid="subsec_patternsPascal">
         (1 + 1)^n
         =
         {n \choose 0}1^n + {n \choose 1}1^{n-1}1 + {n \choose 2}1^{n-2}1^2 + \cdots + {n \choose n-1}1\cdot 1^n + {n \choose n}1^n
       </me>.
     </p>
 
-    <p>
+    <p newid="subsec_patternsPascal">
       Of course this simplifies to:
-      <me>
+      <me newid="subsec_patternsPascal">
         (2)^n = {n \choose 0} + {n \choose 1} + {n \choose 2} + \cdots + {n \choose n-1} + {n \choose n}
       </me>.
     </p>
 
-    <p>
+    <p newid="subsec_patternsPascal">
       Something fun to try: Let <m>x = 1</m> and <m>y = 2</m>. Neat huh?
     </p>
   </subsection>
@@ -452,38 +452,32 @@
 
   <subsection xml:id="subsec_moreProofs">
     <title>More Proofs</title>
-    <p>
+    <p newid="subsec_moreProofs">
       The explanatory proofs given in the above examples are typically called <term>combinatorial proofs</term>.
       In general,
       to give a combinatorial proof for a binomial identity,
       say <m>A = B</m> you do the following:
     </p>
 
-    <p>
-      <ol>
-        <li>
-        <p>
-        Find a counting problem you will be able to answer in two ways.
-        </p>
+    <p newid="subsec_moreProofs">
+      <ol newid="subsec_moreProofs">
+        <li newid="subsec_moreProofs">
+          Find a counting problem you will be able to answer in two ways.
         </li>
-        <li>
-        <p>
-        Explain why one answer to the counting problem is <m>A</m>.
-        </p>
+        <li newid="subsec_moreProofs">
+          Explain why one answer to the counting problem is <m>A</m>.
         </li>
-        <li>
-        <p>
-        Explain why the other answer to the counting problem is <m>B</m>.
-        </p>
+        <li newid="subsec_moreProofs">
+          Explain why the other answer to the counting problem is <m>B</m>.
         </li>
       </ol>
     </p>
 
-    <p>
+    <p newid="subsec_moreProofs">
       Since both <m>A</m> and <m>B</m> are the answers to the same question, we must have <m>A = B</m>.
     </p>
 
-    <p>
+    <p newid="subsec_moreProofs">
       The tricky thing is coming up with the question.
       This is not always obvious, but it gets easier the more counting problems you solve.
       You will start to recognize types of answers as the answers to types of questions.
@@ -492,15 +486,15 @@
       The proof <em>is</em> the problem you just solved together with your two solutions.
     </p>
 
-    <p>
+    <p newid="subsec_moreProofs">
       For example, consider this counting question:
     </p>
 
-    <blockquote>
+    <blockquote newid="subsec_moreProofs">
       <p>How many 10-letter words use exactly four A's, three B's, two C's and one D?</p>
     </blockquote>
 
-    <p>
+    <p newid="subsec_moreProofs">
       Let's try to solve this problem.
       We have 10 spots for letters to go.
       Four of those need to be A's.
@@ -513,12 +507,12 @@
       That leaves just one spot of the D,
       but we could write that 1 choice as <m>{1 \choose 1}</m>.
       Thus the answer is:
-      <me>
+      <me newid="subsec_moreProofs">
         {10 \choose 4}{6 \choose 3}{3 \choose 2}{1 \choose 1}
       </me>.
     </p>
 
-    <p>
+    <p newid="subsec_moreProofs">
       But why stop there? We can find the answer another way too.
       First let's decide where to put the one D: we have 10 spots,
       we need to choose 1 of them, so this can be done in <m>{10 \choose 1}</m> ways.
@@ -535,7 +529,7 @@
       </me>.
     </p>
 
-    <p>
+    <p newid="subsec_moreProofs">
       Interesting.
       This gives us the binomial identity:
       <me>
@@ -543,21 +537,21 @@
       </me>
     </p>
 
-    <p>
+    <p newid="subsec_moreProofs">
       Here are a couple of other binomial identities with combinatorial proofs.
     </p>
 
-    <example>
-      <statement>
-        <p>
+    <example newid="subsec_moreProofs">
+      <statement newid="subsec_moreProofs">
+        <p newid="subsec_moreProofs">
           Prove the identity
-          <me>
+          <me newid="subsec_moreProofs">
             1 n + 2(n-1) + 3 (n-2) + \cdots + (n-1) 2 + n 1 = {n+2 \choose 3}
           </me>.
         </p>
       </statement>
-      <solution>
-        <p>
+      <solution newid="subsec_moreProofs">
+        <p newid="subsec_moreProofs">
           To give a combinatorial proof we need to think up a question we can answer in two ways:
           one way needs to give the left-hand-side of the identity,
           the other way needs to be the right-hand-side of the identity.
@@ -571,19 +565,19 @@
           Here's the proof.
         </p>
 
-        <proof>
-          <p>
+        <proof newid="subsec_moreProofs">
+          <p newid="subsec_moreProofs">
             Consider the question <q>How many 3-element subsets are there of the set <m>\{1,2,3,\ldots, n+2\}</m>?</q>
             We answer this in two ways:
           </p>
 
-          <p>
+          <p newid="subsec_moreProofs">
             Answer 1:
             We must select 3 elements from the collection of <m>n+2</m> elements.
             This can be done in <m>{n+2 \choose 3}</m> ways.
           </p>
 
-          <p>
+          <p newid="subsec_moreProofs">
             Answer 2:
             Break this problem up into cases by what the middle number in the subset is.
             Say each subset is <m>\{a,b,c\}</m> written in increasing order.
@@ -591,39 +585,39 @@
             The smallest possible value of <m>b</m> is <m>2</m>, and the largest is <m>n+1</m>.
           </p>
 
-          <p>
+          <p newid="subsec_moreProofs">
             When <m>b = 2</m>,
             there are <m>1 \cdot n</m> subsets:
             1 choice for <m>a</m> and <m>n</m> choices (3 through <m>n+2</m>) for <m>c</m>.
           </p>
 
-          <p>
+          <p newid="subsec_moreProofs">
             When <m>b = 3</m>,
             there are <m>2 \cdot (n-1)</m> subsets:
             2 choices for <m>a</m> and <m>n-1</m> choices for <m>c</m>.
           </p>
 
-          <p>
+          <p newid="subsec_moreProofs">
             When <m>b = 4</m>,
             there are <m>3 \cdot (n-2)</m> subsets:
             3 choices for <m>a</m> and <m>n-2</m> choices for <m>c</m>.
           </p>
 
-          <p>
+          <p newid="subsec_moreProofs">
             And so on.
             When <m>b = n+1</m>,
             there are <m>n</m> choices for <m>a</m> and only 1 choice for <m>c</m>,
             so <m>n \cdot 1</m> subsets.
           </p>
 
-          <p>
+          <p newid="subsec_moreProofs">
             Therefore the total number of subsets is
             <me>
               1 n + 2 (n-1) + 3 (n-2) + \cdots + (n-1)2 + n 1
             </me>.
           </p>
 
-          <p>
+          <p newid="subsec_moreProofs">
             Since Answer 1 and Answer 2 are answers to the same question, they must be equal.
             Therefore
             <me>
@@ -635,108 +629,108 @@
       </solution>
     </example>
 
-    <example>
-      <statement>
-        <p>
+    <example newid="subsec_moreProofs">
+      <statement newid="subsec_moreProofs">
+        <p newid="subsec_moreProofs">
           Prove the binomial identity
-          <me>
+          <me newid="subsec_moreProofs">
             {n \choose 0}^2 + {n \choose 1}^2 + {n \choose 2}^2 + \cdots + {n \choose n}^2 = {2n \choose n}.
           </me>
         </p>
       </statement>
-      <solution>
-        <p>
+      <solution newid="subsec_moreProofs">
+        <p newid="subsec_moreProofs">
           We will give two different proofs of this fact.
           The first will be very similar to the previous example (counting subsets).
           The second proof is a little slicker, using lattice paths.
         </p>
 
-        <proof>
-          <p>
+        <proof newid="subsec_moreProofs">
+          <p newid="subsec_moreProofs">
             Consider the question:
             <q>How many pizzas can you make using <m>n</m> toppings when there are <m>2n</m> toppings to choose from?</q>
           </p>
 
-          <p>
+          <p newid="subsec_moreProofs">
             Answer 1:
             There are <m>2n</m> toppings, from which you must choose <m>n</m>.
             This can be done in <m>{2n \choose n}</m> ways.
           </p>
 
-          <p>
+          <p newid="subsec_moreProofs">
             Answer 2:
             Divide the toppings into two groups of <m>n</m> toppings (perhaps <m>n</m> meats and <m>n</m> veggies).
             Any choice of <m>n</m> toppings must include some number from the first group and some number from the second group.
             Consider each possible number of meat toppings separately:
           </p>
 
-          <p>
+          <p newid="subsec_moreProofs">
             0 meats: <m>{n \choose 0}{n \choose n}</m>,
             since you need to choose 0 of the <m>n</m> meats and <m>n</m> of the <m>n</m> veggies.
           </p>
 
-          <p>
+          <p newid="subsec_moreProofs">
             1 meat: <m>{n \choose 1}{n \choose n-1}</m>,
             since you need 1 of <m>n</m> meats so <m>n-1</m> of <m>n</m> veggies.
           </p>
 
-          <p>
+          <p newid="subsec_moreProofs">
             2 meats: <m>{n \choose 2}{n \choose n-2}</m>.
             Choose 2 meats and the remaining <m>n-2</m> toppings from the <m>n</m> veggies.
           </p>
 
-          <p>
+          <p newid="subsec_moreProofs">
             And so on.
             The last case is <m>n</m> meats,
             which can be done in <m>{n \choose n}{n \choose 0}</m> ways.
           </p>
 
-          <p>
+          <p newid="subsec_moreProofs">
             Thus the total number of pizzas possible is
-            <me>
+            <me newid="subsec_moreProofs">
               {n \choose 0}{n \choose n} + {n \choose 1}{n \choose n-1} + {n \choose 2}{n \choose n-2}
                 + \cdots + {n \choose n}{n \choose 0}.
             </me>
           </p>
 
-          <p>
+          <p newid="subsec_moreProofs">
             This is not quite the left-hand side <ellipsis/> yet.
             Notice that <m>{n \choose n} = {n \choose 0}</m> and <m>{n \choose n-1} = {n  \choose 1}</m> and so on,
             by the identity in
             <xref ref="example-symmetry-formula"/>.
             Thus we do indeed get
-            <me>
+            <me newid="subsec_moreProofs">
               {n \choose 0}^2 + {n \choose 1}^2 + {n \choose 2}^2 + \cdots + {n \choose n}^2
             </me>.
           </p>
 
-          <p>
+          <p newid="subsec_moreProofs">
             Since these two answers are answers to the same question,
             they must be equal, and thus
-            <me>
+            <me newid="subsec_moreProofs">
               {n \choose 0}^2 + {n \choose 1}^2 + {n \choose 2}^2 + \cdots + {n \choose n}^2 = {2n \choose n}
             </me>.
           </p>
         </proof>
 
-        <p>
+        <p newid="subsec_moreProofs">
           For an alternative proof, we use lattice paths.
           This is reasonable to consider because the right-hand side of the identity reminds us of the number of paths from
           <m>(0,0)</m> to <m>(n,n)</m>.
         </p>
 
-        <proof>
-          <p>
+        <proof newid="subsec_moreProofs">
+          <p newid="subsec_moreProofs">
             Consider the question:
             How many lattice paths are there from <m>(0,0)</m> to <m>(n,n)</m>?
           </p>
 
-          <p>
+          <p newid="subsec_moreProofs">
             Answer 1: We must travel <m>2n</m> steps, and <m>n</m> of them must be in the up direction.
             Thus there are <m>{2n \choose n}</m> paths.
           </p>
 
-          <p>
+          <p newid="subsec_moreProofs">
             Answer 2: Note that any path from <m>(0,0)</m> to <m>(n,n)</m> must cross the line <m>x + y = n</m>.
             That is,
             any path must pass through exactly one of the points:
@@ -744,7 +738,7 @@
             For example, this is what happens in the case <m>n = 4</m>:
           </p>
           <sidebyside width="40%">
-            <image xml:id="lattice-paths-comb-proof">
+            <image xml:id="lattice-paths-comb-proof" newid="lattice-paths-comb-proof">
               <latex-image>
                 \begin{tikzpicture}[scale=0.8]
         \draw[very thin, color=gray!50] (-.5,-.5) grid (4.5, 4.5);
@@ -755,7 +749,7 @@
               </latex-image>
             </image>
           </sidebyside>
-          <p>
+          <p newid="subsec_moreProofs">
             How many paths pass through <m>(0,n)</m>?
             To get to that point, you must travel <m>n</m> units,
             and <m>0</m> of them are to the right,
@@ -765,7 +759,7 @@
             Therefore there are <m>{n \choose 0}{n \choose 0}</m> paths from <m>(0,0)</m> to <m>(n,n)</m> through the point <m>(0,n)</m>.
           </p>
 
-          <p>
+          <p newid="subsec_moreProofs">
             What about through <m>(1,n-1)</m>.
             There are <m>{n \choose 1}</m> paths to get there
             (<m>n</m> steps, 1 to the right)
@@ -774,21 +768,21 @@
             So there are <m>{n \choose 1}{n \choose 1}</m> paths from <m>(0,0)</m> to <m>(n,n)</m> through <m>(1,n-1)</m>.
           </p>
 
-          <p>
+          <p newid="subsec_moreProofs">
             In general,
             to get to <m>(n,n)</m> through the point <m>(k,n-k)</m>
             we have <m>{n \choose k}</m> paths to the midpoint and then <m>{n \choose k}</m> paths from the midpoint to <m>(n,n)</m>.
             So there are <m>{n \choose k}{n \choose k}</m> paths from <m>(0,0)</m> to <m>(n,n)</m> through <m>(k, n-k)</m>.
           </p>
 
-          <p>
+          <p newid="subsec_moreProofs">
             All together then the total paths from <m>(0,0)</m> to <m>(n,n)</m> passing through exactly one of these midpoints is
-            <me>
+            <me newid="subsec_moreProofs">
               {n \choose 0}^2 + {n \choose 1}^2 + {n \choose 2}^2 + \cdots + {n \choose n}^2
             </me>.
           </p>
 
-          <p>
+          <p newid="subsec_moreProofs">
             Since these two answers are answers to the same question,
             they must be equal, and thus
             <me>
