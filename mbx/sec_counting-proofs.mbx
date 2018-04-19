@@ -11,7 +11,8 @@
           <li>
             <p>
               The Stanley Cup is decided in a best of 7 tournament between two teams.
-              In how many ways can your team win? Let's answer this question two ways:
+              In how many ways can your team win?
+              Let's answer this question two ways:
 
               <ol>
                 <li>
@@ -191,8 +192,8 @@
               <mrow> \amp = \frac{(n-1)!k}{(n-k)!\,k!} + \frac{(n-1)!(n-k)}{(n-k)!\,k!}</mrow>
               <mrow> \amp = \frac{(n-1)!(k+n-k)}{(n-k)!\,k!}</mrow>
               <mrow> \amp = \frac{n!}{(n-k)!\, k!}</mrow>
-              <mrow> \amp = {n \choose k}.</mrow>
-            </md>
+              <mrow> \amp = {n \choose k}</mrow>
+            </md>.
           </p>
 
           <p>
@@ -220,16 +221,20 @@
       </statement>
       <solution>
         <p>
-          What do these binomial coefficients tell us? Well, <m>{n \choose 0}</m> gives the number of ways to select 0 objects from a collection of <m>n</m> objects.
+          What do these binomial coefficients tell us?
+          Well, <m>{n \choose 0}</m> gives the number of ways to select 0 objects from a collection of <m>n</m> objects.
           There is only one way to do this, namely to not select any of the objects.
           Thus <m>{n \choose 0} = 1</m>.
-          Similarly, <m>{n \choose n}</m> gives the number of ways to select <m>n</m> objects from a collection of <m>n</m> objects.
-          There is only one way to do this: select all <m>n</m> objects.
+          Similarly,
+          <m>{n \choose n}</m> gives the number of ways to select <m>n</m> objects from a collection of <m>n</m> objects.
+          There is only one way to do this:
+          select all <m>n</m> objects.
           Thus <m>{n \choose n} = 1</m>.
         </p>
 
         <p>
-          Alternatively, we know that <m>{n \choose 0}</m> is the number of <m>n</m>-bit strings with weight 0.
+          Alternatively,
+          we know that <m>{n \choose 0}</m> is the number of <m>n</m>-bit strings with weight 0.
           There is only one such string, the string of all 0's.
           So <m>{n \choose 0} = 1</m>.
           Similarly <m>{n \choose n}</m> is the number of <m>n</m>-bit strings with weight <m>n</m>.
@@ -237,7 +242,8 @@
         </p>
 
         <p>
-          Another way: <m>{n \choose 0}</m> gives the number of subsets of a set of size <m>n</m> containing 0 elements.
+          Another way:
+          <m>{n \choose 0}</m> gives the number of subsets of a set of size <m>n</m> containing 0 elements.
           There is only one such subset, the empty set.
           <m>{n \choose n}</m> gives the number of subsets containing <m>n</m> elements.
           The only such subset is the original set (of all elements).
@@ -257,24 +263,37 @@
           <m>{n \choose k}</m> is the number of bit strings of length <m>n</m> containing <m>k</m> 1's.
           Of all of these strings, some start with a 1 and the rest start with a 0.
           First consider all the bit strings which start with a 1.
-          After the 1, there must be <m>n-1</m> more bits (to get the total length up to <m>n</m>) and exactly <m>k-1</m> of them must be 1's (as we already have one, and we need <m>k</m> total).
-          How many strings are there like that? There are exactly <m>{n-1 \choose k-1}</m> such bit strings, so of all the length <m>n</m> bit strings containing <m>k</m> 1's, <m>{n-1 \choose k-1}</m> of them start with a 1.
-          Similarly, there are <m>{n-1\choose k}</m> which start with a 0 (we still need <m>n-1</m> bits and now <m>k</m> of them must be 1's).
-          Since there are <m>{n-1 \choose k}</m> bit strings containing <m>n-1</m> bits with <m>k</m> 1's, that is the number of length <m>n</m> bit strings with <m>k</m> 1's which start
-          with a 0.
+          After the 1, there must be <m>n-1</m> more bits
+          (to get the total length up to <m>n</m>)
+          and exactly <m>k-1</m> of them must be 1's
+          (as we already have one, and we need <m>k</m> total).
+          How many strings are there like that?
+          There are exactly <m>{n-1 \choose k-1}</m> such bit strings,
+          so of all the length <m>n</m> bit strings containing <m>k</m> 1's,
+          <m>{n-1 \choose k-1}</m> of them start with a 1.
+          Similarly, there are <m>{n-1\choose k}</m> which start with a 0
+          (we still need <m>n-1</m> bits and now <m>k</m> of them must be 1's).
+          Since there are <m>{n-1 \choose k}</m> bit strings containing <m>n-1</m> bits with <m>k</m> 1's,
+          that is the number of length <m>n</m> bit strings with <m>k</m> 1's which start with a 0.
           Therefore <m>{n \choose k} = {n-1\choose k-1} + {n-1 \choose k}</m>.
         </p>
 
         <p>
-          Another way: consider the question, how many ways can you select <m>k</m> pizza toppings from a menu containing <m>n</m> choices? One way to do this is just <m>{n \choose k}</m>.
+          Another way: consider the question,
+          how many ways can you select <m>k</m> pizza toppings from a menu containing <m>n</m> choices?
+          One way to do this is just <m>{n \choose k}</m>.
           Another way to answer the same question is to first decide whether or not you want anchovies.
-          If you do want anchovies, you still need to pick <m>k-1</m> toppings, now from just <m>n-1</m> choices.
+          If you do want anchovies,
+          you still need to pick <m>k-1</m> toppings, now from just <m>n-1</m> choices.
           That can be done in <m>{n-1 \choose k-1}</m> ways.
-          If you do not want anchovies, then you still need to select <m>k</m> toppings from <m>n-1</m> choices (the anchovies are out).
+          If you do not want anchovies, then you still need to select <m>k</m> toppings from <m>n-1</m> choices
+          (the anchovies are out).
           You can do that in <m>{n-1 \choose k}</m> ways.
-          Since the choices with anchovies are disjoint from the choices without anchovies, the total choices are <m>{n-1 \choose k-1}+{n-1 \choose k}</m>.
+          Since the choices with anchovies are disjoint from the choices without anchovies,
+          the total choices are <m>{n-1 \choose k-1}+{n-1 \choose k}</m>.
           But wait.
-          We answered the same question in two different ways, so the two answers must be the same.
+          We answered the same question in two different ways,
+          so the two answers must be the same.
           Thus <m>{n \choose k} = {n-1\choose k-1} + {n-1 \choose k}</m>.
         </p>
 
@@ -292,30 +311,42 @@
       </statement>
       <solution>
         <p>
-          Why is this true? <m>{n \choose k}</m> counts the number of ways to select <m>k</m> things from <m>n</m> choices.
-          On the other hand, <m>{n \choose n-k}</m> counts the number of ways to select <m>n-k</m> things from <m>n</m> choices.
-          Are these really the same? Well, what if instead of selecting the <m>n-k</m> things you choose to exclude them.
+          Why is this true?
+          <m>{n \choose k}</m> counts the number of ways to select <m>k</m> things from <m>n</m> choices.
+          On the other hand,
+          <m>{n \choose n-k}</m> counts the number of ways to select <m>n-k</m> things from <m>n</m> choices.
+          Are these really the same?
+          Well,
+          what if instead of selecting the <m>n-k</m> things you choose to exclude them.
           How many ways are there to choose <m>n-k</m> things to exclude from <m>n</m> choices.
-          Clearly this is <m>{n \choose n-k}</m> as well (it doesn't matter whether you include or exclude the things once you have chosen them).
+          Clearly this is <m>{n \choose n-k}</m> as well
+          (it doesn't matter whether you include or exclude the things once you have chosen them).
           And if you exclude <m>n-k</m> things, then you are including the other <m>k</m> things.
           So the set of outcomes should be the same.
         </p>
 
         <p>
           Let's try the pizza counting example like we did above.
-          How many ways are there to pick <m>k</m> toppings from a list of <m>n</m> choices? On the one hand, the answer is simply <m>{n \choose k}</m>.
-          Alternatively, you could make a list of all the toppings you don't want.
-          To end up with a pizza containing exactly <m>k</m> toppings, you need to pick <m>n-k</m> toppings to not put on the pizza.
+          How many ways are there to pick <m>k</m> toppings from a list of <m>n</m> choices?
+          On the one hand, the answer is simply <m>{n \choose k}</m>.
+          Alternatively,
+          you could make a list of all the toppings you don't want.
+          To end up with a pizza containing exactly <m>k</m> toppings,
+          you need to pick <m>n-k</m> toppings to not put on the pizza.
           You have <m>{n \choose n-k}</m> choices for the toppings you don't want.
-          Both of these ways give you a pizza with <m>k</m> toppings, in fact all the ways to get a pizza with <m>k</m> toppings.
+          Both of these ways give you a pizza with <m>k</m> toppings,
+          in fact all the ways to get a pizza with <m>k</m> toppings.
           Thus these two answers must be the same: <m>{n \choose k} = {n \choose n-k}</m>.
         </p>
 
         <p>
           You can also prove (explain) this identity using bit strings, subsets, or lattice paths.
-          The bit string argument is nice: <m>{n \choose k}</m> counts the number of bit strings of length <m>n</m> with <m>k</m> 1's.
-          This is also the number of bit string of length <m>n</m> with <m>k</m> 0's (just replace each 1 with a 0 and each 0 with a 1).
-          But if a string of length <m>n</m> has <m>k</m> 0's, it must have <m>n-k</m> 1's.
+          The bit string argument is nice:
+          <m>{n \choose k}</m> counts the number of bit strings of length <m>n</m> with <m>k</m> 1's.
+          This is also the number of bit string of length <m>n</m> with <m>k</m> 0's
+          (just replace each 1 with a 0 and each 0 with a 1).
+          But if a string of length <m>n</m> has <m>k</m> 0's,
+          it must have <m>n-k</m> 1's.
           And there are exactly <m>{n\choose n-k}</m> strings of length <m>n</m> with <m>n-k</m> 1's.
         </p>
       </solution>
@@ -331,7 +362,10 @@
         <p>
           Let's do a <q>pizza proof</q> again.
           We need to find a question about pizza toppings which has <m>2^n</m> as the answer.
-          How about this: If a pizza joint offers <m>n</m> toppings, how many pizzas can you build using any number of toppings from no toppings to all toppings, using each topping at most once?
+          How about this:
+          If a pizza joint offers <m>n</m> toppings,
+          how many pizzas can you build using any number of toppings from no toppings to all toppings,
+          using each topping at most once?
         </p>
 
         <p>
@@ -340,9 +374,15 @@
         </p>
 
         <p>
-          On the other hand, divide the possible pizzas into disjoint groups: the pizzas with no toppings, the pizzas with one topping, the pizzas with two toppings, etc.
-          If we want no toppings, there is only one pizza like that (the empty pizza, if you will) but it would be better to think of that number as <m>{n \choose 0}</m> since we choose 0 of the <m>n</m> toppings.
-          How many pizzas have 1 topping? We need to choose 1 of the <m>n</m> toppings, so <m>{n \choose 1}</m>.
+          On the other hand,
+          divide the possible pizzas into disjoint groups:
+          the pizzas with no toppings, the pizzas with one topping, the pizzas with two toppings, etc.
+          If we want no toppings,
+          there is only one pizza like that
+          (the empty pizza, if you will)
+          but it would be better to think of that number as <m>{n \choose 0}</m> since we choose 0 of the <m>n</m> toppings.
+          How many pizzas have 1 topping?
+          We need to choose 1 of the <m>n</m> toppings, so <m>{n \choose 1}</m>.
           We have:
         </p>
 
@@ -357,42 +397,51 @@
         </p>
 
         <p>
-          The total number of possible pizzas will be the sum of these, which is exactly the left-hand side of the identity we are trying to prove.
+          The total number of possible pizzas will be the sum of these,
+          which is exactly the left-hand side of the identity we are trying to prove.
         </p>
 
         <p>
-          Again, we could have proved the identity using subsets, bit strings, or lattice paths (although the lattice path argument is a little tricky).
+          Again,
+          we could have proved the identity using subsets,
+          bit strings, or lattice paths
+          (although the lattice path argument is a little tricky).
         </p>
       </solution>
     </example>
     <p>
       Hopefully this gives some idea of how explanatory proofs of binomial identities can go.
-          It is worth pointing out that more traditional proofs can also be beautiful.
-      <fn>Most every binomial identity can be proved using mathematical induction, using the recursive definition for <m>{n \choose k}</m>.
-          We will discuss induction in
-        <xref ref="sec_seq-induction"/>.</fn>
-          For example, consider the following rather slick proof of the last identity.
+      It is worth pointing out that more traditional proofs can also be beautiful.
+      <fn>Most every binomial identity can be proved using mathematical induction,
+          using the recursive definition for <m>{n \choose k}</m>.
+          We will discuss induction in <xref ref="sec_seq-induction"/>.</fn>
+      For example,
+      consider the following rather slick proof of the last identity.
     </p>
 
     <p>
       Expand the binomial <m>(x+y)^n</m>:
       <me>
-        (x + y)^n = {n \choose 0}x^n + {n \choose 1}x^{n-1}y + {n \choose 2}x^{n-2}y^2 + \cdots + {n \choose n-1}x\cdot y^n + {n \choose n}y^n.
-      </me>
+        (x + y)^n
+        =
+        {n \choose 0}x^n + {n \choose 1}x^{n-1}y + {n \choose 2}x^{n-2}y^2 + \cdots + {n \choose n-1}x\cdot y^n + {n \choose n}y^n
+      </me>.
     </p>
 
     <p>
       Let <m>x = 1</m> and <m>y = 1</m>. We get:
       <me>
-        (1 + 1)^n = {n \choose 0}1^n + {n \choose 1}1^{n-1}1 + {n \choose 2}1^{n-2}1^2 + \cdots + {n \choose n-1}1\cdot 1^n + {n \choose n}1^n.
-      </me>
+        (1 + 1)^n
+        =
+        {n \choose 0}1^n + {n \choose 1}1^{n-1}1 + {n \choose 2}1^{n-2}1^2 + \cdots + {n \choose n-1}1\cdot 1^n + {n \choose n}1^n
+      </me>.
     </p>
 
     <p>
       Of course this simplifies to:
       <me>
-        (2)^n = {n \choose 0} + {n \choose 1} + {n \choose 2} + \cdots + {n \choose n-1} + {n \choose n}.
-      </me>
+        (2)^n = {n \choose 0} + {n \choose 1} + {n \choose 2} + \cdots + {n \choose n-1} + {n \choose n}
+      </me>.
     </p>
 
     <p>
@@ -405,7 +454,9 @@
     <title>More Proofs</title>
     <p>
       The explanatory proofs given in the above examples are typically called <term>combinatorial proofs</term>.
-          In general, to give a combinatorial proof for a binomial identity, say <m>A = B</m> you do the following:
+      In general,
+      to give a combinatorial proof for a binomial identity,
+      say <m>A = B</m> you do the following:
     </p>
 
     <p>
@@ -434,11 +485,11 @@
 
     <p>
       The tricky thing is coming up with the question.
-          This is not always obvious, but it gets easier the more counting problems you solve.
-          You will start to recognize types of answers as the answers to types of questions.
-          More often what will happen is you will be solving a counting problem and happen to think up two different ways of finding the answer.
-          Now you have a binomial identity and the proof is right there.
-          The proof <em>is</em> the problem you just solved together with your two solutions.
+      This is not always obvious, but it gets easier the more counting problems you solve.
+      You will start to recognize types of answers as the answers to types of questions.
+      More often what will happen is you will be solving a counting problem and happen to think up two different ways of finding the answer.
+      Now you have a binomial identity and the proof is right there.
+      The proof <em>is</em> the problem you just solved together with your two solutions.
     </p>
 
     <p>
@@ -450,15 +501,18 @@
     </blockquote>
 
     <p>
-        Let's try to solve this problem.
-          We have 10 spots for letters to go.
-          Four of those need to be A's.
-          We can pick the four A-spots in <m>{10 \choose 4}</m> ways.
-          Now where can we put the B's? Well there are only 6 spots left, we need to pick <m>3</m> of them.
-          This can be done in <m>{6 \choose 3}</m> ways.
-          The two C's need to go in two of the 3 remaining spots, so we have <m>{3 \choose 2}</m> ways of doing that.
-          That leaves just one spot of the D, but we could write that 1 choice as <m>{1 \choose 1}</m>.
-          Thus the answer is:
+      Let's try to solve this problem.
+      We have 10 spots for letters to go.
+      Four of those need to be A's.
+      We can pick the four A-spots in <m>{10 \choose 4}</m> ways.
+      Now where can we put the B's? Well there are only 6 spots left,
+      we need to pick <m>3</m> of them.
+      This can be done in <m>{6 \choose 3}</m> ways.
+      The two C's need to go in two of the 3 remaining spots,
+      so we have <m>{3 \choose 2}</m> ways of doing that.
+      That leaves just one spot of the D,
+      but we could write that 1 choice as <m>{1 \choose 1}</m>.
+      Thus the answer is:
       <me>
         {10 \choose 4}{6 \choose 3}{3 \choose 2}{1 \choose 1}
       </me>.
@@ -466,11 +520,15 @@
 
     <p>
       But why stop there? We can find the answer another way too.
-      First let's decide where to put the one D: we have 10 spots, we need to choose 1 of them, so this can be done in <m>{10 \choose 1}</m> ways.
-      Next, choose one of the <m>{9 \choose 2}</m> ways to place the two C's.
+      First let's decide where to put the one D: we have 10 spots,
+      we need to choose 1 of them, so this can be done in <m>{10 \choose 1}</m> ways.
+      Next,
+      choose one of the <m>{9 \choose 2}</m> ways to place the two C's.
       We now have <m>7</m> spots left, and three of them need to be filled with B's.
       There are <m>{7 \choose 3}</m> ways to do this.
-      Finally the A's can be placed in <m>{4 \choose 4}</m> (that is, only one) ways.
+      Finally the A's can be placed in <m>{4 \choose 4}</m>
+      (that is, only one)
+      ways.
       So another answer to the question is
       <me>
         {10 \choose 1}{9 \choose 2}{7 \choose 3}{4 \choose 4}
@@ -500,46 +558,62 @@
       </statement>
       <solution>
         <p>
-          To give a combinatorial proof we need to think up a question we can answer in two ways: one way needs to give the left-hand-side of the identity, the other way needs to be the right-hand-side of the identity.
-          Our clue to what question to ask comes from the right-hand side: <m>{n+2 \choose 3}</m> counts the number of ways to select 3 things from a group of <m>n+2</m> things.
+          To give a combinatorial proof we need to think up a question we can answer in two ways:
+          one way needs to give the left-hand-side of the identity,
+          the other way needs to be the right-hand-side of the identity.
+          Our clue to what question to ask comes from the right-hand side:
+          <m>{n+2 \choose 3}</m> counts the number of ways to select 3 things from a group of <m>n+2</m> things.
           Let's name those things <m>1, 2, 3, \ldots, n+2</m>.
-          In other words, we want to find 3-element subsets of those numbers (since order should not matter, subsets are exactly the right thing to think about).
+          In other words,
+          we want to find 3-element subsets of those numbers
+          (since order should not matter, subsets are exactly the right thing to think about).
           We will have to be a bit clever to explain why the left-hand-side also gives the number of these subsets.
           Here's the proof.
         </p>
 
         <proof>
           <p>
-            Consider the question <q>How many 3-element subsets are there of the set <m>\{1,2,3,\ldots, n+2\}</m>?</q> We answer this in two ways:
+            Consider the question <q>How many 3-element subsets are there of the set <m>\{1,2,3,\ldots, n+2\}</m>?</q>
+            We answer this in two ways:
           </p>
 
           <p>
-            Answer 1: We must select 3 elements from the collection of <m>n+2</m> elements.
+            Answer 1:
+            We must select 3 elements from the collection of <m>n+2</m> elements.
             This can be done in <m>{n+2 \choose 3}</m> ways.
           </p>
 
           <p>
-            Answer 2: Break this problem up into cases by what the middle number in the subset is.
+            Answer 2:
+            Break this problem up into cases by what the middle number in the subset is.
             Say each subset is <m>\{a,b,c\}</m> written in increasing order.
             We count the number of subsets for each distinct value of <m>b</m>.
             The smallest possible value of <m>b</m> is <m>2</m>, and the largest is <m>n+1</m>.
           </p>
 
           <p>
-            When <m>b = 2</m>, there are <m>1 \cdot n</m> subsets: 1 choice for <m>a</m> and <m>n</m> choices (3 through <m>n+2</m>) for <m>c</m>.
+            When <m>b = 2</m>,
+            there are <m>1 \cdot n</m> subsets:
+            1 choice for <m>a</m> and <m>n</m> choices (3 through <m>n+2</m>) for <m>c</m>.
           </p>
 
           <p>
-            When <m>b = 3</m>, there are <m>2 \cdot (n-1)</m> subsets: 2 choices for <m>a</m> and <m>n-1</m> choices for <m>c</m>.
+            When <m>b = 3</m>,
+            there are <m>2 \cdot (n-1)</m> subsets:
+            2 choices for <m>a</m> and <m>n-1</m> choices for <m>c</m>.
           </p>
 
           <p>
-            When <m>b = 4</m>, there are <m>3 \cdot (n-2)</m> subsets: 3 choices for <m>a</m> and <m>n-2</m> choices for <m>c</m>.
+            When <m>b = 4</m>,
+            there are <m>3 \cdot (n-2)</m> subsets:
+            3 choices for <m>a</m> and <m>n-2</m> choices for <m>c</m>.
           </p>
 
           <p>
             And so on.
-            When <m>b = n+1</m>, there are <m>n</m> choices for <m>a</m> and only 1 choice for <m>c</m>, so <m>n \cdot 1</m> subsets.
+            When <m>b = n+1</m>,
+            there are <m>n</m> choices for <m>a</m> and only 1 choice for <m>c</m>,
+            so <m>n \cdot 1</m> subsets.
           </p>
 
           <p>
@@ -579,47 +653,56 @@
 
         <proof>
           <p>
-            Consider the question: <q>How many pizzas can you make using <m>n</m> toppings when there are <m>2n</m> toppings to choose from?</q>
+            Consider the question:
+            <q>How many pizzas can you make using <m>n</m> toppings when there are <m>2n</m> toppings to choose from?</q>
           </p>
 
           <p>
-            Answer 1: There are <m>2n</m> toppings, from which you must choose <m>n</m>.
-          This can be done in <m>{2n \choose n}</m> ways.
+            Answer 1:
+            There are <m>2n</m> toppings, from which you must choose <m>n</m>.
+            This can be done in <m>{2n \choose n}</m> ways.
           </p>
 
           <p>
-            Answer 2: Divide the toppings into two groups of <m>n</m> toppings (perhaps <m>n</m> meats and <m>n</m> veggies).
-          Any choice of <m>n</m> toppings must include some number from the first group and some number from the second group.
-          Consider each possible number of meat toppings separately:
+            Answer 2:
+            Divide the toppings into two groups of <m>n</m> toppings (perhaps <m>n</m> meats and <m>n</m> veggies).
+            Any choice of <m>n</m> toppings must include some number from the first group and some number from the second group.
+            Consider each possible number of meat toppings separately:
           </p>
 
           <p>
-            0 meats: <m>{n \choose 0}{n \choose n}</m>, since you need to choose 0 of the <m>n</m> meats and <m>n</m> of the <m>n</m> veggies.
+            0 meats: <m>{n \choose 0}{n \choose n}</m>,
+            since you need to choose 0 of the <m>n</m> meats and <m>n</m> of the <m>n</m> veggies.
           </p>
 
           <p>
-            1 meat: <m>{n \choose 1}{n \choose n-1}</m>, since you need 1 of <m>n</m> meats so <m>n-1</m> of <m>n</m> veggies.
+            1 meat: <m>{n \choose 1}{n \choose n-1}</m>,
+            since you need 1 of <m>n</m> meats so <m>n-1</m> of <m>n</m> veggies.
           </p>
 
           <p>
-            2 meats: <m>{n \choose 2}{n \choose n-2}</m>. Choose 2 meats and the remaining <m>n-2</m> toppings from the <m>n</m> veggies.
+            2 meats: <m>{n \choose 2}{n \choose n-2}</m>.
+            Choose 2 meats and the remaining <m>n-2</m> toppings from the <m>n</m> veggies.
           </p>
 
           <p>
             And so on.
-            The last case is <m>n</m> meats, which can be done in <m>{n \choose n}{n \choose 0}</m> ways.
+            The last case is <m>n</m> meats,
+            which can be done in <m>{n \choose n}{n \choose 0}</m> ways.
           </p>
 
           <p>
             Thus the total number of pizzas possible is
             <me>
-              {n \choose 0}{n \choose n} + {n \choose 1}{n \choose n-1} + {n \choose 2}{n \choose n-2} + \cdots + {n \choose n}{n \choose 0}.
+              {n \choose 0}{n \choose n} + {n \choose 1}{n \choose n-1} + {n \choose 2}{n \choose n-2}
+                + \cdots + {n \choose n}{n \choose 0}.
             </me>
           </p>
 
           <p>
             This is not quite the left-hand side <ellipsis/> yet.
-            Notice that <m>{n \choose n} = {n \choose 0}</m> and <m>{n \choose n-1} = {n  \choose 1}</m> and so on, by the identity in
+            Notice that <m>{n \choose n} = {n \choose 0}</m> and <m>{n \choose n-1} = {n  \choose 1}</m> and so on,
+            by the identity in
             <xref ref="example-symmetry-formula"/>.
             Thus we do indeed get
             <me>
@@ -628,7 +711,8 @@
           </p>
 
           <p>
-            Since these two answers are answers to the same question, they must be equal, and thus
+            Since these two answers are answers to the same question,
+            they must be equal, and thus
             <me>
               {n \choose 0}^2 + {n \choose 1}^2 + {n \choose 2}^2 + \cdots + {n \choose n}^2 = {2n \choose n}
             </me>.
@@ -637,12 +721,14 @@
 
         <p>
           For an alternative proof, we use lattice paths.
-          This is reasonable to consider because the right-hand side of the identity reminds us of the number of paths from <m>(0,0)</m> to <m>(n,n)</m>.
+          This is reasonable to consider because the right-hand side of the identity reminds us of the number of paths from
+          <m>(0,0)</m> to <m>(n,n)</m>.
         </p>
 
         <proof>
           <p>
-            Consider the question: How many lattice paths are there from <m>(0,0)</m> to <m>(n,n)</m>?
+            Consider the question:
+            How many lattice paths are there from <m>(0,0)</m> to <m>(n,n)</m>?
           </p>
 
           <p>
@@ -652,7 +738,9 @@
 
           <p>
             Answer 2: Note that any path from <m>(0,0)</m> to <m>(n,n)</m> must cross the line <m>x + y = n</m>.
-            That is, any path must pass through exactly one of the points: <m>(0,n)</m>, <m>(1,n-1)</m>, <m>(2,n-2)</m>, <ellipsis/>, <m>(n, 0)</m>.
+            That is,
+            any path must pass through exactly one of the points:
+            <m>(0,n)</m>, <m>(1,n-1)</m>, <m>(2,n-2)</m>, <ellipsis/>, <m>(n, 0)</m>.
             For example, this is what happens in the case <m>n = 4</m>:
           </p>
           <sidebyside width="40%">
@@ -668,7 +756,10 @@
             </image>
           </sidebyside>
           <p>
-            How many paths pass through <m>(0,n)</m>? To get to that point, you must travel <m>n</m> units, and <m>0</m> of them are to the right, so there are <m>{n \choose 0}</m> ways to get to <m>(0,n)</m>.
+            How many paths pass through <m>(0,n)</m>?
+            To get to that point, you must travel <m>n</m> units,
+            and <m>0</m> of them are to the right,
+            so there are <m>{n \choose 0}</m> ways to get to <m>(0,n)</m>.
             From <m>(0,n)</m> to <m>(n,n)</m> takes <m>n</m> steps, and <m>0</m> of them are up.
             So there are <m>{n \choose 0}</m> ways to get from <m>(0,n)</m> to <m>(n,n)</m>.
             Therefore there are <m>{n \choose 0}{n \choose 0}</m> paths from <m>(0,0)</m> to <m>(n,n)</m> through the point <m>(0,n)</m>.
@@ -676,12 +767,17 @@
 
           <p>
             What about through <m>(1,n-1)</m>.
-            There are <m>{n \choose 1}</m> paths to get there (<m>n</m> steps, 1 to the right) and <m>{n \choose 1}</m> paths to complete the journey to <m>(n,n)</m> (<m>n</m> steps, <m>1</m> up).
+            There are <m>{n \choose 1}</m> paths to get there
+            (<m>n</m> steps, 1 to the right)
+            and <m>{n \choose 1}</m> paths to complete the journey to <m>(n,n)</m>
+            (<m>n</m> steps, <m>1</m> up).
             So there are <m>{n \choose 1}{n \choose 1}</m> paths from <m>(0,0)</m> to <m>(n,n)</m> through <m>(1,n-1)</m>.
           </p>
 
           <p>
-            In general, to get to <m>(n,n)</m> through the point <m>(k,n-k)</m> we have <m>{n \choose k}</m> paths to the midpoint and then <m>{n \choose k}</m> paths from the midpoint to <m>(n,n)</m>.
+            In general,
+            to get to <m>(n,n)</m> through the point <m>(k,n-k)</m>
+            we have <m>{n \choose k}</m> paths to the midpoint and then <m>{n \choose k}</m> paths from the midpoint to <m>(n,n)</m>.
             So there are <m>{n \choose k}{n \choose k}</m> paths from <m>(0,0)</m> to <m>(n,n)</m> through <m>(k, n-k)</m>.
           </p>
 
@@ -693,7 +789,8 @@
           </p>
 
           <p>
-            Since these two answers are answers to the same question, they must be equal, and thus
+            Since these two answers are answers to the same question,
+            they must be equal, and thus
             <me>
               {n \choose 0}^2 + {n \choose 1}^2 + {n \choose 2}^2 + \cdots + {n \choose n}^2 = {2n \choose n}.
             </me>
