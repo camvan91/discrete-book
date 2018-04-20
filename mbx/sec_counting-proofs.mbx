@@ -466,14 +466,14 @@
     </p>
 
     <p newid="subsec_moreProofs-p2">
-      <ol newid="subsec_moreProofs">
-        <li newid="subsec_moreProofs">
+      <ol newid="subsec_moreProofs-p2-ol">
+        <li newid="subsec_moreProofs-p2-ol-li1">
           Find a counting problem you will be able to answer in two ways.
         </li>
-        <li newid="subsec_moreProofs">
+        <li newid="subsec_moreProofs-p2-ol-li2">
           Explain why one answer to the counting problem is <m>A</m>.
         </li>
-        <li newid="subsec_moreProofs">
+        <li newid="subsec_moreProofs-p2-ol-li3">
           Explain why the other answer to the counting problem is <m>B</m>.
         </li>
       </ol>
@@ -496,8 +496,8 @@
       For example, consider this counting question:
     </p>
 
-    <blockquote newid="subsec_moreProofs">
-      <p>How many 10-letter words use exactly four A's, three B's, two C's and one D?</p>
+    <blockquote newid="subsec_moreProofs-bl">
+      <p newid="subsec_moreProofs-bl-p">How many 10-letter words use exactly four A's, three B's, two C's and one D?</p>
     </blockquote>
 
     <p newid="subsec_moreProofs-p6">
@@ -513,7 +513,7 @@
       That leaves just one spot of the D,
       but we could write that 1 choice as <m>{1 \choose 1}</m>.
       Thus the answer is:
-      <me newid="subsec_moreProofs">
+      <me newid="subsec_moreProofs-p6-me">
         {10 \choose 4}{6 \choose 3}{3 \choose 2}{1 \choose 1}
       </me>.
     </p>
@@ -530,34 +530,34 @@
       (that is, only one)
       ways.
       So another answer to the question is
-      <me>
+      <me newid="subsec_moreProofs-p7-me">
         {10 \choose 1}{9 \choose 2}{7 \choose 3}{4 \choose 4}
       </me>.
     </p>
 
-    <p newid="subsec_moreProofs-p7">
+    <p newid="subsec_moreProofs-p8">
       Interesting.
       This gives us the binomial identity:
-      <me>
+      <me newid="subsec_moreProofs-p8-me">
         {10 \choose 4}{6 \choose 3}{3 \choose 2}{1 \choose 1} = {10 \choose 1}{9 \choose 2}{7 \choose 3}{4 \choose 4}.
       </me>
     </p>
 
-    <p newid="subsec_moreProofs-p8">
+    <p newid="subsec_moreProofs-p9">
       Here are a couple of other binomial identities with combinatorial proofs.
     </p>
 
-    <example newid="subsec_moreProofs">
-      <statement newid="subsec_moreProofs">
-        <p newid="subsec_moreProofs">
+    <example newid="subsec_moreProofs-ex1">
+      <statement newid="subsec_moreProofs-ex1-st">
+        <p newid="subsec_moreProofs-ex1-st-p">
           Prove the identity
-          <me newid="subsec_moreProofs">
+          <me newid="subsec_moreProofs-ex1-st-p-me">
             1 n + 2(n-1) + 3 (n-2) + \cdots + (n-1) 2 + n 1 = {n+2 \choose 3}
           </me>.
         </p>
       </statement>
-      <solution newid="subsec_moreProofs">
-        <p newid="subsec_moreProofs">
+      <solution newid="subsec_moreProofs-ex1-so">
+        <p newid="subsec_moreProofs-ex1-so-p">
           To give a combinatorial proof we need to think up a question we can answer in two ways:
           one way needs to give the left-hand-side of the identity,
           the other way needs to be the right-hand-side of the identity.
@@ -571,19 +571,19 @@
           Here's the proof.
         </p>
 
-        <proof newid="subsec_moreProofs">
-          <p newid="subsec_moreProofs">
+        <proof newid="subsec_moreProofs-ex1-so-pr">
+          <p newid="subsec_moreProofs-ex1-so-pr-p1">
             Consider the question <q>How many 3-element subsets are there of the set <m>\{1,2,3,\ldots, n+2\}</m>?</q>
             We answer this in two ways:
           </p>
 
-          <p newid="subsec_moreProofs">
+          <p newid="subsec_moreProofs-ex1-so-pr-p2">
             Answer 1:
             We must select 3 elements from the collection of <m>n+2</m> elements.
             This can be done in <m>{n+2 \choose 3}</m> ways.
           </p>
 
-          <p newid="subsec_moreProofs">
+          <p newid="subsec_moreProofs-ex1-so-pr-p3">
             Answer 2:
             Break this problem up into cases by what the middle number in the subset is.
             Say each subset is <m>\{a,b,c\}</m> written in increasing order.
@@ -591,42 +591,42 @@
             The smallest possible value of <m>b</m> is <m>2</m>, and the largest is <m>n+1</m>.
           </p>
 
-          <p newid="subsec_moreProofs">
+          <p newid="subsec_moreProofs-ex1-so-pr-p4">
             When <m>b = 2</m>,
             there are <m>1 \cdot n</m> subsets:
             1 choice for <m>a</m> and <m>n</m> choices (3 through <m>n+2</m>) for <m>c</m>.
           </p>
 
-          <p newid="subsec_moreProofs">
+          <p newid="subsec_moreProofs-ex1-so-pr-p5">
             When <m>b = 3</m>,
             there are <m>2 \cdot (n-1)</m> subsets:
             2 choices for <m>a</m> and <m>n-1</m> choices for <m>c</m>.
           </p>
 
-          <p newid="subsec_moreProofs">
+          <p newid="subsec_moreProofs-ex1-so-pr-p6">
             When <m>b = 4</m>,
             there are <m>3 \cdot (n-2)</m> subsets:
             3 choices for <m>a</m> and <m>n-2</m> choices for <m>c</m>.
           </p>
 
-          <p newid="subsec_moreProofs">
+          <p newid="subsec_moreProofs-ex1-so-pr-p7">
             And so on.
             When <m>b = n+1</m>,
             there are <m>n</m> choices for <m>a</m> and only 1 choice for <m>c</m>,
             so <m>n \cdot 1</m> subsets.
           </p>
 
-          <p newid="subsec_moreProofs">
+          <p newid="subsec_moreProofs-ex1-so-pr-p8">
             Therefore the total number of subsets is
-            <me>
+            <me newid="subsec_moreProofs-ex1-so-pr-p8-me">
               1 n + 2 (n-1) + 3 (n-2) + \cdots + (n-1)2 + n 1
             </me>.
           </p>
 
-          <p newid="subsec_moreProofs">
+          <p newid="subsec_moreProofs-ex1-so-pr-p9">
             Since Answer 1 and Answer 2 are answers to the same question, they must be equal.
             Therefore
-            <me>
+            <me newid="subsec_moreProofs-ex1-so-pr-p9-me">
               1 n + 2 (n-1) + 3 (n-2) + \cdots + (n-1) 2 + n 1 = {n+2 \choose 3}.
             </me>
           </p>
@@ -634,108 +634,107 @@
       </solution>
     </example>
 
-    <example newid="subsec_moreProofs">
-      <statement newid="subsec_moreProofs">
-        <p newid="subsec_moreProofs">
+    <example newid="subsec_moreProofs-ex2">
+      <statement newid="subsec_moreProofs-ex2-st">
+        <p newid="subsec_moreProofs-ex2-st-p">
           Prove the binomial identity
-          <me newid="subsec_moreProofs">
+          <me newid="subsec_moreProofs-ex2-st-p-me">
             {n \choose 0}^2 + {n \choose 1}^2 + {n \choose 2}^2 + \cdots + {n \choose n}^2 = {2n \choose n}.
           </me>
         </p>
       </statement>
-      <solution newid="subsec_moreProofs">
-        <p newid="subsec_moreProofs">
+      <solution newid="subsec_moreProofs-ex2-so">
+        <p newid="subsec_moreProofs-ex2-so-p1">
           We will give two different proofs of this fact.
           The first will be very similar to the previous example (counting subsets).
           The second proof is a little slicker, using lattice paths.
         </p>
 
-        <proof newid="subsec_moreProofs">
-          <p newid="subsec_moreProofs">
+        <proof newid="subsec_moreProofs-ex2-so-pr1">
+          <p newid="subsec_moreProofs-ex2-so-pr1-p1">
             Consider the question:
             <q>How many pizzas can you make using <m>n</m> toppings when there are <m>2n</m> toppings to choose from?</q>
           </p>
 
-          <p newid="subsec_moreProofs">
+          <p newid="subsec_moreProofs-ex2-so-pr1-p2">
             Answer 1:
             There are <m>2n</m> toppings, from which you must choose <m>n</m>.
             This can be done in <m>{2n \choose n}</m> ways.
           </p>
 
-          <p newid="subsec_moreProofs">
+          <p newid="subsec_moreProofs-ex2-so-pr1-p3">
             Answer 2:
             Divide the toppings into two groups of <m>n</m> toppings (perhaps <m>n</m> meats and <m>n</m> veggies).
             Any choice of <m>n</m> toppings must include some number from the first group and some number from the second group.
             Consider each possible number of meat toppings separately:
           </p>
 
-          <p newid="subsec_moreProofs">
+          <p newid="subsec_moreProofs-ex2-so-pr1-p4">
             0 meats: <m>{n \choose 0}{n \choose n}</m>,
             since you need to choose 0 of the <m>n</m> meats and <m>n</m> of the <m>n</m> veggies.
           </p>
 
-          <p newid="subsec_moreProofs">
+          <p newid="subsec_moreProofs-ex2-so-pr1-p5">
             1 meat: <m>{n \choose 1}{n \choose n-1}</m>,
             since you need 1 of <m>n</m> meats so <m>n-1</m> of <m>n</m> veggies.
           </p>
 
-          <p newid="subsec_moreProofs">
+          <p newid="subsec_moreProofs-ex2-so-pr1-p6">
             2 meats: <m>{n \choose 2}{n \choose n-2}</m>.
             Choose 2 meats and the remaining <m>n-2</m> toppings from the <m>n</m> veggies.
           </p>
 
-          <p newid="subsec_moreProofs">
+          <p newid="subsec_moreProofs-ex2-so-pr1-p7">
             And so on.
             The last case is <m>n</m> meats,
             which can be done in <m>{n \choose n}{n \choose 0}</m> ways.
           </p>
 
-          <p newid="subsec_moreProofs">
+          <p newid="subsec_moreProofs-ex2-so-pr1-p8">
             Thus the total number of pizzas possible is
-            <me newid="subsec_moreProofs">
+            <me newid="subsec_moreProofs-ex2-so-pr1-p8-me">
               {n \choose 0}{n \choose n} + {n \choose 1}{n \choose n-1} + {n \choose 2}{n \choose n-2}
                 + \cdots + {n \choose n}{n \choose 0}.
             </me>
           </p>
 
-          <p newid="subsec_moreProofs">
+          <p newid="subsec_moreProofs-ex2-so-pr1-p9">
             This is not quite the left-hand side <ellipsis/> yet.
             Notice that <m>{n \choose n} = {n \choose 0}</m> and <m>{n \choose n-1} = {n  \choose 1}</m> and so on,
-            by the identity in
-            <xref ref="example-symmetry-formula"/>.
+            by the identity in <xref ref="example-symmetry-formula"/>.
             Thus we do indeed get
-            <me newid="subsec_moreProofs">
+            <me newid="subsec_moreProofs-ex2-so-pr1-p9-me">
               {n \choose 0}^2 + {n \choose 1}^2 + {n \choose 2}^2 + \cdots + {n \choose n}^2
             </me>.
           </p>
 
-          <p newid="subsec_moreProofs">
+          <p newid="subsec_moreProofs-ex2-so-pr1-p10">
             Since these two answers are answers to the same question,
             they must be equal, and thus
-            <me newid="subsec_moreProofs">
+            <me newid="subsec_moreProofs-ex2-so-pr1-p10-me">
               {n \choose 0}^2 + {n \choose 1}^2 + {n \choose 2}^2 + \cdots + {n \choose n}^2 = {2n \choose n}
             </me>.
           </p>
         </proof>
 
-        <p newid="subsec_moreProofs">
+        <p newid="subsec_moreProofs-ex2-so-p2">
           For an alternative proof, we use lattice paths.
           This is reasonable to consider because the right-hand side of the identity reminds us of the number of paths from
           <m>(0,0)</m> to <m>(n,n)</m>.
         </p>
 
-        <proof newid="subsec_moreProofs">
-          <p newid="subsec_moreProofs">
+        <proof newid="subsec_moreProofs-ex2-so-pr2">
+          <p newid="subsec_moreProofs-ex2-so-pr2-p1">
             Consider the question:
             How many lattice paths are there from <m>(0,0)</m> to <m>(n,n)</m>?
           </p>
 
-          <p newid="subsec_moreProofs">
+          <p newid="subsec_moreProofs-ex2-so-pr2-p2">
             Answer 1: We must travel <m>2n</m> steps, and <m>n</m> of them must be in the up direction.
             Thus there are <m>{2n \choose n}</m> paths.
           </p>
 
-          <p newid="subsec_moreProofs">
+          <p newid="subsec_moreProofs-ex2-so-pr2-p3">
             Answer 2: Note that any path from <m>(0,0)</m> to <m>(n,n)</m> must cross the line <m>x + y = n</m>.
             That is,
             any path must pass through exactly one of the points:
@@ -754,7 +753,7 @@
               </latex-image>
             </image>
           </sidebyside>
-          <p newid="subsec_moreProofs">
+          <p newid="subsec_moreProofs-ex2-so-pr2-p4">
             How many paths pass through <m>(0,n)</m>?
             To get to that point, you must travel <m>n</m> units,
             and <m>0</m> of them are to the right,
@@ -764,7 +763,7 @@
             Therefore there are <m>{n \choose 0}{n \choose 0}</m> paths from <m>(0,0)</m> to <m>(n,n)</m> through the point <m>(0,n)</m>.
           </p>
 
-          <p newid="subsec_moreProofs">
+          <p newid="subsec_moreProofs-ex2-so-pr2-p5">
             What about through <m>(1,n-1)</m>.
             There are <m>{n \choose 1}</m> paths to get there
             (<m>n</m> steps, 1 to the right)
@@ -773,24 +772,24 @@
             So there are <m>{n \choose 1}{n \choose 1}</m> paths from <m>(0,0)</m> to <m>(n,n)</m> through <m>(1,n-1)</m>.
           </p>
 
-          <p newid="subsec_moreProofs">
+          <p newid="subsec_moreProofs-ex2-so-pr2-p6">
             In general,
             to get to <m>(n,n)</m> through the point <m>(k,n-k)</m>
             we have <m>{n \choose k}</m> paths to the midpoint and then <m>{n \choose k}</m> paths from the midpoint to <m>(n,n)</m>.
             So there are <m>{n \choose k}{n \choose k}</m> paths from <m>(0,0)</m> to <m>(n,n)</m> through <m>(k, n-k)</m>.
           </p>
 
-          <p newid="subsec_moreProofs">
+          <p newid="subsec_moreProofs-ex2-so-pr2-p7">
             All together then the total paths from <m>(0,0)</m> to <m>(n,n)</m> passing through exactly one of these midpoints is
-            <me newid="subsec_moreProofs">
+            <me newid="subsec_moreProofs-ex2-so-pr2-p7-me">
               {n \choose 0}^2 + {n \choose 1}^2 + {n \choose 2}^2 + \cdots + {n \choose n}^2
             </me>.
           </p>
 
-          <p newid="subsec_moreProofs">
+          <p newid="subsec_moreProofs-ex2-so-pr2-p8">
             Since these two answers are answers to the same question,
             they must be equal, and thus
-            <me>
+            <me newid="subsec_moreProofs-ex2-so-pr2-p8-me">
               {n \choose 0}^2 + {n \choose 1}^2 + {n \choose 2}^2 + \cdots + {n \choose n}^2 = {2n \choose n}.
             </me>
           </p>
