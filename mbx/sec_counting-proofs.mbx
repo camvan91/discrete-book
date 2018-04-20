@@ -2,35 +2,34 @@
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_comb-proofs" newid="sec_comb-proofs">
   <title>Combinatorial Proofs</title>
 
+  <introduction newid="sec_comb-proofs-int">
+    <investigation newid="sec_comb-proofs-int-inv">
 
-  <introduction>
-    <investigation newid="sec_comb-proofs">
-
-      <p>
-        <ol newid="sec_comb-proofs">
-          <li newid="sec_comb-proofs">
-            <p>
+      <p newid="sec_comb-proofs-int-inv-p">
+        <ol newid="sec_comb-proofs-int-inv-p-ol">
+          <li newid="sec_comb-proofs-int-inv-p-ol-li1">
+            <p newid="sec_comb-proofs-int-inv-p-ol-li1-p">
               The Stanley Cup is decided in a best of 7 tournament between two teams.
               In how many ways can your team win?
               Let's answer this question two ways:
 
-              <ol newid="sec_comb-proofs">
-                <li newid="sec_comb-proofs">
+              <ol newid="sec_comb-proofs-int-inv-p-ol-li1-p-ol">
+                <li newid="sec_comb-proofs-int-inv-p-ol-li1-p-ol-li">
                   How many of the 7 games does your team need to win?
                   How many ways can this happen?
                 </li>
-                <li newid="sec_comb-proofs">
+                <li newid="sec_comb-proofs-int-inv-p-ol-li1-p-ol-li">
                   What if the tournament goes all 7 games?
                   So you win the last game.
                   How many ways can the first 6 games go down?
                 </li>
-                <li newid="sec_comb-proofs">
+                <li newid="sec_comb-proofs-int-inv-p-ol-li1-p-ol-li">
                   What if the tournament goes just 6 games?
                   How many ways can this happen?
                   What about 5 games?
                   4 games?
                 </li>
-                <li newid="sec_comb-proofs">
+                <li newid="sec_comb-proofs-int-inv-p-ol-li1-p-ol-li">
                   What are the two different ways to compute the number of ways your team can win?
                   Write down an equation involving binomial coefficients
                   (that is, <m>{n \choose k}</m>'s).
@@ -40,7 +39,7 @@
             </p>
           </li>
 
-          <li newid="sec_comb-proofs">
+          <li newid="sec_comb-proofs-int-inv-p-ol-li2">
             Generalize.
             What if the rules changed and you played a best of <m>9</m> tournament (5 wins required)?
             What if you played an <m>n</m> game tournament with <m>k</m> wins required to be named champion?
@@ -54,14 +53,14 @@
 
   <subsection xml:id="subsec_patternsPascal" newid="subsec_patternsPascal">
     <title>Patterns in Pascal's Triangle</title>
-    <p newid="subsec_patternsPascal">
+    <p newid="subsec_patternsPascal-p1">
       Have a look again at Pascal's triangle.
       Forget for a moment where it comes from.
       Just look at it as a mathematical object.
       What do you notice?
     </p>
     <sidebyside width="80%">
-      <image xml:id="pascal-small" newid="subsec_patternsPascal">
+      <image xml:id="pascal-small" newid="subsec_patternsPascal-img">
         <latex-image>
           \begin{tikzpicture}
   \def\r{.5}
@@ -96,30 +95,30 @@
         </latex-image>
       </image>
     </sidebyside>
-    <p newid="subsec_patternsPascal">
+    <p newid="subsec_patternsPascal-p2">
       There are lots of patterns hidden away in the triangle,
       enough to fill a reasonably sized book.
       Here are just a few of the most obvious ones:
 
-      <ol newid="subsec_patternsPascal">
-        <li newid="subsec_patternsPascal">
+      <ol newid="subsec_patternsPascal-p2-ol">
+        <li newid="subsec_patternsPascal-p2-ol-li1">
           The entries on the border of the triangle are all 1.
         </li>
-        <li newid="subsec_patternsPascal">
+        <li newid="subsec_patternsPascal-p2-ol-li2">
             Any entry not on the border is the sum of the two entries above it.
         </li>
-        <li newid="subsec_patternsPascal">
+        <li newid="subsec_patternsPascal-p2-ol-li3">
           The triangle is symmetric.
           In any row, entries on the left side are mirrored on the right side.
         </li>
-        <li newid="subsec_patternsPascal">
+        <li newid="subsec_patternsPascal-p2-ol-li4">
           The sum of all entries on a given row is a power of 2.
           (You should check this!)
         </li>
       </ol>
     </p>
 
-    <p newid="subsec_patternsPascal">
+    <p newid="subsec_patternsPascal-p3">
       We would like to state these observations in a more precise way,
       and then prove that they are correct.
       Now each entry in Pascal's triangle is in fact a binomial coefficient.
@@ -133,70 +132,75 @@
       </me>
     </p>
 
-    <p newid="subsec_patternsPascal">
+    <p newid="subsec_patternsPascal-p4">
       Given this description of the elements in Pascal's triangle,
       we can rewrite the above observations as follows:
 
-      <ol newid="subsec_patternsPascal">
-        <li newid="subsec_patternsPascal"><m>{n \choose 0} = 1</m> and <m>{n \choose n} = 1</m>.</li>
-        <li newid="subsec_patternsPascal"><m>{n \choose k} = {n-1 \choose k-1} + {n-1 \choose k}</m>.</li>
-        <li newid="subsec_patternsPascal"><m>{n \choose k} = {n \choose n-k}</m>.</li>
-        <li newid="subsec_patternsPascal"><m>{n\choose 0} + {n \choose 1} + {n \choose 2} + \cdots + {n \choose n} = 2^n</m>.</li>
+      <ol newid="subsec_patternsPascal-p4-ol">
+        <li newid="subsec_patternsPascal-p4-ol-li1"><m>{n \choose 0} = 1</m> and <m>{n \choose n} = 1</m>.</li>
+        <li newid="subsec_patternsPascal-p4-ol-li2"><m>{n \choose k} = {n-1 \choose k-1} + {n-1 \choose k}</m>.</li>
+        <li newid="subsec_patternsPascal-p4-ol-li3"><m>{n \choose k} = {n \choose n-k}</m>.</li>
+        <li newid="subsec_patternsPascal-p4-ol-li4"><m>{n\choose 0} + {n \choose 1} + {n \choose 2} + \cdots + {n \choose n} = 2^n</m>.</li>
       </ol>
     </p>
 
-    <p newid="subsec_patternsPascal">
+    <p newid="subsec_patternsPascal-p5">
       Each of these is an example of a <term>binomial identity</term>:
           <idx><h>binomial identity</h></idx>
       an identity (i.e., equation) involving binomial coefficients.
-    </p newid="subsec_patternsPascal">
+    </p>
 
-    <p newid="subsec_patternsPascal">
+    <p newid="subsec_patternsPascal-p6">
       Our goal is to establish these identities.
       We wish to prove that they hold for all values of <m>n</m> and <m>k</m>.
       These proofs can be done in many ways.
       One option would be to give algebraic proofs,
       using the formula for <m>{n \choose k}</m>:
-      <me newid="subsec_patternsPascal">
+      <me newid="subsec_patternsPascal-p6-me">
         {n \choose k} = \frac{n!}{(n-k)!\,k!}.
       </me>
     </p>
 
-    <p newid="subsec_patternsPascal">
+    <p newid="subsec_patternsPascal-p7">
       Here's how you might do that for the second identity above.
     </p>
-    <example newid="subsec_patternsPascal">
-      <statement newid="subsec_patternsPascal">
-        <p newid="subsec_patternsPascal">
+
+    <example newid="subsec_patternsPascal-ex1">
+      <statement newid="subsec_patternsPascal-ex1-st">
+        <p newid="subsec_patternsPascal-ex1-st-p">
           Give an algebraic proof for the binomial identity
-          <me newid="subsec_patternsPascal">
+          <me newid="subsec_patternsPascal-ex1-st-p-me">
             {n \choose k} = {n-1\choose k-1} + {n-1 \choose k}.
           </me>
         </p>
       </statement>
-      <solution newid="subsec_patternsPascal">
-        <proof newid="subsec_patternsPascal">
-          <p newid="subsec_patternsPascal">
+      <solution newid="subsec_patternsPascal-ex1-so">
+        <proof newid="subsec_patternsPascal-ex1-so-pr">
+          <p newid="subsec_patternsPascal-ex1-so-pr-p1">
             By the definition of <m>{n \choose k}</m>, we have
-            <me newid="subsec_patternsPascal">
-              {n-1 \choose k-1} = \frac{(n-1)!}{(n-1-(k-1))!(k-1)!} = \frac{(n-1)!}{(n-k)!(k-1)!}</me>
-              and
-            <me newid="subsec_patternsPascal"> {n-1 \choose k} = \frac{(n-1)!}{(n-1-k)!k!}.
+            <me newid="subsec_patternsPascal-ex1-so-pr-p1-me1">
+              {n-1 \choose k-1} = \frac{(n-1)!}{(n-1-(k-1))!(k-1)!} = \frac{(n-1)!}{(n-k)!(k-1)!}
             </me>
+            and
+            <me newid="subsec_patternsPascal-ex1-so-pr-p1-me2">
+              {n-1 \choose k} = \frac{(n-1)!}{(n-1-k)!k!}
+            </me>.
           </p>
 
-          <p newid="subsec_patternsPascal">
+          <p newid="subsec_patternsPascal-ex1-so-pr-p2">
             Thus, starting with the right-hand side of the equation:
-            <md newid="subsec_patternsPascal">
-              <mrow newid="subsec_patternsPascal"> {n-1 \choose k-1} + {n-1 \choose k} \amp = \frac{(n-1)!}{(n-k)!(k-1)!}+ \frac{(n-1)!}{(n-1-k)!\,k!}</mrow>
-              <mrow newid="subsec_patternsPascal"> \amp = \frac{(n-1)!k}{(n-k)!\,k!} + \frac{(n-1)!(n-k)}{(n-k)!\,k!}</mrow>
-              <mrow newid="subsec_patternsPascal"> \amp = \frac{(n-1)!(k+n-k)}{(n-k)!\,k!}</mrow>
-              <mrow newid="subsec_patternsPascal"> \amp = \frac{n!}{(n-k)!\, k!}</mrow>
-              <mrow newid="subsec_patternsPascal"> \amp = {n \choose k}</mrow>
+            <md newid="subsec_patternsPascal-ex1-so-pr-p2-md">
+              <mrow newid="subsec_patternsPascal-ex1-so-pr-p2-md-mr1">
+                {n-1 \choose k-1} + {n-1 \choose k} \amp = \frac{(n-1)!}{(n-k)!(k-1)!}+ \frac{(n-1)!}{(n-1-k)!\,k!}</mrow>
+              <mrow newid="subsec_patternsPascal-ex1-so-pr-p2-md-mr2">
+                \amp = \frac{(n-1)!k}{(n-k)!\,k!} + \frac{(n-1)!(n-k)}{(n-k)!\,k!}</mrow>
+              <mrow newid="subsec_patternsPascal-ex1-so-pr-p2-md-mr3"> \amp = \frac{(n-1)!(k+n-k)}{(n-k)!\,k!}</mrow>
+              <mrow newid="subsec_patternsPascal-ex1-so-pr-p2-md-mr4"> \amp = \frac{n!}{(n-k)!\, k!}</mrow>
+              <mrow newid="subsec_patternsPascal-ex1-so-pr-p2-md-mr5"> \amp = {n \choose k}</mrow>
             </md>.
           </p>
 
-          <p newid="subsec_patternsPascal">
+          <p newid="subsec_patternsPascal-ex1-so-pr-p3">
             The second line
             (where the common denominator is found)
             works because <m>k(k-1)! = k!</m> and <m>(n-k)(n-k-1)! = (n-k)!</m>.
@@ -205,7 +209,8 @@
       </solution>
 
     </example>
-    <p newid="subsec_patternsPascal">
+
+    <p newid="subsec_patternsPascal-p8">
       This is certainly a valid proof, but also is entirely useless.
       Even if you understand the proof perfectly,
       it does not tell you <em>why</em> the identity is true.
@@ -213,14 +218,15 @@
       and then say why that is also what <m>{n-1 \choose k-1} + {n-1 \choose k}</m> means.
       Let's see how this works for the four identities we observed above.
     </p>
-    <example newid="subsec_patternsPascal">
-      <statement newid="subsec_patternsPascal">
-        <p newid="subsec_patternsPascal">
+
+    <example newid="subsec_patternsPascal-ex2">
+      <statement newid="subsec_patternsPascal-ex2-st">
+        <p newid="subsec_patternsPascal-ex2-st-p">
           Explain why <m>{n \choose 0} = 1</m> and <m>{n \choose n} = 1</m>.
         </p>
       </statement>
-      <solution newid="subsec_patternsPascal">
-        <p newid="subsec_patternsPascal">
+      <solution newid="subsec_patternsPascal-ex2-so">
+        <p newid="subsec_patternsPascal-ex2-so-p1">
           What do these binomial coefficients tell us?
           Well, <m>{n \choose 0}</m> gives the number of ways to select 0 objects from a collection of <m>n</m> objects.
           There is only one way to do this, namely to not select any of the objects.
@@ -232,7 +238,7 @@
           Thus <m>{n \choose n} = 1</m>.
         </p>
 
-        <p newid="subsec_patternsPascal">
+        <p newid="subsec_patternsPascal-ex2-so-p2">
           Alternatively,
           we know that <m>{n \choose 0}</m> is the number of <m>n</m>-bit strings with weight 0.
           There is only one such string, the string of all 0's.
@@ -241,7 +247,7 @@
           There is only one string with this property, the string of all 1's.
         </p>
 
-        <p>
+        <p newid="subsec_patternsPascal-ex2-so-p3">
           Another way:
           <m>{n \choose 0}</m> gives the number of subsets of a set of size <m>n</m> containing 0 elements.
           There is only one such subset, the empty set.
@@ -251,14 +257,14 @@
       </solution>
     </example>
 
-    <example newid="subsec_patternsPascal">
-      <statement newid="subsec_patternsPascal">
-        <p newid="subsec_patternsPascal">
+    <example newid="subsec_patternsPascal-ex3">
+      <statement newid="subsec_patternsPascal-ex3-st">
+        <p newid="subsec_patternsPascal-ex3-st-p">
           Explain why <m>{n \choose k} = {n-1 \choose k-1} + {n-1 \choose k}</m>.
         </p>
       </statement>
-      <solution newid="subsec_patternsPascal">
-         newid="subsec_patternsPascal"<p>
+      <solution newid="subsec_patternsPascal-ex3-so">
+         <p newid="subsec_patternsPascal-ex3-so-p1">
           The easiest way to see this is to consider bit strings.
           <m>{n \choose k}</m> is the number of bit strings of length <m>n</m> containing <m>k</m> 1's.
           Of all of these strings, some start with a 1 and the rest start with a 0.
@@ -278,7 +284,7 @@
           Therefore <m>{n \choose k} = {n-1\choose k-1} + {n-1 \choose k}</m>.
         </p>
 
-        <p newid="subsec_patternsPascal">
+        <p newid="subsec_patternsPascal-ex3-so-p2">
           Another way: consider the question,
           how many ways can you select <m>k</m> pizza toppings from a menu containing <m>n</m> choices?
           One way to do this is just <m>{n \choose k}</m>.
@@ -297,20 +303,20 @@
           Thus <m>{n \choose k} = {n-1\choose k-1} + {n-1 \choose k}</m>.
         </p>
 
-        <p newid="subsec_patternsPascal">
+        <p newid="subsec_patternsPascal-ex3-so-p3">
           You can also explain (prove) this identity by counting subsets, or even lattice paths.
         </p>
       </solution>
     </example>
 
     <example xml:id="example-symmetry-formula" newid="example-symmetry-formula">
-      <statement newid="example-symmetry-formula">
-        <p newid="example-symmetry-formula">
+      <statement newid="example-symmetry-formula-st">
+        <p newid="example-symmetry-formula-st-p">
           Prove the binomial identity <m>{n \choose k} = {n \choose n-k}</m>.
         </p>
       </statement>
-      <solution newid="example-symmetry-formula">
-        <p newid="example-symmetry-formula">
+      <solution newid="example-symmetry-formula-so">
+        <p newid="example-symmetry-formula-so-p1">
           Why is this true?
           <m>{n \choose k}</m> counts the number of ways to select <m>k</m> things from <m>n</m> choices.
           On the other hand,
@@ -325,7 +331,7 @@
           So the set of outcomes should be the same.
         </p>
 
-        <p newid="example-symmetry-formula">
+        <p newid="example-symmetry-formula-so-p2">
           Let's try the pizza counting example like we did above.
           How many ways are there to pick <m>k</m> toppings from a list of <m>n</m> choices?
           On the one hand, the answer is simply <m>{n \choose k}</m>.
@@ -339,7 +345,7 @@
           Thus these two answers must be the same: <m>{n \choose k} = {n \choose n-k}</m>.
         </p>
 
-        <p newid="example-symmetry-formula">
+        <p newid="example-symmetry-formula-so-p3">
           You can also prove (explain) this identity using bit strings, subsets, or lattice paths.
           The bit string argument is nice:
           <m>{n \choose k}</m> counts the number of bit strings of length <m>n</m> with <m>k</m> 1's.
@@ -352,14 +358,14 @@
       </solution>
     </example>
 
-    <example newid="subsec_patternsPascal">
-      <statement newid="subsec_patternsPascal">
-        <p newid="subsec_patternsPascal">
+    <example newid="subsec_patternsPascal-ex4">
+      <statement newid="subsec_patternsPascal-ex4-st">
+        <p newid="subsec_patternsPascal-ex4-st-p">
           Prove the binomial identity <m>{n\choose 0} + {n \choose 1} + {n\choose 2} + \cdots + {n \choose n} = 2^n</m>.
         </p>
       </statement>
-      <solution newid="subsec_patternsPascal">
-        <p newid="subsec_patternsPascal">
+      <solution newid="subsec_patternsPascal-ex4-so">
+        <p newid="subsec_patternsPascal-ex4-so-p1">
           Let's do a <q>pizza proof</q> again.
           We need to find a question about pizza toppings which has <m>2^n</m> as the answer.
           How about this:
@@ -368,12 +374,12 @@
           using each topping at most once?
         </p>
 
-        <p newid="subsec_patternsPascal">
+        <p newid="subsec_patternsPascal-ex4-so-p2">
           On one hand, the answer is <m>2^n</m>.
           For each topping you can say <q>yes</q> or <q>no,</q> so you have two choices for each topping.
         </p>
 
-        <p newid="subsec_patternsPascal">
+        <p newid="subsec_patternsPascal-ex4-so-p3">
           On the other hand,
           divide the possible pizzas into disjoint groups:
           the pizzas with no toppings, the pizzas with one topping, the pizzas with two toppings, etc.
@@ -386,22 +392,22 @@
           We have:
         </p>
 
-        <p newid="subsec_patternsPascal">
-          <ul newid="subsec_patternsPascal">
-            <li newid="subsec_patternsPascal">Pizzas with 0 toppings: <m>{n \choose 0}</m></li>
-            <li newid="subsec_patternsPascal">Pizzas with 1 topping: <m>{n \choose 1}</m></li>
-            <li newid="subsec_patternsPascal">Pizzas with 2 toppings: <m>{n \choose 2}</m></li>
-            <li newid="subsec_patternsPascal"> <m>\vdots</m></li>
-            <li newid="subsec_patternsPascal">Pizzas with <m>n</m> toppings: <m>{n \choose n}</m>.</li>
+        <p newid="subsec_patternsPascal-ex4-so-p4">
+          <ul newid="subsec_patternsPascal-ex4-so-p4-ul">
+            <li newid="subsec_patternsPascal-ex4-so-p4-ul-li1">Pizzas with 0 toppings: <m>{n \choose 0}</m></li>
+            <li newid="subsec_patternsPascal-ex4-so-p4-ul-li2">Pizzas with 1 topping: <m>{n \choose 1}</m></li>
+            <li newid="subsec_patternsPascal-ex4-so-p4-ul-li3">Pizzas with 2 toppings: <m>{n \choose 2}</m></li>
+            <li newid="subsec_patternsPascal-ex4-so-p4-ul-li4"> <m>\vdots</m></li>
+            <li newid="subsec_patternsPascal-ex4-so-p4-ul-li5">Pizzas with <m>n</m> toppings: <m>{n \choose n}</m>.</li>
           </ul>
         </p>
 
-        <p newid="subsec_patternsPascal">
+        <p newid="subsec_patternsPascal-ex4-so-p5">
           The total number of possible pizzas will be the sum of these,
           which is exactly the left-hand side of the identity we are trying to prove.
         </p>
 
-        <p newid="subsec_patternsPascal">
+        <p newid="subsec_patternsPascal-ex4-so-p6">
           Again,
           we could have proved the identity using subsets,
           bit strings, or lattice paths
@@ -409,57 +415,57 @@
         </p>
       </solution>
     </example>
-    <p newid="subsec_patternsPascal">
+
+    <p newid="subsec_patternsPascal-p9">
       Hopefully this gives some idea of how explanatory proofs of binomial identities can go.
       It is worth pointing out that more traditional proofs can also be beautiful.
-      <fn>Most every binomial identity can be proved using mathematical induction,
+      <fn newid="subsec_patternsPascal-p9-fn">Most every binomial identity can be proved using mathematical induction,
           using the recursive definition for <m>{n \choose k}</m>.
           We will discuss induction in <xref ref="sec_seq-induction"/>.</fn>
       For example,
       consider the following rather slick proof of the last identity.
     </p>
 
-    <p newid="subsec_patternsPascal">
+    <p newid="subsec_patternsPascal-p10">
       Expand the binomial <m>(x+y)^n</m>:
-      <me newid="subsec_patternsPascal">
+      <me newid="subsec_patternsPascal-p10-me">
         (x + y)^n
         =
         {n \choose 0}x^n + {n \choose 1}x^{n-1}y + {n \choose 2}x^{n-2}y^2 + \cdots + {n \choose n-1}x\cdot y^n + {n \choose n}y^n
       </me>.
     </p>
 
-    <p newid="subsec_patternsPascal">
+    <p newid="subsec_patternsPascal-p11">
       Let <m>x = 1</m> and <m>y = 1</m>. We get:
-      <me newid="subsec_patternsPascal">
+      <me newid="subsec_patternsPascal-p11-me">
         (1 + 1)^n
         =
         {n \choose 0}1^n + {n \choose 1}1^{n-1}1 + {n \choose 2}1^{n-2}1^2 + \cdots + {n \choose n-1}1\cdot 1^n + {n \choose n}1^n
       </me>.
     </p>
 
-    <p newid="subsec_patternsPascal">
+    <p newid="subsec_patternsPascal-p12">
       Of course this simplifies to:
-      <me newid="subsec_patternsPascal">
+      <me newid="subsec_patternsPascal-p12-me">
         (2)^n = {n \choose 0} + {n \choose 1} + {n \choose 2} + \cdots + {n \choose n-1} + {n \choose n}
       </me>.
     </p>
 
-    <p newid="subsec_patternsPascal">
+    <p newid="subsec_patternsPascal-p13">
       Something fun to try: Let <m>x = 1</m> and <m>y = 2</m>. Neat huh?
     </p>
   </subsection>
 
-
   <subsection xml:id="subsec_moreProofs">
     <title>More Proofs</title>
-    <p newid="subsec_moreProofs">
+    <p newid="subsec_moreProofs-p1">
       The explanatory proofs given in the above examples are typically called <term>combinatorial proofs</term>.
       In general,
       to give a combinatorial proof for a binomial identity,
       say <m>A = B</m> you do the following:
     </p>
 
-    <p newid="subsec_moreProofs">
+    <p newid="subsec_moreProofs-p2">
       <ol newid="subsec_moreProofs">
         <li newid="subsec_moreProofs">
           Find a counting problem you will be able to answer in two ways.
@@ -473,11 +479,11 @@
       </ol>
     </p>
 
-    <p newid="subsec_moreProofs">
+    <p newid="subsec_moreProofs-p3">
       Since both <m>A</m> and <m>B</m> are the answers to the same question, we must have <m>A = B</m>.
     </p>
 
-    <p newid="subsec_moreProofs">
+    <p newid="subsec_moreProofs-p4">
       The tricky thing is coming up with the question.
       This is not always obvious, but it gets easier the more counting problems you solve.
       You will start to recognize types of answers as the answers to types of questions.
@@ -486,7 +492,7 @@
       The proof <em>is</em> the problem you just solved together with your two solutions.
     </p>
 
-    <p newid="subsec_moreProofs">
+    <p newid="subsec_moreProofs-p5">
       For example, consider this counting question:
     </p>
 
@@ -494,7 +500,7 @@
       <p>How many 10-letter words use exactly four A's, three B's, two C's and one D?</p>
     </blockquote>
 
-    <p newid="subsec_moreProofs">
+    <p newid="subsec_moreProofs-p6">
       Let's try to solve this problem.
       We have 10 spots for letters to go.
       Four of those need to be A's.
@@ -512,7 +518,7 @@
       </me>.
     </p>
 
-    <p newid="subsec_moreProofs">
+    <p newid="subsec_moreProofs-p7">
       But why stop there? We can find the answer another way too.
       First let's decide where to put the one D: we have 10 spots,
       we need to choose 1 of them, so this can be done in <m>{10 \choose 1}</m> ways.
@@ -529,7 +535,7 @@
       </me>.
     </p>
 
-    <p newid="subsec_moreProofs">
+    <p newid="subsec_moreProofs-p7">
       Interesting.
       This gives us the binomial identity:
       <me>
@@ -537,7 +543,7 @@
       </me>
     </p>
 
-    <p newid="subsec_moreProofs">
+    <p newid="subsec_moreProofs-p8">
       Here are a couple of other binomial identities with combinatorial proofs.
     </p>
 
@@ -625,7 +631,6 @@
             </me>
           </p>
         </proof>
-
       </solution>
     </example>
 
@@ -790,18 +795,12 @@
             </me>
           </p>
         </proof>
-
       </solution>
     </example>
-
   </subsection>
-
 
  <xi:include href="exercises/counting-proofs.mbx"/>
 
-
 <!--  Exercises!  -->
-
-
 
 </section>
