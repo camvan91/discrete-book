@@ -606,7 +606,7 @@
       We have a similar rule for distributing over conjunctions (<q>and</q>s):
     </p>
 
-    <assemblage permid="asm-de-morgan-s-laws">
+    <assemblage permid="asm-de-morgans-laws">
       <title>De Morgan's Laws</title>
       <p permid="p">
             <idx><h>De Morgan's laws</h></idx>

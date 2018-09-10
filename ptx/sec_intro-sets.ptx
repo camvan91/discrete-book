@@ -306,7 +306,7 @@
             </p>
           </li>
 
-          <li permid="l_pow-a">
+          <li permid="l_powa">
             <title><m>\pow(A)</m></title>
             <p permid="p">
               The <term>power set</term> of any set <m>A</m> is the set of all subsets of <m>A</m>.

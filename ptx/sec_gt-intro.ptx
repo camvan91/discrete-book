@@ -922,7 +922,7 @@
           </p>
         </li>
 
-        <li permid="l_k_n">
+        <li permid="l_k_mn">
           <title><m>K_{m,n}</m></title>
           <p permid="p">
             The complete bipartite graph with sets of <m>m</m> and <m>n</m> vertices.
