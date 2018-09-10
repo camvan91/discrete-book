@@ -14,21 +14,21 @@
         Each troll makes a single statement:
       </p>
 
-      <blockquote>
-        <p permid="p2">
+      <blockquote permid="bq">
+        <p permid="p1">
           Troll 1: If I am a knave, then there are exactly two knights here.
         </p>
 
-        <p permid="p3">
+        <p permid="p2">
           Troll 2: Troll 1 is lying.
         </p>
 
-        <p permid="p4">
+        <p permid="p3">
           Troll 3: Either we are all knaves or at least one of us is a knight.
         </p>
       </blockquote>
 
-      <p permid="p5">
+      <p permid="p2">
         Which troll is which?
             <idx><h>self reference</h><see>reference, self</see></idx>
             <idx><h>reference, self</h><see>self reference</see></idx>
@@ -69,31 +69,31 @@
           <em>atomic</em> statements):
 
           <ul permid="ul1">
-            <li permid="li1">
+            <li permid="l_l">
               <p permid="p">
                 Telephone numbers in the USA have 10 digits.
               </p>
             </li>
 
-            <li permid="li2">
+            <li permid="l_w">
               <p permid="p">
                 The moon is made of cheese.
               </p>
             </li>
 
-            <li permid="li3">
+            <li permid="l_h">
               <p permid="p">
                 42 is a perfect square.
               </p>
             </li>
 
-            <li permid="li4">
+            <li permid="l_s">
               <p permid="p">
                 Every even number greater than 2 can be expressed as the sum of two primes.
               </p>
             </li>
 
-            <li permid="li5">
+            <li permid="l_d">
               <p permid="p">
                 <m>3+7 = 12</m>
               </p>
@@ -103,27 +103,27 @@
           And these are not statements:
 
           <ul permid="ul2">
-            <li permid="li1">
+            <li permid="l_l">
               <p permid="p">
                 Would you like some cake?
               </p>
             </li>
 
-            <li permid="li2">
+            <li permid="l_w">
               <p permid="p">
                 The sum of two squares.
               </p>
             </li>
 
-            <li permid="li3"><m>1+3+5+7+\cdots+2n+1</m>.</li>
+            <li permid="l_h"><m>1+3+5+7+\cdots+2n+1</m>.</li>
 
-            <li permid="li4">
+            <li permid="l_s">
               <p permid="p">
                 Go to your room!
               </p>
             </li>
 
-            <li permid="li5">
+            <li permid="l_d">
               <p permid="p">
                 <m>3+x = 12</m>
               </p>
@@ -159,13 +159,13 @@
       For example, this is a molecular statement:
     </p>
 
-    <blockquote>
-      <p permid="p4">
+    <blockquote permid="bq">
+      <p permid="p">
         Telephone numbers in the USA have 10 digits and 42 is a perfect square.
       </p>
     </blockquote>
 
-    <p permid="p5">
+    <p permid="p4">
       Note that we can break this down into two smaller statements.
       The two shorter statements are
       <em>connected</em> by an
@@ -185,7 +185,7 @@
       (since it applies to a single statement).
     </p>
 
-    <p permid="p6">
+    <p permid="p5">
       Which connective we use to modify statement(s) will determine the
       <term>truth value</term>
           <idx><h>truth value</h></idx>
@@ -217,7 +217,7 @@
       <title>Logical Connectives</title>
       <p permid="p">
         <ul permid="ul">
-          <li permid="li1">
+          <li permid="l_l">
             <m>P \wedge Q</m> means <m>P</m> and <m>Q</m>,
             called a <term>conjunction</term>.
                 <idx><h>conjunction</h></idx>
@@ -230,7 +230,7 @@
 
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <m>P \vee Q</m> means <m>P</m> or <m>Q</m>,
             called a <term>disjunction</term>.
                 <idx> <h>disjunction</h> </idx>
@@ -243,7 +243,7 @@
 
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <m>P \imp Q</m> means if <m>P</m> then <m>Q</m>,
             called an <term>implication</term>
             or <term>conditional</term>.
@@ -253,7 +253,7 @@
                 <idx> <h>if<ellipsis/>, then<ellipsis/></h> </idx>
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <m>P \iff Q</m> means <m>P</m> if and only if <m>Q</m>,
             called a <term>biconditional</term>.
                 <idx> <h>biconditional</h> </idx>
@@ -261,7 +261,7 @@
                 <idx> <h>if and only if</h> </idx>
         </li>
 
-          <li permid="li5">
+          <li permid="l_d">
             <m>\neg P</m> means not <m>P</m>,
             called a <term>negation</term>.
                 <idx> <h>negation</h> </idx>
@@ -277,7 +277,7 @@
       </p>
     </assemblage>
 
-    <p permid="p7">
+    <p permid="p6">
       The
       <term>truth value</term> of a statement is determined by the truth value(s) of its part(s),
       depending on the connectives:
@@ -287,29 +287,29 @@
       <title>Truth Conditions for Connectives</title>
       <p permid="p">
         <ul permid="ul">
-          <li permid="li1">
+          <li permid="l_l">
             <m>P \wedge Q</m> is true when both <m>P</m> and <m>Q</m> are true
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <m>P \vee Q</m> is true when <m>P</m> or <m>Q</m> or both are true.
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <m>P \imp Q</m> is true when <m>P</m> is false or <m>Q</m> is true or both.
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <m>P \iff Q</m> is true when <m>P</m> and <m>Q</m> are both true,
             or both false.
           </li>
 
-          <li permid="li5"><m>\neg P</m> is true when <m>P</m> is false.</li>
+          <li permid="l_d"><m>\neg P</m> is true when <m>P</m> is false.</li>
         </ul>
       </p>
     </assemblage>
 
-    <p permid="p8">
+    <p permid="p7">
       Note that for us, <em>or</em> is the
       <term>inclusive or</term> 
           <idx> <h>inclusive or</h> </idx>
@@ -348,12 +348,12 @@
         We say that
 
         <ul permid="ul">
-          <li permid="li1">
+          <li permid="l_l">
             <m>P</m> is the <term>hypothesis</term>
             (or <term>antecedent</term>).
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <m>Q</m> is the <term>conclusion</term>
             (or <term>consequent</term>).
           </li>
@@ -387,21 +387,21 @@
       In other words:
     </p>
 
-    <blockquote>
-      <p permid="p2">
+    <blockquote permid="bq">
+      <p permid="p">
         <em>If</em> <m>a</m> and <m>b</m> are the legs of a right triangle with hypotenuse <m>c</m>,
         <em>then </em> <m>a^2 + b^2 = c^2</m>.
       </p>
     </blockquote>
 
-    <p permid="p3">
+    <p permid="p2">
       This is a reasonable way to think about implications:
       our claim is that the conclusion (<q>then</q> part) is true,
       but on the assumption that the hypothesis (<q>if</q> part) is true.
       We make no claim about the conclusion in situations when the hypothesis is false.
     </p>
 
-    <p permid="p4">
+    <p permid="p3">
       Still, it is important to remember that an implication is a statement,
       and therefore is either true or false.
       The truth value of the implication is determined by the truth values of its two parts.
@@ -418,20 +418,20 @@
           Consider the statement:
         </p>
 
-        <blockquote>
-          <p permid="p2">
+        <blockquote permid="bq">
+          <p permid="p">
             If Bob gets a 90 on the final,
             then Bob will pass the class.
           </p>
         </blockquote>
 
-        <p permid="p3">
+        <p permid="p2">
           This is definitely an implication:
           <m>P</m> is the statement <q>Bob gets a 90 on the final,</q>
           and <m>Q</m> is the statement <q>Bob will pass the class.</q>
         </p>
 
-        <p permid="p4">
+        <p permid="p3">
           Suppose I made that statement to Bob.
           In what circumstances would it be fair to call me a liar?
           What if Bob really did get a 90 on the final,
@@ -452,7 +452,7 @@
       </statement>
     </example>
 
-    <p permid="p5">
+    <p permid="p4">
       Just to be clear,
       although we sometimes read <m>P \imp Q</m> as <q> <m>P</m>
       <em>implies</em> <m>Q</m> </q>,
@@ -470,16 +470,16 @@
           Briefly explain.
 
           <ol permid="ol">
-            <li permid="li1"><m>0=1 ~~ \imp ~~ 1=1</m></li>
+            <li permid="l_l"><m>0=1 ~~ \imp ~~ 1=1</m></li>
 
-            <li permid="li2"><m>1=1 ~~ \imp ~~</m> most horses have 4 legs</li>
+            <li permid="l_w"><m>1=1 ~~ \imp ~~</m> most horses have 4 legs</li>
 
-            <li permid="li3">
+            <li permid="l_h">
               If 8 is a prime number, then the 7624th digit of
               <m>\pi</m> is an 8.
             </li>
 
-            <li permid="li4">
+            <li permid="l_s">
               If the 7624th digit of
               <m>\pi</m> is an 8, then
               <m>2+2 = 4</m>
@@ -495,25 +495,25 @@
           <em>then</em> part to be false.
 
           <ol permid="ol">
-            <li permid="li1">
+            <li permid="l_l">
               Here the hypothesis is false and the conclusion is true,
               so the implication is true.
             </li>
 
-            <li permid="li2">
+            <li permid="l_w">
               Here both the hypothesis and the conclusion are true,
               so the implication is true.
               It does not matter that there is no meaningful connection between the true mathematical fact and the fact about horses.
             </li>
 
-            <li permid="li3">
+            <li permid="l_h">
               I have no idea what the 7624th digit of
               <m>\pi</m> is, but this does not matter.
               Since the hypothesis is false,
               the implication is automatically true.
             </li>
 
-            <li permid="li4">
+            <li permid="l_s">
               Similarly here, regardless of the truth value of the hypothesis,
               the conclusion is true, making the implication true.
             </li>
@@ -522,7 +522,7 @@
       </solution>
     </example>
 
-    <p permid="p6">
+    <p permid="p5">
       It is important to understand the conditions under which an implication is true not only to decide whether a mathematical statement is true,
       but in order to
       <em>prove</em> that it is.
@@ -545,7 +545,7 @@
       </p>
     </assemblage>
 
-    <p permid="p7">
+    <p permid="p6">
       There are other techniques to prove statements
       (implications and others)
       that we will encounter throughout our studies,
@@ -588,14 +588,14 @@
       </solution>
     </example>
 
-    <p permid="p8">
+    <p permid="p7">
       This sort of argument shows up outside of math as well.
       If you ever found yourself starting an argument with
       <q>hypothetically, let's assume
       <ellipsis/>,</q> then you have attempted a direct proof of your desired conclusion.
     </p>
 
-    <p permid="p9">
+    <p permid="p8">
       Since implications are so prevalent in mathematics,
       we have some special language to help discuss them:
     </p>
@@ -604,7 +604,7 @@
       <title>Converse and Contrapositive</title>
       <p permid="p">
         <ul permid="ul">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               The
               <term>converse</term>
@@ -619,7 +619,7 @@
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               The
               <term>contrapositive</term>
@@ -636,7 +636,7 @@
       </p>
     </assemblage>
 
-    <p permid="p10">
+    <p permid="p9">
       Mathematics is overflowing with examples of true implications with a false converse.
       If a number greater than 2 is prime, then that number is odd.
       However, just because a number is odd does not mean it is prime.
@@ -653,7 +653,7 @@
       it is always reasonable to ask whether the converse is true.
     </p>
 
-    <p permid="p11">
+    <p permid="p10">
       The contrapositive, on the other hand,
       always has the same truth value as its original implication.
       This can be very helpful in deciding whether an implication is true:
@@ -696,7 +696,7 @@
       </solution>
     </example>
 
-    <p permid="p12">
+    <p permid="p11">
       Understanding converses and contrapositives can help understand implications and their truth values:
     </p>
 
@@ -711,13 +711,13 @@
 
         <p permid="p2">
           <ol permid="ol">
-            <li permid="li1">Sue gets a 93<percent/> on her final.</li>
+            <li permid="l_l">Sue gets a 93<percent/> on her final.</li>
 
-            <li permid="li2">Sue gets an A in the class.</li>
+            <li permid="l_w">Sue gets an A in the class.</li>
 
-            <li permid="li3">Sue does not get a 93<percent/> on her final.</li>
+            <li permid="l_h">Sue does not get a 93<percent/> on her final.</li>
 
-            <li permid="li4">Sue does not get an A in the class.</li>
+            <li permid="l_s">Sue does not get an A in the class.</li>
           </ol>
         </p>
       </statement>
@@ -737,7 +737,7 @@
 
         <p permid="p2">
           <ol permid="ol">
-            <li permid="li1">
+            <li permid="l_l">
               We have
               <m>P \imp Q</m> and
               <m>P</m>, so
@@ -745,7 +745,7 @@
               Sue gets an A.
             </li>
 
-            <li permid="li2">
+            <li permid="l_w">
               You cannot conclude anything.
               Sue could have gotten the A because she did extra credit for example.
               Notice that we do not know that if Sue gets an
@@ -754,7 +754,7 @@
               so it might or might not be true.
             </li>
 
-            <li permid="li3">
+            <li permid="l_h">
               The contrapositive of the converse of
               <m>P \imp Q</m> is
               <m>\neg P \imp \neg Q</m>,
@@ -765,7 +765,7 @@
               Sue could have done extra credit.
             </li>
 
-            <li permid="li4">
+            <li permid="l_s">
               What would happen if Sue does not get an A but <em>did</em>
               get a 93<percent/> on the final?
               Then <m>P</m> would be true and <m>Q</m> would be false.
@@ -781,7 +781,7 @@
       </solution>
     </example>
 
-    <p permid="p13">
+    <p permid="p12">
       As we said above,
       an implication is not logically equivalent to its converse,
       but it is possible that both are true.
@@ -795,13 +795,13 @@
 
     <assemblage permid="asm4">
       <title>If and only if</title>
-      <blockquote>
-        <p permid="p1">
+      <blockquote permid="bq">
+        <p permid="p">
           <m>P \iff Q</m> is logically equivalent to <m>(P \imp Q) \wedge (Q \imp P)</m>.
         </p>
       </blockquote>
 
-      <p permid="p2">
+      <p permid="p">
         Example: Given an integer <m>n</m>,
         it is true that <m>n</m> is even if and only if <m>n^2</m> is even.
         That is, if <m>n</m> is even,
@@ -810,7 +810,7 @@
       </p>
     </assemblage>
 
-    <p permid="p14">
+    <p permid="p13">
       You can think of <q>if and only if</q>
       statements as having two parts:
       an implication and its converse.
@@ -823,7 +823,7 @@
       which is really just sloppy notation for <m>Q \imp P</m>).
     </p>
 
-    <p permid="p15">
+    <p permid="p14">
       Let's think a little about which part is which.
       Is <m>P \imp Q</m> the <q>if</q>
       part or the <q>only if</q> part?
@@ -862,7 +862,7 @@
       </statement>
     </example>
 
-    <p permid="p16">
+    <p permid="p15">
       It is not terribly important to know which part is the
       <q>if</q> or <q>only if</q> part,
       but this does get at something very, very important:
@@ -886,37 +886,37 @@
           The following are all equivalent to the original implication:
 
           <ol permid="ol1">
-            <li permid="li1">
+            <li permid="l_l">
               <p permid="p">
                 I am asleep if I dream.
               </p>
             </li>
 
-            <li permid="li2">
+            <li permid="l_w">
               <p permid="p">
                 I dream only if I am asleep.
               </p>
             </li>
 
-            <li permid="li3">
+            <li permid="l_h">
               <p permid="p">
                 In order to dream, I must be asleep.
               </p>
             </li>
 
-            <li permid="li4">
+            <li permid="l_s">
               <p permid="p">
                 To dream, it is necessary that I am asleep.
               </p>
             </li>
 
-            <li permid="li5">
+            <li permid="l_d">
               <p permid="p">
                 To be asleep, it is sufficient to dream.
               </p>
             </li>
 
-            <li permid="li6">
+            <li permid="l_o">
               <p permid="p">
                 I am not dreaming unless I am asleep.
               </p>
@@ -927,31 +927,31 @@
           then I dream):
 
           <ol permid="ol2">
-            <li permid="li1">
+            <li permid="l_l">
               <p permid="p">
                 I dream if I am asleep.
               </p>
             </li>
 
-            <li permid="li2">
+            <li permid="l_w">
               <p permid="p">
                 I am asleep only if I dream.
               </p>
             </li>
 
-            <li permid="li3">
+            <li permid="l_h">
               <p permid="p">
                 It is necessary that I dream in order to be asleep.
               </p>
             </li>
 
-            <li permid="li4">
+            <li permid="l_s">
               <p permid="p">
                 It is sufficient that I be asleep in order to dream.
               </p>
             </li>
 
-            <li permid="li5">
+            <li permid="l_d">
               <p permid="p">
                 If I don't dream, then I'm not asleep.
               </p>
@@ -961,7 +961,7 @@
       </solution>
     </example>
 
-    <p permid="p17">
+    <p permid="p16">
       Hopefully you agree with the above example.
       We include the
       <q>necessary and sufficient</q>
@@ -978,15 +978,15 @@
 
       <p permid="p2">
         <ul permid="ul">
-          <li permid="li1">
+          <li permid="l_l">
             <q> <m>P</m> is necessary for <m>Q</m> </q> means <m>Q \imp P</m>.
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <q> <m>P</m> is sufficient for <m>Q</m> </q> means <m>P \imp Q</m>.
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               If <m>P</m> is necessary and sufficient for <m>Q</m>, then <m>P \iff Q</m>.
             </p>
@@ -995,7 +995,7 @@
       </p>
     </assemblage>
 
-    <p permid="p18">
+    <p permid="p17">
       To be honest, I have trouble with these if I'm not very careful.
       I find it helps to have an example in mind:
     </p>
@@ -1031,7 +1031,7 @@
       </solution>
     </example>
 
-    <p permid="p19">
+    <p permid="p18">
       Thinking about the necessity and sufficiency of conditions can also help when writing proofs and justifying conclusions.
       If you want to establish some mathematical fact,
       it is helpful to think what other facts would
@@ -1054,25 +1054,25 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               You can fool some people all of the time.
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               You can fool everyone some of the time.
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               You can always fool some people.
             </p>
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <p permid="p">
               Sometimes you can fool everyone.
             </p>
@@ -1215,7 +1215,7 @@
 
     <assemblage permid="asm2">
       <title>Quantifiers and Negation</title>
-      <blockquote>
+      <blockquote permid="bq">
         <p permid="p1">
           <m>\neg \forall x P(x)</m> is equivalent to
           <m>\exists x \neg P(x)</m>.

@@ -9,14 +9,14 @@
         red, blue, green, purple and yellow.
 
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               How many different two-chip stacks can you make if the bottom chip must be red or blue?
               Explain your answer using both the additive and multiplicative principles.
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               How many different three-chip stacks can you make if the bottom chip must be red or blue and the top chip must be green,
               purple or yellow?
@@ -24,14 +24,14 @@
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               How many different three-chip stacks are there in which no color is repeated?
               What about four-chip stacks?
             </p>
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <p permid="p">
               Suppose you wanted to take three different colored chips and put them in your pocket.
               How many different choices do you have?
@@ -315,13 +315,13 @@
 
         <p permid="p2">
           <ol permid="ol">
-            <li permid="li1">
+            <li permid="l_l">
               <p permid="p">
                 How many choices do you have for which 6 friends to invite?
               </p>
             </li>
 
-            <li permid="li2">
+            <li permid="l_w">
               <p permid="p">
                 What if you need to decide not only which friends to invite but also where to seat them along your long table?
                 How many choices do you have then?
@@ -333,7 +333,7 @@
       <solution permid="s">
         <p permid="p1">
           <ol permid="ol">
-            <li permid="li1">
+            <li permid="l_l">
               <p permid="p">
                 You must simply choose 6 friends from a group of 14.
                 This can be done in <m>{14 \choose 6}</m> ways.
@@ -342,7 +342,7 @@
               </p>
             </li>
 
-            <li permid="li2">
+            <li permid="l_w">
               <p permid="p1">
                 Here you must count all the ways you can permute 6 friends chosen from a group of 14.
                 So the answer is <m>P(14, 6)</m>,

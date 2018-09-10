@@ -152,13 +152,13 @@
       To prove this, we could do the following:
 
       <ol permid="ol">
-        <li permid="li1">
+        <li permid="l_l">
           <p permid="p">
             Demonstrate that <m>P(28)</m> is true.
           </p>
         </li>
 
-        <li permid="li2">
+        <li permid="l_w">
           <p permid="p">
             Prove that if <m>P(k)</m> is true,
             then <m>P(k+1)</m> is true
@@ -267,7 +267,7 @@
             <idx><h>induction</h></idx> Start by saying what the statement is that you want to prove: <q>Let <m>P(n)</m> be the statement<ellipsis/></q> To prove that <m>P(n)</m> is true for all <m>n \ge 0</m>, you must prove two facts:
 
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               Base case: Prove that <m>P(0)</m> is true.
               You do this directly.
@@ -275,7 +275,7 @@
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               Inductive case: Prove that
               <m>P(k) \imp P(k+1)</m> for all <m>k \ge 0</m>.
@@ -687,8 +687,8 @@
       Consider the following puzzle:
     </p>
 
-    <blockquote>
-      <p permid="p2">
+    <blockquote permid="bq">
+      <p permid="p">
         You have a rectangular chocolate bar,
         made up of <m>n</m> identical squares of chocolate.
         You can take such a bar and break it along any row or column.
@@ -696,13 +696,13 @@
       </p>
     </blockquote>
 
-    <p permid="p3">
+    <p permid="p2">
       At first, this question might seem impossible.
       Perhaps I meant to ask for the <em>smallest</em> number of breaks needed?
       Let's investigate.
     </p>
 
-    <p permid="p4">
+    <p permid="p3">
       Start with some small cases.
       If <m>n=2</m>, you must have a <m>1\times 2</m> rectangle,
       which can be reduced to single pieces in one break.
@@ -712,7 +712,7 @@
       which we know takes one (more) break.
     </p>
 
-    <p permid="p5">
+    <p permid="p4">
       What about <m>n=4</m>?
       Now we could have a <m>2\times 2</m> bar,
       or a <m>1 \times 4</m> bar.
@@ -729,23 +729,23 @@
       we still need two more breaks, giving a total of three.
     </p>
 
-    <p permid="p6">
+    <p permid="p5">
       It is starting to look like no matter how we break the bar
       (and no matter how the <m>n</m> squares are arranged into a rectangle),
       we will always have the same number of breaks required.
       It also looks like that number is one less than <m>n</m>:
     </p>
 
-    <conjecture>
+    <conjecture permid="conj">
       <statement>
-        <p permid="p7">
+        <p permid="p">
           Given a <m>n</m>-square rectangular chocolate bar,
           it always takes <m>n-1</m> breaks to reduce the bar to single squares.
         </p>
       </statement>
     </conjecture>
 
-    <p permid="p8">
+    <p permid="p6">
       It makes sense to prove this by induction because after breaking the bar once,
       you are left with <em>smaller</em> chocolate bars.
       Reducing to smaller cases is what induction is all about.
@@ -756,7 +756,7 @@
       So we really need to assume that our conjecture is true for all cases less than <m>k+1</m>.
     </p>
 
-    <p permid="p9">
+    <p permid="p7">
       Is it valid to make this stronger assumption?
       Remember, in induction we are attempting to prove that <m>P(n)</m> is true for all <m>n</m>.
       What if that were not the case?
@@ -767,7 +767,7 @@
       based on the assumption that <m>P(n)</m> is true for all smaller <m>n</m>.
     </p>
 
-    <p permid="p10">
+    <p permid="p8">
       This is quite an advantage: we now have a stronger inductive hypothesis.
       We can assume that <m>P(1)</m>, <m>P(2)</m>, <m>P(3)</m>,
       <ellipsis/> <m>P(k)</m> is true,
@@ -775,7 +775,7 @@
       Previously, we just assumed <m>P(k)</m> for this purpose.
     </p>
 
-    <p permid="p11">
+    <p permid="p9">
       It is slightly easier if we change our variables for strong induction.
       Here is what the formal proof would look like:
     </p>
@@ -790,13 +790,13 @@
         Then establish two facts:
 
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               Base case: Prove that <m>P(0)</m> is true.
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               Inductive case: Assume <m>P(k)</m> is true for all <m>k \lt n</m>.
               Prove that <m>P(n)</m> is true.
@@ -809,7 +809,7 @@
       </p>
     </assemblage>
 
-    <p permid="p12">
+    <p permid="p10">
       Of course, it is acceptable to replace 0 with a larger base case if needed.<fn>
       Technically,
       strong induction does not require you to prove a separate base case.
@@ -820,7 +820,7 @@
       To be on the safe side, we will always include the base case separately.
       </fn></p>
 
-    <p permid="p13">
+    <p permid="p11">
       Let's prove our conjecture about the chocolate bar puzzle:
     </p>
 
@@ -866,7 +866,7 @@
       </p>
     </proof>
 
-    <p permid="p14">
+    <p permid="p12">
       Here is a more mathematically relevant example:
     </p>
 
@@ -930,7 +930,7 @@
       </solution>
     </example>
 
-    <p permid="p15">
+    <p permid="p13">
       Whether you use regular induction or strong induction depends on the statement you want to prove.
       If you wanted to be safe, you could always use strong induction.
       It really is <em>stronger</em>,
@@ -941,7 +941,7 @@
       If you can prove a statement using simpler tools, it is nice to do so.
     </p>
 
-    <p permid="p16">
+    <p permid="p14">
       As a final contrast between the two forms of induction,
       consider once more the stamp problem.
       Regular induction worked by showing how to increase postage by one cent

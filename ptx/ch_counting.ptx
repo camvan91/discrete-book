@@ -9,7 +9,7 @@
       For example:
 
       <ul permid="ul">
-        <li permid="li1">
+        <li permid="l_l">
           <p permid="p">
             In a group of 10 people,
             if everyone shakes hands with everyone else exactly once,
@@ -17,13 +17,13 @@
           </p>
         </li>
 
-        <li permid="li2">
+        <li permid="l_w">
           <p permid="p">
             How many ways can you distribute <m>10</m> girl scout cookies to <m>7</m> boy scouts?
           </p>
         </li>
 
-        <li permid="li3">
+        <li permid="l_h">
           <p permid="p">
             How many anagrams are there of <q>anagram</q>?
           </p>

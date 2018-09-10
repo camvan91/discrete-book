@@ -9,17 +9,17 @@
         They tell you:
       </p>
 
-      <blockquote>
-        <p permid="p2">
+      <blockquote permid="bq">
+        <p permid="p1">
           Troll 1: If we are cousins, then we are both knaves.
         </p>
 
-        <p permid="p3">
+        <p permid="p2">
           Troll 2: We are cousins or we are both knaves.
         </p>
       </blockquote>
 
-      <p permid="p4">
+      <p permid="p2">
         Could both trolls be knights?
         Recall that all trolls are either always-truth-telling knights or always-lying knaves.
       </p>
@@ -45,14 +45,14 @@
       Here's a question about playing Monopoly:
     </p>
 
-    <blockquote>
-      <p permid="p2">
+    <blockquote permid="bq">
+      <p permid="p">
         If you get more doubles than any other player then you will lose,
         or if you lose then you must have bought the most properties.
       </p>
     </blockquote>
 
-    <p permid="p3">
+    <p permid="p2">
       True or false?
       We will answer this question,
       and won't need to know anything about Monopoly.
@@ -60,7 +60,7 @@
       <em>form</em> of the statement.
     </p>
 
-    <p permid="p4">
+    <p permid="p3">
       We need to decide when the statement <m>(P \imp Q) \vee (Q \imp R)</m> is true.
       Using the definitions of the connectives in
       <xref ref="sec_intro-statements"/>, we see that for this to be true,
@@ -85,7 +85,7 @@
       as a way of breaking up our task into smaller, more manageable pieces.
     </p>
 
-    <p permid="p5">
+    <p permid="p4">
       Since the truth value of a statement is completely determined by the truth values of its parts and how they are connected,
       all you really need to know is the truth tables for each of the logical connectives.
       Here they are:
@@ -219,7 +219,7 @@
 
     </sidebyside>
 
-    <p permid="p6">
+    <p permid="p5">
       The truth table for negation looks like this:
     </p>
 
@@ -247,7 +247,7 @@
 
     </sidebyside>
 
-    <p permid="p7">
+    <p permid="p6">
       None of these truth tables should come as a surprise;
       they are all just restating the definitions of the connectives.
       Let's try another one.
@@ -316,7 +316,7 @@
       </solution>
     </example>
 
-    <p permid="p8">
+    <p permid="p7">
       Now let's answer our question about monopoly:
     </p>
 
@@ -446,7 +446,7 @@
       </solution>
     </example>
 
-    <p permid="p9">
+    <p permid="p8">
       The statement about monopoly is an example of a <term>tautology</term>,
           <idx><h>tautology</h></idx>
       a statement which is true on the basis of its logical form alone.
@@ -819,8 +819,8 @@
       Earlier we claimed that the following was a valid argument:
     </p>
 
-    <blockquote>
-      <p permid="p2">
+    <blockquote permid="bq">
+      <p permid="p">
         If Edith eats her vegetables,
         then she can have a cookie.
         Edith ate her vegetables.
@@ -828,7 +828,7 @@
       </p>
     </blockquote>
 
-    <p permid="p3">
+    <p permid="p2">
       How do we know this is valid?
       Let's look at the form of the statements.
       Let <m>P</m> denote <q>Edith eats her vegetables</q>
@@ -855,7 +855,7 @@
 
     </sidebyside>
 
-    <p permid="p4">
+    <p permid="p3">
       This is an example of a <term>deduction rule</term>,
           <idx><h>deduction rule</h></idx>
       an argument form which is always valid.
@@ -901,7 +901,7 @@
 
     </sidebyside>
 
-    <p permid="p5">
+    <p permid="p4">
       This is just the truth table for <m>P \imp Q</m>,
       but what matters here is that all the lines in the deduction rule have their own column in the truth table.
       Remember that an argument is valid provided the conclusion must be true given that the premises are true.
@@ -914,7 +914,7 @@
       we see that <m>Q</m> must be true as well.
     </p>
 
-    <p permid="p6">
+    <p permid="p5">
       Here are a few more examples.
     </p>
 
@@ -1187,13 +1187,13 @@
       For example, we might want to work with the statement:
     </p>
 
-    <blockquote>
-      <p permid="p2">
+    <blockquote permid="bq">
+      <p permid="p">
         All primes greater than 2 are odd.
       </p>
     </blockquote>
 
-    <p permid="p3">
+    <p permid="p2">
       To write this statement symbolically, we must use quantifiers.
       We can translate as follows:
       <me>
@@ -1211,7 +1211,7 @@
       we need to use <term>predicate logic</term>.
     </p>
 
-    <p permid="p4">
+    <p permid="p3">
       It is important to stress that predicate logic
       <em>extends</em> propositional logic
       (much in the way quantum mechanics extends classical mechanics).
@@ -1222,7 +1222,7 @@
       <m>Q</m>, etc.
     </p>
 
-    <p permid="p5">
+    <p permid="p4">
       A full treatment of predicate logic is beyond the scope of this text.
       One reason is that there is no systematic procedure for deciding whether two statements in predicate logic are logically equivalent (i.e., there is no analogue to truth tables here).
       Rather, we end with a couple of examples of logical equivalence and deduction,

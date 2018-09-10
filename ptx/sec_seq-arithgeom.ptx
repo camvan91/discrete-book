@@ -12,7 +12,7 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
 
             <sidebyside width="65%">
 
@@ -36,7 +36,7 @@
 
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
 
             <sidebyside width="65%">
 
@@ -65,7 +65,7 @@
 
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
 
             <sidebyside width="90%">
 
@@ -160,9 +160,9 @@
 
         <p permid="p2">
           <ol permid="ol">
-            <li permid="li1"><m>2, 5, 8, 11, 14, \ldots</m>.</li>
+            <li permid="l_l"><m>2, 5, 8, 11, 14, \ldots</m>.</li>
 
-            <li permid="li2"><m>50, 43, 36, 29, \ldots</m>.</li>
+            <li permid="l_w"><m>50, 43, 36, 29, \ldots</m>.</li>
           </ol>
         </p>
       </statement>
@@ -174,7 +174,7 @@
 
         <p permid="p2">
           <ol permid="ol">
-            <li permid="li1">
+            <li permid="l_l">
               <m>5-2 = 3</m>, <m>8-5 = 3</m>, etc.
               To get from each term to the next,
               we add three, so <m>d = 3</m>.
@@ -182,7 +182,7 @@
               The closed formula is <m>a_n = 2 + 3n</m>.
             </li>
 
-            <li permid="li2">
+            <li permid="l_w">
               <p permid="p">
                 Here the common difference is <m>-7</m>,
                 since we add <m>-7</m> to 50 to get 43, and so on.
@@ -247,9 +247,9 @@
           Again, the first term listed is <m>a_0</m>.
 
           <ol permid="ol">
-            <li permid="li1"><m>3, 6, 12, 24, 48, \ldots</m></li>
+            <li permid="l_l"><m>3, 6, 12, 24, 48, \ldots</m></li>
 
-            <li permid="li2"><m>27, 9, 3, 1, 1/3, \ldots</m></li>
+            <li permid="l_w"><m>27, 9, 3, 1, 1/3, \ldots</m></li>
           </ol>
         </p>
       </statement>
@@ -261,7 +261,7 @@
           we will have found <m>r</m>.
 
           <ol permid="ol">
-            <li permid="li1">
+            <li permid="l_l">
               <m>6/3 = 2</m>, <m>12/6 = 2</m>, <m>24/12 = 2</m>, etc.
               Yes, to get from any term to the next,
               we multiply by <m>r = 2</m>.
@@ -269,7 +269,7 @@
               The closed formula is <m>a_n = 3\cdot 2^{n}</m>.
             </li>
 
-            <li permid="li2">
+            <li permid="l_w">
               <p permid="p">
                 The common ratio is <m>r = 1/3</m>.
                 So the sequence has recursive definition <m>a_n = \frac{1}{3}a_{n-1}</m> with
@@ -318,7 +318,7 @@
           Your neighborhood grocery store has a candy machine full of Skittles.
 
           <ol permid="ol">
-            <li permid="li1">
+            <li permid="l_l">
               <p permid="p">
                 Suppose that the candy machine currently holds exactly 650 Skittles,
                 and every time someone inserts a quarter,
@@ -331,7 +331,7 @@
                     </p>
                   </li>
 
-                  <li permid="li2">
+                  <li permid="l_w">
                     <p permid="p">
                       Will there ever be exactly zero Skittles left in the machine?
                       Explain.
@@ -341,14 +341,14 @@
               </p>
             </li>
 
-            <li permid="li1">
+            <li permid="l_l">
               <p permid="p">
                 What if the candy machine gives 7 Skittles to the first customer who put in a quarter, 10 to the second, 13 to the third, 16 to the fourth, etc.
                 How many Skittles has the machine given out after 20 quarters are put into the machine?
               </p>
             </li>
 
-            <li permid="li2">
+            <li permid="l_w">
               <p permid="p">
                 Now, what if the machine gives 4 Skittles to the first customer, 7 to the second, 12 to the third, 19 to the fourth, etc.
                 How many Skittles has the machine given out after 20 quarters are put into the machine?
@@ -938,22 +938,22 @@
 
           <p permid="p2">
             <ol permid="ol">
-              <li permid="li1"><m>1 + 2 + 3 + 4 + \cdots + 100</m></li>
+              <li permid="l_l"><m>1 + 2 + 3 + 4 + \cdots + 100</m></li>
 
-              <li permid="li2"><m>1 + 2 + 4 + 8 + \cdots + 2^{50}</m></li>
+              <li permid="l_w"><m>1 + 2 + 4 + 8 + \cdots + 2^{50}</m></li>
 
-              <li permid="li3"><m>6 + 10 + 14 + \cdots + (4n - 2)</m>.</li>
+              <li permid="l_h"><m>6 + 10 + 14 + \cdots + (4n - 2)</m>.</li>
             </ol>
           </p>
         </statement>
         <solution permid="s">
           <p permid="p">
             <ol permid="ol">
-              <li permid="li1"><m>\d\sum_{k=1}^{100} k</m></li>
+              <li permid="l_l"><m>\d\sum_{k=1}^{100} k</m></li>
 
-              <li permid="li2"><m>\d\sum_{k=0}^{50} 2^k</m></li>
+              <li permid="l_w"><m>\d\sum_{k=0}^{50} 2^k</m></li>
 
-              <li permid="li3"><m>\d\sum_{k=2}^{n} (4k -2)</m></li>
+              <li permid="l_h"><m>\d\sum_{k=2}^{n} (4k -2)</m></li>
             </ol>
           </p>
         </solution>

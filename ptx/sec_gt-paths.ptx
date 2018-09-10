@@ -13,7 +13,7 @@
         has an Euler path or circuit.
 
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               Which of the graphs below have Euler paths?
               Which have Euler circuits?
@@ -56,14 +56,14 @@
 
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               List the degrees of each vertex of the graphs above.
               Is there a connection between degrees and the existence of Euler paths and circuits?
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               Is it possible for a graph with a degree 1 vertex to have an Euler circuit?
               If so, draw one.
@@ -72,7 +72,7 @@
             </p>
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <p permid="p">
               What if every vertex of the graph has degree 2.
               Is there an Euler path?
@@ -81,7 +81,7 @@
             </p>
           </li>
 
-          <li permid="li5">
+          <li permid="l_d">
             <p permid="p">
               Below is <em>part</em> of a graph.
               Even though you can only see some of the vertices,
@@ -235,13 +235,13 @@
       <title>Euler Paths and Circuits</title>
       <p permid="p">
         <ul permid="ul">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               A graph has an Euler circuit if and only if the degree of every vertex is even.
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               A graph has an Euler path if and only if there are at most two vertices with odd degree.
             </p>

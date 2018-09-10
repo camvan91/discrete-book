@@ -2,12 +2,12 @@
 
 <backmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="backmatter">
   <title>Backmatter</title>
-  <appendix>
+  <appendix permid="appendix-selected-solutions">
     <title>Selected Solutions</title>
     <solution-list/>
   </appendix>
 
-  <appendix>
+  <appendix permid="appendix-lst-symbols">
     <title>List of Symbols</title>
     <notation-list/>
   </appendix>
@@ -18,7 +18,7 @@
   </index>
 
   <colophon>
-    <p>
+    <p permid="p">
       This book was authored in MathBook XML.
     </p>
   </colophon>

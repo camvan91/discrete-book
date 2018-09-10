@@ -44,27 +44,27 @@
           <idx><h>Goldbach conjecture</h></idx>
     </p>
 
-    <blockquote>
-      <p permid="p6">
+    <blockquote permid="bq1">
+      <p permid="p">
         Every even number greater than 2 can be written as the sum of two primes.
       </p>
     </blockquote>
 
-    <p permid="p7">
+    <p permid="p6">
       We are not going to try to prove the statement here,
       but we can at least say what a proof might look like,
       based on the logical form of the statement.
       Perhaps we should write the statement in an equivalent way which better highlights the quantifiers and connectives:
     </p>
 
-    <blockquote>
-      <p permid="p8">
+    <blockquote permid="bq2">
+      <p permid="p">
         For all integers <m>n</m>,
         if <m>n</m> is even and greater than 2, then there exists integers <m>p</m> and <m>q</m> such that <m>p</m> and <m>q</m> are prime and <m>n = p+q</m>.
       </p>
     </blockquote>
 
-    <p permid="p9">
+    <p permid="p7">
       What would a direct proof look like?
       Since the statement starts with a universal quantifier,
       we would start by, ``Let <m>n</m> be an arbitrary integer." The rest of the statement is an implication.
@@ -77,22 +77,22 @@
       and explain how we know that <m>n = p+q</m>.
     </p>
 
-    <p permid="p10">
+    <p permid="p8">
       Or maybe we try a proof by contradiction.
       To do this, we first assume the negation of the statement we want to prove.
       What is the negation?
       From what we have studied we should be able to see that it is,
     </p>
 
-    <blockquote>
-      <p permid="p11">
+    <blockquote permid="bq3">
+      <p permid="p">
         There is an integer <m>n</m> such that <m>n</m> is even and greater than <m>2</m>,
         but for all integers <m>p</m> and <m>q</m>,
         either <m>p</m> or <m>q</m> is not prime or <m>n \ne p+q</m>.
       </p>
     </blockquote>
 
-    <p permid="p12">
+    <p permid="p9">
       Could this statement be true?
       A proof by contradiction would start by assuming it was and eventually conclude with a contradiction,
       proving that our assumption of truth was incorrect.

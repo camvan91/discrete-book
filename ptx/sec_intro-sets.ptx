@@ -155,20 +155,20 @@
 
         <p permid="p2">
           <ol permid="ol">
-            <li permid="li1"><m>\{x \st x + 3 \in \N\}</m>.</li>
+            <li permid="l_l"><m>\{x \st x + 3 \in \N\}</m>.</li>
 
-            <li permid="li2"><m>\{x \in \N \st x + 3 \in \N\}</m>.</li>
+            <li permid="l_w"><m>\{x \in \N \st x + 3 \in \N\}</m>.</li>
 
-            <li permid="li3"><m>\{x \st x \in \N \vee -x \in \N\}</m>.</li>
+            <li permid="l_h"><m>\{x \st x \in \N \vee -x \in \N\}</m>.</li>
 
-            <li permid="li4"><m>\{x \st x \in \N \wedge -x \in \N\}</m>.</li>
+            <li permid="l_s"><m>\{x \st x \in \N \wedge -x \in \N\}</m>.</li>
           </ol>
         </p>
       </statement>
       <solution permid="s">
         <p permid="p">
           <ol permid="ol">
-            <li permid="li1">
+            <li permid="l_l">
               <p permid="p">
                 This is the set of all numbers which are 3 less than a natural number (i.e., that if you add 3 to them,
                 you get a natural number).
@@ -178,14 +178,14 @@
               </p>
             </li>
 
-            <li permid="li2">
+            <li permid="l_w">
               <p permid="p">
                 This is the set of all natural numbers which are 3 less than a natural number.
                 So here we just have <m>\{0, 1, 2,3 \ldots\}</m>.
               </p>
             </li>
 
-            <li permid="li3">
+            <li permid="l_h">
               <p permid="p">
                 This is the set of all integers
                 <idx>
@@ -196,7 +196,7 @@
               </p>
             </li>
 
-            <li permid="li4">
+            <li permid="l_s">
               <p permid="p">
                 Here we want all numbers <m>x</m> such that <m>x</m> and <m>-x</m> are natural numbers.
                 There is only one: 0.
@@ -218,7 +218,7 @@
       <title>Special sets</title>
       <p permid="p">
         <dl permid="dl" width="narrow">
-          <li permid="li1">
+          <li permid="l_l">
             <title><m>\emptyset</m></title>
             <p permid="p">
               The <term>empty set</term> is the set which contains no elements.
@@ -232,7 +232,7 @@
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <title><m>\U</m></title>
             <p permid="p">
               The <term>universe set</term> is the set of all elements.
@@ -245,7 +245,7 @@
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <title><m>\N</m></title>
             <p permid="p">
               The set of natural numbers.
@@ -263,7 +263,7 @@
             </p>
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <title><m>\Z</m></title>
             <p permid="p">
               The set of
@@ -279,7 +279,7 @@
             </p>
           </li>
 
-          <li permid="li5">
+          <li permid="l_d">
             <title><m>\Q</m></title>
             <p permid="p">
               The set of rational numbers.
@@ -293,7 +293,7 @@
             </p>
           </li>
 
-          <li permid="li6">
+          <li permid="l_o">
             <title><m>\R</m></title>
             <p permid="p">
               The set of real numbers.
@@ -306,7 +306,7 @@
             </p>
           </li>
 
-          <li permid="li7">
+          <li permid="l_z">
             <title><m>\pow(A)</m></title>
             <p permid="p">
               The <term>power set</term> of any set <m>A</m> is the set of all subsets of <m>A</m>.
@@ -326,7 +326,7 @@
       <title>Set Theory Notation</title>
       <p permid="p">
         <dl permid="dl" width="narrow">
-          <li permid="li1">
+          <li permid="l_l">
             <title><m>\{, \}</m></title>
             <p permid="p">
               We use these <term>braces</term> to enclose the elements of a set.
@@ -340,7 +340,7 @@
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <title><m>\st</m></title>
             <p permid="p">
               <m>\{x \st x &gt; 2\}</m> is the set of all <m>x</m> <term>such that</term>
@@ -354,7 +354,7 @@
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <title><m>\in</m></title>
             <p permid="p">
               <m>2 \in \{1,2,3\}</m> asserts that 2 is
@@ -369,7 +369,7 @@
             </p>
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <title><m>\not\in</m></title>
             <p permid="p">
               <m>4 \notin \{1,2,3\}</m> because 4
@@ -378,7 +378,7 @@
             </p>
           </li>
 
-          <li permid="li5">
+          <li permid="l_d">
             <title><m>\subseteq</m></title>
             <p permid="p">
               <m>A \subseteq B</m> asserts that
@@ -393,7 +393,7 @@
             </p>
           </li>
 
-          <li permid="li6">
+          <li permid="l_o">
             <title><m>\subset</m></title>
             <p permid="p">
               <m>A \subset B</m> asserts that
@@ -409,7 +409,7 @@
             </p>
           </li>
 
-          <li permid="li7">
+          <li permid="l_z">
             <title><m>\cap</m></title>
             <p permid="p">
               <m>A \cap B</m> is the <term>intersection of <m>A</m> and <m>B</m></term>:
@@ -424,7 +424,7 @@
             </p>
           </li>
 
-          <li permid="li8">
+          <li permid="l_k">
             <title><m>\cup</m></title>
             <p permid="p">
               <m>A \cup B</m> is the <term>union of <m>A</m> and <m>B</m></term>:
@@ -439,7 +439,7 @@
             </p>
           </li>
 
-          <li permid="li9">
+          <li permid="l_v">
             <title><m>\times</m></title>
             <p permid="p">
               <m>A \times B</m> is the <term>Cartesian product of <m>A</m> and <m>B</m></term>:
@@ -453,7 +453,7 @@
             </p>
           </li>
 
-          <li permid="li10">
+          <li permid="l_g">
             <title><m>\setminus</m></title>
             <p permid="p">
               <m>A \setminus B</m> is <term><m>A</m> set-minus <m>B</m></term>:
@@ -467,7 +467,7 @@
             </p>
           </li>
 
-          <li permid="li11">
+          <li permid="l_r">
             <title><m>\bar{A}</m></title>
             <p permid="p">
               The <term>complement of <m>A</m></term>
@@ -481,7 +481,7 @@
             </p>
           </li>
 
-          <li permid="li12">
+          <li permid="l_c">
             <title><m>\card{A}</m></title>
             <p permid="p">
               The <term>cardinality
@@ -503,23 +503,23 @@
     <investigation permid="inv">
       <p permid="p">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p>
               Find the cardinality of each set below.
 
               <ol>
                 <li><m>A = \{3,4,\ldots, 15\}</m>.</li>
 
-                <li permid="li2"><m>B = \{n \in \N \st 2 \lt n \le 200\}</m>.</li>
+                <li permid="l_w"><m>B = \{n \in \N \st 2 \lt n \le 200\}</m>.</li>
 
-                <li permid="li3">
+                <li permid="l_h">
                   <m>C = \{n \le 100 \st n \in \N \wedge \exists m \in \N (n = 2m+1)\}</m>.
                 </li>
               </ol>
             </p>
           </li>
 
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               Find two sets <m>A</m> and <m>B</m> for which <m>|A| = 5</m>,
               <m>|B| = 6</m>, and <m>|A\cup B| = 9</m>.
@@ -527,7 +527,7 @@
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               Find sets <m>A</m> and <m>B</m> with <m>|A| = |B|</m> such that
               <m>|A\cup B| = 7</m> and <m>|A \cap B| = 3</m>.
@@ -535,7 +535,7 @@
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               Let <m>A = \{1,2,\ldots, 10\}</m>.
               Define <m>\mathcal{B}_2 = \{B \subseteq A \st |B| = 2\}</m>.
@@ -543,7 +543,7 @@
             </p>
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             For any sets <m>A</m> and <m>B</m>,
             define <m>AB = \{ab \st a\in A \wedge b \in B\}</m>.
             If <m>A = \{1,2\}</m> and <m>B = \{2,3,4\}</m>, what is <m>|AB|</m>?
@@ -599,44 +599,44 @@
 
         <p permid="p2">
           <ol permid="ol">
-            <li permid="li1"><m>A \subset B</m>.</li>
+            <li permid="l_l"><m>A \subset B</m>.</li>
 
-            <li permid="li2"><m>B \subset A</m>.</li>
+            <li permid="l_w"><m>B \subset A</m>.</li>
 
-            <li permid="li3"><m>B \in C</m>.</li>
+            <li permid="l_h"><m>B \in C</m>.</li>
 
-            <li permid="li4"><m>\emptyset \in A</m>.</li>
+            <li permid="l_s"><m>\emptyset \in A</m>.</li>
 
-            <li permid="li5"><m>\emptyset \subset A</m>.</li>
+            <li permid="l_d"><m>\emptyset \subset A</m>.</li>
 
-            <li permid="li6"><m>A \lt D</m>.</li>
+            <li permid="l_o"><m>A \lt D</m>.</li>
 
-            <li permid="li7"><m>3 \in C</m>.</li>
+            <li permid="l_z"><m>3 \in C</m>.</li>
 
-            <li permid="li8"><m>3 \subset C</m>.</li>
+            <li permid="l_k"><m>3 \subset C</m>.</li>
 
-            <li permid="li9"><m>\{3\} \subset C</m>.</li>
+            <li permid="l_v"><m>\{3\} \subset C</m>.</li>
           </ol>
         </p>
       </statement>
       <solution permid="s">
         <p permid="p">
           <ol permid="ol">
-            <li permid="li1">
+            <li permid="l_l">
               <p permid="p">
                 False.
                 For example, <m>1\in A</m> but <m>1 \notin B</m>.
               </p>
             </li>
 
-            <li permid="li2">
+            <li permid="l_w">
               <p permid="p">
                 True.
                 Every element in <m>B</m> is an element in <m>A</m>.
               </p>
             </li>
 
-            <li permid="li3">
+            <li permid="l_h">
               <p permid="p">
                 False.
                 The elements in <m>C</m> are 1, 2, and 3.
@@ -644,14 +644,14 @@
               </p>
             </li>
 
-            <li permid="li4">
+            <li permid="l_s">
               <p permid="p">
                 False. <m>A</m> has exactly 6 elements,
                 and none of them are the empty set.
               </p>
             </li>
 
-            <li permid="li5">
+            <li permid="l_d">
               <p permid="p">
                 True.
                 Everything in the empty set (nothing) is also an element of <m>A</m>.
@@ -659,27 +659,27 @@
               </p>
             </li>
 
-            <li permid="li6">
+            <li permid="l_o">
               <p permid="p">
                 Meaningless.
                 A set cannot be less than another set.
               </p>
             </li>
 
-            <li permid="li7">
+            <li permid="l_z">
               <p permid="p">
                 True. <m>3</m> is one of the elements of the set <m>C</m>.
               </p>
             </li>
 
-            <li permid="li8">
+            <li permid="l_k">
               <p permid="p">
                 Meaningless. <m>3</m> is not a set,
                 so it cannot be a subset of another set.
               </p>
             </li>
 
-            <li permid="li9">
+            <li permid="l_v">
               <p permid="p">
                 True. <m>3</m> is the only element of the set <m>\{3\}</m>,
                 and is an element of <m>C</m>,
@@ -769,19 +769,19 @@
       <statement>
         <p permid="p">
           <ol permid="ol">
-            <li permid="li1">
+            <li permid="l_l">
               <p permid="p">
                 Find the cardinality of <m>A = \{23, 24, \ldots, 37, 38\}</m>.
               </p>
             </li>
 
-            <li permid="li2">
+            <li permid="l_w">
               <p permid="p">
                 Find the cardinality of <m>B = \{1, \{2, 3, 4\}, \emptyset\}</m>.
               </p>
             </li>
 
-            <li permid="li3">
+            <li permid="l_h">
               <p permid="p">
                 If <m>C = \{1,2,3\}</m>, what is the cardinality of <m>\pow(C)</m>?
               </p>
@@ -792,7 +792,7 @@
       <solution permid="s">
         <p permid="p">
           <ol permid="ol">
-            <li permid="li1">
+            <li permid="l_l">
               <p permid="p">
                 Since <m>38 - 23 = 15</m>,
                 we can conclude that the cardinality of the set is <m>|A| = 16</m>
@@ -800,7 +800,7 @@
               </p>
             </li>
 
-            <li permid="li2">
+            <li permid="l_w">
               <p permid="p">
                 Here <m>|B| = 3</m>.
                 The three elements are the number 1, the set <m>\{2,3,4\}</m>,
@@ -808,7 +808,7 @@
               </p>
             </li>
 
-            <li permid="li3">
+            <li permid="l_h">
               <p permid="p">
                 We wrote out the elements of the power set <m>\pow(C)</m> above,
                 and there are 8 elements
@@ -930,67 +930,67 @@
           If the universe is <m>\U = \{1, 2, \ldots, 10\}</m>, find:
 
           <ol permid="ol">
-            <li permid="li1"><m>A \cup B</m>.</li>
+            <li permid="l_l"><m>A \cup B</m>.</li>
 
-            <li permid="li2"><m>A \cap B</m>.</li>
+            <li permid="l_w"><m>A \cap B</m>.</li>
 
-            <li permid="li3"><m>B \cap C</m>.</li>
+            <li permid="l_h"><m>B \cap C</m>.</li>
 
-            <li permid="li4"><m>A \cap D</m>.</li>
+            <li permid="l_s"><m>A \cap D</m>.</li>
 
-            <li permid="li5"><m>\bar{B \cup C}</m>.</li>
+            <li permid="l_d"><m>\bar{B \cup C}</m>.</li>
 
-            <li permid="li6"><m>A \setminus B</m>.</li>
+            <li permid="l_o"><m>A \setminus B</m>.</li>
 
-            <li permid="li7"><m>(D \cap \bar C) \cup \bar{A \cap B}</m>.</li>
+            <li permid="l_z"><m>(D \cap \bar C) \cup \bar{A \cap B}</m>.</li>
 
-            <li permid="li8"><m>\emptyset \cup C</m>.</li>
+            <li permid="l_k"><m>\emptyset \cup C</m>.</li>
 
-            <li permid="li9"><m>\emptyset \cap C</m>.</li>
+            <li permid="l_v"><m>\emptyset \cap C</m>.</li>
           </ol>
         </p>
       </statement>
       <solution permid="s">
         <p permid="p">
           <ol permid="ol">
-            <li permid="li1">
+            <li permid="l_l">
               <m>A \cup B = \{1, 2, 3, 4, 5, 6\} = A</m> since everything in <m>B</m> is already in <m>A</m>.
             </li>
 
-            <li permid="li2">
+            <li permid="l_w">
               <m>A \cap B = \{2, 4, 6\} = B</m> since everything in <m>B</m> is in <m>A</m>.
             </li>
 
-            <li permid="li3">
+            <li permid="l_h">
               <m>B \cap C = \{2\}</m> as the only element of both <m>B</m> and <m>C</m> is 2.
             </li>
 
-            <li permid="li4">
+            <li permid="l_s">
               <m>A \cap D = \emptyset</m> since <m>A</m> and <m>D</m> have no common elements.
             </li>
 
-            <li permid="li5">
+            <li permid="l_d">
               <m>\bar{B \cup C} = \{5, 7, 8, 9, 10\}</m>.
               First we find that <m>B \cup C = \{1, 2, 3, 4, 6\}</m>,
               then we take everything not in that set.
             </li>
 
-            <li permid="li6">
+            <li permid="l_o">
               <m>A \setminus B = \{1, 3, 5\}</m> since the elements 1, 3, and 5 are in <m>A</m> but not in <m>B</m>.
               This is the same as <m>A \cap \bar B</m>.
             </li>
 
-            <li permid="li7">
+            <li permid="l_z">
               <m>(D \cap \bar C) \cup \bar{A \cap B} = \{1, 3, 5, 7, 8, 9, 10\}</m>.
               The set contains all elements that are either in <m>D</m> but not in <m>C</m> (i.e., <m>\{7,8,9\}</m>),
               or not in both <m>A</m> and <m>B</m> (i.e., <m>\{1,3,5,7,8,9,10\}</m>).
             </li>
 
-            <li permid="li8">
+            <li permid="l_k">
               <m>\emptyset \cup C = C</m> since nothing is added by the empty set.
             </li>
 
-            <li permid="li9">
+            <li permid="l_v">
               <m>\emptyset \cap C = \emptyset</m> since nothing can be both in a set and in the empty set.
             </li>
           </ol>

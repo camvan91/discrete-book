@@ -73,7 +73,7 @@
         Consider some classic polyhedrons.
 
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               An <em>octahedron</em> is a regular polyhedron made up of 8 equilateral triangles
               (it sort of looks like two pyramids with their bases glued together).
@@ -84,7 +84,7 @@
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               The traditional design of a soccer ball is in fact a
               (spherical projection of a)
@@ -99,7 +99,7 @@
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               Your <q>friend</q> claims that he has constructed a convex polyhedron out of 2 triangles, 2 squares, 6 pentagons and 5 octagons.
               Prove that your friend is lying.
@@ -160,7 +160,7 @@
 
   <exercise permid="e_ys">
     <statement>
-      <p permid="p1">
+      <p permid="p">
         Prove that the <em>Petersen graph</em>
             <idx><h>Petersen graph</h></idx>
         (below) is not planar.
@@ -182,8 +182,8 @@
 
       </sidebyside>
     </statement>
-    <hint>
-      <p permid="p2">
+    <hint permid="h">
+      <p permid="p">
         What is the length of the shortest cycle? (This quantity is usually called the
         <term>girth</term> of the graph.)
       </p>

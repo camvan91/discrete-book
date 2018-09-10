@@ -23,7 +23,7 @@
         Your task: figure out how long before we need to start worrying about the end of the world.
 
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               First, let's find the minimum number of moves required for a smaller number of disks.
               Collect some data.
@@ -31,7 +31,7 @@
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               Conjecture a formula for the minimum number of moves required to move <m>n</m> disks.
               Test your conjecture.
@@ -39,7 +39,7 @@
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               If the monks were able to move one disk every second without ever stopping,
               how long before the world ends?

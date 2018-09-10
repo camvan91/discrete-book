@@ -10,44 +10,44 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               Find <m>A \cap B</m>.
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               Find <m>A \cup B</m>.
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               Find <m>A \setminus B</m>.
             </p>
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <p permid="p">
               Find <m>A \cap \overline{(B \cup C)}</m>.
             </p>
           </li>
 
-          <li permid="li5">
+          <li permid="l_d">
             <p permid="p">
               Find <m>A \times C</m>.
             </p>
           </li>
 
-          <li permid="li6">
+          <li permid="l_o">
             <p permid="p">
               Is <m>C \subseteq A</m>?
               Explain.
             </p>
           </li>
 
-          <li permid="li7">
+          <li permid="l_z">
             <p permid="p">
               Is <m>C \subseteq B</m>?
               Explain.
@@ -59,27 +59,27 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="li1"><m>A \cap B = \{3,4,5\}</m>.</li>
+          <li permid="l_l"><m>A \cap B = \{3,4,5\}</m>.</li>
 
-          <li permid="li2"><m>A \cup B = \{1,2,3,4,5,6,7\}</m>.</li>
+          <li permid="l_w"><m>A \cup B = \{1,2,3,4,5,6,7\}</m>.</li>
 
-          <li permid="li3"><m>A \setminus B = \{1,2\}</m>.</li>
+          <li permid="l_h"><m>A \setminus B = \{1,2\}</m>.</li>
 
-          <li permid="li4"><m>A \cap \bar{(B \cup C)} = \{1\}</m>.</li>
+          <li permid="l_s"><m>A \cap \bar{(B \cup C)} = \{1\}</m>.</li>
 
-          <li permid="li5">
+          <li permid="l_d">
             <m>A \times C = \{ (1,2), (1,3), (1,5), (2,2), (2,3), (2,5), (3,2), (3,3), (3,5), (4,2)</m>,
             <m>(4,3), (4,5), (5,2), (5,3), (5,5)\}</m>
           </li>
 
-          <li permid="li6">
+          <li permid="l_o">
             <p permid="p">
               Yes.
               All three elements of <m>C</m> are also elements of <m>A</m>.
             </p>
           </li>
 
-          <li permid="li7">
+          <li permid="l_z">
             <p permid="p">
               No.
               There is an element of <m>C</m>,
@@ -101,25 +101,25 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               Find <m>A \cap B</m>.
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               Find <m>A \cup B</m>.
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               Find <m>B \cap C</m>.
             </p>
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <p permid="p">
               Find <m>B \cup C</m>.
             </p>
@@ -164,28 +164,28 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               Is <m>\Z^+ \subseteq 2\Z</m>?
               Explain.
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               Is <m>2\Z \subseteq \Z^+</m>?
               Explain.
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               Find <m>2\Z \cap 3\Z</m>.
               Describe the set in words, and using set notation.
             </p>
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <p permid="p">
               Express <m>\{x \in \Z \st \exists y\in \Z (x = 2y \vee x = 3y)\}</m> as a union or intersection of two sets already described in this problem.
             </p>
@@ -196,25 +196,25 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               No.
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               No.
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <m>2\Z \cap 3\Z</m> is the set of all integers which are multiples of both 2 and 3
             (so multiples of 6).
             Therefore <m>2\Z \cap 3\Z = \{x \in \Z \st \exists y\in \Z(x = 6y)\}</m>.
           </li>
 
-          <li permid="li4"><m>2\Z \cup 3\Z</m>.</li>
+          <li permid="l_s"><m>2\Z \cup 3\Z</m>.</li>
         </ol>
       </p>
     </solution>
@@ -238,24 +238,24 @@
         Draw a Venn diagram to represent each of the following:
 
         <ol permid="ol">
-          <li permid="li1"><m>A \cup \bar B</m></li>
+          <li permid="l_l"><m>A \cup \bar B</m></li>
 
-          <li permid="li2"><m>\bar{(A \cup B)}</m></li>
+          <li permid="l_w"><m>\bar{(A \cup B)}</m></li>
 
-          <li permid="li3"><m>A \cap (B \cup C)</m></li>
+          <li permid="l_h"><m>A \cap (B \cup C)</m></li>
 
-          <li permid="li4"><m>(A \cap B) \cup C</m></li>
+          <li permid="l_s"><m>(A \cap B) \cup C</m></li>
 
-          <li permid="li5"><m>\bar A \cap B \cap \bar C</m></li>
+          <li permid="l_d"><m>\bar A \cap B \cap \bar C</m></li>
 
-          <li permid="li6"><m>(A \cup B) \setminus C</m></li>
+          <li permid="l_o"><m>(A \cup B) \setminus C</m></li>
         </ol>
       </p>
     </statement>
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               <m>A \cup \bar B</m>:
             </p>
@@ -280,7 +280,7 @@
 
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               <m>\bar{(A \cup B)}</m>:
             </p>
@@ -302,7 +302,7 @@
 
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               <m>A \cap (B \cup C)</m>:
             </p>
@@ -326,7 +326,7 @@
 
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <p permid="p">
               <m>(A \cap B) \cup C</m>:
             </p>
@@ -351,7 +351,7 @@
 
           </li>
 
-          <li permid="li5">
+          <li permid="l_d">
             <p permid="p">
               <m>\bar A \cap B \cap \bar C</m>:
             </p>
@@ -377,7 +377,7 @@
 
           </li>
 
-          <li permid="li6">
+          <li permid="l_o">
             <p permid="p">
               <m>(A \cup B) \setminus C</m>:
             </p>
@@ -445,13 +445,13 @@
         Find the following cardinalities:
 
         <ol permid="ol">
-          <li permid="li1"><m>|A|</m> when <m>A = \{4,5,6,\ldots,37\}</m></li>
+          <li permid="l_l"><m>|A|</m> when <m>A = \{4,5,6,\ldots,37\}</m></li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <m>|A|</m> when <m>A = \{x \in \Z \st -2 \le x \le 100\}</m>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <m>|A \cap B|</m> when <m>A = \{x \in \N \st x \le 20\}</m> and <m>B = \{x \in \N \st x \mbox{ is prime} \}</m>
           </li>
         </ol>
@@ -460,19 +460,19 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               34.
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               103.
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               8.
             </p>
@@ -484,13 +484,13 @@
 
   <exercise permid="e_gz">
     <statement>
-      <p permid="p1">
+      <p permid="p">
         Let <m>A = \{a, b, c, d\}</m>.
         Find <m>\pow(A)</m>.
       </p>
     </statement>
-    <hint>
-      <p permid="p2">
+    <hint permid="h">
+      <p permid="p">
         We are looking for a set containing 16 sets.
       </p>
     </hint>

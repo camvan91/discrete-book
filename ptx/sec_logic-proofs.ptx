@@ -8,16 +8,16 @@
         Decide which of the following are valid proofs of the following statement:
       </p>
 
-      <blockquote>
-        <p permid="p2">
+      <blockquote permid="bq">
+        <p permid="p">
           If <m>a b</m> is an even number,
           then <m>a</m> or <m>b</m> is even.
         </p>
       </blockquote>
 
-      <p permid="p3">
+      <p permid="p2">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p1">
               Suppose <m>a</m> and <m>b</m> are odd.
               That is, <m>a=2k+1</m> and <m>b=2m+1</m> for some integers <m>k</m> and <m>m</m>.
@@ -34,7 +34,7 @@
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p1">
               Assume that <m>a</m> or <m>b</m> is even - say it is <m>a</m>
               (the case where <m>b</m> is even will be identical).
@@ -51,7 +51,7 @@
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p1">
               Suppose that <m>ab</m> is even but <m>a</m> and <m>b</m> are both odd.
               Namely, <m>ab = 2n</m>,
@@ -73,7 +73,7 @@
             </p>
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <p permid="p1">
               Let <m>ab</m> be an even number,
               say <m>ab=2n</m>, and <m>a</m> be an odd number, say <m>a=2k+1</m>.
@@ -160,7 +160,7 @@
 
     <p permid="p4">
       <ol permid="ol">
-        <li permid="li1">
+        <li permid="l_l">
           <p permid="p">
             Suppose there are only finitely many primes.
 
@@ -169,7 +169,7 @@
           </p>
         </li>
 
-        <li permid="li2">
+        <li permid="l_w">
           <p permid="p">
             There must be a largest prime, call it <m>p</m>.
 
@@ -178,7 +178,7 @@
           </p>
         </li>
 
-        <li permid="li3">
+        <li permid="l_h">
           <p permid="p">
             Let <m>N = p! + 1</m>.
 
@@ -188,13 +188,13 @@
           </p>
         </li>
 
-        <li permid="li4">
+        <li permid="l_s">
           <m>N</m> is larger than <m>p</m>.
 
           <em>[by the definition of <m>p!</m>]</em>
         </li>
 
-        <li permid="li5">
+        <li permid="l_d">
           <m>N</m> is not divisible by any number less than or equal to <m>p</m>.
 
           <em>[by definition,
@@ -202,7 +202,7 @@
           so <m>p! + 1</m> is not.]</em>
         </li>
 
-        <li permid="li6">
+        <li permid="l_o">
           <p permid="p">
             The prime factorization of <m>N</m> contains prime numbers greater than <m>p</m>.
 
@@ -211,7 +211,7 @@
           </p>
         </li>
 
-        <li permid="li7">
+        <li permid="l_z">
           <p permid="p">
             Therefore <m>p</m> is not the largest prime.
 
@@ -219,7 +219,7 @@
           </p>
         </li>
 
-        <li permid="li8">
+        <li permid="l_k">
           <p permid="p">
             This is a contradiction.
 
@@ -228,7 +228,7 @@
           </p>
         </li>
 
-        <li permid="li9">
+        <li permid="l_v">
           <p permid="p">
             Therefore there are infinitely many primes.
 
@@ -279,8 +279,8 @@
       The general format to prove <m>P \imp Q</m> is this:
     </p>
 
-    <blockquote>
-      <p permid="p3">
+    <blockquote permid="bq">
+      <p permid="p">
         Assume <m>P</m>.
         Explain, explain,
         <ellipsis/>, explain.
@@ -288,7 +288,7 @@
       </p>
     </blockquote>
 
-    <p permid="p4">
+    <p permid="p3">
       Often we want to prove universal statements,
       perhaps of the form <m>\forall x (P(x) \imp Q(x))</m>.
       Again, we will want to assume <m>P(x)</m> is true and deduce <m>Q(x)</m>.
@@ -298,7 +298,7 @@
       (of the sort we are interested in).
     </p>
 
-    <p permid="p5">
+    <p permid="p4">
       Here are a few examples.
       First, we will set up the proof structure for a direct proof,
       then fill in the details.
@@ -413,8 +413,8 @@
       <m>P \imp Q</m> by contrapositive will always look roughly like this:
     </p>
 
-    <blockquote>
-      <p permid="p4">
+    <blockquote permid="bq">
+      <p permid="p">
         Assume <m>\neg Q</m>.
         Explain, explain,
         <ellipsis/> explain.
@@ -422,7 +422,7 @@
       </p>
     </blockquote>
 
-    <p permid="p5">
+    <p permid="p4">
       As before, if there are variables and quantifiers,
       we set them to be arbitrary elements of our domain.
       Here are a couple examples:
@@ -534,7 +534,7 @@
       </solution>
     </example>
 
-    <p permid="p6">
+    <p permid="p5">
       We have seen how to prove some statements in the form of implications:
       either directly or by contrapositive.
       Some statements are not written as implications to begin with.

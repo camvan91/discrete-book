@@ -108,7 +108,7 @@
         and no two people who dated should be in the same car.
 
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               What is the smallest number of cars you need if all the relationships were strictly heterosexual?
               Represent an example of such a situation with a graph.
@@ -116,7 +116,7 @@
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               Because a number of these friends dated there are also conflicts between friends of the same gender,
               listed below.
@@ -158,7 +158,7 @@
 
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               What do these questions have to do with coloring?
             </p>
@@ -208,7 +208,7 @@
         Recall, a tree is a connected graph with no cycles.
 
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               Describe a procedure to color the tree below.
             </p>
@@ -232,20 +232,20 @@
 
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               The chromatic number of <m>C_n</m> is two when <m>n</m> is even.
               What goes wrong when <m>n</m> is odd?
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               Prove that your procedure from part (a) always works for any tree.
             </p>
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <p permid="p">
               Now, prove using induction that every tree has chromatic number 2.
             </p>

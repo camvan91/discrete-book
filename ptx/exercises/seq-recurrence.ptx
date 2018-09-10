@@ -94,19 +94,19 @@
       </p>
 
       <ol permid="ol">
-        <li permid="li1">
+        <li permid="l_l">
           <p permid="p">
             What is the solution if the initial terms are <m>a_0 = 1</m> and <m>a_1 = 2</m>?
           </p>
         </li>
 
-        <li permid="li2">
+        <li permid="l_w">
           <p permid="p">
             What do the initial terms need to be in order for <m>a_9 = 30</m>?
           </p>
         </li>
 
-        <li permid="li3">
+        <li permid="l_h">
           <p permid="p">
             For which <m>x</m> are there initial terms which make <m>a_9 = x</m>?
           </p>
@@ -143,14 +143,14 @@
         the third time 16 Skittles, the fourth time 64 Skittles, etc.
 
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               Find both a recursive and closed formula for how many Skittles the
               <em>n</em>th customer gets.
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               Check your solution for the closed formula by solving the recurrence relation using the Characteristic Root technique.
             </p>
@@ -170,13 +170,13 @@
       </p>
 
       <ol permid="ol">
-        <li permid="li1">
+        <li permid="l_l">
           <p permid="p">
             Find a recursive definition for the sequence <m>a_n</m> of paths of length <m>n</m>.
           </p>
         </li>
 
-        <li permid="li2">
+        <li permid="l_w">
           <p permid="p">
             Solve the recurrence relation using the Characteristic Root technique.
           </p>
@@ -195,7 +195,7 @@
       </p>
 
       <ol permid="ol">
-        <li permid="li1">
+        <li permid="l_l">
           <p permid="p">
             First, find a recurrence relation to describe the problem.
             Explain why the recurrence relation is correct
@@ -203,13 +203,13 @@
           </p>
         </li>
 
-        <li permid="li2">
+        <li permid="l_w">
           <p permid="p">
             Write out the first 6 terms of the sequence <m>a_1, a_2, \ldots</m>.
           </p>
         </li>
 
-        <li permid="li3">
+        <li permid="l_h">
           <p permid="p">
             Solve the recurrence relation.
             That is, find a closed formula for <m>a_n</m>.
@@ -226,20 +226,20 @@
       </p>
 
       <ol permid="ol">
-        <li permid="li1">
+        <li permid="l_l">
           <p permid="p">
             Find the general solution to the recurrence relation
             (beware the repeated root).
           </p>
         </li>
 
-        <li permid="li2">
+        <li permid="l_w">
           <p permid="p">
             Find the solution when <m>a_0 = 1</m> and <m>a_1 = 2</m>.
           </p>
         </li>
 
-        <li permid="li3">
+        <li permid="l_h">
           <p permid="p">
             Find the solution when <m>a_0 = 1</m> and <m>a_1 = 8</m>.
           </p>

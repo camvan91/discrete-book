@@ -11,21 +11,21 @@
         You have 10 at the start of day 0.
 
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               Write out the first few terms of the sequence.
               Then give a recursive definition for the sequence and explain how you know it is correct.
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               Prove, using induction,
               that the last digit of the number of beans you have on the <m>n</m>th day is always a 5 for all <m>n \ge 1</m>.
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               Find a closed formula for the <m>n</m>th term of the sequence and prove it is correct by induction.
             </p>
@@ -60,7 +60,7 @@
 
     <p permid="p3">
       <ul permid="ul">
-        <li permid="li1">
+        <li permid="l_l">
           <p permid="p">
             If the terms of a sequence increase by a constant difference or constant ratio
             (these are both recursive descriptions),
@@ -69,7 +69,7 @@
           </p>
         </li>
 
-        <li permid="li2">
+        <li permid="l_w">
           <p permid="p">
             If the terms of a sequence increase at a polynomial rate
             (that is, if the differences between terms form a sequence with a polynomial closed formula),
@@ -78,7 +78,7 @@
           </p>
         </li>
 
-        <li permid="li3">
+        <li permid="l_h">
           <p permid="p">
             If the terms of a sequence increase at an exponential rate,
             then we expect the closed formula for the sequence to be exponential.
@@ -88,7 +88,7 @@
           </p>
         </li>
 
-        <li permid="li4">
+        <li permid="l_s">
           <p permid="p">
             If we want to prove that a statement is true for all values of <m>n</m>
             (greater than some first small value),
@@ -115,8 +115,6 @@
     </p>
   </introduction>
 
-<!--
   <xi:include href="exercises/seq-conc.ptx"/>
--->
 </section>
 

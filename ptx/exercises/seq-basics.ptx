@@ -9,25 +9,25 @@
       </p>
 
       <ol permid="ol">
-        <li permid="li1"><m>2, 5, 10, 17, 26, \ldots</m></li>
+        <li permid="l_l"><m>2, 5, 10, 17, 26, \ldots</m></li>
 
-        <li permid="li2"><m>0, 2, 5, 9, 14, 20, \ldots</m></li>
+        <li permid="l_w"><m>0, 2, 5, 9, 14, 20, \ldots</m></li>
 
-        <li permid="li3"><m>8, 12, 17, 23, 30,\ldots</m></li>
+        <li permid="l_h"><m>8, 12, 17, 23, 30,\ldots</m></li>
 
-        <li permid="li4"><m>1, 5, 23, 119, 719,\ldots</m></li>
+        <li permid="l_s"><m>1, 5, 23, 119, 719,\ldots</m></li>
       </ol>
     </statement>
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="li1"><m>a_n = n^2 + 1</m>.</li>
+          <li permid="l_l"><m>a_n = n^2 + 1</m>.</li>
 
-          <li permid="li2"><m>a_n = \frac{n(n+1)}{2} - 1</m>.</li>
+          <li permid="l_w"><m>a_n = \frac{n(n+1)}{2} - 1</m>.</li>
 
-          <li permid="li3"><m>a_n = \frac{(n+2)(n+3)}{2} + 2</m>.</li>
+          <li permid="l_h"><m>a_n = \frac{(n+2)(n+3)}{2} + 2</m>.</li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <m>a_n = (n+1)! - 1</m>
             (where <m>n! = 1 \cdot 2 \cdot 3 \cdots n</m>).
           </li>
@@ -48,25 +48,25 @@
       </p>
 
       <ol permid="ol">
-        <li permid="li1">
+        <li permid="l_l">
           <p permid="p">
             4, 5, 7, 11, 19, 35, <ellipsis/>
           </p>
         </li>
 
-        <li permid="li2">
+        <li permid="l_w">
           <p permid="p">
             0, 3, 8, 15, 24, 35, <ellipsis/>
           </p>
         </li>
 
-        <li permid="li3">
+        <li permid="l_h">
           <p permid="p">
             6, 12, 20, 30, 42, <ellipsis/>
           </p>
         </li>
 
-        <li permid="li4">
+        <li permid="l_s">
           <p permid="p">
             0, 2, 7, 15, 26, 40, 57, <ellipsis/> (Cryptic Hint:
             these might be called <q>house numbers</q>)
@@ -86,20 +86,20 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               Give the recursive definition for the sequence.
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               Write out the first few terms of the sequence of partial sums:
               <m>0</m>, <m>0+1</m>, <m>0+1+1</m>,<ellipsis/>
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               Give a closed formula for the sequence of partial sums in terms of <m>F_n</m>
 
@@ -119,13 +119,13 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <m>F_n = F_{n-1} + F_{n-2}</m> with <m>F_0 = 0</m> and <m>F_1 = 1</m>.
           </li>
 
-          <li permid="li2"><m>0, 1, 2, 4, 7, 12, 20, \ldots</m>.</li>
+          <li permid="l_w"><m>0, 1, 2, 4, 7, 12, 20, \ldots</m>.</li>
 
-          <li permid="li3"><m>F_0 + F_1 + \cdots + F_n = F_{n+2} - 1</m>.</li>
+          <li permid="l_h"><m>F_0 + F_1 + \cdots + F_n = F_{n+2} - 1</m>.</li>
         </ol>
       </p>
     </solution>
@@ -141,11 +141,11 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="li1"><m>2, 4, 6, 10, 16, 26, 42, \ldots</m>.</li>
+          <li permid="l_l"><m>2, 4, 6, 10, 16, 26, 42, \ldots</m>.</li>
 
-          <li permid="li2"><m>5, 6, 11, 17, 28, 45, 73, \ldots</m>.</li>
+          <li permid="l_w"><m>5, 6, 11, 17, 28, 45, 73, \ldots</m>.</li>
 
-          <li permid="li3"><m>0, 0 , 0 , 0 , 0 , 0 , 0 ,\ldots</m>.</li>
+          <li permid="l_h"><m>0, 0 , 0 , 0 , 0 , 0 , 0 ,\ldots</m>.</li>
         </ol>
       </p>
     </statement>

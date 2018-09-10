@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exercises_logic-conc">
   <title>Chapter Review</title>
-  <exercise permid="e_jm" xml:id="tt">
+  <exercise permid="tt" xml:id="tt">
     <statement>
       <p permid="p">
         Complete a truth table for the statement <m>\neg P \imp (Q \wedge R)</m>.
@@ -75,7 +75,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ai">
+  <exercise permid="e_jm">
     <statement>
       <p permid="p">
         Suppose you know that the statement
@@ -96,7 +96,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_rt">
+  <exercise permid="e_ai">
     <statement>
       <p permid="p">
         Are the statements <m>P \imp (Q \vee R)</m> and
@@ -112,7 +112,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ie">
+  <exercise permid="e_rt">
     <statement>
       <p permid="p">
         Is the following a valid deduction rule?
@@ -240,7 +240,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_za">
+  <exercise permid="e_ie">
     <statement>
       <p permid="p1">
         Write the negation,
@@ -249,28 +249,28 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               If the power goes off, then the food will spoil.
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               If the door is closed, then the light is off.
             </p>
           </li>
 
-          <li permid="li3"><m>\forall x (x \lt 1 \imp x^2 \lt 1)</m>.</li>
+          <li permid="l_h"><m>\forall x (x \lt 1 \imp x^2 \lt 1)</m>.</li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <p permid="p">
               For all natural numbers <m>n</m>,
               if <m>n</m> is prime, then <m>n</m> is solitary.
             </p>
           </li>
 
-          <li permid="li5">
+          <li permid="l_d">
             <p permid="p">
               For all functions <m>f</m>,
               if <m>f</m> is differentiable,
@@ -278,28 +278,28 @@
             </p>
           </li>
 
-          <li permid="li6">
+          <li permid="l_o">
             <p permid="p">
               For all integers <m>a</m> and <m>b</m>,
               if <m>a\cdot b</m> is even, then <m>a</m> and <m>b</m> are even.
             </p>
           </li>
 
-          <li permid="li7">
+          <li permid="l_z">
             <p permid="p">
               For every integer <m>x</m> and every integer <m>y</m> there is an integer <m>n</m> such that if
               <m>x &gt; 0</m> then <m>nx &gt; y</m>.
             </p>
           </li>
 
-          <li permid="li8">
+          <li permid="l_k">
             <p permid="p">
               For all real numbers <m>x</m> and <m>y</m>,
               if <m>xy = 0</m> then <m>x = 0</m> or <m>y = 0</m>.
             </p>
           </li>
 
-          <li permid="li9">
+          <li permid="l_v">
             <p permid="p">
               For every student in Math 228,
               if they do not understand implications,
@@ -312,7 +312,7 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p1">
               Negation: The power goes off and the food does not spoil.
             </p>
@@ -327,7 +327,7 @@
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p1">
               Negation: The door is closed and the light is on.
             </p>
@@ -341,7 +341,7 @@
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p1">
               Negation: <m>\exists x (x \lt 1 \wedge x^2 \ge 1)</m>
             </p>
@@ -355,7 +355,7 @@
             </p>
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <p permid="p1">
               Negation: There is a natural number <m>n</m> which is prime but not solitary.
             </p>
@@ -371,7 +371,7 @@
             </p>
           </li>
 
-          <li permid="li5">
+          <li permid="l_d">
             <p permid="p1">
               Negation: There is a function which is differentiable and not continuous.
             </p>
@@ -387,7 +387,7 @@
             </p>
           </li>
 
-          <li permid="li6">
+          <li permid="l_o">
             <p permid="p1">
               Negation: There are integers <m>a</m> and <m>b</m> for which
               <m>a\cdot b</m> is even but <m>a</m> or <m>b</m> is odd.
@@ -404,7 +404,7 @@
             </p>
           </li>
 
-          <li permid="li7">
+          <li permid="l_z">
             <p permid="p1">
               Negation: There are integers <m>x</m> and <m>y</m> such that for every integer <m>n</m>,
               <m>x \gt 0</m> and <m>nx \le y</m>.
@@ -421,7 +421,7 @@
             </p>
           </li>
 
-          <li permid="li8">
+          <li permid="l_k">
             <p permid="p1">
               Negation: There are real numbers <m>x</m> and <m>y</m> such that <m>xy = 0</m> but <m>x \ne 0</m> and <m>y \ne 0</m>.
             </p>
@@ -437,7 +437,7 @@
             </p>
           </li>
 
-          <li permid="li9">
+          <li permid="l_v">
             <p permid="p1">
               Negation: There is at least one student in Math 228 who does not understand implications but will still pass the exam.
             </p>
@@ -457,7 +457,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ql">
+  <exercise permid="e_za">
     <statement>
       <p permid="p1">
         Consider the statement: for all integers <m>n</m>,
@@ -466,14 +466,14 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               Is the statement true?
               Explain why.
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               Write the negation of the statement.
               Is it true?
@@ -481,7 +481,7 @@
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               State the contrapositive of the statement.
               Is it true?
@@ -489,7 +489,7 @@
             </p>
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <p permid="p">
               State the converse of the statement.
               Is it true?
@@ -502,21 +502,21 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               The statement is true.
               If <m>n</m> is an even integer less than or equal to 7, then the only way it could not be negative is if <m>n</m> was equal to 0, 2, 4, or 6.
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               There is an integer <m>n</m> such that <m>n</m> is even and <m>n \le 7</m> but <m>n</m> is not negative and <m>n \not\in \{0,2,4,6\}</m>.
               This is false, since the original statement is true.
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               For all integers <m>n</m>,
               if <m>n</m> is not negative and
@@ -527,7 +527,7 @@
             </p>
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <p permid="p">
               For all integers <m>n</m>,
               if <m>n</m> is negative or
@@ -540,7 +540,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_hh">
+  <exercise permid="e_ql">
     <statement>
       <p permid="p1">
         Consider the statement:
@@ -549,7 +549,7 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               Explain what the statement says in words.
               Is this statement true?
@@ -557,7 +557,7 @@
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               Write the converse of the statement,
               both in words and in symbols.
@@ -565,7 +565,7 @@
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               Write the contrapositive of the statement,
               both in words and in symbols.
@@ -573,7 +573,7 @@
             </p>
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <p permid="p">
               Write the negation of the statement,
               both in words and in symbols.
@@ -586,7 +586,7 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               For any number <m>x</m>,
               if it is the case that adding any number to <m>x</m> gives that number back,
@@ -598,7 +598,7 @@
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               The converse in words is this:
               for any number <m>x</m>,
@@ -612,7 +612,7 @@
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               The contrapositive in words is:
               for any number <m>x</m>,
@@ -623,7 +623,7 @@
             </p>
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <p permid="p">
               The negation:
               there is a number <m>x</m> such that any number added to <m>x</m> gives the number back again,
@@ -637,7 +637,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ys">
+  <exercise permid="e_hh">
     <statement>
       <p permid="p1">
         Write each of the following statements in the form,
@@ -648,43 +648,43 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               To lose weight, you must exercise.
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               To lose weight, all you need to do is exercise.
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               Every American is patriotic.
             </p>
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <p permid="p">
               You are patriotic only if you are American.
             </p>
           </li>
 
-          <li permid="li5">
+          <li permid="l_d">
             <p permid="p">
               The set of rational numbers is a subset of the real numbers.
             </p>
           </li>
 
-          <li permid="li6">
+          <li permid="l_o">
             <p permid="p">
               A number is prime if it is not even.
             </p>
           </li>
 
-          <li permid="li7">
+          <li permid="l_z">
             <p permid="p">
               Either the Broncos will win the Super Bowl,
               or they won't play in the Super Bowl.
@@ -696,37 +696,37 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               If you have lost weight, then you exercised.
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               If you exercise, then you will lose weight.
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               If you are American, then you are patriotic.
             </p>
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <p permid="p">
               If you are patriotic, then you are American.
             </p>
           </li>
 
-          <li permid="li5">
+          <li permid="l_d">
             <p permid="p">
               If a number is rational, then it is real.
             </p>
           </li>
 
-          <li permid="li6">
+          <li permid="l_o">
             <p permid="p">
               If a number is not even, then it is prime.
               (Or the contrapositive:
@@ -734,7 +734,7 @@
             </p>
           </li>
 
-          <li permid="li7">
+          <li permid="l_z">
             <p permid="p">
               If the Broncos don't win the Super Bowl,
               then they didn't play in the Super Bowl.
@@ -747,7 +747,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_pd">
+  <exercise permid="e_ys">
     <statement>
       <p permid="p1">
         Simplify the following.
@@ -755,11 +755,11 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <m>\neg (\neg (P \wedge \neg Q) \imp \neg(\neg R \vee \neg(P \imp R)))</m>.
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <m>\neg \exists x \neg \forall y \neg \exists z (z = x + y \imp \exists w (x - y = w))</m>.
           </li>
         </ol>
@@ -768,11 +768,11 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <m>(\neg P \vee Q) \wedge (\neg R \vee (P \wedge \neg R))</m>.
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <m>\forall x \forall y \forall z (z = x+y \wedge \forall w (x-y \ne w))</m>.
           </li>
         </ol>
@@ -780,7 +780,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_gz">
+  <exercise permid="e_pd">
     <statement>
       <p permid="p1">
         Consider the statement: for all integers <m>n</m>,
@@ -789,14 +789,14 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               Prove the statement.
               What sort of proof are you using?
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               Prove the converse.
               What sort of proof are you using?
@@ -808,7 +808,7 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p1">
               Direct proof.
 
@@ -832,7 +832,7 @@
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               The converse is: for all integers <m>n</m>,
               if <m>7n</m> is odd, then <m>n</m> is odd.
@@ -855,7 +855,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_xk">
+  <exercise permid="e_gz">
     <statement>
       <p permid="p1">
         Suppose you break your piggy bank and scoop up a handful of 22 coins
@@ -864,20 +864,20 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               Prove that you must have at least 6 coins of a single denomination.
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               Suppose you have an odd number of pennies.
               Prove that you must have an odd number of at least one of the other types of coins.
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               How many coins would you need to scoop up to be sure that you either had 4 coins that were all the same or 4 coins that were all different?
               Prove your answer.
@@ -889,7 +889,7 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               Suppose you only had 5 coins of each denomination.
               This means you have 5 pennies, 5 nickels, 5 dimes and 5 quarters.
@@ -899,7 +899,7 @@
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               Suppose you have 22 coins,
               including <m>2k</m> nickels, <m>2j</m> dimes, and <m>2l</m> quarters
@@ -915,7 +915,7 @@
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               You need 10 coins.
               You could have 3 pennies, 3 nickels, and 3 dimes.
@@ -934,32 +934,32 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_og">
+  <exercise permid="e_xk">
     <statement>
       <p permid="p1">
         You come across four trolls playing bridge.
         They declare:
       </p>
 
-      <blockquote>
-        <p permid="p2">
+      <blockquote permid="bq">
+        <p permid="p1">
           Troll 1: All trolls here see at least one knave.
         </p>
 
-        <p permid="p3">
+        <p permid="p2">
           Troll 2: I see at least one troll that sees only knaves.
         </p>
 
-        <p permid="p4">
+        <p permid="p3">
           Troll 3: Some trolls are scared of goats.
         </p>
 
-        <p permid="p5">
+        <p permid="p4">
           Troll 4: All trolls are scared of goats.
         </p>
       </blockquote>
 
-      <p permid="p6">
+      <p permid="p2">
         Are there any trolls that are not scared of goats?
         Recall, of course, that all trolls are either knights
         (who always tell the truth)

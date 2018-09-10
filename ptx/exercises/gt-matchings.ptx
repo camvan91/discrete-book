@@ -159,7 +159,7 @@
         then it is called an <term>augmenting path</term>.
 
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               Find the largest possible alternating path for the partial matching of your friend's graph.
               Is it an augmenting path?
@@ -189,7 +189,7 @@
 
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               Find the largest possible alternating path for the partial matching below.
               Are there any augmenting paths?
@@ -259,19 +259,19 @@
         how many different acceptable marriage arrangements which marry off all 20 children are possible?
 
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               How many marriage arrangements are possible if we insist that there are exactly 6 boys marry girls not their own age?
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               Could you generalize the previous answer to arrive at the total number of marriage arrangements?
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               How do you know you are correct?
               Try counting in a different way.
@@ -279,7 +279,7 @@
             </p>
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <p permid="p">
               Can you give a recurrence relation that fits the problem?
             </p>
@@ -303,19 +303,19 @@
         one that uses the fewest possible number of vertices.
 
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             Suppose you had a matching of a graph.
             How can you use that to get a minimal vertex cover?
             Will your method always work?
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             Suppose you had a minimal vertex cover for a graph.
             How can you use that to get a partial matching?
             Will your method always work?
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             What is the relationship between the size of the minimal vertex cover and the size of the maximal partial matching in a graph?
           </li>
         </ol>
@@ -332,22 +332,22 @@
         whether there is a way to find matchings in graphs in general.
 
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             For which <m>n</m> does the complete graph <m>K_n</m> have a matching?
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             Prove that if a graph has a matching,
             then <m>\card{V}</m> is even.
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             Is the converse true?
             That is, do all graphs with
             <m>\card{V}</m> even have a matching?
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             What if we also require the matching condition?
             Prove or disprove: If a graph with an even number of vertices satisfies
             <m>\card{N(S)} \ge \card{S}</m> for all <m>S \subseteq V</m>,

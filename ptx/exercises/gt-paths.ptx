@@ -47,43 +47,43 @@
         Which contain an Euler circuit?
 
         <ol permid="ol">
-          <li permid="li1"><m>K_4</m></li>
+          <li permid="l_l"><m>K_4</m></li>
 
-          <li permid="li2"><m>K_5</m>.</li>
+          <li permid="l_w"><m>K_5</m>.</li>
 
-          <li permid="li3"><m>K_{5,7}</m></li>
+          <li permid="l_h"><m>K_{5,7}</m></li>
 
-          <li permid="li4"><m>K_{2,7}</m></li>
+          <li permid="l_s"><m>K_{2,7}</m></li>
 
-          <li permid="li5"><m>C_7</m></li>
+          <li permid="l_d"><m>C_7</m></li>
 
-          <li permid="li6"><m>P_7</m></li>
+          <li permid="l_o"><m>P_7</m></li>
         </ol>
       </p>
     </statement>
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="li1"><m>K_4</m> does not have an Euler path or circuit.</li>
+          <li permid="l_l"><m>K_4</m> does not have an Euler path or circuit.</li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <m>K_5</m> has an Euler circuit
             (so also an Euler path).
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <m>K_{5,7}</m> does not have an Euler path or circuit.
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <m>K_{2,7}</m> has an Euler path but not an Euler circuit.
           </li>
 
-          <li permid="li5">
+          <li permid="l_d">
             <m>C_7</m> has an Euler circuit (it is a circuit graph!)
           </li>
 
-          <li permid="li6"><m>P_7</m> has an Euler path but no Euler circuit.</li>
+          <li permid="l_o"><m>P_7</m> has an Euler path but no Euler circuit.</li>
         </ol>
       </p>
     </solution>
@@ -115,7 +115,7 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               Edward wants to give a tour of his new pad to a lady-mouse-friend.
               Is it possible for them to walk through every doorway exactly once?
@@ -124,14 +124,14 @@
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               Is it possible to tour the house visiting each room exactly once (not necessarily using every doorway)?
               Explain.
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               After a few mouse-years, Edward decides to remodel.
               He would like to add some new doors between the rooms he has.
@@ -305,7 +305,7 @@
     <statement>
       <p permid="p">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               Suppose a graph has a Hamilton path.
               What is the maximum number of vertices of degree one the graph can have?
@@ -313,7 +313,7 @@
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               Find a graph which does not have a Hamilton path even though no vertex has degree one.
               Explain why your example works.
@@ -351,21 +351,21 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             Find a Hamilton path.
             Can your path be extended to a Hamilton cycle?
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             Is the graph bipartite?
             If so, how many vertices are in each <q>part</q>?
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             Use your answer to part (b) to prove that the graph has no Hamilton cycle.
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             Suppose you have a bipartite graph <m>G</m> in which one part has at least two more vertices than the other.
             Prove that <m>G</m> does not have a Hamilton path.
           </li>

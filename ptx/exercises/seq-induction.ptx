@@ -677,8 +677,8 @@
         You may assume <m>(f+g)' = f' + g'</m> for any differentiable functions <m>f</m> and <m>g</m>.
       </p>
     </statement>
-    <hint>
-      <p permid="p3">
+    <hint permid="h">
+      <p permid="p">
         You are allowed to assume the base case.
         For the inductive case,
         group all but the last function together as one sum of functions,
@@ -702,15 +702,15 @@
         You may assume the product rule for two functions is true.
       </p>
     </statement>
-    <hint>
-      <p permid="p3">
+    <hint permid="h">
+      <p permid="p1">
         For the inductive step, we know by the product rule for two functions that
         <me>
           (f_1f_2f_3 \cdots f_k f_{k+1})' = (f_1f_2f_3\cdots f_k)'f_{k+1} + (f_1f_2f_3\cdots f_k)f_{k+1}'
         </me>
       </p>
 
-      <p permid="p4">
+      <p permid="p2">
         Then use the inductive hypothesis on the first summand,
         and distribute.
       </p>

@@ -10,19 +10,19 @@
         How many different meals can you buy if you spend all your money and:
 
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               Purchase at least one of each item.
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               Possibly skip some items.
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               Don't get more than 2 of any particular item.
             </p>
@@ -33,11 +33,11 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="li1"><m>{9 \choose 6}</m> meals.</li>
+          <li permid="l_l"><m>{9 \choose 6}</m> meals.</li>
 
-          <li permid="li2"><m>{16 \choose 6}</m> meals.</li>
+          <li permid="l_w"><m>{16 \choose 6}</m> meals.</li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <m>{16 \choose 6} - \left[{7 \choose 1}{13 \choose 6} - {7 \choose 2}{10 \choose 6} + {7 \choose 3}{7 \choose 6}\right]</m> meals.
             Use PIE to subtract all the meals in which you get 3 or more of a particular item.
           </li>
@@ -58,7 +58,7 @@
         (and will spend all of it).
 
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               How many different orders are possible?
               Explain.
@@ -66,14 +66,14 @@
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               How many different orders are possible if you want to get at least one of each item?
               Explain.
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               How many different orders are possible if you don't get more than 4 of any one item?
               Explain.
@@ -211,21 +211,21 @@
         How many ways could he do this if:
 
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               No present is allowed to end up with its original label?
               Explain what each term in your answer represents.
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               Exactly 2 presents keep their original labels?
               Explain.
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               Exactly 5 presents keep their original labels?
               Explain.

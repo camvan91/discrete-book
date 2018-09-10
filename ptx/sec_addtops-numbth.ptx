@@ -33,13 +33,13 @@
       Recall in our study of induction, we asked:
     </p>
 
-    <blockquote>
-      <p permid="p4">
+    <blockquote permid="bq">
+      <p permid="p">
         Which amounts of postage can be made exactly using just 5-cent and 8-cent stamps?
       </p>
     </blockquote>
 
-    <p permid="p5">
+    <p permid="p4">
       We were able to prove that <em>any</em>
       amount greater than 27 cents could be made.
       You might wonder what would happen if we changed the denomination of the stamps.
@@ -52,7 +52,7 @@
       Using this as the inductive case would allow us to prove that any amount of postage greater than 23 cents can be made.
     </p>
 
-    <p permid="p6">
+    <p permid="p5">
       What if we had 2-cent and 4-cent stamps.
       Here it looks less promising.
       If we take some number of 2-cent stamps and some number of 4-cent stamps,
@@ -61,7 +61,7 @@
       Doesn't look like it.
     </p>
 
-    <p permid="p7">
+    <p permid="p6">
       <em>Why</em> does 5 and 8 work, 4 and 9 work, but 2 and 4 not work?
       What is it about these numbers?
       If I gave you a pair of numbers,
@@ -119,17 +119,17 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="li1"><m>m \mid n</m></li>
+          <li permid="l_l"><m>m \mid n</m></li>
 
-          <li permid="li2"><m>n = mk</m> for some integer <m>k</m></li>
+          <li permid="l_w"><m>n = mk</m> for some integer <m>k</m></li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <m>m</m> is a factor
             (or divisor)
             of <m>n</m>
           </li>
 
-          <li permid="li4"><m>n</m> is a multiple of <m>m</m>.</li>
+          <li permid="l_s"><m>n</m> is a multiple of <m>m</m>.</li>
         </ol>
       </p>
     </assemblage>
@@ -151,30 +151,30 @@
 
         <p permid="p2">
           <ol permid="ol">
-            <li permid="li1"><m>4 \mid 20</m></li>
+            <li permid="l_l"><m>4 \mid 20</m></li>
 
-            <li permid="li2"><m>20 \mid 4</m></li>
+            <li permid="l_w"><m>20 \mid 4</m></li>
 
-            <li permid="li3"><m>0 \mid 5</m></li>
+            <li permid="l_h"><m>0 \mid 5</m></li>
 
-            <li permid="li4"><m>5 \mid 0</m></li>
+            <li permid="l_s"><m>5 \mid 0</m></li>
 
-            <li permid="li5"><m>7 \mid 7</m></li>
+            <li permid="l_d"><m>7 \mid 7</m></li>
 
-            <li permid="li6"><m>1 \mid 37</m></li>
+            <li permid="l_o"><m>1 \mid 37</m></li>
 
-            <li permid="li7"><m>-3 \mid 12</m></li>
+            <li permid="l_z"><m>-3 \mid 12</m></li>
 
-            <li permid="li8"><m>8 \mid 12</m></li>
+            <li permid="l_k"><m>8 \mid 12</m></li>
 
-            <li permid="li9"><m>1642 \mid 136299</m></li>
+            <li permid="l_v"><m>1642 \mid 136299</m></li>
           </ol>
         </p>
       </statement>
       <solution permid="s">
         <p permid="p">
           <ol permid="ol">
-            <li permid="li1">
+            <li permid="l_l">
               <p permid="p">
                 True. 4 <q>goes into</q> 20 five times without remainder.
                 In other words, <m>20 \div 4 = 5</m>, an integer.
@@ -183,20 +183,20 @@
               </p>
             </li>
 
-            <li permid="li2">
+            <li permid="l_w">
               <p permid="p">
                 False.
                 While 20 is a multiple of 4, it is false that <m>4</m> is a multiple of 20.
               </p>
             </li>
 
-            <li permid="li3">
+            <li permid="l_h">
               <p permid="p">
                 False. <m>5 \div 0</m> is not even defined, let alone an integer.
               </p>
             </li>
 
-            <li permid="li4">
+            <li permid="l_s">
               <p permid="p">
                 True.
                 In fact, <m>x \mid 0</m> is true for all <m>x</m>.
@@ -204,21 +204,21 @@
               </p>
             </li>
 
-            <li permid="li5">
+            <li permid="l_d">
               <p permid="p">
                 True.
                 In fact, <m>x \mid x</m> is true for all <m>x</m>.
               </p>
             </li>
 
-            <li permid="li6">
+            <li permid="l_o">
               <p permid="p">
                 True. 1 divides every number
                 (other than 0).
               </p>
             </li>
 
-            <li permid="li7">
+            <li permid="l_z">
               <p permid="p">
                 True.
                 Negative numbers work just fine for the divisibility relation.
@@ -227,14 +227,14 @@
               </p>
             </li>
 
-            <li permid="li8">
+            <li permid="l_k">
               <p permid="p">
                 False.
                 Both 8 and 12 are divisible by 4, but this does not mean that <m>12</m> is divisible by <m>8</m>.
               </p>
             </li>
 
-            <li permid="li9">
+            <li permid="l_v">
               <p permid="p">
                 False.
                 See below.
@@ -580,15 +580,15 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="li1"><m>a \equiv a \pmod{n}</m>.</li>
+          <li permid="l_l"><m>a \equiv a \pmod{n}</m>.</li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               If <m>a \equiv b \pmod{n}</m> then <m>b \equiv a \pmod{n}</m>.
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               If <m>a \equiv b \pmod{n}</m> and <m>b \equiv c \pmod{n}</m>,
               then <m>a \equiv c \pmod{n}</m>.
@@ -626,11 +626,11 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="li1"><m>a+c \equiv b+d \pmod{n}</m>.</li>
+          <li permid="l_l"><m>a+c \equiv b+d \pmod{n}</m>.</li>
 
-          <li permid="li2"><m>a-c \equiv b-d \pmod{n}</m>.</li>
+          <li permid="l_w"><m>a-c \equiv b-d \pmod{n}</m>.</li>
 
-          <li permid="li3"><m>ac \equiv bd \pmod{n}</m>.</li>
+          <li permid="l_h"><m>ac \equiv bd \pmod{n}</m>.</li>
         </ol>
       </p>
     </assemblage>
@@ -643,13 +643,13 @@
       This sounds like we are saying:
     </p>
 
-    <blockquote>
-      <p permid="p5">
+    <blockquote permid="bq">
+      <p permid="p">
         If <m>a \equiv b \pmod{n}</m> then <m>a+c \equiv b+c \pmod{n}</m>.
       </p>
     </blockquote>
 
-    <p permid="p6">
+    <p permid="p5">
       Of course this is true as well,
       it is the special case where <m>c = d</m>.
       But what we have works in more generality.
@@ -659,7 +659,7 @@
       the result will be basically equal.
     </p>
 
-    <p permid="p7">
+    <p permid="p6">
       This seems reasonable.
       Is it really true?
       Let's prove the first fact:
@@ -683,12 +683,12 @@
       </p>
     </proof>
 
-    <p permid="p8">
+    <p permid="p7">
       The other two facts can be proved in a similar way.
 <!-- \todo{put as exercise?} -->
     </p>
 
-    <p permid="p9">
+    <p permid="p8">
       One of the important consequences of these facts about congruences,
       is that we can basically replace any number in a congruence with any other number it is congruent to.
       Here are some examples to see how
@@ -746,7 +746,7 @@
       </solution>
     </example>
 
-    <p permid="p10">
+    <p permid="p9">
       The above example should convince you that the well known divisibility test for 9 is true:
       the sum of the digits of a number is divisible by 9 if and only if the original number is divisible by 9.
       In fact, we now know something more:
@@ -754,7 +754,7 @@
       This works for 3 as well, but definitely not for any modulus in general.
       </fn></p>
 
-    <p permid="p11">
+    <p permid="p10">
       Let's try another:
     </p>
 
@@ -789,14 +789,14 @@
       </solution>
     </example>
 
-    <p permid="p12">
+    <p permid="p11">
       In the above example,
       we are using the fact that if <m>a \equiv b \pmod n</m>,
       then <m>a^p \equiv b^p \pmod n</m>.
       This is just applying property 3 a bunch of times.
     </p>
 
-    <p permid="p13">
+    <p permid="p12">
       So far we have seen how to add,
       subtract and multiply with congruences.
       What about division?
@@ -810,7 +810,7 @@
       </me>.
     </p>
 
-    <p permid="p14">
+    <p permid="p13">
       This is true.
       Now <m>18</m> and <m>42</m> are both divisible by 6.
       However,
@@ -819,13 +819,13 @@
       </me>.
     </p>
 
-    <p permid="p15">
+    <p permid="p14">
       While this doesn't work, note that <m>3 \equiv 7 \pmod 4</m>.
       We cannot divide <m>8</m> by 6, but we can divide 8 by the greatest common factor of <m>8</m> and <m>6</m>.
       Will this always happen?
     </p>
 
-    <p permid="p16">
+    <p permid="p15">
       Suppose <m>ad \equiv bd \pmod n</m>.
       In other words,
       we have <m>ad = bd + kn</m> for some integer <m>k</m>.
@@ -844,7 +844,7 @@
       no problem.
     </p>
 
-    <p permid="p17">
+    <p permid="p16">
       We will call the largest factor of both <m>d</m> and <m>n</m> the <m>\gcd(d,n)</m>,
       for <em>greatest common divisor</em>.
           <idx><h>gcd</h></idx>
@@ -972,18 +972,18 @@
 
         <p permid="p2">
           <ol permid="ol">
-            <li permid="li1"><m>7x \equiv 12 \pmod{13}</m>.</li>
+            <li permid="l_l"><m>7x \equiv 12 \pmod{13}</m>.</li>
 
-            <li permid="li2"><m>84x - 38 \equiv 79 \pmod{15}</m>.</li>
+            <li permid="l_w"><m>84x - 38 \equiv 79 \pmod{15}</m>.</li>
 
-            <li permid="li3"><m>20x \equiv 23 \pmod{14}</m>.</li>
+            <li permid="l_h"><m>20x \equiv 23 \pmod{14}</m>.</li>
           </ol>
         </p>
       </statement>
       <solution permid="s">
         <p permid="p">
           <ol permid="ol">
-            <li permid="li1">
+            <li permid="l_l">
               <p permid="p">
                 All we need to do here is divide both sides by 7.
                 We add 13 to the right-hand side repeatedly until we get a multiple of 7
@@ -1000,7 +1000,7 @@
               </p>
             </li>
 
-            <li permid="li2">
+            <li permid="l_w">
               <p permid="p">
                 Here, since we have numbers larger than the modulus,
                 we can reduce them prior to applying any algebra.
@@ -1030,7 +1030,7 @@
               </p>
             </li>
 
-            <li permid="li3">
+            <li permid="l_h">
               <p permid="p">
                 First, reduce modulo 14:
                 <me>
@@ -1225,7 +1225,7 @@
 
     <p permid="p10">
       <ol permid="ol">
-        <li permid="li1">
+        <li permid="l_l">
           <p permid="p">
             Divide both sides of the equation by <m>\gcd(a,b)</m>
             (if this does not leave the right-hand side as an integer,
@@ -1234,7 +1234,7 @@
           </p>
         </li>
 
-        <li permid="li2">
+        <li permid="l_w">
           <p permid="p">
             Pick the smaller of <m>a</m> and <m>b</m> (here,
             assume it is <m>b</m>), and convert to a congruence modulo <m>b</m>:
@@ -1248,7 +1248,7 @@
           </p>
         </li>
 
-        <li permid="li3">
+        <li permid="l_h">
           <p permid="p">
             Solve the congruence as we did in the previous section.
             Write your solution as an equation, such as,
@@ -1258,13 +1258,13 @@
           </p>
         </li>
 
-        <li permid="li4">
+        <li permid="l_s">
           <p permid="p">
             Plug this into the original Diophantine equation, and solve for <m>y</m>.
           </p>
         </li>
 
-        <li permid="li5">
+        <li permid="l_d">
           <p permid="p">
             If we want to know solutions in a particular range
             (for example, <m>0 \le x, y \le 20</m>),
@@ -1543,30 +1543,30 @@
 
         <p permid="p2">
           <ol permid="ol">
-            <li permid="li1">2.</li>
+            <li permid="l_l">2.</li>
 
-            <li permid="li2">5.</li>
+            <li permid="l_w">5.</li>
 
-            <li permid="li3">7.</li>
+            <li permid="l_h">7.</li>
 
-            <li permid="li4">9.</li>
+            <li permid="l_s">9.</li>
           </ol>
         </p>
       </statement>
       <solution permid="s">
         <p permid="p">
           <ol permid="ol">
-            <li permid="li1"><m>3^{456} \equiv 1^{456} = 1 \pmod 2</m>.</li>
+            <li permid="l_l"><m>3^{456} \equiv 1^{456} = 1 \pmod 2</m>.</li>
 
-            <li permid="li2">
+            <li permid="l_w">
               <m>3^{456} = 9^{228} \equiv (-1)^{228} = 1 \pmod{5}</m>.
             </li>
 
-            <li permid="li3">
+            <li permid="l_h">
               <m>3^{456} = 9^{228} \equiv 2^{228} = 8^{76} \equiv 1^{76} = 1 \pmod 7</m>.
             </li>
 
-            <li permid="li4">
+            <li permid="l_s">
               <m>3^{456} = 9^{228} \equiv 0^{228} = 0 \pmod{9}</m>.
             </li>
           </ol>
@@ -1583,17 +1583,17 @@
 
         <p permid="p2">
           <ol permid="ol">
-            <li permid="li1"><m>4x \equiv 5 \pmod 6</m>.</li>
+            <li permid="l_l"><m>4x \equiv 5 \pmod 6</m>.</li>
 
-            <li permid="li2"><m>4x \equiv 5 \pmod 7</m>.</li>
+            <li permid="l_w"><m>4x \equiv 5 \pmod 7</m>.</li>
 
-            <li permid="li3"><m>6x \equiv 3 \pmod 9</m>.</li>
+            <li permid="l_h"><m>6x \equiv 3 \pmod 9</m>.</li>
 
-            <li permid="li4"><m>6x \equiv 4 \pmod 9</m>.</li>
+            <li permid="l_s"><m>6x \equiv 4 \pmod 9</m>.</li>
 
-            <li permid="li5"><m>x^2 \equiv 2 \pmod 4</m>.</li>
+            <li permid="l_d"><m>x^2 \equiv 2 \pmod 4</m>.</li>
 
-            <li permid="li6"><m>x^2 \equiv 2 \pmod 7</m>.</li>
+            <li permid="l_o"><m>x^2 \equiv 2 \pmod 7</m>.</li>
           </ol>
         </p>
       </statement>
@@ -1606,29 +1606,29 @@
 
         <p permid="p2">
           <ol permid="ol">
-            <li permid="li1">
+            <li permid="l_l">
               <p permid="p">
                 No solutions.
               </p>
             </li>
 
-            <li permid="li2"><m>x = 3</m>.</li>
+            <li permid="l_w"><m>x = 3</m>.</li>
 
-            <li permid="li3"><m>x = 2</m>, <m>x = 5</m>, <m>x = 8</m>.</li>
+            <li permid="l_h"><m>x = 2</m>, <m>x = 5</m>, <m>x = 8</m>.</li>
 
-            <li permid="li4">
+            <li permid="l_s">
               <p permid="p">
                 No solutions.
               </p>
             </li>
 
-            <li permid="li5">
+            <li permid="l_d">
               <p permid="p">
                 No solutions.
               </p>
             </li>
 
-            <li permid="li6"><m>x = 3</m>.</li>
+            <li permid="l_o"><m>x = 3</m>.</li>
           </ol>
         </p>
       </solution>
@@ -1643,26 +1643,26 @@
 
         <p permid="p2">
           <ol permid="ol">
-            <li permid="li1"><m>5x + 8 \equiv 11 \pmod{22}</m>.</li>
+            <li permid="l_l"><m>5x + 8 \equiv 11 \pmod{22}</m>.</li>
 
-            <li permid="li2"><m>6x \equiv 4 \pmod{10}</m>.</li>
+            <li permid="l_w"><m>6x \equiv 4 \pmod{10}</m>.</li>
 
-            <li permid="li3"><m>4x \equiv 24 \pmod{30}</m>.</li>
+            <li permid="l_h"><m>4x \equiv 24 \pmod{30}</m>.</li>
 
-            <li permid="li4"><m>341x \equiv 2941 \pmod{9}</m>.</li>
+            <li permid="l_s"><m>341x \equiv 2941 \pmod{9}</m>.</li>
           </ol>
         </p>
       </statement>
       <solution permid="s">
         <p permid="p">
           <ol permid="ol">
-            <li permid="li1"><m>x = 5+22k</m> for <m>k \in \Z</m>.</li>
+            <li permid="l_l"><m>x = 5+22k</m> for <m>k \in \Z</m>.</li>
 
-            <li permid="li2"><m>x = 4 + 5k</m> for <m>k \in \Z</m>.</li>
+            <li permid="l_w"><m>x = 4 + 5k</m> for <m>k \in \Z</m>.</li>
 
-            <li permid="li3"><m>x = 6 + 15k</m> for <m>k \in \Z</m>.</li>
+            <li permid="l_h"><m>x = 6 + 15k</m> for <m>k \in \Z</m>.</li>
 
-            <li permid="li4">
+            <li permid="l_s">
               <p permid="p">
                 First reduce each number modulo 9, which can be done by adding up the digits of the numbers.
                 Answer: <m>x = 2 + 9k</m> for <m>k \in \Z</m>.
@@ -1701,18 +1701,18 @@
 
         <p permid="p2">
           <ol permid="ol">
-            <li permid="li1"><m>6x + 10y = 32</m>.</li>
+            <li permid="l_l"><m>6x + 10y = 32</m>.</li>
 
-            <li permid="li2"><m>17x + 8y = 31</m>.</li>
+            <li permid="l_w"><m>17x + 8y = 31</m>.</li>
 
-            <li permid="li3"><m>35x + 47y = 1</m>.</li>
+            <li permid="l_h"><m>35x + 47y = 1</m>.</li>
           </ol>
         </p>
       </statement>
       <solution permid="s">
         <p permid="p">
           <ol permid="ol">
-            <li permid="li1">
+            <li permid="l_l">
               <p permid="p">
                 Divide through by 2: <m>3x + 5y = 16</m>.
                 Convert to a congruence, modulo 3:
@@ -1725,11 +1725,11 @@
               </p>
             </li>
 
-            <li permid="li2">
+            <li permid="l_w">
               <m>x = 7+8k</m> and <m>y = -11 - 17k</m> for <m>k \in \Z</m>.
             </li>
 
-            <li permid="li3">
+            <li permid="l_h">
               <m>x = -4-47k</m> and <m>y = 3 + 35k</m> for <m>k \in \Z</m>.
             </li>
           </ol>

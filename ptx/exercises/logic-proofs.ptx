@@ -10,46 +10,46 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               Write the contrapositive of the statement.
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               Write the converse of the statement.
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               Write the negation of the statement.
             </p>
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <p permid="p">
               Is the original statement true or false?
               Prove your answer.
             </p>
           </li>
 
-          <li permid="li5">
+          <li permid="l_d">
             <p permid="p">
               Is the contrapositive of the original statement true or false?
               Prove your answer.
             </p>
           </li>
 
-          <li permid="li6">
+          <li permid="l_o">
             <p permid="p">
               Is the converse of the original statement true or false?
               Prove your answer.
             </p>
           </li>
 
-          <li permid="li7">
+          <li permid="l_z">
             <p permid="p">
               Is the negation of the original statement true or false?
               Prove your answer.
@@ -61,7 +61,7 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               For all integers <m>a</m> and <m>b</m>,
               if <m>a</m> or <m>b</m> is not even,
@@ -69,20 +69,20 @@
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               For all integers <m>a</m> and <m>b</m>,
               if <m>a</m> and <m>b</m> are even, then <m>a+b</m> is even.
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               There are numbers <m>a</m> and <m>b</m> such that <m>a+b</m> is even but <m>a</m> and <m>b</m> are not both even.
             </p>
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <p permid="p">
               False.
               For example, <m>a = 3</m> and <m>b = 5</m>. <m>a+b = 8</m>,
@@ -90,13 +90,13 @@
             </p>
           </li>
 
-          <li permid="li5">
+          <li permid="l_d">
             <p permid="p">
               False, since it is equivalent to the original statement.
             </p>
           </li>
 
-          <li permid="li6">
+          <li permid="l_o">
             <p permid="p">
               True.
               Let <m>a</m> and <m>b</m> be integers.
@@ -106,7 +106,7 @@
             </p>
           </li>
 
-          <li permid="li7">
+          <li permid="l_z">
             <p permid="p">
               True, since the statement is false.
             </p>
@@ -125,14 +125,14 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               Prove the statement.
               What sort of proof are you using?
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               Is the converse true?
               Prove or disprove.
@@ -144,7 +144,7 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               Direct proof.
 
@@ -161,7 +161,7 @@
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               The converse is false.
               That is, there is an integer <m>n</m> such that <m>8n</m> is even but <m>n</m> is odd.
@@ -211,21 +211,21 @@
         But, let's ask some other questions:
 
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               What amounts of postage can you make if you only use an even number of both types of stamps?
               Prove your answer.
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               Suppose you made an even amount of postage.
               Prove that you used an even number of at least one of the types of stamps.
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               Suppose you made exactly 72 cents of postage.
               Prove that you used at least 6 of one type of stamp.
@@ -242,31 +242,31 @@
         Suppose that you would like to prove the following implication:
       </p>
 
-      <blockquote>
-        <p permid="p2">
+      <blockquote permid="bq">
+        <p permid="p">
           For all numbers <m>n</m>, if <m>n</m> is prime then <m>n</m> is solitary.
         </p>
       </blockquote>
 
-      <p permid="p3">
+      <p permid="p2">
         Write out the beginning and end of the argument if you were to prove the statement,
       </p>
 
-      <p permid="p4">
+      <p permid="p3">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               Directly
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               By contrapositive
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               By contradiction
             </p>
@@ -274,7 +274,7 @@
         </ol>
       </p>
 
-      <p permid="p5">
+      <p permid="p4">
         You do not need to provide details for the proofs
         (since you do not know what solitary means).
         However, make sure that you provide the first few and last few lines of the proofs so that we can see that logical structure you would follow.
@@ -338,14 +338,14 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               Prove the statement.
               What sort of proof are you using?
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               State the converse.
               Is it true?
@@ -415,11 +415,11 @@
         Suppose you roll all 40 dice.
 
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             Prove that there will be at least seven dice that land on the same number.
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               How many dice would you have to roll before you were guaranteed that some four of them would all match or all be different?
               Prove your answer.
@@ -431,7 +431,7 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p1">
               This is an example of the pigeonhole principle.
               We can prove it by contrapositive.
@@ -447,7 +447,7 @@
 
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p1">
               We can have 9 dice without any four matching or any four being all different:
               three 1's, three 2's, three 3's.
@@ -519,12 +519,12 @@
 
   <exercise permid="e_wn">
     <statement>
-      <p permid="p1">
+      <p permid="p">
         Prove that every prime number greater than 3 is either one more or one less than a multiple of 6.
       </p>
     </statement>
-    <hint>
-      <p permid="p2">
+    <hint permid="h">
+      <p permid="p">
         Prove the contrapositive by cases.
       </p>
     </hint>
@@ -541,20 +541,20 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               There are no integers <m>x</m> and <m>y</m> such that <m>x</m> is a prime greater than 5 and <m>x = 6y + 3</m>.
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               For all integers <m>n</m>,
               if <m>n</m> is a multiple of 3, then <m>n</m> can be written as the sum of consecutive integers.
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               For all integers <m>a</m> and <m>b</m>,
               if <m>a^2 + b^2</m> is odd, then <m>a</m> or <m>b</m> is odd.
@@ -566,7 +566,7 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               Proof by contradiction.
               Start of proof: Assume, for the sake of contradiction,
@@ -577,7 +577,7 @@
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               Direct proof.
               Start of proof: Let <m>n</m> be an integer.
@@ -586,7 +586,7 @@
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               Proof by contrapositive.
               Start of proof: Let <m>a</m> and <m>b</m> be integers.
@@ -617,21 +617,21 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               Three of a kind
               (for example, three 7's).
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               A flush of five cards
               (for example, five hearts).
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               Three cards that are either all the same suit or all different suits.
             </p>

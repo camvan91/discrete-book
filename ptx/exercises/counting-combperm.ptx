@@ -7,14 +7,14 @@
         A pizza parlor offers 10 toppings.
 
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               How many 3-topping pizzas could they put on their menu?
               Assume double toppings are not allowed.
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               How many total pizzas are possible,
               with between zero and ten toppings
@@ -23,7 +23,7 @@
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               The pizza parlor will list the 10 toppings in two equal-sized columns on their menu.
               How many ways can they arrange the toppings in the left column?
@@ -35,19 +35,19 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <m>{10 \choose 3} = 120</m> pizzas.
             We must choose
             (in no particular order)
             3 out of the 10 toppings.
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <m>2^{10} = 1024</m> pizzas.
             Say yes or no to each topping.
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <m>P(10,5) = 30240</m> ways.
             Assign each of the 5 spots in the left column to a unique pizza topping.
           </li>
@@ -85,25 +85,25 @@
         Using the digits 2 through 8, find the number of different 5-digit numbers such that:
 
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               Digits can be used more than once.
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               Digits cannot be repeated, but can come in any order.
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               Digits cannot be repeated and must be written in increasing order.
             </p>
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <p permid="p">
               Which of the above counting questions is a combination and which is a permutation?
               Explain why this makes sense.
@@ -116,7 +116,7 @@
 
   <exercise permid="e_ie">
     <statement>
-      <p permid="p1">
+      <p permid="p">
         How many triangles are there with vertices from the points shown below?
         Note, we are not allowing degenerate triangles - ones with all three vertices on the same line,
         but we do allow non-right triangles.
@@ -141,8 +141,8 @@
 
       </sidebyside>
     </statement>
-    <hint>
-      <p permid="p2">
+    <hint permid="h">
+      <p permid="p">
         You need exactly two points on either the <m>x</m>- or <m>y</m>-axis,
         but don't over-count the right triangles.
       </p>
@@ -188,25 +188,25 @@
         How many of the quadrilaterals possible in the previous problem are:
 
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               Squares?
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               Rectangles?
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               Parallelograms?
             </p>
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <p permid="p">
               Trapezoids?<fn>
               Here, as in calculus,
@@ -216,7 +216,7 @@
               </fn></p>
           </li>
 
-          <li permid="li5">
+          <li permid="l_d">
             <p permid="p">
               Trapezoids that are not parallelograms?
             </p>
@@ -227,7 +227,7 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               5 squares.
               You need to skip exactly one dot on the top and on the bottom to make the side lengths equal.
@@ -236,13 +236,13 @@
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <m>{7 \choose 2}</m> rectangles.
             Once you select the two dots on the top,
             the bottom two are determined.
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               This is tricky since you need to worry about running out of space.
               One way to count:
@@ -251,13 +251,13 @@
             </p>
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <p permid="p">
               All of them
             </p>
           </li>
 
-          <li permid="li5">
+          <li permid="l_d">
             <p permid="p">
               <m>{7\choose 2}{7\choose 2} - \left[ {7 \choose 2} + ({7 \choose 2}-1) + ({7 \choose 2} - 3) + ({7 \choose 2} - 6) + ({7 \choose 2} - 10) + ({7 \choose 2} - 15) \right]</m>.
               All of them, except the parallelograms.
@@ -311,7 +311,7 @@
         your company of 20 businessmen and businesswomen go golfing.
 
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               You need to divide up into foursomes (groups of 4 people):
               a first foursome, a second foursome, and so on.
@@ -319,7 +319,7 @@
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               After all your hard work, you realize that in fact,
               you want each foursome to include one of the five Board members.
@@ -332,14 +332,14 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <m>{20 \choose 4}{16 \choose 4}{12 \choose 4}{8 \choose 4}{4 \choose 4}</m> ways.
             Pick 4 out of 20 people to be in the first foursome,
             then 4 of the remaining 16 for the second foursome, and so on
             (use the multiplicative principle to combine).
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <m>5!{15 \choose 3}{12 \choose 3}{9 \choose 3}{6 \choose 3}{3 \choose 3}</m> ways.
             First determine the tee time of the 5 board members,
             then select 3 of the 15 non board members to golf with the first board member,
@@ -372,13 +372,13 @@
         Consider sets <m>A</m> and <m>B</m> with <m>|A| = 10</m> and <m>|B| = 17</m>.
 
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               How many functions <m>f: A \to B</m> are there?
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               How many functions <m>f: A \to B</m> are injective?
             </p>
@@ -389,12 +389,12 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <m>17^{10}</m> functions.
             There are 17 choices for the image of each element in the domain.
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <m>P(17, 10)</m> injective functions.
             There are 17 choices for image of the first element of the domain,
             then only 16 choices for the second, and so on.
@@ -410,19 +410,19 @@
         Consider functions <m>f: \{1,2,3,4\} \to \{1,2,3,4,5,6\}</m>.
 
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               How many functions are there total?
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               How many functions are injective?
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               How many of the injective functions are <em>increasing</em>?
               To be increasing means that if <m>a \lt b</m> then <m>f(a) \lt f(b)</m>,
@@ -442,7 +442,7 @@
         this is the right formula.
 
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               Suppose you have 12 chips, each a different color.
               How many different stacks of 5 chips can you make?
@@ -450,7 +450,7 @@
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               Using the scenario of the 12 chips again,
               what does <m>12!</m> count?
@@ -459,14 +459,14 @@
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               Explain why it makes sense to divide <m>12!</m> by <m>7!</m> when computing <m>P(12,5)</m>
               (in terms of the chips).
             </p>
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <p permid="p">
               Does your explanation work for numbers other than 12 and 5?
               Explain the formula <m>P(n,k) = \frac{n!}{(n-k)!}</m> using the variables <m>n</m> and <m>k</m>.

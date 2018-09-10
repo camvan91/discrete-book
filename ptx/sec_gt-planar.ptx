@@ -11,7 +11,7 @@
         it divides the plane into regions called <term>faces</term>.
 
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               Draw, if possible,
               two different planar graphs with the same number of vertices, edges,
@@ -19,7 +19,7 @@
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               Draw, if possible,
               two different planar graphs with the same number of vertices and edges,
@@ -223,14 +223,14 @@
         Let's first consider <m>K_3</m>:
 
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               How many vertices does <m>K_3</m> have?
               How many edges?
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               If <m>K_3</m> is planar, how many faces should it have?
             </p>

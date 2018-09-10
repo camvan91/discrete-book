@@ -95,21 +95,21 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               Is <m>f</m> injective?
               Explain.
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               Is <m>f</m> surjective?
               Explain.
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               Write the function using two-line notation.
             </p>
@@ -144,21 +144,21 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               Is <m>f</m> injective?
               Explain.
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               Is <m>f</m> surjective?
               Explain.
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               Write the function using two-line notation.
             </p>
@@ -175,13 +175,13 @@
         determine whether or not the function is injective and whether or not the function is surjective.
 
         <ol permid="ol">
-          <li permid="li1"><m>f:\N \to \N</m> given by <m>f(n) = n+4</m>.</li>
+          <li permid="l_l"><m>f:\N \to \N</m> given by <m>f(n) = n+4</m>.</li>
 
-          <li permid="li2"><m>f:\Z \to \Z</m> given by <m>f(n) = n+4</m>.</li>
+          <li permid="l_w"><m>f:\Z \to \Z</m> given by <m>f(n) = n+4</m>.</li>
 
-          <li permid="li3"><m>f:\Z \to \Z</m> given by <m>f(n) = 5n - 8</m>.</li>
+          <li permid="l_h"><m>f:\Z \to \Z</m> given by <m>f(n) = 5n - 8</m>.</li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <m>f:\Z \to \Z</m> given by <m>f(n) = \begin{cases}n/2 \amp \text{ if } n \text{ is even} \\ (n+1)/2 \amp \text{ if } n \text{ is odd} . \end{cases}
             </m>
           </li>
@@ -191,24 +191,24 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <m>f</m> is injective, but not surjective
             (since 0, for example, is never an output).
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <m>f</m> is injective and surjective.
             Unlike in the previous question,
             every integers is an output
             (of the integer 4 less than it).
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <m>f</m> is injective,
             but not surjective (10 is not 8 less than a multiple of 5, for example).
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <m>f</m> is not injective, but is surjective.
             Every integer is an output
             (of twice itself, for example)
@@ -228,33 +228,33 @@
         That is, <m>f</m> takes a subset of <m>A</m> as an input and outputs the cardinality of that set.
 
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               Is <m>f</m> injective?
               Prove your answer.
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               Is <m>f</m> surjective?
               Prove your answer.
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               Find <m>f\inv(1)</m>.
             </p>
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <p permid="p">
               Find <m>f\inv(0)</m>.
             </p>
           </li>
 
-          <li permid="li5">
+          <li permid="l_d">
             <p permid="p">
               Find <m>f\inv(12)</m>.
             </p>
@@ -265,7 +265,7 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <m>f</m> is not injective.
             To prove this,
             we must simply find two different elements of the domain which map to the same element of the codomain.
@@ -273,24 +273,24 @@
             we see that <m>f</m> is not injective.
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <m>f</m> is not surjective.
             The largest subset of <m>A</m> is <m>A</m> itself, and <m>|A| = 10</m>.
             So no natural number greater than 10 will ever be an output.
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <m>f\inv(1) = \{\{1\}, \{2\}, \{3\}, \ldots \{10\}\}</m>
             (the set of all the singleton subsets of <m>A</m>).
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <m>f\inv(0) = \{\emptyset\}</m>.
             Note, it would be wrong to write
             <m>f\inv(0) = \emptyset</m> - that would claim that there is no input which has 0 as an output.
           </li>
 
-          <li permid="li5">
+          <li permid="l_d">
             <m>f\inv(12) = \emptyset</m>,
             since there are no subsets of <m>A</m> with cardinality 12.
           </li>
@@ -309,26 +309,26 @@
         For example, <m>f(253) = 2 + 5 + 3 = 10</m>.
 
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               Find <m>f\inv(3)</m>.
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               Find <m>f\inv(28)</m>.
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               Is <m>f</m> injective.
               Explain.
             </p>
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <p permid="p">
               Is <m>f</m> surjective.
               Explain.
@@ -340,22 +340,22 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <m>f\inv(3) = \{003, 030, 300, 012, 021, 102, 201, 120, 210, 111\}</m>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <m>f\inv(28) = \emptyset</m> (since the largest sum of three digits is <m>9+9+9 = 27</m>)
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               Part (a) proves that <m>f</m> is not injective.
               The output 3 is assigned to 10 different inputs.
             </p>
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <p permid="p">
               Part (b) proves that <m>f</m> is not surjective.
               There is an element of the codomain (28) which is not assigned to any inputs.
@@ -374,17 +374,17 @@
         What can you say about <m>f\inv(3)</m> if you know,
 
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <m>f</m> is injective?
             Explain.
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <m>f</m> is surjective?
             Explain.
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <m>f</m> is bijective?
             Explain.
           </li>
@@ -394,14 +394,14 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <m>|f\inv(3)| \le 1</m>.
             In other words,
             either <m>f\inv(3)</m> is the emptyset or is a set containing exactly one element.
             Injective functions cannot have two elements from the domain both map to 3.
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <m>|f\inv(3)| \ge 1</m>.
             In other words,
             <m>f\inv(3)</m> is a set containing at least one elements,
@@ -409,7 +409,7 @@
             Surjective functions must have something map to 3.
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <m>|f\inv(3)| = 1</m>.
             There is exactly one element from <m>X</m> which gets mapped to 3, so
             <m>f\inv(3)</m> is the set containing that one element.
@@ -443,21 +443,21 @@
         <ellipsis/>
 
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               there is an injective function <m>f:X \to Y</m>?
               Explain.
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               there is a surjective function <m>f:X \to Y</m>?
               Explain.
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               there is a bijectitve function <m>f:X \to Y</m>?
               Explain.
@@ -476,24 +476,24 @@
         Explain.
 
         <ol permid="ol">
-          <li permid="li1"><m>f</m> is injective but not surjective.</li>
+          <li permid="l_l"><m>f</m> is injective but not surjective.</li>
 
-          <li permid="li2"><m>f</m> is surjective but not injective.</li>
+          <li permid="l_w"><m>f</m> is surjective but not injective.</li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <m>|X| = |Y|</m> and <m>f</m> is injective but not surjective.
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <m>|X| = |Y|</m> and <m>f</m> is surjective but not injective.
           </li>
 
-          <li permid="li5">
+          <li permid="l_d">
             <m>|X| = |Y|</m>, <m>X</m> and <m>Y</m> are finite,
             and <m>f</m> is injective but not surjective.
           </li>
 
-          <li permid="li6">
+          <li permid="l_o">
             <m>|X| = |Y|</m>, <m>X</m> and <m>Y</m> are finite,
             and <m>f</m> is surjective but not injective.
           </li>
@@ -517,25 +517,25 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             If <m>f</m> and <m>g</m> are both injective,
             must <m>g\circ f</m> be injective?
             Explain.
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             If <m>f</m> and <m>g</m> are both surjective,
             must <m>g\circ f</m> be surjective?
             Explain.
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             Suppose <m>g\circ f</m> is injective.
             What, if anything, can you say about <m>f</m> and <m>g</m>?
             Explain.
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             Suppose <m>g\circ f</m> is surjective.
             What, if anything, can you say about <m>f</m> and <m>g</m>?
             Explain.
@@ -543,8 +543,8 @@
         </ol>
       </p>
     </statement>
-    <hint>
-      <p permid="p3">
+    <hint permid="h">
+      <p permid="p">
         Work with some examples.
         What if <m>f = \twoline{1\amp 2 \amp 3}{a \amp a \amp b}</m> and <m>g = \twoline{a\amp b \amp c}{5 \amp 6 \amp 7}</m>?
       </p>
@@ -558,14 +558,14 @@
         </m>
 
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               Is <m>f</m> injective?
               Prove your answer.
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               Is <m>f</m> surjective?
               Prove your answer.
@@ -577,7 +577,7 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p1">
               <m>f</m> is injective.
             </p>
@@ -603,7 +603,7 @@
 
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p1">
               <m>f</m> is surjective.
             </p>

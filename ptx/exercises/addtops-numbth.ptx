@@ -110,25 +110,25 @@
       </p>
 
       <ol permid="ol">
-        <li permid="li1">
+        <li permid="l_l">
           <p permid="p">
             2.
           </p>
         </li>
 
-        <li permid="li2">
+        <li permid="l_w">
           <p permid="p">
             5.
           </p>
         </li>
 
-        <li permid="li3">
+        <li permid="l_h">
           <p permid="p">
             7.
           </p>
         </li>
 
-        <li permid="li4">
+        <li permid="l_s">
           <p permid="p">
             9.
           </p>
@@ -137,17 +137,17 @@
     </statement>
     <solution permid="s">
       <ol permid="ol">
-        <li permid="li1"><m>3^{456} \equiv 1^{456} = 1 \pmod 2</m>.</li>
+        <li permid="l_l"><m>3^{456} \equiv 1^{456} = 1 \pmod 2</m>.</li>
 
-        <li permid="li2">
+        <li permid="l_w">
           <m>3^{456} = 9^{228} \equiv (-1)^{228} = 1 \pmod{5}</m>.
         </li>
 
-        <li permid="li3">
+        <li permid="l_h">
           <m>3^{456} = 9^{228} \equiv 2^{228} = 8^{76} \equiv 1^{76} = 1 \pmod 7</m>.
         </li>
 
-        <li permid="li4">
+        <li permid="l_s">
           <m>3^{456} = 9^{228} \equiv 0^{228} = 0 \pmod{9}</m>.
         </li>
       </ol>
@@ -162,17 +162,17 @@
       </p>
 
       <ol permid="ol">
-        <li permid="li1"><m>4x \equiv 5 \pmod 6</m>.</li>
+        <li permid="l_l"><m>4x \equiv 5 \pmod 6</m>.</li>
 
-        <li permid="li2"><m>4x \equiv 5 \pmod 7</m>.</li>
+        <li permid="l_w"><m>4x \equiv 5 \pmod 7</m>.</li>
 
-        <li permid="li3"><m>6x \equiv 3 \pmod 9</m>.</li>
+        <li permid="l_h"><m>6x \equiv 3 \pmod 9</m>.</li>
 
-        <li permid="li4"><m>6x \equiv 4 \pmod 9</m>.</li>
+        <li permid="l_s"><m>6x \equiv 4 \pmod 9</m>.</li>
 
-        <li permid="li5"><m>x^2 \equiv 2 \pmod 4</m>.</li>
+        <li permid="l_d"><m>x^2 \equiv 2 \pmod 4</m>.</li>
 
-        <li permid="li6"><m>x^2 \equiv 2 \pmod 7</m>.</li>
+        <li permid="l_o"><m>x^2 \equiv 2 \pmod 7</m>.</li>
       </ol>
     </statement>
     <solution permid="s">
@@ -183,29 +183,29 @@
       </p>
 
       <ol permid="ol">
-        <li permid="li1">
+        <li permid="l_l">
           <p permid="p">
             No solutions.
           </p>
         </li>
 
-        <li permid="li2"><m>x = 3</m>.</li>
+        <li permid="l_w"><m>x = 3</m>.</li>
 
-        <li permid="li3"><m>x = 2</m>, <m>x = 5</m>, <m>x = 8</m>.</li>
+        <li permid="l_h"><m>x = 2</m>, <m>x = 5</m>, <m>x = 8</m>.</li>
 
-        <li permid="li4">
+        <li permid="l_s">
           <p permid="p">
             No solutions.
           </p>
         </li>
 
-        <li permid="li5">
+        <li permid="l_d">
           <p permid="p">
             No solutions.
           </p>
         </li>
 
-        <li permid="li6"><m>x = 3</m>.</li>
+        <li permid="l_o"><m>x = 3</m>.</li>
       </ol>
     </solution>
   </exercise>
@@ -218,24 +218,24 @@
       </p>
 
       <ol permid="ol">
-        <li permid="li1"><m>5x + 8 \equiv 11 \pmod{22}</m>.</li>
+        <li permid="l_l"><m>5x + 8 \equiv 11 \pmod{22}</m>.</li>
 
-        <li permid="li2"><m>6x \equiv 4 \pmod{10}</m>.</li>
+        <li permid="l_w"><m>6x \equiv 4 \pmod{10}</m>.</li>
 
-        <li permid="li3"><m>4x \equiv 24 \pmod{30}</m>.</li>
+        <li permid="l_h"><m>4x \equiv 24 \pmod{30}</m>.</li>
 
-        <li permid="li4"><m>341x \equiv 2941 \pmod{9}</m>.</li>
+        <li permid="l_s"><m>341x \equiv 2941 \pmod{9}</m>.</li>
       </ol>
     </statement>
     <solution permid="s">
       <ol permid="ol">
-        <li permid="li1"><m>x = 5+22k</m> for <m>k \in \Z</m>.</li>
+        <li permid="l_l"><m>x = 5+22k</m> for <m>k \in \Z</m>.</li>
 
-        <li permid="li2"><m>x = 4 + 5k</m> for <m>k \in \Z</m>.</li>
+        <li permid="l_w"><m>x = 4 + 5k</m> for <m>k \in \Z</m>.</li>
 
-        <li permid="li3"><m>x = 6 + 15k</m> for <m>k \in \Z</m>.</li>
+        <li permid="l_h"><m>x = 6 + 15k</m> for <m>k \in \Z</m>.</li>
 
-        <li permid="li4">
+        <li permid="l_s">
           <p permid="p">
             First reduce each number modulo 9, which can be done by adding up the digits of the numbers.
             Answer: <m>x = 2 + 9k</m> for <m>k \in \Z</m>.
@@ -272,16 +272,16 @@
       </p>
 
       <ol permid="ol">
-        <li permid="li1"><m>6x + 10y = 32</m>.</li>
+        <li permid="l_l"><m>6x + 10y = 32</m>.</li>
 
-        <li permid="li2"><m>17x + 8y = 31</m>.</li>
+        <li permid="l_w"><m>17x + 8y = 31</m>.</li>
 
-        <li permid="li3"><m>35x + 47y = 1</m>.</li>
+        <li permid="l_h"><m>35x + 47y = 1</m>.</li>
       </ol>
     </statement>
     <solution permid="s">
       <ol permid="ol">
-        <li permid="li1">
+        <li permid="l_l">
           <p permid="p">
             Divide through by 2: <m>3x + 5y = 16</m>.
             Convert to a congruence, modulo 3:
@@ -294,11 +294,11 @@
           </p>
         </li>
 
-        <li permid="li2">
+        <li permid="l_w">
           <m>x = 7+8k</m> and <m>y = -11 - 17k</m> for <m>k \in \Z</m>.
         </li>
 
-        <li permid="li3">
+        <li permid="l_h">
           <m>x = -4-47k</m> and <m>y = 3 + 35k</m> for <m>k \in \Z</m>.
         </li>
       </ol>

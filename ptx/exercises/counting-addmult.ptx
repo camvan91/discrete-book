@@ -24,9 +24,9 @@
         You own 3 regular (boring) ties and 5 (cool) bow ties.
 
         <ol permid="ol">
-          <li permid="li1">How many choices do you have for your neck-wear?</li>
+          <li permid="l_l">How many choices do you have for your neck-wear?</li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               You realize that the interview is for clown college,
               so you should probably wear both a regular tie and a bow tie.
@@ -34,7 +34,7 @@
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               For the rest of your outfit,
               you have 5 shirts, 4 skirts, 3 pants, and 7 dresses.
@@ -49,19 +49,19 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               8 ties.
               Use the additive principle.
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             15 ties.
             Use the multiplicative principle
           </li>
 
-          <li permid="li3"><m>5\cdot (4+3) + 7 = 42</m> outfits.</li>
+          <li permid="l_h"><m>5\cdot (4+3) + 7 = 42</m> outfits.</li>
         </ol>
       </p>
     </solution>
@@ -74,13 +74,13 @@
         Give an example of a question for which the answer is:
 
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               16.
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               63.
             </p>
@@ -91,14 +91,14 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               For example, 16 is the number of choices you have if you want to watch one movie,
               either a comedy or horror flick.
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               For example, 63 is the number of choices you have if you will watch two movies,
               first a comedy and then a horror.
@@ -123,14 +123,14 @@
         So for example, a 3 digit hexadecimal number might be 2B8.
 
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               How many 2-digit hexadecimals are there in which the first digit is E or F? Explain your answer in terms of the additive principle
               (using either events or sets).
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               Explain why your answer to the previous part is correct in terms of the multiplicative principle
               (using either events or sets).
@@ -138,14 +138,14 @@
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               How many 3-digit hexadecimals start with a letter (A-F) and end with a numeral (0-9)?
               Explain.
             </p>
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <p permid="p">
               How many 3-digit hexadecimals start with a letter (A-F) or end with a numeral (0-9) (or both)?
               Explain.
@@ -163,15 +163,15 @@
         <m>\card{A} = 10</m> and <m>\card{B} = 15</m>.
 
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             What is the largest possible value for <m>\card{A \cap B}</m>?
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             What is the smallest possible value for <m>\card{A \cap B}</m>?
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             What are the possible values for <m>\card{A \cup B}</m>?
           </li>
         </ol>
@@ -180,18 +180,18 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             To maximize the number of elements in common between <m>A</m> and <m>B</m>,
             make <m>A \subset B</m>.
             This would give <m>\card{A \cap B} = 10</m>.
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <m>A</m> and <m>B</m> might have no elements in common,
             giving <m>\card{A\cap B} = 0</m>.
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <m>15 \le \card{A \cup B} \le 25</m>.
             In fact, when <m>\card{A \cap B} = 0</m> then <m>\card{A \cup B} = 25</m> and when
             <m>\card{A \cap B} = 10</m> then <m>\card{A \cup B} = 15</m>.
@@ -258,12 +258,12 @@
 
   <exercise permid="e_pd">
     <statement>
-      <p permid="p1">
+      <p permid="p">
         For how many <m>n \in \{1,2, \ldots, 500\}</m> is <m>n</m> a multiple of one or more of 5, 6, or 7?
       </p>
     </statement>
-    <hint>
-      <p permid="p2">
+    <hint permid="h">
+      <p permid="p">
         To find out how many numbers are divisible by 6 and 7, for example,
         take <m>500/42</m> and round down.
       </p>
@@ -276,7 +276,7 @@
         Let <m>A</m>, <m>B</m>, and <m>C</m> be sets.
 
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             Find <m>\card{(A \cup C)\setminus B}</m> provided
             <m>\card{A} = 50</m>, <m>\card{B} = 45</m>,
             <m>\card{C} = 40</m>, <m>\card{A\cap B} = 20</m>,
@@ -284,7 +284,7 @@
             <m>\card{B \cap C} = 23</m>, and <m>\card{A \cap B \cap C} = 12</m>.
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             Describe a set in terms of <m>A</m>, <m>B</m>,
             and <m>C</m> with cardinality 26.
           </li>
@@ -302,32 +302,32 @@
         not necessarily actual English words.)
 
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               How many of these words are there total?
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               How many of these words contain no repeated letters?
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               How many of these words start with the sub-word <q>aha</q>?
             </p>
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <p permid="p">
               How many of these words either start with <q>aha</q>
               or end with <q>bah</q> or both?
             </p>
           </li>
 
-          <li permid="li5">
+          <li permid="l_d">
             <p permid="p">
               How many of the words containing no repeats also do not contain the sub-word <q>bad</q>?
             </p>
@@ -338,22 +338,22 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <m>8^5 = 32768</m> words, since you select from 8 letters 5 times.
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <m>8\cdot 7\cdot 6\cdot 5\cdot 4 = 6720</m> words.
             After selecting a letter, you have fewer letters to select for the next one.
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               <m>8 \cdot 8 =64</m> words: you need to select the 4th and 5th letters.
             </p>
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <m>64 + 64 - 0 = 128</m> words.
             There are 64 words which start with <q>aha</q>
             and another 64 words that end with <q>bah.</q>
@@ -362,7 +362,7 @@
             but since the words are only 5 letters long, there are no such words.
           </li>
 
-          <li permid="li5">
+          <li permid="l_d">
             <m>(8\cdot 7\cdot 6\cdot 5\cdot 4) - 3\cdot (5\cdot 4) = 6660</m> words.
             All the words minus the bad ones.
             The taboo word can be in any of three positions

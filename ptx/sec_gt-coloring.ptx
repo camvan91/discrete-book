@@ -39,14 +39,14 @@
       Perhaps the most famous graph theory problem is how to color maps.
     </p>
 
-    <blockquote>
-      <p permid="p2">
+    <blockquote permid="bq">
+      <p permid="p">
         Given any map of countries, states, counties,
         etc., how many colors are needed to color each region on the map so that neighboring regions are colored differently?
       </p>
     </blockquote>
 
-    <p permid="p3">
+    <p permid="p2">
       Actual map makers usually use around seven colors.
       For one thing,
       they require watery regions to be a specific color,
@@ -54,7 +54,7 @@
       We want to know whether there is a smaller palette that will work for any map.
     </p>
 
-    <p permid="p4">
+    <p permid="p3">
       How is this related to graph theory?
       Well, if we place a vertex in the center of each region
       (say in the capital of each state)
@@ -65,7 +65,7 @@
       our graph cannot have vertices colored the same when those vertices are adjacent.
     </p>
 
-    <p permid="p5">
+    <p permid="p4">
       In general, given any graph <m>G</m>,
       a coloring of the vertices is called
       (not surprisingly)
@@ -163,7 +163,7 @@
       </solution>
     </example>
 
-    <p permid="p6">
+    <p permid="p5">
       It appears that there is no limit to how large chromatic numbers can get.
       It should not come as a surprise that <m>K_n</m> has chromatic number <m>n</m>.
       So how could there possibly be an answer to the original map coloring question?
@@ -172,7 +172,7 @@
       But there is.
     </p>
 
-    <p permid="p7">
+    <p permid="p6">
       The key observation is that while it is true that for any number <m>n</m>,
       there is a graph with chromatic number <m>n</m>,
       only some graphs arrive as representations of maps.
@@ -183,7 +183,7 @@
       the graphs representing maps are all <em>planar</em>!
     </p>
 
-    <p permid="p8">
+    <p permid="p7">
       So the question is,
       what is the largest chromatic number of any planar graph?
       The answer is the best known theorem of graph theory:
@@ -201,7 +201,7 @@
       </statement>
     </theorem>
 
-    <p permid="p9">
+    <p permid="p8">
       We will not prove this theorem.
       Really.
       Even though the theorem is easy to state and understand,

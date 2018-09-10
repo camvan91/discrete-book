@@ -6,7 +6,7 @@
     <investigation permid="inv">
       <p permid="p">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               The Stanley Cup is decided in a best of 7 tournament between two teams.
               In how many ways can your team win?
@@ -20,7 +20,7 @@
                   </p>
                 </li>
 
-                <li permid="li2">
+                <li permid="l_w">
                   <p permid="p">
                     What if the tournament goes all 7 games?
                     So you win the last game.
@@ -28,7 +28,7 @@
                   </p>
                 </li>
 
-                <li permid="li3">
+                <li permid="l_h">
                   <p permid="p">
                     What if the tournament goes just 6 games?
                     How many ways can this happen?
@@ -36,7 +36,7 @@
                   </p>
                 </li>
 
-                <li permid="li4">
+                <li permid="l_s">
                   <p permid="p">
                     What are the two different ways to compute the number of ways your team can win?
                     Write down an equation involving binomial coefficients
@@ -48,7 +48,7 @@
             </p>
           </li>
 
-          <li permid="li">
+          <li permid="l_l">
             <p permid="p">
               Generalize.
               What if the rules changed and you played a best of <m>9</m> tournament (5 wins required)?
@@ -115,26 +115,26 @@
       Here are just a few of the most obvious ones:
 
       <ol permid="ol1">
-        <li permid="li1">
+        <li permid="l_l">
           <p permid="p">
             The entries on the border of the triangle are all 1.
           </p>
         </li>
 
-        <li permid="li2">
+        <li permid="l_w">
           <p permid="p">
             Any entry not on the border is the sum of the two entries above it.
           </p>
         </li>
 
-        <li permid="li3">
+        <li permid="l_h">
           <p permid="p">
             The triangle is symmetric.
             In any row, entries on the left side are mirrored on the right side.
           </p>
         </li>
 
-        <li permid="li4">
+        <li permid="l_s">
           <p permid="p">
             The sum of all entries on a given row is a power of 2. (You should check this!)
           </p>
@@ -161,17 +161,17 @@
       we can rewrite the above observations as follows:
 
       <ol permid="ol2">
-        <li permid="li1">
+        <li permid="l_l">
           <m>{n \choose 0} = 1</m> and <m>{n \choose n} = 1</m>.
         </li>
 
-        <li permid="li2">
+        <li permid="l_w">
           <m>{n \choose k} = {n-1 \choose k-1} + {n-1 \choose k}</m>.
         </li>
 
-        <li permid="li3"><m>{n \choose k} = {n \choose n-k}</m>.</li>
+        <li permid="l_h"><m>{n \choose k} = {n \choose n-k}</m>.</li>
 
-        <li permid="li4">
+        <li permid="l_s">
           <m>{n\choose 0} + {n \choose 1} + {n \choose 2} + \cdots + {n \choose n} = 2^n</m>.
         </li>
       </ol>
@@ -432,15 +432,15 @@
 
         <p permid="p4">
           <ul permid="ul">
-            <li permid="li1">Pizzas with 0 toppings: <m>{n \choose 0}</m></li>
+            <li permid="l_l">Pizzas with 0 toppings: <m>{n \choose 0}</m></li>
 
-            <li permid="li2">Pizzas with 1 topping: <m>{n \choose 1}</m></li>
+            <li permid="l_w">Pizzas with 1 topping: <m>{n \choose 1}</m></li>
 
-            <li permid="li3">Pizzas with 2 toppings: <m>{n \choose 2}</m></li>
+            <li permid="l_h">Pizzas with 2 toppings: <m>{n \choose 2}</m></li>
 
-            <li permid="li4"><m>\vdots</m></li>
+            <li permid="l_s"><m>\vdots</m></li>
 
-            <li permid="li5">
+            <li permid="l_d">
               Pizzas with <m>n</m> toppings:
               <m>{n \choose n}</m>.
             </li>
@@ -510,19 +510,19 @@
 
     <p permid="p2">
       <ol permid="ol">
-        <li permid="li1">
+        <li permid="l_l">
           <p permid="p">
             Find a counting problem you will be able to answer in two ways.
           </p>
         </li>
 
-        <li permid="li2">
+        <li permid="l_w">
           <p permid="p">
             Explain why one answer to the counting problem is <m>A</m>.
           </p>
         </li>
 
-        <li permid="li3">
+        <li permid="l_h">
           <p permid="p">
             Explain why the other answer to the counting problem is <m>B</m>.
           </p>
@@ -549,13 +549,13 @@
       For example, consider this counting question:
     </p>
 
-    <blockquote>
-      <p permid="p6">
+    <blockquote permid="bq">
+      <p permid="p">
         How many 10-letter words use exactly four A's, three B's, two C's and one D?
       </p>
     </blockquote>
 
-    <p permid="p7">
+    <p permid="p6">
       Let's try to solve this problem.
       We have 10 spots for letters to go.
       Four of those need to be A's.
@@ -573,7 +573,7 @@
       </me>.
     </p>
 
-    <p permid="p8">
+    <p permid="p7">
       But why stop there?
       We can find the answer another way too.
       First let's decide where to put the one D: we have 10 spots,
@@ -591,7 +591,7 @@
       </me>.
     </p>
 
-    <p permid="p9">
+    <p permid="p8">
       Interesting.
       This gives us the binomial identity:
       <me>
@@ -599,7 +599,7 @@
       </me>.
     </p>
 
-    <p permid="p10">
+    <p permid="p9">
       Here are a couple of other binomial identities with combinatorial proofs.
     </p>
 

@@ -40,13 +40,13 @@
   </colophon>
 
   <dedication>
-    <p>
+    <p permid="p1">
       For Madeline and Teagan
     </p>
   </dedication>
 
   <acknowledgement>
-    <p>
+    <p permid="p2">
       This book would not exist if not for
       <q>Discrete and Combinatorial Mathematics</q>
       by Richard Grassl and Tabitha Mingus.
@@ -57,7 +57,7 @@
       Some of the best exposition and exercises here were graciously donated from this source.
     </p>
 
-    <p>
+    <p permid="p3">
       Thanks to Alees Seehausen who co-taught the Discrete Mathematics course with me in 2015 and helped develop many of the <em>Investigate!</em>
       activities and other problems currently used in the text.
       She also offered many suggestions for improvement of the expository text,
@@ -65,25 +65,25 @@
       Thanks also to Katie Morrison and Nate Eldredge for their suggestions after using parts of this text in their class.
     </p>
 
-    <p>
+    <p permid="p4">
       While odds are that there are still errors and typos in the current book,
       there are many fewer thanks to the work of Michelle Morgan over the summer of 2016.
     </p>
 
-    <p>
+    <p permid="p5">
       The book is now available in an interactive online format,
       and this is entirely thanks to the work of Rob Beezer and David Farmer along with the rest of the participants of the
       <url href="https://groups.google.com/forum/?fromgroups#!forum/mathbook-xml-support">mathbook-xml-support group</url>.
       Thanks for
     </p>
 
-    <p>
+    <p permid="p6">
       Finally, a thank you to the numerous students who have pointed out typos and made suggestions over the years and a thanks in advance to those who will do so in the future.
     </p>
   </acknowledgement>
 
   <preface xml:id="preface">
-    <p>
+    <p permid="p7">
       This text aims to give an introduction to select topics in discrete mathematics at a level appropriate for first or second year undergraduate math majors,
       especially those who intend to teach middle and high school mathematics.
       The book began as a set of notes for the Discrete Mathematics course at the University of Northern Colorado.
@@ -98,7 +98,7 @@
       unlike the majority of textbooks on the subject.
     </p>
 
-    <p>
+    <p permid="p8">
       Another difference between this text and most other discrete math books is that this book is intended to be used in a class taught using problem oriented or inquiry based methods.
       When I teach the class, I will assign sections for reading <em>after</em>
       first introducing them in class by using a mix of group work and class discussion on a few interesting problems.
@@ -109,7 +109,7 @@
       in a way that hopefully mimics an inquiry based classroom.
     </p>
 
-    <p>
+    <p permid="p9">
       The topics covered in this text were chosen to match the needs of the students I teach at UNC. The main areas of study are combinatorics,
       sequences, logic and proofs, and graph theory, in that order.
       Induction is covered at the end of the chapter on sequences.
@@ -124,7 +124,7 @@
       which should provide enough common language to discuss the logical content of combinatorics and sequences.
     </p>
 
-    <p>
+    <p permid="p10">
       Depending on the speed of the class,
       it might be possible to include additional material.
       In past semesters I have included generating functions
@@ -134,7 +134,7 @@
       These additional topics are covered in the last chapter.
     </p>
 
-    <p>
+    <p permid="p11">
       While I (currently) believe this selection and order of topics is optimal,
       you should feel free to skip around to what interests you.
       There are occasionally examples and exercises that rely on earlier material,
@@ -143,7 +143,7 @@
       feel free to edit the <latex/> or Mathbook XML source to fit your needs.
     </p>
 
-    <paragraphs xml:id="pref_editions">
+    <paragraphs permid="pref_editions" xml:id="pref_editions">
       <title>Previous and future editions</title>
       <p permid="p1">
         This current 2nd edition brings a few major improvements,
@@ -151,17 +151,17 @@
         The highlights include:
 
         <ul permid="ul">
-          <li permid="li1">
+          <li permid="l_l">
             Some of the material from chapter 3
             (on logic)
             is now part of an introduction section on mathematical statements.
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             Content from the section on counting functions (previously 1.7) is now integrated with the rest of chapter 1.
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             To accommodate instructors, some of the solutions to exercises were removed,
             and the more involved <q>homework</q>
             problems were integrated in the main exercises.
@@ -169,7 +169,7 @@
             Currently there are about 360 exercises of which roughly 2/3 have solutions or answers.
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             Behind the scenes,
             the source of the text transitioned from <latex/> to Mathbook XML, which allows for conversion to <latex/> as well as the creation of an interactive online version.
           </li>
@@ -197,12 +197,12 @@
 
   <preface>
     <title>How to use this book</title>
-    <p>
+    <p permid="p12">
       In addition to expository text,
       this book has a few features designed to encourage you to interact with the mathematics.
     </p>
 
-    <paragraphs>
+    <paragraphs permid="ps1">
       <title><em>Investigate!</em> activities</title>
       <p permid="p">
         Sprinkled throughout the sections
@@ -223,7 +223,7 @@
       </p>
     </paragraphs>
 
-    <paragraphs>
+    <paragraphs permid="ps2">
       <title>Examples</title>
       <p permid="p">
         I have tried to include the <q>correct</q> number of examples.
@@ -239,7 +239,7 @@
       </p>
     </paragraphs>
 
-    <paragraphs>
+    <paragraphs permid="ps3">
       <title>Exercises</title>
       <p permid="p">
         You get good at math through practice.

@@ -180,21 +180,21 @@
       </p>
 
       <ol permid="ol">
-        <li permid="li1">
+        <li permid="l_l">
           <p permid="p">
             What if she first selects the 6 bridesmaids,
             and then selects one of them to be the maid of honor?
           </p>
         </li>
 
-        <li permid="li2">
+        <li permid="l_w">
           <p permid="p">
             What if she first selects her maid of honor,
             and then 5 other bridemaids?
           </p>
         </li>
 
-        <li permid="li3">
+        <li permid="l_h">
           <p permid="p">
             Explain why <m>6 {15 \choose 6} = 15 {14 \choose 5}</m>.
           </p>
@@ -204,7 +204,7 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               She has <m>{15 \choose 6}</m> ways to select the 6 bridesmaids,
               and then for each way, has 6 choices for the maid of honor.
@@ -212,7 +212,7 @@
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               She has 15 choices for who will be her maid of honor.
               Then she needs to select 5 of the remaining 14 friends to be bridesmaids,
@@ -221,7 +221,7 @@
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               We have answered the question
               (how many wedding parties can the bride choose from)
@@ -314,38 +314,38 @@
       </p>
 
       <ol permid="ol">
-        <li permid="li1">
+        <li permid="l_l">
           <p permid="p">
             How many of those bit strings start with 1?
           </p>
         </li>
 
-        <li permid="li2">
+        <li permid="l_w">
           <p permid="p">
             How many of those bit strings start with 01?
           </p>
         </li>
 
-        <li permid="li3">
+        <li permid="l_h">
           <p permid="p">
             How many of those bit strings start with 001?
           </p>
         </li>
 
-        <li permid="li4">
+        <li permid="l_s">
           <p permid="p">
             Are there any other strings we have not counted yet?
             Which ones, and how many are there?
           </p>
         </li>
 
-        <li permid="li5">
+        <li permid="l_d">
           <p permid="p">
             How many bit strings are there total in <m>\B^6_2</m>?
           </p>
         </li>
 
-        <li permid="li6">
+        <li permid="l_o">
           <p permid="p">
             What binomial identity have you just given a combinatorial proof for?
           </p>
@@ -356,21 +356,21 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               After the 1, we need to find a 5-bit string with one 1.
               There are <m>{5 \choose 1}</m> ways to do this.
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <m>{4 \choose 1}</m> strings
             (we need to pick 1 of the remaining 4 slots to be the second 1).
           </li>
 
-          <li permid="li3"><m>{3 \choose 1}</m> strings.</li>
+          <li permid="l_h"><m>{3 \choose 1}</m> strings.</li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <p permid="p">
               Yes.
               We still need strings starting with 0001
@@ -380,9 +380,9 @@
             </p>
           </li>
 
-          <li permid="li5"><m>{6 \choose 2}</m> strings</li>
+          <li permid="l_d"><m>{6 \choose 2}</m> strings</li>
 
-          <li permid="li6">
+          <li permid="l_o">
             <p permid="p">
               An example of the Hockey Stick Theorem:
               <me>
@@ -405,19 +405,19 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               How many ternary digit strings contain exactly <m>n</m> digits?
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               How many ternary digit strings contain exactly <m>n</m> digits and <m>n</m> 2's.
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               How many ternary digit strings contain exactly <m>n</m> digits and <m>n-1</m> 2's. (Hint:
               where can you put the non-2 digit,
@@ -425,27 +425,27 @@
             </p>
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <p permid="p">
               How many ternary digit strings contain exactly <m>n</m> digits and <m>n-2</m> 2's. (Hint:
               see previous hint)
             </p>
           </li>
 
-          <li permid="li5">
+          <li permid="l_d">
             <p permid="p">
               How many ternary digit strings contain exactly <m>n</m> digits and <m>n-k</m> 2's.
             </p>
           </li>
 
-          <li permid="li6">
+          <li permid="l_o">
             <p permid="p">
               How many ternary digit strings contain exactly <m>n</m> digits and no 2's. (Hint:
               what kind of a string is this?)
             </p>
           </li>
 
-          <li permid="li7">
+          <li permid="l_z">
             <p permid="p">
               Use the above parts to give a combinatorial proof for the identity
               <me>
@@ -460,24 +460,24 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <m>3^n</m> strings,
             since there are 3 choices for each of the <m>n</m> digits.
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <m>1</m> string, since all the digits need to be 2's.
             However, we might write this as <m>{n \choose 0}</m> strings.
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               There are <m>{n \choose 1}</m> places to put the non-2 digit.
               That digit can be either a 0 or a 1, so there are <m>2{n \choose 1}</m> such strings.
             </p>
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <p permid="p">
               We must choose two slots to fill with 0's or 1's.
               There are <m>{n \choose 2}</m> ways to do that.
@@ -487,7 +487,7 @@
             </p>
           </li>
 
-          <li permid="li5">
+          <li permid="l_d">
             <p permid="p">
               There are <m>{n \choose k}</m> ways to pick which slots don't have the 2's.
               Then those slots can be filled in <m>2^k</m> ways (0 or 1 for each slot).
@@ -495,7 +495,7 @@
             </p>
           </li>
 
-          <li permid="li6">
+          <li permid="l_o">
             <p permid="p">
               These strings contain just 0's and 1's, so they are bit strings.
               There are <m>2^n</m> bit strings.
@@ -504,7 +504,7 @@
             </p>
           </li>
 
-          <li permid="li7">
+          <li permid="l_z">
             <p permid="p">
               We answer the question of how many length <m>n</m> ternary digit strings there are in two ways.
               First, each digit can be one of three choices,

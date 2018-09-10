@@ -26,49 +26,49 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="li1">
+          <li permid="l_l">
             <p permid="p">
               How many animal parades containing 6 crackers can you line up?
             </p>
           </li>
 
-          <li permid="li2">
+          <li permid="l_w">
             <p permid="p">
               How many animal parades of 6 crackers can you line up so that the animals appear in alphabetical order?
             </p>
           </li>
 
-          <li permid="li3">
+          <li permid="l_h">
             <p permid="p">
               How many ways could you line up 6 different animals in alphabetical order?
             </p>
           </li>
 
-          <li permid="li4">
+          <li permid="l_s">
             <p permid="p">
               How many ways could you line up 6 different animals if they can come in any order?
             </p>
           </li>
 
-          <li permid="li5">
+          <li permid="l_d">
             <p permid="p">
               How many ways could you give 6 children one animal cracker each?
             </p>
           </li>
 
-          <li permid="li6">
+          <li permid="l_o">
             <p permid="p">
               How many ways could you give 6 children one animal cracker each so that no two kids get the same animal?
             </p>
           </li>
 
-          <li permid="li7">
+          <li permid="l_z">
             <p permid="p">
               How many ways could you give out 6 giraffes to 10 kids?
             </p>
           </li>
 
-          <li permid="li8">
+          <li permid="l_k">
             <p permid="p">
               Write a question about giving animal crackers to kids that has the answer <m>{10\choose 6}</m>.
             </p>
@@ -87,7 +87,7 @@
 
     <p permid="p2">
       <ul permid="ul">
-        <li permid="li1">
+        <li permid="l_l">
           <p permid="p">
             Remember that you are counting the number of items in some
             <em>list of outcomes</em>.
@@ -97,7 +97,7 @@
           </p>
         </li>
 
-        <li permid="li2">
+        <li permid="l_w">
           <p permid="p">
             If generating an element on the list involves selecting something
             (for example,
@@ -108,7 +108,7 @@
           </p>
         </li>
 
-        <li permid="li3">
+        <li permid="l_h">
           <p permid="p">
             Does order matter?
             Be careful here and be sure you know what your answer really means.
@@ -118,7 +118,7 @@
           </p>
         </li>
 
-        <li permid="li4">
+        <li permid="l_s">
           <p permid="p">
             There are four possibilities when it comes to order and repeats.
             If order matters and repeats are allowed,
@@ -131,14 +131,14 @@
           </p>
         </li>
 
-        <li permid="li5">
+        <li permid="l_d">
           <p permid="p">
             Think about how you would represent your counting problem in terms of sets or functions.
             We know how to count different sorts of sets and different types of functions.
           </p>
         </li>
 
-        <li permid="li6">
+        <li permid="l_o">
           <p permid="p">
             As we saw with combinatorial proofs,
             you can often solve a counting problem in more than one way.

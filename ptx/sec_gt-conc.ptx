@@ -28,28 +28,28 @@
     Here is a short summary of the types of questions we have considered:
 
     <ul permid="ul">
-      <li permid="li1">
+      <li permid="l_l">
         <p permid="p">
           Can the graph be drawn in the plane without edges crossing?
           If so, how many regions does this drawing divide the plane into?
         </p>
       </li>
 
-      <li permid="li2">
+      <li permid="l_w">
         <p permid="p">
           Is it possible to color the vertices of the graph so that related vertices have different colors using a small number of colors?
           How many colors are needed?
         </p>
       </li>
 
-      <li permid="li3">
+      <li permid="l_h">
         <p permid="p">
           Is it possible to trace over every edge of a graph exactly once without lifting up your pencil?
           What other sorts of <q>paths</q> might a graph posses?
         </p>
       </li>
 
-      <li permid="li4">
+      <li permid="l_s">
         <p permid="p">
           Can you find subgraphs with certain properties?
           For example,
