@@ -142,7 +142,7 @@
     <m>N(S)</m> is the set of topics liked by the students of <m>S</m>.) Our discussion above can be summarized as follows:
   </p>
 
-  <assemblage permid="asm">
+  <assemblage permid="asm-matching-condition">
     <title>Matching Condition</title>
     <p permid="p">
           <idx><h>matching condition</h></idx>
@@ -170,7 +170,7 @@
     The name is a coincidence though as the two Halls are not related.
     </fn></p>
 
-  <theorem permid="t">
+  <theorem permid="t-hall-s-marriage-t">
     <title>Hall's Marriage Theorem</title>
     <statement>
       <p permid="p">

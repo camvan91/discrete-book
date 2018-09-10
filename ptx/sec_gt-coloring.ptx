@@ -189,7 +189,7 @@
       The answer is the best known theorem of graph theory:
     </p>
 
-    <theorem permid="t">
+    <theorem permid="t-four-color-t">
       <title>The Four Color Theorem</title>
       <statement>
         <p permid="p">
@@ -527,7 +527,7 @@
       a result known as Brooks' Theorem.
     </p>
 
-    <theorem permid="t2">
+    <theorem permid="t-brooks-t">
       <title>Brooks' Theorem</title>
       <statement>
         <p permid="p">
@@ -632,7 +632,7 @@
       Only a little higher.
     </p>
 
-    <theorem permid="t">
+    <theorem permid="t-vizing-s-t">
       <title>Vizing's Theorem</title>
       <statement>
         <p permid="p">

@@ -161,7 +161,7 @@
       We consider two ways to do this:
     </p>
 
-    <assemblage permid="asm1">
+    <assemblage permid="asm-closed-formula">
       <title>Closed formula</title>
       <p permid="p">
         A <term>closed formula</term>
@@ -173,7 +173,7 @@
       </p>
     </assemblage>
 
-    <assemblage permid="asm2">
+    <assemblage permid="asm-recursive-d">
       <title>Recursive definition</title>
       <p permid="p">
         A <term>recursive definition</term>

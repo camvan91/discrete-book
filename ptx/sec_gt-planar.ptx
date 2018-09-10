@@ -129,7 +129,7 @@
       This relationship is called Euler's formula.
     </p>
 
-    <assemblage permid="asm">
+    <assemblage permid="asm-euler-s-formula-for-planar-graphs">
       <title>Euler's Formula for Planar Graphs</title>
       <p permid="p">
             <idx><h>Euler's formula</h></idx>

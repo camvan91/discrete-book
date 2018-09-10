@@ -214,11 +214,11 @@
       Some of these will be discussed in greater detail as we move forward.
     </p>
 
-    <assemblage permid="asm1">
+    <assemblage permid="asm-special-sets">
       <title>Special sets</title>
-      <p permid="p">
-        <dl permid="dl" width="narrow">
-          <li permid="l_l">
+      <p permid="p-emptyset">
+        <dl permid="dl-emptyset" width="narrow">
+          <li permid="l_emptyset">
             <title><m>\emptyset</m></title>
             <p permid="p">
               The <term>empty set</term> is the set which contains no elements.
@@ -232,7 +232,7 @@
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_u">
             <title><m>\U</m></title>
             <p permid="p">
               The <term>universe set</term> is the set of all elements.
@@ -245,7 +245,7 @@
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_n">
             <title><m>\N</m></title>
             <p permid="p">
               The set of natural numbers.
@@ -263,7 +263,7 @@
             </p>
           </li>
 
-          <li permid="l_s">
+          <li permid="l_z">
             <title><m>\Z</m></title>
             <p permid="p">
               The set of
@@ -279,7 +279,7 @@
             </p>
           </li>
 
-          <li permid="l_d">
+          <li permid="l_q">
             <title><m>\Q</m></title>
             <p permid="p">
               The set of rational numbers.
@@ -293,7 +293,7 @@
             </p>
           </li>
 
-          <li permid="l_o">
+          <li permid="l_r">
             <title><m>\R</m></title>
             <p permid="p">
               The set of real numbers.
@@ -306,7 +306,7 @@
             </p>
           </li>
 
-          <li permid="l_z">
+          <li permid="l_pow-a">
             <title><m>\pow(A)</m></title>
             <p permid="p">
               The <term>power set</term> of any set <m>A</m> is the set of all subsets of <m>A</m>.
@@ -322,11 +322,11 @@
       </p>
     </assemblage>
 
-    <assemblage permid="asm2">
+    <assemblage permid="asm-set-theory-notation">
       <title>Set Theory Notation</title>
       <p permid="p">
         <dl permid="dl" width="narrow">
-          <li permid="l_l">
+          <li permid="l_">
             <title><m>\{, \}</m></title>
             <p permid="p">
               We use these <term>braces</term> to enclose the elements of a set.
@@ -340,7 +340,7 @@
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_st">
             <title><m>\st</m></title>
             <p permid="p">
               <m>\{x \st x &gt; 2\}</m> is the set of all <m>x</m> <term>such that</term>
@@ -354,7 +354,7 @@
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_in">
             <title><m>\in</m></title>
             <p permid="p">
               <m>2 \in \{1,2,3\}</m> asserts that 2 is
@@ -369,7 +369,7 @@
             </p>
           </li>
 
-          <li permid="l_s">
+          <li permid="l_not-in">
             <title><m>\not\in</m></title>
             <p permid="p">
               <m>4 \notin \{1,2,3\}</m> because 4
@@ -378,7 +378,7 @@
             </p>
           </li>
 
-          <li permid="l_d">
+          <li permid="l_subseteq">
             <title><m>\subseteq</m></title>
             <p permid="p">
               <m>A \subseteq B</m> asserts that
@@ -393,7 +393,7 @@
             </p>
           </li>
 
-          <li permid="l_o">
+          <li permid="l_subset">
             <title><m>\subset</m></title>
             <p permid="p">
               <m>A \subset B</m> asserts that
@@ -409,7 +409,7 @@
             </p>
           </li>
 
-          <li permid="l_z">
+          <li permid="l_cap">
             <title><m>\cap</m></title>
             <p permid="p">
               <m>A \cap B</m> is the <term>intersection of <m>A</m> and <m>B</m></term>:
@@ -424,7 +424,7 @@
             </p>
           </li>
 
-          <li permid="l_k">
+          <li permid="l_cup">
             <title><m>\cup</m></title>
             <p permid="p">
               <m>A \cup B</m> is the <term>union of <m>A</m> and <m>B</m></term>:
@@ -439,7 +439,7 @@
             </p>
           </li>
 
-          <li permid="l_v">
+          <li permid="l_times">
             <title><m>\times</m></title>
             <p permid="p">
               <m>A \times B</m> is the <term>Cartesian product of <m>A</m> and <m>B</m></term>:
@@ -453,7 +453,7 @@
             </p>
           </li>
 
-          <li permid="l_g">
+          <li permid="l_setminus">
             <title><m>\setminus</m></title>
             <p permid="p">
               <m>A \setminus B</m> is <term><m>A</m> set-minus <m>B</m></term>:
@@ -467,7 +467,7 @@
             </p>
           </li>
 
-          <li permid="l_r">
+          <li permid="l_bar-a">
             <title><m>\bar{A}</m></title>
             <p permid="p">
               The <term>complement of <m>A</m></term>
@@ -481,7 +481,7 @@
             </p>
           </li>
 
-          <li permid="l_c">
+          <li permid="l_card-a">
             <title><m>\card{A}</m></title>
             <p permid="p">
               The <term>cardinality

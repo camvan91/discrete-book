@@ -261,7 +261,7 @@
       Here is the general structure of a proof by mathematical induction:
     </p>
 
-    <assemblage permid="asm">
+    <assemblage permid="asm-induction-pf-structure">
       <title>Induction Proof Structure</title>
       <p permid="p1">
             <idx><h>induction</h></idx> Start by saying what the statement is that you want to prove: <q>Let <m>P(n)</m> be the statement<ellipsis/></q> To prove that <m>P(n)</m> is true for all <m>n \ge 0</m>, you must prove two facts:
@@ -622,7 +622,7 @@
       Thus induction is the way to go.
     </p>
 
-    <paragraphs permid="ps">
+    <paragraphs permid="ps-warn">
       <title>Warning:</title>
       <p permid="p1">
         With great power, comes great responsibility.
@@ -780,7 +780,7 @@
       Here is what the formal proof would look like:
     </p>
 
-    <assemblage permid="asm">
+    <assemblage permid="asm-strong-induction-pf-structure">
       <title>Strong Induction Proof Structure</title>
       <idx><h>induction</h><h>strong induction</h></idx>
 

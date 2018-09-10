@@ -231,7 +231,7 @@
       a circuit using the edges you previously missed.
     </p>
 
-    <assemblage permid="asm">
+    <assemblage permid="asm-euler-paths-circuits">
       <title>Euler Paths and Circuits</title>
       <p permid="p">
         <ul permid="ul">

@@ -421,7 +421,7 @@
       <term>characteristic roots</term>.
     </p>
 
-    <assemblage permid="asm">
+    <assemblage permid="asm-characteristic-roots">
       <title>Characteristic Roots</title>
       <p permid="p1">
             <idx><h>characteristic roots</h></idx> Given a recurrence relation <m>a_n + \alpha a_{n-1} + \beta a_{n-2} = 0</m>, the

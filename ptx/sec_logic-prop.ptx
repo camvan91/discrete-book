@@ -515,7 +515,7 @@
       <term>logically equivalent</term>.
     </p>
 
-    <assemblage permid="asm1">
+    <assemblage permid="asm-logical-equivalence">
       <title>Logical Equivalence</title>
       <p permid="p1">
         Two (molecular) statements <m>P</m> and <m>Q</m> are
@@ -606,7 +606,7 @@
       We have a similar rule for distributing over conjunctions (<q>and</q>s):
     </p>
 
-    <assemblage permid="asm2">
+    <assemblage permid="asm-de-morgan-s-laws">
       <title>De Morgan's Laws</title>
       <p permid="p">
             <idx><h>De Morgan's laws</h></idx>
@@ -629,7 +629,7 @@
       We will probably also want a way to deal with double negation:
     </p>
 
-    <assemblage permid="asm3">
+    <assemblage permid="asm-double-negation">
       <title>Double Negation</title>
       <p permid="p1">
             <idx><h>double negation</h></idx>

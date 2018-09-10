@@ -64,7 +64,7 @@
       What is important here?
     </p>
 
-    <assemblage permid="asm1">
+    <assemblage permid="asm-additive-prin">
       <title>Additive Principle</title>
       <p permid="p">
         The
@@ -167,7 +167,7 @@
       We have:
     </p>
 
-    <assemblage permid="asm2">
+    <assemblage permid="asm-multiplicative-prin">
       <title>Multiplicative Principle</title>
       <p permid="p">
         The
@@ -396,7 +396,7 @@
       From this example we can see right away how to rephrase our additive principle in terms of sets:
     </p>
 
-    <assemblage permid="asm1">
+    <assemblage permid="asm-additive-prin-with-sets">
       <title>Additive Principle (with sets)</title>
       <p permid="p">
             <idx><h>additive principle</h></idx> Given two sets <m>A</m> and <m>B</m>, if <m>A \cap B = \emptyset</m> (that is, if there is no element in common to both <m>A</m> and <m>B</m>), then
@@ -423,7 +423,7 @@
       We should define this carefully:
     </p>
 
-    <assemblage permid="asm2">
+    <assemblage permid="asm-cartesian-product">
       <title>Cartesian Product</title>
       <p permid="p">
         Given sets <m>A</m> and <m>B</m>, we can form the
@@ -496,7 +496,7 @@
       To summarize:
     </p>
 
-    <assemblage permid="asm3">
+    <assemblage permid="asm-multiplicative-prin-with-sets">
       <title>Multiplicative Principle (with sets)</title>
       <p permid="p">
             <idx><h>multiplicative principle</h></idx> Given two sets <m>A</m> and <m>B</m>, we have <m>\card{A \times B} = \card{A} \cdot \card{B}</m>.
@@ -634,7 +634,7 @@
       In other words, we have:
     </p>
 
-    <assemblage permid="asm1">
+    <assemblage permid="asm-cardinality-a-union-2-sets">
       <title>Cardinality of a union (2 sets)</title>
       <p permid="p">
         For any finite sets <m>A</m> and <m>B</m>,
@@ -801,7 +801,7 @@
       the formula for cardinality of the union of three non-disjoint sets is more complicated:
     </p>
 
-    <assemblage permid="asm2">
+    <assemblage permid="asm-cardinality-a-union-3-sets">
       <title>Cardinality of a union (3 sets)</title>
       <p permid="p">
         For any finite sets <m>A</m>, <m>B</m>, and <m>C</m>,

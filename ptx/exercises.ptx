@@ -10,7 +10,7 @@
 
 <chapter permid="chap-intr-preliminaries">
   <title>Introduction and Preliminaries</title>
-<section permid="sec">
+<section permid="sec1">
   <xi:include href="./exercises/intro-intro.ptx"/>
 </section>
 \setcounter{section}{1}

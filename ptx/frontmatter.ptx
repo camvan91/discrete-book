@@ -202,7 +202,7 @@
       this book has a few features designed to encourage you to interact with the mathematics.
     </p>
 
-    <paragraphs permid="ps1">
+    <paragraphs permid="ps-em-investigate-em-activities">
       <title><em>Investigate!</em> activities</title>
       <p permid="p">
         Sprinkled throughout the sections
@@ -223,7 +223,7 @@
       </p>
     </paragraphs>
 
-    <paragraphs permid="ps2">
+    <paragraphs permid="ps-examples">
       <title>Examples</title>
       <p permid="p">
         I have tried to include the <q>correct</q> number of examples.
@@ -239,7 +239,7 @@
       </p>
     </paragraphs>
 
-    <paragraphs permid="ps3">
+    <paragraphs permid="ps-exers">
       <title>Exercises</title>
       <p permid="p">
         You get good at math through practice.

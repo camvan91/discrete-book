@@ -196,7 +196,7 @@
       the weights of the above strings are 2, 0, 4, and 5 respectively.
     </p>
 
-    <assemblage permid="asm">
+    <assemblage permid="asm-bit-strings">
       <title>Bit Strings</title>
       <p permid="p">
             <idx><h>bit string</h></idx>
@@ -575,7 +575,7 @@
       <m>{n \choose k}</m>.
     </p>
 
-    <assemblage permid="asm1">
+    <assemblage permid="asm-binomial-coefficients">
       <title>Binomial Coefficients</title>
       <p permid="p">
             <idx><h>binomial coefficients</h></idx> For each integer <m>n \ge 0</m> and integer <m>k</m> with <m>0 \le k \le n</m> there is a number
@@ -682,7 +682,7 @@
       the same recurrence relation holds for binomial coefficients:
     </p>
 
-    <assemblage permid="asm2">
+    <assemblage permid="asm-recurrence-relation-for-n-choose-k">
       <title>Recurrence relation for <m>{n \choose k}</m></title>
       <p permid="p">
         <me>

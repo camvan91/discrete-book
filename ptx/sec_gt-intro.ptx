@@ -2,7 +2,7 @@
 
 <section permid="sec_gt-intro" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_gt-intro">
   <title>Definitions</title>
-  <investigation permid="inv">
+  <investigation permid="inv-graph-1">
     <p permid="p1">
       Which (if any) of the graphs below are the same?
     </p>
@@ -187,13 +187,13 @@
 
     </sidebyside>
 
-    <p permid="p3">
+    <p permid="p-graph-1">
       Actually, all the graphs we have seen above are just
       <em>drawings</em> of graphs.
       A graph is really an abstract mathematical object consisting of two sets <m>V</m> and <m>E</m> where <m>E</m> is a set of 2-element subsets of <m>V</m>.
 			Are the graphs below the same or different?
-      <dl permid="dl" width="narrow">
-        <li permid="l_l">
+      <dl permid="dl-graph-1" width="narrow">
+        <li permid="l_graph-1">
           <title>Graph 1:</title>
           <p permid="p1">
             <m>V = \{a, b, c, d, e\}</m>,
@@ -204,7 +204,7 @@
           </p>
         </li>
 
-        <li permid="l_w">
+        <li permid="l_graph-2">
           <title>Graph 2:</title>
           <p permid="p1">
             <m>V = \{v_1, v_2, v_3, v_4, v_5\}</m>,
@@ -246,7 +246,7 @@
     Instead, here is the (now) standard definition of a graph.
   </p>
 
-  <assemblage permid="asm1">
+  <assemblage permid="asm-graph-d">
     <title>Graph Definition</title>
     <p permid="p">
       A <term>graph</term> is an ordered pair
@@ -455,7 +455,7 @@
     we give the following definitions:
   </p>
 
-  <assemblage permid="asm2">
+  <assemblage permid="asm-isomorphic-graphs">
     <title>Isomorphic Graphs</title>
     <p permid="p1">
           <idx><h>isomorphic</h></idx> An
@@ -677,7 +677,7 @@
     In fact, there are two reasonable notions for what a subgroup should mean.
   </p>
 
-  <assemblage permid="asm3">
+  <assemblage permid="asm-subgraphs">
     <title>Subgraphs</title>
     <p permid="p1">
       We say that <m>G_1 = (V_1, E_1)</m> is a <term>subgraph</term>
@@ -904,12 +904,12 @@
   </p>
 
 	<!-- TODO: give picture example of bipartite and not bipartite graphs -->
-  <assemblage permid="asm4">
+  <assemblage permid="asm-named-graphs">
     <title>Named Graphs</title>
-    <p permid="p">
+    <p permid="p-k_n">
       Some graphs are used more than others, and get special names.
-      <dl permid="dl" width="narrow">
-        <li permid="l_l">
+      <dl permid="dl-k_n" width="narrow">
+        <li permid="l_k_n">
           <title><m>K_n</m></title>
           <p permid="p">
             The complete graph on <m>n</m> vertices.
@@ -922,7 +922,7 @@
           </p>
         </li>
 
-        <li permid="l_w">
+        <li permid="l_k_n">
           <title><m>K_{m,n}</m></title>
           <p permid="p">
             The complete bipartite graph with sets of <m>m</m> and <m>n</m> vertices.
@@ -935,7 +935,7 @@
           </p>
         </li>
 
-        <li permid="l_h">
+        <li permid="l_c_n">
           <title><m>C_n</m></title>
           <p permid="p">
             The cycle on <m>n</m> vertices, just one big loop.
@@ -948,7 +948,7 @@
           </p>
         </li>
 
-        <li permid="l_s">
+        <li permid="l_p_n">
           <title><m>P_n</m></title>
           <p permid="p">
             The path on <m>n</m> vertices, just one long path.
@@ -1018,11 +1018,11 @@
     Here is a glossary of the terms we have already used and will soon encounter.
   </p>
 
-  <assemblage permid="asm5">
+  <assemblage permid="asm-graph-theory-definitions">
     <title>Graph Theory Definitions</title>
-    <p permid="p">
-      <dl permid="dl" width="medium">
-        <li permid="l_l">
+    <p permid="p-graph">
+      <dl permid="dl-graph" width="medium">
+        <li permid="l_graph">
           <title>Graph</title>
           <p permid="p">
               <idx><h>graph</h></idx> A collection of
@@ -1031,7 +1031,7 @@
           </p>
         </li>
 
-        <li permid="l_w">
+        <li permid="l_adjacent">
           <title>Adjacent</title>
           <p permid="p">
               <idx><h>adjacent</h></idx> Two vertices are
@@ -1040,28 +1040,28 @@
           </p>
         </li>
 
-        <li permid="l_h">
+        <li permid="l_bipartite-graph">
           <title>Bipartite graph</title>
           <p permid="p">
               <idx><h>bipartite</h></idx> A graph for which it is possible to divide the vertices into two disjoint sets such that there are no edges between any two vertices in the same set.
           </p>
         </li>
 
-        <li permid="l_s">
+        <li permid="l_complete-bipartite-graph">
           <title>Complete bipartite graph</title>
           <p permid="p">
             A bipartite graph for which every vertex in the first set is adjacent to every vertex in the second set.
           </p>
         </li>
 
-        <li permid="l_d">
+        <li permid="l_complete-graph">
           <title>Complete graph</title>
           <p permid="p">
               <idx><h>complete graph</h></idx> A graph in which every pair of vertices is adjacent.
           </p>
         </li>
 
-        <li permid="l_o">
+        <li permid="l_connected">
           <title>Connected</title>
           <p permid="p">
               <idx><h>connected</h></idx> A graph is
@@ -1069,42 +1069,42 @@
           </p>
         </li>
 
-        <li permid="l_z">
+        <li permid="l_chromatic-number">
           <title>Chromatic number</title>
           <p permid="p">
               <idx><h>chromatic number</h></idx> The minimum number of colors required in a proper vertex coloring of the graph.
           </p>
         </li>
 
-        <li permid="l_k">
+        <li permid="l_cycle">
           <title>Cycle</title>
           <p permid="p">
               <idx><h>cycle</h></idx> A path (see below) that starts and stops at the same vertex, but contains no other repeated vertices.
           </p>
         </li>
 
-        <li permid="l_v">
+        <li permid="l_degree-a-vertex">
           <title>Degree of a vertex</title>
           <p permid="p">
               <idx><h>degree</h></idx> The number of edges incident to a vertex.
           </p>
         </li>
 
-        <li permid="l_g">
+        <li permid="l_euler-path">
           <title>Euler path</title>
           <p permid="p">
             A walk which uses each edge exactly once.
           </p>
         </li>
 
-        <li permid="l_r">
+        <li permid="l_euler-circuit">
           <title>Euler circuit</title>
           <p permid="p">
               <idx><h>Euler path</h></idx> An Euler path which starts and stops at the same vertex.
           </p>
         </li>
 
-        <li permid="l_c">
+        <li permid="l_multigraph">
           <title>Multigraph</title>
           <p permid="p">
               <idx><h>multigraph</h></idx> A
@@ -1112,14 +1112,14 @@
           </p>
         </li>
 
-        <li permid="l_n">
+        <li permid="l_planar">
           <title>Planar</title>
           <p permid="p">
               <idx><h>planar</h></idx> A graph which can be drawn (in the plane) without any edges crossing.
           </p>
         </li>
 
-        <li permid="l_y">
+        <li permid="l_subgraph">
           <title>Subgraph</title>
           <p permid="p">
               <idx><h>subgraph</h></idx> We say that <m>H</m> is a
@@ -1128,7 +1128,7 @@
           </p>
         </li>
 
-        <li permid="l_j">
+        <li permid="l_tree">
           <title>Tree</title>
           <p permid="p">
               <idx><h>tree</h></idx> A (connected) graph with no cycles. (A non-connected graph with no cycles is called a
@@ -1137,7 +1137,7 @@
           </p>
         </li>
 
-        <li permid="l_u">
+        <li permid="l_vertex-coloring">
           <title>Vertex coloring</title>
           <p permid="p">
               <idx><h>vertex coloring</h></idx> An assignment of colors to each of the vertices of a graph.
@@ -1146,7 +1146,7 @@
           </p>
         </li>
 
-        <li permid="l_f">
+        <li permid="l_walk">
           <title>Walk</title>
           <p permid="p">
               <idx><h>walk</h></idx> A sequence of vertices such that consecutive vertices (in the sequence) are adjacent (in the graph).

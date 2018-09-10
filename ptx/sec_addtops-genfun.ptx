@@ -150,7 +150,7 @@
       And in this case we are happy.
     </p>
 
-    <assemblage permid="asm1">
+    <assemblage permid="asm-1-1-1-ldots">
       <title><m>1,1,1,\ldots</m></title>
       <p permid="p">
         The generating function for
@@ -259,7 +259,7 @@
       This says
     </p>
 
-    <assemblage permid="asm2">
+    <assemblage permid="asm-1-2-3-ldots">
       <title><m>1,2,3,\ldots</m></title>
       <p permid="p">
         The generating function for

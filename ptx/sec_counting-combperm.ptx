@@ -94,7 +94,7 @@
       This generalizes:
     </p>
 
-    <assemblage permid="asm1">
+    <assemblage permid="asm-permutations-n-elements">
       <title>Permutations of <m>n</m> elements</title>
       <p permid="p">
         There are <m>n! = n\cdot (n-1)\cdot (n-2)\cdot \cdots \cdot 2\cdot 1</m> permutations of <m>n</m> (distinct) elements.
@@ -188,7 +188,7 @@
       Careful: The factorial in the denominator is not <m>4!</m> but rather <m>(10-4)!</m>.
     </p>
 
-    <assemblage permid="asm2">
+    <assemblage permid="asm-k-permutations-n-elements">
       <title><m>k</m>-permutations of <m>n</m> elements</title>
       <p permid="p">
             <idx><h><em>k</em>-permutation</h></idx>
@@ -272,7 +272,7 @@
       If we divide both sides by <m>k!</m> we get a closed formula for <m>{n \choose k}</m>.
     </p>
 
-    <assemblage permid="asm3">
+    <assemblage permid="asm-closed-formula-for-n-choose-k">
       <title>Closed formula for <m>{n \choose k}</m></title>
       <p permid="p">
         <me>

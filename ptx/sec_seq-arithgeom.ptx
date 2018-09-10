@@ -98,7 +98,7 @@
       We now turn to the question of finding closed formulas for particular types of sequences.
     </p>
 
-    <assemblage permid="asm1">
+    <assemblage permid="asm-arithmetic-sequences">
       <title>Arithmetic Sequences</title>
       <p permid="p1">
         If the terms of a sequence differ by a constant,
@@ -220,7 +220,7 @@
       We get <m>a_n = a\cdot r^{n}</m>.
     </p>
 
-    <assemblage permid="asm2">
+    <assemblage permid="asm-geometric-sequences">
       <title>Geometric Sequences</title>
       <p permid="p1">
         A sequence is called <term>geometric</term>

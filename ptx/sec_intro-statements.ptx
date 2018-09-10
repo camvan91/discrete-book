@@ -213,7 +213,7 @@
       <m>\neg</m>.
     </p>
 
-    <assemblage permid="asm1">
+    <assemblage permid="asm-logical-connectives">
       <title>Logical Connectives</title>
       <p permid="p">
         <ul permid="ul">
@@ -283,7 +283,7 @@
       depending on the connectives:
     </p>
 
-    <assemblage permid="asm2">
+    <assemblage permid="asm-truth-conditions-for-connectives">
       <title>Truth Conditions for Connectives</title>
       <p permid="p">
         <ul permid="ul">
@@ -331,7 +331,7 @@
 
   <subsection permid="ssec_implications" xml:id="subsec_implications">
     <title>Implications</title>
-    <assemblage permid="asm1">
+    <assemblage permid="asm-implications">
       <title>Implications</title>
       <idx>antecedent</idx>
       <idx>consequent</idx>
@@ -535,7 +535,7 @@
       you already have the outline for a proof.
     </p>
 
-    <assemblage permid="asm2">
+    <assemblage permid="asm-direct-proofs-implications">
       <title>Direct Proofs of Implications</title>
       <p permid="p">
         To prove an implication
@@ -600,7 +600,7 @@
       we have some special language to help discuss them:
     </p>
 
-    <assemblage permid="asm3">
+    <assemblage permid="asm-converse-contrapositive">
       <title>Converse and Contrapositive</title>
       <p permid="p">
         <ul permid="ul">
@@ -793,7 +793,7 @@
       This is the biconditional we mentioned earlier:
     </p>
 
-    <assemblage permid="asm4">
+    <assemblage permid="asm-if-only-if">
       <title>If and only if</title>
       <blockquote permid="bq">
         <p permid="p">
@@ -969,7 +969,7 @@
       In fact, let's agree once and for all what they mean:
     </p>
 
-    <assemblage permid="asm5">
+    <assemblage permid="asm-necessary-sufficient">
       <title>Necessary and Sufficient</title>
       <p permid="p1">
             <idx> <h>necessary condition</h> </idx>
@@ -1112,7 +1112,7 @@
       existential and universal.
     </p>
 
-    <assemblage permid="asm1">
+    <assemblage permid="asm-universal-existential-quantifiers">
       <title>Universal and Existential Quantifiers</title>
       <p permid="p1">
         <idx>
@@ -1213,7 +1213,7 @@
       This is typical.
     </p>
 
-    <assemblage permid="asm2">
+    <assemblage permid="asm-quantifiers-negation">
       <title>Quantifiers and Negation</title>
       <blockquote permid="bq">
         <p permid="p1">

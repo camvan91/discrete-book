@@ -105,7 +105,7 @@
       (this is saying <m>a</m> is some multiple of <m>b</m>).
     </p>
 
-    <assemblage permid="asm1">
+    <assemblage permid="asm-divisibility-relation">
       <title>The Divisibility Relation</title>
       <p permid="p1">
             <idx><h>divisibility relation</h></idx>
@@ -318,7 +318,7 @@
       <em>division algorithm</em>:
     </p>
 
-    <assemblage permid="asm2">
+    <assemblage permid="asm-division-alg">
       <title>The Division Algorithm</title>
       <p permid="p">
             <idx><h>Division algorithm</h></idx>
@@ -464,7 +464,7 @@
       </me>
     </p>
 
-    <assemblage permid="asm1">
+    <assemblage permid="asm-congruence-modulo-n">
       <title>Congruence Modulo <m>n</m></title>
       <p permid="p">
         We say <term><m>a</m> is congruent to <m>b</m> modulo <m>n</m></term>,
@@ -526,7 +526,7 @@
       Thus we have:
     </p>
 
-    <assemblage permid="asm2">
+    <assemblage permid="asm-congruence-divisibility">
       <title>Congruence and Divisibility</title>
       <p permid="p">
         For any integers <m>a</m>, <m>b</m>, and <m>n</m>, we have
@@ -548,7 +548,7 @@
       This conforms with our earlier observation that all the numbers in a particular remainder class are the same amount larger than the multiples of <m>n</m>.
     </p>
 
-    <assemblage permid="asm3">
+    <assemblage permid="asm-congruence-equality">
       <title>Congruence and Equality</title>
       <p permid="p">
         For any integers <m>a</m>, <m>b</m>, and <m>n</m>, we have
@@ -571,7 +571,7 @@
       which would require checking the following three facts:
     </p>
 
-    <assemblage permid="asm1">
+    <assemblage permid="asm-congruence-modulo-n-is-an-equivalence-relation">
       <title>Congruence Modulo <m>n</m> is an Equivalence Relation</title>
       <p permid="p1">
         Given any integers <m>a</m>, <m>b</m>, and <m>c</m>,
@@ -617,7 +617,7 @@
       Will we get something congruent to 3?
     </p>
 
-    <assemblage permid="asm2">
+    <assemblage permid="asm-congruence-arithmetic">
       <title>Congruence and Arithmetic</title>
       <p permid="p1">
             <idx><h>modular arithmetic</h></idx>
@@ -853,7 +853,7 @@
       <m>\gcd(6,8) = 2</m> since the greatest divisor common to 6 and 8 is 2.
     </p>
 
-    <assemblage permid="asm3">
+    <assemblage permid="asm-congruence-division">
       <title>Congruence and Division</title>
       <p permid="p1">
         Suppose <m>ad \equiv bd \pmod n</m>.
@@ -1092,7 +1092,7 @@
       Thus, a more compact way to say this is:
     </p>
 
-    <assemblage permid="asm">
+    <assemblage permid="asm-congruences-with-no-solutions">
       <title>Congruences with no solutions</title>
       <p permid="p">
         If <m>\gcd(a,n) \nmid b</m>, then <m>ax \equiv b \pmod{n}</m> has no solutions.
@@ -1120,7 +1120,7 @@
       which are considerably easier to work with.
     </p>
 
-    <assemblage permid="asm">
+    <assemblage permid="asm-diophantine-equations">
       <title>Diophantine Equations</title>
       <p permid="p1">
         An equation in two or more variables is called a
