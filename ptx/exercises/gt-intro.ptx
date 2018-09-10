@@ -133,12 +133,12 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_za">
+  <exercise permid="e_g_1">
     <statement>
-      <p permid="p1">
+      <p permid="p-g_1">
         Consider the following two graphs:
-        <dl permid="dl" width="narrow">
-          <li permid="l_l">
+        <dl permid="dl-g_1" width="narrow">
+          <li permid="l_g_1">
             <title><m>G_1</m></title>
             <p permid="p1">
               <m>V_1=\{a,b,c,d,e,f,g\}</m>
@@ -153,7 +153,7 @@
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_g_2">
             <title><m>G_2</m></title>
             <p permid="p1">
               <m>V_2=\{v_1,v_2,v_3,v_4,v_5,v_6,v_7\}</m>,
