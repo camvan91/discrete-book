@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter permid="ch_solutions" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ch_solutions">
+  <title>Solutions to Exercises</title>
+  <p permid="p1">
+    IIII
+  </p>
+
+  <p permid="p2">
+    \printnoidxglossary[type=symbols,style=myglosses,
+    nogroupskip=true, sort=def]
+  </p>
+
+  <p permid="p3">
+    \listoftodos
+  </p>
+</chapter>
+
