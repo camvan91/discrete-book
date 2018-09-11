@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exercises_sec-logic">
+<exercises permid="exers_sec-logic" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exercises_sec-logic">
 
   <exercise permid="e_jm">
     <statement>

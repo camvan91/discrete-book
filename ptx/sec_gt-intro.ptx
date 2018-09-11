@@ -2,7 +2,7 @@
 
 <section permid="sec_gt-intro" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_gt-intro">
   <title>Definitions</title>
-  <investigation permid="inv-graph-1">
+  <investigation permid="inv">
     <p permid="p1">
       Which (if any) of the graphs below are the same?
     </p>
@@ -187,12 +187,12 @@
 
     </sidebyside>
 
-    <p permid="p-graph-1">
+    <p permid="p3">
       Actually, all the graphs we have seen above are just
       <em>drawings</em> of graphs.
       A graph is really an abstract mathematical object consisting of two sets <m>V</m> and <m>E</m> where <m>E</m> is a set of 2-element subsets of <m>V</m>.
 			Are the graphs below the same or different?
-      <dl permid="dl-graph-1" width="narrow">
+      <dl permid="dl" width="narrow">
         <li permid="l_graph-1">
           <title>Graph 1:</title>
           <p permid="p1">
@@ -906,9 +906,9 @@
 	<!-- TODO: give picture example of bipartite and not bipartite graphs -->
   <assemblage permid="asm-named-graphs">
     <title>Named Graphs</title>
-    <p permid="p-k_n">
+    <p permid="p">
       Some graphs are used more than others, and get special names.
-      <dl permid="dl-k_n" width="narrow">
+      <dl permid="dl" width="narrow">
         <li permid="l_k_n">
           <title><m>K_n</m></title>
           <p permid="p">
@@ -1020,8 +1020,8 @@
 
   <assemblage permid="asm-graph-theory-definitions">
     <title>Graph Theory Definitions</title>
-    <p permid="p-graph">
-      <dl permid="dl-graph" width="medium">
+    <p permid="p">
+      <dl permid="dl" width="medium">
         <li permid="l_graph">
           <title>Graph</title>
           <p permid="p">

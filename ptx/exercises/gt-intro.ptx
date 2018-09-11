@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exercises_gt-intro">
+<exercises permid="exers_gt-intro" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exercises_gt-intro">
 
   <exercise permid="e_jm">
     <statement>
@@ -133,11 +133,11 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_g_1">
+  <exercise permid="e_za">
     <statement>
-      <p permid="p-g_1">
+      <p permid="p1">
         Consider the following two graphs:
-        <dl permid="dl-g_1" width="narrow">
+        <dl permid="dl" width="narrow">
           <li permid="l_g_1">
             <title><m>G_1</m></title>
             <p permid="p1">

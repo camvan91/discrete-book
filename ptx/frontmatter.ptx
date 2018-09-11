@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<frontmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frontmatter">
+<frontmatter permid="frontm" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frontmatter">
 
   <titlepage>
 
@@ -82,7 +82,7 @@
     </p>
   </acknowledgement>
 
-  <preface xml:id="preface">
+  <preface permid="pref" xml:id="preface">
     <p permid="p7">
       This text aims to give an introduction to select topics in discrete mathematics at a level appropriate for first or second year undergraduate math majors,
       especially those who intend to teach middle and high school mathematics.
@@ -195,7 +195,7 @@
     <line>University of Northern Colorado, 2016</line></attribution>
   </preface>
 
-  <preface>
+  <preface permid="pref-how-to-use-this-book">
     <title>How to use this book</title>
     <p permid="p12">
       In addition to expository text,

@@ -216,8 +216,8 @@
 
     <assemblage permid="asm-special-sets">
       <title>Special sets</title>
-      <p permid="p-emptyset">
-        <dl permid="dl-emptyset" width="narrow">
+      <p permid="p">
+        <dl permid="dl" width="narrow">
           <li permid="l_emptyset">
             <title><m>\emptyset</m></title>
             <p permid="p">
