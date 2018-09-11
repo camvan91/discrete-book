@@ -17,7 +17,7 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p1">
               Suppose <m>a</m> and <m>b</m> are odd.
               That is, <m>a=2k+1</m> and <m>b=2m+1</m> for some integers <m>k</m> and <m>m</m>.
@@ -34,7 +34,7 @@
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p1">
               Assume that <m>a</m> or <m>b</m> is even - say it is <m>a</m>
               (the case where <m>b</m> is even will be identical).
@@ -51,7 +51,7 @@
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p1">
               Suppose that <m>ab</m> is even but <m>a</m> and <m>b</m> are both odd.
               Namely, <m>ab = 2n</m>,
@@ -73,7 +73,7 @@
             </p>
           </li>
 
-          <li permid="l_s">
+          <li permid="l_k">
             <p permid="p1">
               Let <m>ab</m> be an even number,
               say <m>ab=2n</m>, and <m>a</m> be an odd number, say <m>a=2k+1</m>.
@@ -160,7 +160,7 @@
 
     <p permid="p4">
       <ol permid="ol">
-        <li permid="l_l">
+        <li permid="l_j">
           <p permid="p">
             Suppose there are only finitely many primes.
 
@@ -169,7 +169,7 @@
           </p>
         </li>
 
-        <li permid="l_w">
+        <li permid="l_s">
           <p permid="p">
             There must be a largest prime, call it <m>p</m>.
 
@@ -178,7 +178,7 @@
           </p>
         </li>
 
-        <li permid="l_h">
+        <li permid="l_b">
           <p permid="p">
             Let <m>N = p! + 1</m>.
 
@@ -188,13 +188,13 @@
           </p>
         </li>
 
-        <li permid="l_s">
+        <li permid="l_k">
           <m>N</m> is larger than <m>p</m>.
 
           <em>[by the definition of <m>p!</m>]</em>
         </li>
 
-        <li permid="l_d">
+        <li permid="l_t">
           <m>N</m> is not divisible by any number less than or equal to <m>p</m>.
 
           <em>[by definition,
@@ -202,7 +202,7 @@
           so <m>p! + 1</m> is not.]</em>
         </li>
 
-        <li permid="l_o">
+        <li permid="l_c">
           <p permid="p">
             The prime factorization of <m>N</m> contains prime numbers greater than <m>p</m>.
 
@@ -211,7 +211,7 @@
           </p>
         </li>
 
-        <li permid="l_z">
+        <li permid="l_l">
           <p permid="p">
             Therefore <m>p</m> is not the largest prime.
 
@@ -219,7 +219,7 @@
           </p>
         </li>
 
-        <li permid="l_k">
+        <li permid="l_u">
           <p permid="p">
             This is a contradiction.
 
@@ -228,7 +228,7 @@
           </p>
         </li>
 
-        <li permid="l_v">
+        <li permid="l_d">
           <p permid="p">
             Therefore there are infinitely many primes.
 

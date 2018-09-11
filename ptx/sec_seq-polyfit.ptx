@@ -92,18 +92,18 @@
           <m>\Delta^k</m>-constant for some value of <m>k</m>?
 
           <ol permid="ol">
-            <li permid="l_l"><m>2, 3, 7, 14, 24, 37,\ldots</m>.</li>
+            <li permid="l_j"><m>2, 3, 7, 14, 24, 37,\ldots</m>.</li>
 
-            <li permid="l_w"><m>1, 8, 27, 64, 125, 216, \ldots</m>.</li>
+            <li permid="l_s"><m>1, 8, 27, 64, 125, 216, \ldots</m>.</li>
 
-            <li permid="l_h"><m>1,2,4,8,16,64,128,\ldots</m>.</li>
+            <li permid="l_b"><m>1,2,4,8,16,64,128,\ldots</m>.</li>
           </ol>
         </p>
       </statement>
       <solution permid="s">
         <p permid="p">
           <ol permid="ol">
-            <li permid="l_l">
+            <li permid="l_j">
               This is the sequence from
               <xref ref="example-sum-of-arithmetic"/>,
               in which we found a closed formula by recognizing the sequence as the sequence of partial sums of an arithmetic sequence.
@@ -112,7 +112,7 @@
               Thus <m>2, 3, 7, 14, 24, 37,\ldots</m> is a <m>\Delta^2</m>-constant sequence.
             </li>
 
-            <li permid="l_w">
+            <li permid="l_s">
               These are the perfect cubes.
               The sequence of first differences is <m>7, 19, 37, 61, 91, \ldots</m>;
               the sequence of second differences is <m>12, 18, 24, 30,\ldots</m>;
@@ -120,7 +120,7 @@
               Thus the perfect cubes are a <m>\Delta^3</m>-constant sequence.
             </li>
 
-            <li permid="l_h">
+            <li permid="l_b">
               If we take first differences we get <m>1,2,4,8,16,\ldots</m>.
               Wait, what?
               That's the sequence we started with.
@@ -299,18 +299,18 @@
           and if so, of what degree.
 
           <ol permid="ol">
-            <li permid="l_l"><m>1, 2, 4, 8, 16, \ldots</m></li>
+            <li permid="l_j"><m>1, 2, 4, 8, 16, \ldots</m></li>
 
-            <li permid="l_w"><m>0, 7, 50, 183, 484, 1055, \ldots</m></li>
+            <li permid="l_s"><m>0, 7, 50, 183, 484, 1055, \ldots</m></li>
 
-            <li permid="l_h"><m>1,1,2,3,5,8,13,\ldots</m></li>
+            <li permid="l_b"><m>1,1,2,3,5,8,13,\ldots</m></li>
           </ol>
         </p>
       </statement>
       <solution permid="s">
         <p permid="p">
           <ol permid="ol">
-            <li permid="l_l">
+            <li permid="l_j">
               <p permid="p">
                 As we saw in
                 <xref ref="example-deltak"/>,
@@ -322,7 +322,7 @@
               </p>
             </li>
 
-            <li permid="l_w">
+            <li permid="l_s">
               <p permid="p">
                 The sequence of first differences is <m>7, 43, 133, 301, 571,\ldots</m>.
                 The second differences are: <m>36, 90, 168, 270,\ldots</m>.
@@ -334,7 +334,7 @@
               </p>
             </li>
 
-            <li permid="l_h">
+            <li permid="l_b">
               <p permid="p">
                 This is the Fibonacci sequence.
                   <idx><h>Fibonacci sequence</h></idx>

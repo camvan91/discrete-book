@@ -152,13 +152,13 @@
       To prove this, we could do the following:
 
       <ol permid="ol">
-        <li permid="l_l">
+        <li permid="l_j">
           <p permid="p">
             Demonstrate that <m>P(28)</m> is true.
           </p>
         </li>
 
-        <li permid="l_w">
+        <li permid="l_s">
           <p permid="p">
             Prove that if <m>P(k)</m> is true,
             then <m>P(k+1)</m> is true
@@ -267,7 +267,7 @@
             <idx><h>induction</h></idx> Start by saying what the statement is that you want to prove: <q>Let <m>P(n)</m> be the statement<ellipsis/></q> To prove that <m>P(n)</m> is true for all <m>n \ge 0</m>, you must prove two facts:
 
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               Base case: Prove that <m>P(0)</m> is true.
               You do this directly.
@@ -275,7 +275,7 @@
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               Inductive case: Prove that
               <m>P(k) \imp P(k+1)</m> for all <m>k \ge 0</m>.
@@ -790,13 +790,13 @@
         Then establish two facts:
 
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               Base case: Prove that <m>P(0)</m> is true.
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               Inductive case: Assume <m>P(k)</m> is true for all <m>k \lt n</m>.
               Prove that <m>P(n)</m> is true.

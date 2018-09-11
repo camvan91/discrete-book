@@ -151,17 +151,17 @@
         The highlights include:
 
         <ul permid="ul">
-          <li permid="l_l">
+          <li permid="l_j">
             Some of the material from chapter 3
             (on logic)
             is now part of an introduction section on mathematical statements.
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             Content from the section on counting functions (previously 1.7) is now integrated with the rest of chapter 1.
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             To accommodate instructors, some of the solutions to exercises were removed,
             and the more involved <q>homework</q>
             problems were integrated in the main exercises.
@@ -169,7 +169,7 @@
             Currently there are about 360 exercises of which roughly 2/3 have solutions or answers.
           </li>
 
-          <li permid="l_s">
+          <li permid="l_k">
             Behind the scenes,
             the source of the text transitioned from <latex/> to Mathbook XML, which allows for conversion to <latex/> as well as the creation of an interactive online version.
           </li>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <exercises permid="exers_counting-addmult" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exercises_counting-addmult">
 
-  <exercise permid="e_jm">
+  <exercise permid="e_xo">
     <statement>
       <p permid="p">
         Your wardrobe consists of 5 shirts, 3 pairs of pants, and 17 bow ties.
@@ -17,16 +17,16 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ai">
+  <exercise permid="e_ag">
     <statement>
       <p permid="p">
         For your college interview, you must wear a tie.
         You own 3 regular (boring) ties and 5 (cool) bow ties.
 
         <ol permid="ol">
-          <li permid="l_l">How many choices do you have for your neck-wear?</li>
+          <li permid="l_j">How many choices do you have for your neck-wear?</li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               You realize that the interview is for clown college,
               so you should probably wear both a regular tie and a bow tie.
@@ -34,7 +34,7 @@
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               For the rest of your outfit,
               you have 5 shirts, 4 skirts, 3 pants, and 7 dresses.
@@ -49,38 +49,38 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               8 ties.
               Use the additive principle.
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             15 ties.
             Use the multiplicative principle
           </li>
 
-          <li permid="l_h"><m>5\cdot (4+3) + 7 = 42</m> outfits.</li>
+          <li permid="l_b"><m>5\cdot (4+3) + 7 = 42</m> outfits.</li>
         </ol>
       </p>
     </solution>
   </exercise>
 
-  <exercise permid="e_rt">
+  <exercise permid="e_dp">
     <statement>
       <p permid="p">
         Your Blu-ray collection consists of 9 comedies and 7 horror movies.
         Give an example of a question for which the answer is:
 
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               16.
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               63.
             </p>
@@ -91,14 +91,14 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               For example, 16 is the number of choices you have if you want to watch one movie,
               either a comedy or horror flick.
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               For example, 63 is the number of choices you have if you will watch two movies,
               first a comedy and then a horror.
@@ -109,7 +109,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ie">
+  <exercise permid="e_gy">
     <statement>
       <p permid="p">
         We usually write numbers in decimal form
@@ -123,14 +123,14 @@
         So for example, a 3 digit hexadecimal number might be 2B8.
 
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               How many 2-digit hexadecimals are there in which the first digit is E or F? Explain your answer in terms of the additive principle
               (using either events or sets).
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               Explain why your answer to the previous part is correct in terms of the multiplicative principle
               (using either events or sets).
@@ -138,14 +138,14 @@
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               How many 3-digit hexadecimals start with a letter (A-F) and end with a numeral (0-9)?
               Explain.
             </p>
           </li>
 
-          <li permid="l_s">
+          <li permid="l_k">
             <p permid="p">
               How many 3-digit hexadecimals start with a letter (A-F) or end with a numeral (0-9) (or both)?
               Explain.
@@ -156,22 +156,22 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_za">
+  <exercise permid="e_jq">
     <statement>
       <p permid="p">
         Suppose you have sets <m>A</m> and <m>B</m> with
         <m>\card{A} = 10</m> and <m>\card{B} = 15</m>.
 
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             What is the largest possible value for <m>\card{A \cap B}</m>?
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             What is the smallest possible value for <m>\card{A \cap B}</m>?
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             What are the possible values for <m>\card{A \cup B}</m>?
           </li>
         </ol>
@@ -180,18 +180,18 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             To maximize the number of elements in common between <m>A</m> and <m>B</m>,
             make <m>A \subset B</m>.
             This would give <m>\card{A \cap B} = 10</m>.
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <m>A</m> and <m>B</m> might have no elements in common,
             giving <m>\card{A\cap B} = 0</m>.
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <m>15 \le \card{A \cup B} \le 25</m>.
             In fact, when <m>\card{A \cap B} = 0</m> then <m>\card{A \cup B} = 25</m> and when
             <m>\card{A \cap B} = 10</m> then <m>\card{A \cup B} = 15</m>.
@@ -201,7 +201,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ql">
+  <exercise permid="e_mz">
     <statement>
       <p permid="p">
         If <m>\card{A} = 8</m> and <m>\card{B} = 5</m>,
@@ -216,7 +216,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_hh">
+  <exercise permid="e_pi">
     <statement>
       <p permid="p">
         A group of college students were asked about their TV watching habits.
@@ -241,7 +241,7 @@
     </answer>
   </exercise>
 
-  <exercise permid="e_ys">
+  <exercise permid="e_sa">
     <statement>
       <p permid="p">
         In a recent survey, 30 students reported whether they liked their potatoes Mashed, French-fried,
@@ -256,7 +256,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_pd">
+  <exercise permid="e_vj">
     <statement>
       <p permid="p">
         For how many <m>n \in \{1,2, \ldots, 500\}</m> is <m>n</m> a multiple of one or more of 5, 6, or 7?
@@ -270,13 +270,13 @@
     </hint>
   </exercise>
 
-  <exercise permid="e_gz">
+  <exercise permid="e_ys">
     <statement>
       <p permid="p">
         Let <m>A</m>, <m>B</m>, and <m>C</m> be sets.
 
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             Find <m>\card{(A \cup C)\setminus B}</m> provided
             <m>\card{A} = 50</m>, <m>\card{B} = 45</m>,
             <m>\card{C} = 40</m>, <m>\card{A\cap B} = 20</m>,
@@ -284,7 +284,7 @@
             <m>\card{B \cap C} = 23</m>, and <m>\card{A \cap B \cap C} = 12</m>.
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             Describe a set in terms of <m>A</m>, <m>B</m>,
             and <m>C</m> with cardinality 26.
           </li>
@@ -293,7 +293,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_xk">
+  <exercise permid="e_bk">
     <statement>
       <p permid="p">
         Consider all 5 letter <q>words</q>
@@ -302,32 +302,32 @@
         not necessarily actual English words.)
 
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               How many of these words are there total?
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               How many of these words contain no repeated letters?
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               How many of these words start with the sub-word <q>aha</q>?
             </p>
           </li>
 
-          <li permid="l_s">
+          <li permid="l_k">
             <p permid="p">
               How many of these words either start with <q>aha</q>
               or end with <q>bah</q> or both?
             </p>
           </li>
 
-          <li permid="l_d">
+          <li permid="l_t">
             <p permid="p">
               How many of the words containing no repeats also do not contain the sub-word <q>bad</q>?
             </p>
@@ -338,22 +338,22 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <m>8^5 = 32768</m> words, since you select from 8 letters 5 times.
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <m>8\cdot 7\cdot 6\cdot 5\cdot 4 = 6720</m> words.
             After selecting a letter, you have fewer letters to select for the next one.
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               <m>8 \cdot 8 =64</m> words: you need to select the 4th and 5th letters.
             </p>
           </li>
 
-          <li permid="l_s">
+          <li permid="l_k">
             <m>64 + 64 - 0 = 128</m> words.
             There are 64 words which start with <q>aha</q>
             and another 64 words that end with <q>bah.</q>
@@ -362,7 +362,7 @@
             but since the words are only 5 letters long, there are no such words.
           </li>
 
-          <li permid="l_d">
+          <li permid="l_t">
             <m>(8\cdot 7\cdot 6\cdot 5\cdot 4) - 3\cdot (5\cdot 4) = 6660</m> words.
             All the words minus the bad ones.
             The taboo word can be in any of three positions
@@ -375,7 +375,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_og">
+  <exercise permid="e_et">
     <statement>
       <p permid="p">
         For how many three digit numbers (100 to 999) is the
@@ -387,7 +387,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_fr">
+  <exercise permid="e_hc">
     <statement>
       <p permid="p">
         The number 735000 factors as <m>2^3 \cdot 3 \cdot 5^4 \cdot 7^2</m>.

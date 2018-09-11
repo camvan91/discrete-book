@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <exercises permid="exers_seq-induction" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exercises_seq-induction">
 
-  <exercise permid="e_jm">
+  <exercise permid="e_xo">
     <statement>
       <p permid="p">
         Use induction to prove for all
@@ -40,7 +40,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ai">
+  <exercise permid="e_ag">
     <statement>
       <p permid="p">
         Prove that <m>7^n - 1</m> is a multiple of 6 for all <m>n \in \N</m>.
@@ -80,7 +80,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_rt">
+  <exercise permid="e_dp">
     <statement>
       <p permid="p">
         Prove that <m>1 + 3 + 5 + \cdots + (2n-1) = n^2</m> for all <m>n \ge 1</m>.
@@ -116,7 +116,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ie">
+  <exercise permid="e_gy">
     <statement>
       <p permid="p">
         Prove that <m>F_0 + F_2 + F_4 + \cdots + F_{2n} = F_{2n+1} - 1</m> where <m>F_n</m> is the <m>n</m>th Fibonacci number.
@@ -151,7 +151,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_za">
+  <exercise permid="e_jq">
     <statement>
       <p permid="p">
         Prove that <m>2^n \lt n!</m> for all <m>n \ge 4</m>.
@@ -190,7 +190,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ql">
+  <exercise permid="e_mz">
     <statement>
       <p permid="p">
         Prove, by mathematical induction,
@@ -202,7 +202,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_hh">
+  <exercise permid="e_pi">
     <statement>
       <p permid="p">
         Zombie Euler and Zombie Cauchy,
@@ -219,7 +219,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_ys">
+  <exercise permid="e_sa">
     <statement>
       <p permid="p">
         Find the largest number of points which a football team cannot get exactly using just 3-point field goals and 7-point touchdowns
@@ -230,7 +230,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_pd">
+  <exercise permid="e_vj">
     <statement>
       <p permid="p">
         Prove that the sum of <m>n</m> squares can be found as follows
@@ -241,7 +241,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_gz">
+  <exercise permid="e_ys">
     <statement>
       <p permid="p">
         What is wrong with the following
@@ -273,7 +273,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_xk">
+  <exercise permid="e_bk">
     <statement>
       <p permid="p">
         The proof in the previous problem does not work.
@@ -306,7 +306,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_og">
+  <exercise permid="e_et">
     <statement>
       <p permid="p">
         Find the flaw in the following <q>proof</q> of the <q>fact</q>
@@ -346,7 +346,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_fr">
+  <exercise permid="e_hc">
     <statement>
       <p permid="p">
         While the above proof does not work
@@ -390,7 +390,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_wn">
+  <exercise permid="e_ku">
     <statement>
       <p permid="p">
         What is wrong with the following
@@ -420,7 +420,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_ny">
+  <exercise permid="e_nd">
     <statement>
       <p permid="p">
         Now give a valid proof
@@ -432,7 +432,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_ej">
+  <exercise permid="e_qm">
     <statement>
       <p permid="p">
         Prove that there is a sequence of positive real numbers
@@ -477,7 +477,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_vf">
+  <exercise permid="e_te">
     <statement>
       <p permid="p">
         Prove that every positive integer is either a power of 2, or can be written as the sum of distinct powers of 2.
@@ -518,7 +518,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_mq">
+  <exercise permid="e_wn">
     <statement>
       <p permid="p">
         Prove, using strong induction,
@@ -528,7 +528,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_dm">
+  <exercise permid="e_zw">
     <statement>
       <p permid="p">
         Use induction to prove that if <m>n</m> people all shake hands with each other,
@@ -574,7 +574,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ux">
+  <exercise permid="e_co">
     <statement>
       <p permid="p">
         Suppose that a particular real number <m>x</m> has the property that <m>x + \frac{1}{x}</m> is an integer.
@@ -604,7 +604,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_lt">
+  <exercise permid="e_fx">
     <statement>
       <p permid="p">
         Use induction to prove that <m>\d\sum_{k=0}^n {n \choose k} = 2^n</m>.
@@ -613,7 +613,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_ce">
+  <exercise permid="e_ig">
     <statement>
       <p permid="p">
         Use induction to prove <m>{4 \choose 0} + {5 \choose 1} + {6 \choose 2} + \cdots + {4+n \choose n} = {5+n \choose n}</m>.
@@ -622,7 +622,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_tp">
+  <exercise permid="e_ly">
     <statement>
       <p permid="p">
         Use the product rule for logarithms (<m>\log(ab) = \log(a) + \log(b)</m>) to prove,
@@ -663,7 +663,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_kl">
+  <exercise permid="e_oh">
     <statement>
       <p permid="p1">
         Let <m>f_1, f_2,\ldots, f_n</m> be differentiable functions.
@@ -688,7 +688,7 @@
     </hint>
   </exercise>
 
-  <exercise permid="e_bw">
+  <exercise permid="e_rq">
     <statement>
       <p permid="p1">
         Suppose <m>f_1, f_2, \ldots, f_n</m> are differentiable functions.

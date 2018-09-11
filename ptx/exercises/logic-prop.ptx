@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <exercises permid="exers_sec-logic" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exercises_sec-logic">
 
-  <exercise permid="e_jm">
+  <exercise permid="e_xo">
     <statement>
       <p permid="p1">
         Consider the statement about a party,
@@ -11,20 +11,20 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               Translate the above statement into symbols.
               Clearly state which statement is <m>P</m> and which is <m>Q</m>.
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               Make a truth table for the statement.
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               Assuming the statement is true, what
               (if anything)
@@ -32,7 +32,7 @@
             </p>
           </li>
 
-          <li permid="l_s">
+          <li permid="l_k">
             <p permid="p">
               Assuming the statement is true, what
               (if anything)
@@ -40,7 +40,7 @@
             </p>
           </li>
 
-          <li permid="l_d">
+          <li permid="l_t">
             <p permid="p">
               Suppose you found out that the statement was a lie.
               What can you conclude?
@@ -52,30 +52,30 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <m>P</m>: it's your birthday; <m>Q</m>:
             there will be cake. <m>(P \vee Q) \imp Q</m>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               Hint: you should get three T's and one F.
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               Only that there will be cake.
             </p>
           </li>
 
-          <li permid="l_s">
+          <li permid="l_k">
             <p permid="p">
               It's NOT your birthday!
             </p>
           </li>
 
-          <li permid="l_d">
+          <li permid="l_t">
             <p permid="p">
               It's your birthday, but the cake is a lie.
             </p>
@@ -85,7 +85,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ai">
+  <exercise permid="e_ag">
     <statement>
       <p permid="p">
         Make a truth table for the statement <m>(P \vee Q) \imp (P \wedge Q)</m>.
@@ -129,7 +129,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_rt">
+  <exercise permid="e_dp">
     <statement>
       <p permid="p">
         Make a truth table for the statement <m>\neg P \wedge (Q \imp P)</m>.
@@ -178,7 +178,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ie">
+  <exercise permid="e_gy">
     <statement>
       <p permid="p">
         Make a truth table for the statement <m>\neg P \imp (Q \wedge R)</m>.
@@ -191,7 +191,7 @@
     </hint>
   </exercise>
 
-  <exercise permid="e_za">
+  <exercise permid="e_jq">
     <statement>
       <p permid="p">
         Determine whether the following two statements are logically equivalent:
@@ -207,7 +207,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ql">
+  <exercise permid="e_mz">
     <statement>
       <p permid="p">
         Are the statements <m>P \imp (Q\vee R)</m> and
@@ -216,7 +216,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_hh">
+  <exercise permid="e_pi">
     <statement>
       <p permid="p1">
         Simplify the following statements
@@ -225,17 +225,17 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="l_l"><m>\neg(P \imp \neg Q)</m>.</li>
+          <li permid="l_j"><m>\neg(P \imp \neg Q)</m>.</li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <m>(\neg P \vee \neg Q) \imp \neg (\neg Q \wedge R)</m>.
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <m>\neg((P \imp \neg Q) \vee \neg (R \wedge \neg R))</m>.
           </li>
 
-          <li permid="l_s">
+          <li permid="l_k">
             <p permid="p">
               It is false that if Sam is not a man then Chris is a woman,
               and that Chris is not a woman.
@@ -247,15 +247,15 @@
     <answer permid="a">
       <p permid="p">
         <ol permid="ol">
-          <li permid="l_l"><m>P \wedge Q</m>.</li>
+          <li permid="l_j"><m>P \wedge Q</m>.</li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <m>(\neg P \vee \neg R) \imp (Q \vee \neg R)</m> or,
             replacing the implication with a disjunction first:
             <m>(P \wedge Q) \vee (Q \vee \neg R)</m>.
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               <m>(P \wedge Q) \wedge (R \wedge \neg R)</m>.
               This is necessarily false,
@@ -263,7 +263,7 @@
             </p>
           </li>
 
-          <li permid="l_s">
+          <li permid="l_k">
             <p permid="p">
               Either Sam is a woman and Chris is a man, or Chris is a woman.
             </p>
@@ -273,7 +273,7 @@
     </answer>
   </exercise>
 
-  <exercise permid="e_ys">
+  <exercise permid="e_sa">
     <statement>
       <p permid="p1">
         Use De Morgan's Laws,
@@ -287,11 +287,11 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <m>\neg((\neg P \wedge Q) \vee \neg(R \vee \neg S))</m>.
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <m>\neg((\neg P \imp \neg Q) \wedge (\neg Q \imp R))</m>
             (careful with the implications).
           </li>
@@ -300,7 +300,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_pd">
+  <exercise permid="e_vj">
     <statement>
       <p permid="p1">
         Tommy Flanagan was telling you what he ate yesterday afternoon.
@@ -319,7 +319,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_gz">
+  <exercise permid="e_ys">
     <statement>
       <p permid="p">
         Determine if the following deduction rule is valid:
@@ -356,7 +356,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_xk">
+  <exercise permid="e_bk">
     <statement>
       <p permid="p">
         Determine if the following is a valid deduction rule:
@@ -383,7 +383,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_og">
+  <exercise permid="e_et">
     <statement>
       <p permid="p">
         Determine if the following is a valid deduction rule:
@@ -410,7 +410,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_fr">
+  <exercise permid="e_hc">
     <statement>
       <p permid="p1">
         Can you chain implications together?
@@ -422,7 +422,7 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               Prove that the following is a valid deduction rule:
             </p>
@@ -448,7 +448,7 @@
 
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p1">
               Prove that the following is a valid deduction rule for any <m>n \ge 2</m>:
             </p>
@@ -490,7 +490,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_wn">
+  <exercise permid="e_ku">
     <statement>
       <p permid="p1">
         We can also simplify statements in predicate logic using our rules for passing negations over quantifiers,
@@ -502,21 +502,21 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <m>\neg \exists x \forall y (\neg O(x) \vee E(y))</m>.
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <m>\neg \forall x \neg \forall y \neg(x \lt y \wedge \exists z (x \lt z \vee y \lt z))</m>.
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               There is a number <m>n</m> for which no other number is either less <m>n</m> than or equal to <m>n</m>.
             </p>
           </li>
 
-          <li permid="l_s">
+          <li permid="l_k">
             <p permid="p">
               It is false that for every number <m>n</m> there are two other numbers which <m>n</m> is between.
             </p>
@@ -527,21 +527,21 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <m>\forall x \exists y (O(x) \wedge \neg E(y))</m>.
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <m>\exists x \forall y (x \ge y \vee \forall z (x \ge z \wedge y \ge z))</m>.
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               There is a number <m>n</m> for which every other number is strictly greater than <m>n</m>.
             </p>
           </li>
 
-          <li permid="l_s">
+          <li permid="l_k">
             <p permid="p">
               There is a number <m>n</m> which is not between any other two numbers.
             </p>
@@ -551,7 +551,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ny">
+  <exercise permid="e_nd">
     <statement>
       <p permid="p">
         Suppose <m>P</m> and <m>Q</m> are
@@ -567,7 +567,7 @@
     </hint>
   </exercise>
 
-  <exercise permid="e_ej">
+  <exercise permid="e_qm">
     <statement>
       <p permid="p1">
         Suppose <m>P_1, P_2, \ldots, P_n</m> and <m>Q</m> are

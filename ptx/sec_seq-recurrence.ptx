@@ -10,7 +10,7 @@
           a_n = 5a_{n-1} - 6a_{n-2}
         </me>.
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               What sequence do you get if the initial conditions are <m>a_0 = 1</m>,
               <m>a_1 = 2</m>?
@@ -18,7 +18,7 @@
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               What sequence do you get if the initial conditions are <m>a_0 = 1</m>,
               <m>a_1 = 3</m>?
@@ -26,7 +26,7 @@
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               What if <m>a_0 = 2</m> and <m>a_1 = 5</m>?
               Find a closed formula.

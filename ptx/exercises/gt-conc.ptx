@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <exercises permid="exers_gt-conc" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exercises_gt-conc">
   <title>Chapter Review</title>
-  <exercise permid="e_jm">
+  <exercise permid="e_xo">
     <statement>
       <p permid="p">
         Which (if any) of the graphs below are the same?
@@ -52,7 +52,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ai">
+  <exercise permid="e_ag">
     <statement>
       <p permid="p">
         Which of the graphs in the previous question contain Euler paths or circuits?
@@ -67,7 +67,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_rt">
+  <exercise permid="e_dp">
     <statement>
       <p permid="p">
         Draw a graph which has an Euler circuit but is not planar.
@@ -80,7 +80,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ie">
+  <exercise permid="e_gy">
     <statement>
       <p permid="p">
         Draw a graph which does not have an Euler path and is also not planar.
@@ -93,7 +93,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_za">
+  <exercise permid="e_jq">
     <statement>
       <p permid="p">
         If a graph has 10 vertices and 10 edges and contains an Euler circuit,
@@ -111,25 +111,25 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ql">
+  <exercise permid="e_mz">
     <statement>
       <p permid="p">
         Suppose <m>G</m> is a graph with <m>n</m> vertices, each having degree 5.
 
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               For which values of <m>n</m> does this make sense?
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               For which values of <m>n</m> does the graph have an Euler path?
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               What is the smallest value of <m>n</m> for which the graph might be planar? (tricky)
             </p>
@@ -140,19 +140,19 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               Only if <m>n \ge 6</m> and is even.
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               None.
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               12.
               Such a graph would have <m>\frac{5n}{2}</m> edges.
@@ -169,7 +169,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_hh">
+  <exercise permid="e_pi">
     <statement>
       <p permid="p">
         At a school dance, 6 girls and 4 boys take turns dancing
@@ -177,19 +177,19 @@
         with each other.
 
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               How many couples danced if every girl dances with every boy?
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               How many couples danced if everyone danced with everyone else (regardless of gender)?
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               Explain what graphs can be used to represent these situations.
             </p>
@@ -200,20 +200,20 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               There were 24 couples: 6 choices for the girl and 4 choices for the boy.
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               There were 45 couples:
               <m>{10 \choose 2}</m> since we must choose two of the 10 people to dance together.
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               For part (a),
               we are counting the number of edges in <m>K_{4,6}</m>.
@@ -225,7 +225,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ys">
+  <exercise permid="e_sa">
     <statement>
       <p permid="p">
         Among a group of <m>n</m> people,
@@ -243,13 +243,13 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_pd">
+  <exercise permid="e_vj">
     <statement>
       <p permid="p">
         Your friend has challenged you to create a convex polyhedron containing 9 triangles and 6 pentagons.
 
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               Is it possible to build such a polyhedron using
               <em>only</em> these shapes?
@@ -257,7 +257,7 @@
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               You decide to also include one heptagon
               (seven-sided polygon).
@@ -265,7 +265,7 @@
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               Assuming you are successful in building your new 16-faced polyhedron,
               could every vertex be the joining of the same number of faces?
@@ -279,7 +279,7 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               No.
               The 9 triangles each contribute 3 edges,
@@ -291,7 +291,7 @@
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               Now adding up all the edges of all the 16 polygons gives a total of 64,
               meaning there would be 32 edges in the polyhedron.
@@ -300,7 +300,7 @@
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               If you add up all the vertices from each polygon separately,
               we get a total of 64.
@@ -318,7 +318,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_gz">
+  <exercise permid="e_ys">
     <statement>
       <p permid="p">
         Is there a convex polyhedron which requires 5 colors to properly color the vertices of the polyhedron?
@@ -334,7 +334,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_xk">
+  <exercise permid="e_bk">
     <statement>
       <p permid="p">
         How many edges does the graph <m>K_{n,n}</m> have?
@@ -351,7 +351,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_og">
+  <exercise permid="e_et">
     <statement>
       <p permid="p">
         The graph <m>G</m> has 6 vertices with degrees <m>1, 2, 2, 3, 3, 5</m>.
@@ -370,7 +370,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_fr">
+  <exercise permid="e_hc">
     <statement>
       <p permid="p">
         What is the smallest number of colors you need to properly color the vertices of <m>K_{7}</m>.
@@ -386,7 +386,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_wn">
+  <exercise permid="e_ku">
     <statement>
       <p permid="p">
         What is the smallest number of colors you need to properly color the vertices of <m>K_{3,4}</m>?
@@ -404,26 +404,26 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ny">
+  <exercise permid="e_nd">
     <statement>
       <p permid="p">
         A dodecahedron is a regular convex polyhedron made up of 12 regular pentagons.
 
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               Suppose you color each pentagon with one of three colors.
               Prove that there must be two adjacent pentagons colored identically.
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               What if you use four colors?
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               What if instead of a dodecahedron you colored the faces of a cube?
             </p>
@@ -440,7 +440,7 @@
         and connect two vertices if their faces share an edge.
 
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               Since the planar dual of a dodecahedron contains a 5-wheel,
               it's chromatic number is at least 4.
@@ -458,7 +458,7 @@
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               The planar dual of the dodecahedron is itself a planar graph.
               Thus by the 4-color theorem,
@@ -468,7 +468,7 @@
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               The cube can be properly 3-colored.
               Color the <q>top</q> and <q>bottom</q> red,
@@ -481,7 +481,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ej">
+  <exercise permid="e_qm">
     <statement>
       <p permid="p">
         If a planar graph <m>G</m> with <m>7</m> vertices divides the plane into 8 regions,
@@ -496,7 +496,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_vf">
+  <exercise permid="e_te">
     <statement>
       <p permid="p1">
         Consider the graph below:
@@ -517,21 +517,21 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               Does the graph have an Euler path or circuit?
               Explain.
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               Is the graph planar?
               Explain.
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               Is the graph bipartite?
               Complete?
@@ -539,7 +539,7 @@
             </p>
           </li>
 
-          <li permid="l_s">
+          <li permid="l_k">
             <p permid="p">
               What is the chromatic number of the graph.
             </p>
@@ -550,7 +550,7 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               The graph does have an Euler path, but not an Euler circuit.
               There are exactly two vertices with odd degree.
@@ -558,7 +558,7 @@
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               The graph is planar.
               Even though as it is drawn edges cross,
@@ -566,7 +566,7 @@
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               The graph is not bipartite
               (there is an odd cycle),
@@ -574,7 +574,7 @@
             </p>
           </li>
 
-          <li permid="l_s">
+          <li permid="l_k">
             <p permid="p">
               The chromatic number of the graph is 3.
             </p>
@@ -584,7 +584,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_mq">
+  <exercise permid="e_wn">
     <statement>
       <p permid="p">
         For each part below, say whether the statement is true or false.
@@ -592,31 +592,31 @@
         and give counterexamples for the false statements.
 
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               Every bipartite graph is planar.
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               Every bipartite graph has chromatic number 2.
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               Every bipartite graph has an Euler path.
             </p>
           </li>
 
-          <li permid="l_s">
+          <li permid="l_k">
             <p permid="p">
               Every vertex of a bipartite graph has even degree.
             </p>
           </li>
 
-          <li permid="l_d">
+          <li permid="l_t">
             <p permid="p">
               A graph is bipartite if and only if the sum of the degrees of all the vertices is even.
             </p>
@@ -627,14 +627,14 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               False.
               For example, <m>K_{3,3}</m> is not planar.
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               True.
               The graph is bipartite so it is possible to divide the vertices into two groups with no edges between vertices in the same group.
@@ -642,19 +642,19 @@
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               False. <m>K_{3,3}</m> has 6 vertices with degree 3, so contains no Euler path.
             </p>
           </li>
 
-          <li permid="l_s">
+          <li permid="l_k">
             <p permid="p">
               False. <m>K_{3,3}</m> again.
             </p>
           </li>
 
-          <li permid="l_d">
+          <li permid="l_t">
             <p permid="p">
               False.
               The sum of the degrees of all vertices is even for <em>all</em>
@@ -666,46 +666,46 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_dm">
+  <exercise permid="e_zw">
     <statement>
       <p permid="p">
         Consider the statement <q>If a graph is planar,
         then it has an Euler path.</q>
 
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               Write the converse of the statement.
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               Write the contrapositive of the statement.
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               Write the negation of the statement.
             </p>
           </li>
 
-          <li permid="l_s">
+          <li permid="l_k">
             <p permid="p">
               Is it possible for the contrapositive to be false?
               If it was, what would that tell you?
             </p>
           </li>
 
-          <li permid="l_d">
+          <li permid="l_t">
             <p permid="p">
               Is the original statement true or false?
               Prove your answer.
             </p>
           </li>
 
-          <li permid="l_o">
+          <li permid="l_c">
             <p permid="p">
               Is the converse of the statement true or false?
               Prove your answer.
@@ -717,38 +717,38 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               If a graph has an Euler path, then it is planar.
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               If a graph does not have an Euler path, then it is not planar.
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               There is a graph which is planar and does not have an Euler path.
             </p>
           </li>
 
-          <li permid="l_s">
+          <li permid="l_k">
             <p permid="p">
               Yes.
               In fact, in this case it is because the original statement is false.
             </p>
           </li>
 
-          <li permid="l_d">
+          <li permid="l_t">
             <p permid="p">
               False. <m>K_4</m> is planar but does not have an Euler path.
             </p>
           </li>
 
-          <li permid="l_o">
+          <li permid="l_c">
             <p permid="p">
               False. <m>K_5</m> has an Euler path but is not planar.
             </p>
@@ -758,27 +758,27 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ux">
+  <exercise permid="e_co">
     <statement>
       <p permid="p">
         Remember that a <term>tree</term>
         is a connected graph with no cycles.
 
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               Conjecture a relationship between a tree graph's vertices and edges. (For instance,
               can you have a tree with 5 vertices and 7 edges?)
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               Explain why every tree with at least 3 vertices has a leaf (i.e., a vertex of degree 1).
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               Prove your conjecture from part (a) by induction on the number of vertices.
               Hint: For the inductive step,

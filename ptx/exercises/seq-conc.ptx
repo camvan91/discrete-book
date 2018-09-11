@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <exercises permid="sec_sequences-conc" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_sequences-conc">
   <title>Chapter Review</title>
-  <exercise permid="e_jm">
+  <exercise permid="e_xo">
     <statement>
       <p permid="p">
         Find <m>3 + 7 + 11+ \cdots + 427</m>.
@@ -14,7 +14,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ai">
+  <exercise permid="e_ag">
     <statement>
       <p permid="p1">
         Consider the sequence <m>2, 6, 10, 14, \ldots, 4n + 6</m>.
@@ -22,19 +22,19 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               How many terms are there in the sequence?
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               What is the second-to-last term?
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               Find the sum of all the terms in the sequence.
             </p>
@@ -45,17 +45,17 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="l_l"><m>n+2</m> terms.</li>
+          <li permid="l_j"><m>n+2</m> terms.</li>
 
-          <li permid="l_w"><m>4n+2</m>.</li>
+          <li permid="l_s"><m>4n+2</m>.</li>
 
-          <li permid="l_h"><m>\frac{(4n+8)(n+2)}{2}</m>.</li>
+          <li permid="l_b"><m>\frac{(4n+8)(n+2)}{2}</m>.</li>
         </ol>
       </p>
     </solution>
   </exercise>
 
-  <exercise permid="e_rt">
+  <exercise permid="e_dp">
     <statement>
       <p permid="p1">
         Consider the sequence given by <m>a_n = 2\cdot 5^{n-1}</m>.
@@ -63,14 +63,14 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               Find the first 4 terms of the sequence.
               What sort of sequence is this?
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               Find the <em>sum</em> of the first 25 terms.
               That is, compute <m>\d\sum_{k=1}^{25}a_k</m>.
@@ -82,17 +82,17 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <m>2, 10, 50, 250, \ldots</m> The sequence is geometric.
           </li>
 
-          <li permid="l_w"><m>\frac{2 - 2\cdot 5^{25}}{-4}</m>.</li>
+          <li permid="l_s"><m>\frac{2 - 2\cdot 5^{25}}{-4}</m>.</li>
         </ol>
       </p>
     </solution>
   </exercise>
 
-  <exercise permid="e_ie">
+  <exercise permid="e_gy">
     <statement>
       <p permid="p1">
         Consider the sequence <m>5, 11, 19, 29, 41, 55,\ldots</m>.
@@ -101,7 +101,7 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               Find a closed formula for <m>a_n</m>,
               the <m>n</m>th term of the sequence,
@@ -110,7 +110,7 @@
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               Find a closed formula again,
               this time using either polynomial fitting or the characteristic root technique
@@ -119,7 +119,7 @@
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               Find a closed formula once again,
               this time by recognizing the sequence as a modification to some well known sequence(s).
@@ -131,7 +131,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_za">
+  <exercise permid="e_jq">
     <statement>
       <p permid="p">
         Use polynomial fitting to find a closed formula for the sequence <m>(a_n)_{n\ge 1}</m>:
@@ -147,7 +147,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ql">
+  <exercise permid="e_mz">
     <statement>
       <p permid="p1">
         Suppose the closed formula for a particular sequence is a degree 3 polynomial.
@@ -156,13 +156,13 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               The sequence of partial sums.
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               The sequence of second differences.
             </p>
@@ -173,14 +173,14 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               The sequence of partial sums will be a degree 4 polynomial
               (its sequence of differences will be the original sequence).
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               The sequence of second differences will be a degree 1 polynomial - an arithmetic sequence.
             </p>
@@ -190,7 +190,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_hh">
+  <exercise permid="e_pi">
     <statement>
       <p permid="p1">
         Consider the sequence given recursively by <m>a_1 = 4</m>,
@@ -199,13 +199,13 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               Write out the first 6 terms of the sequence.
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               Could the closed formula for <m>a_n</m> be a polynomial?
               Explain.
@@ -217,9 +217,9 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="l_l"><m>4, 6, 10, 16, 26, 42, \ldots</m>.</li>
+          <li permid="l_j"><m>4, 6, 10, 16, 26, 42, \ldots</m>.</li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               No, taking differences gives the original sequence back,
               so the differences will never be constant.
@@ -230,7 +230,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ys">
+  <exercise permid="e_sa">
     <statement>
       <p permid="p">
         The sequence <m>-1, 0, 2, 5, 9, 14\ldots</m> has closed formula <m>a_n = \dfrac{(n+1)(n-2)}{2}</m>.
@@ -244,7 +244,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_pd">
+  <exercise permid="e_vj">
     <statement>
       <p permid="p">
         The in song <em>The Twelve Days of Christmas</em>,
@@ -256,7 +256,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_gz">
+  <exercise permid="e_ys">
     <statement>
       <p permid="p1">
         Consider the recurrence relation
@@ -265,13 +265,13 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               Write out the first 5 terms of the sequence defined by this recurrence relation.
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               Solve the recurrence relation.
               That is, find a closed formula for <m>a_n</m>.
@@ -283,15 +283,15 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="l_l"><m>1, 2, 16,68, 364, \ldots</m>.</li>
+          <li permid="l_j"><m>1, 2, 16,68, 364, \ldots</m>.</li>
 
-          <li permid="l_w"><m>a_n = \frac{3}{7}(-2)^n + \frac{4}{7}5^n</m>.</li>
+          <li permid="l_s"><m>a_n = \frac{3}{7}(-2)^n + \frac{4}{7}5^n</m>.</li>
         </ol>
       </p>
     </solution>
   </exercise>
 
-  <exercise permid="e_xk">
+  <exercise permid="e_bk">
     <statement>
       <p permid="p1">
         Consider the recurrence relation <m>a_n = 2a_{n-1} + 8a_{n-2}</m>,
@@ -300,14 +300,14 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               Find the next two terms of the sequence
               (<m>a_2</m> and <m>a_3</m>).
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               Solve the recurrence relation.
               That is, find a closed formula for the <m>n</m>th term of the sequence.
@@ -319,15 +319,15 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="l_l"><m>a_2 = 14</m>. <m>a_3 = 52</m>.</li>
+          <li permid="l_j"><m>a_2 = 14</m>. <m>a_3 = 52</m>.</li>
 
-          <li permid="l_w"><m>a_n = \frac{1}{6}(-2)^n + \frac{5}{6}4^n</m>.</li>
+          <li permid="l_s"><m>a_n = \frac{1}{6}(-2)^n + \frac{5}{6}4^n</m>.</li>
         </ol>
       </p>
     </solution>
   </exercise>
 
-  <exercise permid="e_og">
+  <exercise permid="e_et">
     <statement>
       <p permid="p1">
         Your magic chocolate bunnies
@@ -341,19 +341,19 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               Write out the first few terms of the sequence.
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               Give a recursive definition of the sequence and explain why it is correct.
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               Find a closed formula for the <m>n</m>th term of the sequence.
             </p>
@@ -364,7 +364,7 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               On the first day, your 2 mini bunnies become 2 large bunnies.
               On day 2, your two large bunnies produce 4 mini bunnies.
@@ -379,7 +379,7 @@
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <m>a_n = a_{n-1} + 2a_{n-2}</m>.
             This is because the number of bunnies is equal to the number of bunnies you had the previous day
             (both mini and large)
@@ -387,7 +387,7 @@
             (since all bunnies you had 2 days ago are now large and producing 2 new bunnies each).
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               Using the characteristic root technique,
               we find <m>a_n = a2^n + b(-1)^n</m>,
@@ -399,7 +399,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_fr">
+  <exercise permid="e_hc">
     <statement>
       <p permid="p1">
         Prove the following statements by mathematical induction:
@@ -407,24 +407,24 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="l_l"><m>n! \lt n^n</m> for <m>n \ge 2</m></li>
+          <li permid="l_j"><m>n! \lt n^n</m> for <m>n \ge 2</m></li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <m>\d\frac{1}{1\cdot 2} + \frac{1}{2\cdot 3} +\frac{1}{3\cdot 4}+\cdots + \frac{1}{n\cdot(n+1)} = \d\frac{n}{n+1}</m> for all <m>n \in \Z^+</m>.
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <m>4^n - 1</m> is a multiple of 3 for all <m>n \in \N</m>.
           </li>
 
-          <li permid="l_s">
+          <li permid="l_k">
             <p permid="p">
               The <em>greatest</em> amount of postage you <em>cannot</em>
               make exactly using 4 and 9 cent stamps is 23 cents.
             </p>
           </li>
 
-          <li permid="l_d">
+          <li permid="l_t">
             <p permid="p">
               Every even number squared is divisible by 4.
             </p>
@@ -435,33 +435,33 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               Hint: <m>(n+1)^{n+1} &gt; (n+1) \cdot n^{n}</m>.
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               Hint: This should be similar to the other sum proofs.
               The last bit comes down to adding fractions.
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               Hint: Write <m>4^{k+1} - 1 = 4\cdot 4^k - 4 + 3</m>.
             </p>
           </li>
 
-          <li permid="l_s">
+          <li permid="l_k">
             <p permid="p">
               Hint: one 9-cent stamp is 1 more than two 4-cent stamps,
               and seven 4-cent stamps is 1 more than three 9-cent stamps.
             </p>
           </li>
 
-          <li permid="l_d">
+          <li permid="l_t">
             <p permid="p">
               Careful to actually use induction here.
               The base case: <m>2^2 = 4</m>.
@@ -476,7 +476,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_wn">
+  <exercise permid="e_ku">
     <statement>
       <p permid="p">
         Prove <m>1^3 + 2^3 + 3^3 + \cdots + n^3 = \left(\frac{n(n+1)}{2}\right)^2</m> holds for all <m>n \ge 1</m>,
@@ -492,7 +492,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ny">
+  <exercise permid="e_nd">
     <statement>
       <p permid="p">
         Suppose <m>a_0 = 1</m>,
@@ -512,7 +512,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ej">
+  <exercise permid="e_qm">
     <statement>
       <p permid="p">
         Prove, using strong induction,
@@ -536,7 +536,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_vf">
+  <exercise permid="e_te">
     <statement>
       <p permid="p">
         Prove using induction that every set containing <m>n</m> elements has <m>2^n</m> different subsets for any <m>n \ge 1</m>.

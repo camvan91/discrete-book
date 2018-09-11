@@ -67,13 +67,13 @@
           The following are all examples of functions:
 
           <ol permid="ol">
-            <li permid="l_l">
+            <li permid="l_j">
               <m>f:\Z \to \Z</m> defined by <m>f(n) = 3n</m>.
               The domain and codomain are both the set of integers.
               However, the range is only the set of integer multiples of 3.
             </li>
 
-            <li permid="l_w">
+            <li permid="l_s">
               <m>g: \{1,2,3\} \to \{a,b,c\}</m> defined by <m>g(1) = c</m>,
               <m>g(2) = a</m> and <m>g(3) = a</m>.
               The domain is the set <m>\{1,2,3\}</m>,
@@ -82,7 +82,7 @@
               This is okay since each element in the domain still has only one output.
             </li>
 
-            <li permid="l_h">
+            <li permid="l_b">
               <p permid="p1">
                 <m>h:\{1,2,3\} \to \{1,2,3\}</m> defined as follows:
               </p>
@@ -379,13 +379,13 @@
 
         <p permid="p2">
           <ol permid="ol">
-            <li permid="l_l"><m>f:\Z \to \Z</m> defined by <m>f(n) = 3n</m>.</li>
+            <li permid="l_j"><m>f:\Z \to \Z</m> defined by <m>f(n) = 3n</m>.</li>
 
-            <li permid="l_w">
+            <li permid="l_s">
               <m>g: \{1,2,3\} \to \{a,b,c\}</m> defined by <m>g = \begin{pmatrix}1 \amp 2 \amp 3 \\ c \amp a \amp a \end{pmatrix}</m>.
             </li>
 
-            <li permid="l_h">
+            <li permid="l_b">
               <p permid="p">
                 <m>h:\{1,2,3\} \to \{1,2,3\}</m> defined as follows:
               </p>
@@ -412,7 +412,7 @@
       <solution permid="s">
         <p permid="p">
           <ol permid="ol">
-            <li permid="l_l">
+            <li permid="l_j">
               <m>f</m> is not surjective.
               There are elements in the codomain which are not in the range.
               For example, no <m>n \in \Z</m> gets mapped to the number 1
@@ -423,7 +423,7 @@
               which is not equal to <m>\Z</m>.
             </li>
 
-            <li permid="l_w">
+            <li permid="l_s">
               <m>g</m> is not surjective.
               There is no <m>x \in \{1,2,3\}</m>
               (the domain)
@@ -433,7 +433,7 @@
               from the bottom row of the matrix.
             </li>
 
-            <li permid="l_h">
+            <li permid="l_b">
               <m>h</m> is surjective.
               Every element of the codomain is also in the range.
               Nothing in the codomain is missed.
@@ -512,13 +512,13 @@
 
         <p permid="p2">
           <ol permid="ol">
-            <li permid="l_l"><m>f:\Z \to \Z</m> defined by <m>f(n) = 3n</m>.</li>
+            <li permid="l_j"><m>f:\Z \to \Z</m> defined by <m>f(n) = 3n</m>.</li>
 
-            <li permid="l_w">
+            <li permid="l_s">
               <m>g: \{1,2,3\} \to \{a,b,c\}</m> defined by <m>g = \begin{pmatrix}1 \amp 2 \amp 3 \\ c \amp a \amp a \end{pmatrix}</m>.
             </li>
 
-            <li permid="l_h">
+            <li permid="l_b">
               <p permid="p">
                 <m>h:\{1,2,3\} \to \{1,2,3\}</m> defined as follows:
               </p>
@@ -545,7 +545,7 @@
       <solution permid="s">
         <p permid="p">
           <ol permid="ol">
-            <li permid="l_l">
+            <li permid="l_j">
               <m>f</m> is injective.
               Each element in the codomain is assigned to at <em>most</em>
               one element from the domain.
@@ -554,13 +554,13 @@
               If <m>x</m> is not a multiple of 3, then there is no input corresponding to the output <m>x</m>.
             </li>
 
-            <li permid="l_w">
+            <li permid="l_s">
               <m>g</m> is not injective.
               Both inputs <m>2</m> and <m>3</m> are assigned the output <m>a</m>.
               Notice that there is an element from the codomain that appears more than once on the bottom row of the matrix.
             </li>
 
-            <li permid="l_h">
+            <li permid="l_b">
               <m>h</m> is injective.
               Each output is only an output once.
             </li>
@@ -724,7 +724,7 @@
       <title>Function Definitions</title>
       <p permid="p">
         <ul permid="ul">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               A
               <term>function</term> is a rule that assigns each element of a set,
@@ -735,7 +735,7 @@
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               Notation: <m>f:X \to Y</m> is our way of saying that the function is called <m>f</m>,
               the domain is the set <m>X</m>,
@@ -743,7 +743,7 @@
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               To specify the rule for a function with small domain, use
               <term>two-line notation</term> by writing a matrix with each output directly below its corresponding input, as in:
@@ -753,7 +753,7 @@
             </p>
           </li>
 
-          <li permid="l_s">
+          <li permid="l_k">
             <p permid="p">
               <m>f(x) = y</m> means the element <m>x</m> of the domain (input) is assigned to the element <m>y</m> of the codomain.
               We say <m>y</m> is an output.
@@ -762,7 +762,7 @@
             </p>
           </li>
 
-          <li permid="l_d">
+          <li permid="l_t">
             <p permid="p">
               The
               <term>range</term> is a subset of the codomain.
@@ -771,7 +771,7 @@
             </p>
           </li>
 
-          <li permid="l_o">
+          <li permid="l_c">
             <p permid="p">
               A function is
               <term>injective</term> (an
@@ -781,7 +781,7 @@
             </p>
           </li>
 
-          <li permid="l_z">
+          <li permid="l_l">
             <p permid="p">
               A function is
               <term>surjective</term> (a
@@ -791,7 +791,7 @@
             </p>
           </li>
 
-          <li permid="l_k">
+          <li permid="l_u">
             <p permid="p">
               A
               <term>bijection</term> is a function which is both an injection and surjection.
@@ -800,14 +800,14 @@
             </p>
           </li>
 
-          <li permid="l_v">
+          <li permid="l_d">
             <p permid="p">
               The <term>image</term> of an element <m>x</m> in the domain is the element <m>y</m> in the codomain that <m>x</m> is mapped to.
               That is, the image of <m>x</m> under <m>f</m> is <m>f(x)</m>.
             </p>
           </li>
 
-          <li permid="l_g">
+          <li permid="l_m">
             <p permid="p">
               The
               <term>complete inverse image</term>

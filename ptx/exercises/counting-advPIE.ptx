@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <exercises permid="exers_counting-advpie" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exercises_counting-advPIE">
 
-  <exercise permid="e_jm">
+  <exercise permid="e_xo">
     <statement>
       <p permid="p">
         The dollar menu at your favorite tax-free fast food restaurant has 7 items.
@@ -10,19 +10,19 @@
         How many different meals can you buy if you spend all your money and:
 
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               Purchase at least one of each item.
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               Possibly skip some items.
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               Don't get more than 2 of any particular item.
             </p>
@@ -33,11 +33,11 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="l_l"><m>{9 \choose 6}</m> meals.</li>
+          <li permid="l_j"><m>{9 \choose 6}</m> meals.</li>
 
-          <li permid="l_w"><m>{16 \choose 6}</m> meals.</li>
+          <li permid="l_s"><m>{16 \choose 6}</m> meals.</li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <m>{16 \choose 6} - \left[{7 \choose 1}{13 \choose 6} - {7 \choose 2}{10 \choose 6} + {7 \choose 3}{7 \choose 6}\right]</m> meals.
             Use PIE to subtract all the meals in which you get 3 or more of a particular item.
           </li>
@@ -46,7 +46,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ai">
+  <exercise permid="e_ag">
     <statement>
       <p permid="p">
         After a late night of math studying,
@@ -58,7 +58,7 @@
         (and will spend all of it).
 
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               How many different orders are possible?
               Explain.
@@ -66,14 +66,14 @@
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               How many different orders are possible if you want to get at least one of each item?
               Explain.
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               How many different orders are possible if you don't get more than 4 of any one item?
               Explain.
@@ -84,7 +84,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_rt">
+  <exercise permid="e_dp">
     <statement>
       <p permid="p">
         After another gym class you are tasked with putting the 14 identical dodgeballs away into 5 bins.
@@ -100,7 +100,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ie">
+  <exercise permid="e_gy">
     <statement>
       <p permid="p">
         Consider the equation <m>x_1 + x_2 + x_3 + x_4 = 15</m>.
@@ -135,7 +135,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_za">
+  <exercise permid="e_jq">
     <statement>
       <p permid="p">
         Suppose you planned on giving 7 gold stars to some of the 13 star students in your class.
@@ -146,7 +146,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_ql">
+  <exercise permid="e_mz">
     <statement>
       <p permid="p">
         Based on the previous question,
@@ -158,7 +158,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_hh">
+  <exercise permid="e_pi">
     <statement>
       <p permid="p">
         Illustrate how the counting of derangements works by writing all permutations of
@@ -174,7 +174,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ys">
+  <exercise permid="e_sa">
     <statement>
       <p permid="p">
         How many permutations of <m>\{1,2,3,4,5\}</m> leave exactly 1 element fixed?
@@ -191,7 +191,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_pd">
+  <exercise permid="e_vj">
     <statement>
       <p permid="p">
         Ten ladies of a certain age drop off their red hats at the hat check of a museum.
@@ -203,7 +203,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_gz">
+  <exercise permid="e_ys">
     <statement>
       <p permid="p">
         The Grinch sneaks into a room with 6 Christmas presents to 6 different people.
@@ -211,21 +211,21 @@
         How many ways could he do this if:
 
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               No present is allowed to end up with its original label?
               Explain what each term in your answer represents.
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               Exactly 2 presents keep their original labels?
               Explain.
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               Exactly 5 presents keep their original labels?
               Explain.
@@ -236,7 +236,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_xk">
+  <exercise permid="e_bk">
     <statement>
       <p permid="p">
         Consider functions <m>f: \{1,2,3,4\} \to \{a,b,c,d,e,f\}</m>.
@@ -259,7 +259,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_og">
+  <exercise permid="e_et">
     <statement>
       <p permid="p">
         Consider sets <m>A</m> and <m>B</m> with <m>|A| = 10</m> and <m>|B| = 5</m>.
@@ -282,7 +282,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_fr">
+  <exercise permid="e_hc">
     <statement>
       <p permid="p">
         Let <m>A = \{1,2,3,4,5\}</m>.
@@ -293,7 +293,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_wn">
+  <exercise permid="e_ku">
     <statement>
       <p permid="p">
         Let <m>d_n</m> be the number of derangements of <m>n</m> objects.

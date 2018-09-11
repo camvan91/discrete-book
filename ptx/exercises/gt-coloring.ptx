@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <exercises permid="exers_gt-coloring" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exercises_gt-coloring">
 
-  <exercise permid="e_jm">
+  <exercise permid="e_xo">
     <statement>
       <p permid="p">
         What is the smallest number of colors you need to properly color the vertices of <m>K_{4,5}</m>?
@@ -17,7 +17,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ai">
+  <exercise permid="e_ag">
     <statement>
       <p permid="p">
         Draw a graph with chromatic number 6 (i.e., which requires 6 colors to properly color the vertices).
@@ -34,7 +34,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_rt">
+  <exercise permid="e_dp">
     <statement>
       <p permid="p">
         Find the chromatic number of each of the following graphs.
@@ -96,7 +96,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ie">
+  <exercise permid="e_gy">
     <statement>
       <p permid="p">
         A group of 10 friends decides to head up to a cabin in the woods
@@ -108,7 +108,7 @@
         and no two people who dated should be in the same car.
 
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               What is the smallest number of cars you need if all the relationships were strictly heterosexual?
               Represent an example of such a situation with a graph.
@@ -116,7 +116,7 @@
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               Because a number of these friends dated there are also conflicts between friends of the same gender,
               listed below.
@@ -158,7 +158,7 @@
 
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               What do these questions have to do with coloring?
             </p>
@@ -168,7 +168,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_za">
+  <exercise permid="e_jq">
     <statement>
       <p permid="p">
         What is the smallest number of colors that can be used to color the vertices of a cube so that no two adjacent vertices are colored identically?
@@ -201,14 +201,14 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ql">
+  <exercise permid="e_mz">
     <statement>
       <p permid="p">
         Prove the chromatic number of any tree is two.
         Recall, a tree is a connected graph with no cycles.
 
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               Describe a procedure to color the tree below.
             </p>
@@ -232,20 +232,20 @@
 
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               The chromatic number of <m>C_n</m> is two when <m>n</m> is even.
               What goes wrong when <m>n</m> is odd?
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               Prove that your procedure from part (a) always works for any tree.
             </p>
           </li>
 
-          <li permid="l_s">
+          <li permid="l_k">
             <p permid="p">
               Now, prove using induction that every tree has chromatic number 2.
             </p>
@@ -255,7 +255,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_hh">
+  <exercise permid="e_pi">
     <statement>
       <p permid="p">
         Prove the 6-color theorem: every planar graph has chromatic number 6 or less.
@@ -266,7 +266,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_ys">
+  <exercise permid="e_sa">
     <statement>
       <p permid="p">
         Not all graphs are perfect.
@@ -298,7 +298,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_pd">
+  <exercise permid="e_vj">
     <statement>
       <p permid="p">
         Prove by induction on vertices that any graph <m>G</m> which contains at least one vertex of degree less than <m>\Delta(G)</m>
@@ -308,7 +308,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_gz">
+  <exercise permid="e_ys">
     <statement>
       <p permid="p">
         You have a set of magnetic alphabet letters
@@ -333,7 +333,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_xk">
+  <exercise permid="e_bk">
     <statement>
       <p permid="p">
         Prove that if you color every edge of <m>K_6</m> either red or blue,

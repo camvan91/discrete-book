@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <exercises permid="exers_seq-arithgeom" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exercises_seq-arithgeom">
 
-  <exercise permid="e_jm">
+  <exercise permid="e_xo">
     <statement>
       <p permid="p1">
         Consider the sequence <m>5, 9, 13, 17, 21, \ldots</m> with <m>a_1 = 5</m>
@@ -9,39 +9,39 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               Give a recursive definition for the sequence.
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               Give a closed formula for the <m>n</m>th term of the sequence.
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               Is <m>2013</m> a term in the sequence?
               Explain.
             </p>
           </li>
 
-          <li permid="l_s">
+          <li permid="l_k">
             <p permid="p">
               How many terms does the sequence <m>5, 9, 13, 17, 21, \ldots, 533</m> have?
             </p>
           </li>
 
-          <li permid="l_d">
+          <li permid="l_t">
             <p permid="p">
               Find the sum: <m>5 + 9 + 13 + 17 + 21 + \cdots + 533</m>.
               Show your work.
             </p>
           </li>
 
-          <li permid="l_o">
+          <li permid="l_c">
             <p permid="p">
               Use what you found above to find <m>b_n</m>,
               the <m>n^{th}</m> term of <m>1, 6, 15, 28, 45, \ldots</m>,
@@ -54,32 +54,32 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="l_l"><m>a_n = a_{n-1} + 4</m> with <m>a_1 = 5</m>.</li>
+          <li permid="l_j"><m>a_n = a_{n-1} + 4</m> with <m>a_1 = 5</m>.</li>
 
-          <li permid="l_w"><m>a_n = 5 + 4(n-1)</m>.</li>
+          <li permid="l_s"><m>a_n = 5 + 4(n-1)</m>.</li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               Yes, since <m>2013 = 5 + 4(503-1)</m>
               (so <m>a_{503} = 2013</m>).
             </p>
           </li>
 
-          <li permid="l_s">
+          <li permid="l_k">
             <p permid="p">
               133
             </p>
           </li>
 
-          <li permid="l_d"><m>\frac{538\cdot 133}{2} = 35777</m>.</li>
+          <li permid="l_t"><m>\frac{538\cdot 133}{2} = 35777</m>.</li>
 
-          <li permid="l_o"><m>b_n = 1 + \frac{(4n+6)n}{2}</m>.</li>
+          <li permid="l_c"><m>b_n = 1 + \frac{(4n+6)n}{2}</m>.</li>
         </ol>
       </p>
     </solution>
   </exercise>
 
-  <exercise permid="e_ai">
+  <exercise permid="e_ag">
     <statement>
       <p permid="p1">
         Consider the sequence <m>(a_n)_{n \ge 0}</m> which starts <m>8, 14, 20, 26, \ldots</m>.
@@ -87,19 +87,19 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               What is the next term in the sequence?
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               Find a formula for the <m>n</m>th term of this sequence.
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               Find the sum of the first 100 terms of the sequence:
               <m>\sum_{k=0}^{99}a_k</m>.
@@ -111,15 +111,15 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               <m>32</m>, which is <m>26+6</m>.
             </p>
           </li>
 
-          <li permid="l_w"><m>a_n = 8 + 6n</m>.</li>
+          <li permid="l_s"><m>a_n = 8 + 6n</m>.</li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <m>30500</m>.
             We want <m>8 + 14 + \cdots + 602</m>.
             Reverse and add to get 100 sums of 610,
@@ -130,7 +130,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_rt">
+  <exercise permid="e_dp">
     <statement>
       <p permid="p1">
         Consider the sum <m>4 + 11 + 18 + 25 + \cdots + 249</m>.
@@ -138,13 +138,13 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               How many terms (summands) are in the sum?
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               Compute the sum.
               Remember to show all your work.
@@ -156,19 +156,19 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               36.
             </p>
           </li>
 
-          <li permid="l_w"><m>\frac{253 \cdot 36}{2} = 4554</m>.</li>
+          <li permid="l_s"><m>\frac{253 \cdot 36}{2} = 4554</m>.</li>
         </ol>
       </p>
     </solution>
   </exercise>
 
-  <exercise permid="e_ie">
+  <exercise permid="e_gy">
     <statement>
       <p permid="p1">
         Consider the sequence <m>1, 7, 13, 19, \ldots, 6n + 7</m>.
@@ -176,19 +176,19 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               How many terms are there in the sequence?
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               What is the second-to-last term?
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               Find the sum of all the terms in the sequence.
             </p>
@@ -199,18 +199,18 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <m>n+2</m> terms,
             since to get 1 using the formula <m>6n+7</m> we must use <m>n=-1</m>.
             Thus we have <m>n</m> terms, plus the <m>n=0</m> and <m>n=-1</m> terms.
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <m>6n+1</m>, which is 6 less than <m>6n+7</m>
             (or plug in <m>n-1</m> for <m>n</m>).
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <m>\frac{(6n+8)(n+2)}{2}</m>.
             Reverse and add.
             Each sum gives the constant <m>6n+8</m> and there are <m>n+2</m> terms.
@@ -220,7 +220,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_za">
+  <exercise permid="e_jq">
     <statement>
       <p permid="p">
         Find <m>5 + 7 + 9 + 11+ \cdots + 521</m>.
@@ -238,7 +238,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ql">
+  <exercise permid="e_mz">
     <statement>
       <p permid="p">
         Find <m>5 + 15 + 45 + \cdots + 5\cdot 3^{20}</m>.
@@ -254,7 +254,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_hh">
+  <exercise permid="e_pi">
     <statement>
       <p permid="p">
         Find <m>1 - \frac{2}{3} + \frac{4}{9} - \cdots + \frac{2^{30}}{3^{30}}</m>.
@@ -262,7 +262,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_ys">
+  <exercise permid="e_sa">
     <statement>
       <p permid="p">
         Find <m>x</m> and <m>y</m> such that
@@ -275,7 +275,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_pd">
+  <exercise permid="e_vj">
     <statement>
       <p permid="p1">
         Starting with any rectangle, we can create a new,
@@ -306,7 +306,7 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               Create a sequence of rectangles using this rule starting with a <m>1\times 2</m> rectangle.
               Then write out the sequence of <em>perimeters</em> for the rectangles
@@ -315,20 +315,20 @@
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               Repeat the above part this time starting with a <m>1 \times 3</m> rectangle.
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               Find recursive formulas for each of the sequences of perimeters you found in parts (a) and (b).
               Don't forget to give the initial conditions as well.
             </p>
           </li>
 
-          <li permid="l_s">
+          <li permid="l_k">
             <p permid="p">
               Are the sequences arithmetic?
               Geometric?
@@ -343,7 +343,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_gz">
+  <exercise permid="e_ys">
     <statement>
       <p permid="p">
         Consider the sequence <m>2, 7, 15, 26, 40, 57, \ldots</m>
@@ -366,7 +366,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_xk">
+  <exercise permid="e_bk">
     <statement>
       <p permid="p1">
         If you have enough toothpicks,
@@ -409,21 +409,21 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               Let <m>t_n</m> be the number of toothpicks required to make a size <m>n</m> triangular grid.
               Write out the first 5 terms of the sequence <m>t_1, t_2, \ldots</m>.
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               Find a recursive definition for the sequence.
               Explain why you are correct.
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               Is the sequence arithmetic or geometric?
               If not, is it the sequence of partial sums of an arithmetic or geometric sequence?
@@ -431,7 +431,7 @@
             </p>
           </li>
 
-          <li permid="l_s">
+          <li permid="l_k">
             <p permid="p">
               Use your results from part (c) to find a closed formula for the sequence.
               Show your work.
@@ -442,7 +442,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_og">
+  <exercise permid="e_et">
     <statement>
       <p permid="p1">
         Use summation (<m>\sum</m>) or product (<m>\prod</m>) notation to rewrite the following.
@@ -450,17 +450,17 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="l_l"><m>2 + 4 + 6 + 8 + \cdots + 2n</m>.</li>
+          <li permid="l_j"><m>2 + 4 + 6 + 8 + \cdots + 2n</m>.</li>
 
-          <li permid="l_w"><m>1 + 5 + 9 + 13 + \cdots + 425</m>.</li>
+          <li permid="l_s"><m>1 + 5 + 9 + 13 + \cdots + 425</m>.</li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <m>1 + \frac{1}{2} + \frac{1}{3} + \frac{1}{4} + \cdots + \frac{1}{50}</m>.
           </li>
 
-          <li permid="l_s"><m>2 \cdot 4 \cdot 6 \cdot \cdots \cdot 2n</m>.</li>
+          <li permid="l_k"><m>2 \cdot 4 \cdot 6 \cdot \cdots \cdot 2n</m>.</li>
 
-          <li permid="l_d">
+          <li permid="l_t">
             <m>(\frac{1}{2})(\frac{2}{3})(\frac{3}{4})\cdots(\frac{100}{101})</m>.
           </li>
         </ol>
@@ -469,21 +469,21 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="l_l"><m>\d\sum_{k=1}^n 2k</m>.</li>
+          <li permid="l_j"><m>\d\sum_{k=1}^n 2k</m>.</li>
 
-          <li permid="l_w"><m>\d\sum_{k=1}^{107} (1 + 4(k-1))</m>.</li>
+          <li permid="l_s"><m>\d\sum_{k=1}^{107} (1 + 4(k-1))</m>.</li>
 
-          <li permid="l_h"><m>\d\sum_{k=1}^{50} \frac{1}{k}</m>.</li>
+          <li permid="l_b"><m>\d\sum_{k=1}^{50} \frac{1}{k}</m>.</li>
 
-          <li permid="l_s"><m>\d\prod_{k=1}^n 2k</m>.</li>
+          <li permid="l_k"><m>\d\prod_{k=1}^n 2k</m>.</li>
 
-          <li permid="l_d"><m>\d\prod_{k=1}^{100} \frac{k}{k+1}</m>.</li>
+          <li permid="l_t"><m>\d\prod_{k=1}^{100} \frac{k}{k+1}</m>.</li>
         </ol>
       </p>
     </solution>
   </exercise>
 
-  <exercise permid="e_fr">
+  <exercise permid="e_hc">
     <statement>
       <p permid="p1">
         Expand the following sums and products.
@@ -492,38 +492,38 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="l_l"><m>\d\sum_{k=1}^{100} (3+4k)</m>.</li>
+          <li permid="l_j"><m>\d\sum_{k=1}^{100} (3+4k)</m>.</li>
 
-          <li permid="l_w"><m>\d\sum_{k=0}^n 2^k</m>.</li>
+          <li permid="l_s"><m>\d\sum_{k=0}^n 2^k</m>.</li>
 
-          <li permid="l_h"><m>\d\sum_{k=2}^{50}\frac{1}{(k^2 - 1)}</m>.</li>
+          <li permid="l_b"><m>\d\sum_{k=2}^{50}\frac{1}{(k^2 - 1)}</m>.</li>
 
-          <li permid="l_s"><m>\d\prod_{k=2}^{100}\frac{k^2}{(k^2-1)}</m>.</li>
+          <li permid="l_k"><m>\d\prod_{k=2}^{100}\frac{k^2}{(k^2-1)}</m>.</li>
 
-          <li permid="l_d"><m>\d\prod_{k=0}^n (2+3k)</m>.</li>
+          <li permid="l_t"><m>\d\prod_{k=0}^n (2+3k)</m>.</li>
         </ol>
       </p>
     </statement>
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <m>\d\sum_{k=1}^{100} (3+4k) = 7 + 11 + 15 + \cdots + 403</m>.
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <m>\d\sum_{k=0}^n 2^k = 1 + 2 + 4 + 8 + \cdots + 2^n</m>.
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <m>\d\sum_{k=2}^{50}\frac{1}{(k^2 - 1)} = 1 + \frac{1}{3} + \frac{1}{8} + \frac{1}{15} + \cdots + \frac{1}{2499}</m>.
           </li>
 
-          <li permid="l_s">
+          <li permid="l_k">
             <m>\d\prod_{k=2}^{100}\frac{k^2}{(k^2-1)} = \frac{4}{3}\cdot\frac{9}{8}\cdot\frac{16}{15}\cdots\frac{10000}{9999}</m>.
           </li>
 
-          <li permid="l_d">
+          <li permid="l_t">
             <m>\d\prod_{k=0}^n (2+3k) = (2)(5)(8)(11)(14)\cdots(2+3n)</m>.
           </li>
         </ol>

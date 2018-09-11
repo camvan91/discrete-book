@@ -13,7 +13,7 @@
         Imagine you start with a single row of the cubes.
 
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p1">
               Find the number of different ways you can distribute the cubes provided:
             </p>
@@ -26,31 +26,31 @@
                   </p>
                 </li>
 
-                <li permid="l_w">
+                <li permid="l_s">
                   <p permid="p">
                     You have 4 cubes to give to 2 people.
                   </p>
                 </li>
 
-                <li permid="l_h">
+                <li permid="l_b">
                   <p permid="p">
                     You have 5 cubes to give to 2 people.
                   </p>
                 </li>
 
-                <li permid="l_s">
+                <li permid="l_k">
                   <p permid="p">
                     You have 3 cubes to give to 3 people.
                   </p>
                 </li>
 
-                <li permid="l_d">
+                <li permid="l_t">
                   <p permid="p">
                     You have 4 cubes to give to 3 people.
                   </p>
                 </li>
 
-                <li permid="l_o">
+                <li permid="l_c">
                   <p permid="p">
                     You have 5 cubes to give to 3 people.
                   </p>
@@ -59,14 +59,14 @@
             </p>
           </li>
 
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               Make a conjecture about how many different ways you could distribute 7 cubes to 4 people.
               Explain.
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               What if each person were required to get
               <em>at least one</em>
@@ -365,7 +365,7 @@
 
         <p permid="p3">
           <ol permid="ol">
-            <li permid="l_l">
+            <li permid="l_j">
               <p permid="p">
                 where
                 <m>x_i \ge 0</m>
@@ -374,7 +374,7 @@
               </p>
             </li>
 
-            <li permid="l_w">
+            <li permid="l_s">
               <p permid="p">
                 where
                 <m>x_i &gt; 0</m>
@@ -383,7 +383,7 @@
               </p>
             </li>
 
-            <li permid="l_h">
+            <li permid="l_b">
               <p permid="p">
                 where
                 <m>x_i \ge 2</m>
@@ -406,7 +406,7 @@
 
         <p permid="p2">
           <ol permid="ol">
-            <li permid="l_l">
+            <li permid="l_j">
               <p permid="p">
                 If
                 <m>x_i</m>
@@ -417,7 +417,7 @@
               </p>
             </li>
 
-            <li permid="l_w">
+            <li permid="l_s">
               <p permid="p">
                 Now each variable must be at least 1.
                 So give one unit to each variable to satisfy that restriction.
@@ -427,7 +427,7 @@
               </p>
             </li>
 
-            <li permid="l_h">
+            <li permid="l_b">
               <p permid="p">
                 Now each variable must be 2 or greater.
                 So before any counting, give each variable 2 units.

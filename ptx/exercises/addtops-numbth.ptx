@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <exercises permid="exers_addtops-numbth" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exercises_addtops-numbth">
 
-  <exercise permid="e_jm">
+  <exercise permid="e_xo">
     <statement>
       <p permid="p">
         Suppose <m>a</m>, <m>b</m>, and <m>c</m> are integers.
@@ -25,7 +25,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ai">
+  <exercise permid="e_ag">
     <statement>
       <p permid="p">
         Suppose <m>a</m>, <m>b</m>, and <m>c</m> are integers.
@@ -52,7 +52,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_rt">
+  <exercise permid="e_dp">
     <statement>
       <p permid="p">
         Write out the remainder classes for <m>n = 4</m>.
@@ -71,7 +71,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ie">
+  <exercise permid="e_gy">
     <statement>
       <p permid="p">
         Let <m>a</m>, <m>b</m>, <m>c</m>, and <m>n</m> be integers.
@@ -103,32 +103,32 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_za">
+  <exercise permid="e_jq">
     <statement>
       <p permid="p">
         Find the remainder of <m>3^{456}</m> when divided by
       </p>
 
       <ol permid="ol">
-        <li permid="l_l">
+        <li permid="l_j">
           <p permid="p">
             2.
           </p>
         </li>
 
-        <li permid="l_w">
+        <li permid="l_s">
           <p permid="p">
             5.
           </p>
         </li>
 
-        <li permid="l_h">
+        <li permid="l_b">
           <p permid="p">
             7.
           </p>
         </li>
 
-        <li permid="l_s">
+        <li permid="l_k">
           <p permid="p">
             9.
           </p>
@@ -137,24 +137,24 @@
     </statement>
     <solution permid="s">
       <ol permid="ol">
-        <li permid="l_l"><m>3^{456} \equiv 1^{456} = 1 \pmod 2</m>.</li>
+        <li permid="l_j"><m>3^{456} \equiv 1^{456} = 1 \pmod 2</m>.</li>
 
-        <li permid="l_w">
+        <li permid="l_s">
           <m>3^{456} = 9^{228} \equiv (-1)^{228} = 1 \pmod{5}</m>.
         </li>
 
-        <li permid="l_h">
+        <li permid="l_b">
           <m>3^{456} = 9^{228} \equiv 2^{228} = 8^{76} \equiv 1^{76} = 1 \pmod 7</m>.
         </li>
 
-        <li permid="l_s">
+        <li permid="l_k">
           <m>3^{456} = 9^{228} \equiv 0^{228} = 0 \pmod{9}</m>.
         </li>
       </ol>
     </solution>
   </exercise>
 
-  <exercise permid="e_ql">
+  <exercise permid="e_mz">
     <statement>
       <p permid="p">
         Determine which of the following congruences have solutions,
@@ -162,17 +162,17 @@
       </p>
 
       <ol permid="ol">
-        <li permid="l_l"><m>4x \equiv 5 \pmod 6</m>.</li>
+        <li permid="l_j"><m>4x \equiv 5 \pmod 6</m>.</li>
 
-        <li permid="l_w"><m>4x \equiv 5 \pmod 7</m>.</li>
+        <li permid="l_s"><m>4x \equiv 5 \pmod 7</m>.</li>
 
-        <li permid="l_h"><m>6x \equiv 3 \pmod 9</m>.</li>
+        <li permid="l_b"><m>6x \equiv 3 \pmod 9</m>.</li>
 
-        <li permid="l_s"><m>6x \equiv 4 \pmod 9</m>.</li>
+        <li permid="l_k"><m>6x \equiv 4 \pmod 9</m>.</li>
 
-        <li permid="l_d"><m>x^2 \equiv 2 \pmod 4</m>.</li>
+        <li permid="l_t"><m>x^2 \equiv 2 \pmod 4</m>.</li>
 
-        <li permid="l_o"><m>x^2 \equiv 2 \pmod 7</m>.</li>
+        <li permid="l_c"><m>x^2 \equiv 2 \pmod 7</m>.</li>
       </ol>
     </statement>
     <solution permid="s">
@@ -183,34 +183,34 @@
       </p>
 
       <ol permid="ol">
-        <li permid="l_l">
+        <li permid="l_j">
           <p permid="p">
             No solutions.
           </p>
         </li>
 
-        <li permid="l_w"><m>x = 3</m>.</li>
+        <li permid="l_s"><m>x = 3</m>.</li>
 
-        <li permid="l_h"><m>x = 2</m>, <m>x = 5</m>, <m>x = 8</m>.</li>
+        <li permid="l_b"><m>x = 2</m>, <m>x = 5</m>, <m>x = 8</m>.</li>
 
-        <li permid="l_s">
+        <li permid="l_k">
           <p permid="p">
             No solutions.
           </p>
         </li>
 
-        <li permid="l_d">
+        <li permid="l_t">
           <p permid="p">
             No solutions.
           </p>
         </li>
 
-        <li permid="l_o"><m>x = 3</m>.</li>
+        <li permid="l_c"><m>x = 3</m>.</li>
       </ol>
     </solution>
   </exercise>
 
-  <exercise permid="e_hh">
+  <exercise permid="e_pi">
     <statement>
       <p permid="p">
         Solve the following congruences
@@ -218,24 +218,24 @@
       </p>
 
       <ol permid="ol">
-        <li permid="l_l"><m>5x + 8 \equiv 11 \pmod{22}</m>.</li>
+        <li permid="l_j"><m>5x + 8 \equiv 11 \pmod{22}</m>.</li>
 
-        <li permid="l_w"><m>6x \equiv 4 \pmod{10}</m>.</li>
+        <li permid="l_s"><m>6x \equiv 4 \pmod{10}</m>.</li>
 
-        <li permid="l_h"><m>4x \equiv 24 \pmod{30}</m>.</li>
+        <li permid="l_b"><m>4x \equiv 24 \pmod{30}</m>.</li>
 
-        <li permid="l_s"><m>341x \equiv 2941 \pmod{9}</m>.</li>
+        <li permid="l_k"><m>341x \equiv 2941 \pmod{9}</m>.</li>
       </ol>
     </statement>
     <solution permid="s">
       <ol permid="ol">
-        <li permid="l_l"><m>x = 5+22k</m> for <m>k \in \Z</m>.</li>
+        <li permid="l_j"><m>x = 5+22k</m> for <m>k \in \Z</m>.</li>
 
-        <li permid="l_w"><m>x = 4 + 5k</m> for <m>k \in \Z</m>.</li>
+        <li permid="l_s"><m>x = 4 + 5k</m> for <m>k \in \Z</m>.</li>
 
-        <li permid="l_h"><m>x = 6 + 15k</m> for <m>k \in \Z</m>.</li>
+        <li permid="l_b"><m>x = 6 + 15k</m> for <m>k \in \Z</m>.</li>
 
-        <li permid="l_s">
+        <li permid="l_k">
           <p permid="p">
             First reduce each number modulo 9, which can be done by adding up the digits of the numbers.
             Answer: <m>x = 2 + 9k</m> for <m>k \in \Z</m>.
@@ -245,7 +245,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ys">
+  <exercise permid="e_sa">
     <statement>
       <p permid="p">
         I'm thinking of a number.
@@ -264,7 +264,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_pd">
+  <exercise permid="e_vj">
     <statement>
       <p permid="p">
         Solve the following linear Diophantine equations, using modular arithmetic
@@ -272,16 +272,16 @@
       </p>
 
       <ol permid="ol">
-        <li permid="l_l"><m>6x + 10y = 32</m>.</li>
+        <li permid="l_j"><m>6x + 10y = 32</m>.</li>
 
-        <li permid="l_w"><m>17x + 8y = 31</m>.</li>
+        <li permid="l_s"><m>17x + 8y = 31</m>.</li>
 
-        <li permid="l_h"><m>35x + 47y = 1</m>.</li>
+        <li permid="l_b"><m>35x + 47y = 1</m>.</li>
       </ol>
     </statement>
     <solution permid="s">
       <ol permid="ol">
-        <li permid="l_l">
+        <li permid="l_j">
           <p permid="p">
             Divide through by 2: <m>3x + 5y = 16</m>.
             Convert to a congruence, modulo 3:
@@ -294,18 +294,18 @@
           </p>
         </li>
 
-        <li permid="l_w">
+        <li permid="l_s">
           <m>x = 7+8k</m> and <m>y = -11 - 17k</m> for <m>k \in \Z</m>.
         </li>
 
-        <li permid="l_h">
+        <li permid="l_b">
           <m>x = -4-47k</m> and <m>y = 3 + 35k</m> for <m>k \in \Z</m>.
         </li>
       </ol>
     </solution>
   </exercise>
 
-  <exercise permid="e_gz">
+  <exercise permid="e_ys">
     <statement>
       <p permid="p">
         You have a 13 oz. bottle and a 20 oz. bottle,

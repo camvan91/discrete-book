@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <exercises permid="exers_gt-matchings" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exercises_gt-matchings">
 
-  <exercise permid="e_jm">
+  <exercise permid="e_xo">
     <statement>
       <p permid="p">
         Find a matching of the bipartite graphs below or explain why no matching exists.
@@ -102,7 +102,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ai">
+  <exercise permid="e_ag">
     <statement>
       <p permid="p1">
         A bipartite graph that doesn't have a matching might still have a
@@ -146,7 +146,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_rt">
+  <exercise permid="e_dp">
     <statement>
       <p permid="p">
         One way you might check to see whether a partial matching is maximal is to construct an
@@ -159,7 +159,7 @@
         then it is called an <term>augmenting path</term>.
 
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               Find the largest possible alternating path for the partial matching of your friend's graph.
               Is it an augmenting path?
@@ -189,7 +189,7 @@
 
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               Find the largest possible alternating path for the partial matching below.
               Are there any augmenting paths?
@@ -223,7 +223,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_ie">
+  <exercise permid="e_gy">
     <statement>
       <p permid="p1">
         The two richest families in Westeros have decided to enter into an alliance by marriage.
@@ -259,19 +259,19 @@
         how many different acceptable marriage arrangements which marry off all 20 children are possible?
 
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               How many marriage arrangements are possible if we insist that there are exactly 6 boys marry girls not their own age?
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               Could you generalize the previous answer to arrive at the total number of marriage arrangements?
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               How do you know you are correct?
               Try counting in a different way.
@@ -279,7 +279,7 @@
             </p>
           </li>
 
-          <li permid="l_s">
+          <li permid="l_k">
             <p permid="p">
               Can you give a recurrence relation that fits the problem?
             </p>
@@ -289,7 +289,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_za">
+  <exercise permid="e_jq">
     <statement>
       <p permid="p">
         We say that a set of vertices
@@ -303,19 +303,19 @@
         one that uses the fewest possible number of vertices.
 
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             Suppose you had a matching of a graph.
             How can you use that to get a minimal vertex cover?
             Will your method always work?
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             Suppose you had a minimal vertex cover for a graph.
             How can you use that to get a partial matching?
             Will your method always work?
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             What is the relationship between the size of the minimal vertex cover and the size of the maximal partial matching in a graph?
           </li>
         </ol>
@@ -323,7 +323,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_ql">
+  <exercise permid="e_mz">
     <statement>
       <p permid="p">
         For many applications of matchings,
@@ -332,22 +332,22 @@
         whether there is a way to find matchings in graphs in general.
 
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             For which <m>n</m> does the complete graph <m>K_n</m> have a matching?
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             Prove that if a graph has a matching,
             then <m>\card{V}</m> is even.
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             Is the converse true?
             That is, do all graphs with
             <m>\card{V}</m> even have a matching?
           </li>
 
-          <li permid="l_s">
+          <li permid="l_k">
             What if we also require the matching condition?
             Prove or disprove: If a graph with an even number of vertices satisfies
             <m>\card{N(S)} \ge \card{S}</m> for all <m>S \subseteq V</m>,

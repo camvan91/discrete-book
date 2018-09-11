@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <exercises permid="exers-sec-recurrence" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exercises-sec-recurrence">
 
-  <exercise permid="e_jm">
+  <exercise permid="e_xo">
     <statement>
       <p permid="p">
         Find the next two terms in <m>(a_n)_{n\ge 0}</m> beginning
@@ -24,7 +24,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ai">
+  <exercise permid="e_ag">
     <statement>
       <p permid="p">
         Solve the recurrence relation <m>a_n = a_{n-1} + 2^n</m> with <m>a_0 = 5</m>.
@@ -49,7 +49,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_rt">
+  <exercise permid="e_dp">
     <statement>
       <p permid="p">
         Show that <m>4^n</m> is a solution to the recurrence relation <m>a_n = 3a_{n-1} + 4a_{n-2}</m>.
@@ -64,7 +64,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ie">
+  <exercise permid="e_gy">
     <statement>
       <p permid="p">
         Find the solution to the recurrence relation
@@ -78,7 +78,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_za">
+  <exercise permid="e_jq">
     <statement>
       <p permid="p">
         Find the solution to the recurrence relation
@@ -87,26 +87,26 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_ql">
+  <exercise permid="e_mz">
     <statement>
       <p permid="p">
         Solve the recurrence relation <m>a_n = 2a_{n-1} - a_{n-2}</m>.
       </p>
 
       <ol permid="ol">
-        <li permid="l_l">
+        <li permid="l_j">
           <p permid="p">
             What is the solution if the initial terms are <m>a_0 = 1</m> and <m>a_1 = 2</m>?
           </p>
         </li>
 
-        <li permid="l_w">
+        <li permid="l_s">
           <p permid="p">
             What do the initial terms need to be in order for <m>a_9 = 30</m>?
           </p>
         </li>
 
-        <li permid="l_h">
+        <li permid="l_b">
           <p permid="p">
             For which <m>x</m> are there initial terms which make <m>a_9 = x</m>?
           </p>
@@ -115,7 +115,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_hh">
+  <exercise permid="e_pi">
     <statement>
       <p permid="p">
         Solve the recurrence relation
@@ -124,7 +124,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_ys">
+  <exercise permid="e_sa">
     <statement>
       <p permid="p">
         Suppose that <m>r^n</m> and <m>q^n</m> are both solutions to a recurrence relation of the form <m>a_n = \alpha a_{n-1} + \beta a_{n-2}</m>.
@@ -134,7 +134,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_pd">
+  <exercise permid="e_vj">
     <statement>
       <p permid="p">
         Think back to the magical candy machine at your neighborhood grocery store.
@@ -143,14 +143,14 @@
         the third time 16 Skittles, the fourth time 64 Skittles, etc.
 
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               Find both a recursive and closed formula for how many Skittles the
               <em>n</em>th customer gets.
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               Check your solution for the closed formula by solving the recurrence relation using the Characteristic Root technique.
             </p>
@@ -160,7 +160,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_gz">
+  <exercise permid="e_ys">
     <statement>
       <p permid="p">
         You have access to <m>1 \times 1</m> tiles which come in 2 different colors and
@@ -170,13 +170,13 @@
       </p>
 
       <ol permid="ol">
-        <li permid="l_l">
+        <li permid="l_j">
           <p permid="p">
             Find a recursive definition for the sequence <m>a_n</m> of paths of length <m>n</m>.
           </p>
         </li>
 
-        <li permid="l_w">
+        <li permid="l_s">
           <p permid="p">
             Solve the recurrence relation using the Characteristic Root technique.
           </p>
@@ -185,7 +185,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_xk">
+  <exercise permid="e_bk">
     <statement>
       <p permid="p">
         Let <m>a_n</m> be the number of
@@ -195,7 +195,7 @@
       </p>
 
       <ol permid="ol">
-        <li permid="l_l">
+        <li permid="l_j">
           <p permid="p">
             First, find a recurrence relation to describe the problem.
             Explain why the recurrence relation is correct
@@ -203,13 +203,13 @@
           </p>
         </li>
 
-        <li permid="l_w">
+        <li permid="l_s">
           <p permid="p">
             Write out the first 6 terms of the sequence <m>a_1, a_2, \ldots</m>.
           </p>
         </li>
 
-        <li permid="l_h">
+        <li permid="l_b">
           <p permid="p">
             Solve the recurrence relation.
             That is, find a closed formula for <m>a_n</m>.
@@ -219,27 +219,27 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_og">
+  <exercise permid="e_et">
     <statement>
       <p permid="p">
         Consider the recurrence relation <m>a_n = 4a_{n-1} - 4a_{n-2}</m>.
       </p>
 
       <ol permid="ol">
-        <li permid="l_l">
+        <li permid="l_j">
           <p permid="p">
             Find the general solution to the recurrence relation
             (beware the repeated root).
           </p>
         </li>
 
-        <li permid="l_w">
+        <li permid="l_s">
           <p permid="p">
             Find the solution when <m>a_0 = 1</m> and <m>a_1 = 2</m>.
           </p>
         </li>
 
-        <li permid="l_h">
+        <li permid="l_b">
           <p permid="p">
             Find the solution when <m>a_0 = 1</m> and <m>a_1 = 8</m>.
           </p>

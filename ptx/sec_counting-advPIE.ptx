@@ -10,13 +10,13 @@
         How many ways can you distribute the pies?
 
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               How many ways are there to distribute the pies without any restriction?
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               Let's get rid of the ways that one or more kid gets too many pies.
               How many ways are there to distribute the pies if Al gets too many pies?
@@ -26,7 +26,7 @@
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               What if two kids get too many pies?
               How many ways can this happen?
@@ -34,14 +34,14 @@
             </p>
           </li>
 
-          <li permid="l_s">
+          <li permid="l_k">
             <p permid="p">
               Is it possible that three kids get too many pies?
               If so, how many ways can this happen?
             </p>
           </li>
 
-          <li permid="l_d">
+          <li permid="l_t">
             <p permid="p">
               How should you combine all the numbers you found above to answer the original question?
             </p>
@@ -133,40 +133,40 @@
 
         <p permid="p3">
           <ul permid="ul">
-            <li permid="l_l">
+            <li permid="l_j">
               <m>|A| = {8 \choose 2}</m>.
               First give Alberto 5 cookies,
               then distribute the remaining 6 to the three kids without restrictions,
               using 6 stars and 2 bars.
             </li>
 
-            <li permid="l_w">
+            <li permid="l_s">
               <m>|B| = {8 \choose 2}</m>.
               Just like above, only now Bernadette gets 5 cookies at the start.
             </li>
 
-            <li permid="l_h">
+            <li permid="l_b">
               <m>|C| = {8 \choose 2}</m>.
               Carlos gets 5 cookies first.
             </li>
 
-            <li permid="l_s">
+            <li permid="l_k">
               <m>|A \cap B| = {3 \choose 2}</m>.
               Give Alberto and Bernadette 5 cookies each,
               leaving 1 (star) to distribute to the three kids (2 bars).
             </li>
 
-            <li permid="l_d">
+            <li permid="l_t">
               <m>|A \cap C| = {3 \choose 2}</m>.
               Alberto and Carlos get 5 cookies first.
             </li>
 
-            <li permid="l_o">
+            <li permid="l_c">
               <m>|B \cap C| = {3 \choose 2}</m>.
               Bernadette and Carlos get 5 cookies first.
             </li>
 
-            <li permid="l_z">
+            <li permid="l_l">
               <m>|A \cap B \cap C| = 0</m>.
               It is not possible for all three kids to get 4 or more cookies.
             </li>
@@ -310,13 +310,13 @@
 
         <p permid="p2">
           <ul permid="ul">
-            <li permid="l_l">
+            <li permid="l_j">
               <p permid="p">
                 Total solutions: <m>{17 \choose 4}</m>.
               </p>
             </li>
 
-            <li permid="l_w">
+            <li permid="l_s">
               <p permid="p">
                 Solutions where <m>x_1 &gt; 3</m>:
                 <m>{13 \choose 4}</m>.
@@ -325,7 +325,7 @@
               </p>
             </li>
 
-            <li permid="l_h">
+            <li permid="l_b">
               <p permid="p">
                 Solutions where <m>x_1 &gt; 3</m> and <m>x_2 &gt; 3</m>:
                 <m>{9 \choose 4}</m>.
@@ -334,7 +334,7 @@
               </p>
             </li>
 
-            <li permid="l_s">
+            <li permid="l_k">
               <p permid="p">
                 Solutions where <m>x_1 &gt; 3</m>,
                 <m>x_2 &gt; 3</m> and <m>x_3 &gt; 3</m>:
@@ -342,7 +342,7 @@
               </p>
             </li>
 
-            <li permid="l_d">
+            <li permid="l_t">
               <p permid="p">
                 Solutions where <m>x_1 &gt; 3</m>,
                 <m>x_2 &gt; 3</m>, <m>x_3 &gt; 3</m>, and <m>x_4 &gt; 3</m>: 0.
@@ -476,7 +476,7 @@
     <investigation permid="inv">
       <p permid="p">
         <ul permid="ul">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               Consider all functions <m>f: \{1,2,3,4,5\} \to \{1,2,3,4,5\}</m>.
               How many functions are there all together?
@@ -485,7 +485,7 @@
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p1">
               Consider all functions <m>f: \{1,2,3,4,5\} \to \{1,2,3,4,5\}</m>.
               How many of the <em>injections</em>
@@ -504,7 +504,7 @@
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               Recall that a <em>surjection</em>
               is a function for which every element of the codomain is in the range.
@@ -527,16 +527,16 @@
           How many ways can you do this, provided:
 
           <ol permid="ol">
-            <li permid="l_l">
+            <li permid="l_j">
               You want to distribute your 3 different PS4 games among 5 friends,
               so that no friend gets more than one game?
             </li>
 
-            <li permid="l_w">
+            <li permid="l_s">
               You want to distribute your 8 different 3DS games among 5 friends?
             </li>
 
-            <li permid="l_h">
+            <li permid="l_b">
               You want to distribute your 8 different SNES games among 5 friends,
               so that each friend gets at least one game?
             </li>
@@ -549,7 +549,7 @@
       <solution permid="s">
         <p permid="p">
           <ol permid="ol">
-            <li permid="l_l">
+            <li permid="l_j">
               <p permid="p1">
                 We must use the three games
                 (call them 1, 2, 3)
@@ -572,7 +572,7 @@
               </p>
             </li>
 
-            <li permid="l_w">
+            <li permid="l_s">
               <p permid="p">
                 Again, we need to use the 8 games as the domain and the 5 friends as the codomain.
                 We are counting all functions,
@@ -580,7 +580,7 @@
               </p>
             </li>
 
-            <li permid="l_h">
+            <li permid="l_b">
               <p permid="p">
                 This question is harder.
                 Use the games as the domain and friends as the codomain
@@ -737,13 +737,13 @@
       <statement>
         <p permid="p">
           <ol permid="ol">
-            <li permid="l_l">
+            <li permid="l_j">
               <p permid="p">
                 How many functions <m>f: \{1,2,3,4,5\} \to \{a,b,c,d\}</m> are surjective?
               </p>
             </li>
 
-            <li permid="l_w">
+            <li permid="l_s">
               <p permid="p">
                 How many functions <m>f: \{1,2,3,4,5\} \to \{a,b,c,d,e\}</m> are surjective?
               </p>
@@ -754,7 +754,7 @@
       <solution permid="s">
         <p permid="p">
           <ol permid="ol">
-            <li permid="l_l">
+            <li permid="l_j">
               <p permid="p">
                 There are <m>4^5</m> functions all together;
                 we will subtract the functions which are not surjective.
@@ -780,7 +780,7 @@
               </p>
             </li>
 
-            <li permid="l_w">
+            <li permid="l_s">
               <p permid="p1">
                 The number of surjective functions is:
                 <me>

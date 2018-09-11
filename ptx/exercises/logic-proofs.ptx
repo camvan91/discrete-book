@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <exercises permid="exers_logic-proofs" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exercises_logic-proofs">
 
-  <exercise permid="e_jm">
+  <exercise permid="e_xo">
     <statement>
       <p permid="p1">
         Consider the statement <q>for all integers <m>a</m> and <m>b</m>,
@@ -10,46 +10,46 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               Write the contrapositive of the statement.
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               Write the converse of the statement.
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               Write the negation of the statement.
             </p>
           </li>
 
-          <li permid="l_s">
+          <li permid="l_k">
             <p permid="p">
               Is the original statement true or false?
               Prove your answer.
             </p>
           </li>
 
-          <li permid="l_d">
+          <li permid="l_t">
             <p permid="p">
               Is the contrapositive of the original statement true or false?
               Prove your answer.
             </p>
           </li>
 
-          <li permid="l_o">
+          <li permid="l_c">
             <p permid="p">
               Is the converse of the original statement true or false?
               Prove your answer.
             </p>
           </li>
 
-          <li permid="l_z">
+          <li permid="l_l">
             <p permid="p">
               Is the negation of the original statement true or false?
               Prove your answer.
@@ -61,7 +61,7 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               For all integers <m>a</m> and <m>b</m>,
               if <m>a</m> or <m>b</m> is not even,
@@ -69,20 +69,20 @@
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               For all integers <m>a</m> and <m>b</m>,
               if <m>a</m> and <m>b</m> are even, then <m>a+b</m> is even.
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               There are numbers <m>a</m> and <m>b</m> such that <m>a+b</m> is even but <m>a</m> and <m>b</m> are not both even.
             </p>
           </li>
 
-          <li permid="l_s">
+          <li permid="l_k">
             <p permid="p">
               False.
               For example, <m>a = 3</m> and <m>b = 5</m>. <m>a+b = 8</m>,
@@ -90,13 +90,13 @@
             </p>
           </li>
 
-          <li permid="l_d">
+          <li permid="l_t">
             <p permid="p">
               False, since it is equivalent to the original statement.
             </p>
           </li>
 
-          <li permid="l_o">
+          <li permid="l_c">
             <p permid="p">
               True.
               Let <m>a</m> and <m>b</m> be integers.
@@ -106,7 +106,7 @@
             </p>
           </li>
 
-          <li permid="l_z">
+          <li permid="l_l">
             <p permid="p">
               True, since the statement is false.
             </p>
@@ -116,7 +116,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ai">
+  <exercise permid="e_ag">
     <statement>
       <p permid="p1">
         Consider the statement: for all integers <m>n</m>,
@@ -125,14 +125,14 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               Prove the statement.
               What sort of proof are you using?
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               Is the converse true?
               Prove or disprove.
@@ -144,7 +144,7 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               Direct proof.
 
@@ -161,7 +161,7 @@
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               The converse is false.
               That is, there is an integer <m>n</m> such that <m>8n</m> is even but <m>n</m> is odd.
@@ -174,7 +174,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_rt">
+  <exercise permid="e_dp">
     <statement>
       <p permid="p1">
         Your <q>friend</q> has shown you a <q>proof</q>
@@ -203,7 +203,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_ie">
+  <exercise permid="e_gy">
     <statement>
       <p permid="p">
         Suppose you have a collection of 5-cent stamps and 8-cent stamps.
@@ -211,21 +211,21 @@
         But, let's ask some other questions:
 
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               What amounts of postage can you make if you only use an even number of both types of stamps?
               Prove your answer.
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               Suppose you made an even amount of postage.
               Prove that you used an even number of at least one of the types of stamps.
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               Suppose you made exactly 72 cents of postage.
               Prove that you used at least 6 of one type of stamp.
@@ -236,7 +236,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_za">
+  <exercise permid="e_jq">
     <statement>
       <p permid="p1">
         Suppose that you would like to prove the following implication:
@@ -254,19 +254,19 @@
 
       <p permid="p3">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               Directly
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               By contrapositive
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               By contradiction
             </p>
@@ -282,7 +282,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_ql">
+  <exercise permid="e_mz">
     <statement>
       <p permid="p">
         Prove that <m>\sqrt 3</m> is irrational.
@@ -329,7 +329,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_hh">
+  <exercise permid="e_pi">
     <statement>
       <p permid="p1">
         Consider the statement: for all integers <m>a</m> and <m>b</m>,
@@ -338,14 +338,14 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               Prove the statement.
               What sort of proof are you using?
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               State the converse.
               Is it true?
@@ -357,7 +357,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_ys">
+  <exercise permid="e_sa">
     <statement>
       <p permid="p">
         Prove the statement: For all integers <m>n</m>,
@@ -386,7 +386,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_pd">
+  <exercise permid="e_vj">
     <statement>
       <p permid="p">
         Prove the statement: For all integers <m>a</m>, <m>b</m>,
@@ -396,7 +396,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_gz">
+  <exercise permid="e_ys">
     <statement>
       <p permid="p">
         Prove: <m>x=y</m> if and only if <m>xy=\dfrac{(x+y)^2}{4}</m>.
@@ -407,7 +407,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_xk">
+  <exercise permid="e_bk">
     <statement>
       <p permid="p">
         The game TENZI comes with 40 six-sided dice
@@ -415,11 +415,11 @@
         Suppose you roll all 40 dice.
 
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             Prove that there will be at least seven dice that land on the same number.
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               How many dice would you have to roll before you were guaranteed that some four of them would all match or all be different?
               Prove your answer.
@@ -431,7 +431,7 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p1">
               This is an example of the pigeonhole principle.
               We can prove it by contrapositive.
@@ -447,7 +447,7 @@
 
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p1">
               We can have 9 dice without any four matching or any four being all different:
               three 1's, three 2's, three 3's.
@@ -472,7 +472,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_og">
+  <exercise permid="e_et">
     <statement>
       <p permid="p">
         Prove that <m>\log(7)</m> is irrational.
@@ -509,7 +509,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_fr">
+  <exercise permid="e_hc">
     <statement>
       <p permid="p">
         Prove that there are no integer solutions to the equation <m>x^2 = 4y + 3</m>.
@@ -517,7 +517,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_wn">
+  <exercise permid="e_ku">
     <statement>
       <p permid="p">
         Prove that every prime number greater than 3 is either one more or one less than a multiple of 6.
@@ -530,7 +530,7 @@
     </hint>
   </exercise>
 
-  <exercise permid="e_ny">
+  <exercise permid="e_nd">
     <statement>
       <p permid="p1">
         For each of the statements below,
@@ -541,20 +541,20 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               There are no integers <m>x</m> and <m>y</m> such that <m>x</m> is a prime greater than 5 and <m>x = 6y + 3</m>.
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               For all integers <m>n</m>,
               if <m>n</m> is a multiple of 3, then <m>n</m> can be written as the sum of consecutive integers.
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               For all integers <m>a</m> and <m>b</m>,
               if <m>a^2 + b^2</m> is odd, then <m>a</m> or <m>b</m> is odd.
@@ -566,7 +566,7 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               Proof by contradiction.
               Start of proof: Assume, for the sake of contradiction,
@@ -577,7 +577,7 @@
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               Direct proof.
               Start of proof: Let <m>n</m> be an integer.
@@ -586,7 +586,7 @@
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               Proof by contrapositive.
               Start of proof: Let <m>a</m> and <m>b</m> be integers.
@@ -599,7 +599,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ej">
+  <exercise permid="e_qm">
     <statement>
       <p permid="p1">
         A standard deck of 52 cards consists of 4 suites (hearts,
@@ -617,21 +617,21 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               Three of a kind
               (for example, three 7's).
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               A flush of five cards
               (for example, five hearts).
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               Three cards that are either all the same suit or all different suits.
             </p>
@@ -641,7 +641,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_vf">
+  <exercise permid="e_te">
     <statement>
       <p permid="p">
         Suppose you are at a party with 19 of your closest friends
@@ -652,7 +652,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_mq">
+  <exercise permid="e_wn">
     <statement>
       <p permid="p">
         Your friend has given you his list of 115 best Doctor Who episodes
@@ -663,7 +663,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_dm">
+  <exercise permid="e_zw">
     <statement>
       <p permid="p">
         Suppose you have an <m>n\times n</m> chessboard but your dog has eaten one of the corner squares.
@@ -695,7 +695,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_ux">
+  <exercise permid="e_co">
     <statement>
       <p permid="p">
         What if your <m>n\times n</m> chessboard is missing two opposite corners?

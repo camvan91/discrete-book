@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <exercises permid="exers_gt-paths" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exercises_gt-paths">
 
-  <exercise permid="e_jm">
+  <exercise permid="e_xo">
     <statement>
       <p permid="p">
         You and your friends want to tour the southwest by car.
@@ -40,56 +40,56 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ai">
+  <exercise permid="e_ag">
     <statement>
       <p permid="p">
         Which of the following graphs contain an Euler path?
         Which contain an Euler circuit?
 
         <ol permid="ol">
-          <li permid="l_l"><m>K_4</m></li>
+          <li permid="l_j"><m>K_4</m></li>
 
-          <li permid="l_w"><m>K_5</m>.</li>
+          <li permid="l_s"><m>K_5</m>.</li>
 
-          <li permid="l_h"><m>K_{5,7}</m></li>
+          <li permid="l_b"><m>K_{5,7}</m></li>
 
-          <li permid="l_s"><m>K_{2,7}</m></li>
+          <li permid="l_k"><m>K_{2,7}</m></li>
 
-          <li permid="l_d"><m>C_7</m></li>
+          <li permid="l_t"><m>C_7</m></li>
 
-          <li permid="l_o"><m>P_7</m></li>
+          <li permid="l_c"><m>P_7</m></li>
         </ol>
       </p>
     </statement>
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="l_l"><m>K_4</m> does not have an Euler path or circuit.</li>
+          <li permid="l_j"><m>K_4</m> does not have an Euler path or circuit.</li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <m>K_5</m> has an Euler circuit
             (so also an Euler path).
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <m>K_{5,7}</m> does not have an Euler path or circuit.
           </li>
 
-          <li permid="l_s">
+          <li permid="l_k">
             <m>K_{2,7}</m> has an Euler path but not an Euler circuit.
           </li>
 
-          <li permid="l_d">
+          <li permid="l_t">
             <m>C_7</m> has an Euler circuit (it is a circuit graph!)
           </li>
 
-          <li permid="l_o"><m>P_7</m> has an Euler path but no Euler circuit.</li>
+          <li permid="l_c"><m>P_7</m> has an Euler path but no Euler circuit.</li>
         </ol>
       </p>
     </solution>
   </exercise>
 
-  <exercise permid="e_rt">
+  <exercise permid="e_dp">
     <statement>
       <p permid="p1">
         Edward A. Mouse has just finished his brand new house.
@@ -115,7 +115,7 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               Edward wants to give a tour of his new pad to a lady-mouse-friend.
               Is it possible for them to walk through every doorway exactly once?
@@ -124,14 +124,14 @@
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               Is it possible to tour the house visiting each room exactly once (not necessarily using every doorway)?
               Explain.
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               After a few mouse-years, Edward decides to remodel.
               He would like to add some new doors between the rooms he has.
@@ -145,7 +145,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_ie">
+  <exercise permid="e_gy">
     <statement>
       <p permid="p">
         For which <m>n</m> does the graph <m>K_n</m> contain an Euler circuit?
@@ -161,7 +161,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_za">
+  <exercise permid="e_jq">
     <statement>
       <p permid="p">
         For which <m>m</m> and <m>n</m> does the graph <m>K_{m,n}</m> contain an Euler path?
@@ -180,7 +180,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ql">
+  <exercise permid="e_mz">
     <statement>
       <p permid="p">
         For which <m>n</m> does <m>K_n</m> contain a Hamilton path?
@@ -197,7 +197,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_hh">
+  <exercise permid="e_pi">
     <statement>
       <p permid="p">
         For which <m>m</m> and <m>n</m> does the graph <m>K_{m,n}</m> contain a Hamilton path?
@@ -214,7 +214,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ys">
+  <exercise permid="e_sa">
     <statement>
       <p permid="p">
         A bridge builder has come to Königsberg and would like to add bridges so that it <em>is</em>
@@ -246,7 +246,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_pd">
+  <exercise permid="e_vj">
     <statement>
       <p permid="p">
         Below is a graph representing friendships between a group of students
@@ -301,11 +301,11 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_gz">
+  <exercise permid="e_ys">
     <statement>
       <p permid="p">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               Suppose a graph has a Hamilton path.
               What is the maximum number of vertices of degree one the graph can have?
@@ -313,7 +313,7 @@
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               Find a graph which does not have a Hamilton path even though no vertex has degree one.
               Explain why your example works.
@@ -324,7 +324,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_xk">
+  <exercise permid="e_bk">
     <statement>
       <p permid="p1">
         Consider the following graph:
@@ -351,21 +351,21 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             Find a Hamilton path.
             Can your path be extended to a Hamilton cycle?
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             Is the graph bipartite?
             If so, how many vertices are in each <q>part</q>?
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             Use your answer to part (b) to prove that the graph has no Hamilton cycle.
           </li>
 
-          <li permid="l_s">
+          <li permid="l_k">
             Suppose you have a bipartite graph <m>G</m> in which one part has at least two more vertices than the other.
             Prove that <m>G</m> does not have a Hamilton path.
           </li>

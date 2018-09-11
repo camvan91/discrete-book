@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <exercises permid="exers_seq_basics" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exercises_seq_basics">
 
-  <exercise permid="e_jm">
+  <exercise permid="e_xo">
     <statement>
       <p permid="p">
         Find the closed formula for each of the following sequences by relating them to a well known sequence.
@@ -9,25 +9,25 @@
       </p>
 
       <ol permid="ol">
-        <li permid="l_l"><m>2, 5, 10, 17, 26, \ldots</m></li>
+        <li permid="l_j"><m>2, 5, 10, 17, 26, \ldots</m></li>
 
-        <li permid="l_w"><m>0, 2, 5, 9, 14, 20, \ldots</m></li>
+        <li permid="l_s"><m>0, 2, 5, 9, 14, 20, \ldots</m></li>
 
-        <li permid="l_h"><m>8, 12, 17, 23, 30,\ldots</m></li>
+        <li permid="l_b"><m>8, 12, 17, 23, 30,\ldots</m></li>
 
-        <li permid="l_s"><m>1, 5, 23, 119, 719,\ldots</m></li>
+        <li permid="l_k"><m>1, 5, 23, 119, 719,\ldots</m></li>
       </ol>
     </statement>
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="l_l"><m>a_n = n^2 + 1</m>.</li>
+          <li permid="l_j"><m>a_n = n^2 + 1</m>.</li>
 
-          <li permid="l_w"><m>a_n = \frac{n(n+1)}{2} - 1</m>.</li>
+          <li permid="l_s"><m>a_n = \frac{n(n+1)}{2} - 1</m>.</li>
 
-          <li permid="l_h"><m>a_n = \frac{(n+2)(n+3)}{2} + 2</m>.</li>
+          <li permid="l_b"><m>a_n = \frac{(n+2)(n+3)}{2} + 2</m>.</li>
 
-          <li permid="l_s">
+          <li permid="l_k">
             <m>a_n = (n+1)! - 1</m>
             (where <m>n! = 1 \cdot 2 \cdot 3 \cdots n</m>).
           </li>
@@ -36,7 +36,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ai">
+  <exercise permid="e_ag">
     <statement>
       <p permid="p">
         For each sequence given below,
@@ -48,25 +48,25 @@
       </p>
 
       <ol permid="ol">
-        <li permid="l_l">
+        <li permid="l_j">
           <p permid="p">
             4, 5, 7, 11, 19, 35, <ellipsis/>
           </p>
         </li>
 
-        <li permid="l_w">
+        <li permid="l_s">
           <p permid="p">
             0, 3, 8, 15, 24, 35, <ellipsis/>
           </p>
         </li>
 
-        <li permid="l_h">
+        <li permid="l_b">
           <p permid="p">
             6, 12, 20, 30, 42, <ellipsis/>
           </p>
         </li>
 
-        <li permid="l_s">
+        <li permid="l_k">
           <p permid="p">
             0, 2, 7, 15, 26, 40, 57, <ellipsis/> (Cryptic Hint:
             these might be called <q>house numbers</q>)
@@ -76,7 +76,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_rt">
+  <exercise permid="e_dp">
     <statement>
       <p permid="p1">
         The Fibonacci sequence is <m>0, 1, 1, 2, 3, 5, 8, 13, \ldots</m>
@@ -86,20 +86,20 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               Give the recursive definition for the sequence.
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               Write out the first few terms of the sequence of partial sums:
               <m>0</m>, <m>0+1</m>, <m>0+1+1</m>,<ellipsis/>
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               Give a closed formula for the sequence of partial sums in terms of <m>F_n</m>
 
@@ -119,19 +119,19 @@
     <solution permid="s">
       <p permid="p">
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <m>F_n = F_{n-1} + F_{n-2}</m> with <m>F_0 = 0</m> and <m>F_1 = 1</m>.
           </li>
 
-          <li permid="l_w"><m>0, 1, 2, 4, 7, 12, 20, \ldots</m>.</li>
+          <li permid="l_s"><m>0, 1, 2, 4, 7, 12, 20, \ldots</m>.</li>
 
-          <li permid="l_h"><m>F_0 + F_1 + \cdots + F_n = F_{n+2} - 1</m>.</li>
+          <li permid="l_b"><m>F_0 + F_1 + \cdots + F_n = F_{n+2} - 1</m>.</li>
         </ol>
       </p>
     </solution>
   </exercise>
 
-  <exercise permid="e_ie">
+  <exercise permid="e_gy">
     <statement>
       <p permid="p1">
         Consider the three sequences below.
@@ -141,11 +141,11 @@
 
       <p permid="p2">
         <ol permid="ol">
-          <li permid="l_l"><m>2, 4, 6, 10, 16, 26, 42, \ldots</m>.</li>
+          <li permid="l_j"><m>2, 4, 6, 10, 16, 26, 42, \ldots</m>.</li>
 
-          <li permid="l_w"><m>5, 6, 11, 17, 28, 45, 73, \ldots</m>.</li>
+          <li permid="l_s"><m>5, 6, 11, 17, 28, 45, 73, \ldots</m>.</li>
 
-          <li permid="l_h"><m>0, 0 , 0 , 0 , 0 , 0 , 0 ,\ldots</m>.</li>
+          <li permid="l_b"><m>0, 0 , 0 , 0 , 0 , 0 , 0 ,\ldots</m>.</li>
         </ol>
       </p>
     </statement>
@@ -159,7 +159,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_za">
+  <exercise permid="e_jq">
     <statement>
       <p permid="p">
         Show that <m>a_n = 3\cdot 2^n + 7\cdot 5^n</m> is a solution to the recurrence relation <m>a_n = 7a_{n-1} - 10a_{n-2}</m>.
@@ -168,7 +168,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_ql">
+  <exercise permid="e_mz">
     <statement>
       <p permid="p">
         Write out the first few terms of the sequence given by <m>a_1 = 3</m>;
@@ -178,7 +178,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_hh">
+  <exercise permid="e_pi">
     <statement>
       <p permid="p">
         Write out the first few terms of the sequence given by <m>a_n = n^2 - 3n + 1</m>.
@@ -189,7 +189,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_ys">
+  <exercise permid="e_sa">
     <statement>
       <p permid="p">
         Find a closed formula for the sequence with recursive definition
@@ -198,7 +198,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_pd">
+  <exercise permid="e_vj">
     <statement>
       <p permid="p">
         Find a recursive definition for the sequence with closed formula <m>a_n = 3 + 2n</m>.

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <exercises permid="exers_gt-planar" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exercises_gt-planar">
 
-  <exercise permid="e_jm">
+  <exercise permid="e_xo">
     <statement>
       <p permid="p">
         Is it possible for a planar graph to have 6 vertices, 10 edges and 5 faces?
@@ -18,7 +18,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ai">
+  <exercise permid="e_ag">
     <statement>
       <p permid="p">
         The graph <m>G</m> has 6 vertices with degrees <m>2, 2, 3, 4, 4, 5</m>.
@@ -42,7 +42,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_rt">
+  <exercise permid="e_dp">
     <statement>
       <p permid="p">
         I'm thinking of a polyhedron containing 12 faces.
@@ -67,13 +67,13 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ie">
+  <exercise permid="e_gy">
     <statement>
       <p permid="p">
         Consider some classic polyhedrons.
 
         <ol permid="ol">
-          <li permid="l_l">
+          <li permid="l_j">
             <p permid="p">
               An <em>octahedron</em> is a regular polyhedron made up of 8 equilateral triangles
               (it sort of looks like two pyramids with their bases glued together).
@@ -84,7 +84,7 @@
             </p>
           </li>
 
-          <li permid="l_w">
+          <li permid="l_s">
             <p permid="p">
               The traditional design of a soccer ball is in fact a
               (spherical projection of a)
@@ -99,7 +99,7 @@
             </p>
           </li>
 
-          <li permid="l_h">
+          <li permid="l_b">
             <p permid="p">
               Your <q>friend</q> claims that he has constructed a convex polyhedron out of 2 triangles, 2 squares, 6 pentagons and 5 octagons.
               Prove that your friend is lying.
@@ -111,7 +111,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_za">
+  <exercise permid="e_jq">
     <statement>
       <p permid="p">
         Prove Euler's formula using induction on the number of edges in the graph.
@@ -136,7 +136,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ql">
+  <exercise permid="e_mz">
     <statement>
       <p permid="p">
         Prove Euler's formula using induction on the number of
@@ -145,7 +145,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_hh">
+  <exercise permid="e_pi">
     <statement>
       <p permid="p">
         Euler's formula (<m>v - e + f = 2</m>) holds for all
@@ -158,7 +158,7 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_ys">
+  <exercise permid="e_sa">
     <statement>
       <p permid="p">
         Prove that the <em>Petersen graph</em>
@@ -190,7 +190,7 @@
     </hint>
   </exercise>
 
-  <exercise permid="e_pd">
+  <exercise permid="e_vj">
     <statement>
       <p permid="p">
         Prove that any planar graph with <m>v</m> vertices and <m>e</m> edges satisfies <m>e \le 3v - 6</m>.
@@ -222,7 +222,7 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_gz">
+  <exercise permid="e_ys">
     <statement>
       <p permid="p">
         Prove that any planar graph must have a vertex of degree 5 or less.
