@@ -3,7 +3,7 @@
 
   <exercise permid="exers_stars-bars-e_xo">
     <statement>
-      <p permid="exers_stars-bars-e_xo-p">
+      <p permid="exers_stars-bars-e_xo-p1">
         A
         <term>multiset</term>
         is a collection of objects,
@@ -13,17 +13,17 @@
         <m>\{1,1, 2, 5, 5, 7\}</m>
         is a multiset of size 6.
 
-        <ol permid="exers_stars-bars-e_xo-ol">
-          <li permid="exers_stars-bars-e_xo-ol-l_j">
-            <p permid="exers_stars-bars-e_xo-ol-l_j-p">
+        <ol permid="exers_stars-bars-e_xo-ol1">
+          <li permid="exers_stars-bars-e_xo-ol1-l_j">
+            <p permid="exers_stars-bars-e_xo-ol1-l_j-p1">
               How many
               <em>sets</em>
               of size 5 can be made using the 10 numeric digits 0 through 9?
             </p>
           </li>
 
-          <li permid="exers_stars-bars-e_xo-ol-l_s">
-            <p permid="exers_stars-bars-e_xo-ol-l_s-p">
+          <li permid="exers_stars-bars-e_xo-ol1-l_s">
+            <p permid="exers_stars-bars-e_xo-ol1-l_s-p1">
               How many
               <em>multi</em>sets of size 5 can be made using the 10 numeric digits 0 through 9?
             </p>
@@ -31,17 +31,17 @@
         </ol>
       </p>
     </statement>
-    <solution permid="exers_stars-bars-e_xo-s">
-      <p permid="exers_stars-bars-e_xo-s-p">
-        <ol permid="exers_stars-bars-e_xo-s-ol">
-          <li permid="exers_stars-bars-e_xo-s-ol-l_j">
+    <solution permid="exers_stars-bars-e_xo-s1">
+      <p permid="exers_stars-bars-e_xo-s1-p1">
+        <ol permid="exers_stars-bars-e_xo-s1-ol1">
+          <li permid="exers_stars-bars-e_xo-s1-ol1-l_j">
             <m>{10\choose 5}</m>
             sets.
             We must select 5 of the 10 digits to put in the set.
           </li>
 
-          <li permid="exers_stars-bars-e_xo-s-ol-l_s">
-            <p permid="exers_stars-bars-e_xo-s-ol-l_s-p">
+          <li permid="exers_stars-bars-e_xo-s1-ol1-l_s">
+            <p permid="exers_stars-bars-e_xo-s1-ol1-l_s-p1">
               Use stars and bars:
               each star represents one of the 5 elements of the set,
               each bar represents a switch between digits.
@@ -57,37 +57,37 @@
 
   <exercise permid="exers_stars-bars-e_ag">
     <statement>
-      <p permid="exers_stars-bars-e_ag-p">
+      <p permid="exers_stars-bars-e_ag-p1">
         Each of the counting problems below can be solved with stars and bars.
         For each, say what outcome the diagram
-        <me permid="exers_stars-bars-e_ag-p-me">
+        <me permid="exers_stars-bars-e_ag-p1-me1">
           ***|*||**|
         </me>
         represents, if there are the correct number of stars and bars for the problem.
         Otherwise, say why the diagram does not represent any outcome,
         and what a correct diagram would look like.
 
-        <ol permid="exers_stars-bars-e_ag-ol">
-          <li permid="exers_stars-bars-e_ag-ol-l_j">
-            <p permid="exers_stars-bars-e_ag-ol-l_j-p">
+        <ol permid="exers_stars-bars-e_ag-ol1">
+          <li permid="exers_stars-bars-e_ag-ol1-l_j">
+            <p permid="exers_stars-bars-e_ag-ol1-l_j-p1">
               How many ways are there to select a handful of 6 jellybeans from a jar that contains 5 different flavors?
             </p>
           </li>
 
-          <li permid="exers_stars-bars-e_ag-ol-l_s">
-            <p permid="exers_stars-bars-e_ag-ol-l_s-p">
+          <li permid="exers_stars-bars-e_ag-ol1-l_s">
+            <p permid="exers_stars-bars-e_ag-ol1-l_s-p1">
               How many ways can you distribute 5 identical lollipops to 6 kids?
             </p>
           </li>
 
-          <li permid="exers_stars-bars-e_ag-ol-l_b">
-            <p permid="exers_stars-bars-e_ag-ol-l_b-p">
+          <li permid="exers_stars-bars-e_ag-ol1-l_b">
+            <p permid="exers_stars-bars-e_ag-ol1-l_b-p1">
               How many 6-letter words can you make using the 5 vowels?
             </p>
           </li>
 
-          <li permid="exers_stars-bars-e_ag-ol-l_k">
-            <p permid="exers_stars-bars-e_ag-ol-l_k-p">
+          <li permid="exers_stars-bars-e_ag-ol1-l_k">
+            <p permid="exers_stars-bars-e_ag-ol1-l_k-p1">
               How many solutions are there to the equation
               <m>x_1 + x_2 + x_3 + x_4 = 6</m>.
             </p>
@@ -95,17 +95,17 @@
         </ol>
       </p>
     </statement>
-    <solution permid="exers_stars-bars-e_ag-s">
-      <p permid="exers_stars-bars-e_ag-s-p">
-        <ol permid="exers_stars-bars-e_ag-s-ol">
-          <li permid="exers_stars-bars-e_ag-s-ol-l_j">
-            <p permid="exers_stars-bars-e_ag-s-ol-l_j-p">
+    <solution permid="exers_stars-bars-e_ag-s1">
+      <p permid="exers_stars-bars-e_ag-s1-p1">
+        <ol permid="exers_stars-bars-e_ag-s1-ol1">
+          <li permid="exers_stars-bars-e_ag-s1-ol1-l_j">
+            <p permid="exers_stars-bars-e_ag-s1-ol1-l_j-p1">
               You take 3 strawberry, 1 lime, 0 licorice, 2 blueberry and 0 bubblegum.
             </p>
           </li>
 
-          <li permid="exers_stars-bars-e_ag-s-ol-l_s">
-            <p permid="exers_stars-bars-e_ag-s-ol-l_s-p">
+          <li permid="exers_stars-bars-e_ag-s1-ol1-l_s">
+            <p permid="exers_stars-bars-e_ag-s1-ol1-l_s-p1">
               This is backwards.
               We don't want the stars to represent the kids because the kids are not identical,
               but the stars are.
@@ -113,7 +113,7 @@
               (for the lollipops)
               and use 5 bars to switch between the 6 kids.
               For example,
-              <me permid="exers_stars-bars-e_ag-s-ol-l_s-p-me">
+              <me permid="exers_stars-bars-e_ag-s1-ol1-l_s-p1-me1">
                 **||***|||
               </me>
               would
@@ -122,21 +122,21 @@
             </p>
           </li>
 
-          <li permid="exers_stars-bars-e_ag-s-ol-l_b">
-            <p permid="exers_stars-bars-e_ag-s-ol-l_b-p">
+          <li permid="exers_stars-bars-e_ag-s1-ol1-l_b">
+            <p permid="exers_stars-bars-e_ag-s1-ol1-l_b-p1">
               This is the word AAAEOO.
             </p>
           </li>
 
-          <li permid="exers_stars-bars-e_ag-s-ol-l_k">
-            <p permid="exers_stars-bars-e_ag-s-ol-l_k-p">
+          <li permid="exers_stars-bars-e_ag-s1-ol1-l_k">
+            <p permid="exers_stars-bars-e_ag-s1-ol1-l_k-p1">
               This doesn't represent a solution.
               Each star should represent one of the 6 units that add up to 6, and the bars should
               <em>switch</em>
               between the different variables.
               We have one too many bars.
               An example of a correct diagram would be
-              <me permid="exers_stars-bars-e_ag-s-ol-l_k-p-me">
+              <me permid="exers_stars-bars-e_ag-s1-ol1-l_k-p1-me1">
                 *|**||***
               </me>,
               representing that
@@ -153,34 +153,34 @@
 
   <exercise permid="exers_stars-bars-e_dp">
     <statement>
-      <p permid="exers_stars-bars-e_dp-p">
+      <p permid="exers_stars-bars-e_dp-p1">
         After gym class you are tasked with putting the 14 identical dodgeballs away into 5 bins.
 
-        <ol permid="exers_stars-bars-e_dp-ol">
-          <li permid="exers_stars-bars-e_dp-ol-l_j">
-            <p permid="exers_stars-bars-e_dp-ol-l_j-p">
+        <ol permid="exers_stars-bars-e_dp-ol1">
+          <li permid="exers_stars-bars-e_dp-ol1-l_j">
+            <p permid="exers_stars-bars-e_dp-ol1-l_j-p1">
               How many ways can you do this if there are no restrictions?
             </p>
           </li>
 
-          <li permid="exers_stars-bars-e_dp-ol-l_s">
-            <p permid="exers_stars-bars-e_dp-ol-l_s-p">
+          <li permid="exers_stars-bars-e_dp-ol1-l_s">
+            <p permid="exers_stars-bars-e_dp-ol1-l_s-p1">
               How many ways can you do this if each bin must contain at least one dodgeball?
             </p>
           </li>
         </ol>
       </p>
     </statement>
-    <solution permid="exers_stars-bars-e_dp-s">
-      <p permid="exers_stars-bars-e_dp-s-p">
-        <ol permid="exers_stars-bars-e_dp-s-ol">
-          <li permid="exers_stars-bars-e_dp-s-ol-l_j">
+    <solution permid="exers_stars-bars-e_dp-s1">
+      <p permid="exers_stars-bars-e_dp-s1-p1">
+        <ol permid="exers_stars-bars-e_dp-s1-ol1">
+          <li permid="exers_stars-bars-e_dp-s1-ol1-l_j">
             <m>{18 \choose 4}</m>
             ways.
             Each outcome can be represented by a sequence of 14 stars and 4 bars.
           </li>
 
-          <li permid="exers_stars-bars-e_dp-s-ol-l_s">
+          <li permid="exers_stars-bars-e_dp-s1-ol1-l_s">
             <m>{13 \choose 4}</m>
             ways.
             First put one ball in each bin.
@@ -193,27 +193,27 @@
 
   <exercise permid="exers_stars-bars-e_gy">
     <statement>
-      <p permid="exers_stars-bars-e_gy-p">
+      <p permid="exers_stars-bars-e_gy-p1">
         How many integer solutions are there to the equation
         <m>x + y + z = 8</m>
         for which
 
-        <ol permid="exers_stars-bars-e_gy-ol">
-          <li permid="exers_stars-bars-e_gy-ol-l_j">
+        <ol permid="exers_stars-bars-e_gy-ol1">
+          <li permid="exers_stars-bars-e_gy-ol1-l_j">
             <m>x</m>,
             <m>y</m>, and
             <m>z</m>
             are all positive?
           </li>
 
-          <li permid="exers_stars-bars-e_gy-ol-l_s">
+          <li permid="exers_stars-bars-e_gy-ol1-l_s">
             <m>x</m>,
             <m>y</m>, and
             <m>z</m>
             are all non-negative?
           </li>
 
-          <li permid="exers_stars-bars-e_gy-ol-l_b">
+          <li permid="exers_stars-bars-e_gy-ol1-l_b">
             <m>x</m>,
             <m>y</m>, and
             <m>z</m>
@@ -223,23 +223,23 @@
         </ol>
       </p>
     </statement>
-    <solution permid="exers_stars-bars-e_gy-s">
-      <p permid="exers_stars-bars-e_gy-s-p">
-        <ol permid="exers_stars-bars-e_gy-s-ol">
-          <li permid="exers_stars-bars-e_gy-s-ol-l_j">
+    <solution permid="exers_stars-bars-e_gy-s1">
+      <p permid="exers_stars-bars-e_gy-s1-p1">
+        <ol permid="exers_stars-bars-e_gy-s1-ol1">
+          <li permid="exers_stars-bars-e_gy-s1-ol1-l_j">
             <m>{7 \choose 2}</m>
             solutions.
             After each variable gets 1 star for free,
             we are left with 5 stars and 2 bars.
           </li>
 
-          <li permid="exers_stars-bars-e_gy-s-ol-l_s">
+          <li permid="exers_stars-bars-e_gy-s1-ol1-l_s">
             <m>{10 \choose 2}</m>
             solutions.
             We have 8 stars and 2 bars.
           </li>
 
-          <li permid="exers_stars-bars-e_gy-s-ol-l_b">
+          <li permid="exers_stars-bars-e_gy-s1-ol1-l_b">
             <m>{19 \choose 2}</m>
             solutions.
             This problem is equivalent to finding the number of solutions to
@@ -263,19 +263,19 @@
 
   <exercise permid="exers_stars-bars-e_jq">
     <statement>
-      <p permid="exers_stars-bars-e_jq-p">
+      <p permid="exers_stars-bars-e_jq-p1">
         Using the digits 2 through 8, find the number of different 5-digit numbers such that:
 
-        <ol permid="exers_stars-bars-e_jq-ol">
-          <li permid="exers_stars-bars-e_jq-ol-l_j">
-            <p permid="exers_stars-bars-e_jq-ol-l_j-p">
+        <ol permid="exers_stars-bars-e_jq-ol1">
+          <li permid="exers_stars-bars-e_jq-ol1-l_j">
+            <p permid="exers_stars-bars-e_jq-ol1-l_j-p1">
               Digits cannot be repeated and must be written in increasing order.
               For example, 23678 is okay, but 32678 is not.
             </p>
           </li>
 
-          <li permid="exers_stars-bars-e_jq-ol-l_s">
-            <p permid="exers_stars-bars-e_jq-ol-l_s-p">
+          <li permid="exers_stars-bars-e_jq-ol1-l_s">
+            <p permid="exers_stars-bars-e_jq-ol1-l_s-p1">
               Digits
               <em>can</em>
               be repeated and must be written in
@@ -287,11 +287,11 @@
         </ol>
       </p>
     </statement>
-    <solution permid="exers_stars-bars-e_jq-s">
-      <p permid="exers_stars-bars-e_jq-s-p">
-        <ol permid="exers_stars-bars-e_jq-s-ol">
-          <li permid="exers_stars-bars-e_jq-s-ol-l_j">
-            <p permid="exers_stars-bars-e_jq-s-ol-l_j-p">
+    <solution permid="exers_stars-bars-e_jq-s1">
+      <p permid="exers_stars-bars-e_jq-s1-p1">
+        <ol permid="exers_stars-bars-e_jq-s1-ol1">
+          <li permid="exers_stars-bars-e_jq-s1-ol1-l_j">
+            <p permid="exers_stars-bars-e_jq-s1-ol1-l_j-p1">
               There are
               <m>{7 \choose 5}</m>
               numbers.
@@ -299,8 +299,8 @@
             </p>
           </li>
 
-          <li permid="exers_stars-bars-e_jq-s-ol-l_s">
-            <p permid="exers_stars-bars-e_jq-s-ol-l_s-p">
+          <li permid="exers_stars-bars-e_jq-s1-ol1-l_s">
+            <p permid="exers_stars-bars-e_jq-s1-ol1-l_s-p1">
               This requires stars and bars.
               Use a star to represent each of the 5 digits in the number,
               and use their position relative to the bars to say what numeral fills that spot.
@@ -316,7 +316,7 @@
 
   <exercise permid="exers_stars-bars-e_mz">
     <statement>
-      <p permid="exers_stars-bars-e_mz-p">
+      <p permid="exers_stars-bars-e_mz-p1">
         When playing Yahtzee, you roll five regular 6-sided dice.
         How many different outcomes are possible from a single roll?
         The order of the dice does not matter.
@@ -326,7 +326,7 @@
 
   <exercise permid="exers_stars-bars-e_pi">
     <statement>
-      <p permid="exers_stars-bars-e_pi-p">
+      <p permid="exers_stars-bars-e_pi-p1">
         Your friend tells you she has 7 coins in her hand
         (just pennies, nickels, dimes and quarters).
         If you guess how many of each kind of coin she has,
@@ -338,7 +338,7 @@
 
   <exercise permid="exers_stars-bars-e_sa">
     <statement>
-      <p permid="exers_stars-bars-e_sa-p">
+      <p permid="exers_stars-bars-e_sa-p1">
         How many integer solutions to
         <m>x_1 + x_2 + x_3 + x_4 = 25</m>
         are there for which
@@ -353,27 +353,27 @@
 
   <exercise permid="exers_stars-bars-e_vj">
     <statement>
-      <p permid="exers_stars-bars-e_vj-p">
+      <p permid="exers_stars-bars-e_vj-p1">
         Solve the three counting problems below.
         Then say why it makes sense that they all have the same answer.
         That is, say how you can interpret them as each other.
 
-        <ol permid="exers_stars-bars-e_vj-ol">
-          <li permid="exers_stars-bars-e_vj-ol-l_j">
-            <p permid="exers_stars-bars-e_vj-ol-l_j-p">
+        <ol permid="exers_stars-bars-e_vj-ol1">
+          <li permid="exers_stars-bars-e_vj-ol1-l_j">
+            <p permid="exers_stars-bars-e_vj-ol1-l_j-p1">
               How many ways are there to distribute 8 cookies to 3 kids?
             </p>
           </li>
 
-          <li permid="exers_stars-bars-e_vj-ol-l_s">
-            <p permid="exers_stars-bars-e_vj-ol-l_s-p">
+          <li permid="exers_stars-bars-e_vj-ol1-l_s">
+            <p permid="exers_stars-bars-e_vj-ol1-l_s-p1">
               How many solutions in non-negative integers are there to
               <m>x+y+z = 8</m>?
             </p>
           </li>
 
-          <li permid="exers_stars-bars-e_vj-ol-l_b">
-            <p permid="exers_stars-bars-e_vj-ol-l_b-p">
+          <li permid="exers_stars-bars-e_vj-ol1-l_b">
+            <p permid="exers_stars-bars-e_vj-ol1-l_b-p1">
               How many different packs of 8 crayons can you make using crayons that come in red,
               blue and yellow?
             </p>
@@ -385,20 +385,20 @@
 
   <exercise permid="exers_stars-bars-e_ys">
     <statement>
-      <p permid="exers_stars-bars-e_ys-p">
+      <p permid="exers_stars-bars-e_ys-p1">
         Consider functions <m>f:\{1,2,3,4,5\} \to \{0,1,2,\ldots,9\}</m>.
 
-        <ol permid="exers_stars-bars-e_ys-ol">
-          <li permid="exers_stars-bars-e_ys-ol-l_j">
-            <p permid="exers_stars-bars-e_ys-ol-l_j-p">
+        <ol permid="exers_stars-bars-e_ys-ol1">
+          <li permid="exers_stars-bars-e_ys-ol1-l_j">
+            <p permid="exers_stars-bars-e_ys-ol1-l_j-p1">
               How many of these functions are strictly increasing?
               Explain. (A function is strictly increasing provided if <m>a \lt b</m>,
               then <m>f(a) \lt f(b)</m>.)
             </p>
           </li>
 
-          <li permid="exers_stars-bars-e_ys-ol-l_s">
-            <p permid="exers_stars-bars-e_ys-ol-l_s-p">
+          <li permid="exers_stars-bars-e_ys-ol1-l_s">
+            <p permid="exers_stars-bars-e_ys-ol1-l_s-p1">
               How many of the functions are non-decreasing?
               Explain. (A function is non-decreasing provided if <m>a \lt b</m>,
               then <m>f(a) \le f(b)</m>.)
@@ -411,33 +411,33 @@
 
   <exercise permid="exers_stars-bars-e_bk">
     <statement>
-      <p permid="exers_stars-bars-e_bk-p">
+      <p permid="exers_stars-bars-e_bk-p1">
         <em>Conic</em>,
         your favorite math themed fast food drive-in offers 20 flavors which can be added to your soda.
         You have enough money to buy a large soda with 4 added flavors.
         How many different soda concoctions can you order if:
 
-        <ol permid="exers_stars-bars-e_bk-ol">
-          <li permid="exers_stars-bars-e_bk-ol-l_j">
-            <p permid="exers_stars-bars-e_bk-ol-l_j-p">
+        <ol permid="exers_stars-bars-e_bk-ol1">
+          <li permid="exers_stars-bars-e_bk-ol1-l_j">
+            <p permid="exers_stars-bars-e_bk-ol1-l_j-p1">
               You refuse to use any of the flavors more than once?
             </p>
           </li>
 
-          <li permid="exers_stars-bars-e_bk-ol-l_s">
-            <p permid="exers_stars-bars-e_bk-ol-l_s-p">
+          <li permid="exers_stars-bars-e_bk-ol1-l_s">
+            <p permid="exers_stars-bars-e_bk-ol1-l_s-p1">
               You refuse repeats but care about the order the flavors are added?
             </p>
           </li>
 
-          <li permid="exers_stars-bars-e_bk-ol-l_b">
-            <p permid="exers_stars-bars-e_bk-ol-l_b-p">
+          <li permid="exers_stars-bars-e_bk-ol1-l_b">
+            <p permid="exers_stars-bars-e_bk-ol1-l_b-p1">
               You allow yourself multiple shots of the same flavor?
             </p>
           </li>
 
-          <li permid="exers_stars-bars-e_bk-ol-l_k">
-            <p permid="exers_stars-bars-e_bk-ol-l_k-p">
+          <li permid="exers_stars-bars-e_bk-ol1-l_k">
+            <p permid="exers_stars-bars-e_bk-ol1-l_k-p1">
               You allow yourself multiple shots,
               and care about the order the flavors are added?
             </p>
@@ -445,28 +445,28 @@
         </ol>
       </p>
     </statement>
-    <solution permid="exers_stars-bars-e_bk-s">
-      <p permid="exers_stars-bars-e_bk-s-p">
-        <ol permid="exers_stars-bars-e_bk-s-ol">
-          <li permid="exers_stars-bars-e_bk-s-ol-l_j">
+    <solution permid="exers_stars-bars-e_bk-s1">
+      <p permid="exers_stars-bars-e_bk-s1-p1">
+        <ol permid="exers_stars-bars-e_bk-s1-ol1">
+          <li permid="exers_stars-bars-e_bk-s1-ol1-l_j">
             <m>{20 \choose 4}</m>
             sodas
             (order does not matter and repeats are not allowed).
           </li>
 
-          <li permid="exers_stars-bars-e_bk-s-ol-l_s">
+          <li permid="exers_stars-bars-e_bk-s1-ol1-l_s">
             <m>P(20, 4) = 20\cdot 19\cdot 18 \cdot 17</m>
             sodas
             (order matters and repeats are not allowed).
           </li>
 
-          <li permid="exers_stars-bars-e_bk-s-ol-l_b">
+          <li permid="exers_stars-bars-e_bk-s1-ol1-l_b">
             <m>{23 \choose 19}</m>
             sodas
             (order does not matter and repeats are allowed; 4 stars and 19 bars).
           </li>
 
-          <li permid="exers_stars-bars-e_bk-s-ol-l_k">
+          <li permid="exers_stars-bars-e_bk-s1-ol1-l_k">
             <m>20^4</m>
             sodas
             (order matters and repeats are allowed; 20 choices 4 times).

@@ -2,21 +2,21 @@
 
 <section permid="sec_matchings" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_matchings">
   <title>Matching in Bipartite Graphs</title>
-  <investigation permid="sec_matchings-inv">
-    <p permid="sec_matchings-inv-p1">
+  <investigation permid="sec_matchings-inv1">
+    <p permid="sec_matchings-inv1-p1">
       Given a bipartite graph,
       a <term>matching</term> is a subset of the edges for which every vertex belongs to exactly one of the edges.
       Our goal in this activity is to discover some criterion for when a bipartite graph has a matching.
     </p>
 
-    <p permid="sec_matchings-inv-p2">
+    <p permid="sec_matchings-inv1-p2">
       Does the graph below contain a matching?
       If so, find one.
     </p>
 
-    <sidebyside permid="sec_matchings-sbs" width="50%">
+    <sidebyside permid="sec_matchings-sbs1" width="50%">
 
-      <image permid="sec_matchings-sbs-im">
+      <image permid="sec_matchings-sbs1-im1">
 
   <latex-image>\begin{tikzpicture}
   \foreach \x in {0,...,5} {
@@ -35,7 +35,7 @@
 
     </sidebyside>
 
-    <p permid="sec_matchings-inv-p3">
+    <p permid="sec_matchings-inv1-p3">
       Not all bipartite graphs have matchings.
       Draw as many fundamentally different examples of bipartite graphs which do NOT have matchings.
       Your goal is to find all the possible obstructions to a graph having a perfect matching.
@@ -144,10 +144,10 @@
 
   <assemblage permid="sec_matchings-asm-matching-condition">
     <title>Matching Condition</title>
-    <p permid="sec_matchings-asm-matching-condition-p">
+    <p permid="sec_matchings-asm-matching-condition-p1">
           <idx><h>matching condition</h></idx>
       If a bipartite graph <m>G = \{A, B\}</m> has a matching of <m>A</m>, then
-      <me permid="sec_matchings-asm-matching-condition-p-me">
+      <me permid="sec_matchings-asm-matching-condition-p1-me1">
         |N(S)| \ge |S|
       </me>
       for all <m>S \subseteq A</m>.
@@ -173,11 +173,11 @@
   <theorem permid="sec_matchings-t-halls-marriage-t">
     <title>Hall's Marriage Theorem</title>
     <statement>
-      <p permid="sec_matchings-t-halls-marriage-t-p">
+      <p permid="sec_matchings-t-halls-marriage-t-p1">
             <idx><h>Hall's Marriage Theorem</h></idx>
         Let <m>G</m> be a bipartite graph with sets <m>A</m> and <m>B</m>.
         Then <m>G</m> has a matching of <m>A</m> if and only if
-        <me permid="sec_matchings-t-halls-marriage-t-p-me">
+        <me permid="sec_matchings-t-halls-marriage-t-p1-me1">
           |N(S)| \ge |S|
         </me>
         for all <m>S \subseteq A</m>.
@@ -195,16 +195,16 @@
     We conclude with one such example.
   </p>
 
-  <example permid="sec_matchings-ex">
+  <example permid="sec_matchings-ex1">
     <statement>
-      <p permid="sec_matchings-ex-p">
+      <p permid="sec_matchings-ex1-p1">
         Suppose you deal 52 regular playing cards into 13 piles of 4 cards each.
         Prove that you can always select one card from each pile to get one of each of the 13 card values Ace, 2, 3, <ellipsis/>, 10, Jack, Queen,
         and King.
       </p>
     </statement>
-    <solution permid="sec_matchings-ex-s">
-      <p permid="sec_matchings-ex-s-p1">
+    <solution permid="sec_matchings-ex1-s1">
+      <p permid="sec_matchings-ex1-s1-p1">
         Doing this directly would be difficult,
         but we can use the matching condition to help.
         Construct a graph <m>G</m> with 13 vertices in the set <m>A</m>,
@@ -216,7 +216,7 @@
         each value needs to be found in the piles exactly once.
       </p>
 
-      <p permid="sec_matchings-ex-s-p2">
+      <p permid="sec_matchings-ex1-s1-p2">
         We will have a matching if the matching condition holds.
         Given any set of card values (a set
         <m>S \subseteq A</m>) we must show that <m>|N(S)| \ge |S|</m>.

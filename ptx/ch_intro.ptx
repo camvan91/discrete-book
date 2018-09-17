@@ -2,8 +2,8 @@
 
 <chapter permid="ch_intro" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ch_intro">
   <title>Introduction and Preliminaries</title>
-  <introduction permid="ch_intro-intr">
-    <p permid="ch_intro-intr-p">
+  <introduction permid="ch_intro-intr1">
+    <p permid="ch_intro-intr1-p1">
       Welcome to Discrete Mathematics.
       If this is your first time encountering the subject,
       you will probably find discrete mathematics quite different from other math subjects.

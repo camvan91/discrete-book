@@ -2,22 +2,22 @@
 
 <section permid="sec_advpie" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_advPIE">
   <title>Advanced Counting Using PIE</title>
-  <introduction permid="sec_advpie-intr">
-    <investigation permid="sec_advpie-inv">
-      <p permid="sec_advpie-intr-p1">
+  <introduction permid="sec_advpie-intr1">
+    <investigation permid="sec_advpie-inv1">
+      <p permid="sec_advpie-intr1-p1">
         You have 11 identical mini key-lime pies to give to 4 children.
         However, you don't want any kid to get more than 3 pies.
         How many ways can you distribute the pies?
 
-        <ol permid="sec_advpie-intr-ol">
-          <li permid="sec_advpie-intr-ol-l_j">
-            <p permid="sec_advpie-intr-ol-l_j-p">
+        <ol permid="sec_advpie-intr1-ol1">
+          <li permid="sec_advpie-intr1-ol1-l_j">
+            <p permid="sec_advpie-intr1-ol1-l_j-p1">
               How many ways are there to distribute the pies without any restriction?
             </p>
           </li>
 
-          <li permid="sec_advpie-intr-ol-l_s">
-            <p permid="sec_advpie-intr-ol-l_s-p">
+          <li permid="sec_advpie-intr1-ol1-l_s">
+            <p permid="sec_advpie-intr1-ol1-l_s-p1">
               Let's get rid of the ways that one or more kid gets too many pies.
               How many ways are there to distribute the pies if Al gets too many pies?
               What if Bruce gets too many?
@@ -26,36 +26,36 @@
             </p>
           </li>
 
-          <li permid="sec_advpie-intr-ol-l_b">
-            <p permid="sec_advpie-intr-ol-l_b-p">
+          <li permid="sec_advpie-intr1-ol1-l_b">
+            <p permid="sec_advpie-intr1-ol1-l_b-p1">
               What if two kids get too many pies?
               How many ways can this happen?
               Does it matter which two kids you pick to overfeed?
             </p>
           </li>
 
-          <li permid="sec_advpie-intr-ol-l_k">
-            <p permid="sec_advpie-intr-ol-l_k-p">
+          <li permid="sec_advpie-intr1-ol1-l_k">
+            <p permid="sec_advpie-intr1-ol1-l_k-p1">
               Is it possible that three kids get too many pies?
               If so, how many ways can this happen?
             </p>
           </li>
 
-          <li permid="sec_advpie-intr-ol-l_t">
-            <p permid="sec_advpie-intr-ol-l_t-p">
+          <li permid="sec_advpie-intr1-ol1-l_t">
+            <p permid="sec_advpie-intr1-ol1-l_t-p1">
               How should you combine all the numbers you found above to answer the original question?
             </p>
           </li>
         </ol>
       </p>
 
-      <p permid="sec_advpie-intr-p2">
+      <p permid="sec_advpie-intr1-p2">
         Suppose now you have 13 pies and 7 children.
         No child can have more than 2 pies.
         How many ways can you distribute the pies?
       </p>
     </investigation>
-    <p permid="sec_advpie-intr-p3">
+    <p permid="sec_advpie-intr1-p3">
       Stars and bars allows us to count the number of ways to distribute 10 cookies to 3 kids and natural number solutions to <m>x+y+z = 11</m>,
       for example.
       A relatively easy modification allows us to put a <em>lower bound</em>
@@ -68,7 +68,7 @@
       and then distributing the rest using stars and bars.
     </p>
 
-    <p permid="sec_advpie-intr-p4">
+    <p permid="sec_advpie-intr1-p4">
       What if we wanted an <em>upper bound</em> restriction?
       For example,
       we might insist that no kid gets more than 4 cookies or that <m>x,
@@ -83,7 +83,7 @@
       But how to combine the number of ways for kid A, or B or C? We must use the PIE.
     </p>
 
-    <p permid="sec_advpie-intr-p5">
+    <p permid="sec_advpie-intr1-p5">
       The Principle of Inclusion/Exclusion (PIE) gives a method for finding the cardinality of the union of not necessarily disjoint sets.
       We saw in
       <xref ref="subsec_PIE"/> how this works with three sets.
@@ -96,22 +96,22 @@
       But doing this removes elements which are in all three sets once too often,
       so we need to add it back in.
       In terms of cardinality of sets, we have
-      <me permid="sec_advpie-intr-p5-me">
+      <me permid="sec_advpie-intr1-p5-me1">
         |A \cup B \cup C| = |A| + |B| + |C| - |A \cap B| - |A \cap C| - |B \cap C| + |A\cap B \cap C|
       </me>.
     </p>
 
     <example permid="sec_advpie-ex1">
       <statement>
-        <p permid="sec_advpie-ex1-p">
+        <p permid="sec_advpie-ex1-p1">
           Three kids, Alberto, Bernadette,
           and Carlos, decide to share 11 cookies.
           They wonder how many ways they could split the cookies up provided that none of them receive more than 4 cookies
           (someone receiving no cookies is for some reason acceptable to these kids).
         </p>
       </statement>
-      <solution permid="sec_advpie-ex1-s">
-        <p permid="sec_advpie-ex1-s-p1">
+      <solution permid="sec_advpie-ex1-s1">
+        <p permid="sec_advpie-ex1-s1-p1">
           Without the <q>no more than 4</q> restriction,
           the answer would be <m>{13 \choose 2}</m>, using 11 stars and 2 bars
           (separating the three kids).
@@ -119,7 +119,7 @@
           i.e., gets at least 4 cookies.
         </p>
 
-        <p permid="sec_advpie-ex1-s-p2">
+        <p permid="sec_advpie-ex1-s1-p2">
           Let <m>A</m> be the set of outcomes in which Alberto gets more than 4 cookies.
           Let <m>B</m> be the set of outcomes in which Bernadette gets more than 4 cookies.
           Let <m>C</m> be the set of outcomes in which Carlos gets more than 4 cookies.
@@ -131,56 +131,56 @@
           Here is what we find.
         </p>
 
-        <p permid="sec_advpie-ex1-s-p3">
-          <ul permid="sec_advpie-ex1-s-ul">
-            <li permid="sec_advpie-ex1-s-ul-l_j">
+        <p permid="sec_advpie-ex1-s1-p3">
+          <ul permid="sec_advpie-ex1-s1-ul1">
+            <li permid="sec_advpie-ex1-s1-ul1-l_j">
               <m>|A| = {8 \choose 2}</m>.
               First give Alberto 5 cookies,
               then distribute the remaining 6 to the three kids without restrictions,
               using 6 stars and 2 bars.
             </li>
 
-            <li permid="sec_advpie-ex1-s-ul-l_s">
+            <li permid="sec_advpie-ex1-s1-ul1-l_s">
               <m>|B| = {8 \choose 2}</m>.
               Just like above, only now Bernadette gets 5 cookies at the start.
             </li>
 
-            <li permid="sec_advpie-ex1-s-ul-l_b">
+            <li permid="sec_advpie-ex1-s1-ul1-l_b">
               <m>|C| = {8 \choose 2}</m>.
               Carlos gets 5 cookies first.
             </li>
 
-            <li permid="sec_advpie-ex1-s-ul-l_k">
+            <li permid="sec_advpie-ex1-s1-ul1-l_k">
               <m>|A \cap B| = {3 \choose 2}</m>.
               Give Alberto and Bernadette 5 cookies each,
               leaving 1 (star) to distribute to the three kids (2 bars).
             </li>
 
-            <li permid="sec_advpie-ex1-s-ul-l_t">
+            <li permid="sec_advpie-ex1-s1-ul1-l_t">
               <m>|A \cap C| = {3 \choose 2}</m>.
               Alberto and Carlos get 5 cookies first.
             </li>
 
-            <li permid="sec_advpie-ex1-s-ul-l_c">
+            <li permid="sec_advpie-ex1-s1-ul1-l_c">
               <m>|B \cap C| = {3 \choose 2}</m>.
               Bernadette and Carlos get 5 cookies first.
             </li>
 
-            <li permid="sec_advpie-ex1-s-ul-l_l">
+            <li permid="sec_advpie-ex1-s1-ul1-l_l">
               <m>|A \cap B \cap C| = 0</m>.
               It is not possible for all three kids to get 4 or more cookies.
             </li>
           </ul>
         </p>
 
-        <p permid="sec_advpie-ex1-s-p4">
+        <p permid="sec_advpie-ex1-s1-p4">
           Combining all of these we see
-          <me permid="sec_advpie-ex1-s-p4-me">
+          <me permid="sec_advpie-ex1-s1-p4-me1">
             |A \cup B \cup C| = {8 \choose 2} + {8 \choose 2} + {8 \choose 2} - {3 \choose 2} - {3 \choose 2} - {3 \choose 2} + 0 = 75
           </me>.
         </p>
 
-        <p permid="sec_advpie-ex1-s-p5">
+        <p permid="sec_advpie-ex1-s1-p5">
           Thus the answer to the original question is <m>{13 \choose 2} - 75 = 78 - 75 = 3</m>.
           This makes sense now that we see it.
           The only way to ensure that no kid gets more than 4 cookies is to give two kids 4 cookies and one kid 3;
@@ -191,7 +191,7 @@
       </solution>
     </example>
 
-    <p permid="sec_advpie-intr-p6">
+    <p permid="sec_advpie-intr1-p6">
       For four or more sets, we do not write down a formula for PIE. Instead,
       we just think of the principle:
       add up all the elements in single sets,
@@ -212,12 +212,12 @@
 
     <example permid="sec_advpie-ex2">
       <statement>
-        <p permid="sec_advpie-ex2-p">
+        <p permid="sec_advpie-ex2-p1">
           How many ways can you distribute 10 cookies to 4 kids so that no kid gets more than 2 cookies?
         </p>
       </statement>
-      <solution permid="sec_advpie-ex2-s">
-        <p permid="sec_advpie-ex2-s-p1">
+      <solution permid="sec_advpie-ex2-s1">
+        <p permid="sec_advpie-ex2-s1-p1">
           There are <m>{13 \choose 3}</m> ways to distribute 10 cookies to 4 kids
           (using 10 stars and 3 bars).
           We will subtract all the outcomes in which a kid gets 3 or more cookies.
@@ -235,7 +235,7 @@
           But in fact, we have over counted.
         </p>
 
-        <p permid="sec_advpie-ex2-s-p2">
+        <p permid="sec_advpie-ex2-s1-p2">
           We must get rid of the outcomes in which two kids have too many cookies.
           There are <m>{4 \choose 2}</m> ways to select 2 kids to give extra cookies.
           It takes 6 cookies to do this, leaving only 4 cookies.
@@ -244,7 +244,7 @@
           (for each of the <m>{4 \choose 2}</m> choices of which 2 kids to over-feed).
         </p>
 
-        <p permid="sec_advpie-ex2-s-p3">
+        <p permid="sec_advpie-ex2-s1-p3">
           But now we have removed too much.
           We must add back in all the ways to give too many cookies to three kids.
           This uses 9 cookies,
@@ -254,27 +254,27 @@
           and there are <m>{4 \choose 3}</m> ways of selecting that set of 3 kids.
         </p>
 
-        <p permid="sec_advpie-ex2-s-p4">
+        <p permid="sec_advpie-ex2-s1-p4">
           Next we would subtract all the ways to give four kids too many cookies,
           but in this case, that number is 0.
         </p>
 
-        <p permid="sec_advpie-ex2-s-p5">
+        <p permid="sec_advpie-ex2-s1-p5">
           All together we get that the number of ways to distribute 10 cookies to 4 kids without giving any kid more than 2 cookies is:
-          <me permid="sec_advpie-ex2-s-p5-me1">
+          <me permid="sec_advpie-ex2-s1-p5-me1">
             {13 \choose 3} - \left[{4 \choose 1}{10 \choose 3} - {4 \choose 2}{7 \choose 3} + {4\choose 3}{4\choose 3}\right]
           </me>
           which is
-          <me permid="sec_advpie-ex2-s-p5-me2">
+          <me permid="sec_advpie-ex2-s1-p5-me2">
             286 - [480 - 210 + 16] = 0
           </me>.
         </p>
 
-        <p permid="sec_advpie-ex2-s-p6">
+        <p permid="sec_advpie-ex2-s1-p6">
           This makes sense:
           there is NO way to distribute 10 cookies to 4 kids and make sure that nobody gets more than 2.
           It is slightly surprising that
-          <me permid="sec_advpie-ex2-s-p6-me">
+          <me permid="sec_advpie-ex2-s1-p6-me1">
             {13 \choose 3} = \left[{4 \choose 1}{10 \choose 3} - {4 \choose 2}{7 \choose 3} + {4\choose 3}{4\choose 3}\right]
           </me>
           but since PIE works, this equality must hold.
@@ -282,7 +282,7 @@
       </solution>
     </example>
 
-    <p permid="sec_advpie-intr-p7">
+    <p permid="sec_advpie-intr1-p7">
       Just so you don't think that these problems always have easier solutions,
       consider the following example.
     </p>
@@ -291,7 +291,7 @@
       <statement>
         <p permid="sec_advpie-ex3-p1">
           Earlier (<xref ref="example-stars-bars-int-sol"/>) we counted the number of solutions to the equation
-          <me permid="sec_advpie-ex3-p1-me">
+          <me permid="sec_advpie-ex3-p1-me1">
             x_1 + x_2 + x_3 + x_4 + x_5 = 13
           </me>
           where <m>x_i \ge 0</m> for each <m>x_i</m>.
@@ -301,23 +301,23 @@
           How many of those solutions have <m>0 \le x_i \le 3</m> for each <m>x_i</m>?
         </p>
       </statement>
-      <solution permid="sec_advpie-ex3-s">
-        <p permid="sec_advpie-ex3-s-p1">
+      <solution permid="sec_advpie-ex3-s1">
+        <p permid="sec_advpie-ex3-s1-p1">
           We must subtract off the number of solutions in which one or more of the variables has a value greater than 3.
           We will need to use PIE because counting the number of solutions for which each of the five variables separately are greater than 3 counts solutions multiple times.
           Here is what we get:
         </p>
 
-        <p permid="sec_advpie-ex3-s-p2">
-          <ul permid="sec_advpie-ex3-s-ul">
-            <li permid="sec_advpie-ex3-s-ul-l_j">
-              <p permid="sec_advpie-ex3-s-ul-l_j-p">
+        <p permid="sec_advpie-ex3-s1-p2">
+          <ul permid="sec_advpie-ex3-s1-ul1">
+            <li permid="sec_advpie-ex3-s1-ul1-l_j">
+              <p permid="sec_advpie-ex3-s1-ul1-l_j-p1">
                 Total solutions: <m>{17 \choose 4}</m>.
               </p>
             </li>
 
-            <li permid="sec_advpie-ex3-s-ul-l_s">
-              <p permid="sec_advpie-ex3-s-ul-l_s-p">
+            <li permid="sec_advpie-ex3-s1-ul1-l_s">
+              <p permid="sec_advpie-ex3-s1-ul1-l_s-p1">
                 Solutions where <m>x_1 &gt; 3</m>:
                 <m>{13 \choose 4}</m>.
                 Give <m>x_1</m> 4 units first,
@@ -325,8 +325,8 @@
               </p>
             </li>
 
-            <li permid="sec_advpie-ex3-s-ul-l_b">
-              <p permid="sec_advpie-ex3-s-ul-l_b-p">
+            <li permid="sec_advpie-ex3-s1-ul1-l_b">
+              <p permid="sec_advpie-ex3-s1-ul1-l_b-p1">
                 Solutions where <m>x_1 &gt; 3</m> and <m>x_2 &gt; 3</m>:
                 <m>{9 \choose 4}</m>.
                 After you give 4 units to <m>x_1</m> and another 4 to <m>x_2</m>,
@@ -334,16 +334,16 @@
               </p>
             </li>
 
-            <li permid="sec_advpie-ex3-s-ul-l_k">
-              <p permid="sec_advpie-ex3-s-ul-l_k-p">
+            <li permid="sec_advpie-ex3-s1-ul1-l_k">
+              <p permid="sec_advpie-ex3-s1-ul1-l_k-p1">
                 Solutions where <m>x_1 &gt; 3</m>,
                 <m>x_2 &gt; 3</m> and <m>x_3 &gt; 3</m>:
                 <m>{5 \choose 4}</m>.
               </p>
             </li>
 
-            <li permid="sec_advpie-ex3-s-ul-l_t">
-              <p permid="sec_advpie-ex3-s-ul-l_t-p">
+            <li permid="sec_advpie-ex3-s1-ul1-l_t">
+              <p permid="sec_advpie-ex3-s1-ul1-l_t-p1">
                 Solutions where <m>x_1 &gt; 3</m>,
                 <m>x_2 &gt; 3</m>, <m>x_3 &gt; 3</m>, and <m>x_4 &gt; 3</m>: 0.
               </p>
@@ -351,13 +351,13 @@
           </ul>
         </p>
 
-        <p permid="sec_advpie-ex3-s-p3">
+        <p permid="sec_advpie-ex3-s1-p3">
           We also need to account for the fact that we could choose any of the five variables in the place of <m>x_1</m> above
           (so there will be <m>{5 \choose 1}</m> outcomes like this),
           any pair of variables in the place of <m>x_1</m> and <m>x_2</m> (<m>{5 \choose 2}</m> outcomes) and so on.
           It is because of this that the double counting occurs,
           so we need to use PIE. All together we have that the number of solutions with <m>0 \le x_i \le 3</m> is
-          <me permid="sec_advpie-ex3-s-p3-me">
+          <me permid="sec_advpie-ex3-s1-p3-me1">
             {17 \choose 4} - \left[{5\choose 1}{13 \choose 4} - {5 \choose 2}{9 \choose 4} + {5 \choose 3}{5 \choose 4}\right] = 15
           </me>.
         </p>
@@ -367,8 +367,8 @@
 
   <subsection permid="ssec_derangements" xml:id="subsec_derangements">
     <title>Counting Derangements</title>
-    <investigation permid="ssec_derangements-inv">
-      <p permid="ssec_derangements-inv-p">
+    <investigation permid="ssec_derangements-inv1">
+      <p permid="ssec_derangements-inv1-p1">
         For your senior prank,
         you decide to switch the nameplates on your favorite 5 professors' doors.
         So that none of them feel left out,
@@ -408,12 +408,12 @@
 
     <example permid="ssec_derangements-ex1">
       <statement>
-        <p permid="ssec_derangements-ex1-p">
+        <p permid="ssec_derangements-ex1-p1">
           How many derangements are there of 4 elements?
         </p>
       </statement>
-      <solution permid="ssec_derangements-ex1-s">
-        <p permid="ssec_derangements-ex1-s-p">
+      <solution permid="ssec_derangements-ex1-s1">
+        <p permid="ssec_derangements-ex1-s1-p1">
           We count all permutations, and subtract those which are not derangements.
           There are <m>4! = 24</m> permutations of 4 elements.
           Now for a permutation to <em>not</em> be a derangement,
@@ -432,7 +432,7 @@
           (recall <m>0! = 1</m>)
           which fix all four elements.
           All together we get that the number of derangements of 4 elements is:
-          <me permid="ssec_derangements-ex1-s-p-me">
+          <me permid="ssec_derangements-ex1-s1-p1-me1">
             4! - \left[{4 \choose 1}3! - {4 \choose 2}2! + {4 \choose 3} 1! - {4 \choose 4}0!\right] = 24 - 15 = 9
           </me>.
         </p>
@@ -448,21 +448,21 @@
 
     <example permid="ssec_derangements-ex2">
       <statement>
-        <p permid="ssec_derangements-ex2-p">
+        <p permid="ssec_derangements-ex2-p1">
           Five gentlemen attend a party,
           leaving their hats at the door.
           At the end of the party, they hastily grab hats on their way out.
           How many different ways could this happen so that none of the gentlemen leave with their own hat?
         </p>
       </statement>
-      <solution permid="ssec_derangements-ex2-s">
-        <p permid="ssec_derangements-ex2-s-p">
+      <solution permid="ssec_derangements-ex2-s1">
+        <p permid="ssec_derangements-ex2-s1-p1">
           We are counting derangements on 5 elements.
           There are <m>5!</m> ways for the gentlemen to grab hats in any order<mdash/>but many of these permutations will result in someone getting their own hat.
           So we subtract all the ways in which one or more of the men get their own hat.
           In other words, we subtract the non-derangements.
           Doing so requires PIE. Thus the answer is:
-          <me permid="ssec_derangements-ex2-s-p-me">
+          <me permid="ssec_derangements-ex2-s1-p1-me1">
             5! - \left[{5 \choose 1}4! - {5 \choose 2}3! + {5 \choose 3}2! - {5 \choose 4}1! + {5 \choose 5}0!\right]
           </me>.
         </p>
@@ -471,13 +471,13 @@
     <!-- TODO: Here or in the homework, it would be nice to illustrate the more general closed formula for an n-derangement -->
   </subsection>
 
-  <subsection permid="-ssec-counting-functions">
+  <subsection permid="ssec-counting-functions">
     <title>Counting Functions</title>
-    <investigation permid="-ssec-counting-functions-inv">
-      <p permid="-ssec-counting-functions-inv-p">
-        <ul permid="-ssec-counting-functions-inv-ul">
-          <li permid="-ssec-counting-functions-inv-ul-l_j">
-            <p permid="-ssec-counting-functions-inv-ul-l_j-p">
+    <investigation permid="ssec-counting-functions-inv1">
+      <p permid="ssec-counting-functions-inv1-p1">
+        <ul permid="ssec-counting-functions-inv1-ul1">
+          <li permid="ssec-counting-functions-inv1-ul1-l_j">
+            <p permid="ssec-counting-functions-inv1-ul1-l_j-p1">
               Consider all functions <m>f: \{1,2,3,4,5\} \to \{1,2,3,4,5\}</m>.
               How many functions are there all together?
               How many of those are injective?
@@ -485,27 +485,27 @@
             </p>
           </li>
 
-          <li permid="-ssec-counting-functions-inv-ul-l_s">
-            <p permid="-ssec-counting-functions-inv-ul-l_s-p1">
+          <li permid="ssec-counting-functions-inv1-ul1-l_s">
+            <p permid="ssec-counting-functions-inv1-ul1-l_s-p1">
               Consider all functions <m>f: \{1,2,3,4,5\} \to \{1,2,3,4,5\}</m>.
               How many of the <em>injections</em>
               have the property that <m>f(x) \ne x</m> for any <m>x \in \{1,2,3,4,5\}</m>?
             </p>
 
-            <p permid="-ssec-counting-functions-inv-ul-l_s-p2">
+            <p permid="ssec-counting-functions-inv1-ul1-l_s-p2">
               Your friend claims that the answer is:
-              <me permid="-ssec-counting-functions-inv-ul-l_s-p2-me">
+              <me permid="ssec-counting-functions-inv1-ul1-l_s-p2-me1">
                 5! - \left[ {5\choose 1}4! - {5 \choose 2}3! + {5\choose 3}2! - {5 \choose 4}1! + {5\choose 5}0! \right]
               </me>.
             </p>
 
-            <p permid="-ssec-counting-functions-inv-ul-l_s-p3">
+            <p permid="ssec-counting-functions-inv1-ul1-l_s-p3">
               Explain why this is correct.
             </p>
           </li>
 
-          <li permid="-ssec-counting-functions-inv-ul-l_b">
-            <p permid="-ssec-counting-functions-inv-ul-l_b-p">
+          <li permid="ssec-counting-functions-inv1-ul1-l_b">
+            <p permid="ssec-counting-functions-inv1-ul1-l_b-p1">
               Recall that a <em>surjection</em>
               is a function for which every element of the codomain is in the range.
               How many of the functions <m>f: \{1,2,3,4,5\} \to \{1,2,3,4,5\}</m> are surjective?
@@ -515,28 +515,28 @@
         </ul>
       </p>
     </investigation>
-    <p permid="-ssec-counting-functions-p1">
+    <p permid="ssec-counting-functions-p1">
       We have seen throughout this chapter that many counting questions can be rephrased as questions about counting functions with certain properties.
       This is reasonable since many counting questions can be thought of as counting the number of ways to assign elements from one set to elements of another.
     </p>
 
-    <example permid="-ssec-counting-functions-ex1">
+    <example permid="ssec-counting-functions-ex1">
       <statement>
-        <p permid="-ssec-counting-functions-ex1-p">
+        <p permid="ssec-counting-functions-ex1-p1">
           You decide to give away your video game collection so to better spend your time studying advance mathematics.
           How many ways can you do this, provided:
 
-          <ol permid="-ssec-counting-functions-ex1-ol">
-            <li permid="-ssec-counting-functions-ex1-ol-l_j">
+          <ol permid="ssec-counting-functions-ex1-ol1">
+            <li permid="ssec-counting-functions-ex1-ol1-l_j">
               You want to distribute your 3 different PS4 games among 5 friends,
               so that no friend gets more than one game?
             </li>
 
-            <li permid="-ssec-counting-functions-ex1-ol-l_s">
+            <li permid="ssec-counting-functions-ex1-ol1-l_s">
               You want to distribute your 8 different 3DS games among 5 friends?
             </li>
 
-            <li permid="-ssec-counting-functions-ex1-ol-l_b">
+            <li permid="ssec-counting-functions-ex1-ol1-l_b">
               You want to distribute your 8 different SNES games among 5 friends,
               so that each friend gets at least one game?
             </li>
@@ -546,11 +546,11 @@
           model the counting question as a function counting question.
         </p>
       </statement>
-      <solution permid="-ssec-counting-functions-ex1-s">
-        <p permid="-ssec-counting-functions-ex1-s-p">
-          <ol permid="-ssec-counting-functions-ex1-s-ol">
-            <li permid="-ssec-counting-functions-ex1-s-ol-l_j">
-              <p permid="-ssec-counting-functions-ex1-s-ol-l_j-p1">
+      <solution permid="ssec-counting-functions-ex1-s1">
+        <p permid="ssec-counting-functions-ex1-s1-p1">
+          <ol permid="ssec-counting-functions-ex1-s1-ol1">
+            <li permid="ssec-counting-functions-ex1-s1-ol1-l_j">
+              <p permid="ssec-counting-functions-ex1-s1-ol1-l_j-p1">
                 We must use the three games
                 (call them 1, 2, 3)
                 as the domain and the 5 friends (a,b,c,d,e) as the codomain
@@ -561,7 +561,7 @@
                 since we can assign any of 5 elements to be the image of 1, any of 5 elements to be the image of 2 and any of 5 elements to be the image of 3.
               </p>
 
-              <p permid="-ssec-counting-functions-ex1-s-ol-l_j-p2">
+              <p permid="ssec-counting-functions-ex1-s1-ol1-l_j-p2">
                 But this is not the correct answer to our counting problem,
                 because one of these functions is <m>f= \twoline{1\amp 2\amp 3}{a\amp a\amp a}</m>;
                 one friend can get more than one game.
@@ -572,16 +572,16 @@
               </p>
             </li>
 
-            <li permid="-ssec-counting-functions-ex1-s-ol-l_s">
-              <p permid="-ssec-counting-functions-ex1-s-ol-l_s-p">
+            <li permid="ssec-counting-functions-ex1-s1-ol1-l_s">
+              <p permid="ssec-counting-functions-ex1-s1-ol1-l_s-p1">
                 Again, we need to use the 8 games as the domain and the 5 friends as the codomain.
                 We are counting all functions,
                 so the number of ways to distribute the games is <m>5^8</m>.
               </p>
             </li>
 
-            <li permid="-ssec-counting-functions-ex1-s-ol-l_b">
-              <p permid="-ssec-counting-functions-ex1-s-ol-l_b-p">
+            <li permid="ssec-counting-functions-ex1-s1-ol1-l_b">
+              <p permid="ssec-counting-functions-ex1-s1-ol1-l_b-p1">
                 This question is harder.
                 Use the games as the domain and friends as the codomain
                 (otherwise an element of the domain would have more than one image,
@@ -597,7 +597,7 @@
       </solution>
     </example>
 
-    <p permid="-ssec-counting-functions-p2">
+    <p permid="ssec-counting-functions-p2">
       In <xref ref="example-counting-functions-all"/> we saw how to count all functions
       (using the multiplicative principle)
       and in <xref ref="example-counting-functions-injective"/> we learned how to count injective functions
@@ -607,21 +607,21 @@
       in which case there are none).
     </p>
 
-    <p permid="-ssec-counting-functions-p3">
+    <p permid="ssec-counting-functions-p3">
       The idea is to count the functions which are
       <em>not</em> surjective,
       and then subtract that from the total number of functions.
       This works very well when the codomain has two elements in it:
     </p>
 
-    <example permid="-ssec-counting-functions-ex2">
+    <example permid="ssec-counting-functions-ex2">
       <statement>
-        <p permid="-ssec-counting-functions-ex2-p">
+        <p permid="ssec-counting-functions-ex2-p1">
           How many functions <m>f: \{1,2,3,4,5\} \to \{a,b\}</m> are surjective?
         </p>
       </statement>
-      <solution permid="-ssec-counting-functions-ex2-s">
-        <p permid="-ssec-counting-functions-ex2-s-p">
+      <solution permid="ssec-counting-functions-ex2-s1">
+        <p permid="ssec-counting-functions-ex2-s1-p1">
           There are <m>2^5</m> functions all together,
           two choices for where to send each of the 5 elements of the domain.
           Now of these, the functions which are <em>not</em>
@@ -639,7 +639,7 @@
       </solution>
     </example>
 
-    <p permid="-ssec-counting-functions-p4">
+    <p permid="ssec-counting-functions-p4">
       When there are three elements in the codomain,
       there are now three choices for a single element to exclude from the range.
       Additionally,
@@ -648,14 +648,14 @@
       It's PIE time!
     </p>
 
-    <example permid="-ssec-counting-functions-ex3">
+    <example permid="ssec-counting-functions-ex3">
       <statement>
-        <p permid="-ssec-counting-functions-ex3-p">
+        <p permid="ssec-counting-functions-ex3-p1">
           How many functions <m>f: \{1,2,3,4,5\} \to \{a,b,c\}</m> are surjective?
         </p>
       </statement>
-      <solution permid="-ssec-counting-functions-ex3-s">
-        <p permid="-ssec-counting-functions-ex3-s-p1">
+      <solution permid="ssec-counting-functions-ex3-s1">
+        <p permid="ssec-counting-functions-ex3-s1-p1">
           Again start with the total number of functions:
           <m>3^5</m>
           (as each of the five elements of the domain can go to any of three elements of the codomain).
@@ -663,7 +663,7 @@
           <em>not</em> surjective.
         </p>
 
-        <p permid="-ssec-counting-functions-ex3-s-p2">
+        <p permid="ssec-counting-functions-ex3-s1-p2">
           Start by excluding <m>a</m> from the range.
           Then we have two choices (<m>b</m> or <m>c</m>) for where to send each of the five elements of the domain.
           Thus there are <m>2^5</m> functions which exclude <m>a</m> from the range.
@@ -681,7 +681,7 @@
           and one function when we exclude <m>b</m> and <m>c</m>.
         </p>
 
-        <p permid="-ssec-counting-functions-ex3-s-p3">
+        <p permid="ssec-counting-functions-ex3-s1-p3">
           We are using PIE: to count the functions which are not surjective,
           we added up the functions which exclude <m>a</m>,
           <m>b</m>, and <m>c</m> separately,
@@ -690,14 +690,14 @@
           except that there are no such functions.
           We find that the number of functions which are
           <em>not</em> surjective is
-          <me permid="-ssec-counting-functions-ex3-s-p3-me">
+          <me permid="ssec-counting-functions-ex3-s1-p3-me1">
             2^5 + 2^5 + 2^5 - 1 - 1 - 1 + 0
           </me>.
         </p>
 
-        <p permid="-ssec-counting-functions-ex3-s-p4">
+        <p permid="ssec-counting-functions-ex3-s1-p4">
           Perhaps a more descriptive way to write this is
-          <me permid="-ssec-counting-functions-ex3-s-p4-me">
+          <me permid="ssec-counting-functions-ex3-s1-p4-me1">
             {3 \choose 1}2^5 - {3 \choose 2}1^5 + {3 \choose 3}0^5
           </me>.
           since each of the <m>2^5</m>'s was the result of choosing 1 of the 3 elements of the codomain to exclude from the range,
@@ -706,16 +706,16 @@
           we have 1 choice of were to send each of the 5 elements of the domain.
         </p>
 
-        <p permid="-ssec-counting-functions-ex3-s-p5">
+        <p permid="ssec-counting-functions-ex3-s1-p5">
           Now we can finally count the number of surjective functions:
-          <me permid="-ssec-counting-functions-ex3-s-p5-me">
+          <me permid="ssec-counting-functions-ex3-s1-p5-me1">
             3^5 - \left[{3 \choose 1}2^5 - {3 \choose 2}1^5\right] = 150
           </me>.
         </p>
       </solution>
     </example>
 
-    <p permid="-ssec-counting-functions-p5">
+    <p permid="ssec-counting-functions-p5">
       You might worry that to count surjective functions when the codomain is larger than 3 elements would be too tedious.
       We need to use PIE but with more than 3 sets the formula for PIE is very long.
       However, we have lucked out.
@@ -733,29 +733,29 @@
       Here's what happens with <m>4</m> and <m>5</m> elements in the codomain.
     </p>
 
-    <example permid="-ssec-counting-functions-ex4">
+    <example permid="ssec-counting-functions-ex4">
       <statement>
-        <p permid="-ssec-counting-functions-ex4-p">
-          <ol permid="-ssec-counting-functions-ex4-ol">
-            <li permid="-ssec-counting-functions-ex4-ol-l_j">
-              <p permid="-ssec-counting-functions-ex4-ol-l_j-p">
+        <p permid="ssec-counting-functions-ex4-p1">
+          <ol permid="ssec-counting-functions-ex4-ol1">
+            <li permid="ssec-counting-functions-ex4-ol1-l_j">
+              <p permid="ssec-counting-functions-ex4-ol1-l_j-p1">
                 How many functions <m>f: \{1,2,3,4,5\} \to \{a,b,c,d\}</m> are surjective?
               </p>
             </li>
 
-            <li permid="-ssec-counting-functions-ex4-ol-l_s">
-              <p permid="-ssec-counting-functions-ex4-ol-l_s-p">
+            <li permid="ssec-counting-functions-ex4-ol1-l_s">
+              <p permid="ssec-counting-functions-ex4-ol1-l_s-p1">
                 How many functions <m>f: \{1,2,3,4,5\} \to \{a,b,c,d,e\}</m> are surjective?
               </p>
             </li>
           </ol>
         </p>
       </statement>
-      <solution permid="-ssec-counting-functions-ex4-s">
-        <p permid="-ssec-counting-functions-ex4-s-p">
-          <ol permid="-ssec-counting-functions-ex4-s-ol">
-            <li permid="-ssec-counting-functions-ex4-s-ol-l_j">
-              <p permid="-ssec-counting-functions-ex4-s-ol-l_j-p">
+      <solution permid="ssec-counting-functions-ex4-s1">
+        <p permid="ssec-counting-functions-ex4-s1-p1">
+          <ol permid="ssec-counting-functions-ex4-s1-ol1">
+            <li permid="ssec-counting-functions-ex4-s1-ol1-l_j">
+              <p permid="ssec-counting-functions-ex4-s1-ol1-l_j-p1">
                 There are <m>4^5</m> functions all together;
                 we will subtract the functions which are not surjective.
                 We could exclude any one of the four elements of the codomain,
@@ -770,20 +770,20 @@
                 and <m>{4 \choose 3}</m> groups of functions excluding a triple of elements.
                 This means that the number of functions which are
                 <em>not</em> surjective is:
-                <me permid="-ssec-counting-functions-ex4-s-p-me1">
+                <me permid="ssec-counting-functions-ex4-s1-p1-me1">
                   {4 \choose 1}3^5 - {4 \choose 2}2^5 + {4 \choose 3}1^5
                 </me>.
                 We can now say that the number of functions which are surjective is:
-                <me permid="-ssec-counting-functions-ex4-s-p-me2">
+                <me permid="ssec-counting-functions-ex4-s1-p1-me2">
                   4^5 - \left[{4 \choose 1}3^5 - {4 \choose 2}2^5 + {4 \choose 3}1^5\right]
                 </me>.
               </p>
             </li>
 
-            <li permid="-ssec-counting-functions-ex4-s-ol-l_s">
-              <p permid="-ssec-counting-functions-ex4-s-ol-l_s-p1">
+            <li permid="ssec-counting-functions-ex4-s1-ol1-l_s">
+              <p permid="ssec-counting-functions-ex4-s1-ol1-l_s-p1">
                 The number of surjective functions is:
-                <me permid="-ssec-counting-functions-ex4-s-ol-l_s-p1-me">
+                <me permid="ssec-counting-functions-ex4-s1-ol1-l_s-p1-me1">
                   5^5 - \left[{5 \choose 1}4^5 - {5 \choose 2}3^5 + {5 \choose 3}2^5 - {5 \choose 4}1^5\right]
                 </me>.
                 We took the total number of functions <m>5^5</m> and subtracted all that were not surjective.
@@ -801,7 +801,7 @@
                 <m>{5 \choose 4}</m> choices of 4 elements.
               </p>
 
-              <p permid="-ssec-counting-functions-ex4-s-ol-l_s-p2">
+              <p permid="ssec-counting-functions-ex4-s1-ol1-l_s-p2">
                 If you happen to calculate this number precisely,
                 you will get 120 surjections.
                 That happens to also be the value of <m>5!</m>.
@@ -810,7 +810,7 @@
                 The number of bijections is always <m>\card{X}!</m> in this case.
                 What we have here is a <em>combinatorial proof</em>
                 of the following identity:
-                <me permid="-ssec-counting-functions-ex4-s-ol-l_s-p2-me">
+                <me permid="ssec-counting-functions-ex4-s1-ol1-l_s-p2-me1">
                   n^n - \left[{n\choose 1}(n-1)^n - {n \choose 2}(n-2)^n + \cdots + {n \choose n-1}1^n \right] = n!
                 </me>.
               </p>
@@ -820,29 +820,29 @@
       </solution>
     </example>
 
-    <p permid="-ssec-counting-functions-p6">
+    <p permid="ssec-counting-functions-p6">
       We have seen that counting surjective functions is another nice example of the advanced use of the Principle of Inclusion/Exclusion.
       Also, counting injective functions turns out to be equivalent to permutations,
       and counting all functions has a solution akin to those counting problems where order matters but repeats are allowed
       (like counting the number of words you can make from a given set of letters).
     </p>
 
-    <p permid="-ssec-counting-functions-p7">
+    <p permid="ssec-counting-functions-p7">
       These are not just a few more examples of the techniques we have developed in this chapter.
       Quite the opposite:
       everything we have learned in this chapter are examples of
       <em>counting functions</em>!
     </p>
 
-    <example permid="-ssec-counting-functions-ex5">
+    <example permid="ssec-counting-functions-ex5">
       <statement>
-        <p permid="-ssec-counting-functions-ex5-p">
+        <p permid="ssec-counting-functions-ex5-p1">
           How many 5-letter words can you make using the eight letters <m>a</m> through <m>h</m>?
           How many contain no repeated letters?
         </p>
       </statement>
-      <solution permid="-ssec-counting-functions-ex5-s">
-        <p permid="-ssec-counting-functions-ex5-s-p1">
+      <solution permid="ssec-counting-functions-ex5-s1">
+        <p permid="ssec-counting-functions-ex5-s1-p1">
           By now it should be no surprise that there are <m>8^5</m> words,
           and <m>P(8,5)</m> words without repeated letters.
           The new piece here is that we are actually counting functions.
@@ -855,7 +855,7 @@
           we are asking for injective functions.
         </p>
 
-        <p permid="-ssec-counting-functions-ex5-s-p2">
+        <p permid="ssec-counting-functions-ex5-s1-p2">
           If <m>A</m> and <m>B</m> are <em>any</em>
           sets with <m>|A| = 5</m> and <m>|B| = 8</m>,
           then the number of functions
@@ -866,15 +866,15 @@
       </solution>
     </example>
 
-    <example permid="-ssec-counting-functions-ex6">
+    <example permid="ssec-counting-functions-ex6">
       <statement>
-        <p permid="-ssec-counting-functions-ex6-p">
+        <p permid="ssec-counting-functions-ex6-p1">
           How many subsets are there of <m>\{1,2,\ldots, 9\}</m>?
           How many 9-bit strings are there (of any weight)?
         </p>
       </statement>
-      <solution permid="-ssec-counting-functions-ex6-s">
-        <p permid="-ssec-counting-functions-ex6-s-p1">
+      <solution permid="ssec-counting-functions-ex6-s1">
+        <p permid="ssec-counting-functions-ex6-s1-p1">
           We saw in <xref ref="sec_counting-binom"/> that the answer to both these questions is <m>2^9</m>,
           as we can say yes or no (or 0 or 1) to each of the 9 elements in the set
           (positions in the bit-string).
@@ -884,7 +884,7 @@
           this is exactly what you get.
         </p>
 
-        <p permid="-ssec-counting-functions-ex6-s-p2">
+        <p permid="ssec-counting-functions-ex6-s1-p2">
           This makes sense!
           Let <m>A = \{1,2,\ldots, 9\}</m> and <m>B = \{y, n\}</m>.
           We are assigning each element of the set either a yes or a no.
@@ -894,7 +894,7 @@
       </solution>
     </example>
 
-    <p permid="-ssec-counting-functions-p8">
+    <p permid="ssec-counting-functions-p8">
       So far we have not used a function as a model for binomial coefficients
       (combinations).
       Think for a moment about the relationship between combinations and permutations,
@@ -907,19 +907,19 @@
       then only 8 choices for the second,
       and 7 choices for the third.
       For example, the function might look like this:
-      <me permid="-ssec-counting-functions-p8-me">
+      <me permid="ssec-counting-functions-p8-me1">
         f(1) = 5 \qquad f(2) = 8 \qquad f(3) = 4
       </me>.
     </p>
 
-    <p permid="-ssec-counting-functions-p9">
+    <p permid="ssec-counting-functions-p9">
       This is a different function from:
-      <me permid="-ssec-counting-functions-p9-me">
+      <me permid="ssec-counting-functions-p9-me1">
         f(1) = 4 \qquad f(2) = 5 \qquad f(3) = 8
       </me>.
     </p>
 
-    <p permid="-ssec-counting-functions-p10">
+    <p permid="ssec-counting-functions-p10">
       Now <m>P(9,3)</m> counts these as different outcomes correctly,
       but <m>{9\choose 3}</m> will count these
       (among others)
@@ -933,7 +933,7 @@
       and then counting the number of equivalence classes under this notion of equivalence.
       </fn></p>
 
-    <p permid="-ssec-counting-functions-p11">
+    <p permid="ssec-counting-functions-p11">
       While it is possible to interpret combinations as functions,
       perhaps the better advice is to instead use combinations
       (or stars and bars)

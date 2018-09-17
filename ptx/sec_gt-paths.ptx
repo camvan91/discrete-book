@@ -2,9 +2,9 @@
 
 <section permid="sec_paths" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_paths">
   <title>Euler Paths and Circuits</title>
-  <introduction permid="sec_paths-intr">
-    <investigation permid="sec_paths-inv">
-      <p permid="sec_paths-intr-p1">
+  <introduction permid="sec_paths-intr1">
+    <investigation permid="sec_paths-inv1">
+      <p permid="sec_paths-intr1-p1">
         An <term>Euler path</term>, in a graph or multigraph,
         is a walk through the graph which uses every edge exactly once.
         An <term>Euler circuit</term> is an Euler path which starts and stops at the same vertex.
@@ -12,16 +12,16 @@
         (or multigraph)
         has an Euler path or circuit.
 
-        <ol permid="sec_paths-intr-ol">
-          <li permid="sec_paths-intr-ol-l_j">
-            <p permid="sec_paths-intr-ol-l_j-p">
+        <ol permid="sec_paths-intr1-ol1">
+          <li permid="sec_paths-intr1-ol1-l_j">
+            <p permid="sec_paths-intr1-ol1-l_j-p1">
               Which of the graphs below have Euler paths?
               Which have Euler circuits?
             </p>
 
             <sidebyside permid="sec_paths-sbs1" widths="18% 18% 36% 22%" margins="auto" valign="bottom">
 
-              <image permid="sec_paths-intr-ol-l_j-im1">
+              <image permid="sec_paths-intr1-ol1-l_j-im1">
 
   <latex-image>\begin{tikzpicture}[scale=0.9]
     \draw (-1,0) \v -- (1,0)\v -- (1,2) \v -- (-1, 2) \v -- (-1,0) -- (1,2) (-1,2) -- (1,0) (0,1) \v;
@@ -29,14 +29,14 @@
   \end{tikzpicture}</latex-image>
               </image>
 
-              <image permid="sec_paths-intr-ol-l_j-im2">
+              <image permid="sec_paths-intr1-ol1-l_j-im2">
 
   <latex-image>\begin{tikzpicture}[scale=0.9]
     \draw (-1,0) \v -- (1,0)\v -- (1,2) \v -- (-1, 2) \v -- (-1,0) -- (1,2) (-1,2) -- (1,0) (0,1) \v;
   \end{tikzpicture}</latex-image>
               </image>
 
-              <image permid="sec_paths-intr-ol-l_j-im3">
+              <image permid="sec_paths-intr1-ol1-l_j-im3">
 
   <latex-image>\begin{tikzpicture}[scale=0.9]
     \draw (-1,0) \v -- (1,0)\v -- (1,2) \v -- (-1, 2) \v -- (-1,0) -- (1,2) (-1,2) -- (1,0) (0,1) \v;
@@ -44,7 +44,7 @@
   \end{tikzpicture}</latex-image>
               </image>
 
-              <image permid="sec_paths-intr-ol-l_j-im4">
+              <image permid="sec_paths-intr1-ol1-l_j-im4">
 
   <latex-image>\begin{tikzpicture}[yscale=.45]
    \draw (-1,-2) \v to [out=120, in=240] (-1,0) \v to [out=120, in=240] (-1,2) \v to [out=300, in=60] (-1,0) to [out=300, in=60] (-1,-2);
@@ -56,15 +56,15 @@
 
           </li>
 
-          <li permid="sec_paths-intr-ol-l_s">
-            <p permid="sec_paths-intr-ol-l_s-p">
+          <li permid="sec_paths-intr1-ol1-l_s">
+            <p permid="sec_paths-intr1-ol1-l_s-p1">
               List the degrees of each vertex of the graphs above.
               Is there a connection between degrees and the existence of Euler paths and circuits?
             </p>
           </li>
 
-          <li permid="sec_paths-intr-ol-l_b">
-            <p permid="sec_paths-intr-ol-l_b-p">
+          <li permid="sec_paths-intr1-ol1-l_b">
+            <p permid="sec_paths-intr1-ol1-l_b-p1">
               Is it possible for a graph with a degree 1 vertex to have an Euler circuit?
               If so, draw one.
               If not, explain why not.
@@ -72,8 +72,8 @@
             </p>
           </li>
 
-          <li permid="sec_paths-intr-ol-l_k">
-            <p permid="sec_paths-intr-ol-l_k-p">
+          <li permid="sec_paths-intr1-ol1-l_k">
+            <p permid="sec_paths-intr1-ol1-l_k-p1">
               What if every vertex of the graph has degree 2.
               Is there an Euler path?
               An Euler circuit?
@@ -81,8 +81,8 @@
             </p>
           </li>
 
-          <li permid="sec_paths-intr-ol-l_t">
-            <p permid="sec_paths-intr-ol-l_t-p">
+          <li permid="sec_paths-intr1-ol1-l_t">
+            <p permid="sec_paths-intr1-ol1-l_t-p1">
               Below is <em>part</em> of a graph.
               Even though you can only see some of the vertices,
               can you deduce whether the graph will have an Euler path or circuit?
@@ -90,7 +90,7 @@
 
             <sidebyside permid="sec_paths-sbs2" width="54%">
 
-              <image permid="sec_paths-intr-ol-l_t-im">
+              <image permid="sec_paths-intr1-ol1-l_t-im1">
 
   <latex-image>\begin{tikzpicture}[scale=0.9]
     \draw (-2,0) \v -- (0,1) \v -- (2,0) \v;
@@ -109,7 +109,7 @@
         </ol>
       </p>
     </investigation>
-    <p permid="sec_paths-intr-p2">
+    <p permid="sec_paths-intr1-p2">
       If we start at a vertex and trace along edges to get to other vertices,
       we create a <em>walk</em> through the graph.
       More precisely, a <term>walk</term>
@@ -127,14 +127,14 @@
       assume all the graphs discussed are connected.
     </p>
 
-    <p permid="sec_paths-intr-p3">
+    <p permid="sec_paths-intr1-p3">
       The bridges of Königsberg problem is really a question about the existence of Euler paths.
       There will be a route that crosses every bridge exactly once if and only if the graph below has an Euler path:
     </p>
 
     <sidebyside permid="sec_paths-sbs3" width="22%">
 
-      <image permid="sec_paths-sbs3-im">
+      <image permid="sec_paths-sbs3-im1">
 
   <latex-image>\begin{tikzpicture}[scale=1, yscale=.5]
   \draw (-1,-2) \v to [out=120, in=240] (-1,0) \v to [out=120, in=240] (-1,2) \v to [out=300, in=60] (-1,0) to [out=300, in=60] (-1,-2);
@@ -144,7 +144,7 @@
 
     </sidebyside>
 
-    <p permid="sec_paths-intr-p4">
+    <p permid="sec_paths-intr1-p4">
       This graph is small enough that we could actually check every possible walk that does not reuse edges,
       and in doing so convince ourselves that there is no Euler path
       (let alone an Euler circuit).
@@ -154,7 +154,7 @@
       even if the graph is quite large.
     </p>
 
-    <p permid="sec_paths-intr-p5">
+    <p permid="sec_paths-intr1-p5">
       One way to guarantee that a graph does <em>not</em>
       have an Euler circuit is to include a
       <q>spike,</q> a vertex of degree 1.
@@ -162,7 +162,7 @@
 
     <sidebyside permid="sec_paths-sbs4" width="23%">
 
-      <image permid="sec_paths-sbs4-im">
+      <image permid="sec_paths-sbs4-im1">
 
   <latex-image>\begin{tikzpicture}
     \draw (-1,0) \v -- (0,1) \v -- (1,0) \v -- cycle;
@@ -172,7 +172,7 @@
 
     </sidebyside>
 
-    <p permid="sec_paths-intr-p6">
+    <p permid="sec_paths-intr1-p6">
       The vertex <m>a</m> has degree 1, and if you try to make an Euler circuit,
       you see that you will get stuck at the vertex.
       It is a dead end.
@@ -185,7 +185,7 @@
       You will end at the vertex of degree 3.
     </p>
 
-    <p permid="sec_paths-intr-p7">
+    <p permid="sec_paths-intr1-p7">
       You run into a similar problem whenever you have a vertex of any odd degree.
       If you start at such a vertex,
       you will not be able to end there
@@ -205,7 +205,7 @@
       leaving only an edge to arrive by, and none to leave again.
     </p>
 
-    <p permid="sec_paths-intr-p8">
+    <p permid="sec_paths-intr1-p8">
       What all this says is that if a graph has an Euler path and two vertices with odd degree,
       then the Euler path must start at one of the odd degree vertices and end at the other.
       In such a situation, every other vertex <em>must</em>
@@ -217,7 +217,7 @@
       all vertices must have even degree.
     </p>
 
-    <p permid="sec_paths-intr-p9">
+    <p permid="sec_paths-intr1-p9">
       The converse is also true:
       if all the vertices of a graph have even degree,
       then the graph has an Euler circuit,
@@ -233,16 +233,16 @@
 
     <assemblage permid="sec_paths-asm-euler-paths-circuits">
       <title>Euler Paths and Circuits</title>
-      <p permid="sec_paths-intr-p10">
-        <ul permid="sec_paths-intr-ul">
-          <li permid="sec_paths-intr-ul-l_j">
-            <p permid="sec_paths-intr-ul-l_j-p">
+      <p permid="sec_paths-intr1-p10">
+        <ul permid="sec_paths-intr1-ul1">
+          <li permid="sec_paths-intr1-ul1-l_j">
+            <p permid="sec_paths-intr1-ul1-l_j-p1">
               A graph has an Euler circuit if and only if the degree of every vertex is even.
             </p>
           </li>
 
-          <li permid="sec_paths-intr-ul-l_s">
-            <p permid="sec_paths-intr-ul-l_s-p">
+          <li permid="sec_paths-intr1-ul1-l_s">
+            <p permid="sec_paths-intr1-ul1-l_s-p1">
               A graph has an Euler path if and only if there are at most two vertices with odd degree.
             </p>
           </li>
@@ -250,16 +250,16 @@
       </p>
     </assemblage>
 
-    <p permid="sec_paths-intr-p11">
+    <p permid="sec_paths-intr1-p11">
       Since the bridges of Königsberg graph has all four vertices with odd degree,
       there is no Euler path through the graph.
       Thus there is no way for the townspeople to cross every bridge exactly once.
     </p>
   </introduction>
 
-  <subsection permid="-ssec-hamilton-paths">
+  <subsection permid="ssec-hamilton-paths">
     <title>Hamilton Paths</title>
-    <p permid="-ssec-hamilton-paths-p1">
+    <p permid="ssec-hamilton-paths-p1">
       Suppose you wanted to tour Königsberg in such a way where you visit each land mass
       (the two islands and both banks)
       exactly once.
@@ -273,15 +273,15 @@
       which are Hamliton paths which start and stop at the same vertex.
     </p>
 
-    <example permid="-ssec-hamilton-paths-ex">
+    <example permid="ssec-hamilton-paths-ex1">
       <statement>
-        <p permid="-ssec-hamilton-paths-ex-p">
+        <p permid="ssec-hamilton-paths-ex1-p1">
           Determine whether the graphs below have a Hamilton path.
         </p>
 
-        <sidebyside permid="-ssec-hamilton-paths-ex-sbs1" widths="20% 20%" margins="auto">
+        <sidebyside permid="ssec-hamilton-paths-ex1-sbs1" widths="20% 20%" margins="auto">
 
-          <image permid="-ssec-hamilton-paths-ex-im1">
+          <image permid="ssec-hamilton-paths-ex1-im1">
 
         <latex-image>
 
@@ -295,7 +295,7 @@
         </latex-image>
           </image>
 
-          <image permid="-ssec-hamilton-paths-ex-im2">
+          <image permid="ssec-hamilton-paths-ex1-im2">
 
         <latex-image>
 
@@ -311,16 +311,16 @@
 
         </sidebyside>
       </statement>
-      <solution permid="-ssec-hamilton-paths-ex-s">
-        <p permid="-ssec-hamilton-paths-ex-s-p1">
+      <solution permid="ssec-hamilton-paths-ex1-s1">
+        <p permid="ssec-hamilton-paths-ex1-s1-p1">
           The graph on the left has a Hamilton path
           (many different ones, actually),
           as shown here:
         </p>
 
-        <sidebyside permid="-ssec-hamilton-paths-ex-sbs2" width="20%">
+        <sidebyside permid="ssec-hamilton-paths-ex1-sbs2" width="20%">
 
-          <image permid="-ssec-hamilton-paths-ex-s-im">
+          <image permid="ssec-hamilton-paths-ex1-s1-im1">
 
         <latex-image>
 
@@ -337,7 +337,7 @@
 
         </sidebyside>
 
-        <p permid="-ssec-hamilton-paths-ex-s-p2">
+        <p permid="ssec-hamilton-paths-ex1-s1-p2">
           The graph on the right does not have a Hamilton path.
           You would need to visit each of the
           <q>outside</q> vertices,
@@ -348,7 +348,7 @@
       </solution>
     </example>
 
-    <p permid="-ssec-hamilton-paths-p2">
+    <p permid="ssec-hamilton-paths-p2">
       It appears that finding Hamilton paths would be easier because graphs often have more edges than vertices,
       so there are fewer requirements to be met.
       However, nobody knows whether this is true.

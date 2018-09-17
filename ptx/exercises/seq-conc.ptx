@@ -3,12 +3,12 @@
   <title>Chapter Review</title>
   <exercise permid="sec_sequences-conc-e_xo">
     <statement>
-      <p permid="sec_sequences-conc-e_xo-p">
+      <p permid="sec_sequences-conc-e_xo-p1">
         Find <m>3 + 7 + 11+ \cdots + 427</m>.
       </p>
     </statement>
-    <solution permid="sec_sequences-conc-e_xo-s">
-      <p permid="sec_sequences-conc-e_xo-s-p">
+    <solution permid="sec_sequences-conc-e_xo-s1">
+      <p permid="sec_sequences-conc-e_xo-s1-p1">
         <m>\frac{430\cdot 107}{2} = 23005</m>.
       </p>
     </solution>
@@ -21,35 +21,35 @@
       </p>
 
       <p permid="sec_sequences-conc-e_ag-p2">
-        <ol permid="sec_sequences-conc-e_ag-ol">
-          <li permid="sec_sequences-conc-e_ag-ol-l_j">
-            <p permid="sec_sequences-conc-e_ag-ol-l_j-p">
+        <ol permid="sec_sequences-conc-e_ag-ol1">
+          <li permid="sec_sequences-conc-e_ag-ol1-l_j">
+            <p permid="sec_sequences-conc-e_ag-ol1-l_j-p1">
               How many terms are there in the sequence?
             </p>
           </li>
 
-          <li permid="sec_sequences-conc-e_ag-ol-l_s">
-            <p permid="sec_sequences-conc-e_ag-ol-l_s-p">
+          <li permid="sec_sequences-conc-e_ag-ol1-l_s">
+            <p permid="sec_sequences-conc-e_ag-ol1-l_s-p1">
               What is the second-to-last term?
             </p>
           </li>
 
-          <li permid="sec_sequences-conc-e_ag-ol-l_b">
-            <p permid="sec_sequences-conc-e_ag-ol-l_b-p">
+          <li permid="sec_sequences-conc-e_ag-ol1-l_b">
+            <p permid="sec_sequences-conc-e_ag-ol1-l_b-p1">
               Find the sum of all the terms in the sequence.
             </p>
           </li>
         </ol>
       </p>
     </statement>
-    <solution permid="sec_sequences-conc-e_ag-s">
-      <p permid="sec_sequences-conc-e_ag-s-p">
-        <ol permid="sec_sequences-conc-e_ag-s-ol">
-          <li permid="sec_sequences-conc-e_ag-s-ol-l_j"><m>n+2</m> terms.</li>
+    <solution permid="sec_sequences-conc-e_ag-s1">
+      <p permid="sec_sequences-conc-e_ag-s1-p1">
+        <ol permid="sec_sequences-conc-e_ag-s1-ol1">
+          <li permid="sec_sequences-conc-e_ag-s1-ol1-l_j"><m>n+2</m> terms.</li>
 
-          <li permid="sec_sequences-conc-e_ag-s-ol-l_s"><m>4n+2</m>.</li>
+          <li permid="sec_sequences-conc-e_ag-s1-ol1-l_s"><m>4n+2</m>.</li>
 
-          <li permid="sec_sequences-conc-e_ag-s-ol-l_b"><m>\frac{(4n+8)(n+2)}{2}</m>.</li>
+          <li permid="sec_sequences-conc-e_ag-s1-ol1-l_b"><m>\frac{(4n+8)(n+2)}{2}</m>.</li>
         </ol>
       </p>
     </solution>
@@ -62,16 +62,16 @@
       </p>
 
       <p permid="sec_sequences-conc-e_dp-p2">
-        <ol permid="sec_sequences-conc-e_dp-ol">
-          <li permid="sec_sequences-conc-e_dp-ol-l_j">
-            <p permid="sec_sequences-conc-e_dp-ol-l_j-p">
+        <ol permid="sec_sequences-conc-e_dp-ol1">
+          <li permid="sec_sequences-conc-e_dp-ol1-l_j">
+            <p permid="sec_sequences-conc-e_dp-ol1-l_j-p1">
               Find the first 4 terms of the sequence.
               What sort of sequence is this?
             </p>
           </li>
 
-          <li permid="sec_sequences-conc-e_dp-ol-l_s">
-            <p permid="sec_sequences-conc-e_dp-ol-l_s-p">
+          <li permid="sec_sequences-conc-e_dp-ol1-l_s">
+            <p permid="sec_sequences-conc-e_dp-ol1-l_s-p1">
               Find the <em>sum</em> of the first 25 terms.
               That is, compute <m>\d\sum_{k=1}^{25}a_k</m>.
             </p>
@@ -79,14 +79,14 @@
         </ol>
       </p>
     </statement>
-    <solution permid="sec_sequences-conc-e_dp-s">
-      <p permid="sec_sequences-conc-e_dp-s-p">
-        <ol permid="sec_sequences-conc-e_dp-s-ol">
-          <li permid="sec_sequences-conc-e_dp-s-ol-l_j">
+    <solution permid="sec_sequences-conc-e_dp-s1">
+      <p permid="sec_sequences-conc-e_dp-s1-p1">
+        <ol permid="sec_sequences-conc-e_dp-s1-ol1">
+          <li permid="sec_sequences-conc-e_dp-s1-ol1-l_j">
             <m>2, 10, 50, 250, \ldots</m> The sequence is geometric.
           </li>
 
-          <li permid="sec_sequences-conc-e_dp-s-ol-l_s"><m>\frac{2 - 2\cdot 5^{25}}{-4}</m>.</li>
+          <li permid="sec_sequences-conc-e_dp-s1-ol1-l_s"><m>\frac{2 - 2\cdot 5^{25}}{-4}</m>.</li>
         </ol>
       </p>
     </solution>
@@ -100,9 +100,9 @@
       </p>
 
       <p permid="sec_sequences-conc-e_gy-p2">
-        <ol permid="sec_sequences-conc-e_gy-ol">
-          <li permid="sec_sequences-conc-e_gy-ol-l_j">
-            <p permid="sec_sequences-conc-e_gy-ol-l_j-p">
+        <ol permid="sec_sequences-conc-e_gy-ol1">
+          <li permid="sec_sequences-conc-e_gy-ol1-l_j">
+            <p permid="sec_sequences-conc-e_gy-ol1-l_j-p1">
               Find a closed formula for <m>a_n</m>,
               the <m>n</m>th term of the sequence,
               by writing each term as a sum of a sequence.
@@ -110,8 +110,8 @@
             </p>
           </li>
 
-          <li permid="sec_sequences-conc-e_gy-ol-l_s">
-            <p permid="sec_sequences-conc-e_gy-ol-l_s-p">
+          <li permid="sec_sequences-conc-e_gy-ol1-l_s">
+            <p permid="sec_sequences-conc-e_gy-ol1-l_s-p1">
               Find a closed formula again,
               this time using either polynomial fitting or the characteristic root technique
               (whichever is appropriate).
@@ -119,8 +119,8 @@
             </p>
           </li>
 
-          <li permid="sec_sequences-conc-e_gy-ol-l_b">
-            <p permid="sec_sequences-conc-e_gy-ol-l_b-p">
+          <li permid="sec_sequences-conc-e_gy-ol1-l_b">
+            <p permid="sec_sequences-conc-e_gy-ol1-l_b-p1">
               Find a closed formula once again,
               this time by recognizing the sequence as a modification to some well known sequence(s).
               Explain.
@@ -133,15 +133,15 @@
 
   <exercise permid="sec_sequences-conc-e_jq">
     <statement>
-      <p permid="sec_sequences-conc-e_jq-p">
+      <p permid="sec_sequences-conc-e_jq-p1">
         Use polynomial fitting to find a closed formula for the sequence <m>(a_n)_{n\ge 1}</m>:
-        <me permid="sec_sequences-conc-e_jq-p-me">
+        <me permid="sec_sequences-conc-e_jq-p1-me1">
           4, 11, 20, 31, 44, \ldots
         </me>.
       </p>
     </statement>
-    <solution permid="sec_sequences-conc-e_jq-s">
-      <p permid="sec_sequences-conc-e_jq-s-p">
+    <solution permid="sec_sequences-conc-e_jq-s1">
+      <p permid="sec_sequences-conc-e_jq-s1-p1">
         <m>a_n = n^2 + 4n - 1</m>.
       </p>
     </solution>
@@ -155,33 +155,33 @@
       </p>
 
       <p permid="sec_sequences-conc-e_mz-p2">
-        <ol permid="sec_sequences-conc-e_mz-ol">
-          <li permid="sec_sequences-conc-e_mz-ol-l_j">
-            <p permid="sec_sequences-conc-e_mz-ol-l_j-p">
+        <ol permid="sec_sequences-conc-e_mz-ol1">
+          <li permid="sec_sequences-conc-e_mz-ol1-l_j">
+            <p permid="sec_sequences-conc-e_mz-ol1-l_j-p1">
               The sequence of partial sums.
             </p>
           </li>
 
-          <li permid="sec_sequences-conc-e_mz-ol-l_s">
-            <p permid="sec_sequences-conc-e_mz-ol-l_s-p">
+          <li permid="sec_sequences-conc-e_mz-ol1-l_s">
+            <p permid="sec_sequences-conc-e_mz-ol1-l_s-p1">
               The sequence of second differences.
             </p>
           </li>
         </ol>
       </p>
     </statement>
-    <solution permid="sec_sequences-conc-e_mz-s">
-      <p permid="sec_sequences-conc-e_mz-s-p">
-        <ol permid="sec_sequences-conc-e_mz-s-ol">
-          <li permid="sec_sequences-conc-e_mz-s-ol-l_j">
-            <p permid="sec_sequences-conc-e_mz-s-ol-l_j-p">
+    <solution permid="sec_sequences-conc-e_mz-s1">
+      <p permid="sec_sequences-conc-e_mz-s1-p1">
+        <ol permid="sec_sequences-conc-e_mz-s1-ol1">
+          <li permid="sec_sequences-conc-e_mz-s1-ol1-l_j">
+            <p permid="sec_sequences-conc-e_mz-s1-ol1-l_j-p1">
               The sequence of partial sums will be a degree 4 polynomial
               (its sequence of differences will be the original sequence).
             </p>
           </li>
 
-          <li permid="sec_sequences-conc-e_mz-s-ol-l_s">
-            <p permid="sec_sequences-conc-e_mz-s-ol-l_s-p">
+          <li permid="sec_sequences-conc-e_mz-s1-ol1-l_s">
+            <p permid="sec_sequences-conc-e_mz-s1-ol1-l_s-p1">
               The sequence of second differences will be a degree 1 polynomial - an arithmetic sequence.
             </p>
           </li>
@@ -198,15 +198,15 @@
       </p>
 
       <p permid="sec_sequences-conc-e_pi-p2">
-        <ol permid="sec_sequences-conc-e_pi-ol">
-          <li permid="sec_sequences-conc-e_pi-ol-l_j">
-            <p permid="sec_sequences-conc-e_pi-ol-l_j-p">
+        <ol permid="sec_sequences-conc-e_pi-ol1">
+          <li permid="sec_sequences-conc-e_pi-ol1-l_j">
+            <p permid="sec_sequences-conc-e_pi-ol1-l_j-p1">
               Write out the first 6 terms of the sequence.
             </p>
           </li>
 
-          <li permid="sec_sequences-conc-e_pi-ol-l_s">
-            <p permid="sec_sequences-conc-e_pi-ol-l_s-p">
+          <li permid="sec_sequences-conc-e_pi-ol1-l_s">
+            <p permid="sec_sequences-conc-e_pi-ol1-l_s-p1">
               Could the closed formula for <m>a_n</m> be a polynomial?
               Explain.
             </p>
@@ -214,13 +214,13 @@
         </ol>
       </p>
     </statement>
-    <solution permid="sec_sequences-conc-e_pi-s">
-      <p permid="sec_sequences-conc-e_pi-s-p">
-        <ol permid="sec_sequences-conc-e_pi-s-ol">
-          <li permid="sec_sequences-conc-e_pi-s-ol-l_j"><m>4, 6, 10, 16, 26, 42, \ldots</m>.</li>
+    <solution permid="sec_sequences-conc-e_pi-s1">
+      <p permid="sec_sequences-conc-e_pi-s1-p1">
+        <ol permid="sec_sequences-conc-e_pi-s1-ol1">
+          <li permid="sec_sequences-conc-e_pi-s1-ol1-l_j"><m>4, 6, 10, 16, 26, 42, \ldots</m>.</li>
 
-          <li permid="sec_sequences-conc-e_pi-s-ol-l_s">
-            <p permid="sec_sequences-conc-e_pi-s-ol-l_s-p">
+          <li permid="sec_sequences-conc-e_pi-s1-ol1-l_s">
+            <p permid="sec_sequences-conc-e_pi-s1-ol1-l_s-p1">
               No, taking differences gives the original sequence back,
               so the differences will never be constant.
             </p>
@@ -232,13 +232,13 @@
 
   <exercise permid="sec_sequences-conc-e_sa">
     <statement>
-      <p permid="sec_sequences-conc-e_sa-p">
+      <p permid="sec_sequences-conc-e_sa-p1">
         The sequence <m>-1, 0, 2, 5, 9, 14\ldots</m> has closed formula <m>a_n = \dfrac{(n+1)(n-2)}{2}</m>.
         Use this fact to find a closed formula for the sequence <m>4, 10, 18, 28, 40, \ldots</m>.
       </p>
     </statement>
-    <solution permid="sec_sequences-conc-e_sa-s">
-      <p permid="sec_sequences-conc-e_sa-s-p">
+    <solution permid="sec_sequences-conc-e_sa-s1">
+      <p permid="sec_sequences-conc-e_sa-s1-p1">
         <m>b_n = (n+3)n</m>.
       </p>
     </solution>
@@ -246,7 +246,7 @@
 
   <exercise permid="sec_sequences-conc-e_vj">
     <statement>
-      <p permid="sec_sequences-conc-e_vj-p">
+      <p permid="sec_sequences-conc-e_vj-p1">
         The in song <em>The Twelve Days of Christmas</em>,
         my true love gave to me first 1 gift,
         then 2 gifts and 1 gift, then 3 gifts, 2 gifts and 1 gift,
@@ -264,15 +264,15 @@
       </p>
 
       <p permid="sec_sequences-conc-e_ys-p2">
-        <ol permid="sec_sequences-conc-e_ys-ol">
-          <li permid="sec_sequences-conc-e_ys-ol-l_j">
-            <p permid="sec_sequences-conc-e_ys-ol-l_j-p">
+        <ol permid="sec_sequences-conc-e_ys-ol1">
+          <li permid="sec_sequences-conc-e_ys-ol1-l_j">
+            <p permid="sec_sequences-conc-e_ys-ol1-l_j-p1">
               Write out the first 5 terms of the sequence defined by this recurrence relation.
             </p>
           </li>
 
-          <li permid="sec_sequences-conc-e_ys-ol-l_s">
-            <p permid="sec_sequences-conc-e_ys-ol-l_s-p">
+          <li permid="sec_sequences-conc-e_ys-ol1-l_s">
+            <p permid="sec_sequences-conc-e_ys-ol1-l_s-p1">
               Solve the recurrence relation.
               That is, find a closed formula for <m>a_n</m>.
             </p>
@@ -280,12 +280,12 @@
         </ol>
       </p>
     </statement>
-    <solution permid="sec_sequences-conc-e_ys-s">
-      <p permid="sec_sequences-conc-e_ys-s-p">
-        <ol permid="sec_sequences-conc-e_ys-s-ol">
-          <li permid="sec_sequences-conc-e_ys-s-ol-l_j"><m>1, 2, 16,68, 364, \ldots</m>.</li>
+    <solution permid="sec_sequences-conc-e_ys-s1">
+      <p permid="sec_sequences-conc-e_ys-s1-p1">
+        <ol permid="sec_sequences-conc-e_ys-s1-ol1">
+          <li permid="sec_sequences-conc-e_ys-s1-ol1-l_j"><m>1, 2, 16,68, 364, \ldots</m>.</li>
 
-          <li permid="sec_sequences-conc-e_ys-s-ol-l_s"><m>a_n = \frac{3}{7}(-2)^n + \frac{4}{7}5^n</m>.</li>
+          <li permid="sec_sequences-conc-e_ys-s1-ol1-l_s"><m>a_n = \frac{3}{7}(-2)^n + \frac{4}{7}5^n</m>.</li>
         </ol>
       </p>
     </solution>
@@ -299,16 +299,16 @@
       </p>
 
       <p permid="sec_sequences-conc-e_bk-p2">
-        <ol permid="sec_sequences-conc-e_bk-ol">
-          <li permid="sec_sequences-conc-e_bk-ol-l_j">
-            <p permid="sec_sequences-conc-e_bk-ol-l_j-p">
+        <ol permid="sec_sequences-conc-e_bk-ol1">
+          <li permid="sec_sequences-conc-e_bk-ol1-l_j">
+            <p permid="sec_sequences-conc-e_bk-ol1-l_j-p1">
               Find the next two terms of the sequence
               (<m>a_2</m> and <m>a_3</m>).
             </p>
           </li>
 
-          <li permid="sec_sequences-conc-e_bk-ol-l_s">
-            <p permid="sec_sequences-conc-e_bk-ol-l_s-p">
+          <li permid="sec_sequences-conc-e_bk-ol1-l_s">
+            <p permid="sec_sequences-conc-e_bk-ol1-l_s-p1">
               Solve the recurrence relation.
               That is, find a closed formula for the <m>n</m>th term of the sequence.
             </p>
@@ -316,12 +316,12 @@
         </ol>
       </p>
     </statement>
-    <solution permid="sec_sequences-conc-e_bk-s">
-      <p permid="sec_sequences-conc-e_bk-s-p">
-        <ol permid="sec_sequences-conc-e_bk-s-ol">
-          <li permid="sec_sequences-conc-e_bk-s-ol-l_j"><m>a_2 = 14</m>. <m>a_3 = 52</m>.</li>
+    <solution permid="sec_sequences-conc-e_bk-s1">
+      <p permid="sec_sequences-conc-e_bk-s1-p1">
+        <ol permid="sec_sequences-conc-e_bk-s1-ol1">
+          <li permid="sec_sequences-conc-e_bk-s1-ol1-l_j"><m>a_2 = 14</m>. <m>a_3 = 52</m>.</li>
 
-          <li permid="sec_sequences-conc-e_bk-s-ol-l_s"><m>a_n = \frac{1}{6}(-2)^n + \frac{5}{6}4^n</m>.</li>
+          <li permid="sec_sequences-conc-e_bk-s1-ol1-l_s"><m>a_n = \frac{1}{6}(-2)^n + \frac{5}{6}4^n</m>.</li>
         </ol>
       </p>
     </solution>
@@ -340,32 +340,32 @@
       </p>
 
       <p permid="sec_sequences-conc-e_et-p2">
-        <ol permid="sec_sequences-conc-e_et-ol">
-          <li permid="sec_sequences-conc-e_et-ol-l_j">
-            <p permid="sec_sequences-conc-e_et-ol-l_j-p">
+        <ol permid="sec_sequences-conc-e_et-ol1">
+          <li permid="sec_sequences-conc-e_et-ol1-l_j">
+            <p permid="sec_sequences-conc-e_et-ol1-l_j-p1">
               Write out the first few terms of the sequence.
             </p>
           </li>
 
-          <li permid="sec_sequences-conc-e_et-ol-l_s">
-            <p permid="sec_sequences-conc-e_et-ol-l_s-p">
+          <li permid="sec_sequences-conc-e_et-ol1-l_s">
+            <p permid="sec_sequences-conc-e_et-ol1-l_s-p1">
               Give a recursive definition of the sequence and explain why it is correct.
             </p>
           </li>
 
-          <li permid="sec_sequences-conc-e_et-ol-l_b">
-            <p permid="sec_sequences-conc-e_et-ol-l_b-p">
+          <li permid="sec_sequences-conc-e_et-ol1-l_b">
+            <p permid="sec_sequences-conc-e_et-ol1-l_b-p1">
               Find a closed formula for the <m>n</m>th term of the sequence.
             </p>
           </li>
         </ol>
       </p>
     </statement>
-    <solution permid="sec_sequences-conc-e_et-s">
-      <p permid="sec_sequences-conc-e_et-s-p">
-        <ol permid="sec_sequences-conc-e_et-s-ol">
-          <li permid="sec_sequences-conc-e_et-s-ol-l_j">
-            <p permid="sec_sequences-conc-e_et-s-ol-l_j-p">
+    <solution permid="sec_sequences-conc-e_et-s1">
+      <p permid="sec_sequences-conc-e_et-s1-p1">
+        <ol permid="sec_sequences-conc-e_et-s1-ol1">
+          <li permid="sec_sequences-conc-e_et-s1-ol1-l_j">
+            <p permid="sec_sequences-conc-e_et-s1-ol1-l_j-p1">
               On the first day, your 2 mini bunnies become 2 large bunnies.
               On day 2, your two large bunnies produce 4 mini bunnies.
               On day 3, you have 4 mini bunnies
@@ -379,7 +379,7 @@
             </p>
           </li>
 
-          <li permid="sec_sequences-conc-e_et-s-ol-l_s">
+          <li permid="sec_sequences-conc-e_et-s1-ol1-l_s">
             <m>a_n = a_{n-1} + 2a_{n-2}</m>.
             This is because the number of bunnies is equal to the number of bunnies you had the previous day
             (both mini and large)
@@ -387,8 +387,8 @@
             (since all bunnies you had 2 days ago are now large and producing 2 new bunnies each).
           </li>
 
-          <li permid="sec_sequences-conc-e_et-s-ol-l_b">
-            <p permid="sec_sequences-conc-e_et-s-ol-l_b-p">
+          <li permid="sec_sequences-conc-e_et-s1-ol1-l_b">
+            <p permid="sec_sequences-conc-e_et-s1-ol1-l_b-p1">
               Using the characteristic root technique,
               we find <m>a_n = a2^n + b(-1)^n</m>,
               and we can find <m>a</m> and <m>b</m> to give <m>a_n = \frac{4}{3}2^n + \frac{2}{3}(-1)^n</m>.
@@ -406,63 +406,63 @@
       </p>
 
       <p permid="sec_sequences-conc-e_hc-p2">
-        <ol permid="sec_sequences-conc-e_hc-ol">
-          <li permid="sec_sequences-conc-e_hc-ol-l_j"><m>n! \lt n^n</m> for <m>n \ge 2</m></li>
+        <ol permid="sec_sequences-conc-e_hc-ol1">
+          <li permid="sec_sequences-conc-e_hc-ol1-l_j"><m>n! \lt n^n</m> for <m>n \ge 2</m></li>
 
-          <li permid="sec_sequences-conc-e_hc-ol-l_s">
+          <li permid="sec_sequences-conc-e_hc-ol1-l_s">
             <m>\d\frac{1}{1\cdot 2} + \frac{1}{2\cdot 3} +\frac{1}{3\cdot 4}+\cdots + \frac{1}{n\cdot(n+1)} = \d\frac{n}{n+1}</m> for all <m>n \in \Z^+</m>.
           </li>
 
-          <li permid="sec_sequences-conc-e_hc-ol-l_b">
+          <li permid="sec_sequences-conc-e_hc-ol1-l_b">
             <m>4^n - 1</m> is a multiple of 3 for all <m>n \in \N</m>.
           </li>
 
-          <li permid="sec_sequences-conc-e_hc-ol-l_k">
-            <p permid="sec_sequences-conc-e_hc-ol-l_k-p">
+          <li permid="sec_sequences-conc-e_hc-ol1-l_k">
+            <p permid="sec_sequences-conc-e_hc-ol1-l_k-p1">
               The <em>greatest</em> amount of postage you <em>cannot</em>
               make exactly using 4 and 9 cent stamps is 23 cents.
             </p>
           </li>
 
-          <li permid="sec_sequences-conc-e_hc-ol-l_t">
-            <p permid="sec_sequences-conc-e_hc-ol-l_t-p">
+          <li permid="sec_sequences-conc-e_hc-ol1-l_t">
+            <p permid="sec_sequences-conc-e_hc-ol1-l_t-p1">
               Every even number squared is divisible by 4.
             </p>
           </li>
         </ol>
       </p>
     </statement>
-    <solution permid="sec_sequences-conc-e_hc-s">
-      <p permid="sec_sequences-conc-e_hc-s-p">
-        <ol permid="sec_sequences-conc-e_hc-s-ol">
-          <li permid="sec_sequences-conc-e_hc-s-ol-l_j">
-            <p permid="sec_sequences-conc-e_hc-s-ol-l_j-p">
+    <solution permid="sec_sequences-conc-e_hc-s1">
+      <p permid="sec_sequences-conc-e_hc-s1-p1">
+        <ol permid="sec_sequences-conc-e_hc-s1-ol1">
+          <li permid="sec_sequences-conc-e_hc-s1-ol1-l_j">
+            <p permid="sec_sequences-conc-e_hc-s1-ol1-l_j-p1">
               Hint: <m>(n+1)^{n+1} &gt; (n+1) \cdot n^{n}</m>.
             </p>
           </li>
 
-          <li permid="sec_sequences-conc-e_hc-s-ol-l_s">
-            <p permid="sec_sequences-conc-e_hc-s-ol-l_s-p">
+          <li permid="sec_sequences-conc-e_hc-s1-ol1-l_s">
+            <p permid="sec_sequences-conc-e_hc-s1-ol1-l_s-p1">
               Hint: This should be similar to the other sum proofs.
               The last bit comes down to adding fractions.
             </p>
           </li>
 
-          <li permid="sec_sequences-conc-e_hc-s-ol-l_b">
-            <p permid="sec_sequences-conc-e_hc-s-ol-l_b-p">
+          <li permid="sec_sequences-conc-e_hc-s1-ol1-l_b">
+            <p permid="sec_sequences-conc-e_hc-s1-ol1-l_b-p1">
               Hint: Write <m>4^{k+1} - 1 = 4\cdot 4^k - 4 + 3</m>.
             </p>
           </li>
 
-          <li permid="sec_sequences-conc-e_hc-s-ol-l_k">
-            <p permid="sec_sequences-conc-e_hc-s-ol-l_k-p">
+          <li permid="sec_sequences-conc-e_hc-s1-ol1-l_k">
+            <p permid="sec_sequences-conc-e_hc-s1-ol1-l_k-p1">
               Hint: one 9-cent stamp is 1 more than two 4-cent stamps,
               and seven 4-cent stamps is 1 more than three 9-cent stamps.
             </p>
           </li>
 
-          <li permid="sec_sequences-conc-e_hc-s-ol-l_t">
-            <p permid="sec_sequences-conc-e_hc-s-ol-l_t-p">
+          <li permid="sec_sequences-conc-e_hc-s1-ol1-l_t">
+            <p permid="sec_sequences-conc-e_hc-s1-ol1-l_t-p1">
               Careful to actually use induction here.
               The base case: <m>2^2 = 4</m>.
               The inductive case:
@@ -478,13 +478,13 @@
 
   <exercise permid="sec_sequences-conc-e_ku">
     <statement>
-      <p permid="sec_sequences-conc-e_ku-p">
+      <p permid="sec_sequences-conc-e_ku-p1">
         Prove <m>1^3 + 2^3 + 3^3 + \cdots + n^3 = \left(\frac{n(n+1)}{2}\right)^2</m> holds for all <m>n \ge 1</m>,
         by mathematical induction.
       </p>
     </statement>
-    <solution permid="sec_sequences-conc-e_ku-s">
-      <p permid="sec_sequences-conc-e_ku-s-p">
+    <solution permid="sec_sequences-conc-e_ku-s1">
+      <p permid="sec_sequences-conc-e_ku-s1-p1">
         Hint: This is a straight forward induction proof.
         Note you will need to simplify
         <m>\left(\frac{n(n+1)}{2}\right)^2 + (n+1)^3</m> and get <m>\left(\frac{(n+1)(n+2)}{2}\right)^2</m>.
@@ -494,15 +494,15 @@
 
   <exercise permid="sec_sequences-conc-e_nd">
     <statement>
-      <p permid="sec_sequences-conc-e_nd-p">
+      <p permid="sec_sequences-conc-e_nd-p1">
         Suppose <m>a_0 = 1</m>,
         <m>a_1 = 1</m> and <m>a_n = 3a_{n-1} - 2a_{n-1}</m>.
         Prove, using strong induction,
         that <m>a_n = 1</m> for all <m>n</m>.
       </p>
     </statement>
-    <solution permid="sec_sequences-conc-e_nd-s">
-      <p permid="sec_sequences-conc-e_nd-s-p">
+    <solution permid="sec_sequences-conc-e_nd-s1">
+      <p permid="sec_sequences-conc-e_nd-s1-p1">
         Hint: there are two base cases <m>P(0)</m> and <m>P(1)</m>.
         Then, for the inductive case,
         assume <m>P(k)</m> is true for all <m>k \lt n</m>.
@@ -514,14 +514,14 @@
 
   <exercise permid="sec_sequences-conc-e_qm">
     <statement>
-      <p permid="sec_sequences-conc-e_qm-p">
+      <p permid="sec_sequences-conc-e_qm-p1">
         Prove, using strong induction,
         that every positive integer can be written as the sum of distinct powers of 2.
         For example, <m>13 = 1 + 4 + 8 = 2^0 + 2^2 + 2^3</m>.
       </p>
     </statement>
-    <solution permid="sec_sequences-conc-e_qm-s">
-      <p permid="sec_sequences-conc-e_qm-s-p">
+    <solution permid="sec_sequences-conc-e_qm-s1">
+      <p permid="sec_sequences-conc-e_qm-s1-p1">
         Note that <m>1 = 2^0</m>; this is your base case.
         Now suppose <m>k</m> can be written as the sum of distinct powers of 2 for all <m>1\le k \le n</m>.
         We can then write <m>n</m> as the sum of distinct powers of 2 as follows:
@@ -538,12 +538,12 @@
 
   <exercise permid="sec_sequences-conc-e_te">
     <statement>
-      <p permid="sec_sequences-conc-e_te-p">
+      <p permid="sec_sequences-conc-e_te-p1">
         Prove using induction that every set containing <m>n</m> elements has <m>2^n</m> different subsets for any <m>n \ge 1</m>.
       </p>
     </statement>
-    <solution permid="sec_sequences-conc-e_te-s">
-      <p permid="sec_sequences-conc-e_te-s-p">
+    <solution permid="sec_sequences-conc-e_te-s1">
+      <p permid="sec_sequences-conc-e_te-s1-p1">
         Let <m>P(n)</m> be the statement,
         <q>every set containing <m>n</m> elements has <m>2^n</m> different subsets.</q>
         We will show <m>P(n)</m> is true for all <m>n \ge 1</m>.

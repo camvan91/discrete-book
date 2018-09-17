@@ -3,14 +3,14 @@
 
   <exercise permid="exers_counting-addmult-e_xo">
     <statement>
-      <p permid="exers_counting-addmult-e_xo-p">
+      <p permid="exers_counting-addmult-e_xo-p1">
         Your wardrobe consists of 5 shirts, 3 pairs of pants, and 17 bow ties.
             <idx><h>bow ties</h></idx>
         How many different outfits can you make?
       </p>
     </statement>
-    <solution permid="exers_counting-addmult-e_xo-s">
-      <p permid="exers_counting-addmult-e_xo-s-p">
+    <solution permid="exers_counting-addmult-e_xo-s1">
+      <p permid="exers_counting-addmult-e_xo-s1-p1">
         There are 255 outfits.
         Use the multiplicative principle.
       </p>
@@ -19,23 +19,23 @@
 
   <exercise permid="exers_counting-addmult-e_ag">
     <statement>
-      <p permid="exers_counting-addmult-e_ag-p">
+      <p permid="exers_counting-addmult-e_ag-p1">
         For your college interview, you must wear a tie.
         You own 3 regular (boring) ties and 5 (cool) bow ties.
 
-        <ol permid="exers_counting-addmult-e_ag-ol">
-          <li permid="exers_counting-addmult-e_ag-ol-l_j">How many choices do you have for your neck-wear?</li>
+        <ol permid="exers_counting-addmult-e_ag-ol1">
+          <li permid="exers_counting-addmult-e_ag-ol1-l_j">How many choices do you have for your neck-wear?</li>
 
-          <li permid="exers_counting-addmult-e_ag-ol-l_s">
-            <p permid="exers_counting-addmult-e_ag-ol-l_s-p">
+          <li permid="exers_counting-addmult-e_ag-ol1-l_s">
+            <p permid="exers_counting-addmult-e_ag-ol1-l_s-p1">
               You realize that the interview is for clown college,
               so you should probably wear both a regular tie and a bow tie.
               How many choices do you have now?
             </p>
           </li>
 
-          <li permid="exers_counting-addmult-e_ag-ol-l_b">
-            <p permid="exers_counting-addmult-e_ag-ol-l_b-p">
+          <li permid="exers_counting-addmult-e_ag-ol1-l_b">
+            <p permid="exers_counting-addmult-e_ag-ol1-l_b-p1">
               For the rest of your outfit,
               you have 5 shirts, 4 skirts, 3 pants, and 7 dresses.
               You want to select either a shirt to wear with a skirt or pants,
@@ -46,22 +46,22 @@
         </ol>
       </p>
     </statement>
-    <solution permid="exers_counting-addmult-e_ag-s">
-      <p permid="exers_counting-addmult-e_ag-s-p">
-        <ol permid="exers_counting-addmult-e_ag-s-ol">
-          <li permid="exers_counting-addmult-e_ag-s-ol-l_j">
-            <p permid="exers_counting-addmult-e_ag-s-ol-l_j-p">
+    <solution permid="exers_counting-addmult-e_ag-s1">
+      <p permid="exers_counting-addmult-e_ag-s1-p1">
+        <ol permid="exers_counting-addmult-e_ag-s1-ol1">
+          <li permid="exers_counting-addmult-e_ag-s1-ol1-l_j">
+            <p permid="exers_counting-addmult-e_ag-s1-ol1-l_j-p1">
               8 ties.
               Use the additive principle.
             </p>
           </li>
 
-          <li permid="exers_counting-addmult-e_ag-s-ol-l_s">
+          <li permid="exers_counting-addmult-e_ag-s1-ol1-l_s">
             15 ties.
             Use the multiplicative principle
           </li>
 
-          <li permid="exers_counting-addmult-e_ag-s-ol-l_b"><m>5\cdot (4+3) + 7 = 42</m> outfits.</li>
+          <li permid="exers_counting-addmult-e_ag-s1-ol1-l_b"><m>5\cdot (4+3) + 7 = 42</m> outfits.</li>
         </ol>
       </p>
     </solution>
@@ -69,37 +69,37 @@
 
   <exercise permid="exers_counting-addmult-e_dp">
     <statement>
-      <p permid="exers_counting-addmult-e_dp-p">
+      <p permid="exers_counting-addmult-e_dp-p1">
         Your Blu-ray collection consists of 9 comedies and 7 horror movies.
         Give an example of a question for which the answer is:
 
-        <ol permid="exers_counting-addmult-e_dp-ol">
-          <li permid="exers_counting-addmult-e_dp-ol-l_j">
-            <p permid="exers_counting-addmult-e_dp-ol-l_j-p">
+        <ol permid="exers_counting-addmult-e_dp-ol1">
+          <li permid="exers_counting-addmult-e_dp-ol1-l_j">
+            <p permid="exers_counting-addmult-e_dp-ol1-l_j-p1">
               16.
             </p>
           </li>
 
-          <li permid="exers_counting-addmult-e_dp-ol-l_s">
-            <p permid="exers_counting-addmult-e_dp-ol-l_s-p">
+          <li permid="exers_counting-addmult-e_dp-ol1-l_s">
+            <p permid="exers_counting-addmult-e_dp-ol1-l_s-p1">
               63.
             </p>
           </li>
         </ol>
       </p>
     </statement>
-    <solution permid="exers_counting-addmult-e_dp-s">
-      <p permid="exers_counting-addmult-e_dp-s-p">
-        <ol permid="exers_counting-addmult-e_dp-s-ol">
-          <li permid="exers_counting-addmult-e_dp-s-ol-l_j">
-            <p permid="exers_counting-addmult-e_dp-s-ol-l_j-p">
+    <solution permid="exers_counting-addmult-e_dp-s1">
+      <p permid="exers_counting-addmult-e_dp-s1-p1">
+        <ol permid="exers_counting-addmult-e_dp-s1-ol1">
+          <li permid="exers_counting-addmult-e_dp-s1-ol1-l_j">
+            <p permid="exers_counting-addmult-e_dp-s1-ol1-l_j-p1">
               For example, 16 is the number of choices you have if you want to watch one movie,
               either a comedy or horror flick.
             </p>
           </li>
 
-          <li permid="exers_counting-addmult-e_dp-s-ol-l_s">
-            <p permid="exers_counting-addmult-e_dp-s-ol-l_s-p">
+          <li permid="exers_counting-addmult-e_dp-s1-ol1-l_s">
+            <p permid="exers_counting-addmult-e_dp-s1-ol1-l_s-p1">
               For example, 63 is the number of choices you have if you will watch two movies,
               first a comedy and then a horror.
             </p>
@@ -111,7 +111,7 @@
 
   <exercise permid="exers_counting-addmult-e_gy">
     <statement>
-      <p permid="exers_counting-addmult-e_gy-p">
+      <p permid="exers_counting-addmult-e_gy-p1">
         We usually write numbers in decimal form
         (or base 10),
         meaning numbers are composed using 10 different <q>digits</q>
@@ -122,31 +122,31 @@
         <m>\{0, 1, \ldots, 9, \mathrm{A, B, C, D, E, F}\}</m>.
         So for example, a 3 digit hexadecimal number might be 2B8.
 
-        <ol permid="exers_counting-addmult-e_gy-ol">
-          <li permid="exers_counting-addmult-e_gy-ol-l_j">
-            <p permid="exers_counting-addmult-e_gy-ol-l_j-p">
+        <ol permid="exers_counting-addmult-e_gy-ol1">
+          <li permid="exers_counting-addmult-e_gy-ol1-l_j">
+            <p permid="exers_counting-addmult-e_gy-ol1-l_j-p1">
               How many 2-digit hexadecimals are there in which the first digit is E or F? Explain your answer in terms of the additive principle
               (using either events or sets).
             </p>
           </li>
 
-          <li permid="exers_counting-addmult-e_gy-ol-l_s">
-            <p permid="exers_counting-addmult-e_gy-ol-l_s-p">
+          <li permid="exers_counting-addmult-e_gy-ol1-l_s">
+            <p permid="exers_counting-addmult-e_gy-ol1-l_s-p1">
               Explain why your answer to the previous part is correct in terms of the multiplicative principle
               (using either events or sets).
               Why do both the additive and multiplicative principles give you the same answer?
             </p>
           </li>
 
-          <li permid="exers_counting-addmult-e_gy-ol-l_b">
-            <p permid="exers_counting-addmult-e_gy-ol-l_b-p">
+          <li permid="exers_counting-addmult-e_gy-ol1-l_b">
+            <p permid="exers_counting-addmult-e_gy-ol1-l_b-p1">
               How many 3-digit hexadecimals start with a letter (A-F) and end with a numeral (0-9)?
               Explain.
             </p>
           </li>
 
-          <li permid="exers_counting-addmult-e_gy-ol-l_k">
-            <p permid="exers_counting-addmult-e_gy-ol-l_k-p">
+          <li permid="exers_counting-addmult-e_gy-ol1-l_k">
+            <p permid="exers_counting-addmult-e_gy-ol1-l_k-p1">
               How many 3-digit hexadecimals start with a letter (A-F) or end with a numeral (0-9) (or both)?
               Explain.
             </p>
@@ -158,40 +158,40 @@
 
   <exercise permid="exers_counting-addmult-e_jq">
     <statement>
-      <p permid="exers_counting-addmult-e_jq-p">
+      <p permid="exers_counting-addmult-e_jq-p1">
         Suppose you have sets <m>A</m> and <m>B</m> with
         <m>\card{A} = 10</m> and <m>\card{B} = 15</m>.
 
-        <ol permid="exers_counting-addmult-e_jq-ol">
-          <li permid="exers_counting-addmult-e_jq-ol-l_j">
+        <ol permid="exers_counting-addmult-e_jq-ol1">
+          <li permid="exers_counting-addmult-e_jq-ol1-l_j">
             What is the largest possible value for <m>\card{A \cap B}</m>?
           </li>
 
-          <li permid="exers_counting-addmult-e_jq-ol-l_s">
+          <li permid="exers_counting-addmult-e_jq-ol1-l_s">
             What is the smallest possible value for <m>\card{A \cap B}</m>?
           </li>
 
-          <li permid="exers_counting-addmult-e_jq-ol-l_b">
+          <li permid="exers_counting-addmult-e_jq-ol1-l_b">
             What are the possible values for <m>\card{A \cup B}</m>?
           </li>
         </ol>
       </p>
     </statement>
-    <solution permid="exers_counting-addmult-e_jq-s">
-      <p permid="exers_counting-addmult-e_jq-s-p">
-        <ol permid="exers_counting-addmult-e_jq-s-ol">
-          <li permid="exers_counting-addmult-e_jq-s-ol-l_j">
+    <solution permid="exers_counting-addmult-e_jq-s1">
+      <p permid="exers_counting-addmult-e_jq-s1-p1">
+        <ol permid="exers_counting-addmult-e_jq-s1-ol1">
+          <li permid="exers_counting-addmult-e_jq-s1-ol1-l_j">
             To maximize the number of elements in common between <m>A</m> and <m>B</m>,
             make <m>A \subset B</m>.
             This would give <m>\card{A \cap B} = 10</m>.
           </li>
 
-          <li permid="exers_counting-addmult-e_jq-s-ol-l_s">
+          <li permid="exers_counting-addmult-e_jq-s1-ol1-l_s">
             <m>A</m> and <m>B</m> might have no elements in common,
             giving <m>\card{A\cap B} = 0</m>.
           </li>
 
-          <li permid="exers_counting-addmult-e_jq-s-ol-l_b">
+          <li permid="exers_counting-addmult-e_jq-s1-ol1-l_b">
             <m>15 \le \card{A \cup B} \le 25</m>.
             In fact, when <m>\card{A \cap B} = 0</m> then <m>\card{A \cup B} = 25</m> and when
             <m>\card{A \cap B} = 10</m> then <m>\card{A \cup B} = 15</m>.
@@ -203,13 +203,13 @@
 
   <exercise permid="exers_counting-addmult-e_mz">
     <statement>
-      <p permid="exers_counting-addmult-e_mz-p">
+      <p permid="exers_counting-addmult-e_mz-p1">
         If <m>\card{A} = 8</m> and <m>\card{B} = 5</m>,
         what is <m>\card{A \cup B} + \card{A \cap B}</m>?
       </p>
     </statement>
-    <solution permid="exers_counting-addmult-e_mz-s">
-      <p permid="exers_counting-addmult-e_mz-s-p">
+    <solution permid="exers_counting-addmult-e_mz-s1">
+      <p permid="exers_counting-addmult-e_mz-s1-p1">
         <m>\card{A \cup B} + \card{A \cap B} = 13</m>.
         Use PIE: we know <m>\card{A \cup B} = 8 + 5 - \card{A \cap B}</m>.
       </p>
@@ -218,7 +218,7 @@
 
   <exercise permid="exers_counting-addmult-e_pi">
     <statement>
-      <p permid="exers_counting-addmult-e_pi-p">
+      <p permid="exers_counting-addmult-e_pi-p1">
         A group of college students were asked about their TV watching habits.
         Of those surveyed, 28 students watch
         <em>The Walking Dead</em>, 19 watch <em>The Blacklist</em>,
@@ -233,8 +233,8 @@
         How many students surveyed watched at least one of the shows?
       </p>
     </statement>
-    <answer permid="exers_counting-addmult-e_pi-a">
-      <p permid="exers_counting-addmult-e_pi-a-p">
+    <answer permid="exers_counting-addmult-e_pi-a1">
+      <p permid="exers_counting-addmult-e_pi-a1-p1">
         39 students.
         Use PIE or a Venn diagram.
       </p>
@@ -243,7 +243,7 @@
 
   <exercise permid="exers_counting-addmult-e_sa">
     <statement>
-      <p permid="exers_counting-addmult-e_sa-p">
+      <p permid="exers_counting-addmult-e_sa-p1">
         In a recent survey, 30 students reported whether they liked their potatoes Mashed, French-fried,
         or Twice-baked. 15 liked them mashed, 20 liked French fries,
         and 9 liked twice baked potatoes.
@@ -258,12 +258,12 @@
 
   <exercise permid="exers_counting-addmult-e_vj">
     <statement>
-      <p permid="exers_counting-addmult-e_vj-p">
+      <p permid="exers_counting-addmult-e_vj-p1">
         For how many <m>n \in \{1,2, \ldots, 500\}</m> is <m>n</m> a multiple of one or more of 5, 6, or 7?
       </p>
     </statement>
-    <hint permid="exers_counting-addmult-e_vj-h">
-      <p permid="exers_counting-addmult-e_vj-h-p">
+    <hint permid="exers_counting-addmult-e_vj-h1">
+      <p permid="exers_counting-addmult-e_vj-h1-p1">
         To find out how many numbers are divisible by 6 and 7, for example,
         take <m>500/42</m> and round down.
       </p>
@@ -272,11 +272,11 @@
 
   <exercise permid="exers_counting-addmult-e_ys">
     <statement>
-      <p permid="exers_counting-addmult-e_ys-p">
+      <p permid="exers_counting-addmult-e_ys-p1">
         Let <m>A</m>, <m>B</m>, and <m>C</m> be sets.
 
-        <ol permid="exers_counting-addmult-e_ys-ol">
-          <li permid="exers_counting-addmult-e_ys-ol-l_j">
+        <ol permid="exers_counting-addmult-e_ys-ol1">
+          <li permid="exers_counting-addmult-e_ys-ol1-l_j">
             Find <m>\card{(A \cup C)\setminus B}</m> provided
             <m>\card{A} = 50</m>, <m>\card{B} = 45</m>,
             <m>\card{C} = 40</m>, <m>\card{A\cap B} = 20</m>,
@@ -284,7 +284,7 @@
             <m>\card{B \cap C} = 23</m>, and <m>\card{A \cap B \cap C} = 12</m>.
           </li>
 
-          <li permid="exers_counting-addmult-e_ys-ol-l_s">
+          <li permid="exers_counting-addmult-e_ys-ol1-l_s">
             Describe a set in terms of <m>A</m>, <m>B</m>,
             and <m>C</m> with cardinality 26.
           </li>
@@ -295,65 +295,65 @@
 
   <exercise permid="exers_counting-addmult-e_bk">
     <statement>
-      <p permid="exers_counting-addmult-e_bk-p">
+      <p permid="exers_counting-addmult-e_bk-p1">
         Consider all 5 letter <q>words</q>
         made from the letters <m>a</m> through <m>h</m>.
         (Recall, words are just strings of letters,
         not necessarily actual English words.)
 
-        <ol permid="exers_counting-addmult-e_bk-ol">
-          <li permid="exers_counting-addmult-e_bk-ol-l_j">
-            <p permid="exers_counting-addmult-e_bk-ol-l_j-p">
+        <ol permid="exers_counting-addmult-e_bk-ol1">
+          <li permid="exers_counting-addmult-e_bk-ol1-l_j">
+            <p permid="exers_counting-addmult-e_bk-ol1-l_j-p1">
               How many of these words are there total?
             </p>
           </li>
 
-          <li permid="exers_counting-addmult-e_bk-ol-l_s">
-            <p permid="exers_counting-addmult-e_bk-ol-l_s-p">
+          <li permid="exers_counting-addmult-e_bk-ol1-l_s">
+            <p permid="exers_counting-addmult-e_bk-ol1-l_s-p1">
               How many of these words contain no repeated letters?
             </p>
           </li>
 
-          <li permid="exers_counting-addmult-e_bk-ol-l_b">
-            <p permid="exers_counting-addmult-e_bk-ol-l_b-p">
+          <li permid="exers_counting-addmult-e_bk-ol1-l_b">
+            <p permid="exers_counting-addmult-e_bk-ol1-l_b-p1">
               How many of these words start with the sub-word <q>aha</q>?
             </p>
           </li>
 
-          <li permid="exers_counting-addmult-e_bk-ol-l_k">
-            <p permid="exers_counting-addmult-e_bk-ol-l_k-p">
+          <li permid="exers_counting-addmult-e_bk-ol1-l_k">
+            <p permid="exers_counting-addmult-e_bk-ol1-l_k-p1">
               How many of these words either start with <q>aha</q>
               or end with <q>bah</q> or both?
             </p>
           </li>
 
-          <li permid="exers_counting-addmult-e_bk-ol-l_t">
-            <p permid="exers_counting-addmult-e_bk-ol-l_t-p">
+          <li permid="exers_counting-addmult-e_bk-ol1-l_t">
+            <p permid="exers_counting-addmult-e_bk-ol1-l_t-p1">
               How many of the words containing no repeats also do not contain the sub-word <q>bad</q>?
             </p>
           </li>
         </ol>
       </p>
     </statement>
-    <solution permid="exers_counting-addmult-e_bk-s">
-      <p permid="exers_counting-addmult-e_bk-s-p">
-        <ol permid="exers_counting-addmult-e_bk-s-ol">
-          <li permid="exers_counting-addmult-e_bk-s-ol-l_j">
+    <solution permid="exers_counting-addmult-e_bk-s1">
+      <p permid="exers_counting-addmult-e_bk-s1-p1">
+        <ol permid="exers_counting-addmult-e_bk-s1-ol1">
+          <li permid="exers_counting-addmult-e_bk-s1-ol1-l_j">
             <m>8^5 = 32768</m> words, since you select from 8 letters 5 times.
           </li>
 
-          <li permid="exers_counting-addmult-e_bk-s-ol-l_s">
+          <li permid="exers_counting-addmult-e_bk-s1-ol1-l_s">
             <m>8\cdot 7\cdot 6\cdot 5\cdot 4 = 6720</m> words.
             After selecting a letter, you have fewer letters to select for the next one.
           </li>
 
-          <li permid="exers_counting-addmult-e_bk-s-ol-l_b">
-            <p permid="exers_counting-addmult-e_bk-s-ol-l_b-p">
+          <li permid="exers_counting-addmult-e_bk-s1-ol1-l_b">
+            <p permid="exers_counting-addmult-e_bk-s1-ol1-l_b-p1">
               <m>8 \cdot 8 =64</m> words: you need to select the 4th and 5th letters.
             </p>
           </li>
 
-          <li permid="exers_counting-addmult-e_bk-s-ol-l_k">
+          <li permid="exers_counting-addmult-e_bk-s1-ol1-l_k">
             <m>64 + 64 - 0 = 128</m> words.
             There are 64 words which start with <q>aha</q>
             and another 64 words that end with <q>bah.</q>
@@ -362,7 +362,7 @@
             but since the words are only 5 letters long, there are no such words.
           </li>
 
-          <li permid="exers_counting-addmult-e_bk-s-ol-l_t">
+          <li permid="exers_counting-addmult-e_bk-s1-ol1-l_t">
             <m>(8\cdot 7\cdot 6\cdot 5\cdot 4) - 3\cdot (5\cdot 4) = 6660</m> words.
             All the words minus the bad ones.
             The taboo word can be in any of three positions
@@ -377,7 +377,7 @@
 
   <exercise permid="exers_counting-addmult-e_et">
     <statement>
-      <p permid="exers_counting-addmult-e_et-p">
+      <p permid="exers_counting-addmult-e_et-p1">
         For how many three digit numbers (100 to 999) is the
         <em>sum of the digits</em> even? (For example,
         <m>343</m> has an even sum of digits:
@@ -389,7 +389,7 @@
 
   <exercise permid="exers_counting-addmult-e_hc">
     <statement>
-      <p permid="exers_counting-addmult-e_hc-p">
+      <p permid="exers_counting-addmult-e_hc-p1">
         The number 735000 factors as <m>2^3 \cdot 3 \cdot 5^4 \cdot 7^2</m>.
         How many divisors does it have?
         Explain your answer using the multiplicative principle.

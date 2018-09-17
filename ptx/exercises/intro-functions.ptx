@@ -3,7 +3,7 @@
 
   <exercise permid="exers_intro-functions-e_xo">
     <statement>
-      <p permid="exers_intro-functions-e_xo-p">
+      <p permid="exers_intro-functions-e_xo-p1">
         Write out all functions <m>f: \{1,2,3\} \to \{a,b\}</m>
         (using two-line notation).
         How many are there?
@@ -12,17 +12,17 @@
         How many are both?
       </p>
     </statement>
-    <solution permid="exers_intro-functions-e_xo-s">
-      <p permid="exers_intro-functions-e_xo-s-p">
+    <solution permid="exers_intro-functions-e_xo-s1">
+      <p permid="exers_intro-functions-e_xo-s1-p1">
         There are 8 different functions.
         In two-line notation these are:
-        <me permid="exers_intro-functions-e_xo-s-p-me1">
+        <me permid="exers_intro-functions-e_xo-s1-p1-me1">
           f = \begin{pmatrix} 1 \amp 2 \amp 3 \\ a \amp a\amp a \end{pmatrix} \quad f = \begin{pmatrix} 1 \amp 2 \amp 3 \\ b \amp b \amp b \end{pmatrix}
         </me>
-        <me permid="exers_intro-functions-e_xo-s-p-me2">
+        <me permid="exers_intro-functions-e_xo-s1-p1-me2">
           f = \begin{pmatrix} 1 \amp 2 \amp 3 \\ a \amp a\amp b \end{pmatrix} \quad f = \begin{pmatrix} 1 \amp 2 \amp 3 \\ a \amp b \amp a \end{pmatrix} \quad f = \begin{pmatrix} 1 \amp 2 \amp 3 \\ b \amp a\amp a \end{pmatrix}
         </me>
-        <me permid="exers_intro-functions-e_xo-s-p-me3">
+        <me permid="exers_intro-functions-e_xo-s1-p1-me3">
           \quad f = \begin{pmatrix} 1 \amp 2 \amp 3 \\ b \amp b \amp a \end{pmatrix} \quad f = \begin{pmatrix} 1 \amp 2 \amp 3 \\ b \amp a\amp b \end{pmatrix} \quad f = \begin{pmatrix} 1 \amp 2 \amp 3 \\ a \amp b \amp b \end{pmatrix}
         </me>
         None of the functions are injective.
@@ -35,7 +35,7 @@
 
   <exercise permid="exers_intro-functions-e_ag">
     <statement>
-      <p permid="exers_intro-functions-e_ag-p">
+      <p permid="exers_intro-functions-e_ag-p1">
         Write out all functions <m>f: \{1,2\} \to \{a,b,c\}</m>
         (in two-line notation).
         How many are there?
@@ -44,20 +44,20 @@
         How many are both?
       </p>
     </statement>
-    <solution permid="exers_intro-functions-e_ag-s">
-      <p permid="exers_intro-functions-e_ag-s-p">
+    <solution permid="exers_intro-functions-e_ag-s1">
+      <p permid="exers_intro-functions-e_ag-s1-p1">
         There are 9 functions:
         you have a choice of three outputs for <m>f(1)</m>,
         and for each, you have three choices for the output <m>f(2)</m>.
         Of these functions, 6 are injective, 0 are surjective,
         and 0 are both:
-        <me permid="exers_intro-functions-e_ag-s-p-me1">
+        <me permid="exers_intro-functions-e_ag-s1-p1-me1">
           f = \twoline{1 \amp 2}{a\amp a} \quad f = \twoline{1 \amp 2}{b \amp b} \quad f = \twoline{1 \amp 2}{c \amp c}
         </me>
-        <me permid="exers_intro-functions-e_ag-s-p-me2">
+        <me permid="exers_intro-functions-e_ag-s1-p1-me2">
           f = \twoline{1 \amp 2}{a\amp b} \quad f = \twoline{1 \amp 2}{a \amp c} \quad f = \twoline{1 \amp 2}{b \amp c}
         </me>
-        <me permid="exers_intro-functions-e_ag-s-p-me3">
+        <me permid="exers_intro-functions-e_ag-s1-p1-me3">
           f = \twoline{1 \amp 2}{b \amp a} \quad f = \twoline{1 \amp 2}{c \amp a} \quad f = \twoline{1 \amp 2}{c \amp b}
         </me>
       </p>
@@ -94,23 +94,23 @@
       </sidebyside>
 
       <p permid="exers_intro-functions-e_dp-p2">
-        <ol permid="exers_intro-functions-e_dp-ol">
-          <li permid="exers_intro-functions-e_dp-ol-l_j">
-            <p permid="exers_intro-functions-e_dp-ol-l_j-p">
+        <ol permid="exers_intro-functions-e_dp-ol1">
+          <li permid="exers_intro-functions-e_dp-ol1-l_j">
+            <p permid="exers_intro-functions-e_dp-ol1-l_j-p1">
               Is <m>f</m> injective?
               Explain.
             </p>
           </li>
 
-          <li permid="exers_intro-functions-e_dp-ol-l_s">
-            <p permid="exers_intro-functions-e_dp-ol-l_s-p">
+          <li permid="exers_intro-functions-e_dp-ol1-l_s">
+            <p permid="exers_intro-functions-e_dp-ol1-l_s-p1">
               Is <m>f</m> surjective?
               Explain.
             </p>
           </li>
 
-          <li permid="exers_intro-functions-e_dp-ol-l_b">
-            <p permid="exers_intro-functions-e_dp-ol-l_b-p">
+          <li permid="exers_intro-functions-e_dp-ol1-l_b">
+            <p permid="exers_intro-functions-e_dp-ol1-l_b-p1">
               Write the function using two-line notation.
             </p>
           </li>
@@ -143,23 +143,23 @@
       </sidebyside>
 
       <p permid="exers_intro-functions-e_gy-p2">
-        <ol permid="exers_intro-functions-e_gy-ol">
-          <li permid="exers_intro-functions-e_gy-ol-l_j">
-            <p permid="exers_intro-functions-e_gy-ol-l_j-p">
+        <ol permid="exers_intro-functions-e_gy-ol1">
+          <li permid="exers_intro-functions-e_gy-ol1-l_j">
+            <p permid="exers_intro-functions-e_gy-ol1-l_j-p1">
               Is <m>f</m> injective?
               Explain.
             </p>
           </li>
 
-          <li permid="exers_intro-functions-e_gy-ol-l_s">
-            <p permid="exers_intro-functions-e_gy-ol-l_s-p">
+          <li permid="exers_intro-functions-e_gy-ol1-l_s">
+            <p permid="exers_intro-functions-e_gy-ol1-l_s-p1">
               Is <m>f</m> surjective?
               Explain.
             </p>
           </li>
 
-          <li permid="exers_intro-functions-e_gy-ol-l_b">
-            <p permid="exers_intro-functions-e_gy-ol-l_b-p">
+          <li permid="exers_intro-functions-e_gy-ol1-l_b">
+            <p permid="exers_intro-functions-e_gy-ol1-l_b-p1">
               Write the function using two-line notation.
             </p>
           </li>
@@ -170,45 +170,45 @@
 
   <exercise permid="exers_intro-functions-e_jq">
     <statement>
-      <p permid="exers_intro-functions-e_jq-p">
+      <p permid="exers_intro-functions-e_jq-p1">
         For each function given below,
         determine whether or not the function is injective and whether or not the function is surjective.
 
-        <ol permid="exers_intro-functions-e_jq-ol">
-          <li permid="exers_intro-functions-e_jq-ol-l_j"><m>f:\N \to \N</m> given by <m>f(n) = n+4</m>.</li>
+        <ol permid="exers_intro-functions-e_jq-ol1">
+          <li permid="exers_intro-functions-e_jq-ol1-l_j"><m>f:\N \to \N</m> given by <m>f(n) = n+4</m>.</li>
 
-          <li permid="exers_intro-functions-e_jq-ol-l_s"><m>f:\Z \to \Z</m> given by <m>f(n) = n+4</m>.</li>
+          <li permid="exers_intro-functions-e_jq-ol1-l_s"><m>f:\Z \to \Z</m> given by <m>f(n) = n+4</m>.</li>
 
-          <li permid="exers_intro-functions-e_jq-ol-l_b"><m>f:\Z \to \Z</m> given by <m>f(n) = 5n - 8</m>.</li>
+          <li permid="exers_intro-functions-e_jq-ol1-l_b"><m>f:\Z \to \Z</m> given by <m>f(n) = 5n - 8</m>.</li>
 
-          <li permid="exers_intro-functions-e_jq-ol-l_k">
+          <li permid="exers_intro-functions-e_jq-ol1-l_k">
             <m>f:\Z \to \Z</m> given by <m>f(n) = \begin{cases}n/2 \amp \text{ if } n \text{ is even} \\ (n+1)/2 \amp \text{ if } n \text{ is odd} . \end{cases}
             </m>
           </li>
         </ol>
       </p>
     </statement>
-    <solution permid="exers_intro-functions-e_jq-s">
-      <p permid="exers_intro-functions-e_jq-s-p">
-        <ol permid="exers_intro-functions-e_jq-s-ol">
-          <li permid="exers_intro-functions-e_jq-s-ol-l_j">
+    <solution permid="exers_intro-functions-e_jq-s1">
+      <p permid="exers_intro-functions-e_jq-s1-p1">
+        <ol permid="exers_intro-functions-e_jq-s1-ol1">
+          <li permid="exers_intro-functions-e_jq-s1-ol1-l_j">
             <m>f</m> is injective, but not surjective
             (since 0, for example, is never an output).
           </li>
 
-          <li permid="exers_intro-functions-e_jq-s-ol-l_s">
+          <li permid="exers_intro-functions-e_jq-s1-ol1-l_s">
             <m>f</m> is injective and surjective.
             Unlike in the previous question,
             every integers is an output
             (of the integer 4 less than it).
           </li>
 
-          <li permid="exers_intro-functions-e_jq-s-ol-l_b">
+          <li permid="exers_intro-functions-e_jq-s1-ol1-l_b">
             <m>f</m> is injective,
             but not surjective (10 is not 8 less than a multiple of 5, for example).
           </li>
 
-          <li permid="exers_intro-functions-e_jq-s-ol-l_k">
+          <li permid="exers_intro-functions-e_jq-s1-ol1-l_k">
             <m>f</m> is not injective, but is surjective.
             Every integer is an output
             (of twice itself, for example)
@@ -222,50 +222,50 @@
 
   <exercise permid="exers_intro-functions-e_mz">
     <statement>
-      <p permid="exers_intro-functions-e_mz-p">
+      <p permid="exers_intro-functions-e_mz-p1">
         Let <m>A = \{1,2,3,\ldots,10\}</m>.
         Consider the function <m>f:\pow(A) \to \N</m> given by <m>f(B) = |B|</m>.
         That is, <m>f</m> takes a subset of <m>A</m> as an input and outputs the cardinality of that set.
 
-        <ol permid="exers_intro-functions-e_mz-ol">
-          <li permid="exers_intro-functions-e_mz-ol-l_j">
-            <p permid="exers_intro-functions-e_mz-ol-l_j-p">
+        <ol permid="exers_intro-functions-e_mz-ol1">
+          <li permid="exers_intro-functions-e_mz-ol1-l_j">
+            <p permid="exers_intro-functions-e_mz-ol1-l_j-p1">
               Is <m>f</m> injective?
               Prove your answer.
             </p>
           </li>
 
-          <li permid="exers_intro-functions-e_mz-ol-l_s">
-            <p permid="exers_intro-functions-e_mz-ol-l_s-p">
+          <li permid="exers_intro-functions-e_mz-ol1-l_s">
+            <p permid="exers_intro-functions-e_mz-ol1-l_s-p1">
               Is <m>f</m> surjective?
               Prove your answer.
             </p>
           </li>
 
-          <li permid="exers_intro-functions-e_mz-ol-l_b">
-            <p permid="exers_intro-functions-e_mz-ol-l_b-p">
+          <li permid="exers_intro-functions-e_mz-ol1-l_b">
+            <p permid="exers_intro-functions-e_mz-ol1-l_b-p1">
               Find <m>f\inv(1)</m>.
             </p>
           </li>
 
-          <li permid="exers_intro-functions-e_mz-ol-l_k">
-            <p permid="exers_intro-functions-e_mz-ol-l_k-p">
+          <li permid="exers_intro-functions-e_mz-ol1-l_k">
+            <p permid="exers_intro-functions-e_mz-ol1-l_k-p1">
               Find <m>f\inv(0)</m>.
             </p>
           </li>
 
-          <li permid="exers_intro-functions-e_mz-ol-l_t">
-            <p permid="exers_intro-functions-e_mz-ol-l_t-p">
+          <li permid="exers_intro-functions-e_mz-ol1-l_t">
+            <p permid="exers_intro-functions-e_mz-ol1-l_t-p1">
               Find <m>f\inv(12)</m>.
             </p>
           </li>
         </ol>
       </p>
     </statement>
-    <solution permid="exers_intro-functions-e_mz-s">
-      <p permid="exers_intro-functions-e_mz-s-p">
-        <ol permid="exers_intro-functions-e_mz-s-ol">
-          <li permid="exers_intro-functions-e_mz-s-ol-l_j">
+    <solution permid="exers_intro-functions-e_mz-s1">
+      <p permid="exers_intro-functions-e_mz-s1-p1">
+        <ol permid="exers_intro-functions-e_mz-s1-ol1">
+          <li permid="exers_intro-functions-e_mz-s1-ol1-l_j">
             <m>f</m> is not injective.
             To prove this,
             we must simply find two different elements of the domain which map to the same element of the codomain.
@@ -273,24 +273,24 @@
             we see that <m>f</m> is not injective.
           </li>
 
-          <li permid="exers_intro-functions-e_mz-s-ol-l_s">
+          <li permid="exers_intro-functions-e_mz-s1-ol1-l_s">
             <m>f</m> is not surjective.
             The largest subset of <m>A</m> is <m>A</m> itself, and <m>|A| = 10</m>.
             So no natural number greater than 10 will ever be an output.
           </li>
 
-          <li permid="exers_intro-functions-e_mz-s-ol-l_b">
+          <li permid="exers_intro-functions-e_mz-s1-ol1-l_b">
             <m>f\inv(1) = \{\{1\}, \{2\}, \{3\}, \ldots \{10\}\}</m>
             (the set of all the singleton subsets of <m>A</m>).
           </li>
 
-          <li permid="exers_intro-functions-e_mz-s-ol-l_k">
+          <li permid="exers_intro-functions-e_mz-s1-ol1-l_k">
             <m>f\inv(0) = \{\emptyset\}</m>.
             Note, it would be wrong to write
             <m>f\inv(0) = \emptyset</m> - that would claim that there is no input which has 0 as an output.
           </li>
 
-          <li permid="exers_intro-functions-e_mz-s-ol-l_t">
+          <li permid="exers_intro-functions-e_mz-s1-ol1-l_t">
             <m>f\inv(12) = \emptyset</m>,
             since there are no subsets of <m>A</m> with cardinality 12.
           </li>
@@ -301,35 +301,35 @@
 
   <exercise permid="exers_intro-functions-e_pi">
     <statement>
-      <p permid="exers_intro-functions-e_pi-p">
+      <p permid="exers_intro-functions-e_pi-p1">
         Let <m>A = \{n \in \N \st 0 \le n \le 999\}</m> be the set of all numbers with three or fewer digits.
         Define the function <m>f:A \to \N</m> by
         <m>f(abc) = a+b+c</m>, where <m>a</m>, <m>b</m>,
         and <m>c</m> are the digits of the number in <m>A</m>.
         For example, <m>f(253) = 2 + 5 + 3 = 10</m>.
 
-        <ol permid="exers_intro-functions-e_pi-ol">
-          <li permid="exers_intro-functions-e_pi-ol-l_j">
-            <p permid="exers_intro-functions-e_pi-ol-l_j-p">
+        <ol permid="exers_intro-functions-e_pi-ol1">
+          <li permid="exers_intro-functions-e_pi-ol1-l_j">
+            <p permid="exers_intro-functions-e_pi-ol1-l_j-p1">
               Find <m>f\inv(3)</m>.
             </p>
           </li>
 
-          <li permid="exers_intro-functions-e_pi-ol-l_s">
-            <p permid="exers_intro-functions-e_pi-ol-l_s-p">
+          <li permid="exers_intro-functions-e_pi-ol1-l_s">
+            <p permid="exers_intro-functions-e_pi-ol1-l_s-p1">
               Find <m>f\inv(28)</m>.
             </p>
           </li>
 
-          <li permid="exers_intro-functions-e_pi-ol-l_b">
-            <p permid="exers_intro-functions-e_pi-ol-l_b-p">
+          <li permid="exers_intro-functions-e_pi-ol1-l_b">
+            <p permid="exers_intro-functions-e_pi-ol1-l_b-p1">
               Is <m>f</m> injective.
               Explain.
             </p>
           </li>
 
-          <li permid="exers_intro-functions-e_pi-ol-l_k">
-            <p permid="exers_intro-functions-e_pi-ol-l_k-p">
+          <li permid="exers_intro-functions-e_pi-ol1-l_k">
+            <p permid="exers_intro-functions-e_pi-ol1-l_k-p1">
               Is <m>f</m> surjective.
               Explain.
             </p>
@@ -337,26 +337,26 @@
         </ol>
       </p>
     </statement>
-    <solution permid="exers_intro-functions-e_pi-s">
-      <p permid="exers_intro-functions-e_pi-s-p">
-        <ol permid="exers_intro-functions-e_pi-s-ol">
-          <li permid="exers_intro-functions-e_pi-s-ol-l_j">
+    <solution permid="exers_intro-functions-e_pi-s1">
+      <p permid="exers_intro-functions-e_pi-s1-p1">
+        <ol permid="exers_intro-functions-e_pi-s1-ol1">
+          <li permid="exers_intro-functions-e_pi-s1-ol1-l_j">
             <m>f\inv(3) = \{003, 030, 300, 012, 021, 102, 201, 120, 210, 111\}</m>
           </li>
 
-          <li permid="exers_intro-functions-e_pi-s-ol-l_s">
+          <li permid="exers_intro-functions-e_pi-s1-ol1-l_s">
             <m>f\inv(28) = \emptyset</m> (since the largest sum of three digits is <m>9+9+9 = 27</m>)
           </li>
 
-          <li permid="exers_intro-functions-e_pi-s-ol-l_b">
-            <p permid="exers_intro-functions-e_pi-s-ol-l_b-p">
+          <li permid="exers_intro-functions-e_pi-s1-ol1-l_b">
+            <p permid="exers_intro-functions-e_pi-s1-ol1-l_b-p1">
               Part (a) proves that <m>f</m> is not injective.
               The output 3 is assigned to 10 different inputs.
             </p>
           </li>
 
-          <li permid="exers_intro-functions-e_pi-s-ol-l_k">
-            <p permid="exers_intro-functions-e_pi-s-ol-l_k-p">
+          <li permid="exers_intro-functions-e_pi-s1-ol1-l_k">
+            <p permid="exers_intro-functions-e_pi-s1-ol1-l_k-p1">
               Part (b) proves that <m>f</m> is not surjective.
               There is an element of the codomain (28) which is not assigned to any inputs.
             </p>
@@ -368,40 +368,40 @@
 
   <exercise permid="exers_intro-functions-e_sa">
     <statement>
-      <p permid="exers_intro-functions-e_sa-p">
+      <p permid="exers_intro-functions-e_sa-p1">
         Let <m>f:X \to Y</m> be some function.
         Suppose <m>3 \in Y</m>.
         What can you say about <m>f\inv(3)</m> if you know,
 
-        <ol permid="exers_intro-functions-e_sa-ol">
-          <li permid="exers_intro-functions-e_sa-ol-l_j">
+        <ol permid="exers_intro-functions-e_sa-ol1">
+          <li permid="exers_intro-functions-e_sa-ol1-l_j">
             <m>f</m> is injective?
             Explain.
           </li>
 
-          <li permid="exers_intro-functions-e_sa-ol-l_s">
+          <li permid="exers_intro-functions-e_sa-ol1-l_s">
             <m>f</m> is surjective?
             Explain.
           </li>
 
-          <li permid="exers_intro-functions-e_sa-ol-l_b">
+          <li permid="exers_intro-functions-e_sa-ol1-l_b">
             <m>f</m> is bijective?
             Explain.
           </li>
         </ol>
       </p>
     </statement>
-    <solution permid="exers_intro-functions-e_sa-s">
-      <p permid="exers_intro-functions-e_sa-s-p">
-        <ol permid="exers_intro-functions-e_sa-s-ol">
-          <li permid="exers_intro-functions-e_sa-s-ol-l_j">
+    <solution permid="exers_intro-functions-e_sa-s1">
+      <p permid="exers_intro-functions-e_sa-s1-p1">
+        <ol permid="exers_intro-functions-e_sa-s1-ol1">
+          <li permid="exers_intro-functions-e_sa-s1-ol1-l_j">
             <m>|f\inv(3)| \le 1</m>.
             In other words,
             either <m>f\inv(3)</m> is the emptyset or is a set containing exactly one element.
             Injective functions cannot have two elements from the domain both map to 3.
           </li>
 
-          <li permid="exers_intro-functions-e_sa-s-ol-l_s">
+          <li permid="exers_intro-functions-e_sa-s1-ol1-l_s">
             <m>|f\inv(3)| \ge 1</m>.
             In other words,
             <m>f\inv(3)</m> is a set containing at least one elements,
@@ -409,7 +409,7 @@
             Surjective functions must have something map to 3.
           </li>
 
-          <li permid="exers_intro-functions-e_sa-s-ol-l_b">
+          <li permid="exers_intro-functions-e_sa-s1-ol1-l_b">
             <m>|f\inv(3)| = 1</m>.
             There is exactly one element from <m>X</m> which gets mapped to 3, so
             <m>f\inv(3)</m> is the set containing that one element.
@@ -421,13 +421,13 @@
 
   <exercise permid="exers_intro-functions-e_vj">
     <statement>
-      <p permid="exers_intro-functions-e_vj-p">
+      <p permid="exers_intro-functions-e_vj-p1">
         Find a set <m>X</m> and a function
         <m>f:X \to \N</m> so that <m>f\inv(0) \cup f\inv(1) = X</m>.
       </p>
     </statement>
-    <solution permid="exers_intro-functions-e_vj-s">
-      <p permid="exers_intro-functions-e_vj-s-p">
+    <solution permid="exers_intro-functions-e_vj-s1">
+      <p permid="exers_intro-functions-e_vj-s1-p1">
         <m>X</m> can really be any set,
         as long as <m>f(x) = 0</m> or
         <m>f(x) = 1</m> for every <m>x \in X</m>.
@@ -438,27 +438,27 @@
 
   <exercise permid="exers_intro-functions-e_ys">
     <statement>
-      <p permid="exers_intro-functions-e_ys-p">
+      <p permid="exers_intro-functions-e_ys-p1">
         What can you deduce about the sets <m>X</m> and <m>Y</m> if you know
         <ellipsis/>
 
-        <ol permid="exers_intro-functions-e_ys-ol">
-          <li permid="exers_intro-functions-e_ys-ol-l_j">
-            <p permid="exers_intro-functions-e_ys-ol-l_j-p">
+        <ol permid="exers_intro-functions-e_ys-ol1">
+          <li permid="exers_intro-functions-e_ys-ol1-l_j">
+            <p permid="exers_intro-functions-e_ys-ol1-l_j-p1">
               there is an injective function <m>f:X \to Y</m>?
               Explain.
             </p>
           </li>
 
-          <li permid="exers_intro-functions-e_ys-ol-l_s">
-            <p permid="exers_intro-functions-e_ys-ol-l_s-p">
+          <li permid="exers_intro-functions-e_ys-ol1-l_s">
+            <p permid="exers_intro-functions-e_ys-ol1-l_s-p1">
               there is a surjective function <m>f:X \to Y</m>?
               Explain.
             </p>
           </li>
 
-          <li permid="exers_intro-functions-e_ys-ol-l_b">
-            <p permid="exers_intro-functions-e_ys-ol-l_b-p">
+          <li permid="exers_intro-functions-e_ys-ol1-l_b">
+            <p permid="exers_intro-functions-e_ys-ol1-l_b-p1">
               there is a bijectitve function <m>f:X \to Y</m>?
               Explain.
             </p>
@@ -470,30 +470,30 @@
 
   <exercise permid="exers_intro-functions-e_bk">
     <statement>
-      <p permid="exers_intro-functions-e_bk-p">
+      <p permid="exers_intro-functions-e_bk-p1">
         Suppose <m>f:X \to Y</m> is a function.
         Which of the following are possible?
         Explain.
 
-        <ol permid="exers_intro-functions-e_bk-ol">
-          <li permid="exers_intro-functions-e_bk-ol-l_j"><m>f</m> is injective but not surjective.</li>
+        <ol permid="exers_intro-functions-e_bk-ol1">
+          <li permid="exers_intro-functions-e_bk-ol1-l_j"><m>f</m> is injective but not surjective.</li>
 
-          <li permid="exers_intro-functions-e_bk-ol-l_s"><m>f</m> is surjective but not injective.</li>
+          <li permid="exers_intro-functions-e_bk-ol1-l_s"><m>f</m> is surjective but not injective.</li>
 
-          <li permid="exers_intro-functions-e_bk-ol-l_b">
+          <li permid="exers_intro-functions-e_bk-ol1-l_b">
             <m>|X| = |Y|</m> and <m>f</m> is injective but not surjective.
           </li>
 
-          <li permid="exers_intro-functions-e_bk-ol-l_k">
+          <li permid="exers_intro-functions-e_bk-ol1-l_k">
             <m>|X| = |Y|</m> and <m>f</m> is surjective but not injective.
           </li>
 
-          <li permid="exers_intro-functions-e_bk-ol-l_t">
+          <li permid="exers_intro-functions-e_bk-ol1-l_t">
             <m>|X| = |Y|</m>, <m>X</m> and <m>Y</m> are finite,
             and <m>f</m> is injective but not surjective.
           </li>
 
-          <li permid="exers_intro-functions-e_bk-ol-l_c">
+          <li permid="exers_intro-functions-e_bk-ol1-l_c">
             <m>|X| = |Y|</m>, <m>X</m> and <m>Y</m> are finite,
             and <m>f</m> is surjective but not injective.
           </li>
@@ -516,26 +516,26 @@
       </p>
 
       <p permid="exers_intro-functions-e_et-p2">
-        <ol permid="exers_intro-functions-e_et-ol">
-          <li permid="exers_intro-functions-e_et-ol-l_j">
+        <ol permid="exers_intro-functions-e_et-ol1">
+          <li permid="exers_intro-functions-e_et-ol1-l_j">
             If <m>f</m> and <m>g</m> are both injective,
             must <m>g\circ f</m> be injective?
             Explain.
           </li>
 
-          <li permid="exers_intro-functions-e_et-ol-l_s">
+          <li permid="exers_intro-functions-e_et-ol1-l_s">
             If <m>f</m> and <m>g</m> are both surjective,
             must <m>g\circ f</m> be surjective?
             Explain.
           </li>
 
-          <li permid="exers_intro-functions-e_et-ol-l_b">
+          <li permid="exers_intro-functions-e_et-ol1-l_b">
             Suppose <m>g\circ f</m> is injective.
             What, if anything, can you say about <m>f</m> and <m>g</m>?
             Explain.
           </li>
 
-          <li permid="exers_intro-functions-e_et-ol-l_k">
+          <li permid="exers_intro-functions-e_et-ol1-l_k">
             Suppose <m>g\circ f</m> is surjective.
             What, if anything, can you say about <m>f</m> and <m>g</m>?
             Explain.
@@ -543,8 +543,8 @@
         </ol>
       </p>
     </statement>
-    <hint permid="exers_intro-functions-e_et-h">
-      <p permid="exers_intro-functions-e_et-h-p">
+    <hint permid="exers_intro-functions-e_et-h1">
+      <p permid="exers_intro-functions-e_et-h1-p1">
         Work with some examples.
         What if <m>f = \twoline{1\amp 2 \amp 3}{a \amp a \amp b}</m> and <m>g = \twoline{a\amp b \amp c}{5 \amp 6 \amp 7}</m>?
       </p>
@@ -553,20 +553,20 @@
 
   <exercise permid="exers_intro-functions-e_hc">
     <statement>
-      <p permid="exers_intro-functions-e_hc-p">
+      <p permid="exers_intro-functions-e_hc-p1">
         Consider the function <m>f:\Z \to \Z</m> given by <m>f(n) = \begin{cases}n+1 \amp \text{ if }n\text{ is even} \\ n-3 \amp \text{ if }n\text{ is odd} . \end{cases}
         </m>
 
-        <ol permid="exers_intro-functions-e_hc-ol">
-          <li permid="exers_intro-functions-e_hc-ol-l_j">
-            <p permid="exers_intro-functions-e_hc-ol-l_j-p">
+        <ol permid="exers_intro-functions-e_hc-ol1">
+          <li permid="exers_intro-functions-e_hc-ol1-l_j">
+            <p permid="exers_intro-functions-e_hc-ol1-l_j-p1">
               Is <m>f</m> injective?
               Prove your answer.
             </p>
           </li>
 
-          <li permid="exers_intro-functions-e_hc-ol-l_s">
-            <p permid="exers_intro-functions-e_hc-ol-l_s-p">
+          <li permid="exers_intro-functions-e_hc-ol1-l_s">
+            <p permid="exers_intro-functions-e_hc-ol1-l_s-p1">
               Is <m>f</m> surjective?
               Prove your answer.
             </p>
@@ -574,16 +574,16 @@
         </ol>
       </p>
     </statement>
-    <solution permid="exers_intro-functions-e_hc-s">
-      <p permid="exers_intro-functions-e_hc-s-p">
-        <ol permid="exers_intro-functions-e_hc-s-ol">
-          <li permid="exers_intro-functions-e_hc-s-ol-l_j">
-            <p permid="exers_intro-functions-e_hc-s-ol-l_j-p1">
+    <solution permid="exers_intro-functions-e_hc-s1">
+      <p permid="exers_intro-functions-e_hc-s1-p1">
+        <ol permid="exers_intro-functions-e_hc-s1-ol1">
+          <li permid="exers_intro-functions-e_hc-s1-ol1-l_j">
+            <p permid="exers_intro-functions-e_hc-s1-ol1-l_j-p1">
               <m>f</m> is injective.
             </p>
 
             <proof permid="exers_intro-functions-e_hc-pf1">
-              <p permid="exers_intro-functions-e_hc-s-ol-l_j-p2">
+              <p permid="exers_intro-functions-e_hc-s1-ol1-l_j-p2">
                 Let <m>x</m> and <m>y</m> be elements of the domain <m>\Z</m>.
                 Assume <m>f(x) = f(y)</m>.
                 If <m>x</m> and <m>y</m> are both even,
@@ -603,13 +603,13 @@
 
           </li>
 
-          <li permid="exers_intro-functions-e_hc-s-ol-l_s">
-            <p permid="exers_intro-functions-e_hc-s-ol-l_s-p1">
+          <li permid="exers_intro-functions-e_hc-s1-ol1-l_s">
+            <p permid="exers_intro-functions-e_hc-s1-ol1-l_s-p1">
               <m>f</m> is surjective.
             </p>
 
             <proof permid="exers_intro-functions-e_hc-pf2">
-              <p permid="exers_intro-functions-e_hc-s-ol-l_s-p2">
+              <p permid="exers_intro-functions-e_hc-s1-ol1-l_s-p2">
                 Let <m>y</m> be an element of the codomain <m>\Z</m>.
                 We will show there is an element <m>n</m> of the domain (<m>\Z</m>) such that <m>f(n) = y</m>.
                 There are two cases: First, if <m>y</m> is even, then let <m>n = y+3</m>.
@@ -630,7 +630,7 @@
 
   <exercise permid="exers_intro-functions-e_ku">
     <statement>
-      <p permid="exers_intro-functions-e_ku-p">
+      <p permid="exers_intro-functions-e_ku-p1">
         At the end of the semester a teacher assigns letter grades to each of her students.
         Is this a function?
         If so, what sets make up the domain and codomain,
@@ -638,8 +638,8 @@
         surjective, bijective, or neither?
       </p>
     </statement>
-    <solution permid="exers_intro-functions-e_ku-s">
-      <p permid="exers_intro-functions-e_ku-s-p">
+    <solution permid="exers_intro-functions-e_ku-s1">
+      <p permid="exers_intro-functions-e_ku-s1-p1">
         Yes, this is a function, if you choose the domain and codomain correctly.
         The domain will be the set of students,
         and the codomain will be the set of possible grades.
@@ -652,7 +652,7 @@
 
   <exercise permid="exers_intro-functions-e_nd">
     <statement>
-      <p permid="exers_intro-functions-e_nd-p">
+      <p permid="exers_intro-functions-e_nd-p1">
         In the game of <em>Hearts</em>,
         four players are each dealt 13 cards from a deck of 52.
         Is this a function?
@@ -665,7 +665,7 @@
 
   <exercise permid="exers_intro-functions-e_qm">
     <statement>
-      <p permid="exers_intro-functions-e_qm-p">
+      <p permid="exers_intro-functions-e_qm-p1">
         Suppose 7 players are playing 5-card stud.
         Each player initially receives 5 cards from a deck of 52.
         Is this a function?
@@ -674,8 +674,8 @@
         surjective, bijective, or neither?
       </p>
     </statement>
-    <solution permid="exers_intro-functions-e_qm-s">
-      <p permid="exers_intro-functions-e_qm-s-p">
+    <solution permid="exers_intro-functions-e_qm-s1">
+      <p permid="exers_intro-functions-e_qm-s1-p1">
         This cannot be a function.
         If the domain were the set of cards,
         then it is not a function because not every card gets dealt to a player.

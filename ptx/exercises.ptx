@@ -8,126 +8,126 @@
     <subtitle>An Open Introduction</subtitle>
 
 
-<chapter permid="-chap-intr-preliminaries">
+<chapter permid="chap-intr-preliminaries">
   <title>Introduction and Preliminaries</title>
-<section permid="-sec1">
+<section permid="sec1">
   <xi:include href="./exercises/intro-intro.ptx"/>
 </section>
 \setcounter{section}{1}
-<section permid="-sec-exers">
+<section permid="sec-exers">
   <title>Exercises</title>
   <xi:include href="./exercises/intro-statements.ptx"/>
 </section>
-<section permid="-sec-exers">
+<section permid="sec-exers">
   <title>Exercises</title>
   <xi:include href="./exercises/intro-sets.ptx"/>
 </section>
-<section permid="-sec-exers">
+<section permid="sec-exers">
   <title>Exercises</title>
   <xi:include href="./exercises/intro-functions.ptx"/>
 </section>
 </chapter>
 
-<chapter permid="-chap-counting">
+<chapter permid="chap-counting">
   <title>Counting</title>
-<section permid="-sec-exers">
+<section permid="sec-exers">
   <title>Exercises</title>
   <xi:include href="./exercises/counting-addmult.ptx"/>
 </section>
-<section permid="-sec-exers">
+<section permid="sec-exers">
   <title>Exercises</title>
   <xi:include href="./exercises/counting-binom.ptx"/>
 </section>
-<section permid="-sec-exers">
+<section permid="sec-exers">
   <title>Exercises</title>
   <xi:include href="./exercises/counting-combperm.ptx"/>
 </section>
-<section permid="-sec-exers">
+<section permid="sec-exers">
   <title>Exercises</title>
   <xi:include href="./exercises/counting-proofs.ptx"/>
 </section>
-<section permid="-sec-exers">
+<section permid="sec-exers">
   <title>Exercises</title>
   <xi:include href="./exercises/counting-starsbars.ptx"/>
 </section>
-<section permid="-sec-exers">
+<section permid="sec-exers">
   <title>Exercises</title>
   <xi:include href="./exercises/counting-advPIE.ptx"/>
 </section>
-<section permid="-sec-chap-review">
+<section permid="sec-chap-review">
   <title>Chapter Review</title>
   <xi:include href="./exercises/counting-conc.ptx"/>
 </section>
 </chapter>
 
 
-<chapter permid="-chap-sequences">
+<chapter permid="chap-sequences">
   <title>Sequences</title>
-<section permid="-sec-exers">
+<section permid="sec-exers">
   <title>Exercises</title>
   <xi:include href="./exercises/seq-basics.ptx"/>
 </section>
-<section permid="-sec-exers">
+<section permid="sec-exers">
   <title>Exercises</title>
   <xi:include href="./exercises/seq-arithgeom.ptx"/>
 </section>
-<section permid="-sec-exers">
+<section permid="sec-exers">
   <title>Exercises</title>
   <xi:include href="./exercises/seq-polyfit.ptx"/>
 </section>
-<section permid="-sec-exers">
+<section permid="sec-exers">
   <title>Exercises</title>
   <xi:include href="./exercises/seq-recurrence.ptx"/>
 </section>
-<section permid="-sec-exers">
+<section permid="sec-exers">
   <title>Exercises</title>
   <xi:include href="./exercises/seq-induction.ptx"/>
 </section>
-<section permid="-sec-chap-review">
+<section permid="sec-chap-review">
   <title>Chapter Review</title>
   <xi:include href="./exercises/seq-conc.ptx"/>
 </section>
 </chapter>
 
-<chapter permid="-chap-symbolic-logic-proofs">
+<chapter permid="chap-symbolic-logic-proofs">
   <title>Symbolic Logic and Proofs</title>
-<section permid="-sec-exers">
+<section permid="sec-exers">
   <title>Exercises</title>
   <xi:include href="./exercises/logic-prop.ptx"/>
 </section>
-<section permid="-sec-exers">
+<section permid="sec-exers">
   <title>Exercises</title>
   <xi:include href="./exercises/logic-proofs.ptx"/>
 </section>
-<section permid="-sec-chap-review">
+<section permid="sec-chap-review">
   <title>Chapter Review</title>
   <xi:include href="./exercises/logic-conc.ptx"/>
 </section>
 </chapter>
 
-<chapter permid="-chap-graph-theory">
+<chapter permid="chap-graph-theory">
   <title>Graph Theory</title>
-<section permid="-sec-exers">
+<section permid="sec-exers">
   <title>Exercises</title>
   <xi:include href="./exercises/gt-intro.ptx"/>
 </section>
-<section permid="-sec-exers">
+<section permid="sec-exers">
   <title>Exercises</title>
   <xi:include href="./exercises/gt-planar.ptx"/>
 </section>
-<section permid="-sec-exers">
+<section permid="sec-exers">
   <title>Exercises</title>
   <xi:include href="./exercises/gt-coloring.ptx"/>
 </section>
-<section permid="-sec-exers">
+<section permid="sec-exers">
   <title>Exercises</title>
   <xi:include href="./exercises/gt-paths.ptx"/>
 </section>
-<section permid="-sec-exers">
+<section permid="sec-exers">
   <title>Exercises</title>
   <xi:include href="./exercises/gt-matchings.ptx"/>
 </section>
-<section permid="-sec-chap-review">
+<section permid="sec-chap-review">
   <title>Chapter Review</title>
   <xi:include href="./exercises/gt-conc.ptx"/>
 </section>

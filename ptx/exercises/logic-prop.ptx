@@ -10,38 +10,38 @@
       </p>
 
       <p permid="exers_sec-logic-e_xo-p2">
-        <ol permid="exers_sec-logic-e_xo-ol">
-          <li permid="exers_sec-logic-e_xo-ol-l_j">
-            <p permid="exers_sec-logic-e_xo-ol-l_j-p">
+        <ol permid="exers_sec-logic-e_xo-ol1">
+          <li permid="exers_sec-logic-e_xo-ol1-l_j">
+            <p permid="exers_sec-logic-e_xo-ol1-l_j-p1">
               Translate the above statement into symbols.
               Clearly state which statement is <m>P</m> and which is <m>Q</m>.
             </p>
           </li>
 
-          <li permid="exers_sec-logic-e_xo-ol-l_s">
-            <p permid="exers_sec-logic-e_xo-ol-l_s-p">
+          <li permid="exers_sec-logic-e_xo-ol1-l_s">
+            <p permid="exers_sec-logic-e_xo-ol1-l_s-p1">
               Make a truth table for the statement.
             </p>
           </li>
 
-          <li permid="exers_sec-logic-e_xo-ol-l_b">
-            <p permid="exers_sec-logic-e_xo-ol-l_b-p">
+          <li permid="exers_sec-logic-e_xo-ol1-l_b">
+            <p permid="exers_sec-logic-e_xo-ol1-l_b-p1">
               Assuming the statement is true, what
               (if anything)
               can you conclude if there will be cake?
             </p>
           </li>
 
-          <li permid="exers_sec-logic-e_xo-ol-l_k">
-            <p permid="exers_sec-logic-e_xo-ol-l_k-p">
+          <li permid="exers_sec-logic-e_xo-ol1-l_k">
+            <p permid="exers_sec-logic-e_xo-ol1-l_k-p1">
               Assuming the statement is true, what
               (if anything)
               can you conclude if there will not be cake?
             </p>
           </li>
 
-          <li permid="exers_sec-logic-e_xo-ol-l_t">
-            <p permid="exers_sec-logic-e_xo-ol-l_t-p">
+          <li permid="exers_sec-logic-e_xo-ol1-l_t">
+            <p permid="exers_sec-logic-e_xo-ol1-l_t-p1">
               Suppose you found out that the statement was a lie.
               What can you conclude?
             </p>
@@ -49,34 +49,34 @@
         </ol>
       </p>
     </statement>
-    <solution permid="exers_sec-logic-e_xo-s">
-      <p permid="exers_sec-logic-e_xo-s-p">
-        <ol permid="exers_sec-logic-e_xo-s-ol">
-          <li permid="exers_sec-logic-e_xo-s-ol-l_j">
+    <solution permid="exers_sec-logic-e_xo-s1">
+      <p permid="exers_sec-logic-e_xo-s1-p1">
+        <ol permid="exers_sec-logic-e_xo-s1-ol1">
+          <li permid="exers_sec-logic-e_xo-s1-ol1-l_j">
             <m>P</m>: it's your birthday; <m>Q</m>:
             there will be cake. <m>(P \vee Q) \imp Q</m>
           </li>
 
-          <li permid="exers_sec-logic-e_xo-s-ol-l_s">
-            <p permid="exers_sec-logic-e_xo-s-ol-l_s-p">
+          <li permid="exers_sec-logic-e_xo-s1-ol1-l_s">
+            <p permid="exers_sec-logic-e_xo-s1-ol1-l_s-p1">
               Hint: you should get three T's and one F.
             </p>
           </li>
 
-          <li permid="exers_sec-logic-e_xo-s-ol-l_b">
-            <p permid="exers_sec-logic-e_xo-s-ol-l_b-p">
+          <li permid="exers_sec-logic-e_xo-s1-ol1-l_b">
+            <p permid="exers_sec-logic-e_xo-s1-ol1-l_b-p1">
               Only that there will be cake.
             </p>
           </li>
 
-          <li permid="exers_sec-logic-e_xo-s-ol-l_k">
-            <p permid="exers_sec-logic-e_xo-s-ol-l_k-p">
+          <li permid="exers_sec-logic-e_xo-s1-ol1-l_k">
+            <p permid="exers_sec-logic-e_xo-s1-ol1-l_k-p1">
               It's NOT your birthday!
             </p>
           </li>
 
-          <li permid="exers_sec-logic-e_xo-s-ol-l_t">
-            <p permid="exers_sec-logic-e_xo-s-ol-l_t-p">
+          <li permid="exers_sec-logic-e_xo-s1-ol1-l_t">
+            <p permid="exers_sec-logic-e_xo-s1-ol1-l_t-p1">
               It's your birthday, but the cake is a lie.
             </p>
           </li>
@@ -87,11 +87,11 @@
 
   <exercise permid="exers_sec-logic-e_ag">
     <statement>
-      <p permid="exers_sec-logic-e_ag-p">
+      <p permid="exers_sec-logic-e_ag-p1">
         Make a truth table for the statement <m>(P \vee Q) \imp (P \wedge Q)</m>.
       </p>
     </statement>
-    <solution permid="exers_sec-logic-e_ag-s">
+    <solution permid="exers_sec-logic-e_ag-s1">
       <sidebyside permid="exers_sec-logic-sbs1">
 
         <tabular halign="center">
@@ -131,12 +131,12 @@
 
   <exercise permid="exers_sec-logic-e_dp">
     <statement>
-      <p permid="exers_sec-logic-e_dp-p">
+      <p permid="exers_sec-logic-e_dp-p1">
         Make a truth table for the statement <m>\neg P \wedge (Q \imp P)</m>.
         What can you conclude about <m>P</m> and <m>Q</m> if you know the statement is true?
       </p>
     </statement>
-    <solution permid="exers_sec-logic-e_dp-s">
+    <solution permid="exers_sec-logic-e_dp-s1">
       <sidebyside permid="exers_sec-logic-sbs2">
 
         <tabular halign="center">
@@ -172,7 +172,7 @@
 
       </sidebyside>
 
-      <p permid="exers_sec-logic-e_dp-s-p">
+      <p permid="exers_sec-logic-e_dp-s1-p1">
         If the statement is true, then both <m>P</m> and <m>Q</m> are false.
       </p>
     </solution>
@@ -180,12 +180,12 @@
 
   <exercise permid="exers_sec-logic-e_gy">
     <statement>
-      <p permid="exers_sec-logic-e_gy-p">
+      <p permid="exers_sec-logic-e_gy-p1">
         Make a truth table for the statement <m>\neg P \imp (Q \wedge R)</m>.
       </p>
     </statement>
-    <hint permid="exers_sec-logic-e_gy-h">
-      <p permid="exers_sec-logic-e_gy-h-p">
+    <hint permid="exers_sec-logic-e_gy-h1">
+      <p permid="exers_sec-logic-e_gy-h1-p1">
         Like above, only now you will need 8 rows instead of just 4.
       </p>
     </hint>
@@ -193,14 +193,14 @@
 
   <exercise permid="exers_sec-logic-e_jq">
     <statement>
-      <p permid="exers_sec-logic-e_jq-p">
+      <p permid="exers_sec-logic-e_jq-p1">
         Determine whether the following two statements are logically equivalent:
         <m>\neg(P \imp Q)</m> and <m>P \wedge \neg Q</m>.
         Explain how you know you are correct.
       </p>
     </statement>
-    <solution permid="exers_sec-logic-e_jq-s">
-      <p permid="exers_sec-logic-e_jq-s-p">
+    <solution permid="exers_sec-logic-e_jq-s1">
+      <p permid="exers_sec-logic-e_jq-s1-p1">
         Make a truth table for each and compare.
         The statements are logically equivalent.
       </p>
@@ -209,7 +209,7 @@
 
   <exercise permid="exers_sec-logic-e_mz">
     <statement>
-      <p permid="exers_sec-logic-e_mz-p">
+      <p permid="exers_sec-logic-e_mz-p1">
         Are the statements <m>P \imp (Q\vee R)</m> and
         <m>(P \imp Q) \vee (P \imp R)</m> logically equivalent?
       </p>
@@ -224,19 +224,19 @@
       </p>
 
       <p permid="exers_sec-logic-e_pi-p2">
-        <ol permid="exers_sec-logic-e_pi-ol">
-          <li permid="exers_sec-logic-e_pi-ol-l_j"><m>\neg(P \imp \neg Q)</m>.</li>
+        <ol permid="exers_sec-logic-e_pi-ol1">
+          <li permid="exers_sec-logic-e_pi-ol1-l_j"><m>\neg(P \imp \neg Q)</m>.</li>
 
-          <li permid="exers_sec-logic-e_pi-ol-l_s">
+          <li permid="exers_sec-logic-e_pi-ol1-l_s">
             <m>(\neg P \vee \neg Q) \imp \neg (\neg Q \wedge R)</m>.
           </li>
 
-          <li permid="exers_sec-logic-e_pi-ol-l_b">
+          <li permid="exers_sec-logic-e_pi-ol1-l_b">
             <m>\neg((P \imp \neg Q) \vee \neg (R \wedge \neg R))</m>.
           </li>
 
-          <li permid="exers_sec-logic-e_pi-ol-l_k">
-            <p permid="exers_sec-logic-e_pi-ol-l_k-p">
+          <li permid="exers_sec-logic-e_pi-ol1-l_k">
+            <p permid="exers_sec-logic-e_pi-ol1-l_k-p1">
               It is false that if Sam is not a man then Chris is a woman,
               and that Chris is not a woman.
             </p>
@@ -244,27 +244,27 @@
         </ol>
       </p>
     </statement>
-    <answer permid="exers_sec-logic-e_pi-a">
-      <p permid="exers_sec-logic-e_pi-a-p">
-        <ol permid="exers_sec-logic-e_pi-a-ol">
-          <li permid="exers_sec-logic-e_pi-a-ol-l_j"><m>P \wedge Q</m>.</li>
+    <answer permid="exers_sec-logic-e_pi-a1">
+      <p permid="exers_sec-logic-e_pi-a1-p1">
+        <ol permid="exers_sec-logic-e_pi-a1-ol1">
+          <li permid="exers_sec-logic-e_pi-a1-ol1-l_j"><m>P \wedge Q</m>.</li>
 
-          <li permid="exers_sec-logic-e_pi-a-ol-l_s">
+          <li permid="exers_sec-logic-e_pi-a1-ol1-l_s">
             <m>(\neg P \vee \neg R) \imp (Q \vee \neg R)</m> or,
             replacing the implication with a disjunction first:
             <m>(P \wedge Q) \vee (Q \vee \neg R)</m>.
           </li>
 
-          <li permid="exers_sec-logic-e_pi-a-ol-l_b">
-            <p permid="exers_sec-logic-e_pi-a-ol-l_b-p">
+          <li permid="exers_sec-logic-e_pi-a1-ol1-l_b">
+            <p permid="exers_sec-logic-e_pi-a1-ol1-l_b-p1">
               <m>(P \wedge Q) \wedge (R \wedge \neg R)</m>.
               This is necessarily false,
               so it is also equivalent to <m>P \wedge \neg P</m>.
             </p>
           </li>
 
-          <li permid="exers_sec-logic-e_pi-a-ol-l_k">
-            <p permid="exers_sec-logic-e_pi-a-ol-l_k-p">
+          <li permid="exers_sec-logic-e_pi-a1-ol1-l_k">
+            <p permid="exers_sec-logic-e_pi-a1-ol1-l_k-p1">
               Either Sam is a woman and Chris is a man, or Chris is a woman.
             </p>
           </li>
@@ -286,12 +286,12 @@
       </p>
 
       <p permid="exers_sec-logic-e_sa-p2">
-        <ol permid="exers_sec-logic-e_sa-ol">
-          <li permid="exers_sec-logic-e_sa-ol-l_j">
+        <ol permid="exers_sec-logic-e_sa-ol1">
+          <li permid="exers_sec-logic-e_sa-ol1-l_j">
             <m>\neg((\neg P \wedge Q) \vee \neg(R \vee \neg S))</m>.
           </li>
 
-          <li permid="exers_sec-logic-e_sa-ol-l_s">
+          <li permid="exers_sec-logic-e_sa-ol1-l_s">
             <m>\neg((\neg P \imp \neg Q) \wedge (\neg Q \imp R))</m>
             (careful with the implications).
           </li>
@@ -321,7 +321,7 @@
 
   <exercise permid="exers_sec-logic-e_ys">
     <statement>
-      <p permid="exers_sec-logic-e_ys-p">
+      <p permid="exers_sec-logic-e_ys-p1">
         Determine if the following deduction rule is valid:
       </p>
 
@@ -344,8 +344,8 @@
 
       </sidebyside>
     </statement>
-    <solution permid="exers_sec-logic-e_ys-s">
-      <p permid="exers_sec-logic-e_ys-s-p">
+    <solution permid="exers_sec-logic-e_ys-s1">
+      <p permid="exers_sec-logic-e_ys-s1-p1">
         The deduction rule is valid.
         To see this,
         make a truth table which contains <m>P \vee Q</m> and <m>\neg P</m>
@@ -358,7 +358,7 @@
 
   <exercise permid="exers_sec-logic-e_bk">
     <statement>
-      <p permid="exers_sec-logic-e_bk-p">
+      <p permid="exers_sec-logic-e_bk-p1">
         Determine if the following is a valid deduction rule:
       </p>
 
@@ -385,7 +385,7 @@
 
   <exercise permid="exers_sec-logic-e_et">
     <statement>
-      <p permid="exers_sec-logic-e_et-p">
+      <p permid="exers_sec-logic-e_et-p1">
         Determine if the following is a valid deduction rule:
       </p>
 
@@ -421,9 +421,9 @@
       </p>
 
       <p permid="exers_sec-logic-e_hc-p2">
-        <ol permid="exers_sec-logic-e_hc-ol">
-          <li permid="exers_sec-logic-e_hc-ol-l_j">
-            <p permid="exers_sec-logic-e_hc-ol-l_j-p">
+        <ol permid="exers_sec-logic-e_hc-ol1">
+          <li permid="exers_sec-logic-e_hc-ol1-l_j">
+            <p permid="exers_sec-logic-e_hc-ol1-l_j-p1">
               Prove that the following is a valid deduction rule:
             </p>
 
@@ -448,8 +448,8 @@
 
           </li>
 
-          <li permid="exers_sec-logic-e_hc-ol-l_s">
-            <p permid="exers_sec-logic-e_hc-ol-l_s-p1">
+          <li permid="exers_sec-logic-e_hc-ol1-l_s">
+            <p permid="exers_sec-logic-e_hc-ol1-l_s-p1">
               Prove that the following is a valid deduction rule for any <m>n \ge 2</m>:
             </p>
 
@@ -480,7 +480,7 @@
 
             </sidebyside>
 
-            <p permid="exers_sec-logic-e_hc-ol-l_s-p2">
+            <p permid="exers_sec-logic-e_hc-ol1-l_s-p2">
               I suggest you don't go through the trouble of writing out a <m>2^n</m> row truth table.
               Instead, you should use part (a) and mathematical induction.
             </p>
@@ -501,48 +501,48 @@
       </p>
 
       <p permid="exers_sec-logic-e_ku-p2">
-        <ol permid="exers_sec-logic-e_ku-ol">
-          <li permid="exers_sec-logic-e_ku-ol-l_j">
+        <ol permid="exers_sec-logic-e_ku-ol1">
+          <li permid="exers_sec-logic-e_ku-ol1-l_j">
             <m>\neg \exists x \forall y (\neg O(x) \vee E(y))</m>.
           </li>
 
-          <li permid="exers_sec-logic-e_ku-ol-l_s">
+          <li permid="exers_sec-logic-e_ku-ol1-l_s">
             <m>\neg \forall x \neg \forall y \neg(x \lt y \wedge \exists z (x \lt z \vee y \lt z))</m>.
           </li>
 
-          <li permid="exers_sec-logic-e_ku-ol-l_b">
-            <p permid="exers_sec-logic-e_ku-ol-l_b-p">
+          <li permid="exers_sec-logic-e_ku-ol1-l_b">
+            <p permid="exers_sec-logic-e_ku-ol1-l_b-p1">
               There is a number <m>n</m> for which no other number is either less <m>n</m> than or equal to <m>n</m>.
             </p>
           </li>
 
-          <li permid="exers_sec-logic-e_ku-ol-l_k">
-            <p permid="exers_sec-logic-e_ku-ol-l_k-p">
+          <li permid="exers_sec-logic-e_ku-ol1-l_k">
+            <p permid="exers_sec-logic-e_ku-ol1-l_k-p1">
               It is false that for every number <m>n</m> there are two other numbers which <m>n</m> is between.
             </p>
           </li>
         </ol>
       </p>
     </statement>
-    <solution permid="exers_sec-logic-e_ku-s">
-      <p permid="exers_sec-logic-e_ku-s-p">
-        <ol permid="exers_sec-logic-e_ku-s-ol">
-          <li permid="exers_sec-logic-e_ku-s-ol-l_j">
+    <solution permid="exers_sec-logic-e_ku-s1">
+      <p permid="exers_sec-logic-e_ku-s1-p1">
+        <ol permid="exers_sec-logic-e_ku-s1-ol1">
+          <li permid="exers_sec-logic-e_ku-s1-ol1-l_j">
             <m>\forall x \exists y (O(x) \wedge \neg E(y))</m>.
           </li>
 
-          <li permid="exers_sec-logic-e_ku-s-ol-l_s">
+          <li permid="exers_sec-logic-e_ku-s1-ol1-l_s">
             <m>\exists x \forall y (x \ge y \vee \forall z (x \ge z \wedge y \ge z))</m>.
           </li>
 
-          <li permid="exers_sec-logic-e_ku-s-ol-l_b">
-            <p permid="exers_sec-logic-e_ku-s-ol-l_b-p">
+          <li permid="exers_sec-logic-e_ku-s1-ol1-l_b">
+            <p permid="exers_sec-logic-e_ku-s1-ol1-l_b-p1">
               There is a number <m>n</m> for which every other number is strictly greater than <m>n</m>.
             </p>
           </li>
 
-          <li permid="exers_sec-logic-e_ku-s-ol-l_k">
-            <p permid="exers_sec-logic-e_ku-s-ol-l_k-p">
+          <li permid="exers_sec-logic-e_ku-s1-ol1-l_k">
+            <p permid="exers_sec-logic-e_ku-s1-ol1-l_k-p1">
               There is a number <m>n</m> which is not between any other two numbers.
             </p>
           </li>
@@ -553,15 +553,15 @@
 
   <exercise permid="exers_sec-logic-e_nd">
     <statement>
-      <p permid="exers_sec-logic-e_nd-p">
+      <p permid="exers_sec-logic-e_nd-p1">
         Suppose <m>P</m> and <m>Q</m> are
         (possibly molecular)
         propositional statements.
         Prove that <m>P</m> and <m>Q</m> are logically equivalent if any only if <m>P \iff Q</m> is a tautology.
       </p>
     </statement>
-    <hint permid="exers_sec-logic-e_nd-h">
-      <p permid="exers_sec-logic-e_nd-h-p">
+    <hint permid="exers_sec-logic-e_nd-h1">
+      <p permid="exers_sec-logic-e_nd-h1-p1">
         What do these concepts mean in terms of truth tables?
       </p>
     </hint>
@@ -606,7 +606,7 @@
       <p permid="exers_sec-logic-e_qm-p2">
         is a valid deduction rule.
         Prove that the statement
-        <me permid="exers_sec-logic-e_qm-p2-me">
+        <me permid="exers_sec-logic-e_qm-p2-me1">
           (P_1 \wedge P_2 \wedge \cdots \wedge P_n) \imp Q
         </me>
         is a tautology.

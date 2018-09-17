@@ -2,8 +2,8 @@
 
 <section permid="sec_addtops-numbth" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_addtops-numbth">
   <title>Introduction to Number Theory</title>
-  <introduction permid="sec_addtops-numbth-intr">
-    <p permid="sec_addtops-numbth-intr-p1">
+  <introduction permid="sec_addtops-numbth-intr1">
+    <p permid="sec_addtops-numbth-intr1-p1">
       We have used the natural numbers to solve problems.
       This was the right set of numbers to work with in discrete mathematics because we always dealt with a whole number of things.
       The natural numbers have been a tool.
@@ -12,7 +12,7 @@
       the natural numbers themselves?
     </p>
 
-    <p permid="sec_addtops-numbth-intr-p2">
+    <p permid="sec_addtops-numbth-intr1-p2">
       This is the main question of number theory:
       a huge, ancient, complex, and above all,
       beautiful branch of mathematics.
@@ -27,19 +27,19 @@
       It is number theory that makes this possible.
     </p>
 
-    <p permid="sec_addtops-numbth-intr-p3">
+    <p permid="sec_addtops-numbth-intr1-p3">
       What sorts of questions belong to the realm of number theory?
       Here is a motivating example.
       Recall in our study of induction, we asked:
     </p>
 
-    <blockquote permid="sec_addtops-numbth-intr-bq">
-      <p permid="sec_addtops-numbth-intr-bq-p">
+    <blockquote permid="sec_addtops-numbth-intr1-bq1">
+      <p permid="sec_addtops-numbth-intr1-bq1-p1">
         Which amounts of postage can be made exactly using just 5-cent and 8-cent stamps?
       </p>
     </blockquote>
 
-    <p permid="sec_addtops-numbth-intr-p4">
+    <p permid="sec_addtops-numbth-intr1-p4">
       We were able to prove that <em>any</em>
       amount greater than 27 cents could be made.
       You might wonder what would happen if we changed the denomination of the stamps.
@@ -52,7 +52,7 @@
       Using this as the inductive case would allow us to prove that any amount of postage greater than 23 cents can be made.
     </p>
 
-    <p permid="sec_addtops-numbth-intr-p5">
+    <p permid="sec_addtops-numbth-intr1-p5">
       What if we had 2-cent and 4-cent stamps.
       Here it looks less promising.
       If we take some number of 2-cent stamps and some number of 4-cent stamps,
@@ -61,7 +61,7 @@
       Doesn't look like it.
     </p>
 
-    <p permid="sec_addtops-numbth-intr-p6">
+    <p permid="sec_addtops-numbth-intr1-p6">
       <em>Why</em> does 5 and 8 work, 4 and 9 work, but 2 and 4 not work?
       What is it about these numbers?
       If I gave you a pair of numbers,
@@ -71,9 +71,9 @@
     </p>
   </introduction>
 
-  <subsection permid="-ssec-divisibility">
+  <subsection permid="ssec-divisibility">
     <title>Divisibility</title>
-    <p permid="-ssec-divisibility-p1">
+    <p permid="ssec-divisibility-p1">
       It is easy to add and multiply natural numbers.
       If we extend our focus to all integers,
       then subtraction is also easy
@@ -87,12 +87,12 @@
       This would be going too far, so we will refuse this option.
     </p>
 
-    <p permid="-ssec-divisibility-p2">
+    <p permid="ssec-divisibility-p2">
       In fact, it is a good thing that not every number can be divided by other numbers.
       This helps us understand the structure of the natural numbers and opens the door to many interesting questions and applications.
     </p>
 
-    <p permid="-ssec-divisibility-p3">
+    <p permid="ssec-divisibility-p3">
       If given numbers <m>a</m> and <m>b</m>,
       it is possible that <m>a \div b</m> gives a whole number.
       In this case, we say that <m>b</m> <em>divides</em>
@@ -105,36 +105,36 @@
       (this is saying <m>a</m> is some multiple of <m>b</m>).
     </p>
 
-    <assemblage permid="-ssec-divisibility-asm-divisibility-relation">
+    <assemblage permid="ssec-divisibility-asm-divisibility-relation">
       <title>The Divisibility Relation</title>
-      <p permid="-ssec-divisibility-asm-divisibility-relation-p1">
+      <p permid="ssec-divisibility-asm-divisibility-relation-p1">
             <idx><h>divisibility relation</h></idx>
 	Given integers <m>m</m> and <m>n</m>, we say <q><m>m</m> divides <m>n</m></q> and write
-        <me permid="-ssec-divisibility-asm-divisibility-relation-p1-me">
+        <me permid="ssec-divisibility-asm-divisibility-relation-p1-me1">
           m \mid n
         </me>
         provided <m>n \div m</m> is an integer.
         Thus the following assertions mean the same thing:
       </p>
 
-      <p permid="-ssec-divisibility-asm-divisibility-relation-p2">
-        <ol permid="-ssec-divisibility-asm-divisibility-relation-ol">
-          <li permid="-ssec-divisibility-asm-divisibility-relation-ol-l_j"><m>m \mid n</m></li>
+      <p permid="ssec-divisibility-asm-divisibility-relation-p2">
+        <ol permid="ssec-divisibility-asm-divisibility-relation-ol1">
+          <li permid="ssec-divisibility-asm-divisibility-relation-ol1-l_j"><m>m \mid n</m></li>
 
-          <li permid="-ssec-divisibility-asm-divisibility-relation-ol-l_s"><m>n = mk</m> for some integer <m>k</m></li>
+          <li permid="ssec-divisibility-asm-divisibility-relation-ol1-l_s"><m>n = mk</m> for some integer <m>k</m></li>
 
-          <li permid="-ssec-divisibility-asm-divisibility-relation-ol-l_b">
+          <li permid="ssec-divisibility-asm-divisibility-relation-ol1-l_b">
             <m>m</m> is a factor
             (or divisor)
             of <m>n</m>
           </li>
 
-          <li permid="-ssec-divisibility-asm-divisibility-relation-ol-l_k"><m>n</m> is a multiple of <m>m</m>.</li>
+          <li permid="ssec-divisibility-asm-divisibility-relation-ol1-l_k"><m>n</m> is a multiple of <m>m</m>.</li>
         </ol>
       </p>
     </assemblage>
 
-    <p permid="-ssec-divisibility-p4">
+    <p permid="ssec-divisibility-p4">
       Notice that <m>m \mid n</m> is a statement.
       It is either true or false.
       On the other hand, <m>n \div m</m> or <m>n/m</m> is some number.
@@ -143,39 +143,39 @@
       then we can write <m>m \nmid n</m>.
     </p>
 
-    <example permid="-ssec-divisibility-ex">
+    <example permid="ssec-divisibility-ex1">
       <statement>
-        <p permid="-ssec-divisibility-ex-p1">
+        <p permid="ssec-divisibility-ex1-p1">
           Decide whether each of the statements below are true or false.
         </p>
 
-        <p permid="-ssec-divisibility-ex-p2">
-          <ol permid="-ssec-divisibility-ex-ol">
-            <li permid="-ssec-divisibility-ex-ol-l_j"><m>4 \mid 20</m></li>
+        <p permid="ssec-divisibility-ex1-p2">
+          <ol permid="ssec-divisibility-ex1-ol1">
+            <li permid="ssec-divisibility-ex1-ol1-l_j"><m>4 \mid 20</m></li>
 
-            <li permid="-ssec-divisibility-ex-ol-l_s"><m>20 \mid 4</m></li>
+            <li permid="ssec-divisibility-ex1-ol1-l_s"><m>20 \mid 4</m></li>
 
-            <li permid="-ssec-divisibility-ex-ol-l_b"><m>0 \mid 5</m></li>
+            <li permid="ssec-divisibility-ex1-ol1-l_b"><m>0 \mid 5</m></li>
 
-            <li permid="-ssec-divisibility-ex-ol-l_k"><m>5 \mid 0</m></li>
+            <li permid="ssec-divisibility-ex1-ol1-l_k"><m>5 \mid 0</m></li>
 
-            <li permid="-ssec-divisibility-ex-ol-l_t"><m>7 \mid 7</m></li>
+            <li permid="ssec-divisibility-ex1-ol1-l_t"><m>7 \mid 7</m></li>
 
-            <li permid="-ssec-divisibility-ex-ol-l_c"><m>1 \mid 37</m></li>
+            <li permid="ssec-divisibility-ex1-ol1-l_c"><m>1 \mid 37</m></li>
 
-            <li permid="-ssec-divisibility-ex-ol-l_l"><m>-3 \mid 12</m></li>
+            <li permid="ssec-divisibility-ex1-ol1-l_l"><m>-3 \mid 12</m></li>
 
-            <li permid="-ssec-divisibility-ex-ol-l_u"><m>8 \mid 12</m></li>
+            <li permid="ssec-divisibility-ex1-ol1-l_u"><m>8 \mid 12</m></li>
 
-            <li permid="-ssec-divisibility-ex-ol-l_d"><m>1642 \mid 136299</m></li>
+            <li permid="ssec-divisibility-ex1-ol1-l_d"><m>1642 \mid 136299</m></li>
           </ol>
         </p>
       </statement>
-      <solution permid="-ssec-divisibility-ex-s">
-        <p permid="-ssec-divisibility-ex-s-p">
-          <ol permid="-ssec-divisibility-ex-s-ol">
-            <li permid="-ssec-divisibility-ex-s-ol-l_j">
-              <p permid="-ssec-divisibility-ex-s-ol-l_j-p">
+      <solution permid="ssec-divisibility-ex1-s1">
+        <p permid="ssec-divisibility-ex1-s1-p1">
+          <ol permid="ssec-divisibility-ex1-s1-ol1">
+            <li permid="ssec-divisibility-ex1-s1-ol1-l_j">
+              <p permid="ssec-divisibility-ex1-s1-ol1-l_j-p1">
                 True. 4 <q>goes into</q> 20 five times without remainder.
                 In other words, <m>20 \div 4 = 5</m>, an integer.
                 We could also justify this by saying that <m>20</m> is a multiple of 4:
@@ -183,43 +183,43 @@
               </p>
             </li>
 
-            <li permid="-ssec-divisibility-ex-s-ol-l_s">
-              <p permid="-ssec-divisibility-ex-s-ol-l_s-p">
+            <li permid="ssec-divisibility-ex1-s1-ol1-l_s">
+              <p permid="ssec-divisibility-ex1-s1-ol1-l_s-p1">
                 False.
                 While 20 is a multiple of 4, it is false that <m>4</m> is a multiple of 20.
               </p>
             </li>
 
-            <li permid="-ssec-divisibility-ex-s-ol-l_b">
-              <p permid="-ssec-divisibility-ex-s-ol-l_b-p">
+            <li permid="ssec-divisibility-ex1-s1-ol1-l_b">
+              <p permid="ssec-divisibility-ex1-s1-ol1-l_b-p1">
                 False. <m>5 \div 0</m> is not even defined, let alone an integer.
               </p>
             </li>
 
-            <li permid="-ssec-divisibility-ex-s-ol-l_k">
-              <p permid="-ssec-divisibility-ex-s-ol-l_k-p">
+            <li permid="ssec-divisibility-ex1-s1-ol1-l_k">
+              <p permid="ssec-divisibility-ex1-s1-ol1-l_k-p1">
                 True.
                 In fact, <m>x \mid 0</m> is true for all <m>x</m>.
                 This is because 0 is a multiple of every number: <m>0 = x\cdot 0</m>.
               </p>
             </li>
 
-            <li permid="-ssec-divisibility-ex-s-ol-l_t">
-              <p permid="-ssec-divisibility-ex-s-ol-l_t-p">
+            <li permid="ssec-divisibility-ex1-s1-ol1-l_t">
+              <p permid="ssec-divisibility-ex1-s1-ol1-l_t-p1">
                 True.
                 In fact, <m>x \mid x</m> is true for all <m>x</m>.
               </p>
             </li>
 
-            <li permid="-ssec-divisibility-ex-s-ol-l_c">
-              <p permid="-ssec-divisibility-ex-s-ol-l_c-p">
+            <li permid="ssec-divisibility-ex1-s1-ol1-l_c">
+              <p permid="ssec-divisibility-ex1-s1-ol1-l_c-p1">
                 True. 1 divides every number
                 (other than 0).
               </p>
             </li>
 
-            <li permid="-ssec-divisibility-ex-s-ol-l_l">
-              <p permid="-ssec-divisibility-ex-s-ol-l_l-p">
+            <li permid="ssec-divisibility-ex1-s1-ol1-l_l">
+              <p permid="ssec-divisibility-ex1-s1-ol1-l_l-p1">
                 True.
                 Negative numbers work just fine for the divisibility relation.
                 Here <m>12 = -3 \cdot 4</m>.	It is also true that
@@ -227,15 +227,15 @@
               </p>
             </li>
 
-            <li permid="-ssec-divisibility-ex-s-ol-l_u">
-              <p permid="-ssec-divisibility-ex-s-ol-l_u-p">
+            <li permid="ssec-divisibility-ex1-s1-ol1-l_u">
+              <p permid="ssec-divisibility-ex1-s1-ol1-l_u-p1">
                 False.
                 Both 8 and 12 are divisible by 4, but this does not mean that <m>12</m> is divisible by <m>8</m>.
               </p>
             </li>
 
-            <li permid="-ssec-divisibility-ex-s-ol-l_d">
-              <p permid="-ssec-divisibility-ex-s-ol-l_d-p">
+            <li permid="ssec-divisibility-ex1-s1-ol1-l_d">
+              <p permid="ssec-divisibility-ex1-s1-ol1-l_d-p1">
                 False.
                 See below.
               </p>
@@ -245,7 +245,7 @@
       </solution>
     </example>
 
-    <p permid="-ssec-divisibility-p5">
+    <p permid="ssec-divisibility-p5">
       This last example raises a question:
       how might one decide whether <m>m \mid n</m>?
       Of course, if you had a trusted calculator,
@@ -257,7 +257,7 @@
       so should we really use division to check divisibility?
     </p>
 
-    <p permid="-ssec-divisibility-p6">
+    <p permid="ssec-divisibility-p6">
       While we don't really know how to divide,
       we do know how to multiply.
       We might try multiplying <m>m</m> by larger and larger numbers until we get close to <m>n</m>.
@@ -266,48 +266,48 @@
       we go over <m>n</m>.
     </p>
 
-    <p permid="-ssec-divisibility-p7">
+    <p permid="ssec-divisibility-p7">
       For example,
       let's try this to decide whether <m>1642 \mid 136299</m>.
       Start finding multiples of 1642:
-      <me permid="-ssec-divisibility-p7-me">
+      <me permid="ssec-divisibility-p7-me1">
         1642 \cdot 2 = 3284 \qquad 1642 \cdot 3 = 4926 \qquad 1642\cdot 4 = 6568 \qquad \cdots
       </me>
     </p>
 
-    <p permid="-ssec-divisibility-p8">
+    <p permid="ssec-divisibility-p8">
       All of these are well less than 136299.
       I suppose we can jump ahead a bit:
-      <me permid="-ssec-divisibility-p8-me">
+      <me permid="ssec-divisibility-p8-me1">
         1642 \cdot 50 = 82100 \qquad 1642 \cdot 80 = 131360 \qquad 1642 \cdot 85 = 139570
       </me>
     </p>
 
-    <p permid="-ssec-divisibility-p9">
+    <p permid="ssec-divisibility-p9">
       Ah, so we need to look somewhere between 80 and 85.
       Try 83:
-      <me permid="-ssec-divisibility-p9-me">
+      <me permid="ssec-divisibility-p9-me1">
         1642 \cdot 83 = 136286
       </me>
     </p>
 
-    <p permid="-ssec-divisibility-p10">
+    <p permid="ssec-divisibility-p10">
       Is this the best we can do?
       How far are we from our desired 136299?
       If we subtract, we get <m>136299 - 136286 = 13</m>.
       So we know we cannot go up to 84, that will be too much.
       In other words, we have found that
-      <me permid="-ssec-divisibility-p10-me">
+      <me permid="ssec-divisibility-p10-me1">
         136299 = 83 \cdot 1642 + 13
       </me>
     </p>
 
-    <p permid="-ssec-divisibility-p11">
+    <p permid="ssec-divisibility-p11">
       Since <m>13 \lt 1642</m>,
       we can now safely say that <m>1642 \nmid 136299</m>.
     </p>
 
-    <p permid="-ssec-divisibility-p12">
+    <p permid="ssec-divisibility-p12">
       It turns out that the process we went through above can be repeated for any pair of numbers.
       We can always write the number <m>a</m> as some multiple of the number <m>b</m> plus some remainder.
       We know this because we know about
@@ -318,63 +318,63 @@
       <em>division algorithm</em>:
     </p>
 
-    <assemblage permid="-ssec-divisibility-asm-division-alg">
+    <assemblage permid="ssec-divisibility-asm-division-alg">
       <title>The Division Algorithm</title>
-      <p permid="-ssec-divisibility-asm-division-alg-p">
+      <p permid="ssec-divisibility-asm-division-alg-p1">
             <idx><h>Division algorithm</h></idx>
 	Given any two integers <m>a</m> and <m>b</m>, we can always find an integer <m>q</m> such that
-        <me permid="-ssec-divisibility-asm-division-alg-p-me">
+        <me permid="ssec-divisibility-asm-division-alg-p1-me1">
           a = qb + r
         </me>
         where <m>r</m> is an integer satisfying <m>0 \le r \lt  |b|</m>
       </p>
     </assemblage>
 
-    <p permid="-ssec-divisibility-p13">
+    <p permid="ssec-divisibility-p13">
       The idea is that we can always take a large enough multiple of <m>b</m> so that the remainder <m>r</m> is as small as possible.
       We do allow the possibility of <m>r = 0</m>,
       in which case we have <m>b \mid a</m>.
     </p>
   </subsection>
 
-  <subsection permid="-ssec-remainder-classes">
+  <subsection permid="ssec-remainder-classes">
     <title>Remainder Classes</title>
-    <p permid="-ssec-remainder-classes-p1">
+    <p permid="ssec-remainder-classes-p1">
       The division algorithm tells us that there are only <m>b</m> possible remainders when dividing by <m>b</m>.
       If we fix this divisor, we can group integers by the remainder.
       Each group is called a <em>remainder class modulo <m>b</m></em>
       (or sometimes <em>residue class</em>).
     </p>
 
-    <example permid="-ssec-remainder-classes-ex">
+    <example permid="ssec-remainder-classes-ex1">
       <statement>
-        <p permid="-ssec-remainder-classes-ex-p">
+        <p permid="ssec-remainder-classes-ex1-p1">
           Describe the remainder classes modulo <m>5</m>.
         </p>
       </statement>
-      <solution permid="-ssec-remainder-classes-ex-s">
-        <p permid="-ssec-remainder-classes-ex-s-p1">
+      <solution permid="ssec-remainder-classes-ex1-s1">
+        <p permid="ssec-remainder-classes-ex1-s1-p1">
           We want to classify numbers by what their remainder would be when divided by <m>5</m>.
           From the division algorithm, we know there will be exactly 5 remainder classes,
           because there are only 5 choices for what <m>r</m> could be
           (<m>0 \le r \lt 5</m>).
         </p>
 
-        <p permid="-ssec-remainder-classes-ex-s-p2">
+        <p permid="ssec-remainder-classes-ex1-s1-p2">
           First consider <m>r = 0</m>.
           Here we are looking for all the numbers divisible by <m>5</m> since <m>a = 5q+0</m>.
           In other words, the multiples of 5.
           We get the infinite set
-          <me permid="-ssec-remainder-classes-ex-s-p2-me">
+          <me permid="ssec-remainder-classes-ex1-s1-p2-me1">
             \{\ldots, -15, -10, -5, 0, 5, 10, 15, 20, \ldots\}
           </me>
         </p>
 
-        <p permid="-ssec-remainder-classes-ex-s-p3">
+        <p permid="ssec-remainder-classes-ex1-s1-p3">
           Notice we also include negative integers.
         </p>
 
-        <p permid="-ssec-remainder-classes-ex-s-p4">
+        <p permid="ssec-remainder-classes-ex1-s1-p4">
           Next consider <m>r = 1</m>.
           Which integers, when divided by 5, have remainder 1?
           Well, certainly 1, does, as does 6, and 11.
@@ -387,29 +387,29 @@
           So in fact, to get <m>r = 1</m>,
           we would have <m>-4</m>, or <m>-9</m>, etc.
           Thus we get the remainder class
-          <me permid="-ssec-remainder-classes-ex-s-p4-me">
+          <me permid="ssec-remainder-classes-ex1-s1-p4-me1">
             \{\ldots, -14, -9, -4, 1, 6, 11, 16, 21, \ldots\}
           </me>
         </p>
 
-        <p permid="-ssec-remainder-classes-ex-s-p5">
+        <p permid="ssec-remainder-classes-ex1-s1-p5">
           There are three more to go.
           The remainder classes for <m>2</m>,
           <m>3</m>, and <m>4</m> are, respectively
-          <me permid="-ssec-remainder-classes-ex-s-p5-me1">
+          <me permid="ssec-remainder-classes-ex1-s1-p5-me1">
             \{\ldots, -13, -8, -3, 2, 7, 12, 17, 22,\ldots\}
           </me>
-          <me permid="-ssec-remainder-classes-ex-s-p5-me2">
+          <me permid="ssec-remainder-classes-ex1-s1-p5-me2">
             \{\ldots, -12, -7, -2, 3, 8, 13, 18, 23, \ldots\}
           </me>
-          <me permid="-ssec-remainder-classes-ex-s-p5-me3">
+          <me permid="ssec-remainder-classes-ex1-s1-p5-me3">
             \{\ldots, -11, -6, -1, 4, 9, 14, 19, 24, \ldots\}
           </me>.
         </p>
       </solution>
     </example>
 
-    <p permid="-ssec-remainder-classes-p2">
+    <p permid="ssec-remainder-classes-p2">
       Note that in the example above,
       <em>every</em> integer is in exactly one remainder class.
       The technical way to say this is that the remainder classes modulo <m>b</m> form a
@@ -424,7 +424,7 @@
       Again, there is a mathematical theory of equivalence relations which applies in many more instances than the one we look at here.
       </fn></p>
 
-    <p permid="-ssec-remainder-classes-p3">
+    <p permid="ssec-remainder-classes-p3">
       All fun technical language aside,
       the idea is really simple.
       If two numbers belong to the same remainder class,
@@ -436,14 +436,14 @@
       are the same when it comes to dividing by 5, because both have remainder <m>3</m>.
     </p>
 
-    <p permid="-ssec-remainder-classes-p4">
+    <p permid="ssec-remainder-classes-p4">
       It matters what the divisor is:
       <m>8</m> and <m>23</m> are the same up to division by <m>5</m>,
       but not up to division by <m>7</m>,
       since <m>8</m> has remainder of 1 when divided by 7 while 23 has a remainder of 2.
     </p>
 
-    <p permid="-ssec-remainder-classes-p5">
+    <p permid="ssec-remainder-classes-p5">
       With all this in mind, let's introduce some notation.
       We want to say that <m>8</m> and 23 are basically the same,
       even though they are not equal.
@@ -452,26 +452,26 @@
       But this is not always true.
       It works if we are thinking division by 5, so we need to denote that somehow.
       What we will actually write is this:
-      <me permid="-ssec-remainder-classes-p5-me1">
+      <me permid="ssec-remainder-classes-p5-me1">
         8 \equiv 23 \pmod{5}
       </me>
       which is read, <q>8 is congruent to 23 modulo 5</q>
       (or just <q>mod 5</q>).
           <idx><h>mod</h></idx>
       Of course then we could observe that
-      <me permid="-ssec-remainder-classes-p5-me2">
+      <me permid="ssec-remainder-classes-p5-me2">
         8 \not\equiv 23 \pmod{7}
       </me>
     </p>
 
-    <assemblage permid="-ssec-remainder-classes-asm-congruence-modulo-n">
+    <assemblage permid="ssec-remainder-classes-asm-congruence-modulo-n">
       <title>Congruence Modulo <m>n</m></title>
-      <p permid="-ssec-remainder-classes-asm-congruence-modulo-n-p">
+      <p permid="ssec-remainder-classes-asm-congruence-modulo-n-p1">
         We say <term><m>a</m> is congruent to <m>b</m> modulo <m>n</m></term>,
             <idx><h>congruence</h></idx>
             <idx><h>modulo <m>n</m></h></idx>
         and write,
-        <me permid="-ssec-remainder-classes-asm-congruence-modulo-n-p-me">
+        <me permid="ssec-remainder-classes-asm-congruence-modulo-n-p1-me1">
           a \equiv b \pmod{n}
         </me>
         provided <m>a</m> and <m>b</m> have the same remainder when divided by <m>n</m>.
@@ -480,7 +480,7 @@
       </p>
     </assemblage>
 
-    <p permid="-ssec-remainder-classes-p6">
+    <p permid="ssec-remainder-classes-p6">
       Many books define congruence modulo <m>n</m> slightly differently.
       They say that <m>a \equiv b \pmod{n}</m> if and only if <m>n \mid a-b</m>.
       In other words, two numbers are congruent modulo <m>n</m>,
@@ -489,29 +489,29 @@
       Turns out, it doesn't matter: they are equivalent.
     </p>
 
-    <p permid="-ssec-remainder-classes-p7">
+    <p permid="ssec-remainder-classes-p7">
       To see why, consider two numbers <m>a</m> and <m>b</m> which are congruent modulo <m>n</m>.
       Then <m>a</m> and <m>b</m> have the same remainder when divided by <m>n</m>.
       We have
-      <me permid="-ssec-remainder-classes-p7-me">
+      <me permid="ssec-remainder-classes-p7-me1">
         a = q_1 n + r \qquad\qquad b = q_2 n + r
       </me>
     </p>
 
-    <p permid="-ssec-remainder-classes-p8">
+    <p permid="ssec-remainder-classes-p8">
       Here the two <m>r</m>'s really are the same.
       Consider what we get when we take the difference of <m>a</m> and <m>b</m>:
-      <me permid="-ssec-remainder-classes-p8-me">
+      <me permid="ssec-remainder-classes-p8-me1">
         a-b = q_1n + r - (q_2n + r) = q_1n - q_2 n = (q_1-q_2)n
       </me>
     </p>
 
-    <p permid="-ssec-remainder-classes-p9">
+    <p permid="ssec-remainder-classes-p9">
       So <m>a-b</m> is a multiple of <m>n</m>,
       or equivalently, <m>n \mid a-b</m>.
     </p>
 
-    <p permid="-ssec-remainder-classes-p10">
+    <p permid="ssec-remainder-classes-p10">
       On the other hand,
       if we assume first that <m>n \mid a-b</m>, so <m>a-b = kn</m>,
       then consider what happens if we divide each term by <m>n</m>.
@@ -522,21 +522,21 @@
       That is, the remainders must be the same.
     </p>
 
-    <p permid="-ssec-remainder-classes-p11">
+    <p permid="ssec-remainder-classes-p11">
       Thus we have:
     </p>
 
-    <assemblage permid="-ssec-remainder-classes-asm-congruence-divisibility">
+    <assemblage permid="ssec-remainder-classes-asm-congruence-divisibility">
       <title>Congruence and Divisibility</title>
-      <p permid="-ssec-remainder-classes-asm-congruence-divisibility-p">
+      <p permid="ssec-remainder-classes-asm-congruence-divisibility-p1">
         For any integers <m>a</m>, <m>b</m>, and <m>n</m>, we have
-        <me permid="-ssec-remainder-classes-asm-congruence-divisibility-p-me">
+        <me permid="ssec-remainder-classes-asm-congruence-divisibility-p1-me1">
           a \equiv b \pmod{n} \qquad \mbox{ if and only if }  \qquad n \mid a-b
         </me>.
       </p>
     </assemblage>
 
-    <p permid="-ssec-remainder-classes-p12">
+    <p permid="ssec-remainder-classes-p12">
       It will also be useful to switch back and forth between congruences and regular equations.
       The above fact helps with this.
       We know that <m>a \equiv b \pmod{n}</m> if and only if <m>n \mid a-b</m>,
@@ -548,11 +548,11 @@
       This conforms with our earlier observation that all the numbers in a particular remainder class are the same amount larger than the multiples of <m>n</m>.
     </p>
 
-    <assemblage permid="-ssec-remainder-classes-asm-congruence-equality">
+    <assemblage permid="ssec-remainder-classes-asm-congruence-equality">
       <title>Congruence and Equality</title>
-      <p permid="-ssec-remainder-classes-asm-congruence-equality-p">
+      <p permid="ssec-remainder-classes-asm-congruence-equality-p1">
         For any integers <m>a</m>, <m>b</m>, and <m>n</m>, we have
-        <me permid="-ssec-remainder-classes-asm-congruence-equality-p-me">
+        <me permid="ssec-remainder-classes-asm-congruence-equality-p1-me1">
           a \equiv b \pmod{n} \qquad \mbox{ if and only if }  \qquad a = b + kn \mbox{ for some integer } k 
         </me>.
       </p>
@@ -560,9 +560,9 @@
 
   </subsection>
 
-  <subsection permid="-ssec-properties-congruence">
+  <subsection permid="ssec-properties-congruence">
     <title>Properties of Congruence</title>
-    <p permid="-ssec-properties-congruence-p1">
+    <p permid="ssec-properties-congruence-p1">
       We said earlier that congruence modulo <m>n</m> behaves,
       in many important ways, the same way equality does.
       Specifically,
@@ -571,25 +571,25 @@
       which would require checking the following three facts:
     </p>
 
-    <assemblage permid="-ssec-properties-congruence-asm-congruence-modulo-n-is-an-equivalence-relation">
+    <assemblage permid="ssec-properties-congruence-asm-congruence-modulo-n-is-an-equivalence-relation">
       <title>Congruence Modulo <m>n</m> is an Equivalence Relation</title>
-      <p permid="-ssec-properties-congruence-asm-congruence-modulo-n-is-an-equivalence-relation-p1">
+      <p permid="ssec-properties-congruence-asm-congruence-modulo-n-is-an-equivalence-relation-p1">
         Given any integers <m>a</m>, <m>b</m>, and <m>c</m>,
         and any positive integer <m>n</m>, the following hold:
       </p>
 
-      <p permid="-ssec-properties-congruence-asm-congruence-modulo-n-is-an-equivalence-relation-p2">
-        <ol permid="-ssec-properties-congruence-asm-congruence-modulo-n-is-an-equivalence-relation-ol">
-          <li permid="-ssec-properties-congruence-asm-congruence-modulo-n-is-an-equivalence-relation-ol-l_j"><m>a \equiv a \pmod{n}</m>.</li>
+      <p permid="ssec-properties-congruence-asm-congruence-modulo-n-is-an-equivalence-relation-p2">
+        <ol permid="ssec-properties-congruence-asm-congruence-modulo-n-is-an-equivalence-relation-ol1">
+          <li permid="ssec-properties-congruence-asm-congruence-modulo-n-is-an-equivalence-relation-ol1-l_j"><m>a \equiv a \pmod{n}</m>.</li>
 
-          <li permid="-ssec-properties-congruence-asm-congruence-modulo-n-is-an-equivalence-relation-ol-l_s">
-            <p permid="-ssec-properties-congruence-asm-congruence-modulo-n-is-an-equivalence-relation-ol-l_s-p">
+          <li permid="ssec-properties-congruence-asm-congruence-modulo-n-is-an-equivalence-relation-ol1-l_s">
+            <p permid="ssec-properties-congruence-asm-congruence-modulo-n-is-an-equivalence-relation-ol1-l_s-p1">
               If <m>a \equiv b \pmod{n}</m> then <m>b \equiv a \pmod{n}</m>.
             </p>
           </li>
 
-          <li permid="-ssec-properties-congruence-asm-congruence-modulo-n-is-an-equivalence-relation-ol-l_b">
-            <p permid="-ssec-properties-congruence-asm-congruence-modulo-n-is-an-equivalence-relation-ol-l_b-p">
+          <li permid="ssec-properties-congruence-asm-congruence-modulo-n-is-an-equivalence-relation-ol1-l_b">
+            <p permid="ssec-properties-congruence-asm-congruence-modulo-n-is-an-equivalence-relation-ol1-l_b-p1">
               If <m>a \equiv b \pmod{n}</m> and <m>b \equiv c \pmod{n}</m>,
               then <m>a \equiv c \pmod{n}</m>.
             </p>
@@ -597,18 +597,18 @@
         </ol>
       </p>
 
-      <p permid="-ssec-properties-congruence-asm-congruence-modulo-n-is-an-equivalence-relation-p3">
+      <p permid="ssec-properties-congruence-asm-congruence-modulo-n-is-an-equivalence-relation-p3">
         In other words, congruence modulo <m>n</m> is reflexive,
         symmetric, and transitive, so is an equivalence relation.
       </p>
     </assemblage>
 
-    <p permid="-ssec-properties-congruence-p2">
+    <p permid="ssec-properties-congruence-p2">
       You should take a minute to convince yourself that each of the properties above actually hold of congruence.
       Try explaining each using both the remainder and divisibility definitions.
     </p>
 
-    <p permid="-ssec-properties-congruence-p3">
+    <p permid="ssec-properties-congruence-p3">
       Next, consider how congruence behaves when doing basic arithmetic.
       We already know that if you subtract two congruent numbers,
       the result will be congruent to 0
@@ -617,25 +617,25 @@
       Will we get something congruent to 3?
     </p>
 
-    <assemblage permid="-ssec-properties-congruence-asm-congruence-arithmetic">
+    <assemblage permid="ssec-properties-congruence-asm-congruence-arithmetic">
       <title>Congruence and Arithmetic</title>
-      <p permid="-ssec-properties-congruence-asm-congruence-arithmetic-p1">
+      <p permid="ssec-properties-congruence-asm-congruence-arithmetic-p1">
             <idx><h>modular arithmetic</h></idx>
 	Suppose <m>a \equiv b \pmod{n}</m> and <m>c \equiv d \pmod{n}</m>. Then the following hold:
       </p>
 
-      <p permid="-ssec-properties-congruence-asm-congruence-arithmetic-p2">
-        <ol permid="-ssec-properties-congruence-asm-congruence-arithmetic-ol">
-          <li permid="-ssec-properties-congruence-asm-congruence-arithmetic-ol-l_j"><m>a+c \equiv b+d \pmod{n}</m>.</li>
+      <p permid="ssec-properties-congruence-asm-congruence-arithmetic-p2">
+        <ol permid="ssec-properties-congruence-asm-congruence-arithmetic-ol1">
+          <li permid="ssec-properties-congruence-asm-congruence-arithmetic-ol1-l_j"><m>a+c \equiv b+d \pmod{n}</m>.</li>
 
-          <li permid="-ssec-properties-congruence-asm-congruence-arithmetic-ol-l_s"><m>a-c \equiv b-d \pmod{n}</m>.</li>
+          <li permid="ssec-properties-congruence-asm-congruence-arithmetic-ol1-l_s"><m>a-c \equiv b-d \pmod{n}</m>.</li>
 
-          <li permid="-ssec-properties-congruence-asm-congruence-arithmetic-ol-l_b"><m>ac \equiv bd \pmod{n}</m>.</li>
+          <li permid="ssec-properties-congruence-asm-congruence-arithmetic-ol1-l_b"><m>ac \equiv bd \pmod{n}</m>.</li>
         </ol>
       </p>
     </assemblage>
 
-    <p permid="-ssec-properties-congruence-p4">
+    <p permid="ssec-properties-congruence-p4">
       The above facts might be written a little strangely, but the idea is simple.
       If we have a true congruence,
       and we add the same thing to both sides,
@@ -643,13 +643,13 @@
       This sounds like we are saying:
     </p>
 
-    <blockquote permid="-ssec-properties-congruence-bq">
-      <p permid="-ssec-properties-congruence-bq-p">
+    <blockquote permid="ssec-properties-congruence-bq1">
+      <p permid="ssec-properties-congruence-bq1-p1">
         If <m>a \equiv b \pmod{n}</m> then <m>a+c \equiv b+c \pmod{n}</m>.
       </p>
     </blockquote>
 
-    <p permid="-ssec-properties-congruence-p5">
+    <p permid="ssec-properties-congruence-p5">
       Of course this is true as well,
       it is the special case where <m>c = d</m>.
       But what we have works in more generality.
@@ -659,36 +659,36 @@
       the result will be basically equal.
     </p>
 
-    <p permid="-ssec-properties-congruence-p6">
+    <p permid="ssec-properties-congruence-p6">
       This seems reasonable.
       Is it really true?
       Let's prove the first fact:
     </p>
 
-    <proof permid="-ssec-properties-congruence-pf">
-      <p permid="-ssec-properties-congruence-pf-p1">
+    <proof permid="ssec-properties-congruence-pf1">
+      <p permid="ssec-properties-congruence-pf1-p1">
         Suppose <m>a \equiv b \pmod{n}</m> and <m>c \equiv d \pmod{n}</m>.
         That means <m>a = b + kn</m> and
         <m>c = d + jn</m> for integers <m>k</m> and <m>j</m>.
         Add these equations:
-        <me permid="-ssec-properties-congruence-pf-p1-me">
+        <me permid="ssec-properties-congruence-pf1-p1-me1">
           a+c = b+d + kn + jn
         </me>.
       </p>
 
-      <p permid="-ssec-properties-congruence-pf-p2">
+      <p permid="ssec-properties-congruence-pf1-p2">
         But <m>kn + jn = (k+j)n</m>, which is just a multiple of <m>n</m>.
         So <m>a+c = b+d + (j+k)n</m>,
         or in other words, <m>a+c \equiv b+d \pmod{n}</m>
       </p>
     </proof>
 
-    <p permid="-ssec-properties-congruence-p7">
+    <p permid="ssec-properties-congruence-p7">
       The other two facts can be proved in a similar way.
 <!-- \todo{put as exercise?} -->
     </p>
 
-    <p permid="-ssec-properties-congruence-p8">
+    <p permid="ssec-properties-congruence-p8">
       One of the important consequences of these facts about congruences,
       is that we can basically replace any number in a congruence with any other number it is congruent to.
       Here are some examples to see how
@@ -696,14 +696,14 @@
       that works:
     </p>
 
-    <example permid="-ssec-properties-congruence-ex1">
+    <example permid="ssec-properties-congruence-ex1">
       <statement>
-        <p permid="-ssec-properties-congruence-ex1-p">
+        <p permid="ssec-properties-congruence-ex1-p1">
           Find the remainder of <m>3491</m> divided by <m>9</m>.
         </p>
       </statement>
-      <solution permid="-ssec-properties-congruence-ex1-s">
-        <p permid="-ssec-properties-congruence-ex1-s-p1">
+      <solution permid="ssec-properties-congruence-ex1-s1">
+        <p permid="ssec-properties-congruence-ex1-s1-p1">
           We could do long division, but there is another way.
           We want to find <m>x</m> such that <m>x \equiv 3491 \pmod{9}</m>.
           Now <m>3491 = 3000 + 400 + 90 + 1</m>.
@@ -712,7 +712,7 @@
           Why is this okay?
           We are actually subtracting the
           <q>same</q> thing from both sides:
-          <me permid="-ssec-properties-congruence-ex1-s-p1-me">
+          <me permid="ssec-properties-congruence-ex1-s1-p1-me1">
             \begin{aligned}x \amp  \equiv 3000 + 400 + 90 + 1 \pmod 9 \\
 	- ~~ 0 \amp  \equiv 90 \pmod 9 \\
 	x \amp  \equiv 3000 + 400 + 0 + 1\pmod 9.
@@ -720,7 +720,7 @@
           </me>
         </p>
 
-        <p permid="-ssec-properties-congruence-ex1-s-p2">
+        <p permid="ssec-properties-congruence-ex1-s1-p2">
           Next, note that <m>400 = 4 \cdot 100</m>,
           and <m>100 \equiv 1 \pmod 9</m>
           (since <m>9 \mid 99</m>).
@@ -732,13 +732,13 @@
           we get <m>400 \equiv 4 \pmod 9</m>.
         </p>
 
-        <p permid="-ssec-properties-congruence-ex1-s-p3">
+        <p permid="ssec-properties-congruence-ex1-s1-p3">
           Similarly, we can replace 3000 with 3, since <m>1000 = 1 + 999 \equiv 1 \pmod 9</m>.
           So our original congruence becomes
-          <me permid="-ssec-properties-congruence-ex1-s-p3-me1">
+          <me permid="ssec-properties-congruence-ex1-s1-p3-me1">
             x \equiv 3 + 4 + 0 + 1 \pmod 9
           </me>
-          <me permid="-ssec-properties-congruence-ex1-s-p3-me2">
+          <me permid="ssec-properties-congruence-ex1-s1-p3-me2">
             x \equiv 8 \pmod 9
           </me>.
           Therefore <m>3491</m> divided by 9 has remainder 8.
@@ -746,7 +746,7 @@
       </solution>
     </example>
 
-    <p permid="-ssec-properties-congruence-p9">
+    <p permid="ssec-properties-congruence-p9">
       The above example should convince you that the well known divisibility test for 9 is true:
       the sum of the digits of a number is divisible by 9 if and only if the original number is divisible by 9.
       In fact, we now know something more:
@@ -754,49 +754,49 @@
       This works for 3 as well, but definitely not for any modulus in general.
       </fn></p>
 
-    <p permid="-ssec-properties-congruence-p10">
+    <p permid="ssec-properties-congruence-p10">
       Let's try another:
     </p>
 
-    <example permid="-ssec-properties-congruence-ex2">
+    <example permid="ssec-properties-congruence-ex2">
       <statement>
-        <p permid="-ssec-properties-congruence-ex2-p">
+        <p permid="ssec-properties-congruence-ex2-p1">
           Find the remainder when <m>3^{123}</m> is divided by 7.
         </p>
       </statement>
-      <solution permid="-ssec-properties-congruence-ex2-s">
-        <p permid="-ssec-properties-congruence-ex2-s-p1">
+      <solution permid="ssec-properties-congruence-ex2-s1">
+        <p permid="ssec-properties-congruence-ex2-s1-p1">
           Of course, we are working with congruence because we want to find the smallest positive <m>x</m> such that <m>x \equiv 3^{123} \pmod 7</m>.
           Now first write <m>3^{123} = (3^3)^{41}</m>.
           We have:
-          <me permid="-ssec-properties-congruence-ex2-s-p1-me1">
+          <me permid="ssec-properties-congruence-ex2-s1-p1-me1">
             3^{123} = 27^{41} \equiv 6^{41} \pmod 7
           </me>,
           since <m>27 \equiv 6 \pmod 7</m>.
           Notice further that <m>6^2 = 36</m> is congruent to 1 modulo 7.
           Thus we can simplify further:
-          <me permid="-ssec-properties-congruence-ex2-s-p1-me2">
+          <me permid="ssec-properties-congruence-ex2-s1-p1-me2">
             6^{41} = 6\cdot (6^2)^{20} \equiv 6 \cdot 1^{20} \pmod 7
           </me>.
         </p>
 
-        <p permid="-ssec-properties-congruence-ex2-s-p2">
+        <p permid="ssec-properties-congruence-ex2-s1-p2">
           But <m>1^{20} = 1</m>, so we are done:
-          <me permid="-ssec-properties-congruence-ex2-s-p2-me">
+          <me permid="ssec-properties-congruence-ex2-s1-p2-me1">
             3^{123} \equiv 6 \pmod 7
           </me>.
         </p>
       </solution>
     </example>
 
-    <p permid="-ssec-properties-congruence-p11">
+    <p permid="ssec-properties-congruence-p11">
       In the above example,
       we are using the fact that if <m>a \equiv b \pmod n</m>,
       then <m>a^p \equiv b^p \pmod n</m>.
       This is just applying property 3 a bunch of times.
     </p>
 
-    <p permid="-ssec-properties-congruence-p12">
+    <p permid="ssec-properties-congruence-p12">
       So far we have seen how to add,
       subtract and multiply with congruences.
       What about division?
@@ -805,27 +805,27 @@
       In other words, even if <m>ad \equiv bd \pmod n</m>,
       we do not know that <m>a \equiv b \pmod n</m>.
       Consider, for example:
-      <me permid="-ssec-properties-congruence-p12-me">
+      <me permid="ssec-properties-congruence-p12-me1">
         18 \equiv 42 \pmod 8
       </me>.
     </p>
 
-    <p permid="-ssec-properties-congruence-p13">
+    <p permid="ssec-properties-congruence-p13">
       This is true.
       Now <m>18</m> and <m>42</m> are both divisible by 6.
       However,
-      <me permid="-ssec-properties-congruence-p13-me">
+      <me permid="ssec-properties-congruence-p13-me1">
         3 \not\equiv 7 \pmod 8
       </me>.
     </p>
 
-    <p permid="-ssec-properties-congruence-p14">
+    <p permid="ssec-properties-congruence-p14">
       While this doesn't work, note that <m>3 \equiv 7 \pmod 4</m>.
       We cannot divide <m>8</m> by 6, but we can divide 8 by the greatest common factor of <m>8</m> and <m>6</m>.
       Will this always happen?
     </p>
 
-    <p permid="-ssec-properties-congruence-p15">
+    <p permid="ssec-properties-congruence-p15">
       Suppose <m>ad \equiv bd \pmod n</m>.
       In other words,
       we have <m>ad = bd + kn</m> for some integer <m>k</m>.
@@ -844,7 +844,7 @@
       no problem.
     </p>
 
-    <p permid="-ssec-properties-congruence-p16">
+    <p permid="ssec-properties-congruence-p16">
       We will call the largest factor of both <m>d</m> and <m>n</m> the <m>\gcd(d,n)</m>,
       for <em>greatest common divisor</em>.
           <idx><h>gcd</h></idx>
@@ -853,43 +853,43 @@
       <m>\gcd(6,8) = 2</m> since the greatest divisor common to 6 and 8 is 2.
     </p>
 
-    <assemblage permid="-ssec-properties-congruence-asm-congruence-division">
+    <assemblage permid="ssec-properties-congruence-asm-congruence-division">
       <title>Congruence and Division</title>
-      <p permid="-ssec-properties-congruence-asm-congruence-division-p1">
+      <p permid="ssec-properties-congruence-asm-congruence-division-p1">
         Suppose <m>ad \equiv bd \pmod n</m>.
         Then <m>a \equiv b \pmod{\frac{n}{\gcd(d,n)}}</m>.
       </p>
 
-      <p permid="-ssec-properties-congruence-asm-congruence-division-p2">
+      <p permid="ssec-properties-congruence-asm-congruence-division-p2">
         If <m>d</m> and <m>n</m> have no common factors then <m>\gcd(d,n) = 1</m>,
         so <m>a \equiv b \pmod n</m>.
       </p>
     </assemblage>
 
-    <example permid="-ssec-properties-congruence-ex3">
+    <example permid="ssec-properties-congruence-ex3">
       <statement>
-        <p permid="-ssec-properties-congruence-ex3-p">
+        <p permid="ssec-properties-congruence-ex3-p1">
           Simplify the following congruences using division: (a)
           <m>24 \equiv 39 \pmod 5</m> and (b) <m>24 \equiv 39 \pmod{15}</m>.
         </p>
       </statement>
-      <solution permid="-ssec-properties-congruence-ex3-s">
-        <p permid="-ssec-properties-congruence-ex3-s-p1">
+      <solution permid="ssec-properties-congruence-ex3-s1">
+        <p permid="ssec-properties-congruence-ex3-s1-p1">
           (a) Both <m>24</m> and <m>39</m> are divisible by <m>3</m>,
           and <m>3</m> and <m>5</m> have no common factors, so we get
-          <me permid="-ssec-properties-congruence-ex3-s-p1-me">
+          <me permid="ssec-properties-congruence-ex3-s1-p1-me1">
             8 \equiv 13 \pmod 5
           </me>.
         </p>
 
-        <p permid="-ssec-properties-congruence-ex3-s-p2">
+        <p permid="ssec-properties-congruence-ex3-s1-p2">
           (b) Again, we can divide by 3.
           However, doing so blindly gives us
           <m>8 \equiv 13 \pmod{15}</m> which is no longer true.
           Instead, we must also divide the modulus 15 by the greatest common factor of <m>3</m> and <m>15</m>,
           which is <m>3</m>.
           Again we get
-          <me permid="-ssec-properties-congruence-ex3-s-p2-me">
+          <me permid="ssec-properties-congruence-ex3-s1-p2-me1">
             8 \equiv 13 \pmod 5
           </me>.
         </p>
@@ -897,20 +897,20 @@
     </example>
   </subsection>
 
-  <subsection permid="-ssec-solving-congruences">
+  <subsection permid="ssec-solving-congruences">
     <title>Solving Congruences</title>
 <!-- \todo[inline]{This would be a good place for an activity.} -->
-    <p permid="-ssec-solving-congruences-p1">
+    <p permid="ssec-solving-congruences-p1">
       Now that we have some algebraic rules to govern congruence relations,
       we can attempt to solve for an unknown in a congruence.
       For example, is there a value of <m>x</m> that satisfies,
-      <me permid="-ssec-solving-congruences-p1-me">
+      <me permid="ssec-solving-congruences-p1-me1">
         3x + 2 \equiv 4 \pmod{5}
       </me>,
       and if so, what is it?
     </p>
 
-    <p permid="-ssec-solving-congruences-p2">
+    <p permid="ssec-solving-congruences-p2">
       In this example, since the modulus is small,
       we could simply try every possible value for <m>x</m>.
       There are really only 5 to consider,
@@ -921,41 +921,41 @@
       replacing any number in a congruence with a congruent number does not change the truth of the congruence.
     </p>
 
-    <p permid="-ssec-solving-congruences-p3">
+    <p permid="ssec-solving-congruences-p3">
       So in this example,
       simply compute <m>3x + 2</m> for values of <m>x \in \{0,1,2,3,4\}</m>.
       This gives 2, 5, 8, 11, and 14 respectively,
       for which only 14 is congruent to 4.
     </p>
 
-    <p permid="-ssec-solving-congruences-p4">
+    <p permid="ssec-solving-congruences-p4">
       Let's also see how you could solve this using our rules for the algebra of congruences.
       Such an approach would be much simpler than the trial and error tactic if the modulus was larger.
       First, we know we can subtract 2 from both sides:
-      <me permid="-ssec-solving-congruences-p4-me">
+      <me permid="ssec-solving-congruences-p4-me1">
         3x \equiv 2 \pmod{5}
       </me>.
     </p>
 
-    <p permid="-ssec-solving-congruences-p5">
+    <p permid="ssec-solving-congruences-p5">
       Then to divide both sides by 3, we first add 0 to both sides.
       Of course, on the right-hand side, we want that 0 to be a 10
       (yes, <m>10</m> really is 0 since they are congruent modulo 5).
       This gives,
-      <me permid="-ssec-solving-congruences-p5-me">
+      <me permid="ssec-solving-congruences-p5-me1">
         3x \equiv 12 \pmod{5}
       </me>.
     </p>
 
-    <p permid="-ssec-solving-congruences-p6">
+    <p permid="ssec-solving-congruences-p6">
       Now divide both sides by 3.
       Since <m>\gcd(3,5) = 1</m>, we do not need to change the modulus:
-      <me permid="-ssec-solving-congruences-p6-me">
+      <me permid="ssec-solving-congruences-p6-me1">
         x \equiv 4 \pmod{5}
       </me>.
     </p>
 
-    <p permid="-ssec-solving-congruences-p7">
+    <p permid="ssec-solving-congruences-p7">
       Notice that this in fact gives the
       <em>general solution</em>:
       not only can <m>x = 4</m>,
@@ -964,34 +964,34 @@
       or write <q><m>x = 4 + 5k</m> for any integer <m>k</m>.</q>
     </p>
 
-    <example permid="-ssec-solving-congruences-ex">
+    <example permid="ssec-solving-congruences-ex1">
       <statement>
-        <p permid="-ssec-solving-congruences-ex-p1">
+        <p permid="ssec-solving-congruences-ex1-p1">
           Solve the following congruences for <m>x</m>.
         </p>
 
-        <p permid="-ssec-solving-congruences-ex-p2">
-          <ol permid="-ssec-solving-congruences-ex-ol">
-            <li permid="-ssec-solving-congruences-ex-ol-l_j"><m>7x \equiv 12 \pmod{13}</m>.</li>
+        <p permid="ssec-solving-congruences-ex1-p2">
+          <ol permid="ssec-solving-congruences-ex1-ol1">
+            <li permid="ssec-solving-congruences-ex1-ol1-l_j"><m>7x \equiv 12 \pmod{13}</m>.</li>
 
-            <li permid="-ssec-solving-congruences-ex-ol-l_s"><m>84x - 38 \equiv 79 \pmod{15}</m>.</li>
+            <li permid="ssec-solving-congruences-ex1-ol1-l_s"><m>84x - 38 \equiv 79 \pmod{15}</m>.</li>
 
-            <li permid="-ssec-solving-congruences-ex-ol-l_b"><m>20x \equiv 23 \pmod{14}</m>.</li>
+            <li permid="ssec-solving-congruences-ex1-ol1-l_b"><m>20x \equiv 23 \pmod{14}</m>.</li>
           </ol>
         </p>
       </statement>
-      <solution permid="-ssec-solving-congruences-ex-s">
-        <p permid="-ssec-solving-congruences-ex-s-p">
-          <ol permid="-ssec-solving-congruences-ex-s-ol">
-            <li permid="-ssec-solving-congruences-ex-s-ol-l_j">
-              <p permid="-ssec-solving-congruences-ex-s-ol-l_j-p">
+      <solution permid="ssec-solving-congruences-ex1-s1">
+        <p permid="ssec-solving-congruences-ex1-s1-p1">
+          <ol permid="ssec-solving-congruences-ex1-s1-ol1">
+            <li permid="ssec-solving-congruences-ex1-s1-ol1-l_j">
+              <p permid="ssec-solving-congruences-ex1-s1-ol1-l_j-p1">
                 All we need to do here is divide both sides by 7.
                 We add 13 to the right-hand side repeatedly until we get a multiple of 7
                 (adding 13 is the same as adding 0, so this is legal).
                 We get <m>25</m>, <m>38</m>, <m>51</m>,
                 <m>64</m>, <m>77</m> <ndash/> got it.
                 So we have:
-                <me permid="-ssec-solving-congruences-ex-s-p-me">
+                <me permid="ssec-solving-congruences-ex1-s1-p1-me1">
                   \begin{aligned}7x \amp  \equiv 12 \pmod{13} \\
 			7x \amp  \equiv 77 \pmod{13} \\
 			x \amp  \equiv 11 \pmod{13}.
@@ -1000,14 +1000,14 @@
               </p>
             </li>
 
-            <li permid="-ssec-solving-congruences-ex-s-ol-l_s">
-              <p permid="-ssec-solving-congruences-ex-s-ol-l_s-p">
+            <li permid="ssec-solving-congruences-ex1-s1-ol1-l_s">
+              <p permid="ssec-solving-congruences-ex1-s1-ol1-l_s-p1">
                 Here, since we have numbers larger than the modulus,
                 we can reduce them prior to applying any algebra.
                 We have <m>84 \equiv 9</m>,
                 <m>38 \equiv 8</m> and <m>79 \equiv 4</m>.
                 Thus,
-                <me permid="-ssec-solving-congruences-ex-s-ol-l_s-p-me1">
+                <me permid="ssec-solving-congruences-ex1-s1-ol1-l_s-p1-me1">
                   \begin{aligned}84x - 38 \amp  \equiv 79 \pmod{15} \\
 		9x - 8 \amp  \equiv 4 \pmod{15} \\
 		9x \amp  \equiv 12 \pmod{15} \\
@@ -1018,30 +1018,30 @@
                 Now divide both sides by 9.
                 However, since <m>\gcd(9, 15) = 3</m>,
                 we must divide the modulus by 3 as well:
-                <me permid="-ssec-solving-congruences-ex-s-ol-l_s-p-me2">
+                <me permid="ssec-solving-congruences-ex1-s1-ol1-l_s-p1-me2">
                   x \equiv 8 \pmod 5
                 </me>.
                 So the solutions are those values which are congruent to 8, or equivalently 3, modulo 5.
                 This means that in some sense there are 3 solutions modulo 15: 3, 8, and 13.
                 We can write the solution:
-                <me permid="-ssec-solving-congruences-ex-s-ol-l_s-p-me3">
+                <me permid="ssec-solving-congruences-ex1-s1-ol1-l_s-p1-me3">
                   x \equiv 3 \pmod{15}; ~~ x \equiv 8 \pmod{15}; ~~x \equiv 13 \pmod{15}
                 </me>.
               </p>
             </li>
 
-            <li permid="-ssec-solving-congruences-ex-s-ol-l_b">
-              <p permid="-ssec-solving-congruences-ex-s-ol-l_b-p">
+            <li permid="ssec-solving-congruences-ex1-s1-ol1-l_b">
+              <p permid="ssec-solving-congruences-ex1-s1-ol1-l_b-p1">
                 First, reduce modulo 14:
-                <me permid="-ssec-solving-congruences-ex-s-ol-l_b-p-me1">
+                <me permid="ssec-solving-congruences-ex1-s1-ol1-l_b-p1-me1">
                   20x \equiv 23 \pmod{14}
                 </me>
-                <me permid="-ssec-solving-congruences-ex-s-ol-l_b-p-me2">
+                <me permid="ssec-solving-congruences-ex1-s1-ol1-l_b-p1-me2">
                   6x \equiv 9 \pmod{14}
                 </me>.
                 We could now divide both sides by 3, or try to increase 9 by a multiple of 14 to get a multiple of 6.
                 If we divide by 3, we get,
-                <me permid="-ssec-solving-congruences-ex-s-ol-l_b-p-me3">
+                <me permid="ssec-solving-congruences-ex1-s1-ol1-l_b-p1-me3">
                   2x \equiv 3 \pmod{14}
                 </me>.
                 Now try adding multiples of 14 to 3, in hopes of getting a number we can divide by 2.
@@ -1058,18 +1058,18 @@
       </solution>
     </example>
 
-    <p permid="-ssec-solving-congruences-p8">
+    <p permid="ssec-solving-congruences-p8">
       The last congruence above illustrates the way in which congruences might not have solutions.
       We could have seen this immediately in fact.
       Look at the original congruence:
-      <me permid="-ssec-solving-congruences-p8-me">
+      <me permid="ssec-solving-congruences-p8-me1">
         20x \equiv 23 \pmod{14}
       </me>.
     </p>
 
-    <p permid="-ssec-solving-congruences-p9">
+    <p permid="ssec-solving-congruences-p9">
       If we write this as an equation, we get
-      <me permid="-ssec-solving-congruences-p9-me">
+      <me permid="ssec-solving-congruences-p9-me1">
         20x = 23 + 14k
       </me>,
       or equivalently <m>20x - 14k = 23</m>.
@@ -1080,9 +1080,9 @@
       number the left-hand side was not.
     </p>
 
-    <p permid="-ssec-solving-congruences-p10">
+    <p permid="ssec-solving-congruences-p10">
       So in general, given the congruence
-      <me permid="-ssec-solving-congruences-p10-me">
+      <me permid="ssec-solving-congruences-p10-me1">
         ax \equiv b \pmod{n}
       </me>,
       if <m>a</m> and <m>n</m> are divisible by a number which <m>b</m> is not divisible by,
@@ -1092,18 +1092,18 @@
       Thus, a more compact way to say this is:
     </p>
 
-    <assemblage permid="-ssec-solving-congruences-asm-congruences-with-no-solutions">
+    <assemblage permid="ssec-solving-congruences-asm-congruences-with-no-solutions">
       <title>Congruences with no solutions</title>
-      <p permid="-ssec-solving-congruences-asm-congruences-with-no-solutions-p">
+      <p permid="ssec-solving-congruences-asm-congruences-with-no-solutions-p1">
         If <m>\gcd(a,n) \nmid b</m>, then <m>ax \equiv b \pmod{n}</m> has no solutions.
       </p>
     </assemblage>
 
   </subsection>
 
-  <subsection permid="-ssec-solving-linear-diophantine-equations">
+  <subsection permid="ssec-solving-linear-diophantine-equations">
     <title>Solving Linear Diophantine Equations</title>
-    <p permid="-ssec-solving-linear-diophantine-equations-p1">
+    <p permid="ssec-solving-linear-diophantine-equations-p1">
       Discrete math deals with whole numbers of things.
       So when we want to solve equations,
       we usually are looking for <em>integer</em> solutions.
@@ -1120,9 +1120,9 @@
       which are considerably easier to work with.
     </p>
 
-    <assemblage permid="-ssec-solving-linear-diophantine-equations-asm-diophantine-equations">
+    <assemblage permid="ssec-solving-linear-diophantine-equations-asm-diophantine-equations">
       <title>Diophantine Equations</title>
-      <p permid="-ssec-solving-linear-diophantine-equations-asm-diophantine-equations-p1">
+      <p permid="ssec-solving-linear-diophantine-equations-asm-diophantine-equations-p1">
         An equation in two or more variables is called a
         <term>Diophantine equation</term>
         if only integers solutions are of interest.
@@ -1131,20 +1131,20 @@
         a_n, b</m>.
       </p>
 
-      <p permid="-ssec-solving-linear-diophantine-equations-asm-diophantine-equations-p2">
+      <p permid="ssec-solving-linear-diophantine-equations-asm-diophantine-equations-p2">
         A <term>solution</term> to a Diophantine equation is a solution to the equation consisting only of integers.
       </p>
     </assemblage>
 
-    <p permid="-ssec-solving-linear-diophantine-equations-p2">
+    <p permid="ssec-solving-linear-diophantine-equations-p2">
       We have the tools we need to solve linear Diophantine equations.
       We will consider, as a main example, the equation
-      <me permid="-ssec-solving-linear-diophantine-equations-p2-me">
+      <me permid="ssec-solving-linear-diophantine-equations-p2-me1">
         51x + 87y = 123
       </me>.
     </p>
 
-    <p permid="-ssec-solving-linear-diophantine-equations-p3">
+    <p permid="ssec-solving-linear-diophantine-equations-p3">
       The general strategy will be to convert the equation to a congruence,
       then solve that congruence.<fn>
       This is certainly not the only way to proceed.
@@ -1155,19 +1155,19 @@
       </fn> Let's work this particular example to see how this might go.
     </p>
 
-    <p permid="-ssec-solving-linear-diophantine-equations-p4">
+    <p permid="ssec-solving-linear-diophantine-equations-p4">
       First, check if perhaps there are no solutions because a divisor of <m>51</m> and <m>87</m> is not a divisor of <m>123</m>.
       Really, we just need to check whether <m>\gcd(51, 87) \mid 123</m>.
       This greatest common divisor is 3, and yes <m>3 \mid 123</m>.
       At this point,
       we might as well factor out this greatest common divisor.
       So instead, we will solve:
-      <me permid="-ssec-solving-linear-diophantine-equations-p4-me">
+      <me permid="ssec-solving-linear-diophantine-equations-p4-me1">
         17x + 29y = 41
       </me>.
     </p>
 
-    <p permid="-ssec-solving-linear-diophantine-equations-p5">
+    <p permid="ssec-solving-linear-diophantine-equations-p5">
       Now observe that if there are going to be solutions,
       then for those values of <m>x</m> and <m>y</m>,
       the two sides of the equation must have the same remainder as each other,
@@ -1175,19 +1175,19 @@
       In particular, if we divide both sides by 17,
       we must get the same remainder.
       Thus we can safely write
-      <me permid="-ssec-solving-linear-diophantine-equations-p5-me">
+      <me permid="ssec-solving-linear-diophantine-equations-p5-me1">
         17x + 29y \equiv 41 \pmod{17}
       </me>.
     </p>
 
-    <p permid="-ssec-solving-linear-diophantine-equations-p6">
+    <p permid="ssec-solving-linear-diophantine-equations-p6">
       We choose 17 because <m>17x</m> will have remainder 0.
       This will allow us to reduce the congruence to just one variable.
       We could have also moved to a congruence modulo 29,
       although there is usually a good reason to select the smaller choice,
       as this will allow us to reduce the other coefficient.
       In our case, we reduce the congruence as follows:
-      <me permid="-ssec-solving-linear-diophantine-equations-p6-me">
+      <me permid="ssec-solving-linear-diophantine-equations-p6-me1">
         \begin{aligned}17x + 29y \amp  \equiv 41 \pmod{17} \\
         0x + 12y \amp  \equiv 7 \pmod{17} \\
         12 y \amp  \equiv 24 \pmod{17} \\
@@ -1196,11 +1196,11 @@
       </me>
     </p>
 
-    <p permid="-ssec-solving-linear-diophantine-equations-p7">
+    <p permid="ssec-solving-linear-diophantine-equations-p7">
       Now at this point we know <m>y = 2 + 17k</m> will work for any integer <m>k</m>.
       If we haven't made a mistake,
       we should be able to plug this back into our original Diophantine equation to find <m>x</m>:
-      <me permid="-ssec-solving-linear-diophantine-equations-p7-me">
+      <me permid="ssec-solving-linear-diophantine-equations-p7-me1">
         \begin{aligned}17x + 29(2 + 17k) \amp  = 41\\
         17x \amp  = -17 - 29\cdot 17k\\
         x \amp  = -1-29k.
@@ -1208,7 +1208,7 @@
       </me>
     </p>
 
-    <p permid="-ssec-solving-linear-diophantine-equations-p8">
+    <p permid="ssec-solving-linear-diophantine-equations-p8">
       We have now found all solutions to the Diophantine equation.
       For each <m>k</m>, <m>x = -1-29k</m> and
       <m>y = 2 + 17k</m> will satisfy the equation.
@@ -1219,14 +1219,14 @@
       If <m>k = -2</m>, we get <m>(57, -32)</m>.
     </p>
 
-    <p permid="-ssec-solving-linear-diophantine-equations-p9">
+    <p permid="ssec-solving-linear-diophantine-equations-p9">
       To summarize this process, to solve <m>ax + by = c</m>, we,
     </p>
 
-    <p permid="-ssec-solving-linear-diophantine-equations-p10">
-      <ol permid="-ssec-solving-linear-diophantine-equations-ol">
-        <li permid="-ssec-solving-linear-diophantine-equations-ol-l_j">
-          <p permid="-ssec-solving-linear-diophantine-equations-ol-l_j-p">
+    <p permid="ssec-solving-linear-diophantine-equations-p10">
+      <ol permid="ssec-solving-linear-diophantine-equations-ol1">
+        <li permid="ssec-solving-linear-diophantine-equations-ol1-l_j">
+          <p permid="ssec-solving-linear-diophantine-equations-ol1-l_j-p1">
             Divide both sides of the equation by <m>\gcd(a,b)</m>
             (if this does not leave the right-hand side as an integer,
             there are no solutions).
@@ -1234,38 +1234,38 @@
           </p>
         </li>
 
-        <li permid="-ssec-solving-linear-diophantine-equations-ol-l_s">
-          <p permid="-ssec-solving-linear-diophantine-equations-ol-l_s-p">
+        <li permid="ssec-solving-linear-diophantine-equations-ol1-l_s">
+          <p permid="ssec-solving-linear-diophantine-equations-ol1-l_s-p1">
             Pick the smaller of <m>a</m> and <m>b</m> (here,
             assume it is <m>b</m>), and convert to a congruence modulo <m>b</m>:
-            <me permid="-ssec-solving-linear-diophantine-equations-ol-l_s-p-me1">
+            <me permid="ssec-solving-linear-diophantine-equations-ol1-l_s-p1-me1">
               ax + by \equiv c \pmod{b}
             </me>.
             This will reduce to a congruence with one variable, <m>x</m>:
-            <me permid="-ssec-solving-linear-diophantine-equations-ol-l_s-p-me2">
+            <me permid="ssec-solving-linear-diophantine-equations-ol1-l_s-p1-me2">
               ax \equiv c \pmod{b}
             </me>.
           </p>
         </li>
 
-        <li permid="-ssec-solving-linear-diophantine-equations-ol-l_b">
-          <p permid="-ssec-solving-linear-diophantine-equations-ol-l_b-p">
+        <li permid="ssec-solving-linear-diophantine-equations-ol1-l_b">
+          <p permid="ssec-solving-linear-diophantine-equations-ol1-l_b-p1">
             Solve the congruence as we did in the previous section.
             Write your solution as an equation, such as,
-            <me permid="-ssec-solving-linear-diophantine-equations-ol-l_b-p-me">
+            <me permid="ssec-solving-linear-diophantine-equations-ol1-l_b-p1-me1">
               x = n + kb
             </me>
           </p>
         </li>
 
-        <li permid="-ssec-solving-linear-diophantine-equations-ol-l_k">
-          <p permid="-ssec-solving-linear-diophantine-equations-ol-l_k-p">
+        <li permid="ssec-solving-linear-diophantine-equations-ol1-l_k">
+          <p permid="ssec-solving-linear-diophantine-equations-ol1-l_k-p1">
             Plug this into the original Diophantine equation, and solve for <m>y</m>.
           </p>
         </li>
 
-        <li permid="-ssec-solving-linear-diophantine-equations-ol-l_t">
-          <p permid="-ssec-solving-linear-diophantine-equations-ol-l_t-p">
+        <li permid="ssec-solving-linear-diophantine-equations-ol1-l_t">
+          <p permid="ssec-solving-linear-diophantine-equations-ol1-l_t-p1">
             If we want to know solutions in a particular range
             (for example, <m>0 \le x, y \le 20</m>),
             pick different values of <m>k</m> until you have all required solutions.
@@ -1274,32 +1274,32 @@
       </ol>
     </p>
 
-    <p permid="-ssec-solving-linear-diophantine-equations-p11">
+    <p permid="ssec-solving-linear-diophantine-equations-p11">
       Here is another example:
     </p>
 
-    <example permid="-ssec-solving-linear-diophantine-equations-ex">
+    <example permid="ssec-solving-linear-diophantine-equations-ex1">
       <statement>
-        <p permid="-ssec-solving-linear-diophantine-equations-ex-p">
+        <p permid="ssec-solving-linear-diophantine-equations-ex1-p1">
           How can you make <dollar/>6.37 using just 5-cent and 8-cent stamps?
           What is the smallest and largest number of stamps you could use?
         </p>
       </statement>
-      <solution permid="-ssec-solving-linear-diophantine-equations-ex-s">
-        <p permid="-ssec-solving-linear-diophantine-equations-ex-s-p1">
+      <solution permid="ssec-solving-linear-diophantine-equations-ex1-s1">
+        <p permid="ssec-solving-linear-diophantine-equations-ex1-s1-p1">
           First, we need a Diophantine equation.
           We will work in numbers of cents.
           Let <m>x</m> be the number of <m>5</m>-cent stamps,
           and <m>y</m> be the number of 8-cent stamps.
           We have:
-          <me permid="-ssec-solving-linear-diophantine-equations-ex-s-p1-me">
+          <me permid="ssec-solving-linear-diophantine-equations-ex1-s1-p1-me1">
             5x + 8y = 637
           </me>.
         </p>
 
-        <p permid="-ssec-solving-linear-diophantine-equations-ex-s-p2">
+        <p permid="ssec-solving-linear-diophantine-equations-ex1-s1-p2">
           Convert to a congruence and solve:
-          <me permid="-ssec-solving-linear-diophantine-equations-ex-s-p2-me">
+          <me permid="ssec-solving-linear-diophantine-equations-ex1-s1-p2-me1">
             \begin{aligned}8y \amp  \equiv 367 \pmod{5}\\
 				3y \amp  \equiv 2 \pmod 5\\
 				3y \amp  \equiv 12 \pmod 5\\
@@ -1308,18 +1308,18 @@
           </me>
         </p>
 
-        <p permid="-ssec-solving-linear-diophantine-equations-ex-s-p3">
+        <p permid="ssec-solving-linear-diophantine-equations-ex1-s1-p3">
           Thus <m>y = 4 + 5k</m>.
           Then <m>5x + 8(4+5k) = 637</m>, so <m>x = 121 - 8k</m>.
         </p>
 
-        <p permid="-ssec-solving-linear-diophantine-equations-ex-s-p4">
+        <p permid="ssec-solving-linear-diophantine-equations-ex1-s1-p4">
           This says that one way to make <dollar/>6.37 is to take 121 of the 5-cent stamps and 4 of the 8-cent stamps.
           To find the smallest and largest number of stamps,
           try different values of <m>k</m>.
         </p>
 
-        <sidebyside permid="-ssec-solving-linear-diophantine-equations-ex-sbs">
+        <sidebyside permid="ssec-solving-linear-diophantine-equations-ex1-sbs1">
 
           <tabular>
             <col right="minor"/>
@@ -1364,7 +1364,7 @@
 
         </sidebyside>
 
-        <p permid="-ssec-solving-linear-diophantine-equations-ex-s-p5">
+        <p permid="ssec-solving-linear-diophantine-equations-ex1-s1-p5">
           This is no surprise.
           Having the most stamps means we have as many 5-cent stamps as possible,
           and to get the smallest number of stamps would require have the least number of 5-cent stamps.
@@ -1374,39 +1374,39 @@
           When <m>k = 15</m>, we have <m>x = 1</m> and <m>y = 79</m>.
         </p>
 
-        <p permid="-ssec-solving-linear-diophantine-equations-ex-s-p6">
+        <p permid="ssec-solving-linear-diophantine-equations-ex1-s1-p6">
           Therefore, to make <dollar/>6.37,
           you can us as few as 80 stamps (1 5-cent stamp and 79 8-cent stamps) or as many as 125 stamps (121 5-cent stamps and 4 8-cent stamps).
         </p>
       </solution>
     </example>
 
-    <p permid="-ssec-solving-linear-diophantine-equations-p12">
+    <p permid="ssec-solving-linear-diophantine-equations-p12">
       Using this method,
       as long as you can solve linear congruences in one variable,
       you can solve linear Diophantine equations of two variables.
       There are times though that solving the linear congruence is a lot of work.
       For example, suppose you need to solve,
-      <me permid="-ssec-solving-linear-diophantine-equations-p12-me">
+      <me permid="ssec-solving-linear-diophantine-equations-p12-me1">
         13x \equiv 6 \pmod{51}
       </me>.
     </p>
 
-    <p permid="-ssec-solving-linear-diophantine-equations-p13">
+    <p permid="ssec-solving-linear-diophantine-equations-p13">
       You <em>could</em> keep adding 51 to the right side until you get a multiple of 13: You would get 57, 108, 159, 210, 261, 312,
       and 312 is the first of these that is divisible by 13.
       This works, but is really too much work.
       Instead we could convert <em>back</em>
       to a Diophantine equation:
-      <me permid="-ssec-solving-linear-diophantine-equations-p13-me">
+      <me permid="ssec-solving-linear-diophantine-equations-p13-me1">
         13x = 6 + 51k
       </me>
     </p>
 
-    <p permid="-ssec-solving-linear-diophantine-equations-p14">
+    <p permid="ssec-solving-linear-diophantine-equations-p14">
       Now solve <em>this</em> like we have in this section.
       Write it as a congruence modulo 13:
-      <me permid="-ssec-solving-linear-diophantine-equations-p14-me1">
+      <me permid="ssec-solving-linear-diophantine-equations-p14-me1">
         \begin{aligned}0 \amp \equiv 6 + 51k \pmod{13}\\
         -12k \amp \equiv 6 \pmod{13}\\
         2k \amp \equiv -1 \pmod{13}\\
@@ -1416,14 +1416,14 @@
       </me>
       so <m>k = 6 + 13j</m>.
       Now go back and figure out <m>x</m>:
-      <me permid="-ssec-solving-linear-diophantine-equations-p14-me2">
+      <me permid="ssec-solving-linear-diophantine-equations-p14-me2">
         \begin{aligned}13x \amp  = 6 + 51(6+13j)\\
         x \amp  = 24 + 51j.
         \end{aligned}
       </me>
     </p>
 
-    <p permid="-ssec-solving-linear-diophantine-equations-p15">
+    <p permid="ssec-solving-linear-diophantine-equations-p15">
       Of course you could do this switching back and forth between congruences and Diophantine equations as many times as you like.
       If you <em>only</em> used this technique,
       you would essentially replicate the Euclidean algorithm,
@@ -1431,19 +1431,19 @@
     </p>
   </subsection>
 
-  <exercises permid="sec_addtops-numbth-exers">
+  <exercises permid="sec_addtops-numbth-exers1">
 
-    <exercise permid="sec_addtops-numbth-exers-e_xo">
+    <exercise permid="sec_addtops-numbth-exers1-e_xo">
       <statement>
-        <p permid="sec_addtops-numbth-exers-e_xo-p">
+        <p permid="sec_addtops-numbth-exers1-e_xo-p1">
           Suppose <m>a</m>, <m>b</m>, and <m>c</m> are integers.
           Prove that if <m>a \mid b</m>, then <m>a \mid bc</m>.
         </p>
       </statement>
-      <solution permid="sec_addtops-numbth-exers-e_xo-s">
+      <solution permid="sec_addtops-numbth-exers1-e_xo-s1">
 
-        <proof permid="sec_addtops-numbth-exers-e_xo-pf">
-          <p permid="sec_addtops-numbth-exers-e_xo-s-p">
+        <proof permid="sec_addtops-numbth-exers1-e_xo-pf1">
+          <p permid="sec_addtops-numbth-exers1-e_xo-s1-p1">
             Suppose <m>a \mid b</m>.
             Then <m>b</m> is a multiple of <m>a</m>,
             or in other words, <m>b = ak</m> for some <m>k</m>.
@@ -1457,18 +1457,18 @@
       </solution>
     </exercise>
 
-    <exercise permid="sec_addtops-numbth-exers-e_ag">
+    <exercise permid="sec_addtops-numbth-exers1-e_ag">
       <statement>
-        <p permid="sec_addtops-numbth-exers-e_ag-p">
+        <p permid="sec_addtops-numbth-exers1-e_ag-p1">
           Suppose <m>a</m>, <m>b</m>, and <m>c</m> are integers.
           Prove that if <m>a \mid b</m> and <m>a \mid c</m> then
           <m>a \mid b+c</m> and <m>a \mid b-c</m>.
         </p>
       </statement>
-      <solution permid="sec_addtops-numbth-exers-e_ag-s">
+      <solution permid="sec_addtops-numbth-exers1-e_ag-s1">
 
-        <proof permid="sec_addtops-numbth-exers-e_ag-pf">
-          <p permid="sec_addtops-numbth-exers-e_ag-s-p">
+        <proof permid="sec_addtops-numbth-exers1-e_ag-pf1">
+          <p permid="sec_addtops-numbth-exers1-e_ag-s1-p1">
             Assume <m>a \mid b</m> and <m>a \mid c</m>.
             This means that <m>b</m> and <m>c</m> are both multiples of <m>a</m>,
             so <m>b = am</m> and <m>c = an</m> for integers <m>m</m> and <m>n</m>.
@@ -1484,48 +1484,48 @@
       </solution>
     </exercise>
 
-    <exercise permid="sec_addtops-numbth-exers-e_dp">
+    <exercise permid="sec_addtops-numbth-exers1-e_dp">
       <statement>
-        <p permid="sec_addtops-numbth-exers-e_dp-p">
+        <p permid="sec_addtops-numbth-exers1-e_dp-p1">
           Write out the remainder classes for <m>n = 4</m>.
         </p>
       </statement>
-      <solution permid="sec_addtops-numbth-exers-e_dp-s">
-        <p permid="sec_addtops-numbth-exers-e_dp-s-p1">
+      <solution permid="sec_addtops-numbth-exers1-e_dp-s1">
+        <p permid="sec_addtops-numbth-exers1-e_dp-s1-p1">
           <m>\{\ldots, -8, -4, 0, 4, 8, 12, \ldots\}</m>,
           <m>\{\ldots, -7, -3, 1, 5, 9, 13, \ldots\}</m>,
         </p>
 
-        <p permid="sec_addtops-numbth-exers-e_dp-s-p2">
+        <p permid="sec_addtops-numbth-exers1-e_dp-s1-p2">
           <m>\{\ldots, -6, -2, 2, 6, 10, 14, \ldots\}</m>,
           and <m>\{\ldots, -5, -1, 3, 7, 11, 15, \ldots\}</m>.
         </p>
       </solution>
     </exercise>
 
-    <exercise permid="sec_addtops-numbth-exers-e_gy">
+    <exercise permid="sec_addtops-numbth-exers1-e_gy">
       <statement>
-        <p permid="sec_addtops-numbth-exers-e_gy-p">
+        <p permid="sec_addtops-numbth-exers1-e_gy-p1">
           Let <m>a</m>, <m>b</m>, <m>c</m>, and <m>n</m> be integers.
           Prove that if <m>a \equiv b \pmod{n}</m> and <m>c \equiv d \pmod{n}</m>,
           then <m>a-c \equiv b-d \pmod{n}</m>.
         </p>
       </statement>
-      <solution permid="sec_addtops-numbth-exers-e_gy-s">
+      <solution permid="sec_addtops-numbth-exers1-e_gy-s1">
 
-        <proof permid="sec_addtops-numbth-exers-e_gy-pf">
-          <p permid="sec_addtops-numbth-exers-e_gy-s-p1">
+        <proof permid="sec_addtops-numbth-exers1-e_gy-pf1">
+          <p permid="sec_addtops-numbth-exers1-e_gy-s1-p1">
             Assume <m>a \equiv b \pmod n</m> and <m>c \equiv d \pmod n</m>.
             This means <m>a = b + kn</m> and
             <m>c = d + jn</m> for some integers <m>k</m> and <m>j</m>.
             Consider <m>a-c</m>.
             We have:
-            <me permid="sec_addtops-numbth-exers-e_gy-s-p1-me">
+            <me permid="sec_addtops-numbth-exers1-e_gy-s1-p1-me1">
               a-c = b+kn - (d+jn) = b-d + (k-j)n
             </me>.
           </p>
 
-          <p permid="sec_addtops-numbth-exers-e_gy-s-p2">
+          <p permid="sec_addtops-numbth-exers1-e_gy-s1-p2">
             In other words,
             <m>a-c</m> is <m>b-d</m> more than some multiple of <m>n</m>,
             so <m>a-c \equiv b-d \pmod n</m>.
@@ -1535,38 +1535,38 @@
       </solution>
     </exercise>
 
-    <exercise permid="sec_addtops-numbth-exers-e_jq">
+    <exercise permid="sec_addtops-numbth-exers1-e_jq">
       <statement>
-        <p permid="sec_addtops-numbth-exers-e_jq-p1">
+        <p permid="sec_addtops-numbth-exers1-e_jq-p1">
           Find the remainder of <m>3^{456}</m> when divided by
         </p>
 
-        <p permid="sec_addtops-numbth-exers-e_jq-p2">
-          <ol permid="sec_addtops-numbth-exers-e_jq-ol">
-            <li permid="sec_addtops-numbth-exers-e_jq-ol-l_j">2.</li>
+        <p permid="sec_addtops-numbth-exers1-e_jq-p2">
+          <ol permid="sec_addtops-numbth-exers1-e_jq-ol1">
+            <li permid="sec_addtops-numbth-exers1-e_jq-ol1-l_j">2.</li>
 
-            <li permid="sec_addtops-numbth-exers-e_jq-ol-l_s">5.</li>
+            <li permid="sec_addtops-numbth-exers1-e_jq-ol1-l_s">5.</li>
 
-            <li permid="sec_addtops-numbth-exers-e_jq-ol-l_b">7.</li>
+            <li permid="sec_addtops-numbth-exers1-e_jq-ol1-l_b">7.</li>
 
-            <li permid="sec_addtops-numbth-exers-e_jq-ol-l_k">9.</li>
+            <li permid="sec_addtops-numbth-exers1-e_jq-ol1-l_k">9.</li>
           </ol>
         </p>
       </statement>
-      <solution permid="sec_addtops-numbth-exers-e_jq-s">
-        <p permid="sec_addtops-numbth-exers-e_jq-s-p">
-          <ol permid="sec_addtops-numbth-exers-e_jq-s-ol">
-            <li permid="sec_addtops-numbth-exers-e_jq-s-ol-l_j"><m>3^{456} \equiv 1^{456} = 1 \pmod 2</m>.</li>
+      <solution permid="sec_addtops-numbth-exers1-e_jq-s1">
+        <p permid="sec_addtops-numbth-exers1-e_jq-s1-p1">
+          <ol permid="sec_addtops-numbth-exers1-e_jq-s1-ol1">
+            <li permid="sec_addtops-numbth-exers1-e_jq-s1-ol1-l_j"><m>3^{456} \equiv 1^{456} = 1 \pmod 2</m>.</li>
 
-            <li permid="sec_addtops-numbth-exers-e_jq-s-ol-l_s">
+            <li permid="sec_addtops-numbth-exers1-e_jq-s1-ol1-l_s">
               <m>3^{456} = 9^{228} \equiv (-1)^{228} = 1 \pmod{5}</m>.
             </li>
 
-            <li permid="sec_addtops-numbth-exers-e_jq-s-ol-l_b">
+            <li permid="sec_addtops-numbth-exers1-e_jq-s1-ol1-l_b">
               <m>3^{456} = 9^{228} \equiv 2^{228} = 8^{76} \equiv 1^{76} = 1 \pmod 7</m>.
             </li>
 
-            <li permid="sec_addtops-numbth-exers-e_jq-s-ol-l_k">
+            <li permid="sec_addtops-numbth-exers1-e_jq-s1-ol1-l_k">
               <m>3^{456} = 9^{228} \equiv 0^{228} = 0 \pmod{9}</m>.
             </li>
           </ol>
@@ -1574,96 +1574,96 @@
       </solution>
     </exercise>
 
-    <exercise permid="sec_addtops-numbth-exers-e_mz">
+    <exercise permid="sec_addtops-numbth-exers1-e_mz">
       <statement>
-        <p permid="sec_addtops-numbth-exers-e_mz-p1">
+        <p permid="sec_addtops-numbth-exers1-e_mz-p1">
           Determine which of the following congruences have solutions,
           and find any solutions (between 0 and the modulus) by trial and error.
         </p>
 
-        <p permid="sec_addtops-numbth-exers-e_mz-p2">
-          <ol permid="sec_addtops-numbth-exers-e_mz-ol">
-            <li permid="sec_addtops-numbth-exers-e_mz-ol-l_j"><m>4x \equiv 5 \pmod 6</m>.</li>
+        <p permid="sec_addtops-numbth-exers1-e_mz-p2">
+          <ol permid="sec_addtops-numbth-exers1-e_mz-ol1">
+            <li permid="sec_addtops-numbth-exers1-e_mz-ol1-l_j"><m>4x \equiv 5 \pmod 6</m>.</li>
 
-            <li permid="sec_addtops-numbth-exers-e_mz-ol-l_s"><m>4x \equiv 5 \pmod 7</m>.</li>
+            <li permid="sec_addtops-numbth-exers1-e_mz-ol1-l_s"><m>4x \equiv 5 \pmod 7</m>.</li>
 
-            <li permid="sec_addtops-numbth-exers-e_mz-ol-l_b"><m>6x \equiv 3 \pmod 9</m>.</li>
+            <li permid="sec_addtops-numbth-exers1-e_mz-ol1-l_b"><m>6x \equiv 3 \pmod 9</m>.</li>
 
-            <li permid="sec_addtops-numbth-exers-e_mz-ol-l_k"><m>6x \equiv 4 \pmod 9</m>.</li>
+            <li permid="sec_addtops-numbth-exers1-e_mz-ol1-l_k"><m>6x \equiv 4 \pmod 9</m>.</li>
 
-            <li permid="sec_addtops-numbth-exers-e_mz-ol-l_t"><m>x^2 \equiv 2 \pmod 4</m>.</li>
+            <li permid="sec_addtops-numbth-exers1-e_mz-ol1-l_t"><m>x^2 \equiv 2 \pmod 4</m>.</li>
 
-            <li permid="sec_addtops-numbth-exers-e_mz-ol-l_c"><m>x^2 \equiv 2 \pmod 7</m>.</li>
+            <li permid="sec_addtops-numbth-exers1-e_mz-ol1-l_c"><m>x^2 \equiv 2 \pmod 7</m>.</li>
           </ol>
         </p>
       </statement>
-      <solution permid="sec_addtops-numbth-exers-e_mz-s">
-        <p permid="sec_addtops-numbth-exers-e_mz-s-p1">
+      <solution permid="sec_addtops-numbth-exers1-e_mz-s1">
+        <p permid="sec_addtops-numbth-exers1-e_mz-s1-p1">
           For all of these,
           just plug in all integers between 0 and the modulus to see which,
           if any, work.
         </p>
 
-        <p permid="sec_addtops-numbth-exers-e_mz-s-p2">
-          <ol permid="sec_addtops-numbth-exers-e_mz-s-ol">
-            <li permid="sec_addtops-numbth-exers-e_mz-s-ol-l_j">
-              <p permid="sec_addtops-numbth-exers-e_mz-s-ol-l_j-p">
+        <p permid="sec_addtops-numbth-exers1-e_mz-s1-p2">
+          <ol permid="sec_addtops-numbth-exers1-e_mz-s1-ol1">
+            <li permid="sec_addtops-numbth-exers1-e_mz-s1-ol1-l_j">
+              <p permid="sec_addtops-numbth-exers1-e_mz-s1-ol1-l_j-p1">
                 No solutions.
               </p>
             </li>
 
-            <li permid="sec_addtops-numbth-exers-e_mz-s-ol-l_s"><m>x = 3</m>.</li>
+            <li permid="sec_addtops-numbth-exers1-e_mz-s1-ol1-l_s"><m>x = 3</m>.</li>
 
-            <li permid="sec_addtops-numbth-exers-e_mz-s-ol-l_b"><m>x = 2</m>, <m>x = 5</m>, <m>x = 8</m>.</li>
+            <li permid="sec_addtops-numbth-exers1-e_mz-s1-ol1-l_b"><m>x = 2</m>, <m>x = 5</m>, <m>x = 8</m>.</li>
 
-            <li permid="sec_addtops-numbth-exers-e_mz-s-ol-l_k">
-              <p permid="sec_addtops-numbth-exers-e_mz-s-ol-l_k-p">
+            <li permid="sec_addtops-numbth-exers1-e_mz-s1-ol1-l_k">
+              <p permid="sec_addtops-numbth-exers1-e_mz-s1-ol1-l_k-p1">
                 No solutions.
               </p>
             </li>
 
-            <li permid="sec_addtops-numbth-exers-e_mz-s-ol-l_t">
-              <p permid="sec_addtops-numbth-exers-e_mz-s-ol-l_t-p">
+            <li permid="sec_addtops-numbth-exers1-e_mz-s1-ol1-l_t">
+              <p permid="sec_addtops-numbth-exers1-e_mz-s1-ol1-l_t-p1">
                 No solutions.
               </p>
             </li>
 
-            <li permid="sec_addtops-numbth-exers-e_mz-s-ol-l_c"><m>x = 3</m>.</li>
+            <li permid="sec_addtops-numbth-exers1-e_mz-s1-ol1-l_c"><m>x = 3</m>.</li>
           </ol>
         </p>
       </solution>
     </exercise>
 
-    <exercise permid="sec_addtops-numbth-exers-e_pi">
+    <exercise permid="sec_addtops-numbth-exers1-e_pi">
       <statement>
-        <p permid="sec_addtops-numbth-exers-e_pi-p1">
+        <p permid="sec_addtops-numbth-exers1-e_pi-p1">
           Solve the following congruences
           (describe the general solution).
         </p>
 
-        <p permid="sec_addtops-numbth-exers-e_pi-p2">
-          <ol permid="sec_addtops-numbth-exers-e_pi-ol">
-            <li permid="sec_addtops-numbth-exers-e_pi-ol-l_j"><m>5x + 8 \equiv 11 \pmod{22}</m>.</li>
+        <p permid="sec_addtops-numbth-exers1-e_pi-p2">
+          <ol permid="sec_addtops-numbth-exers1-e_pi-ol1">
+            <li permid="sec_addtops-numbth-exers1-e_pi-ol1-l_j"><m>5x + 8 \equiv 11 \pmod{22}</m>.</li>
 
-            <li permid="sec_addtops-numbth-exers-e_pi-ol-l_s"><m>6x \equiv 4 \pmod{10}</m>.</li>
+            <li permid="sec_addtops-numbth-exers1-e_pi-ol1-l_s"><m>6x \equiv 4 \pmod{10}</m>.</li>
 
-            <li permid="sec_addtops-numbth-exers-e_pi-ol-l_b"><m>4x \equiv 24 \pmod{30}</m>.</li>
+            <li permid="sec_addtops-numbth-exers1-e_pi-ol1-l_b"><m>4x \equiv 24 \pmod{30}</m>.</li>
 
-            <li permid="sec_addtops-numbth-exers-e_pi-ol-l_k"><m>341x \equiv 2941 \pmod{9}</m>.</li>
+            <li permid="sec_addtops-numbth-exers1-e_pi-ol1-l_k"><m>341x \equiv 2941 \pmod{9}</m>.</li>
           </ol>
         </p>
       </statement>
-      <solution permid="sec_addtops-numbth-exers-e_pi-s">
-        <p permid="sec_addtops-numbth-exers-e_pi-s-p">
-          <ol permid="sec_addtops-numbth-exers-e_pi-s-ol">
-            <li permid="sec_addtops-numbth-exers-e_pi-s-ol-l_j"><m>x = 5+22k</m> for <m>k \in \Z</m>.</li>
+      <solution permid="sec_addtops-numbth-exers1-e_pi-s1">
+        <p permid="sec_addtops-numbth-exers1-e_pi-s1-p1">
+          <ol permid="sec_addtops-numbth-exers1-e_pi-s1-ol1">
+            <li permid="sec_addtops-numbth-exers1-e_pi-s1-ol1-l_j"><m>x = 5+22k</m> for <m>k \in \Z</m>.</li>
 
-            <li permid="sec_addtops-numbth-exers-e_pi-s-ol-l_s"><m>x = 4 + 5k</m> for <m>k \in \Z</m>.</li>
+            <li permid="sec_addtops-numbth-exers1-e_pi-s1-ol1-l_s"><m>x = 4 + 5k</m> for <m>k \in \Z</m>.</li>
 
-            <li permid="sec_addtops-numbth-exers-e_pi-s-ol-l_b"><m>x = 6 + 15k</m> for <m>k \in \Z</m>.</li>
+            <li permid="sec_addtops-numbth-exers1-e_pi-s1-ol1-l_b"><m>x = 6 + 15k</m> for <m>k \in \Z</m>.</li>
 
-            <li permid="sec_addtops-numbth-exers-e_pi-s-ol-l_k">
-              <p permid="sec_addtops-numbth-exers-e_pi-s-ol-l_k-p">
+            <li permid="sec_addtops-numbth-exers1-e_pi-s1-ol1-l_k">
+              <p permid="sec_addtops-numbth-exers1-e_pi-s1-ol1-l_k-p1">
                 First reduce each number modulo 9, which can be done by adding up the digits of the numbers.
                 Answer: <m>x = 2 + 9k</m> for <m>k \in \Z</m>.
               </p>
@@ -1673,17 +1673,17 @@
       </solution>
     </exercise>
 
-    <exercise permid="sec_addtops-numbth-exers-e_sa">
+    <exercise permid="sec_addtops-numbth-exers1-e_sa">
       <statement>
-        <p permid="sec_addtops-numbth-exers-e_sa-p">
+        <p permid="sec_addtops-numbth-exers1-e_sa-p1">
           I'm thinking of a number.
           If you multiply my number by 7, add 5, and divide the result by 11,
           you will be left with a remainder of 2.
           What remainder would you get if you divided my original number by 11?
         </p>
       </statement>
-      <solution permid="sec_addtops-numbth-exers-e_sa-s">
-        <p permid="sec_addtops-numbth-exers-e_sa-s-p">
+      <solution permid="sec_addtops-numbth-exers1-e_sa-s1">
+        <p permid="sec_addtops-numbth-exers1-e_sa-s1-p1">
           We must solve <m>7x + 5 \equiv 2 \pmod{11}</m>.
           This gives <m>x \equiv 9 \pmod{11}</m>.
           In general, <m>x = 9 + 11k</m>,
@@ -1692,28 +1692,28 @@
       </solution>
     </exercise>
 
-    <exercise permid="sec_addtops-numbth-exers-e_vj">
+    <exercise permid="sec_addtops-numbth-exers1-e_vj">
       <statement>
-        <p permid="sec_addtops-numbth-exers-e_vj-p1">
+        <p permid="sec_addtops-numbth-exers1-e_vj-p1">
           Solve the following linear Diophantine equations, using modular arithmetic
           (describe the general solutions).
         </p>
 
-        <p permid="sec_addtops-numbth-exers-e_vj-p2">
-          <ol permid="sec_addtops-numbth-exers-e_vj-ol">
-            <li permid="sec_addtops-numbth-exers-e_vj-ol-l_j"><m>6x + 10y = 32</m>.</li>
+        <p permid="sec_addtops-numbth-exers1-e_vj-p2">
+          <ol permid="sec_addtops-numbth-exers1-e_vj-ol1">
+            <li permid="sec_addtops-numbth-exers1-e_vj-ol1-l_j"><m>6x + 10y = 32</m>.</li>
 
-            <li permid="sec_addtops-numbth-exers-e_vj-ol-l_s"><m>17x + 8y = 31</m>.</li>
+            <li permid="sec_addtops-numbth-exers1-e_vj-ol1-l_s"><m>17x + 8y = 31</m>.</li>
 
-            <li permid="sec_addtops-numbth-exers-e_vj-ol-l_b"><m>35x + 47y = 1</m>.</li>
+            <li permid="sec_addtops-numbth-exers1-e_vj-ol1-l_b"><m>35x + 47y = 1</m>.</li>
           </ol>
         </p>
       </statement>
-      <solution permid="sec_addtops-numbth-exers-e_vj-s">
-        <p permid="sec_addtops-numbth-exers-e_vj-s-p">
-          <ol permid="sec_addtops-numbth-exers-e_vj-s-ol">
-            <li permid="sec_addtops-numbth-exers-e_vj-s-ol-l_j">
-              <p permid="sec_addtops-numbth-exers-e_vj-s-ol-l_j-p">
+      <solution permid="sec_addtops-numbth-exers1-e_vj-s1">
+        <p permid="sec_addtops-numbth-exers1-e_vj-s1-p1">
+          <ol permid="sec_addtops-numbth-exers1-e_vj-s1-ol1">
+            <li permid="sec_addtops-numbth-exers1-e_vj-s1-ol1-l_j">
+              <p permid="sec_addtops-numbth-exers1-e_vj-s1-ol1-l_j-p1">
                 Divide through by 2: <m>3x + 5y = 16</m>.
                 Convert to a congruence, modulo 3:
                 <m>5y \equiv 16 \pmod 3</m>, which reduces to <m>2y \equiv 1 \pmod 3</m>.
@@ -1725,11 +1725,11 @@
               </p>
             </li>
 
-            <li permid="sec_addtops-numbth-exers-e_vj-s-ol-l_s">
+            <li permid="sec_addtops-numbth-exers1-e_vj-s1-ol1-l_s">
               <m>x = 7+8k</m> and <m>y = -11 - 17k</m> for <m>k \in \Z</m>.
             </li>
 
-            <li permid="sec_addtops-numbth-exers-e_vj-s-ol-l_b">
+            <li permid="sec_addtops-numbth-exers1-e_vj-s1-ol1-l_b">
               <m>x = -4-47k</m> and <m>y = 3 + 35k</m> for <m>k \in \Z</m>.
             </li>
           </ol>
@@ -1737,9 +1737,9 @@
       </solution>
     </exercise>
 
-    <exercise permid="sec_addtops-numbth-exers-e_ys">
+    <exercise permid="sec_addtops-numbth-exers1-e_ys">
       <statement>
-        <p permid="sec_addtops-numbth-exers-e_ys-p">
+        <p permid="sec_addtops-numbth-exers1-e_ys-p1">
           You have a 13 oz. bottle and a 20 oz. bottle,
           with which you wish to measure exactly 2 oz.
           However, you have a limited supply of water.
@@ -1748,8 +1748,8 @@
           What is the least amount of water you can start with and still complete the task?
         </p>
       </statement>
-      <solution permid="sec_addtops-numbth-exers-e_ys-s">
-        <p permid="sec_addtops-numbth-exers-e_ys-s-p">
+      <solution permid="sec_addtops-numbth-exers1-e_ys-s1">
+        <p permid="sec_addtops-numbth-exers1-e_ys-s1-p1">
           First, solve the Diophantine equation <m>13x + 20 y = 2</m>.
           The general solution is <m>x = -6 - 20k</m> and <m>y = 4+13k</m>.
           Now if <m>k = 0</m>,

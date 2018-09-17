@@ -3,7 +3,7 @@
   <title>Chapter Review</title>
   <exercise permid="exers_gt-conc-e_xo">
     <statement>
-      <p permid="exers_gt-conc-e_xo-p">
+      <p permid="exers_gt-conc-e_xo-p1">
         Which (if any) of the graphs below are the same?
         Which are different?
         Explain.
@@ -41,8 +41,8 @@
 
       </sidebyside>
     </statement>
-    <solution permid="exers_gt-conc-e_xo-s">
-      <p permid="exers_gt-conc-e_xo-s-p">
+    <solution permid="exers_gt-conc-e_xo-s1">
+      <p permid="exers_gt-conc-e_xo-s1-p1">
         The first and the third graphs are the same
         (try dragging vertices around to make the pictures match up),
         but the middle graph is different
@@ -54,13 +54,13 @@
 
   <exercise permid="exers_gt-conc-e_ag">
     <statement>
-      <p permid="exers_gt-conc-e_ag-p">
+      <p permid="exers_gt-conc-e_ag-p1">
         Which of the graphs in the previous question contain Euler paths or circuits?
         Which of the graphs are planar?
       </p>
     </statement>
-    <solution permid="exers_gt-conc-e_ag-s">
-      <p permid="exers_gt-conc-e_ag-s-p">
+    <solution permid="exers_gt-conc-e_ag-s1">
+      <p permid="exers_gt-conc-e_ag-s1-p1">
         The first (and third) graphs contain an Euler path.
         All the graphs are planar.
       </p>
@@ -69,12 +69,12 @@
 
   <exercise permid="exers_gt-conc-e_dp">
     <statement>
-      <p permid="exers_gt-conc-e_dp-p">
+      <p permid="exers_gt-conc-e_dp-p1">
         Draw a graph which has an Euler circuit but is not planar.
       </p>
     </statement>
-    <solution permid="exers_gt-conc-e_dp-s">
-      <p permid="exers_gt-conc-e_dp-s-p">
+    <solution permid="exers_gt-conc-e_dp-s1">
+      <p permid="exers_gt-conc-e_dp-s1-p1">
         For example, <m>K_5</m>.
       </p>
     </solution>
@@ -82,12 +82,12 @@
 
   <exercise permid="exers_gt-conc-e_gy">
     <statement>
-      <p permid="exers_gt-conc-e_gy-p">
+      <p permid="exers_gt-conc-e_gy-p1">
         Draw a graph which does not have an Euler path and is also not planar.
       </p>
     </statement>
-    <solution permid="exers_gt-conc-e_gy-s">
-      <p permid="exers_gt-conc-e_gy-s-p">
+    <solution permid="exers_gt-conc-e_gy-s1">
+      <p permid="exers_gt-conc-e_gy-s1-p1">
         For example, <m>K_{3,3}</m>.
       </p>
     </solution>
@@ -95,14 +95,14 @@
 
   <exercise permid="exers_gt-conc-e_jq">
     <statement>
-      <p permid="exers_gt-conc-e_jq-p">
+      <p permid="exers_gt-conc-e_jq-p1">
         If a graph has 10 vertices and 10 edges and contains an Euler circuit,
         must it be planar?
         How many faces would it have?
       </p>
     </statement>
-    <solution permid="exers_gt-conc-e_jq-s">
-      <p permid="exers_gt-conc-e_jq-s-p">
+    <solution permid="exers_gt-conc-e_jq-s1">
+      <p permid="exers_gt-conc-e_jq-s1-p1">
         Yes.
         According to Euler's formula it would have 2 faces.
         It does.
@@ -113,47 +113,47 @@
 
   <exercise permid="exers_gt-conc-e_mz">
     <statement>
-      <p permid="exers_gt-conc-e_mz-p">
+      <p permid="exers_gt-conc-e_mz-p1">
         Suppose <m>G</m> is a graph with <m>n</m> vertices, each having degree 5.
 
-        <ol permid="exers_gt-conc-e_mz-ol">
-          <li permid="exers_gt-conc-e_mz-ol-l_j">
-            <p permid="exers_gt-conc-e_mz-ol-l_j-p">
+        <ol permid="exers_gt-conc-e_mz-ol1">
+          <li permid="exers_gt-conc-e_mz-ol1-l_j">
+            <p permid="exers_gt-conc-e_mz-ol1-l_j-p1">
               For which values of <m>n</m> does this make sense?
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_mz-ol-l_s">
-            <p permid="exers_gt-conc-e_mz-ol-l_s-p">
+          <li permid="exers_gt-conc-e_mz-ol1-l_s">
+            <p permid="exers_gt-conc-e_mz-ol1-l_s-p1">
               For which values of <m>n</m> does the graph have an Euler path?
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_mz-ol-l_b">
-            <p permid="exers_gt-conc-e_mz-ol-l_b-p">
+          <li permid="exers_gt-conc-e_mz-ol1-l_b">
+            <p permid="exers_gt-conc-e_mz-ol1-l_b-p1">
               What is the smallest value of <m>n</m> for which the graph might be planar? (tricky)
             </p>
           </li>
         </ol>
       </p>
     </statement>
-    <solution permid="exers_gt-conc-e_mz-s">
-      <p permid="exers_gt-conc-e_mz-s-p">
-        <ol permid="exers_gt-conc-e_mz-s-ol">
-          <li permid="exers_gt-conc-e_mz-s-ol-l_j">
-            <p permid="exers_gt-conc-e_mz-s-ol-l_j-p">
+    <solution permid="exers_gt-conc-e_mz-s1">
+      <p permid="exers_gt-conc-e_mz-s1-p1">
+        <ol permid="exers_gt-conc-e_mz-s1-ol1">
+          <li permid="exers_gt-conc-e_mz-s1-ol1-l_j">
+            <p permid="exers_gt-conc-e_mz-s1-ol1-l_j-p1">
               Only if <m>n \ge 6</m> and is even.
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_mz-s-ol-l_s">
-            <p permid="exers_gt-conc-e_mz-s-ol-l_s-p">
+          <li permid="exers_gt-conc-e_mz-s1-ol1-l_s">
+            <p permid="exers_gt-conc-e_mz-s1-ol1-l_s-p1">
               None.
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_mz-s-ol-l_b">
-            <p permid="exers_gt-conc-e_mz-s-ol-l_b-p">
+          <li permid="exers_gt-conc-e_mz-s1-ol1-l_b">
+            <p permid="exers_gt-conc-e_mz-s1-ol1-l_b-p1">
               12.
               Such a graph would have <m>\frac{5n}{2}</m> edges.
               If the graph is planar, then
@@ -171,50 +171,50 @@
 
   <exercise permid="exers_gt-conc-e_pi">
     <statement>
-      <p permid="exers_gt-conc-e_pi-p">
+      <p permid="exers_gt-conc-e_pi-p1">
         At a school dance, 6 girls and 4 boys take turns dancing
         (as couples)
         with each other.
 
-        <ol permid="exers_gt-conc-e_pi-ol">
-          <li permid="exers_gt-conc-e_pi-ol-l_j">
-            <p permid="exers_gt-conc-e_pi-ol-l_j-p">
+        <ol permid="exers_gt-conc-e_pi-ol1">
+          <li permid="exers_gt-conc-e_pi-ol1-l_j">
+            <p permid="exers_gt-conc-e_pi-ol1-l_j-p1">
               How many couples danced if every girl dances with every boy?
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_pi-ol-l_s">
-            <p permid="exers_gt-conc-e_pi-ol-l_s-p">
+          <li permid="exers_gt-conc-e_pi-ol1-l_s">
+            <p permid="exers_gt-conc-e_pi-ol1-l_s-p1">
               How many couples danced if everyone danced with everyone else (regardless of gender)?
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_pi-ol-l_b">
-            <p permid="exers_gt-conc-e_pi-ol-l_b-p">
+          <li permid="exers_gt-conc-e_pi-ol1-l_b">
+            <p permid="exers_gt-conc-e_pi-ol1-l_b-p1">
               Explain what graphs can be used to represent these situations.
             </p>
           </li>
         </ol>
       </p>
     </statement>
-    <solution permid="exers_gt-conc-e_pi-s">
-      <p permid="exers_gt-conc-e_pi-s-p">
-        <ol permid="exers_gt-conc-e_pi-s-ol">
-          <li permid="exers_gt-conc-e_pi-s-ol-l_j">
-            <p permid="exers_gt-conc-e_pi-s-ol-l_j-p">
+    <solution permid="exers_gt-conc-e_pi-s1">
+      <p permid="exers_gt-conc-e_pi-s1-p1">
+        <ol permid="exers_gt-conc-e_pi-s1-ol1">
+          <li permid="exers_gt-conc-e_pi-s1-ol1-l_j">
+            <p permid="exers_gt-conc-e_pi-s1-ol1-l_j-p1">
               There were 24 couples: 6 choices for the girl and 4 choices for the boy.
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_pi-s-ol-l_s">
-            <p permid="exers_gt-conc-e_pi-s-ol-l_s-p">
+          <li permid="exers_gt-conc-e_pi-s1-ol1-l_s">
+            <p permid="exers_gt-conc-e_pi-s1-ol1-l_s-p1">
               There were 45 couples:
               <m>{10 \choose 2}</m> since we must choose two of the 10 people to dance together.
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_pi-s-ol-l_b">
-            <p permid="exers_gt-conc-e_pi-s-ol-l_b-p">
+          <li permid="exers_gt-conc-e_pi-s1-ol1-l_b">
+            <p permid="exers_gt-conc-e_pi-s1-ol1-l_b-p1">
               For part (a),
               we are counting the number of edges in <m>K_{4,6}</m>.
               In part (b) we count the edges of <m>K_{10}</m>.
@@ -227,14 +227,14 @@
 
   <exercise permid="exers_gt-conc-e_sa">
     <statement>
-      <p permid="exers_gt-conc-e_sa-p">
+      <p permid="exers_gt-conc-e_sa-p1">
         Among a group of <m>n</m> people,
         is it possible for everyone to be friends with an odd number of people in the group?
         If so, what can you say about <m>n</m>?
       </p>
     </statement>
-    <solution permid="exers_gt-conc-e_sa-s">
-      <p permid="exers_gt-conc-e_sa-s-p">
+    <solution permid="exers_gt-conc-e_sa-s1">
+      <p permid="exers_gt-conc-e_sa-s1-p1">
         Yes, as long as <m>n</m> is even.
         If <m>n</m> were odd,
         then corresponding graph would have an odd number of odd degree vertices,
@@ -245,28 +245,28 @@
 
   <exercise permid="exers_gt-conc-e_vj">
     <statement>
-      <p permid="exers_gt-conc-e_vj-p">
+      <p permid="exers_gt-conc-e_vj-p1">
         Your friend has challenged you to create a convex polyhedron containing 9 triangles and 6 pentagons.
 
-        <ol permid="exers_gt-conc-e_vj-ol">
-          <li permid="exers_gt-conc-e_vj-ol-l_j">
-            <p permid="exers_gt-conc-e_vj-ol-l_j-p">
+        <ol permid="exers_gt-conc-e_vj-ol1">
+          <li permid="exers_gt-conc-e_vj-ol1-l_j">
+            <p permid="exers_gt-conc-e_vj-ol1-l_j-p1">
               Is it possible to build such a polyhedron using
               <em>only</em> these shapes?
               Explain.
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_vj-ol-l_s">
-            <p permid="exers_gt-conc-e_vj-ol-l_s-p">
+          <li permid="exers_gt-conc-e_vj-ol1-l_s">
+            <p permid="exers_gt-conc-e_vj-ol1-l_s-p1">
               You decide to also include one heptagon
               (seven-sided polygon).
               How many vertices does your new convex polyhedron contain?
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_vj-ol-l_b">
-            <p permid="exers_gt-conc-e_vj-ol-l_b-p">
+          <li permid="exers_gt-conc-e_vj-ol1-l_b">
+            <p permid="exers_gt-conc-e_vj-ol1-l_b-p1">
               Assuming you are successful in building your new 16-faced polyhedron,
               could every vertex be the joining of the same number of faces?
               Could each vertex join either 3 or 4 faces?
@@ -276,11 +276,11 @@
         </ol>
       </p>
     </statement>
-    <solution permid="exers_gt-conc-e_vj-s">
-      <p permid="exers_gt-conc-e_vj-s-p">
-        <ol permid="exers_gt-conc-e_vj-s-ol">
-          <li permid="exers_gt-conc-e_vj-s-ol-l_j">
-            <p permid="exers_gt-conc-e_vj-s-ol-l_j-p">
+    <solution permid="exers_gt-conc-e_vj-s1">
+      <p permid="exers_gt-conc-e_vj-s1-p1">
+        <ol permid="exers_gt-conc-e_vj-s1-ol1">
+          <li permid="exers_gt-conc-e_vj-s1-ol1-l_j">
+            <p permid="exers_gt-conc-e_vj-s1-ol1-l_j-p1">
               No.
               The 9 triangles each contribute 3 edges,
               and the 6 pentagons contribute 5 edges.
@@ -291,8 +291,8 @@
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_vj-s-ol-l_s">
-            <p permid="exers_gt-conc-e_vj-s-ol-l_s-p">
+          <li permid="exers_gt-conc-e_vj-s1-ol1-l_s">
+            <p permid="exers_gt-conc-e_vj-s1-ol1-l_s-p1">
               Now adding up all the edges of all the 16 polygons gives a total of 64,
               meaning there would be 32 edges in the polyhedron.
               We can then use Euler's formula
@@ -300,8 +300,8 @@
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_vj-s-ol-l_b">
-            <p permid="exers_gt-conc-e_vj-s-ol-l_b-p">
+          <li permid="exers_gt-conc-e_vj-s1-ol1-l_b">
+            <p permid="exers_gt-conc-e_vj-s1-ol1-l_b-p1">
               If you add up all the vertices from each polygon separately,
               we get a total of 64.
               This is not divisible by 3, so it cannot be that each vertex belongs to exactly 3 faces.
@@ -320,13 +320,13 @@
 
   <exercise permid="exers_gt-conc-e_ys">
     <statement>
-      <p permid="exers_gt-conc-e_ys-p">
+      <p permid="exers_gt-conc-e_ys-p1">
         Is there a convex polyhedron which requires 5 colors to properly color the vertices of the polyhedron?
         Explain.
       </p>
     </statement>
-    <solution permid="exers_gt-conc-e_ys-s">
-      <p permid="exers_gt-conc-e_ys-s-p">
+    <solution permid="exers_gt-conc-e_ys-s1">
+      <p permid="exers_gt-conc-e_ys-s1-p1">
         No.
         Every polyhedron can be represented as a planar graph,
         and the Four Color Theorem says that every planar graph has chromatic number at most 4.
@@ -336,14 +336,14 @@
 
   <exercise permid="exers_gt-conc-e_bk">
     <statement>
-      <p permid="exers_gt-conc-e_bk-p">
+      <p permid="exers_gt-conc-e_bk-p1">
         How many edges does the graph <m>K_{n,n}</m> have?
         For which values of <m>n</m> does the graph contain an Euler circuit?
         For which values of <m>n</m> is the graph planar?
       </p>
     </statement>
-    <solution permid="exers_gt-conc-e_bk-s">
-      <p permid="exers_gt-conc-e_bk-s-p">
+    <solution permid="exers_gt-conc-e_bk-s1">
+      <p permid="exers_gt-conc-e_bk-s1-p1">
         <m>K_{n,n}</m> has <m>n^2</m> edges.
         The graph will have an Euler circuit when <m>n</m> is even.
         The graph will be planar only when <m>n \lt 3</m>.
@@ -353,15 +353,15 @@
 
   <exercise permid="exers_gt-conc-e_et">
     <statement>
-      <p permid="exers_gt-conc-e_et-p">
+      <p permid="exers_gt-conc-e_et-p1">
         The graph <m>G</m> has 6 vertices with degrees <m>1, 2, 2, 3, 3, 5</m>.
         How many edges does <m>G</m> have?
         If <m>G</m> was planar how many faces would it have?
         Does <m>G</m> have an Euler path?
       </p>
     </statement>
-    <solution permid="exers_gt-conc-e_et-s">
-      <p permid="exers_gt-conc-e_et-s-p">
+    <solution permid="exers_gt-conc-e_et-s1">
+      <p permid="exers_gt-conc-e_et-s1-p1">
         <m>G</m> has 8 edges
         (since the sum of the degrees is 16).
         If <m>G</m> is planar, then it will have 4 faces
@@ -372,13 +372,13 @@
 
   <exercise permid="exers_gt-conc-e_hc">
     <statement>
-      <p permid="exers_gt-conc-e_hc-p">
+      <p permid="exers_gt-conc-e_hc-p1">
         What is the smallest number of colors you need to properly color the vertices of <m>K_{7}</m>.
         Can you say whether <m>K_7</m> is planar based on your answer?
       </p>
     </statement>
-    <solution permid="exers_gt-conc-e_hc-s">
-      <p permid="exers_gt-conc-e_hc-s-p">
+    <solution permid="exers_gt-conc-e_hc-s1">
+      <p permid="exers_gt-conc-e_hc-s1-p1">
         <m>7</m> colors.
         Thus <m>K_7</m> is not planar
         (by the contrapositive of the Four Color Theorem).
@@ -388,13 +388,13 @@
 
   <exercise permid="exers_gt-conc-e_ku">
     <statement>
-      <p permid="exers_gt-conc-e_ku-p">
+      <p permid="exers_gt-conc-e_ku-p1">
         What is the smallest number of colors you need to properly color the vertices of <m>K_{3,4}</m>?
         Can you say whether <m>K_{3,4}</m> is planar based on your answer?
       </p>
     </statement>
-    <solution permid="exers_gt-conc-e_ku-s">
-      <p permid="exers_gt-conc-e_ku-s-p">
+    <solution permid="exers_gt-conc-e_ku-s1">
+      <p permid="exers_gt-conc-e_ku-s1-p1">
         The chromatic number of <m>K_{3,4}</m> is 2, since the graph is bipartite.
         You cannot say whether the graph is planar based on this coloring
         (the converse of the Four Color Theorem is not true).
@@ -406,42 +406,42 @@
 
   <exercise permid="exers_gt-conc-e_nd">
     <statement>
-      <p permid="exers_gt-conc-e_nd-p">
+      <p permid="exers_gt-conc-e_nd-p1">
         A dodecahedron is a regular convex polyhedron made up of 12 regular pentagons.
 
-        <ol permid="exers_gt-conc-e_nd-ol">
-          <li permid="exers_gt-conc-e_nd-ol-l_j">
-            <p permid="exers_gt-conc-e_nd-ol-l_j-p">
+        <ol permid="exers_gt-conc-e_nd-ol1">
+          <li permid="exers_gt-conc-e_nd-ol1-l_j">
+            <p permid="exers_gt-conc-e_nd-ol1-l_j-p1">
               Suppose you color each pentagon with one of three colors.
               Prove that there must be two adjacent pentagons colored identically.
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_nd-ol-l_s">
-            <p permid="exers_gt-conc-e_nd-ol-l_s-p">
+          <li permid="exers_gt-conc-e_nd-ol1-l_s">
+            <p permid="exers_gt-conc-e_nd-ol1-l_s-p1">
               What if you use four colors?
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_nd-ol-l_b">
-            <p permid="exers_gt-conc-e_nd-ol-l_b-p">
+          <li permid="exers_gt-conc-e_nd-ol1-l_b">
+            <p permid="exers_gt-conc-e_nd-ol1-l_b-p1">
               What if instead of a dodecahedron you colored the faces of a cube?
             </p>
           </li>
         </ol>
       </p>
     </statement>
-    <solution permid="exers_gt-conc-e_nd-s">
-      <p permid="exers_gt-conc-e_nd-s-p">
+    <solution permid="exers_gt-conc-e_nd-s1">
+      <p permid="exers_gt-conc-e_nd-s1-p1">
         For all these questions, we are really coloring the vertices of a graph.
         You get the graph by first drawing a planar representation of the polyhedron and then taking its planar dual:
         put a vertex in the center of each face
         (including the outside)
         and connect two vertices if their faces share an edge.
 
-        <ol permid="exers_gt-conc-e_nd-s-ol">
-          <li permid="exers_gt-conc-e_nd-s-ol-l_j">
-            <p permid="exers_gt-conc-e_nd-s-ol-l_j-p">
+        <ol permid="exers_gt-conc-e_nd-s1-ol1">
+          <li permid="exers_gt-conc-e_nd-s1-ol1-l_j">
+            <p permid="exers_gt-conc-e_nd-s1-ol1-l_j-p1">
               Since the planar dual of a dodecahedron contains a 5-wheel,
               it's chromatic number is at least 4.
               Alternatively,
@@ -458,8 +458,8 @@
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_nd-s-ol-l_s">
-            <p permid="exers_gt-conc-e_nd-s-ol-l_s-p">
+          <li permid="exers_gt-conc-e_nd-s1-ol1-l_s">
+            <p permid="exers_gt-conc-e_nd-s1-ol1-l_s-p1">
               The planar dual of the dodecahedron is itself a planar graph.
               Thus by the 4-color theorem,
               it can be colored using only 4 colors without two adjacent vertices
@@ -468,8 +468,8 @@
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_nd-s-ol-l_b">
-            <p permid="exers_gt-conc-e_nd-s-ol-l_b-p">
+          <li permid="exers_gt-conc-e_nd-s1-ol1-l_b">
+            <p permid="exers_gt-conc-e_nd-s1-ol1-l_b-p1">
               The cube can be properly 3-colored.
               Color the <q>top</q> and <q>bottom</q> red,
               the <q>front</q> and <q>back</q> blue,
@@ -483,13 +483,13 @@
 
   <exercise permid="exers_gt-conc-e_qm">
     <statement>
-      <p permid="exers_gt-conc-e_qm-p">
+      <p permid="exers_gt-conc-e_qm-p1">
         If a planar graph <m>G</m> with <m>7</m> vertices divides the plane into 8 regions,
         how many edges must <m>G</m> have?
       </p>
     </statement>
-    <solution permid="exers_gt-conc-e_qm-s">
-      <p permid="exers_gt-conc-e_qm-s-p">
+    <solution permid="exers_gt-conc-e_qm-s1">
+      <p permid="exers_gt-conc-e_qm-s1-p1">
         <m>G</m> has <m>13</m> edges,
         since we need <m>7 - e + 8 = 2</m>.
       </p>
@@ -504,7 +504,7 @@
 
       <sidebyside permid="exers_gt-conc-sbs2" width="25%">
 
-        <image permid="exers_gt-conc-sbs2-im">
+        <image permid="exers_gt-conc-sbs2-im1">
 
             <latex-image>
               \begin{tikzpicture}[scale=.8]
@@ -516,66 +516,66 @@
       </sidebyside>
 
       <p permid="exers_gt-conc-e_te-p2">
-        <ol permid="exers_gt-conc-e_te-ol">
-          <li permid="exers_gt-conc-e_te-ol-l_j">
-            <p permid="exers_gt-conc-e_te-ol-l_j-p">
+        <ol permid="exers_gt-conc-e_te-ol1">
+          <li permid="exers_gt-conc-e_te-ol1-l_j">
+            <p permid="exers_gt-conc-e_te-ol1-l_j-p1">
               Does the graph have an Euler path or circuit?
               Explain.
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_te-ol-l_s">
-            <p permid="exers_gt-conc-e_te-ol-l_s-p">
+          <li permid="exers_gt-conc-e_te-ol1-l_s">
+            <p permid="exers_gt-conc-e_te-ol1-l_s-p1">
               Is the graph planar?
               Explain.
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_te-ol-l_b">
-            <p permid="exers_gt-conc-e_te-ol-l_b-p">
+          <li permid="exers_gt-conc-e_te-ol1-l_b">
+            <p permid="exers_gt-conc-e_te-ol1-l_b-p1">
               Is the graph bipartite?
               Complete?
               Complete bipartite?
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_te-ol-l_k">
-            <p permid="exers_gt-conc-e_te-ol-l_k-p">
+          <li permid="exers_gt-conc-e_te-ol1-l_k">
+            <p permid="exers_gt-conc-e_te-ol1-l_k-p1">
               What is the chromatic number of the graph.
             </p>
           </li>
         </ol>
       </p>
     </statement>
-    <solution permid="exers_gt-conc-e_te-s">
-      <p permid="exers_gt-conc-e_te-s-p">
-        <ol permid="exers_gt-conc-e_te-s-ol">
-          <li permid="exers_gt-conc-e_te-s-ol-l_j">
-            <p permid="exers_gt-conc-e_te-s-ol-l_j-p">
+    <solution permid="exers_gt-conc-e_te-s1">
+      <p permid="exers_gt-conc-e_te-s1-p1">
+        <ol permid="exers_gt-conc-e_te-s1-ol1">
+          <li permid="exers_gt-conc-e_te-s1-ol1-l_j">
+            <p permid="exers_gt-conc-e_te-s1-ol1-l_j-p1">
               The graph does have an Euler path, but not an Euler circuit.
               There are exactly two vertices with odd degree.
               The path starts at one and ends at the other.
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_te-s-ol-l_s">
-            <p permid="exers_gt-conc-e_te-s-ol-l_s-p">
+          <li permid="exers_gt-conc-e_te-s1-ol1-l_s">
+            <p permid="exers_gt-conc-e_te-s1-ol1-l_s-p1">
               The graph is planar.
               Even though as it is drawn edges cross,
               it is easy to redraw it without edges crossing.
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_te-s-ol-l_b">
-            <p permid="exers_gt-conc-e_te-s-ol-l_b-p">
+          <li permid="exers_gt-conc-e_te-s1-ol1-l_b">
+            <p permid="exers_gt-conc-e_te-s1-ol1-l_b-p1">
               The graph is not bipartite
               (there is an odd cycle),
               nor complete.
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_te-s-ol-l_k">
-            <p permid="exers_gt-conc-e_te-s-ol-l_k-p">
+          <li permid="exers_gt-conc-e_te-s1-ol1-l_k">
+            <p permid="exers_gt-conc-e_te-s1-ol1-l_k-p1">
               The chromatic number of the graph is 3.
             </p>
           </li>
@@ -586,76 +586,76 @@
 
   <exercise permid="exers_gt-conc-e_wn">
     <statement>
-      <p permid="exers_gt-conc-e_wn-p">
+      <p permid="exers_gt-conc-e_wn-p1">
         For each part below, say whether the statement is true or false.
         Explain why the true statements are true,
         and give counterexamples for the false statements.
 
-        <ol permid="exers_gt-conc-e_wn-ol">
-          <li permid="exers_gt-conc-e_wn-ol-l_j">
-            <p permid="exers_gt-conc-e_wn-ol-l_j-p">
+        <ol permid="exers_gt-conc-e_wn-ol1">
+          <li permid="exers_gt-conc-e_wn-ol1-l_j">
+            <p permid="exers_gt-conc-e_wn-ol1-l_j-p1">
               Every bipartite graph is planar.
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_wn-ol-l_s">
-            <p permid="exers_gt-conc-e_wn-ol-l_s-p">
+          <li permid="exers_gt-conc-e_wn-ol1-l_s">
+            <p permid="exers_gt-conc-e_wn-ol1-l_s-p1">
               Every bipartite graph has chromatic number 2.
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_wn-ol-l_b">
-            <p permid="exers_gt-conc-e_wn-ol-l_b-p">
+          <li permid="exers_gt-conc-e_wn-ol1-l_b">
+            <p permid="exers_gt-conc-e_wn-ol1-l_b-p1">
               Every bipartite graph has an Euler path.
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_wn-ol-l_k">
-            <p permid="exers_gt-conc-e_wn-ol-l_k-p">
+          <li permid="exers_gt-conc-e_wn-ol1-l_k">
+            <p permid="exers_gt-conc-e_wn-ol1-l_k-p1">
               Every vertex of a bipartite graph has even degree.
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_wn-ol-l_t">
-            <p permid="exers_gt-conc-e_wn-ol-l_t-p">
+          <li permid="exers_gt-conc-e_wn-ol1-l_t">
+            <p permid="exers_gt-conc-e_wn-ol1-l_t-p1">
               A graph is bipartite if and only if the sum of the degrees of all the vertices is even.
             </p>
           </li>
         </ol>
       </p>
     </statement>
-    <solution permid="exers_gt-conc-e_wn-s">
-      <p permid="exers_gt-conc-e_wn-s-p">
-        <ol permid="exers_gt-conc-e_wn-s-ol">
-          <li permid="exers_gt-conc-e_wn-s-ol-l_j">
-            <p permid="exers_gt-conc-e_wn-s-ol-l_j-p">
+    <solution permid="exers_gt-conc-e_wn-s1">
+      <p permid="exers_gt-conc-e_wn-s1-p1">
+        <ol permid="exers_gt-conc-e_wn-s1-ol1">
+          <li permid="exers_gt-conc-e_wn-s1-ol1-l_j">
+            <p permid="exers_gt-conc-e_wn-s1-ol1-l_j-p1">
               False.
               For example, <m>K_{3,3}</m> is not planar.
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_wn-s-ol-l_s">
-            <p permid="exers_gt-conc-e_wn-s-ol-l_s-p">
+          <li permid="exers_gt-conc-e_wn-s1-ol1-l_s">
+            <p permid="exers_gt-conc-e_wn-s1-ol1-l_s-p1">
               True.
               The graph is bipartite so it is possible to divide the vertices into two groups with no edges between vertices in the same group.
               Thus we can color all the vertices of one group red and the other group blue.
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_wn-s-ol-l_b">
-            <p permid="exers_gt-conc-e_wn-s-ol-l_b-p">
+          <li permid="exers_gt-conc-e_wn-s1-ol1-l_b">
+            <p permid="exers_gt-conc-e_wn-s1-ol1-l_b-p1">
               False. <m>K_{3,3}</m> has 6 vertices with degree 3, so contains no Euler path.
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_wn-s-ol-l_k">
-            <p permid="exers_gt-conc-e_wn-s-ol-l_k-p">
+          <li permid="exers_gt-conc-e_wn-s1-ol1-l_k">
+            <p permid="exers_gt-conc-e_wn-s1-ol1-l_k-p1">
               False. <m>K_{3,3}</m> again.
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_wn-s-ol-l_t">
-            <p permid="exers_gt-conc-e_wn-s-ol-l_t-p">
+          <li permid="exers_gt-conc-e_wn-s1-ol1-l_t">
+            <p permid="exers_gt-conc-e_wn-s1-ol1-l_t-p1">
               False.
               The sum of the degrees of all vertices is even for <em>all</em>
               graphs so this property does not imply that the graph is bipartite.
@@ -668,45 +668,45 @@
 
   <exercise permid="exers_gt-conc-e_zw">
     <statement>
-      <p permid="exers_gt-conc-e_zw-p">
+      <p permid="exers_gt-conc-e_zw-p1">
         Consider the statement <q>If a graph is planar,
         then it has an Euler path.</q>
 
-        <ol permid="exers_gt-conc-e_zw-ol">
-          <li permid="exers_gt-conc-e_zw-ol-l_j">
-            <p permid="exers_gt-conc-e_zw-ol-l_j-p">
+        <ol permid="exers_gt-conc-e_zw-ol1">
+          <li permid="exers_gt-conc-e_zw-ol1-l_j">
+            <p permid="exers_gt-conc-e_zw-ol1-l_j-p1">
               Write the converse of the statement.
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_zw-ol-l_s">
-            <p permid="exers_gt-conc-e_zw-ol-l_s-p">
+          <li permid="exers_gt-conc-e_zw-ol1-l_s">
+            <p permid="exers_gt-conc-e_zw-ol1-l_s-p1">
               Write the contrapositive of the statement.
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_zw-ol-l_b">
-            <p permid="exers_gt-conc-e_zw-ol-l_b-p">
+          <li permid="exers_gt-conc-e_zw-ol1-l_b">
+            <p permid="exers_gt-conc-e_zw-ol1-l_b-p1">
               Write the negation of the statement.
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_zw-ol-l_k">
-            <p permid="exers_gt-conc-e_zw-ol-l_k-p">
+          <li permid="exers_gt-conc-e_zw-ol1-l_k">
+            <p permid="exers_gt-conc-e_zw-ol1-l_k-p1">
               Is it possible for the contrapositive to be false?
               If it was, what would that tell you?
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_zw-ol-l_t">
-            <p permid="exers_gt-conc-e_zw-ol-l_t-p">
+          <li permid="exers_gt-conc-e_zw-ol1-l_t">
+            <p permid="exers_gt-conc-e_zw-ol1-l_t-p1">
               Is the original statement true or false?
               Prove your answer.
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_zw-ol-l_c">
-            <p permid="exers_gt-conc-e_zw-ol-l_c-p">
+          <li permid="exers_gt-conc-e_zw-ol1-l_c">
+            <p permid="exers_gt-conc-e_zw-ol1-l_c-p1">
               Is the converse of the statement true or false?
               Prove your answer.
             </p>
@@ -714,42 +714,42 @@
         </ol>
       </p>
     </statement>
-    <solution permid="exers_gt-conc-e_zw-s">
-      <p permid="exers_gt-conc-e_zw-s-p">
-        <ol permid="exers_gt-conc-e_zw-s-ol">
-          <li permid="exers_gt-conc-e_zw-s-ol-l_j">
-            <p permid="exers_gt-conc-e_zw-s-ol-l_j-p">
+    <solution permid="exers_gt-conc-e_zw-s1">
+      <p permid="exers_gt-conc-e_zw-s1-p1">
+        <ol permid="exers_gt-conc-e_zw-s1-ol1">
+          <li permid="exers_gt-conc-e_zw-s1-ol1-l_j">
+            <p permid="exers_gt-conc-e_zw-s1-ol1-l_j-p1">
               If a graph has an Euler path, then it is planar.
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_zw-s-ol-l_s">
-            <p permid="exers_gt-conc-e_zw-s-ol-l_s-p">
+          <li permid="exers_gt-conc-e_zw-s1-ol1-l_s">
+            <p permid="exers_gt-conc-e_zw-s1-ol1-l_s-p1">
               If a graph does not have an Euler path, then it is not planar.
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_zw-s-ol-l_b">
-            <p permid="exers_gt-conc-e_zw-s-ol-l_b-p">
+          <li permid="exers_gt-conc-e_zw-s1-ol1-l_b">
+            <p permid="exers_gt-conc-e_zw-s1-ol1-l_b-p1">
               There is a graph which is planar and does not have an Euler path.
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_zw-s-ol-l_k">
-            <p permid="exers_gt-conc-e_zw-s-ol-l_k-p">
+          <li permid="exers_gt-conc-e_zw-s1-ol1-l_k">
+            <p permid="exers_gt-conc-e_zw-s1-ol1-l_k-p1">
               Yes.
               In fact, in this case it is because the original statement is false.
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_zw-s-ol-l_t">
-            <p permid="exers_gt-conc-e_zw-s-ol-l_t-p">
+          <li permid="exers_gt-conc-e_zw-s1-ol1-l_t">
+            <p permid="exers_gt-conc-e_zw-s1-ol1-l_t-p1">
               False. <m>K_4</m> is planar but does not have an Euler path.
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_zw-s-ol-l_c">
-            <p permid="exers_gt-conc-e_zw-s-ol-l_c-p">
+          <li permid="exers_gt-conc-e_zw-s1-ol1-l_c">
+            <p permid="exers_gt-conc-e_zw-s1-ol1-l_c-p1">
               False. <m>K_5</m> has an Euler path but is not planar.
             </p>
           </li>
@@ -760,26 +760,26 @@
 
   <exercise permid="exers_gt-conc-e_co">
     <statement>
-      <p permid="exers_gt-conc-e_co-p">
+      <p permid="exers_gt-conc-e_co-p1">
         Remember that a <term>tree</term>
         is a connected graph with no cycles.
 
-        <ol permid="exers_gt-conc-e_co-ol">
-          <li permid="exers_gt-conc-e_co-ol-l_j">
-            <p permid="exers_gt-conc-e_co-ol-l_j-p">
+        <ol permid="exers_gt-conc-e_co-ol1">
+          <li permid="exers_gt-conc-e_co-ol1-l_j">
+            <p permid="exers_gt-conc-e_co-ol1-l_j-p1">
               Conjecture a relationship between a tree graph's vertices and edges. (For instance,
               can you have a tree with 5 vertices and 7 edges?)
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_co-ol-l_s">
-            <p permid="exers_gt-conc-e_co-ol-l_s-p">
+          <li permid="exers_gt-conc-e_co-ol1-l_s">
+            <p permid="exers_gt-conc-e_co-ol1-l_s-p1">
               Explain why every tree with at least 3 vertices has a leaf (i.e., a vertex of degree 1).
             </p>
           </li>
 
-          <li permid="exers_gt-conc-e_co-ol-l_b">
-            <p permid="exers_gt-conc-e_co-ol-l_b-p">
+          <li permid="exers_gt-conc-e_co-ol1-l_b">
+            <p permid="exers_gt-conc-e_co-ol1-l_b-p1">
               Prove your conjecture from part (a) by induction on the number of vertices.
               Hint: For the inductive step,
               you will assume that your conjecture is true for all trees with <m>k</m> vertices,

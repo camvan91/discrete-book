@@ -2,12 +2,12 @@
 
 <section permid="sec_comb-proofs" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_comb-proofs">
   <title>Combinatorial Proofs</title>
-  <introduction permid="sec_comb-proofs-intr">
-    <investigation permid="sec_comb-proofs-inv">
-      <p permid="sec_comb-proofs-intr-p">
-        <ol permid="sec_comb-proofs-intr-ol">
-          <li permid="sec_comb-proofs-intr-ol-l_j">
-            <p permid="sec_comb-proofs-intr-ol-l_j-p">
+  <introduction permid="sec_comb-proofs-intr1">
+    <investigation permid="sec_comb-proofs-inv1">
+      <p permid="sec_comb-proofs-intr1-p1">
+        <ol permid="sec_comb-proofs-intr1-ol1">
+          <li permid="sec_comb-proofs-intr1-ol1-l_j">
+            <p permid="sec_comb-proofs-intr1-ol1-l_j-p1">
               The Stanley Cup is decided in a best of 7 tournament between two teams.
               In how many ways can your team win?
               Let's answer this question two ways:
@@ -20,24 +20,24 @@
                   </p>
                 </li>
 
-                <li permid="sec_comb-proofs-intr-ol-l_s">
-                  <p permid="sec_comb-proofs-intr-ol-l_s-p">
+                <li permid="sec_comb-proofs-intr1-ol1-l_s">
+                  <p permid="sec_comb-proofs-intr1-ol1-l_s-p1">
                     What if the tournament goes all 7 games?
                     So you win the last game.
                     How many ways can the first 6 games go down?
                   </p>
                 </li>
 
-                <li permid="sec_comb-proofs-intr-ol-l_b">
-                  <p permid="sec_comb-proofs-intr-ol-l_b-p">
+                <li permid="sec_comb-proofs-intr1-ol1-l_b">
+                  <p permid="sec_comb-proofs-intr1-ol1-l_b-p1">
                     What if the tournament goes just 6 games?
                     How many ways can this happen?
                     What about 5 games? 4 games?
                   </p>
                 </li>
 
-                <li permid="sec_comb-proofs-intr-ol-l_k">
-                  <p permid="sec_comb-proofs-intr-ol-l_k-p">
+                <li permid="sec_comb-proofs-intr1-ol1-l_k">
+                  <p permid="sec_comb-proofs-intr1-ol1-l_k-p1">
                     What are the two different ways to compute the number of ways your team can win?
                     Write down an equation involving binomial coefficients
                     (that is, <m>{n \choose k}</m>'s).
@@ -48,8 +48,8 @@
             </p>
           </li>
 
-          <li permid="sec_comb-proofs-intr-l_j">
-            <p permid="sec_comb-proofs-intr-l_j-p">
+          <li permid="sec_comb-proofs-intr1-l_j">
+            <p permid="sec_comb-proofs-intr1-l_j-p1">
               Generalize.
               What if the rules changed and you played a best of <m>9</m> tournament (5 wins required)?
               What if you played an <m>n</m> game tournament with <m>k</m> wins required to be named champion?
@@ -69,7 +69,7 @@
       What do you notice?
     </p>
 
-    <sidebyside permid="ssec_patternspascal-sbs" width="80%">
+    <sidebyside permid="ssec_patternspascal-sbs1" width="80%">
 
       <image permid="pascal-small" xml:id="pascal-small">
 
@@ -116,26 +116,26 @@
 
       <ol permid="ssec_patternspascal-ol1">
         <li permid="ssec_patternspascal-ol1-l_j">
-          <p permid="ssec_patternspascal-ol1-l_j-p">
+          <p permid="ssec_patternspascal-ol1-l_j-p1">
             The entries on the border of the triangle are all 1.
           </p>
         </li>
 
         <li permid="ssec_patternspascal-ol1-l_s">
-          <p permid="ssec_patternspascal-ol1-l_s-p">
+          <p permid="ssec_patternspascal-ol1-l_s-p1">
             Any entry not on the border is the sum of the two entries above it.
           </p>
         </li>
 
         <li permid="ssec_patternspascal-ol1-l_b">
-          <p permid="ssec_patternspascal-ol1-l_b-p">
+          <p permid="ssec_patternspascal-ol1-l_b-p1">
             The triangle is symmetric.
             In any row, entries on the left side are mirrored on the right side.
           </p>
         </li>
 
         <li permid="ssec_patternspascal-ol1-l_k">
-          <p permid="ssec_patternspascal-ol1-l_k-p">
+          <p permid="ssec_patternspascal-ol1-l_k-p1">
             The sum of all entries on a given row is a power of 2. (You should check this!)
           </p>
         </li>
@@ -151,7 +151,7 @@
       (which we will call row 1, even though it is not the top-most row)
       consists of <m>{1 \choose 0}</m> and <m>{1 \choose 1}</m>.
       Row 4 (the row 1, 4, 6, 4, 1) consists of the binomial coefficients
-      <me permid="ssec_patternspascal-p3-me">
+      <me permid="ssec_patternspascal-p3-me1">
         {4 \choose 0} ~~ {4 \choose 1} ~~ {4 \choose 2} ~~ {4 \choose 3} ~~ {4 \choose 4}
       </me>.
     </p>
@@ -190,7 +190,7 @@
       These proofs can be done in many ways.
       One option would be to give algebraic proofs,
       using the formula for <m>{n \choose k}</m>:
-      <me permid="ssec_patternspascal-p6-me">
+      <me permid="ssec_patternspascal-p6-me1">
         {n \choose k} = \frac{n!}{(n-k)!\,k!}
       </me>.
     </p>
@@ -201,30 +201,30 @@
 
     <example permid="ssec_patternspascal-ex1">
       <statement>
-        <p permid="ssec_patternspascal-ex1-p">
+        <p permid="ssec_patternspascal-ex1-p1">
           Give an algebraic proof for the binomial identity
-          <me permid="ssec_patternspascal-ex1-p-me">
+          <me permid="ssec_patternspascal-ex1-p1-me1">
             {n \choose k} = {n-1\choose k-1} + {n-1 \choose k}
           </me>.
         </p>
       </statement>
-      <solution permid="ssec_patternspascal-ex1-s">
+      <solution permid="ssec_patternspascal-ex1-s1">
 
-        <proof permid="ssec_patternspascal-ex1-pf">
-          <p permid="ssec_patternspascal-ex1-s-p1">
+        <proof permid="ssec_patternspascal-ex1-pf1">
+          <p permid="ssec_patternspascal-ex1-s1-p1">
             By the definition of <m>{n \choose k}</m>, we have
-            <me permid="ssec_patternspascal-ex1-s-p1-me1">
+            <me permid="ssec_patternspascal-ex1-s1-p1-me1">
               {n-1 \choose k-1} = \frac{(n-1)!}{(n-1-(k-1))!(k-1)!} = \frac{(n-1)!}{(n-k)!(k-1)!}
             </me>
             and
-            <me permid="ssec_patternspascal-ex1-s-p1-me2">
+            <me permid="ssec_patternspascal-ex1-s1-p1-me2">
               {n-1 \choose k} = \frac{(n-1)!}{(n-1-k)!k!}
             </me>.
           </p>
 
-          <p permid="ssec_patternspascal-ex1-s-p2">
+          <p permid="ssec_patternspascal-ex1-s1-p2">
             Thus, starting with the right-hand side of the equation:
-            <md permid="ssec_patternspascal-ex1-s-p2-md">
+            <md permid="ssec_patternspascal-ex1-s1-p2-md1">
               <mrow>{n-1 \choose k-1} + {n-1 \choose k} \amp = \frac{(n-1)!}{(n-k)!(k-1)!}+ \frac{(n-1)!}{(n-1-k)!\,k!}</mrow>
               <mrow>\amp = \frac{(n-1)!k}{(n-k)!\,k!} + \frac{(n-1)!(n-k)}{(n-k)!\,k!}</mrow>
               <mrow>\amp = \frac{(n-1)!(k+n-k)}{(n-k)!\,k!}</mrow>
@@ -233,7 +233,7 @@
             </md>.
           </p>
 
-          <p permid="ssec_patternspascal-ex1-s-p3">
+          <p permid="ssec_patternspascal-ex1-s1-p3">
             The second line
             (where the common denominator is found)
             works because <m>k(k-1)! = k!</m> and <m>(n-k)(n-k-1)! = (n-k)!</m>.
@@ -255,12 +255,12 @@
 
     <example permid="ssec_patternspascal-ex2">
       <statement>
-        <p permid="ssec_patternspascal-ex2-p">
+        <p permid="ssec_patternspascal-ex2-p1">
           Explain why <m>{n \choose 0} = 1</m> and <m>{n \choose n} = 1</m>.
         </p>
       </statement>
-      <solution permid="ssec_patternspascal-ex2-s">
-        <p permid="ssec_patternspascal-ex2-s-p1">
+      <solution permid="ssec_patternspascal-ex2-s1">
+        <p permid="ssec_patternspascal-ex2-s1-p1">
           What do these binomial coefficients tell us?
           Well, <m>{n \choose 0}</m> gives the number of ways to select 0 objects from a collection of <m>n</m> objects.
           There is only one way to do this,
@@ -272,7 +272,7 @@
           Thus <m>{n \choose n} = 1</m>.
         </p>
 
-        <p permid="ssec_patternspascal-ex2-s-p2">
+        <p permid="ssec_patternspascal-ex2-s1-p2">
           Alternatively, we know that
           <m>{n \choose 0}</m> is the number of <m>n</m>-bit strings with weight 0.
           There is only one such string, the string of all 0's.
@@ -281,7 +281,7 @@
           There is only one string with this property, the string of all 1's.
         </p>
 
-        <p permid="ssec_patternspascal-ex2-s-p3">
+        <p permid="ssec_patternspascal-ex2-s1-p3">
           Another way:
           <m>{n \choose 0}</m> gives the number of subsets of a set of size <m>n</m> containing 0 elements.
           There is only one such subset,
@@ -294,12 +294,12 @@
 
     <example permid="ssec_patternspascal-ex3">
       <statement>
-        <p permid="ssec_patternspascal-ex3-p">
+        <p permid="ssec_patternspascal-ex3-p1">
           Explain why <m>{n \choose k} = {n-1 \choose k-1} + {n-1 \choose k}</m>.
         </p>
       </statement>
-      <solution permid="ssec_patternspascal-ex3-s">
-        <p permid="ssec_patternspascal-ex3-s-p1">
+      <solution permid="ssec_patternspascal-ex3-s1">
+        <p permid="ssec_patternspascal-ex3-s1-p1">
           The easiest way to see this is to consider bit strings.
           <m>{n \choose k}</m> is the number of bit strings of length <m>n</m> containing <m>k</m> 1's.
           Of all of these strings, some start with a 1 and the rest start with a 0.
@@ -319,7 +319,7 @@
           Therefore <m>{n \choose k} = {n-1\choose k-1} + {n-1 \choose k}</m>.
         </p>
 
-        <p permid="ssec_patternspascal-ex3-s-p2">
+        <p permid="ssec_patternspascal-ex3-s1-p2">
           Another way: consider the question,
           how many ways can you select <m>k</m> pizza toppings from a menu containing <m>n</m> choices?
           One way to do this is just <m>{n \choose k}</m>.
@@ -340,7 +340,7 @@
           Thus <m>{n \choose k} = {n-1\choose k-1} + {n-1 \choose k}</m>.
         </p>
 
-        <p permid="ssec_patternspascal-ex3-s-p3">
+        <p permid="ssec_patternspascal-ex3-s1-p3">
           You can also explain (prove) this identity by counting subsets,
           or even lattice paths.
         </p>
@@ -349,12 +349,12 @@
 
     <example permid="ex-symmetry-formula" xml:id="example-symmetry-formula">
       <statement>
-        <p permid="ex-symmetry-formula-p">
+        <p permid="ex-symmetry-formula-p1">
           Prove the binomial identity <m>{n \choose k} = {n \choose n-k}</m>.
         </p>
       </statement>
-      <solution permid="ex-symmetry-formula-s">
-        <p permid="ex-symmetry-formula-s-p1">
+      <solution permid="ex-symmetry-formula-s1">
+        <p permid="ex-symmetry-formula-s1-p1">
           Why is this true? <m>{n \choose k}</m> counts the number of ways to select <m>k</m> things from <m>n</m> choices.
           On the other hand,
           <m>{n \choose n-k}</m> counts the number of ways to select <m>n-k</m> things from <m>n</m> choices.
@@ -368,7 +368,7 @@
           So the set of outcomes should be the same.
         </p>
 
-        <p permid="ex-symmetry-formula-s-p2">
+        <p permid="ex-symmetry-formula-s1-p2">
           Let's try the pizza counting example like we did above.
           How many ways are there to pick <m>k</m> toppings from a list of <m>n</m> choices?
           On the one hand, the answer is simply <m>{n \choose k}</m>.
@@ -383,7 +383,7 @@
           <m>{n \choose k} = {n \choose n-k}</m>.
         </p>
 
-        <p permid="ex-symmetry-formula-s-p3">
+        <p permid="ex-symmetry-formula-s1-p3">
           You can also prove (explain) this identity using bit strings,
           subsets, or lattice paths.
           The bit string argument is nice:
@@ -398,12 +398,12 @@
 
     <example permid="ssec_patternspascal-ex4">
       <statement>
-        <p permid="ssec_patternspascal-ex4-p">
+        <p permid="ssec_patternspascal-ex4-p1">
           Prove the binomial identity <m>{n\choose 0} + {n \choose 1} + {n\choose 2} + \cdots + {n \choose n} = 2^n</m>.
         </p>
       </statement>
-      <solution permid="ssec_patternspascal-ex4-s">
-        <p permid="ssec_patternspascal-ex4-s-p1">
+      <solution permid="ssec_patternspascal-ex4-s1">
+        <p permid="ssec_patternspascal-ex4-s1-p1">
           Let's do a <q>pizza proof</q> again.
           We need to find a question about pizza toppings which has <m>2^n</m> as the answer.
           How about this: If a pizza joint offers <m>n</m> toppings,
@@ -411,13 +411,13 @@
           using each topping at most once?
         </p>
 
-        <p permid="ssec_patternspascal-ex4-s-p2">
+        <p permid="ssec_patternspascal-ex4-s1-p2">
           On one hand, the answer is <m>2^n</m>.
           For each topping you can say <q>yes</q> or <q>no,</q>
           so you have two choices for each topping.
         </p>
 
-        <p permid="ssec_patternspascal-ex4-s-p3">
+        <p permid="ssec_patternspascal-ex4-s1-p3">
           On the other hand, divide the possible pizzas into disjoint groups:
           the pizzas with no toppings,
           the pizzas with one topping, the pizzas with two toppings, etc.
@@ -430,29 +430,29 @@
           We have:
         </p>
 
-        <p permid="ssec_patternspascal-ex4-s-p4">
-          <ul permid="ssec_patternspascal-ex4-s-ul">
-            <li permid="ssec_patternspascal-ex4-s-ul-l_j">Pizzas with 0 toppings: <m>{n \choose 0}</m></li>
+        <p permid="ssec_patternspascal-ex4-s1-p4">
+          <ul permid="ssec_patternspascal-ex4-s1-ul1">
+            <li permid="ssec_patternspascal-ex4-s1-ul1-l_j">Pizzas with 0 toppings: <m>{n \choose 0}</m></li>
 
-            <li permid="ssec_patternspascal-ex4-s-ul-l_s">Pizzas with 1 topping: <m>{n \choose 1}</m></li>
+            <li permid="ssec_patternspascal-ex4-s1-ul1-l_s">Pizzas with 1 topping: <m>{n \choose 1}</m></li>
 
-            <li permid="ssec_patternspascal-ex4-s-ul-l_b">Pizzas with 2 toppings: <m>{n \choose 2}</m></li>
+            <li permid="ssec_patternspascal-ex4-s1-ul1-l_b">Pizzas with 2 toppings: <m>{n \choose 2}</m></li>
 
-            <li permid="ssec_patternspascal-ex4-s-ul-l_k"><m>\vdots</m></li>
+            <li permid="ssec_patternspascal-ex4-s1-ul1-l_k"><m>\vdots</m></li>
 
-            <li permid="ssec_patternspascal-ex4-s-ul-l_t">
+            <li permid="ssec_patternspascal-ex4-s1-ul1-l_t">
               Pizzas with <m>n</m> toppings:
               <m>{n \choose n}</m>.
             </li>
           </ul>
         </p>
 
-        <p permid="ssec_patternspascal-ex4-s-p5">
+        <p permid="ssec_patternspascal-ex4-s1-p5">
           The total number of possible pizzas will be the sum of these,
           which is exactly the left-hand side of the identity we are trying to prove.
         </p>
 
-        <p permid="ssec_patternspascal-ex4-s-p6">
+        <p permid="ssec_patternspascal-ex4-s1-p6">
           Again, we could have proved the identity using subsets,
           bit strings, or lattice paths
           (although the lattice path argument is a little tricky).
@@ -473,7 +473,7 @@
 
     <p permid="ssec_patternspascal-p10">
       Expand the binomial <m>(x+y)^n</m>:
-      <me permid="ssec_patternspascal-p10-me">
+      <me permid="ssec_patternspascal-p10-me1">
         (x + y)^n = {n \choose 0}x^n + {n \choose 1}x^{n-1}y + {n \choose 2}x^{n-2}y^2 + \cdots + {n \choose n-1}x\cdot y^n + {n \choose n}y^n
       </me>.
     </p>
@@ -481,14 +481,14 @@
     <p permid="ssec_patternspascal-p11">
       Let <m>x = 1</m> and <m>y = 1</m>.
       We get:
-      <me permid="ssec_patternspascal-p11-me">
+      <me permid="ssec_patternspascal-p11-me1">
         (1 + 1)^n = {n \choose 0}1^n + {n \choose 1}1^{n-1}1 + {n \choose 2}1^{n-2}1^2 + \cdots + {n \choose n-1}1\cdot 1^n + {n \choose n}1^n
       </me>.
     </p>
 
     <p permid="ssec_patternspascal-p12">
       Of course this simplifies to:
-      <me permid="ssec_patternspascal-p12-me">
+      <me permid="ssec_patternspascal-p12-me1">
         (2)^n = {n \choose 0} + {n \choose 1} + {n \choose 2} + \cdots + {n \choose n-1} + {n \choose n}
       </me>.
     </p>
@@ -509,21 +509,21 @@
     </p>
 
     <p permid="ssec_moreproofs-p2">
-      <ol permid="ssec_moreproofs-ol">
-        <li permid="ssec_moreproofs-ol-l_j">
-          <p permid="ssec_moreproofs-ol-l_j-p">
+      <ol permid="ssec_moreproofs-ol1">
+        <li permid="ssec_moreproofs-ol1-l_j">
+          <p permid="ssec_moreproofs-ol1-l_j-p1">
             Find a counting problem you will be able to answer in two ways.
           </p>
         </li>
 
-        <li permid="ssec_moreproofs-ol-l_s">
-          <p permid="ssec_moreproofs-ol-l_s-p">
+        <li permid="ssec_moreproofs-ol1-l_s">
+          <p permid="ssec_moreproofs-ol1-l_s-p1">
             Explain why one answer to the counting problem is <m>A</m>.
           </p>
         </li>
 
-        <li permid="ssec_moreproofs-ol-l_b">
-          <p permid="ssec_moreproofs-ol-l_b-p">
+        <li permid="ssec_moreproofs-ol1-l_b">
+          <p permid="ssec_moreproofs-ol1-l_b-p1">
             Explain why the other answer to the counting problem is <m>B</m>.
           </p>
         </li>
@@ -549,8 +549,8 @@
       For example, consider this counting question:
     </p>
 
-    <blockquote permid="ssec_moreproofs-bq">
-      <p permid="ssec_moreproofs-bq-p">
+    <blockquote permid="ssec_moreproofs-bq1">
+      <p permid="ssec_moreproofs-bq1-p1">
         How many 10-letter words use exactly four A's, three B's, two C's and one D?
       </p>
     </blockquote>
@@ -568,7 +568,7 @@
       so we have <m>{3 \choose 2}</m> ways of doing that.
       That leaves just one spot of the D, but we could write that 1 choice as <m>{1 \choose 1}</m>.
       Thus the answer is:
-      <me permid="ssec_moreproofs-p6-me">
+      <me permid="ssec_moreproofs-p6-me1">
         {10 \choose 4}{6 \choose 3}{3 \choose 2}{1 \choose 1}
       </me>.
     </p>
@@ -586,7 +586,7 @@
       (that is, only one)
       ways.
       So another answer to the question is
-      <me permid="ssec_moreproofs-p7-me">
+      <me permid="ssec_moreproofs-p7-me1">
         {10 \choose 1}{9 \choose 2}{7 \choose 3}{4 \choose 4}
       </me>.
     </p>
@@ -594,7 +594,7 @@
     <p permid="ssec_moreproofs-p8">
       Interesting.
       This gives us the binomial identity:
-      <me permid="ssec_moreproofs-p8-me">
+      <me permid="ssec_moreproofs-p8-me1">
         {10 \choose 4}{6 \choose 3}{3 \choose 2}{1 \choose 1} = {10 \choose 1}{9 \choose 2}{7 \choose 3}{4 \choose 4}
       </me>.
     </p>
@@ -605,15 +605,15 @@
 
     <example permid="ssec_moreproofs-ex1">
       <statement>
-        <p permid="ssec_moreproofs-ex1-p">
+        <p permid="ssec_moreproofs-ex1-p1">
           Prove the identity
-          <me permid="ssec_moreproofs-ex1-p-me">
+          <me permid="ssec_moreproofs-ex1-p1-me1">
             1 n + 2(n-1) + 3 (n-2) + \cdots + (n-1) 2 + n 1 = {n+2 \choose 3}
           </me>.
         </p>
       </statement>
-      <solution permid="ssec_moreproofs-ex1-s">
-        <p permid="ssec_moreproofs-ex1-s-p1">
+      <solution permid="ssec_moreproofs-ex1-s1">
+        <p permid="ssec_moreproofs-ex1-s1-p1">
           To give a combinatorial proof we need to think up a question we can answer in two ways:
           one way needs to give the left-hand-side of the identity,
           the other way needs to be the right-hand-side of the identity.
@@ -627,19 +627,19 @@
           Here's the proof.
         </p>
 
-        <proof permid="ssec_moreproofs-ex1-pf">
-          <p permid="ssec_moreproofs-ex1-s-p2">
+        <proof permid="ssec_moreproofs-ex1-pf1">
+          <p permid="ssec_moreproofs-ex1-s1-p2">
             Consider the question <q>How many 3-element subsets are there of the set
             <m>\{1,2,3,\ldots,
             n+2\}</m>?</q> We answer this in two ways:
           </p>
 
-          <p permid="ssec_moreproofs-ex1-s-p3">
+          <p permid="ssec_moreproofs-ex1-s1-p3">
             Answer 1: We must select 3 elements from the collection of <m>n+2</m> elements.
             This can be done in <m>{n+2 \choose 3}</m> ways.
           </p>
 
-          <p permid="ssec_moreproofs-ex1-s-p4">
+          <p permid="ssec_moreproofs-ex1-s1-p4">
             Answer 2: Break this problem up into cases by what the middle number in the subset is.
             Say each subset is <m>\{a,b,c\}</m> written in increasing order.
             We count the number of subsets for each distinct value of <m>b</m>.
@@ -647,40 +647,40 @@
             and the largest is <m>n+1</m>.
           </p>
 
-          <p permid="ssec_moreproofs-ex1-s-p5">
+          <p permid="ssec_moreproofs-ex1-s1-p5">
             When <m>b = 2</m>, there are
             <m>1 \cdot n</m> subsets: 1 choice for <m>a</m> and <m>n</m> choices (3 through <m>n+2</m>) for <m>c</m>.
           </p>
 
-          <p permid="ssec_moreproofs-ex1-s-p6">
+          <p permid="ssec_moreproofs-ex1-s1-p6">
             When <m>b = 3</m>, there are
             <m>2 \cdot (n-1)</m> subsets: 2 choices for <m>a</m> and <m>n-1</m> choices for <m>c</m>.
           </p>
 
-          <p permid="ssec_moreproofs-ex1-s-p7">
+          <p permid="ssec_moreproofs-ex1-s1-p7">
             When <m>b = 4</m>, there are
             <m>3 \cdot (n-2)</m> subsets: 3 choices for <m>a</m> and <m>n-2</m> choices for <m>c</m>.
           </p>
 
-          <p permid="ssec_moreproofs-ex1-s-p8">
+          <p permid="ssec_moreproofs-ex1-s1-p8">
             And so on.
             When <m>b = n+1</m>,
             there are <m>n</m> choices for <m>a</m> and only 1 choice for <m>c</m>,
             so <m>n \cdot 1</m> subsets.
           </p>
 
-          <p permid="ssec_moreproofs-ex1-s-p9">
+          <p permid="ssec_moreproofs-ex1-s1-p9">
             Therefore the total number of subsets is
-            <me permid="ssec_moreproofs-ex1-s-p9-me">
+            <me permid="ssec_moreproofs-ex1-s1-p9-me1">
               1 n + 2 (n-1) + 3 (n-2) + \cdots + (n-1)2 + n 1
             </me>.
           </p>
 
-          <p permid="ssec_moreproofs-ex1-s-p10">
+          <p permid="ssec_moreproofs-ex1-s1-p10">
             Since Answer 1 and Answer 2 are answers to the same question,
             they must be equal.
             Therefore
-            <me permid="ssec_moreproofs-ex1-s-p10-me">
+            <me permid="ssec_moreproofs-ex1-s1-p10-me1">
               1 n + 2 (n-1) + 3 (n-2) + \cdots + (n-1) 2 + n 1 = {n+2 \choose 3}
             </me>.
           </p>
@@ -691,15 +691,15 @@
 
     <example permid="ssec_moreproofs-ex2">
       <statement>
-        <p permid="ssec_moreproofs-ex2-p">
+        <p permid="ssec_moreproofs-ex2-p1">
           Prove the binomial identity
-          <me permid="ssec_moreproofs-ex2-p-me">
+          <me permid="ssec_moreproofs-ex2-p1-me1">
             {n \choose 0}^2 + {n \choose 1}^2 + {n \choose 2}^2 + \cdots + {n \choose n}^2 = {2n \choose n}
           </me>.
         </p>
       </statement>
-      <solution permid="ssec_moreproofs-ex2-s">
-        <p permid="ssec_moreproofs-ex2-s-p1">
+      <solution permid="ssec_moreproofs-ex2-s1">
+        <p permid="ssec_moreproofs-ex2-s1-p1">
           We will give two different proofs of this fact.
           The first will be very similar to the previous example
           (counting subsets).
@@ -707,89 +707,89 @@
         </p>
 
         <proof permid="ssec_moreproofs-ex2-pf1">
-          <p permid="ssec_moreproofs-ex2-s-p2">
+          <p permid="ssec_moreproofs-ex2-s1-p2">
             Consider the question:
             <q>How many pizzas can you make using <m>n</m> toppings when there are <m>2n</m> toppings to choose from?</q>
           </p>
 
-          <p permid="ssec_moreproofs-ex2-s-p3">
+          <p permid="ssec_moreproofs-ex2-s1-p3">
             Answer 1: There are <m>2n</m> toppings,
             from which you must choose <m>n</m>.
             This can be done in <m>{2n \choose n}</m> ways.
           </p>
 
-          <p permid="ssec_moreproofs-ex2-s-p4">
+          <p permid="ssec_moreproofs-ex2-s1-p4">
             Answer 2: Divide the toppings into two groups of <m>n</m> toppings
             (perhaps <m>n</m> meats and <m>n</m> veggies).
             Any choice of <m>n</m> toppings must include some number from the first group and some number from the second group.
             Consider each possible number of meat toppings separately:
           </p>
 
-          <p permid="ssec_moreproofs-ex2-s-p5">
+          <p permid="ssec_moreproofs-ex2-s1-p5">
             0 meats: <m>{n \choose 0}{n \choose n}</m>,
             since you need to choose 0 of the <m>n</m> meats and <m>n</m> of the <m>n</m> veggies.
           </p>
 
-          <p permid="ssec_moreproofs-ex2-s-p6">
+          <p permid="ssec_moreproofs-ex2-s1-p6">
             1 meat: <m>{n \choose 1}{n \choose n-1}</m>,
             since you need 1 of <m>n</m> meats so <m>n-1</m> of <m>n</m> veggies.
           </p>
 
-          <p permid="ssec_moreproofs-ex2-s-p7">
+          <p permid="ssec_moreproofs-ex2-s1-p7">
             2 meats: <m>{n \choose 2}{n \choose n-2}</m>.
             Choose 2 meats and the remaining <m>n-2</m> toppings from the <m>n</m> veggies.
           </p>
 
-          <p permid="ssec_moreproofs-ex2-s-p8">
+          <p permid="ssec_moreproofs-ex2-s1-p8">
             And so on.
             The last case is <m>n</m> meats,
             which can be done in <m>{n \choose n}{n \choose 0}</m> ways.
           </p>
 
-          <p permid="ssec_moreproofs-ex2-s-p9">
+          <p permid="ssec_moreproofs-ex2-s1-p9">
             Thus the total number of pizzas possible is
-            <me permid="ssec_moreproofs-ex2-s-p9-me">
+            <me permid="ssec_moreproofs-ex2-s1-p9-me1">
               {n \choose 0}{n \choose n} + {n \choose 1}{n \choose n-1} + {n \choose 2}{n \choose n-2} + \cdots + {n \choose n}{n \choose 0}
             </me>.
           </p>
 
-          <p permid="ssec_moreproofs-ex2-s-p10">
+          <p permid="ssec_moreproofs-ex2-s1-p10">
             This is not quite the left-hand side <ellipsis/> yet.
             Notice that <m>{n \choose n} = {n \choose 0}</m> and
             <m>{n \choose n-1} = {n  \choose 1}</m> and so on, by the identity in
             <xref ref="example-symmetry-formula"/>.
             Thus we do indeed get
-            <me permid="ssec_moreproofs-ex2-s-p10-me">
+            <me permid="ssec_moreproofs-ex2-s1-p10-me1">
               {n \choose 0}^2 + {n \choose 1}^2 + {n \choose 2}^2 + \cdots + {n \choose n}^2
             </me>.
           </p>
 
-          <p permid="ssec_moreproofs-ex2-s-p11">
+          <p permid="ssec_moreproofs-ex2-s1-p11">
             Since these two answers are answers to the same question,
             they must be equal, and thus
-            <me permid="ssec_moreproofs-ex2-s-p11-me">
+            <me permid="ssec_moreproofs-ex2-s1-p11-me1">
               {n \choose 0}^2 + {n \choose 1}^2 + {n \choose 2}^2 + \cdots + {n \choose n}^2 = {2n \choose n}
             </me>.
           </p>
         </proof>
 
-        <p permid="ssec_moreproofs-ex2-s-p12">
+        <p permid="ssec_moreproofs-ex2-s1-p12">
           For an alternative proof, we use lattice paths.
           This is reasonable to consider because the right-hand side of the identity reminds us of the number of paths from <m>(0,0)</m> to <m>(n,n)</m>.
         </p>
 
         <proof permid="ssec_moreproofs-ex2-pf2">
-          <p permid="ssec_moreproofs-ex2-s-p13">
+          <p permid="ssec_moreproofs-ex2-s1-p13">
             Consider the question: How many lattice paths are there from <m>(0,0)</m> to <m>(n,n)</m>?
           </p>
 
-          <p permid="ssec_moreproofs-ex2-s-p14">
+          <p permid="ssec_moreproofs-ex2-s1-p14">
             Answer 1: We must travel <m>2n</m> steps,
             and <m>n</m> of them must be in the up direction.
             Thus there are <m>{2n \choose n}</m> paths.
           </p>
 
-          <p permid="ssec_moreproofs-ex2-s-p15">
+          <p permid="ssec_moreproofs-ex2-s1-p15">
             Answer 2: Note that any path from <m>(0,0)</m> to <m>(n,n)</m> must cross the line <m>x + y = n</m>.
             That is, any path must pass through exactly one of the points:
             <m>(0,n)</m>, <m>(1,n-1)</m>,
@@ -797,7 +797,7 @@
             For example, this is what happens in the case <m>n = 4</m>:
           </p>
 
-          <sidebyside permid="ssec_moreproofs-ex2-sbs" width="40%">
+          <sidebyside permid="ssec_moreproofs-ex2-sbs1" width="40%">
 
             <image permid="lattice-paths-comb-pf" xml:id="lattice-paths-comb-proof">
 
@@ -813,7 +813,7 @@
 
           </sidebyside>
 
-          <p permid="ssec_moreproofs-ex2-s-p16">
+          <p permid="ssec_moreproofs-ex2-s1-p16">
             How many paths pass through <m>(0,n)</m>?
             To get to that point, you must travel <m>n</m> units,
             and <m>0</m> of them are to the right,
@@ -824,7 +824,7 @@
             Therefore there are <m>{n \choose 0}{n \choose 0}</m> paths from <m>(0,0)</m> to <m>(n,n)</m> through the point <m>(0,n)</m>.
           </p>
 
-          <p permid="ssec_moreproofs-ex2-s-p17">
+          <p permid="ssec_moreproofs-ex2-s1-p17">
             What about through <m>(1,n-1)</m>.
             There are <m>{n \choose 1}</m> paths to get there (<m>n</m> steps, 1 to the right) and
             <m>{n \choose 1}</m> paths to complete the journey to <m>(n,n)</m>
@@ -832,24 +832,24 @@
             So there are <m>{n \choose 1}{n \choose 1}</m> paths from <m>(0,0)</m> to <m>(n,n)</m> through <m>(1,n-1)</m>.
           </p>
 
-          <p permid="ssec_moreproofs-ex2-s-p18">
+          <p permid="ssec_moreproofs-ex2-s1-p18">
             In general, to get to <m>(n,n)</m> through the point <m>(k,n-k)</m> we have
             <m>{n \choose k}</m> paths to the midpoint and then
             <m>{n \choose k}</m> paths from the midpoint to <m>(n,n)</m>.
             So there are <m>{n \choose k}{n \choose k}</m> paths from <m>(0,0)</m> to <m>(n,n)</m> through <m>(k, n-k)</m>.
           </p>
 
-          <p permid="ssec_moreproofs-ex2-s-p19">
+          <p permid="ssec_moreproofs-ex2-s1-p19">
             All together then the total paths from <m>(0,0)</m> to <m>(n,n)</m> passing through exactly one of these midpoints is
-            <me permid="ssec_moreproofs-ex2-s-p19-me">
+            <me permid="ssec_moreproofs-ex2-s1-p19-me1">
               {n \choose 0}^2 + {n \choose 1}^2 + {n \choose 2}^2 + \cdots + {n \choose n}^2
             </me>.
           </p>
 
-          <p permid="ssec_moreproofs-ex2-s-p20">
+          <p permid="ssec_moreproofs-ex2-s1-p20">
             Since these two answers are answers to the same question,
             they must be equal, and thus
-            <me permid="ssec_moreproofs-ex2-s-p20-me">
+            <me permid="ssec_moreproofs-ex2-s1-p20-me1">
               {n \choose 0}^2 + {n \choose 1}^2 + {n \choose 2}^2 + \cdots + {n \choose n}^2 = {2n \choose n}
             </me>.
           </p>

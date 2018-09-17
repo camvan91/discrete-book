@@ -8,27 +8,27 @@
       </p>
 
       <p permid="exers_seq-polyfit-e_xo-p2">
-        <ol permid="exers_seq-polyfit-e_xo-ol">
-          <li permid="exers_seq-polyfit-e_xo-ol-l_j">
-            <p permid="exers_seq-polyfit-e_xo-ol-l_j-p">
+        <ol permid="exers_seq-polyfit-e_xo-ol1">
+          <li permid="exers_seq-polyfit-e_xo-ol1-l_j">
+            <p permid="exers_seq-polyfit-e_xo-ol1-l_j-p1">
               2, 5, 11, 21, 36,<ellipsis/>
             </p>
           </li>
 
-          <li permid="exers_seq-polyfit-e_xo-ol-l_s">
-            <p permid="exers_seq-polyfit-e_xo-ol-l_s-p">
+          <li permid="exers_seq-polyfit-e_xo-ol1-l_s">
+            <p permid="exers_seq-polyfit-e_xo-ol1-l_s-p1">
               0, 2, 6, 12, 20,<ellipsis/>
             </p>
           </li>
 
-          <li permid="exers_seq-polyfit-e_xo-ol-l_b">
-            <p permid="exers_seq-polyfit-e_xo-ol-l_b-p">
+          <li permid="exers_seq-polyfit-e_xo-ol1-l_b">
+            <p permid="exers_seq-polyfit-e_xo-ol1-l_b-p1">
               1, 2, 4, 8, 15, 26 <ellipsis/>
             </p>
           </li>
 
-          <li permid="exers_seq-polyfit-e_xo-ol-l_k">
-            <p permid="exers_seq-polyfit-e_xo-ol-l_k-p">
+          <li permid="exers_seq-polyfit-e_xo-ol1-l_k">
+            <p permid="exers_seq-polyfit-e_xo-ol1-l_k-p1">
               3, 6, 12, 22, 37, <ellipsis/>.
               After finding a formula here, compare to part (a).
             </p>
@@ -36,11 +36,11 @@
         </ol>
       </p>
     </statement>
-    <solution permid="exers_seq-polyfit-e_xo-s">
-      <p permid="exers_seq-polyfit-e_xo-s-p">
-        <ol permid="exers_seq-polyfit-e_xo-s-ol">
-          <li permid="exers_seq-polyfit-e_xo-s-ol-l_j">
-            <p permid="exers_seq-polyfit-e_xo-s-ol-l_j-p">
+    <solution permid="exers_seq-polyfit-e_xo-s1">
+      <p permid="exers_seq-polyfit-e_xo-s1-p1">
+        <ol permid="exers_seq-polyfit-e_xo-s1-ol1">
+          <li permid="exers_seq-polyfit-e_xo-s1-ol1-l_j">
+            <p permid="exers_seq-polyfit-e_xo-s1-ol1-l_j-p1">
               Notice that the third differences are constant,
               so <m>a_n = an^3 + bn^2 + cn + d</m>.
               Use the terms of the sequence to solve for <m>a, b, c</m>,
@@ -48,13 +48,13 @@
             </p>
           </li>
 
-          <li permid="exers_seq-polyfit-e_xo-s-ol-l_s">
+          <li permid="exers_seq-polyfit-e_xo-s1-ol1-l_s">
             <m>a_n = n^2 + n</m>.
             Here we know that we are looking for a quadratic because the second differences are constant.
             So <m>a_n = an^2 + bn + c</m>.
             Since <m>a_0 = 0</m>, we know <m>c= 0</m>.
             So just solve the system
-            <md permid="exers_seq-polyfit-e_xo-s-ol-l_s-md">
+            <md permid="exers_seq-polyfit-e_xo-s1-ol1-l_s-md1">
               <mrow>2 \amp = a + b</mrow>
               <mrow>6 \amp = 4a + 2b</mrow>
             </md>
@@ -66,17 +66,17 @@
 
   <exercise permid="exers_seq-polyfit-e_ag">
     <statement>
-      <p permid="exers_seq-polyfit-e_ag-p">
+      <p permid="exers_seq-polyfit-e_ag-p1">
         Make up a sequences that have
 
-        <ol permid="exers_seq-polyfit-e_ag-ol">
-          <li permid="exers_seq-polyfit-e_ag-ol-l_j">3, 3, 3, 3, <ellipsis/> as its second differences.</li>
+        <ol permid="exers_seq-polyfit-e_ag-ol1">
+          <li permid="exers_seq-polyfit-e_ag-ol1-l_j">3, 3, 3, 3, <ellipsis/> as its second differences.</li>
 
-          <li permid="exers_seq-polyfit-e_ag-ol-l_s">
+          <li permid="exers_seq-polyfit-e_ag-ol1-l_s">
             1, 2, 3, 4, 5, <ellipsis/> as its third differences.
           </li>
 
-          <li permid="exers_seq-polyfit-e_ag-ol-l_b">
+          <li permid="exers_seq-polyfit-e_ag-ol1-l_b">
             1, 2, 4, 8, 16, <ellipsis/> as its 100th differences.
           </li>
         </ol>
@@ -86,22 +86,22 @@
 
   <exercise permid="exers_seq-polyfit-e_dp">
     <statement>
-      <p permid="exers_seq-polyfit-e_dp-p">
+      <p permid="exers_seq-polyfit-e_dp-p1">
         Consider the sequence <m>1, 3, 7, 13, 21, \ldots</m>.
         Explain how you know the closed formula for the sequence will be quadratic.
         Then <q>guess</q> the correct formula by comparing this sequence to the squares <m>1, 4, 9, 16, \ldots</m>
         (do not use polynomial fitting).
       </p>
     </statement>
-    <solution permid="exers_seq-polyfit-e_dp-s">
-      <p permid="exers_seq-polyfit-e_dp-s-p1">
+    <solution permid="exers_seq-polyfit-e_dp-s1">
+      <p permid="exers_seq-polyfit-e_dp-s1-p1">
         The first differences are <m>2, 4, 6, 8, \ldots</m>,
         and the second differences are <m>2, 2, 2, \ldots</m>.
         Thus the original sequence is <m>\Delta^2</m>-constant,
         so can be fit to a quadratic.
       </p>
 
-      <p permid="exers_seq-polyfit-e_dp-s-p2">
+      <p permid="exers_seq-polyfit-e_dp-s1-p2">
         Call the original sequence <m>a_n</m>.
         Consider <m>a_n - n^2</m>.
         This gives <m>0, -1, -2, -3, \ldots</m>. <em>That</em>
@@ -114,7 +114,7 @@
 
   <exercise permid="exers_seq-polyfit-e_gy">
     <statement>
-      <p permid="exers_seq-polyfit-e_gy-p">
+      <p permid="exers_seq-polyfit-e_gy-p1">
         Use a similar technique as in the previous exercise to find a closed formula for the sequence <m>2, 11, 34, 77, 146, 247,\ldots</m>.
       </p>
     </statement>
@@ -128,9 +128,9 @@
         tetrahedrons), like those pictured here:
       </p>
 
-      <sidebyside permid="exers_seq-polyfit-sbs" widths="8% 18% 26%" valign="bottom" margins="auto">
+      <sidebyside permid="exers_seq-polyfit-sbs1" widths="8% 18% 26%" valign="bottom" margins="auto">
 
-        <image permid="exers_seq-polyfit-sbs-im1">
+        <image permid="exers_seq-polyfit-sbs1-im1">
 
             <latex-image>
               \begin{tikzpicture}
@@ -141,7 +141,7 @@
             </latex-image>
         </image>
 
-        <image permid="exers_seq-polyfit-sbs-im2">
+        <image permid="exers_seq-polyfit-sbs1-im2">
 
             <latex-image>
               \begin{tikzpicture}
@@ -153,7 +153,7 @@
             </latex-image>
         </image>
 
-        <image permid="exers_seq-polyfit-sbs-im3">
+        <image permid="exers_seq-polyfit-sbs1-im3">
 
             <latex-image>
               \begin{tikzpicture}
@@ -183,24 +183,24 @@
       </p>
 
       <p permid="exers_seq-polyfit-e_jq-p4">
-        <ol permid="exers_seq-polyfit-e_jq-ol">
-          <li permid="exers_seq-polyfit-e_jq-ol-l_j">
-            <p permid="exers_seq-polyfit-e_jq-ol-l_j-p">
+        <ol permid="exers_seq-polyfit-e_jq-ol1">
+          <li permid="exers_seq-polyfit-e_jq-ol1-l_j">
+            <p permid="exers_seq-polyfit-e_jq-ol1-l_j-p1">
               Let <m>P(n)</m> denote the number of cannonballs needed to create a pyramid <m>n</m> layers high.
               So <m>P(1) = 1</m>, <m>P(2) = 4</m>, and so on.
               Calculate <m>P(3)</m>, <m>P(4)</m> and <m>P(5)</m>.
             </p>
           </li>
 
-          <li permid="exers_seq-polyfit-e_jq-ol-l_s">
-            <p permid="exers_seq-polyfit-e_jq-ol-l_s-p">
+          <li permid="exers_seq-polyfit-e_jq-ol1-l_s">
+            <p permid="exers_seq-polyfit-e_jq-ol1-l_s-p1">
               Use polynomial fitting to find a closed formula for <m>P(n)</m>.
               Show your work.
             </p>
           </li>
 
-          <li permid="exers_seq-polyfit-e_jq-ol-l_b">
-            <p permid="exers_seq-polyfit-e_jq-ol-l_b-p">
+          <li permid="exers_seq-polyfit-e_jq-ol1-l_b">
+            <p permid="exers_seq-polyfit-e_jq-ol1-l_b-p1">
               Answer the pirate's question:
               how many cannonballs do they need to make a pyramid 15 layers high?
             </p>
@@ -212,13 +212,13 @@
 
   <exercise permid="exers_seq-polyfit-e_mz">
     <statement>
-      <p permid="exers_seq-polyfit-e_mz-p">
+      <p permid="exers_seq-polyfit-e_mz-p1">
         Suppose <m>a_n = n^2 + 3n + 4</m>.
         Find a closed formula for the sequence of differences by computing <m>a_n - a_{n-1}</m>.
       </p>
     </statement>
-    <solution permid="exers_seq-polyfit-e_mz-s">
-      <p permid="exers_seq-polyfit-e_mz-s-p">
+    <solution permid="exers_seq-polyfit-e_mz-s1">
+      <p permid="exers_seq-polyfit-e_mz-s1-p1">
         <m>a_{n-1} = (n-1)^2 + 3(n-1) + 4 = n^2 + n + 2</m>.
         Thus <m>a_n - a_{n-1} = 2n+2</m>.
         Note that this is linear
@@ -234,7 +234,7 @@
 
   <exercise permid="exers_seq-polyfit-e_pi">
     <statement>
-      <p permid="exers_seq-polyfit-e_pi-p">
+      <p permid="exers_seq-polyfit-e_pi-p1">
         Repeat the above assuming this time <m>a_n = an^2 + bn + c</m>.
         That is, prove that every quadratic sequence has arithmetic differences.
       </p>
@@ -243,7 +243,7 @@
 
   <exercise permid="exers_seq-polyfit-e_sa">
     <statement>
-      <p permid="exers_seq-polyfit-e_sa-p">
+      <p permid="exers_seq-polyfit-e_sa-p1">
         Can you use polynomial fitting to find the formula for the <m>n</m>th term of the sequence 4, 7, 11, 18, 29, 47,
         <ellipsis/>?
         Explain why or why not.
@@ -253,7 +253,7 @@
 
   <exercise permid="exers_seq-polyfit-e_vj">
     <statement>
-      <p permid="exers_seq-polyfit-e_vj-p">
+      <p permid="exers_seq-polyfit-e_vj-p1">
         Will the <m>n</m>th sequence of differences of <m>2, 6, 18, 54, 162, \ldots</m> ever be constant?
         Explain.
       </p>
@@ -268,27 +268,27 @@
       </p>
 
       <p permid="exers_seq-polyfit-e_ys-p2">
-        <ol permid="exers_seq-polyfit-e_ys-ol">
-          <li permid="exers_seq-polyfit-e_ys-ol-l_j">
-            <p permid="exers_seq-polyfit-e_ys-ol-l_j-p">
+        <ol permid="exers_seq-polyfit-e_ys-ol1">
+          <li permid="exers_seq-polyfit-e_ys-ol1-l_j">
+            <p permid="exers_seq-polyfit-e_ys-ol1-l_j-p1">
               Describe the rate of growth of this sequence.
             </p>
           </li>
 
-          <li permid="exers_seq-polyfit-e_ys-ol-l_s">
-            <p permid="exers_seq-polyfit-e_ys-ol-l_s-p">
+          <li permid="exers_seq-polyfit-e_ys-ol1-l_s">
+            <p permid="exers_seq-polyfit-e_ys-ol1-l_s-p1">
               Find a recursive definition for the sequence.
             </p>
           </li>
 
-          <li permid="exers_seq-polyfit-e_ys-ol-l_b">
-            <p permid="exers_seq-polyfit-e_ys-ol-l_b-p">
+          <li permid="exers_seq-polyfit-e_ys-ol1-l_b">
+            <p permid="exers_seq-polyfit-e_ys-ol1-l_b-p1">
               Find a closed formula for the sequence.
             </p>
           </li>
 
-          <li permid="exers_seq-polyfit-e_ys-ol-l_k">
-            <p permid="exers_seq-polyfit-e_ys-ol-l_k-p">
+          <li permid="exers_seq-polyfit-e_ys-ol1-l_k">
+            <p permid="exers_seq-polyfit-e_ys-ol1-l_k-p1">
               If you look at the sequence of differences between terms,
               and then the sequence of second differences,
               the sequence of third differences, and so on,

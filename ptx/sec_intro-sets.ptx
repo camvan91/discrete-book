@@ -2,8 +2,8 @@
 
 <section permid="sec_intro-sets" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_intro-sets">
   <title>Sets</title>
-  <introduction permid="sec_intro-sets-intr">
-    <p permid="sec_intro-sets-intr-p1">
+  <introduction permid="sec_intro-sets-intr1">
+    <p permid="sec_intro-sets-intr1-p1">
       The most fundamental objects we will use in our studies
       (and really in all of math)
       are
@@ -14,7 +14,7 @@
       although some might be a little different than what you have seen before.
     </p>
 
-    <p permid="sec_intro-sets-intr-p2">
+    <p permid="sec_intro-sets-intr1-p2">
       For us, a <term>set</term> 
           <idx><h>set</h></idx>
       will simply be an unordered collection of objects.
@@ -42,7 +42,7 @@
     <p permid="ssec_notation-p1">
       We need some notation to make talking about sets easier.
       Consider,
-      <me permid="ssec_notation-p1-me">
+      <me permid="ssec_notation-p1-me1">
         A = \{1, 2, 3\}
       </me>.
     </p>
@@ -53,7 +53,7 @@
       We use curly braces <q><m>\{,~~ \}</m></q>
       to enclose elements of a set.
       Some more notation:
-      <me permid="ssec_notation-p2-me">
+      <me permid="ssec_notation-p2-me1">
         a \in \{a, b, c\}
       </me>.
     </p>
@@ -66,7 +66,7 @@
       and <m>c</m>.
       Note that this is a true statement.
       It would also be true to say that <m>d</m> is not in that set:
-      <me permid="ssec_notation-p3-me">
+      <me permid="ssec_notation-p3-me1">
         d \not\in \{a, b, c\}
       </me>.
     </p>
@@ -75,7 +75,7 @@
       Be warned: we write <q><m>x \in A</m></q>
       when we wish to express that one of the elements of the set <m>A</m> is <m>x</m>.
       For example, consider the set,
-      <me permid="ssec_notation-p4-me">
+      <me permid="ssec_notation-p4-me1">
         A = \{1, b, \{x, y, z\}, \emptyset\}
       </me>.
     </p>
@@ -127,7 +127,7 @@
       </q> is read <q>there exists an <m>n</m> in the natural numbers for which <m>x</m> is two times <m>n</m></q>
       (in other words, <m>x</m> is even).
       Slightly easier might be,
-      <me permid="ssec_notation-p7-me">
+      <me permid="ssec_notation-p7-me1">
         A = \{x \st x\text{ is even} \}
       </me>.
     </p>
@@ -147,29 +147,29 @@
       Here are some more examples:
     </p>
 
-    <example permid="ssec_notation-ex">
+    <example permid="ssec_notation-ex1">
       <statement>
-        <p permid="ssec_notation-ex-p1">
+        <p permid="ssec_notation-ex1-p1">
           Describe each of the following sets both in words and by listing out enough elements to see the pattern.
         </p>
 
-        <p permid="ssec_notation-ex-p2">
-          <ol permid="ssec_notation-ex-ol">
-            <li permid="ssec_notation-ex-ol-l_j"><m>\{x \st x + 3 \in \N\}</m>.</li>
+        <p permid="ssec_notation-ex1-p2">
+          <ol permid="ssec_notation-ex1-ol1">
+            <li permid="ssec_notation-ex1-ol1-l_j"><m>\{x \st x + 3 \in \N\}</m>.</li>
 
-            <li permid="ssec_notation-ex-ol-l_s"><m>\{x \in \N \st x + 3 \in \N\}</m>.</li>
+            <li permid="ssec_notation-ex1-ol1-l_s"><m>\{x \in \N \st x + 3 \in \N\}</m>.</li>
 
-            <li permid="ssec_notation-ex-ol-l_b"><m>\{x \st x \in \N \vee -x \in \N\}</m>.</li>
+            <li permid="ssec_notation-ex1-ol1-l_b"><m>\{x \st x \in \N \vee -x \in \N\}</m>.</li>
 
-            <li permid="ssec_notation-ex-ol-l_k"><m>\{x \st x \in \N \wedge -x \in \N\}</m>.</li>
+            <li permid="ssec_notation-ex1-ol1-l_k"><m>\{x \st x \in \N \wedge -x \in \N\}</m>.</li>
           </ol>
         </p>
       </statement>
-      <solution permid="ssec_notation-ex-s">
-        <p permid="ssec_notation-ex-s-p">
-          <ol permid="ssec_notation-ex-s-ol">
-            <li permid="ssec_notation-ex-s-ol-l_j">
-              <p permid="ssec_notation-ex-s-ol-l_j-p">
+      <solution permid="ssec_notation-ex1-s1">
+        <p permid="ssec_notation-ex1-s1-p1">
+          <ol permid="ssec_notation-ex1-s1-ol1">
+            <li permid="ssec_notation-ex1-s1-ol1-l_j">
+              <p permid="ssec_notation-ex1-s1-ol1-l_j-p1">
                 This is the set of all numbers which are 3 less than a natural number (i.e., that if you add 3 to them,
                 you get a natural number).
                 The set could also be written as <m>\{-3, -2, -1, 0, 1, 2, \ldots\}</m>
@@ -178,15 +178,15 @@
               </p>
             </li>
 
-            <li permid="ssec_notation-ex-s-ol-l_s">
-              <p permid="ssec_notation-ex-s-ol-l_s-p">
+            <li permid="ssec_notation-ex1-s1-ol1-l_s">
+              <p permid="ssec_notation-ex1-s1-ol1-l_s-p1">
                 This is the set of all natural numbers which are 3 less than a natural number.
                 So here we just have <m>\{0, 1, 2,3 \ldots\}</m>.
               </p>
             </li>
 
-            <li permid="ssec_notation-ex-s-ol-l_b">
-              <p permid="ssec_notation-ex-s-ol-l_b-p">
+            <li permid="ssec_notation-ex1-s1-ol1-l_b">
+              <p permid="ssec_notation-ex1-s1-ol1-l_b-p1">
                 This is the set of all integers
                 <idx>
                 <h>integers</h>
@@ -196,8 +196,8 @@
               </p>
             </li>
 
-            <li permid="ssec_notation-ex-s-ol-l_k">
-              <p permid="ssec_notation-ex-s-ol-l_k-p">
+            <li permid="ssec_notation-ex1-s1-ol1-l_k">
+              <p permid="ssec_notation-ex1-s1-ol1-l_k-p1">
                 Here we want all numbers <m>x</m> such that <m>x</m> and <m>-x</m> are natural numbers.
                 There is only one: 0.
                 So we have the set <m>\{0\}</m>.
@@ -216,11 +216,11 @@
 
     <assemblage permid="ssec_notation-asm-special-sets">
       <title>Special sets</title>
-      <p permid="ssec_notation-asm-special-sets-p">
-        <dl permid="ssec_notation-asm-special-sets-dl" width="narrow">
-          <li permid="ssec_notation-asm-special-sets-dl-l_emptyset">
+      <p permid="ssec_notation-asm-special-sets-p1">
+        <dl permid="ssec_notation-asm-special-sets-dl1" width="narrow">
+          <li permid="ssec_notation-asm-special-sets-dl1-l_emptyset">
             <title><m>\emptyset</m></title>
-            <p permid="ssec_notation-asm-special-sets-dl-l_emptyset-p">
+            <p permid="ssec_notation-asm-special-sets-dl1-l_emptyset-p1">
               The <term>empty set</term> is the set which contains no elements.
 
               <notation>
@@ -232,9 +232,9 @@
             </p>
           </li>
 
-          <li permid="ssec_notation-asm-special-sets-dl-l_u">
+          <li permid="ssec_notation-asm-special-sets-dl1-l_u">
             <title><m>\U</m></title>
-            <p permid="ssec_notation-asm-special-sets-dl-l_u-p">
+            <p permid="ssec_notation-asm-special-sets-dl1-l_u-p1">
               The <term>universe set</term> is the set of all elements.
 
               <notation>
@@ -245,9 +245,9 @@
             </p>
           </li>
 
-          <li permid="ssec_notation-asm-special-sets-dl-l_n">
+          <li permid="ssec_notation-asm-special-sets-dl1-l_n">
             <title><m>\N</m></title>
-            <p permid="ssec_notation-asm-special-sets-dl-l_n-p">
+            <p permid="ssec_notation-asm-special-sets-dl1-l_n-p1">
               The set of natural numbers.
               That is, <m>\N =
               \{0, 1, 2, 3\ldots\}</m>.
@@ -263,9 +263,9 @@
             </p>
           </li>
 
-          <li permid="ssec_notation-asm-special-sets-dl-l_z">
+          <li permid="ssec_notation-asm-special-sets-dl1-l_z">
             <title><m>\Z</m></title>
-            <p permid="ssec_notation-asm-special-sets-dl-l_z-p">
+            <p permid="ssec_notation-asm-special-sets-dl1-l_z-p1">
               The set of
               integers.
               That is, <m>\Z = \{\ldots, -2, -1, 0, 1, 2, 3, \ldots\}</m>.
@@ -279,9 +279,9 @@
             </p>
           </li>
 
-          <li permid="ssec_notation-asm-special-sets-dl-l_q">
+          <li permid="ssec_notation-asm-special-sets-dl1-l_q">
             <title><m>\Q</m></title>
-            <p permid="ssec_notation-asm-special-sets-dl-l_q-p">
+            <p permid="ssec_notation-asm-special-sets-dl1-l_q-p1">
               The set of rational numbers.
 
               <notation>
@@ -293,9 +293,9 @@
             </p>
           </li>
 
-          <li permid="ssec_notation-asm-special-sets-dl-l_r">
+          <li permid="ssec_notation-asm-special-sets-dl1-l_r">
             <title><m>\R</m></title>
-            <p permid="ssec_notation-asm-special-sets-dl-l_r-p">
+            <p permid="ssec_notation-asm-special-sets-dl1-l_r-p1">
               The set of real numbers.
                 <idx><h>reals</h> </idx>
             <notation>
@@ -306,9 +306,9 @@
             </p>
           </li>
 
-          <li permid="ssec_notation-asm-special-sets-dl-l_powa">
+          <li permid="ssec_notation-asm-special-sets-dl1-l_powa">
             <title><m>\pow(A)</m></title>
-            <p permid="ssec_notation-asm-special-sets-dl-l_powa-p">
+            <p permid="ssec_notation-asm-special-sets-dl1-l_powa-p1">
               The <term>power set</term> of any set <m>A</m> is the set of all subsets of <m>A</m>.
                 <idx> <h>power set</h> </idx>
             <notation>
@@ -324,11 +324,11 @@
 
     <assemblage permid="ssec_notation-asm-set-theory-notation">
       <title>Set Theory Notation</title>
-      <p permid="ssec_notation-asm-set-theory-notation-p">
-        <dl permid="ssec_notation-asm-set-theory-notation-dl" width="narrow">
-          <li permid="ssec_notation-asm-set-theory-notation-dl-l_">
+      <p permid="ssec_notation-asm-set-theory-notation-p1">
+        <dl permid="ssec_notation-asm-set-theory-notation-dl1" width="narrow">
+          <li permid="ssec_notation-asm-set-theory-notation-dl1-l_">
             <title><m>\{, \}</m></title>
-            <p permid="ssec_notation-asm-set-theory-notation-dl-l_-p">
+            <p permid="ssec_notation-asm-set-theory-notation-dl1-l_-p1">
               We use these <term>braces</term> to enclose the elements of a set.
               So <m>\{1,2,3\}</m> is the set containing 1, 2, and 3.
 
@@ -340,9 +340,9 @@
             </p>
           </li>
 
-          <li permid="ssec_notation-asm-set-theory-notation-dl-l_st">
+          <li permid="ssec_notation-asm-set-theory-notation-dl1-l_st">
             <title><m>\st</m></title>
-            <p permid="ssec_notation-asm-set-theory-notation-dl-l_st-p">
+            <p permid="ssec_notation-asm-set-theory-notation-dl1-l_st-p1">
               <m>\{x \st x &gt; 2\}</m> is the set of all <m>x</m> <term>such that</term>
               <m>x</m> is greater than 2.
 
@@ -354,9 +354,9 @@
             </p>
           </li>
 
-          <li permid="ssec_notation-asm-set-theory-notation-dl-l_in">
+          <li permid="ssec_notation-asm-set-theory-notation-dl1-l_in">
             <title><m>\in</m></title>
-            <p permid="ssec_notation-asm-set-theory-notation-dl-l_in-p">
+            <p permid="ssec_notation-asm-set-theory-notation-dl1-l_in-p1">
               <m>2 \in \{1,2,3\}</m> asserts that 2 is
               <term>an element of</term>
               the set <m>\{1,2,3\}</m>.
@@ -369,18 +369,18 @@
             </p>
           </li>
 
-          <li permid="ssec_notation-asm-set-theory-notation-dl-l_not-in">
+          <li permid="ssec_notation-asm-set-theory-notation-dl1-l_not-in">
             <title><m>\not\in</m></title>
-            <p permid="ssec_notation-asm-set-theory-notation-dl-l_not-in-p">
+            <p permid="ssec_notation-asm-set-theory-notation-dl1-l_not-in-p1">
               <m>4 \notin \{1,2,3\}</m> because 4
               <term>is not an element of</term>
               the set <m>\{1,2,3\}</m>.
             </p>
           </li>
 
-          <li permid="ssec_notation-asm-set-theory-notation-dl-l_subseteq">
+          <li permid="ssec_notation-asm-set-theory-notation-dl1-l_subseteq">
             <title><m>\subseteq</m></title>
-            <p permid="ssec_notation-asm-set-theory-notation-dl-l_subseteq-p">
+            <p permid="ssec_notation-asm-set-theory-notation-dl1-l_subseteq-p1">
               <m>A \subseteq B</m> asserts that
               <term><m>A</m> is a subset of <m>B</m></term>:
               every element of <m>A</m> is also an element of <m>B</m>.
@@ -393,9 +393,9 @@
             </p>
           </li>
 
-          <li permid="ssec_notation-asm-set-theory-notation-dl-l_subset">
+          <li permid="ssec_notation-asm-set-theory-notation-dl1-l_subset">
             <title><m>\subset</m></title>
-            <p permid="ssec_notation-asm-set-theory-notation-dl-l_subset-p">
+            <p permid="ssec_notation-asm-set-theory-notation-dl1-l_subset-p1">
               <m>A \subset B</m> asserts that
               <term><m>A</m> is a proper subset of <m>B</m></term>:
               every element of <m>A</m> is also an element of <m>B</m>,
@@ -409,9 +409,9 @@
             </p>
           </li>
 
-          <li permid="ssec_notation-asm-set-theory-notation-dl-l_cap">
+          <li permid="ssec_notation-asm-set-theory-notation-dl1-l_cap">
             <title><m>\cap</m></title>
-            <p permid="ssec_notation-asm-set-theory-notation-dl-l_cap-p">
+            <p permid="ssec_notation-asm-set-theory-notation-dl1-l_cap-p1">
               <m>A \cap B</m> is the <term>intersection of <m>A</m> and <m>B</m></term>:
               the set containing all elements which are elements of both <m>A</m> and <m>B</m>.
 
@@ -424,9 +424,9 @@
             </p>
           </li>
 
-          <li permid="ssec_notation-asm-set-theory-notation-dl-l_cup">
+          <li permid="ssec_notation-asm-set-theory-notation-dl1-l_cup">
             <title><m>\cup</m></title>
-            <p permid="ssec_notation-asm-set-theory-notation-dl-l_cup-p">
+            <p permid="ssec_notation-asm-set-theory-notation-dl1-l_cup-p1">
               <m>A \cup B</m> is the <term>union of <m>A</m> and <m>B</m></term>:
               is the set containing all elements which are elements of <m>A</m> or <m>B</m> or both.
 
@@ -439,9 +439,9 @@
             </p>
           </li>
 
-          <li permid="ssec_notation-asm-set-theory-notation-dl-l_times">
+          <li permid="ssec_notation-asm-set-theory-notation-dl1-l_times">
             <title><m>\times</m></title>
-            <p permid="ssec_notation-asm-set-theory-notation-dl-l_times-p">
+            <p permid="ssec_notation-asm-set-theory-notation-dl1-l_times-p1">
               <m>A \times B</m> is the <term>Cartesian product of <m>A</m> and <m>B</m></term>:
               the set of all ordered pairs <m>(a,b)</m> with <m>a \in A</m> and <m>b \in B</m>.
 
@@ -453,9 +453,9 @@
             </p>
           </li>
 
-          <li permid="ssec_notation-asm-set-theory-notation-dl-l_setminus">
+          <li permid="ssec_notation-asm-set-theory-notation-dl1-l_setminus">
             <title><m>\setminus</m></title>
-            <p permid="ssec_notation-asm-set-theory-notation-dl-l_setminus-p">
+            <p permid="ssec_notation-asm-set-theory-notation-dl1-l_setminus-p1">
               <m>A \setminus B</m> is <term><m>A</m> set-minus <m>B</m></term>:
               the set containing all elements of <m>A</m> which are not elements of <m>B</m>.
 
@@ -467,9 +467,9 @@
             </p>
           </li>
 
-          <li permid="ssec_notation-asm-set-theory-notation-dl-l_bar-a">
+          <li permid="ssec_notation-asm-set-theory-notation-dl1-l_bar-a">
             <title><m>\bar{A}</m></title>
-            <p permid="ssec_notation-asm-set-theory-notation-dl-l_bar-a-p">
+            <p permid="ssec_notation-asm-set-theory-notation-dl1-l_bar-a-p1">
               The <term>complement of <m>A</m></term>
               is the set of everything which is not an element of <m>A</m>.
 
@@ -481,9 +481,9 @@
             </p>
           </li>
 
-          <li permid="ssec_notation-asm-set-theory-notation-dl-l_card-a">
+          <li permid="ssec_notation-asm-set-theory-notation-dl1-l_card-a">
             <title><m>\card{A}</m></title>
-            <p permid="ssec_notation-asm-set-theory-notation-dl-l_card-a-p">
+            <p permid="ssec_notation-asm-set-theory-notation-dl1-l_card-a-p1">
               The <term>cardinality
               (or size)
               of <m>A</m></term> is the number of elements in <m>A</m>.
@@ -500,50 +500,50 @@
       </p>
     </assemblage>
 
-    <investigation permid="ssec_notation-inv">
-      <p permid="ssec_notation-inv-p">
-        <ol permid="ssec_notation-inv-ol">
-          <li permid="ssec_notation-inv-ol-l_j">
+    <investigation permid="ssec_notation-inv1">
+      <p permid="ssec_notation-inv1-p1">
+        <ol permid="ssec_notation-inv1-ol1">
+          <li permid="ssec_notation-inv1-ol1-l_j">
             <p>
               Find the cardinality of each set below.
 
               <ol>
                 <li><m>A = \{3,4,\ldots, 15\}</m>.</li>
 
-                <li permid="ssec_notation-inv-ol-l_s"><m>B = \{n \in \N \st 2 \lt n \le 200\}</m>.</li>
+                <li permid="ssec_notation-inv1-ol1-l_s"><m>B = \{n \in \N \st 2 \lt n \le 200\}</m>.</li>
 
-                <li permid="ssec_notation-inv-ol-l_b">
+                <li permid="ssec_notation-inv1-ol1-l_b">
                   <m>C = \{n \le 100 \st n \in \N \wedge \exists m \in \N (n = 2m+1)\}</m>.
                 </li>
               </ol>
             </p>
           </li>
 
-          <li permid="ssec_notation-inv-l_j">
-            <p permid="ssec_notation-inv-l_j-p">
+          <li permid="ssec_notation-inv1-l_j">
+            <p permid="ssec_notation-inv1-l_j-p1">
               Find two sets <m>A</m> and <m>B</m> for which <m>|A| = 5</m>,
               <m>|B| = 6</m>, and <m>|A\cup B| = 9</m>.
               What is <m>|A \cap B|</m>?
             </p>
           </li>
 
-          <li permid="ssec_notation-inv-l_s">
-            <p permid="ssec_notation-inv-l_s-p">
+          <li permid="ssec_notation-inv1-l_s">
+            <p permid="ssec_notation-inv1-l_s-p1">
               Find sets <m>A</m> and <m>B</m> with <m>|A| = |B|</m> such that
               <m>|A\cup B| = 7</m> and <m>|A \cap B| = 3</m>.
               What is <m>|A|</m>?
             </p>
           </li>
 
-          <li permid="ssec_notation-inv-l_b">
-            <p permid="ssec_notation-inv-l_b-p">
+          <li permid="ssec_notation-inv1-l_b">
+            <p permid="ssec_notation-inv1-l_b-p1">
               Let <m>A = \{1,2,\ldots, 10\}</m>.
               Define <m>\mathcal{B}_2 = \{B \subseteq A \st |B| = 2\}</m>.
               Find <m>|\mathcal{B}_2|</m>.
             </p>
           </li>
 
-          <li permid="ssec_notation-inv-l_k">
+          <li permid="ssec_notation-inv1-l_k">
             For any sets <m>A</m> and <m>B</m>,
             define <m>AB = \{ab \st a\in A \wedge b \in B\}</m>.
             If <m>A = \{1,2\}</m> and <m>B = \{2,3,4\}</m>, what is <m>|AB|</m>?
@@ -554,27 +554,27 @@
     </investigation>
   </subsection>
 
-  <subsection permid="-ssec-relationships-between-sets">
+  <subsection permid="ssec-relationships-between-sets">
     <title>Relationships Between Sets</title>
-    <p permid="-ssec-relationships-between-sets-p1">
+    <p permid="ssec-relationships-between-sets-p1">
       We have already said what it means for two sets to be equal:
       they have exactly the same elements.
       Thus, for example,
-      <me permid="-ssec-relationships-between-sets-p1-me">
+      <me permid="ssec-relationships-between-sets-p1-me1">
         \{1, 2, 3\} = \{2, 1, 3\}
       </me>.
     </p>
 
-    <p permid="-ssec-relationships-between-sets-p2">
+    <p permid="ssec-relationships-between-sets-p2">
       (Remember, the order the elements are written down in does not matter.) Also,
-      <me permid="-ssec-relationships-between-sets-p2-me">
+      <me permid="ssec-relationships-between-sets-p2-me1">
         \{1, 2, 3\} = \{1, 1+1, 1+1+1\} = \{I, II, III\}
       </me>
       since these are all ways to write the set containing the first three positive integers
       (how we write them doesn't matter, just what they are).
     </p>
 
-    <p permid="-ssec-relationships-between-sets-p3">
+    <p permid="ssec-relationships-between-sets-p3">
       What about the sets <m>A = \{1, 2, 3\}</m> and <m>B = \{1, 2, 3, 4\}</m>?
       Clearly <m>A \ne B</m>,
       but notice that every element of <m>A</m> is also an element of <m>B</m>.
@@ -589,98 +589,98 @@
       This is analogous to the difference between <m>\lt</m> and <m>\le</m>.
     </p>
 
-    <example permid="-ssec-relationships-between-sets-ex1">
+    <example permid="ssec-relationships-between-sets-ex1">
       <statement>
-        <p permid="-ssec-relationships-between-sets-ex1-p1">
+        <p permid="ssec-relationships-between-sets-ex1-p1">
           Let <m>A = \{1, 2, 3, 4, 5, 6\}</m>,
           <m>B = \{2, 4, 6\}</m>, <m>C = \{1, 2, 3\}</m> and <m>D = \{7, 8, 9\}</m>.
           Determine which of the following are true, false, or meaningless.
         </p>
 
-        <p permid="-ssec-relationships-between-sets-ex1-p2">
-          <ol permid="-ssec-relationships-between-sets-ex1-ol">
-            <li permid="-ssec-relationships-between-sets-ex1-ol-l_j"><m>A \subset B</m>.</li>
+        <p permid="ssec-relationships-between-sets-ex1-p2">
+          <ol permid="ssec-relationships-between-sets-ex1-ol1">
+            <li permid="ssec-relationships-between-sets-ex1-ol1-l_j"><m>A \subset B</m>.</li>
 
-            <li permid="-ssec-relationships-between-sets-ex1-ol-l_s"><m>B \subset A</m>.</li>
+            <li permid="ssec-relationships-between-sets-ex1-ol1-l_s"><m>B \subset A</m>.</li>
 
-            <li permid="-ssec-relationships-between-sets-ex1-ol-l_b"><m>B \in C</m>.</li>
+            <li permid="ssec-relationships-between-sets-ex1-ol1-l_b"><m>B \in C</m>.</li>
 
-            <li permid="-ssec-relationships-between-sets-ex1-ol-l_k"><m>\emptyset \in A</m>.</li>
+            <li permid="ssec-relationships-between-sets-ex1-ol1-l_k"><m>\emptyset \in A</m>.</li>
 
-            <li permid="-ssec-relationships-between-sets-ex1-ol-l_t"><m>\emptyset \subset A</m>.</li>
+            <li permid="ssec-relationships-between-sets-ex1-ol1-l_t"><m>\emptyset \subset A</m>.</li>
 
-            <li permid="-ssec-relationships-between-sets-ex1-ol-l_c"><m>A \lt D</m>.</li>
+            <li permid="ssec-relationships-between-sets-ex1-ol1-l_c"><m>A \lt D</m>.</li>
 
-            <li permid="-ssec-relationships-between-sets-ex1-ol-l_l"><m>3 \in C</m>.</li>
+            <li permid="ssec-relationships-between-sets-ex1-ol1-l_l"><m>3 \in C</m>.</li>
 
-            <li permid="-ssec-relationships-between-sets-ex1-ol-l_u"><m>3 \subset C</m>.</li>
+            <li permid="ssec-relationships-between-sets-ex1-ol1-l_u"><m>3 \subset C</m>.</li>
 
-            <li permid="-ssec-relationships-between-sets-ex1-ol-l_d"><m>\{3\} \subset C</m>.</li>
+            <li permid="ssec-relationships-between-sets-ex1-ol1-l_d"><m>\{3\} \subset C</m>.</li>
           </ol>
         </p>
       </statement>
-      <solution permid="-ssec-relationships-between-sets-ex1-s">
-        <p permid="-ssec-relationships-between-sets-ex1-s-p">
-          <ol permid="-ssec-relationships-between-sets-ex1-s-ol">
-            <li permid="-ssec-relationships-between-sets-ex1-s-ol-l_j">
-              <p permid="-ssec-relationships-between-sets-ex1-s-ol-l_j-p">
+      <solution permid="ssec-relationships-between-sets-ex1-s1">
+        <p permid="ssec-relationships-between-sets-ex1-s1-p1">
+          <ol permid="ssec-relationships-between-sets-ex1-s1-ol1">
+            <li permid="ssec-relationships-between-sets-ex1-s1-ol1-l_j">
+              <p permid="ssec-relationships-between-sets-ex1-s1-ol1-l_j-p1">
                 False.
                 For example, <m>1\in A</m> but <m>1 \notin B</m>.
               </p>
             </li>
 
-            <li permid="-ssec-relationships-between-sets-ex1-s-ol-l_s">
-              <p permid="-ssec-relationships-between-sets-ex1-s-ol-l_s-p">
+            <li permid="ssec-relationships-between-sets-ex1-s1-ol1-l_s">
+              <p permid="ssec-relationships-between-sets-ex1-s1-ol1-l_s-p1">
                 True.
                 Every element in <m>B</m> is an element in <m>A</m>.
               </p>
             </li>
 
-            <li permid="-ssec-relationships-between-sets-ex1-s-ol-l_b">
-              <p permid="-ssec-relationships-between-sets-ex1-s-ol-l_b-p">
+            <li permid="ssec-relationships-between-sets-ex1-s1-ol1-l_b">
+              <p permid="ssec-relationships-between-sets-ex1-s1-ol1-l_b-p1">
                 False.
                 The elements in <m>C</m> are 1, 2, and 3.
                 The <em>set</em> <m>B</m> is not equal to 1, 2, or 3.
               </p>
             </li>
 
-            <li permid="-ssec-relationships-between-sets-ex1-s-ol-l_k">
-              <p permid="-ssec-relationships-between-sets-ex1-s-ol-l_k-p">
+            <li permid="ssec-relationships-between-sets-ex1-s1-ol1-l_k">
+              <p permid="ssec-relationships-between-sets-ex1-s1-ol1-l_k-p1">
                 False. <m>A</m> has exactly 6 elements,
                 and none of them are the empty set.
               </p>
             </li>
 
-            <li permid="-ssec-relationships-between-sets-ex1-s-ol-l_t">
-              <p permid="-ssec-relationships-between-sets-ex1-s-ol-l_t-p">
+            <li permid="ssec-relationships-between-sets-ex1-s1-ol1-l_t">
+              <p permid="ssec-relationships-between-sets-ex1-s1-ol1-l_t-p1">
                 True.
                 Everything in the empty set (nothing) is also an element of <m>A</m>.
                 Notice that the empty set is a subset of every set.
               </p>
             </li>
 
-            <li permid="-ssec-relationships-between-sets-ex1-s-ol-l_c">
-              <p permid="-ssec-relationships-between-sets-ex1-s-ol-l_c-p">
+            <li permid="ssec-relationships-between-sets-ex1-s1-ol1-l_c">
+              <p permid="ssec-relationships-between-sets-ex1-s1-ol1-l_c-p1">
                 Meaningless.
                 A set cannot be less than another set.
               </p>
             </li>
 
-            <li permid="-ssec-relationships-between-sets-ex1-s-ol-l_l">
-              <p permid="-ssec-relationships-between-sets-ex1-s-ol-l_l-p">
+            <li permid="ssec-relationships-between-sets-ex1-s1-ol1-l_l">
+              <p permid="ssec-relationships-between-sets-ex1-s1-ol1-l_l-p1">
                 True. <m>3</m> is one of the elements of the set <m>C</m>.
               </p>
             </li>
 
-            <li permid="-ssec-relationships-between-sets-ex1-s-ol-l_u">
-              <p permid="-ssec-relationships-between-sets-ex1-s-ol-l_u-p">
+            <li permid="ssec-relationships-between-sets-ex1-s1-ol1-l_u">
+              <p permid="ssec-relationships-between-sets-ex1-s1-ol1-l_u-p1">
                 Meaningless. <m>3</m> is not a set,
                 so it cannot be a subset of another set.
               </p>
             </li>
 
-            <li permid="-ssec-relationships-between-sets-ex1-s-ol-l_d">
-              <p permid="-ssec-relationships-between-sets-ex1-s-ol-l_d-p">
+            <li permid="ssec-relationships-between-sets-ex1-s1-ol1-l_d">
+              <p permid="ssec-relationships-between-sets-ex1-s1-ol1-l_d-p1">
                 True. <m>3</m> is the only element of the set <m>\{3\}</m>,
                 and is an element of <m>C</m>,
                 so every element in <m>\{3\}</m> is an element of <m>C</m>.
@@ -691,7 +691,7 @@
       </solution>
     </example>
 
-    <p permid="-ssec-relationships-between-sets-p4">
+    <p permid="ssec-relationships-between-sets-p4">
       In the example above, <m>B</m> is a subset of <m>A</m>.
       You might wonder what other sets are subsets of <m>A</m>.
       If you collect all these subsets of <m>A</m> into a new set,
@@ -702,31 +702,31 @@
       </idx> of <m>A</m>, and write it <m>\pow(A)</m>.
     </p>
 
-    <example permid="-ssec-relationships-between-sets-ex2">
+    <example permid="ssec-relationships-between-sets-ex2">
       <statement>
-        <p permid="-ssec-relationships-between-sets-ex2-p">
+        <p permid="ssec-relationships-between-sets-ex2-p1">
           Let <m>A = \{1,2,3\}</m>.
           Find <m>\pow(A)</m>.
         </p>
       </statement>
-      <solution permid="-ssec-relationships-between-sets-ex2-s">
-        <p permid="-ssec-relationships-between-sets-ex2-s-p1">
+      <solution permid="ssec-relationships-between-sets-ex2-s1">
+        <p permid="ssec-relationships-between-sets-ex2-s1-p1">
           <m>\pow(A)</m> is a set of sets,
           all of which are subsets of <m>A</m>.
           So
-          <me permid="-ssec-relationships-between-sets-ex2-s-p1-me">
+          <me permid="ssec-relationships-between-sets-ex2-s1-p1-me1">
             \pow(A) = \{ \emptyset, \{1\}, \{2\}, \{3\}, \{1,2\}, \{1, 3\}, \{2,3\}, \{1,2,3\}\}
           </me>.
         </p>
 
-        <p permid="-ssec-relationships-between-sets-ex2-s-p2">
+        <p permid="ssec-relationships-between-sets-ex2-s1-p2">
           Notice that while <m>2 \in A</m>,
           it is wrong to write <m>2 \in \pow(A)</m> since none of the elements in <m>\pow(A)</m> are numbers!
           On the other hand, we do have
           <m>\{2\} \in \pow(A)</m> because <m>\{2\} \subseteq A</m>.
         </p>
 
-        <p permid="-ssec-relationships-between-sets-ex2-s-p3">
+        <p permid="ssec-relationships-between-sets-ex2-s1-p3">
           What does a subset of <m>\pow(A)</m> look like?
           Notice that <m>\{2\} \not\subseteq \pow(A)</m> because not everything in <m>\{2\}</m> is in <m>\pow(A)</m>.
           But we do have <m>\{ \{2\} \} \subseteq \pow(A)</m>.
@@ -737,7 +737,7 @@
       </solution>
     </example>
 
-    <p permid="-ssec-relationships-between-sets-p5">
+    <p permid="ssec-relationships-between-sets-p5">
       Another way to compare sets is by their <em>size</em>.
       Notice that in the example above,
       <m>A</m> has 6 elements and <m>B</m>, <m>C</m>,
@@ -765,51 +765,51 @@
       the we can determine its cardinality by counting elements.
     </p>
 
-    <example permid="-ssec-relationships-between-sets-ex3">
+    <example permid="ssec-relationships-between-sets-ex3">
       <statement>
-        <p permid="-ssec-relationships-between-sets-ex3-p">
-          <ol permid="-ssec-relationships-between-sets-ex3-ol">
-            <li permid="-ssec-relationships-between-sets-ex3-ol-l_j">
-              <p permid="-ssec-relationships-between-sets-ex3-ol-l_j-p">
+        <p permid="ssec-relationships-between-sets-ex3-p1">
+          <ol permid="ssec-relationships-between-sets-ex3-ol1">
+            <li permid="ssec-relationships-between-sets-ex3-ol1-l_j">
+              <p permid="ssec-relationships-between-sets-ex3-ol1-l_j-p1">
                 Find the cardinality of <m>A = \{23, 24, \ldots, 37, 38\}</m>.
               </p>
             </li>
 
-            <li permid="-ssec-relationships-between-sets-ex3-ol-l_s">
-              <p permid="-ssec-relationships-between-sets-ex3-ol-l_s-p">
+            <li permid="ssec-relationships-between-sets-ex3-ol1-l_s">
+              <p permid="ssec-relationships-between-sets-ex3-ol1-l_s-p1">
                 Find the cardinality of <m>B = \{1, \{2, 3, 4\}, \emptyset\}</m>.
               </p>
             </li>
 
-            <li permid="-ssec-relationships-between-sets-ex3-ol-l_b">
-              <p permid="-ssec-relationships-between-sets-ex3-ol-l_b-p">
+            <li permid="ssec-relationships-between-sets-ex3-ol1-l_b">
+              <p permid="ssec-relationships-between-sets-ex3-ol1-l_b-p1">
                 If <m>C = \{1,2,3\}</m>, what is the cardinality of <m>\pow(C)</m>?
               </p>
             </li>
           </ol>
         </p>
       </statement>
-      <solution permid="-ssec-relationships-between-sets-ex3-s">
-        <p permid="-ssec-relationships-between-sets-ex3-s-p">
-          <ol permid="-ssec-relationships-between-sets-ex3-s-ol">
-            <li permid="-ssec-relationships-between-sets-ex3-s-ol-l_j">
-              <p permid="-ssec-relationships-between-sets-ex3-s-ol-l_j-p">
+      <solution permid="ssec-relationships-between-sets-ex3-s1">
+        <p permid="ssec-relationships-between-sets-ex3-s1-p1">
+          <ol permid="ssec-relationships-between-sets-ex3-s1-ol1">
+            <li permid="ssec-relationships-between-sets-ex3-s1-ol1-l_j">
+              <p permid="ssec-relationships-between-sets-ex3-s1-ol1-l_j-p1">
                 Since <m>38 - 23 = 15</m>,
                 we can conclude that the cardinality of the set is <m>|A| = 16</m>
                 (you need to add one since 23 is included).
               </p>
             </li>
 
-            <li permid="-ssec-relationships-between-sets-ex3-s-ol-l_s">
-              <p permid="-ssec-relationships-between-sets-ex3-s-ol-l_s-p">
+            <li permid="ssec-relationships-between-sets-ex3-s1-ol1-l_s">
+              <p permid="ssec-relationships-between-sets-ex3-s1-ol1-l_s-p1">
                 Here <m>|B| = 3</m>.
                 The three elements are the number 1, the set <m>\{2,3,4\}</m>,
                 and the empty set.
               </p>
             </li>
 
-            <li permid="-ssec-relationships-between-sets-ex3-s-ol-l_b">
-              <p permid="-ssec-relationships-between-sets-ex3-s-ol-l_b-p">
+            <li permid="ssec-relationships-between-sets-ex3-s1-ol1-l_b">
+              <p permid="ssec-relationships-between-sets-ex3-s1-ol1-l_b-p1">
                 We wrote out the elements of the power set <m>\pow(C)</m> above,
                 and there are 8 elements
                 (each of which is a set).
@@ -824,9 +824,9 @@
     </example>
   </subsection>
 
-  <subsection permid="-ssec-operations-on-sets">
+  <subsection permid="ssec-operations-on-sets">
     <title>Operations On Sets</title>
-    <p permid="-ssec-operations-on-sets-p1">
+    <p permid="ssec-operations-on-sets-p1">
       Is it possible to add two sets?
       Not really, however there is something similar.
       If we want to combine two sets to get the collection of objects that are in either set,
@@ -835,7 +835,7 @@
       <h>union</h>
       </idx> of the two sets.
       Symbolically,
-      <me permid="-ssec-operations-on-sets-p1-me">
+      <me permid="ssec-operations-on-sets-p1-me1">
         C = A \cup B
       </me>,
       read, <q><m>C</m> is the union of <m>A</m> and <m>B</m>,</q>
@@ -846,13 +846,13 @@
       then <m>A \cup B = \{1, 2, 3, 4\}</m>.
     </p>
 
-    <p permid="-ssec-operations-on-sets-p2">
+    <p permid="ssec-operations-on-sets-p2">
       The other common operation on sets is <term>intersection</term>
       <idx>
       <h>intersection</h>
       </idx>.
       We write,
-      <me permid="-ssec-operations-on-sets-p2-me">
+      <me permid="ssec-operations-on-sets-p2-me1">
         C = A \cap B
       </me>
       and say, <q><m>C</m> is the intersection of <m>A</m> and <m>B</m>,</q>
@@ -861,7 +861,7 @@
       then <m>A \cap B = \{2, 3\}</m>.
     </p>
 
-    <p permid="-ssec-operations-on-sets-p3">
+    <p permid="ssec-operations-on-sets-p3">
       Often when dealing with sets,
       we will have some understanding as to what <q>everything</q> is.
       Perhaps we are only concerned with natural numbers.
@@ -875,7 +875,7 @@
       <idx>
       <h>complement</h>
       </idx> of <m>A</m>, and write,
-      <me permid="-ssec-operations-on-sets-p3-me">
+      <me permid="ssec-operations-on-sets-p3-me1">
         B = \bar A
       </me>
       when <m>B</m> contains every element not contained in <m>A</m>.
@@ -884,15 +884,15 @@
       then <m>\bar A = \{1, 4, 6, 8, 9,10\}</m>.
     </p>
 
-    <p permid="-ssec-operations-on-sets-p4">
+    <p permid="ssec-operations-on-sets-p4">
       Of course we can perform more than one operation at a time.
       For example, consider
-      <me permid="-ssec-operations-on-sets-p4-me">
+      <me permid="ssec-operations-on-sets-p4-me1">
         A \cap \bar B
       </me>.
     </p>
 
-    <p permid="-ssec-operations-on-sets-p5">
+    <p permid="ssec-operations-on-sets-p5">
       This is the set of all elements which are both elements of <m>A</m> and not elements of <m>B</m>.
       What have we done?
       We've started with <m>A</m> and removed all of the elements which were in <m>B</m>.
@@ -904,12 +904,12 @@
       <idx>
       <h>difference, of sets</h>
       </idx>:
-      <me permid="-ssec-operations-on-sets-p5-me">
+      <me permid="ssec-operations-on-sets-p5-me1">
         A \cap \bar B = A \setminus B
       </me>.
     </p>
 
-    <p permid="-ssec-operations-on-sets-p6">
+    <p permid="ssec-operations-on-sets-p6">
       It is important to remember that these operations (union,
       intersection,
       complement, and difference) on sets produce other sets.
@@ -922,75 +922,75 @@
       (which is false).
     </p>
 
-    <example permid="-ssec-operations-on-sets-ex1">
+    <example permid="ssec-operations-on-sets-ex1">
       <statement>
-        <p permid="-ssec-operations-on-sets-ex1-p">
+        <p permid="ssec-operations-on-sets-ex1-p1">
           Let <m>A = \{1, 2, 3, 4, 5, 6\}</m>,
           <m>B = \{2, 4, 6\}</m>, <m>C = \{1, 2, 3\}</m> and <m>D = \{7, 8, 9\}</m>.
           If the universe is <m>\U = \{1, 2, \ldots, 10\}</m>, find:
 
-          <ol permid="-ssec-operations-on-sets-ex1-ol">
-            <li permid="-ssec-operations-on-sets-ex1-ol-l_j"><m>A \cup B</m>.</li>
+          <ol permid="ssec-operations-on-sets-ex1-ol1">
+            <li permid="ssec-operations-on-sets-ex1-ol1-l_j"><m>A \cup B</m>.</li>
 
-            <li permid="-ssec-operations-on-sets-ex1-ol-l_s"><m>A \cap B</m>.</li>
+            <li permid="ssec-operations-on-sets-ex1-ol1-l_s"><m>A \cap B</m>.</li>
 
-            <li permid="-ssec-operations-on-sets-ex1-ol-l_b"><m>B \cap C</m>.</li>
+            <li permid="ssec-operations-on-sets-ex1-ol1-l_b"><m>B \cap C</m>.</li>
 
-            <li permid="-ssec-operations-on-sets-ex1-ol-l_k"><m>A \cap D</m>.</li>
+            <li permid="ssec-operations-on-sets-ex1-ol1-l_k"><m>A \cap D</m>.</li>
 
-            <li permid="-ssec-operations-on-sets-ex1-ol-l_t"><m>\bar{B \cup C}</m>.</li>
+            <li permid="ssec-operations-on-sets-ex1-ol1-l_t"><m>\bar{B \cup C}</m>.</li>
 
-            <li permid="-ssec-operations-on-sets-ex1-ol-l_c"><m>A \setminus B</m>.</li>
+            <li permid="ssec-operations-on-sets-ex1-ol1-l_c"><m>A \setminus B</m>.</li>
 
-            <li permid="-ssec-operations-on-sets-ex1-ol-l_l"><m>(D \cap \bar C) \cup \bar{A \cap B}</m>.</li>
+            <li permid="ssec-operations-on-sets-ex1-ol1-l_l"><m>(D \cap \bar C) \cup \bar{A \cap B}</m>.</li>
 
-            <li permid="-ssec-operations-on-sets-ex1-ol-l_u"><m>\emptyset \cup C</m>.</li>
+            <li permid="ssec-operations-on-sets-ex1-ol1-l_u"><m>\emptyset \cup C</m>.</li>
 
-            <li permid="-ssec-operations-on-sets-ex1-ol-l_d"><m>\emptyset \cap C</m>.</li>
+            <li permid="ssec-operations-on-sets-ex1-ol1-l_d"><m>\emptyset \cap C</m>.</li>
           </ol>
         </p>
       </statement>
-      <solution permid="-ssec-operations-on-sets-ex1-s">
-        <p permid="-ssec-operations-on-sets-ex1-s-p">
-          <ol permid="-ssec-operations-on-sets-ex1-s-ol">
-            <li permid="-ssec-operations-on-sets-ex1-s-ol-l_j">
+      <solution permid="ssec-operations-on-sets-ex1-s1">
+        <p permid="ssec-operations-on-sets-ex1-s1-p1">
+          <ol permid="ssec-operations-on-sets-ex1-s1-ol1">
+            <li permid="ssec-operations-on-sets-ex1-s1-ol1-l_j">
               <m>A \cup B = \{1, 2, 3, 4, 5, 6\} = A</m> since everything in <m>B</m> is already in <m>A</m>.
             </li>
 
-            <li permid="-ssec-operations-on-sets-ex1-s-ol-l_s">
+            <li permid="ssec-operations-on-sets-ex1-s1-ol1-l_s">
               <m>A \cap B = \{2, 4, 6\} = B</m> since everything in <m>B</m> is in <m>A</m>.
             </li>
 
-            <li permid="-ssec-operations-on-sets-ex1-s-ol-l_b">
+            <li permid="ssec-operations-on-sets-ex1-s1-ol1-l_b">
               <m>B \cap C = \{2\}</m> as the only element of both <m>B</m> and <m>C</m> is 2.
             </li>
 
-            <li permid="-ssec-operations-on-sets-ex1-s-ol-l_k">
+            <li permid="ssec-operations-on-sets-ex1-s1-ol1-l_k">
               <m>A \cap D = \emptyset</m> since <m>A</m> and <m>D</m> have no common elements.
             </li>
 
-            <li permid="-ssec-operations-on-sets-ex1-s-ol-l_t">
+            <li permid="ssec-operations-on-sets-ex1-s1-ol1-l_t">
               <m>\bar{B \cup C} = \{5, 7, 8, 9, 10\}</m>.
               First we find that <m>B \cup C = \{1, 2, 3, 4, 6\}</m>,
               then we take everything not in that set.
             </li>
 
-            <li permid="-ssec-operations-on-sets-ex1-s-ol-l_c">
+            <li permid="ssec-operations-on-sets-ex1-s1-ol1-l_c">
               <m>A \setminus B = \{1, 3, 5\}</m> since the elements 1, 3, and 5 are in <m>A</m> but not in <m>B</m>.
               This is the same as <m>A \cap \bar B</m>.
             </li>
 
-            <li permid="-ssec-operations-on-sets-ex1-s-ol-l_l">
+            <li permid="ssec-operations-on-sets-ex1-s1-ol1-l_l">
               <m>(D \cap \bar C) \cup \bar{A \cap B} = \{1, 3, 5, 7, 8, 9, 10\}</m>.
               The set contains all elements that are either in <m>D</m> but not in <m>C</m> (i.e., <m>\{7,8,9\}</m>),
               or not in both <m>A</m> and <m>B</m> (i.e., <m>\{1,3,5,7,8,9,10\}</m>).
             </li>
 
-            <li permid="-ssec-operations-on-sets-ex1-s-ol-l_u">
+            <li permid="ssec-operations-on-sets-ex1-s1-ol1-l_u">
               <m>\emptyset \cup C = C</m> since nothing is added by the empty set.
             </li>
 
-            <li permid="-ssec-operations-on-sets-ex1-s-ol-l_d">
+            <li permid="ssec-operations-on-sets-ex1-s1-ol1-l_d">
               <m>\emptyset \cap C = \emptyset</m> since nothing can be both in a set and in the empty set.
             </li>
           </ol>
@@ -998,7 +998,7 @@
       </solution>
     </example>
 
-    <p permid="-ssec-operations-on-sets-p7">
+    <p permid="ssec-operations-on-sets-p7">
       You might notice that the symbols for union and intersection slightly resemble the logic symbols for <q>or</q>
       and <q>and.</q> This is no accident.
       What does it mean for <m>x</m> to be an element of <m>A\cup B</m>?
@@ -1006,27 +1006,27 @@
       <m>x</m> is an element of <m>B</m>
       (or both).
       That is,
-      <me permid="-ssec-operations-on-sets-p7-me">
+      <me permid="ssec-operations-on-sets-p7-me1">
         x \in A \cup B \qquad \Iff \qquad x \in A \vee x \in B
       </me>.
     </p>
 
-    <p permid="-ssec-operations-on-sets-p8">
+    <p permid="ssec-operations-on-sets-p8">
       Similarly,
-      <me permid="-ssec-operations-on-sets-p8-me">
+      <me permid="ssec-operations-on-sets-p8-me1">
         x \in A \cap B \qquad \Iff \qquad x \in A \wedge x \in B
       </me>.
     </p>
 
-    <p permid="-ssec-operations-on-sets-p9">
+    <p permid="ssec-operations-on-sets-p9">
       Also,
-      <me permid="-ssec-operations-on-sets-p9-me">
+      <me permid="ssec-operations-on-sets-p9-me1">
         x \in \bar A \qquad \Iff \qquad \neg (x \in A)
       </me>.
       which says <m>x</m> is an element of the complement of <m>A</m> if <m>x</m> is not an element of <m>A</m>.
     </p>
 
-    <p permid="-ssec-operations-on-sets-p10">
+    <p permid="ssec-operations-on-sets-p10">
       There is one more way to combine sets which will be useful for us:
       the <term>Cartesian product</term>,
           <idx><h>Cartesian product</h></idx>
@@ -1045,7 +1045,7 @@
       not just the real numbers with themselves.
     </p>
 
-    <p permid="-ssec-operations-on-sets-p11">
+    <p permid="ssec-operations-on-sets-p11">
       Put another way,
       <m>A \times B = \{(a,b) \st a \in A \wedge b \in B\}</m>.
       The first coordinate comes from the first set and the second coordinate comes from the second set.
@@ -1060,24 +1060,24 @@
       getting ordered triples, or quadruples, and so on.
     </p>
 
-    <example permid="-ssec-operations-on-sets-ex2">
+    <example permid="ssec-operations-on-sets-ex2">
       <statement>
-        <p permid="-ssec-operations-on-sets-ex2-p">
+        <p permid="ssec-operations-on-sets-ex2-p1">
           Let <m>A = \{1,2\}</m> and <m>B = \{3,4,5\}</m>.
           Find <m>A \times B</m> and <m>A \times A</m>.
           How many elements do you expect to be in <m>B \times B</m>?
         </p>
       </statement>
-      <solution permid="-ssec-operations-on-sets-ex2-s">
-        <p permid="-ssec-operations-on-sets-ex2-s-p1">
+      <solution permid="ssec-operations-on-sets-ex2-s1">
+        <p permid="ssec-operations-on-sets-ex2-s1-p1">
           <m>A \times B = \{(1,3), (1,4), (1,5), (2,3), (2,4), (2,5)\}</m>.
         </p>
 
-        <p permid="-ssec-operations-on-sets-ex2-s-p2">
+        <p permid="ssec-operations-on-sets-ex2-s1-p2">
           <m>A \times A = A^2 = \{(1,1), (1,2), (2,1), (2,2)\}</m>.
         </p>
 
-        <p permid="-ssec-operations-on-sets-ex2-s-p3">
+        <p permid="ssec-operations-on-sets-ex2-s1-p3">
           <m>|B\times B| = 9</m>.
           There will be 3 pairs with first coordinate <m>3</m>,
           three more with first coordinate <m>4</m>,
@@ -1087,9 +1087,9 @@
     </example>
   </subsection>
 
-  <subsection permid="-ssec-venn-diagrams">
+  <subsection permid="ssec-venn-diagrams">
     <title>Venn Diagrams</title>
-    <p permid="-ssec-venn-diagrams-p1">
+    <p permid="ssec-venn-diagrams-p1">
       <idx>
       <h>Venn diagram</h>
       </idx> There is a very nice visual tool we can use to represent operations on sets.
@@ -1098,7 +1098,7 @@
       We can also represent cardinality of a particular set by putting the number in the corresponding region.
     </p>
 
-    <sidebyside permid="-ssec-venn-diagrams-sbs1" widths="34% 34%" margins="auto">
+    <sidebyside permid="ssec-venn-diagrams-sbs1" widths="34% 34%" margins="auto">
       <!-- <figure> -->
       <image permid="two-set-venn-empty" xml:id="two-set-venn-empty">
 
@@ -1121,7 +1121,7 @@
       <!-- </figure> -->
     </sidebyside>
 
-    <p permid="-ssec-venn-diagrams-p2">
+    <p permid="ssec-venn-diagrams-p2">
       Each circle represents a set.
       The rectangle containing the circles represents the universe.
       To represent combinations of these sets,
@@ -1129,7 +1129,7 @@
       For example, we could draw <m>A \cap B</m> as:
     </p>
 
-    <sidebyside permid="-ssec-venn-diagrams-sbs2" width="34%">
+    <sidebyside permid="ssec-venn-diagrams-sbs2" width="34%">
 
       <image permid="two-set-cap" xml:id="two-set-cap">
 
@@ -1146,12 +1146,12 @@
 
     </sidebyside>
 
-    <p permid="-ssec-venn-diagrams-p3">
+    <p permid="ssec-venn-diagrams-p3">
       Here is a representation of <m>A \cap \bar B</m>,
       or equivalently <m>A \setminus B</m>:
     </p>
 
-    <sidebyside permid="-ssec-venn-diagrams-sbs3" width="34%">
+    <sidebyside permid="ssec-venn-diagrams-sbs3" width="34%">
 
       <image permid="two-set-a-minus-b" xml:id="two-set-a-minus-b">
 
@@ -1168,12 +1168,12 @@
 
     </sidebyside>
 
-    <p permid="-ssec-venn-diagrams-p4">
+    <p permid="ssec-venn-diagrams-p4">
       A more complicated example is <m>(B \cap C) \cup (C \cap \bar A)</m>,
       as seen below.
     </p>
 
-    <sidebyside permid="-ssec-venn-diagrams-sbs4" width="26%">
+    <sidebyside permid="ssec-venn-diagrams-sbs4" width="26%">
 
       <image permid="three-set-complicated" xml:id="three-set-complicated">
 
@@ -1195,14 +1195,14 @@
 
     </sidebyside>
 
-    <p permid="-ssec-venn-diagrams-p5">
+    <p permid="ssec-venn-diagrams-p5">
       Notice that the shaded regions above could also be arrived at in another way.
       We could have started with all of <m>C</m>,
       then excluded the region where <m>C</m> and <m>A</m> overlap outside of <m>B</m>.
       That region is <m>(A \cap C) \cap \bar B</m>.
       So the above Venn diagram also represents <m>C \cap \bar{\left((A\cap C)\cap \bar B\right)}</m>.
       So using just the picture, we have determined that
-      <me permid="-ssec-venn-diagrams-p5-me">
+      <me permid="ssec-venn-diagrams-p5-me1">
         (B \cap C) \cup (C \cap \bar A) = C \cap \bar{\left((A\cap C)\cap \bar B\right)}
       </me>.
     </p>

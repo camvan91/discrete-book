@@ -2,82 +2,82 @@
 
 <section permid="sec_logic-proofs" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_logic-proofs">
   <title>Proofs</title>
-  <introduction permid="sec_logic-proofs-intr">
-    <investigation permid="sec_logic-proofs-inv">
-      <p permid="sec_logic-proofs-intr-p1">
+  <introduction permid="sec_logic-proofs-intr1">
+    <investigation permid="sec_logic-proofs-inv1">
+      <p permid="sec_logic-proofs-intr1-p1">
         Decide which of the following are valid proofs of the following statement:
       </p>
 
-      <blockquote permid="sec_logic-proofs-intr-bq">
-        <p permid="sec_logic-proofs-intr-bq-p">
+      <blockquote permid="sec_logic-proofs-intr1-bq1">
+        <p permid="sec_logic-proofs-intr1-bq1-p1">
           If <m>a b</m> is an even number,
           then <m>a</m> or <m>b</m> is even.
         </p>
       </blockquote>
 
-      <p permid="sec_logic-proofs-intr-p2">
-        <ol permid="sec_logic-proofs-intr-ol1">
-          <li permid="sec_logic-proofs-intr-ol1-l_j">
-            <p permid="sec_logic-proofs-intr-ol1-l_j-p1">
+      <p permid="sec_logic-proofs-intr1-p2">
+        <ol permid="sec_logic-proofs-intr1-ol1">
+          <li permid="sec_logic-proofs-intr1-ol1-l_j">
+            <p permid="sec_logic-proofs-intr1-ol1-l_j-p1">
               Suppose <m>a</m> and <m>b</m> are odd.
               That is, <m>a=2k+1</m> and <m>b=2m+1</m> for some integers <m>k</m> and <m>m</m>.
               Then
-              <md permid="sec_logic-proofs-intr-p2-md">
+              <md permid="sec_logic-proofs-intr1-p2-md1">
                 <mrow>ab \amp =(2k+1)(2m+1)</mrow>
                 <mrow>\amp =4km+2k+2m+1</mrow>
                 <mrow>\amp =2(2km+k+m)+1</mrow>
               </md>.
             </p>
 
-            <p permid="sec_logic-proofs-intr-ol1-l_j-p2">
+            <p permid="sec_logic-proofs-intr1-ol1-l_j-p2">
               Therefore <m>ab</m> is odd.
             </p>
           </li>
 
-          <li permid="sec_logic-proofs-intr-ol1-l_s">
-            <p permid="sec_logic-proofs-intr-ol1-l_s-p1">
+          <li permid="sec_logic-proofs-intr1-ol1-l_s">
+            <p permid="sec_logic-proofs-intr1-ol1-l_s-p1">
               Assume that <m>a</m> or <m>b</m> is even - say it is <m>a</m>
               (the case where <m>b</m> is even will be identical).
               That is, <m>a=2k</m> for some integer <m>k</m>.
               Then
-              <md permid="sec_logic-proofs-intr-ol1-l_s-p1-md">
+              <md permid="sec_logic-proofs-intr1-ol1-l_s-p1-md1">
                 <mrow>ab \amp =(2k)b</mrow>
                 <mrow>\amp =2(kb)</mrow>
               </md>.
             </p>
 
-            <p permid="sec_logic-proofs-intr-ol1-l_s-p2">
+            <p permid="sec_logic-proofs-intr1-ol1-l_s-p2">
               Thus <m>ab</m> is even.
             </p>
           </li>
 
-          <li permid="sec_logic-proofs-intr-ol1-l_b">
-            <p permid="sec_logic-proofs-intr-ol1-l_b-p1">
+          <li permid="sec_logic-proofs-intr1-ol1-l_b">
+            <p permid="sec_logic-proofs-intr1-ol1-l_b-p1">
               Suppose that <m>ab</m> is even but <m>a</m> and <m>b</m> are both odd.
               Namely, <m>ab = 2n</m>,
               <m>a=2k+1</m> and <m>b=2j+1</m> for some integers <m>n</m>,
               <m>k</m>,
               and <m>j</m>.
               Then
-              <md permid="sec_logic-proofs-intr-ol1-l_b-p1-md">
+              <md permid="sec_logic-proofs-intr1-ol1-l_b-p1-md1">
                 <mrow>2n \amp =(2k+1)(2j+1)</mrow>
                 <mrow>2n \amp =4kj+2k+2j+1</mrow>
                 <mrow>n \amp = 2kj+k+j+\frac{1}{2}</mrow>
               </md>.
             </p>
 
-            <p permid="sec_logic-proofs-intr-ol1-l_b-p2">
+            <p permid="sec_logic-proofs-intr1-ol1-l_b-p2">
               But since <m>2kj+k+j</m> is an integer,
               this says that the integer <m>n</m> is equal to a non-integer,
               which is impossible.
             </p>
           </li>
 
-          <li permid="sec_logic-proofs-intr-ol1-l_k">
-            <p permid="sec_logic-proofs-intr-ol1-l_k-p1">
+          <li permid="sec_logic-proofs-intr1-ol1-l_k">
+            <p permid="sec_logic-proofs-intr1-ol1-l_k-p1">
               Let <m>ab</m> be an even number,
               say <m>ab=2n</m>, and <m>a</m> be an odd number, say <m>a=2k+1</m>.
-              <md permid="sec_logic-proofs-intr-ol1-l_k-p1-md">
+              <md permid="sec_logic-proofs-intr1-ol1-l_k-p1-md1">
                 <mrow>ab \amp =(2k+1)b</mrow>
                 <mrow>2n \amp =2kb+b</mrow>
                 <mrow>2n-2kb\amp =b</mrow>
@@ -85,14 +85,14 @@
               </md>.
             </p>
 
-            <p permid="sec_logic-proofs-intr-ol1-l_k-p2">
+            <p permid="sec_logic-proofs-intr1-ol1-l_k-p2">
               Therefore <m>b</m> must be even.
             </p>
           </li>
         </ol>
       </p>
     </investigation>
-    <p permid="sec_logic-proofs-intr-p3">
+    <p permid="sec_logic-proofs-intr1-p3">
       Anyone who doesn't believe there is creativity in mathematics clearly has not tried to write proofs.
       Finding a way to convince the world that a particular statement is necessarily true is a mighty undertaking and can often be quite challenging.
       There is not a guaranteed path to success in the search for proofs.
@@ -104,7 +104,7 @@
       which leaves only infinitely many more numbers to check).
     </p>
 
-    <p permid="sec_logic-proofs-intr-p4">
+    <p permid="sec_logic-proofs-intr1-p4">
       Writing proofs is a bit of an art.
       Like any art, to be truly great at it,
       you need some sort of inspiration,
@@ -115,27 +115,27 @@
       A good place to start might be to study a classic.
     </p>
 
-    <theorem permid="sec_logic-proofs-t">
+    <theorem permid="sec_logic-proofs-t1">
       <statement>
-        <p permid="sec_logic-proofs-t-p">
+        <p permid="sec_logic-proofs-t1-p1">
           There are infinitely many primes.
               <idx><h>prime numbers</h></idx>
         </p>
       </statement>
     </theorem>
 
-    <proof permid="sec_logic-proofs-intr-pf">
-      <p permid="sec_logic-proofs-intr-pf-p1">
+    <proof permid="sec_logic-proofs-intr1-pf1">
+      <p permid="sec_logic-proofs-intr1-pf1-p1">
         Suppose this were not the case.
         That is, suppose there are only finitely many primes.
         Then there must be a last, largest prime, call it <m>p</m>.
         Consider the number
-        <me permid="sec_logic-proofs-intr-pf-p1-me">
+        <me permid="sec_logic-proofs-intr1-pf1-p1-me1">
           N = p! + 1 = (p \cdot (p-1) \cdot \cdots 3\cdot 2 \cdot 1) + 1
         </me>.
       </p>
 
-      <p permid="sec_logic-proofs-intr-pf-p2">
+      <p permid="sec_logic-proofs-intr1-pf1-p2">
         Now <m>N</m> is certainly larger than <m>p</m>.
         Also, <m>N</m> is not divisible by any number less than or equal to <m>p</m>,
         since every number less than or equal to <m>p</m> divides <m>p!</m>.
@@ -147,7 +147,7 @@
       </p>
     </proof>
 
-    <p permid="sec_logic-proofs-intr-p5">
+    <p permid="sec_logic-proofs-intr1-p5">
       This proof is an example of a <em>proof by contradiction</em>,
       one of the standard styles of mathematical proof.
       First and foremost, the proof is an argument.
@@ -158,10 +158,10 @@
       Let's go through the proof line by line.
     </p>
 
-    <p permid="sec_logic-proofs-intr-p6">
-      <ol permid="sec_logic-proofs-intr-ol2">
-        <li permid="sec_logic-proofs-intr-ol2-l_j">
-          <p permid="sec_logic-proofs-intr-ol2-l_j-p">
+    <p permid="sec_logic-proofs-intr1-p6">
+      <ol permid="sec_logic-proofs-intr1-ol2">
+        <li permid="sec_logic-proofs-intr1-ol2-l_j">
+          <p permid="sec_logic-proofs-intr1-ol2-l_j-p1">
             Suppose there are only finitely many primes.
 
             <em>[this is a premise.
@@ -169,8 +169,8 @@
           </p>
         </li>
 
-        <li permid="sec_logic-proofs-intr-ol2-l_s">
-          <p permid="sec_logic-proofs-intr-ol2-l_s-p">
+        <li permid="sec_logic-proofs-intr1-ol2-l_s">
+          <p permid="sec_logic-proofs-intr1-ol2-l_s-p1">
             There must be a largest prime, call it <m>p</m>.
 
             <em>[follows from line 1, by the definition of
@@ -178,8 +178,8 @@
           </p>
         </li>
 
-        <li permid="sec_logic-proofs-intr-ol2-l_b">
-          <p permid="sec_logic-proofs-intr-ol2-l_b-p">
+        <li permid="sec_logic-proofs-intr1-ol2-l_b">
+          <p permid="sec_logic-proofs-intr1-ol2-l_b-p1">
             Let <m>N = p! + 1</m>.
 
             <em>[basically just notation,
@@ -188,13 +188,13 @@
           </p>
         </li>
 
-        <li permid="sec_logic-proofs-intr-ol2-l_k">
+        <li permid="sec_logic-proofs-intr1-ol2-l_k">
           <m>N</m> is larger than <m>p</m>.
 
           <em>[by the definition of <m>p!</m>]</em>
         </li>
 
-        <li permid="sec_logic-proofs-intr-ol2-l_t">
+        <li permid="sec_logic-proofs-intr1-ol2-l_t">
           <m>N</m> is not divisible by any number less than or equal to <m>p</m>.
 
           <em>[by definition,
@@ -202,8 +202,8 @@
           so <m>p! + 1</m> is not.]</em>
         </li>
 
-        <li permid="sec_logic-proofs-intr-ol2-l_c">
-          <p permid="sec_logic-proofs-intr-ol2-l_c-p">
+        <li permid="sec_logic-proofs-intr1-ol2-l_c">
+          <p permid="sec_logic-proofs-intr1-ol2-l_c-p1">
             The prime factorization of <m>N</m> contains prime numbers greater than <m>p</m>.
 
             <em>[since <m>N</m> is divisible by each prime number in the prime factorization of <m>N</m>,
@@ -211,16 +211,16 @@
           </p>
         </li>
 
-        <li permid="sec_logic-proofs-intr-ol2-l_l">
-          <p permid="sec_logic-proofs-intr-ol2-l_l-p">
+        <li permid="sec_logic-proofs-intr1-ol2-l_l">
+          <p permid="sec_logic-proofs-intr1-ol2-l_l-p1">
             Therefore <m>p</m> is not the largest prime.
 
             <em>[by line 6, <m>N</m> is divisible by a prime larger than <m>p</m>.]</em>
           </p>
         </li>
 
-        <li permid="sec_logic-proofs-intr-ol2-l_u">
-          <p permid="sec_logic-proofs-intr-ol2-l_u-p">
+        <li permid="sec_logic-proofs-intr1-ol2-l_u">
+          <p permid="sec_logic-proofs-intr1-ol2-l_u-p1">
             This is a contradiction.
 
             <em>[from line 2 and line 7:
@@ -228,8 +228,8 @@
           </p>
         </li>
 
-        <li permid="sec_logic-proofs-intr-ol2-l_d">
-          <p permid="sec_logic-proofs-intr-ol2-l_d-p">
+        <li permid="sec_logic-proofs-intr1-ol2-l_d">
+          <p permid="sec_logic-proofs-intr1-ol2-l_d-p1">
             Therefore there are infinitely many primes.
 
             <em>[from line 1 and line 8:
@@ -240,7 +240,7 @@
       </ol>
     </p>
 
-    <p permid="sec_logic-proofs-intr-p7">
+    <p permid="sec_logic-proofs-intr1-p7">
       We should say a bit more about the last line.
       Up through line 8, we have a valid argument with the premise
       <q>there are only finitely many primes</q>
@@ -251,7 +251,7 @@
       The only way out: the premise must be false.
     </p>
 
-    <p permid="sec_logic-proofs-intr-p8">
+    <p permid="sec_logic-proofs-intr1-p8">
       The sort of line-by-line analysis we did above is a great way to really understand what is going on.
       Whenever you come across a proof in a textbook,
       you really should make sure you understand what each line is saying and why it is true.
@@ -264,13 +264,13 @@
     </p>
   </introduction>
 
-  <subsection permid="-ssec-direct-pf">
+  <subsection permid="ssec-direct-pf">
     <title>Direct Proof</title>
-    <p permid="-ssec-direct-pf-p1">
+    <p permid="ssec-direct-pf-p1">
           <idx><h>direct proof</h></idx>
     </p>
 
-    <p permid="-ssec-direct-pf-p2">
+    <p permid="ssec-direct-pf-p2">
       The simplest
       (from a logic perspective)
       style of proof is a <term>direct proof</term>.
@@ -279,8 +279,8 @@
       The general format to prove <m>P \imp Q</m> is this:
     </p>
 
-    <blockquote permid="-ssec-direct-pf-bq">
-      <p permid="-ssec-direct-pf-bq-p">
+    <blockquote permid="ssec-direct-pf-bq1">
+      <p permid="ssec-direct-pf-bq1-p1">
         Assume <m>P</m>.
         Explain, explain,
         <ellipsis/>, explain.
@@ -288,7 +288,7 @@
       </p>
     </blockquote>
 
-    <p permid="-ssec-direct-pf-p3">
+    <p permid="ssec-direct-pf-p3">
       Often we want to prove universal statements,
       perhaps of the form <m>\forall x (P(x) \imp Q(x))</m>.
       Again, we will want to assume <m>P(x)</m> is true and deduce <m>Q(x)</m>.
@@ -298,36 +298,36 @@
       (of the sort we are interested in).
     </p>
 
-    <p permid="-ssec-direct-pf-p4">
+    <p permid="ssec-direct-pf-p4">
       Here are a few examples.
       First, we will set up the proof structure for a direct proof,
       then fill in the details.
     </p>
 
-    <example permid="-ssec-direct-pf-ex1">
+    <example permid="ssec-direct-pf-ex1">
       <statement>
-        <p permid="-ssec-direct-pf-ex1-p">
+        <p permid="ssec-direct-pf-ex1-p1">
           Prove: For all integers <m>n</m>,
           if <m>n</m> is even, then <m>n^2</m> is even.
         </p>
       </statement>
-      <solution permid="-ssec-direct-pf-ex1-s">
-        <p permid="-ssec-direct-pf-ex1-s-p1">
+      <solution permid="ssec-direct-pf-ex1-s1">
+        <p permid="ssec-direct-pf-ex1-s1-p1">
           The format of the proof with be this: Let <m>n</m> be an arbitrary integer.
           Assume that <m>n</m> is even.
           Explain explain explain.
           Therefore <m>n^2</m> is even.
         </p>
 
-        <p permid="-ssec-direct-pf-ex1-s-p2">
+        <p permid="ssec-direct-pf-ex1-s1-p2">
           To fill in the details,
           we will basically just explain what it means for <m>n</m> to be even,
           and then see what that means for <m>n^2</m>.
           Here is a complete proof.
         </p>
 
-        <proof permid="-ssec-direct-pf-ex1-pf">
-          <p permid="-ssec-direct-pf-ex1-s-p3">
+        <proof permid="ssec-direct-pf-ex1-pf1">
+          <p permid="ssec-direct-pf-ex1-s1-p3">
             Let <m>n</m> be an arbitrary integer.
             Suppose <m>n</m> is even.
             Then <m>n = 2k</m> for some integer <m>k</m>.
@@ -339,9 +339,9 @@
       </solution>
     </example>
 
-    <example permid="-ssec-direct-pf-ex2">
+    <example permid="ssec-direct-pf-ex2">
       <statement>
-        <p permid="-ssec-direct-pf-ex2-p">
+        <p permid="ssec-direct-pf-ex2-p1">
           Prove: For all integers <m>a</m>, <m>b</m>,
           and <m>c</m>, if <m>a|b</m> and <m>b|c</m> then <m>a|c</m>.
           Here <m>x|y</m>, read <q><m>x</m> divides <m>y</m></q>
@@ -349,8 +349,8 @@
           (so <m>x</m> will divide into <m>y</m> without remainder).
         </p>
       </statement>
-      <solution permid="-ssec-direct-pf-ex2-s">
-        <p permid="-ssec-direct-pf-ex2-s-p1">
+      <solution permid="ssec-direct-pf-ex2-s1">
+        <p permid="ssec-direct-pf-ex2-s1-p1">
           Even before we know what the divides symbol means,
           we can set up a direct proof for this statement.
           It will go something like this: Let <m>a</m>, <m>b</m>,
@@ -360,7 +360,7 @@
           Therefore <m>a|c</m>.
         </p>
 
-        <p permid="-ssec-direct-pf-ex2-s-p2">
+        <p permid="ssec-direct-pf-ex2-s1-p2">
           How do we connect the dots?
           We say what our hypothesis (<m>a|b</m> and <m>b|c</m>) really means and why this gives us what the conclusion (<m>a|c</m>) really means.
           Another way to say that <m>a|b</m> is to say that <m>b = ka</m> for some integer <m>k</m>
@@ -371,8 +371,8 @@
           Here is the complete proof.
         </p>
 
-        <proof permid="-ssec-direct-pf-ex2-pf">
-          <p permid="-ssec-direct-pf-ex2-s-p3">
+        <proof permid="ssec-direct-pf-ex2-pf1">
+          <p permid="ssec-direct-pf-ex2-s1-p3">
             Let <m>a</m>, <m>b</m>, and <m>c</m> be integers.
             Assume that <m>a|b</m> and <m>b|c</m>.
             In other words,
@@ -391,14 +391,14 @@
     </example>
   </subsection>
 
-  <subsection permid="-ssec-pf-by-contrapositive">
+  <subsection permid="ssec-pf-by-contrapositive">
     <title>Proof by Contrapositive</title>
-    <p permid="-ssec-pf-by-contrapositive-p1">
+    <p permid="ssec-pf-by-contrapositive-p1">
           <idx><h>contrapositive</h><h>proof by</h></idx>
           <idx><h>proof by contrapositive</h></idx>
     </p>
 
-    <p permid="-ssec-pf-by-contrapositive-p2">
+    <p permid="ssec-pf-by-contrapositive-p2">
       Recall that an implication
       <m>P \imp Q</m> is logically equivalent to its contrapositive <m>\neg Q \imp \neg P</m>.
       There are plenty of examples of statements which are hard to prove directly,
@@ -408,13 +408,13 @@
       This is enough because the contrapositive is logically equivalent to the original implication.
     </p>
 
-    <p permid="-ssec-pf-by-contrapositive-p3">
+    <p permid="ssec-pf-by-contrapositive-p3">
       The skeleton of the proof of
       <m>P \imp Q</m> by contrapositive will always look roughly like this:
     </p>
 
-    <blockquote permid="-ssec-pf-by-contrapositive-bq">
-      <p permid="-ssec-pf-by-contrapositive-bq-p">
+    <blockquote permid="ssec-pf-by-contrapositive-bq1">
+      <p permid="ssec-pf-by-contrapositive-bq1-p1">
         Assume <m>\neg Q</m>.
         Explain, explain,
         <ellipsis/> explain.
@@ -422,33 +422,33 @@
       </p>
     </blockquote>
 
-    <p permid="-ssec-pf-by-contrapositive-p4">
+    <p permid="ssec-pf-by-contrapositive-p4">
       As before, if there are variables and quantifiers,
       we set them to be arbitrary elements of our domain.
       Here are a couple examples:
     </p>
 
-    <example permid="-ssec-pf-by-contrapositive-ex1">
+    <example permid="ssec-pf-by-contrapositive-ex1">
       <statement>
-        <p permid="-ssec-pf-by-contrapositive-ex1-p">
+        <p permid="ssec-pf-by-contrapositive-ex1-p1">
           Is the statement <q>for all integers <m>n</m>,
           if <m>n^2</m> is even, then <m>n</m> is even</q> true?
         </p>
       </statement>
-      <solution permid="-ssec-pf-by-contrapositive-ex1-s">
-        <p permid="-ssec-pf-by-contrapositive-ex1-s-p1">
+      <solution permid="ssec-pf-by-contrapositive-ex1-s1">
+        <p permid="ssec-pf-by-contrapositive-ex1-s1-p1">
           This is the converse of the statement we proved above using a direct proof.
           From trying a few examples, this statement definitely appears this is true.
           So let's prove it.
         </p>
 
-        <p permid="-ssec-pf-by-contrapositive-ex1-s-p2">
+        <p permid="ssec-pf-by-contrapositive-ex1-s1-p2">
           A direct proof of this statement would require fixing an arbitrary <m>n</m> and assuming that <m>n^2</m> is even.
           But it is not at all clear how this would allow us to conclude anything about <m>n</m>.
           Just because <m>n^2 = 2k</m> does not in itself suggest how we could write <m>n</m> as a multiple of 2.
         </p>
 
-        <p permid="-ssec-pf-by-contrapositive-ex1-s-p3">
+        <p permid="ssec-pf-by-contrapositive-ex1-s1-p3">
           Try something else: write the contrapositive of the statement.
           We get, for all integers <m>n</m>,
           if <m>n</m> is odd then <m>n^2</m> is odd.
@@ -456,7 +456,7 @@
           Our proof will look something like this:
         </p>
 
-        <p permid="-ssec-pf-by-contrapositive-ex1-s-p4">
+        <p permid="ssec-pf-by-contrapositive-ex1-s1-p4">
           Let <m>n</m> be an arbitrary integer.
           Suppose that <m>n</m> is not even.
           This means that
@@ -468,12 +468,12 @@
           Therefore <m>n^2</m> is not even.
         </p>
 
-        <p permid="-ssec-pf-by-contrapositive-ex1-s-p5">
+        <p permid="ssec-pf-by-contrapositive-ex1-s1-p5">
           Now we fill in the details:
         </p>
 
-        <proof permid="-ssec-pf-by-contrapositive-ex1-pf">
-          <p permid="-ssec-pf-by-contrapositive-ex1-s-p6">
+        <proof permid="ssec-pf-by-contrapositive-ex1-pf1">
+          <p permid="ssec-pf-by-contrapositive-ex1-s1-p6">
             We will prove the contrapositive.
             Let <m>n</m> be an arbitrary integer.
             Suppose that <m>n</m> is not even, and thus odd.
@@ -487,15 +487,15 @@
       </solution>
     </example>
 
-    <example permid="-ssec-pf-by-contrapositive-ex2">
+    <example permid="ssec-pf-by-contrapositive-ex2">
       <statement>
-        <p permid="-ssec-pf-by-contrapositive-ex2-p">
+        <p permid="ssec-pf-by-contrapositive-ex2-p1">
           Prove: for all integers <m>a</m> and <m>b</m>,
           if <m>a + b</m> is odd, then <m>a</m> is odd or <m>b</m> is odd.
         </p>
       </statement>
-      <solution permid="-ssec-pf-by-contrapositive-ex2-s">
-        <p permid="-ssec-pf-by-contrapositive-ex2-s-p1">
+      <solution permid="ssec-pf-by-contrapositive-ex2-s1">
+        <p permid="ssec-pf-by-contrapositive-ex2-s1-p1">
           The problem with trying a direct proof is that it will be hard to separate <m>a</m> and <m>b</m> from knowing something about <m>a+b</m>.
           On the other hand,
           if we know something about <m>a</m> and <m>b</m> separately,
@@ -506,18 +506,18 @@
           Thus our proof will have the following format:
         </p>
 
-        <p permid="-ssec-pf-by-contrapositive-ex2-s-p2">
+        <p permid="ssec-pf-by-contrapositive-ex2-s1-p2">
           Let <m>a</m> and <m>b</m> be integers.
           Assume that <m>a</m> and <m>b</m> are both even. la la la.
           Therefore <m>a+b</m> is even.
         </p>
 
-        <p permid="-ssec-pf-by-contrapositive-ex2-s-p3">
+        <p permid="ssec-pf-by-contrapositive-ex2-s1-p3">
           Here is a complete proof:
         </p>
 
-        <proof permid="-ssec-pf-by-contrapositive-ex2-pf">
-          <p permid="-ssec-pf-by-contrapositive-ex2-s-p4">
+        <proof permid="ssec-pf-by-contrapositive-ex2-pf1">
+          <p permid="ssec-pf-by-contrapositive-ex2-s1-p4">
             Let <m>a</m> and <m>b</m> be integers.
             Assume that <m>a</m> and <m>b</m> are even.
             Then <m>a = 2k</m> and <m>b = 2l</m> for some integers <m>k</m> and <m>l</m>.
@@ -527,22 +527,22 @@
           </p>
         </proof>
 
-        <p permid="-ssec-pf-by-contrapositive-ex2-s-p5">
+        <p permid="ssec-pf-by-contrapositive-ex2-s1-p5">
           Note that our assumption that <m>a</m> and <m>b</m> are even is really the negation of <m>a</m> or <m>b</m> is odd.
           We used De Morgan's law here.
         </p>
       </solution>
     </example>
 
-    <p permid="-ssec-pf-by-contrapositive-p5">
+    <p permid="ssec-pf-by-contrapositive-p5">
       We have seen how to prove some statements in the form of implications:
       either directly or by contrapositive.
       Some statements are not written as implications to begin with.
     </p>
 
-    <example permid="-ssec-pf-by-contrapositive-ex3">
+    <example permid="ssec-pf-by-contrapositive-ex3">
       <statement>
-        <p permid="-ssec-pf-by-contrapositive-ex3-p">
+        <p permid="ssec-pf-by-contrapositive-ex3-p1">
           Consider the statement, for every prime number <m>p</m>,
           either <m>p = 2</m> or <m>p</m> is odd.
           We can rephrase this: for every prime number <m>p</m>,
@@ -550,10 +550,10 @@
           Now try to prove it.
         </p>
       </statement>
-      <solution permid="-ssec-pf-by-contrapositive-ex3-s">
+      <solution permid="ssec-pf-by-contrapositive-ex3-s1">
 
-        <proof permid="-ssec-pf-by-contrapositive-ex3-pf">
-          <p permid="-ssec-pf-by-contrapositive-ex3-s-p">
+        <proof permid="ssec-pf-by-contrapositive-ex3-pf1">
+          <p permid="ssec-pf-by-contrapositive-ex3-s1-p1">
             Let <m>p</m> be an arbitrary prime number.
             Assume <m>p</m> is not odd.
             So <m>p</m> is divisible by 2.
@@ -569,14 +569,14 @@
     </example>
   </subsection>
 
-  <subsection permid="-ssec-pf-by-contradiction">
+  <subsection permid="ssec-pf-by-contradiction">
     <title>Proof by Contradiction</title>
-    <p permid="-ssec-pf-by-contradiction-p1">
+    <p permid="ssec-pf-by-contradiction-p1">
           <idx><h>contradiction</h></idx>
           <idx><h>proof by contradiction</h></idx>
     </p>
 
-    <p permid="-ssec-pf-by-contradiction-p2">
+    <p permid="ssec-pf-by-contradiction-p2">
       There might be statements which really cannot be rephrased as implications.
       For example, <q><m>\sqrt 2</m> is irrational.</q> In this case,
       it is hard to know where to start.
@@ -589,7 +589,7 @@
       It must be false as well, which makes <m>P</m> true!
     </p>
 
-    <p permid="-ssec-pf-by-contradiction-p3">
+    <p permid="ssec-pf-by-contradiction-p3">
       This is why <term>proof by contradiction</term> works.
       If we can prove that <m>\neg P</m> leads to a contradiction,
       then the only conclusion is that <m>\neg P</m> is false,
@@ -599,46 +599,46 @@
       if it is impossible for <m>P</m> to be false, <m>P</m> must be true.
     </p>
 
-    <p permid="-ssec-pf-by-contradiction-p4">
+    <p permid="ssec-pf-by-contradiction-p4">
       Here are a couple examples of proofs by contradiction:
     </p>
 
-    <example permid="-ssec-pf-by-contradiction-ex1">
+    <example permid="ssec-pf-by-contradiction-ex1">
       <statement>
-        <p permid="-ssec-pf-by-contradiction-ex1-p">
+        <p permid="ssec-pf-by-contradiction-ex1-p1">
           Prove that <m>\sqrt{2}</m> is irrational.
         </p>
       </statement>
-      <solution permid="-ssec-pf-by-contradiction-ex1-s">
+      <solution permid="ssec-pf-by-contradiction-ex1-s1">
 
-        <proof permid="-ssec-pf-by-contradiction-ex1-pf">
-          <p permid="-ssec-pf-by-contradiction-ex1-s-p1">
+        <proof permid="ssec-pf-by-contradiction-ex1-pf1">
+          <p permid="ssec-pf-by-contradiction-ex1-s1-p1">
             Suppose not.
             Then <m>\sqrt 2</m> is equal to a fraction <m>\frac{a}{b}</m>.
             Without loss of generality, assume <m>\frac{a}{b}</m> is in lowest terms
             (otherwise reduce the fraction).
             So,
-            <me permid="-ssec-pf-by-contradiction-ex1-s-p1-me1">
+            <me permid="ssec-pf-by-contradiction-ex1-s1-p1-me1">
               2 = \frac{a^2}{b^2}
             </me>
-            <me permid="-ssec-pf-by-contradiction-ex1-s-p1-me2">
+            <me permid="ssec-pf-by-contradiction-ex1-s1-p1-me2">
               2b^2 = a^2
             </me>
           </p>
 
-          <p permid="-ssec-pf-by-contradiction-ex1-s-p2">
+          <p permid="ssec-pf-by-contradiction-ex1-s1-p2">
             Thus <m>a^2</m> is even, and as such <m>a</m> is even.
             So <m>a = 2k</m> for some integer <m>k</m>, and <m>a^2 = 4k^2</m>.
             We then have,
-            <me permid="-ssec-pf-by-contradiction-ex1-s-p2-me1">
+            <me permid="ssec-pf-by-contradiction-ex1-s1-p2-me1">
               2b^2 = 4k^2
             </me>
-            <me permid="-ssec-pf-by-contradiction-ex1-s-p2-me2">
+            <me permid="ssec-pf-by-contradiction-ex1-s1-p2-me2">
               b^2 = 2k^2
             </me>
           </p>
 
-          <p permid="-ssec-pf-by-contradiction-ex1-s-p3">
+          <p permid="ssec-pf-by-contradiction-ex1-s1-p3">
             Thus <m>b^2</m> is even, and as such <m>b</m> is even.
             Since <m>a</m> is also even,
             we see that <m>\frac{a}{b}</m> is not in lowest terms,
@@ -650,16 +650,16 @@
       </solution>
     </example>
 
-    <example permid="-ssec-pf-by-contradiction-ex2">
+    <example permid="ssec-pf-by-contradiction-ex2">
       <statement>
-        <p permid="-ssec-pf-by-contradiction-ex2-p">
+        <p permid="ssec-pf-by-contradiction-ex2-p1">
           Prove: There are no integers <m>x</m> and <m>y</m> such that <m>x^2 = 4y + 2</m>.
         </p>
       </statement>
-      <solution permid="-ssec-pf-by-contradiction-ex2-s">
+      <solution permid="ssec-pf-by-contradiction-ex2-s1">
 
-        <proof permid="-ssec-pf-by-contradiction-ex2-pf">
-          <p permid="-ssec-pf-by-contradiction-ex2-s-p">
+        <proof permid="ssec-pf-by-contradiction-ex2-pf1">
+          <p permid="ssec-pf-by-contradiction-ex2-s1-p1">
             We proceed by contradiction.
             So suppose there <em>are</em> integers <m>x</m> and <m>y</m> such that <m>x^2 = 4y + 2 = 2(2y + 1)</m>.
             So <m>x^2</m> is even.
@@ -678,9 +678,9 @@
       </solution>
     </example>
 
-    <example permid="-ssec-pf-by-contradiction-ex3">
+    <example permid="ssec-pf-by-contradiction-ex3">
       <statement>
-        <p permid="-ssec-pf-by-contradiction-ex3-p">
+        <p permid="ssec-pf-by-contradiction-ex3-p1">
           The Pigeonhole Principle
               <idx><h>Pigeonhole principle</h></idx>
           : If more than <m>n</m> pigeons fly into <m>n</m> pigeon holes,
@@ -688,10 +688,10 @@
           Prove this!
         </p>
       </statement>
-      <solution permid="-ssec-pf-by-contradiction-ex3-s">
+      <solution permid="ssec-pf-by-contradiction-ex3-s1">
 
-        <proof permid="-ssec-pf-by-contradiction-ex3-pf">
-          <p permid="-ssec-pf-by-contradiction-ex3-s-p1">
+        <proof permid="ssec-pf-by-contradiction-ex3-pf1">
+          <p permid="ssec-pf-by-contradiction-ex3-s1-p1">
             Suppose, contrary to stipulation,
             that each of the pigeon holes contain at most one pigeon.
             Then at most, there will be <m>n</m> pigeons.
@@ -701,7 +701,7 @@
           </p>
         </proof>
 
-        <p permid="-ssec-pf-by-contradiction-ex3-s-p2">
+        <p permid="ssec-pf-by-contradiction-ex3-s1-p2">
           While we phrased this proof as a proof by contradiction,
           we could have also used a proof by contrapositive since our contradiction was simply the negation of the hypothesis.
           Sometimes this will happen, in which case you can use either style of proof.
@@ -712,13 +712,13 @@
     </example>
   </subsection>
 
-  <subsection permid="-ssec-pf-by-counter-ex">
+  <subsection permid="ssec-pf-by-counter-ex">
     <title>Proof by (counter) Example</title>
-    <p permid="-ssec-pf-by-counter-ex-p1">
+    <p permid="ssec-pf-by-counter-ex-p1">
           <idx><h>counterexample</h></idx>
     </p>
 
-    <p permid="-ssec-pf-by-counter-ex-p2">
+    <p permid="ssec-pf-by-counter-ex-p2">
       It is almost NEVER okay to prove a statement with just an example.
       Certainly none of the statements proved above can be proved through an example.
       This is because in each of those cases we are trying to prove that something holds of <u>all</u> integers.
@@ -727,7 +727,7 @@
       Showing that this works for <m>n = 4</m> is not even close to enough.
     </p>
 
-    <p permid="-ssec-pf-by-counter-ex-p3">
+    <p permid="ssec-pf-by-counter-ex-p3">
       This cannot be stressed enough.
       If you are trying to prove a statement of the form <m>\forall x P(x)</m>,
       you absolutely CANNOT prove this with an example.<fn>
@@ -736,14 +736,14 @@
       But the examples do not belong in the proof.
       </fn></p>
 
-    <p permid="-ssec-pf-by-counter-ex-p4">
+    <p permid="ssec-pf-by-counter-ex-p4">
       However, existential statements can be proven this way.
       If we want to prove that there is an integer <m>n</m> such that <m>n^2-n+41</m> is not prime,
       all we need to do is find one.
       This might seem like a silly thing to want to prove until you try a few values for <m>n</m>.
     </p>
 
-    <sidebyside permid="-ssec-pf-by-counter-ex-sbs">
+    <sidebyside permid="ssec-pf-by-counter-ex-sbs1">
 
       <tabular halign="center">
         <row bottom="minor">
@@ -770,7 +770,7 @@
 
     </sidebyside>
 
-    <p permid="-ssec-pf-by-counter-ex-p5">
+    <p permid="ssec-pf-by-counter-ex-p5">
       So far we have gotten only primes.
       You might be tempted to conjecture,
       <q>For all positive integers <m>n</m>,
@@ -786,7 +786,7 @@
       it suffices to show that there does indeed exist such a number.
     </p>
 
-    <p permid="-ssec-pf-by-counter-ex-p6">
+    <p permid="ssec-pf-by-counter-ex-p6">
       In fact, we can quickly see that <m>n = 41</m> will give <m>41^2</m> which is certainly not prime.
       You might say that this is a counterexample to the conjecture that <m>n^2 - n + 41</m> is always prime.
       Since so many statements in mathematics are universal,
@@ -796,16 +796,16 @@
       by providing a counterexample.
     </p>
 
-    <example permid="-ssec-pf-by-counter-ex-ex">
+    <example permid="ssec-pf-by-counter-ex-ex1">
       <statement>
-        <p permid="-ssec-pf-by-counter-ex-ex-p">
+        <p permid="ssec-pf-by-counter-ex-ex1-p1">
           Above we proved,
           <q>for all integers <m>a</m> and <m>b</m>, if <m>a+b</m> is odd,
           then <m>a</m> is odd or <m>b</m> is odd.</q> Is the converse true?
         </p>
       </statement>
-      <solution permid="-ssec-pf-by-counter-ex-ex-s">
-        <p permid="-ssec-pf-by-counter-ex-ex-s-p1">
+      <solution permid="ssec-pf-by-counter-ex-ex1-s1">
+        <p permid="ssec-pf-by-counter-ex-ex1-s1-p1">
           The converse is the statement,
           <q>for all integers <m>a</m> and <m>b</m>,
           if <m>a</m> is odd or <m>b</m> is odd,
@@ -814,33 +814,33 @@
           We need to prove the negation of the converse.
           Let's look at the symbols.
           The converse is
-          <me permid="-ssec-pf-by-counter-ex-ex-s-p1-me">
+          <me permid="ssec-pf-by-counter-ex-ex1-s1-p1-me1">
             \forall a \forall b ((O(a) \vee O(b)) \imp O(a+b))
           </me>.
         </p>
 
-        <p permid="-ssec-pf-by-counter-ex-ex-s-p2">
+        <p permid="ssec-pf-by-counter-ex-ex1-s1-p2">
           We want to prove the negation:
-          <me permid="-ssec-pf-by-counter-ex-ex-s-p2-me">
+          <me permid="ssec-pf-by-counter-ex-ex1-s1-p2-me1">
             \neg \forall a \forall b ((O(a) \vee O(b)) \imp O(a+b))
           </me>.
         </p>
 
-        <p permid="-ssec-pf-by-counter-ex-ex-s-p3">
+        <p permid="ssec-pf-by-counter-ex-ex1-s1-p3">
           Simplify using the rules from the previous sections:
-          <me permid="-ssec-pf-by-counter-ex-ex-s-p3-me">
+          <me permid="ssec-pf-by-counter-ex-ex1-s1-p3-me1">
             \exists a \exists b ((O(a) \vee O(b)) \wedge \neg O(a+b))
           </me>.
         </p>
 
-        <p permid="-ssec-pf-by-counter-ex-ex-s-p4">
+        <p permid="ssec-pf-by-counter-ex-ex1-s1-p4">
           As the negation passed by the quantifiers,
           they changed from <m>\forall</m> to <m>\exists</m>.
           We then needed to take the negation of an implication,
           which is equivalent to asserting the if part and not the then part.
         </p>
 
-        <p permid="-ssec-pf-by-counter-ex-ex-s-p5">
+        <p permid="ssec-pf-by-counter-ex-ex1-s1-p5">
           Now we know what to do.
           To prove that the converse is false we need to find two integers <m>a</m> and <m>b</m> so that <m>a</m> is odd or <m>b</m> is odd,
           but <m>a+b</m> is not odd
@@ -853,14 +853,14 @@
     </example>
   </subsection>
 
-  <subsection permid="-ssec-pf-by-cases">
+  <subsection permid="ssec-pf-by-cases">
     <title>Proof by Cases</title>
-    <p permid="-ssec-pf-by-cases-p1">
+    <p permid="ssec-pf-by-cases-p1">
           <idx><h>cases</h></idx>
           <idx><h>proof by cases</h></idx>
     </p>
 
-    <p permid="-ssec-pf-by-cases-p2">
+    <p permid="ssec-pf-by-cases-p2">
       We could go on and on and on about different proof styles
       (we haven't even mentioned induction or combinatorial proofs here),
       but instead we will end with one final useful technique:
@@ -880,20 +880,20 @@
       must be true no matter what.
     </p>
 
-    <p permid="-ssec-pf-by-cases-p3">
+    <p permid="ssec-pf-by-cases-p3">
       If that last paragraph was confusing,
       perhaps an example will make things better.
     </p>
 
-    <example permid="-ssec-pf-by-cases-ex">
+    <example permid="ssec-pf-by-cases-ex1">
       <statement>
-        <p permid="-ssec-pf-by-cases-ex-p">
+        <p permid="ssec-pf-by-cases-ex1-p1">
           Prove: For any integer <m>n</m>,
           the number <m>(n^3 -n)</m> is even.
         </p>
       </statement>
-      <solution permid="-ssec-pf-by-cases-ex-s">
-        <p permid="-ssec-pf-by-cases-ex-s-p1">
+      <solution permid="ssec-pf-by-cases-ex1-s1">
+        <p permid="ssec-pf-by-cases-ex1-s1-p1">
           It is hard to know where to start this,
           because we don't know much of anything about <m>n</m>.
           We might be able to prove that <m>n^3 - n</m> is even if we knew that <m>n</m> was even.
@@ -902,16 +902,16 @@
           Here's the proof.
         </p>
 
-        <proof permid="-ssec-pf-by-cases-ex-pf">
-          <p permid="-ssec-pf-by-cases-ex-s-p2">
+        <proof permid="ssec-pf-by-cases-ex1-pf1">
+          <p permid="ssec-pf-by-cases-ex1-s1-p2">
             We consider two cases: if <m>n</m> is even or if <m>n</m> is odd.
           </p>
 
-          <p permid="-ssec-pf-by-cases-ex-s-p3">
+          <p permid="ssec-pf-by-cases-ex1-s1-p3">
             <u>Case 1</u>: <m>n</m> is even.
             Then <m>n = 2k</m> for some integer <m>k</m>.
             This give
-            <md permid="-ssec-pf-by-cases-ex-s-p3-md">
+            <md permid="ssec-pf-by-cases-ex1-s1-p3-md1">
               <mrow>n^3 - n \amp = 8k^3 - 2k</mrow>
               <mrow>\amp = 2(4k^2 - k)</mrow>
             </md>,
@@ -919,11 +919,11 @@
             this says that <m>n^3-n</m> is even.
           </p>
 
-          <p permid="-ssec-pf-by-cases-ex-s-p4">
+          <p permid="ssec-pf-by-cases-ex1-s1-p4">
             <u>Case 2</u>: <m>n</m> is odd.
             Then <m>n = 2k+1</m> for some integer <m>k</m>.
             This gives
-            <md permid="-ssec-pf-by-cases-ex-s-p4-md">
+            <md permid="ssec-pf-by-cases-ex1-s1-p4-md1">
               <mrow>n^3 - n \amp = (2k+1)^3 - (2k+1)</mrow>
               <mrow>\amp = 8k^3 + 6k^2 + 6k + 1 - 2k - 1</mrow>
               <mrow>\amp = 2(4k^3 + 3k^2 + 2k)</mrow>
@@ -932,7 +932,7 @@
             we see that <m>n^3 - n</m> is even again.
           </p>
 
-          <p permid="-ssec-pf-by-cases-ex-s-p5">
+          <p permid="ssec-pf-by-cases-ex1-s1-p5">
             Since <m>n^3 - n</m> is even in both exhaustive cases,
             we see that <m>n^3 - n</m> is indeed always even.
           </p>
