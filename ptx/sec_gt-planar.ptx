@@ -2,9 +2,9 @@
 
 <section permid="sec_planar" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_planar">
   <title>Planar Graphs</title>
-  <introduction>
+  <introduction permid="intr">
     <investigation permid="inv">
-      <p permid="p">
+      <p permid="p1">
         When a connected graph can be drawn without any edges crossing,
         it is called <term>planar</term>.
         When a planar graph is drawn in this way,
@@ -29,7 +29,7 @@
         </ol>
       </p>
     </investigation>
-    <p permid="p1">
+    <p permid="p2">
       When is it possible to draw a graph so that none of the edges cross?
       If this <em>is</em> possible,
       we say the graph is <term>planar</term>
@@ -37,7 +37,7 @@
       (since you can draw it on the <em>plane</em>).
     </p>
 
-    <p permid="p2">
+    <p permid="p3">
       Notice that the definition of planar includes the phrase
       <q>it is possible to.</q>
       This means that even if a graph does not look like it is planar,
@@ -46,9 +46,9 @@
       For example, this is a planar graph:
     </p>
 
-    <sidebyside width="20%">
+    <sidebyside permid="sbs1" width="20%">
 
-      <image>
+      <image permid="im">
 
   <latex-image>\begin{tikzpicture}[scale=.7, xscale=1.5]
    \draw (-1, 0) \v -- (-.5,2) \v -- (0,0) \v -- (.5, 2) \v -- (1,0) \v -- (-.5,2) (.5,2) -- (-1,0);
@@ -57,13 +57,13 @@
 
     </sidebyside>
 
-    <p permid="p3">
+    <p permid="p4">
       That is because we can redraw it like this:
     </p>
 
-    <sidebyside width="25%">
+    <sidebyside permid="sbs2" width="25%">
 
-      <image>
+      <image permid="im">
 
   <latex-image>\begin{tikzpicture}[scale=.7, xscale=1.5]
        \draw (-1, 0) \v -- (-.5,2) \v -- (0,0) \v -- (1.5, -1) \v -- (1,0) \v -- (-.5,2) (1.5,-1) -- (-1,0);
@@ -72,13 +72,13 @@
 
     </sidebyside>
 
-    <p permid="p4">
+    <p permid="p5">
       The graphs are the same, so if one is planar, the other must be too.
       However, the original drawing of the graph was not a
       <term>planar representation</term> of the graph.
     </p>
 
-    <p permid="p5">
+    <p permid="p6">
       When a planar graph is drawn without edges crossing,
       the edges and vertices of the graph divide the plane into regions.
       We will call each region a <term>face</term>.
@@ -91,22 +91,22 @@
       so it makes sense to ascribe the number of faces as a property of the planar graph.
     </p>
 
-    <p permid="p6">
+    <p permid="p7">
       WARNING: you can only count faces when the graph is drawn in a planar way.
       For example,
       consider these two representations of the same graph:
     </p>
 
-    <sidebyside widths="20% 25%" margins="auto" valign="bottom">
+    <sidebyside permid="sbs3" widths="20% 25%" margins="auto" valign="bottom">
 
-      <image>
+      <image permid="im1">
 
   <latex-image>\begin{tikzpicture}
       \draw (45:1) \v -- (135:1) \v -- (225:1) \v -- (315:1) \v -- (45:1) -- (225:1) (135:1) -- (315:1);
     \end{tikzpicture}</latex-image>
       </image>
 
-      <image>
+      <image permid="im2">
 
   <latex-image>\begin{tikzpicture}
       \draw (45:1) \v -- (135:1) \v -- (225:1) \v -- (315:1) \v -- (45:1) -- (225:1);
@@ -116,14 +116,14 @@
 
     </sidebyside>
 
-    <p permid="p7">
+    <p permid="p8">
       If you try to count faces using the graph on the left,
       you might say there are 5 faces
       (including the outside).
       But drawing the graph with a planar representation shows that in fact there are only 4 faces.
     </p>
 
-    <p permid="p8">
+    <p permid="p9">
       There is a connection between the number of vertices (<m>v</m>),
       the number of edges (<m>e</m>) and the number of faces (<m>f</m>) in any connected planar graph.
       This relationship is called Euler's formula.
@@ -131,25 +131,25 @@
 
     <assemblage permid="asm-eulers-formula-for-planar-graphs">
       <title>Euler's Formula for Planar Graphs</title>
-      <p permid="p">
+      <p permid="p10">
             <idx><h>Euler's formula</h></idx>
         For any (connected) planar graph with <m>v</m> vertices,
         <m>e</m> edges and <m>f</m> faces, we have
-        <me>
+        <me permid="me">
           v-e + f = 2
         </me>
       </p>
     </assemblage>
 
-    <p permid="p9">
+    <p permid="p11">
       Why is Euler's formula true?
       One way to convince yourself of its validity is to draw a planar graph step by step.
       Start with the graph <m>P_2</m>:
     </p>
 
-    <sidebyside width="10%">
+    <sidebyside permid="sbs4" width="10%">
 
-      <image>
+      <image permid="im">
 
   <latex-image>\begin{tikzpicture}
       \draw (-.5,-.5) \v -- (.5,.5)\v;
@@ -158,7 +158,7 @@
 
     </sidebyside>
 
-    <p permid="p10">
+    <p permid="p12">
       Any connected graph
       (besides just a single isolated vertex)
       must contain this subgraph.
@@ -169,9 +169,9 @@
       (completing a circuit).
     </p>
 
-    <sidebyside widths="30% 20%" margins="auto" valign="bottom">
+    <sidebyside permid="sbs5" widths="30% 20%" margins="auto" valign="bottom">
 
-      <image>
+      <image permid="im1">
 
   <latex-image>\begin{tikzpicture}
       \draw (-1, 0) \v -- (-1,2) \v -- (1,2) \v -- (1,0) \v -- (-1,2);
@@ -179,7 +179,7 @@
     \end{tikzpicture}</latex-image>
       </image>
 
-      <image>
+      <image permid="im2">
 
   <latex-image>\begin{tikzpicture}
       \draw (-1, 0) \v -- (-1,2) \v -- (1,2) \v -- (1,0) \v -- (-1,2);
@@ -189,7 +189,7 @@
 
     </sidebyside>
 
-    <p permid="p11">
+    <p permid="p13">
       What do these <q>moves</q> do?
       When adding the spike,
       the number of edges increases by 1, the number of vertices increases by one,
@@ -200,7 +200,7 @@
       So again, <m>v - e + f</m> does not change.
     </p>
 
-    <p permid="p12">
+    <p permid="p14">
       Since we can build any graph using a combination of these two moves,
       and doing so never changes the quantity <m>v - e + f</m>,
       that quantity will be the same for all graphs.
@@ -258,9 +258,9 @@
       The first time this happens is in <m>K_5</m>.
     </p>
 
-    <sidebyside width="20%">
+    <sidebyside permid="sbs1" width="20%">
 
-      <image>
+      <image permid="im">
 
   <latex-image>\begin{tikzpicture}
       \foreach \x in {0,...,4}
@@ -292,7 +292,7 @@
         So assume that <m>K_5</m> is planar.
         Then the graph must satisfy Euler's formula for planar graphs. <m>K_5</m> has 5 vertices and 10 edges,
         so we get
-        <me>
+        <me permid="me">
           5 - 10 + f = 2
         </me>
         which says that if the graph is drawn without any edges crossing,
@@ -308,7 +308,7 @@
         But also <m>B = 2e</m>,
         since each edge is used as a boundary exactly twice.
         Putting this together we get
-        <me>
+        <me permid="me">
           3f \le 2e
         </me>
       </p>
@@ -325,9 +325,9 @@
       The other simplest graph which is not planar is <m>K_{3,3}</m>
     </p>
 
-    <sidebyside width="20%">
+    <sidebyside permid="sbs2" width="20%">
 
-      <image>
+      <image permid="im">
 
   <latex-image>\begin{tikzpicture}[yscale=1.2]
           \draw (-1,1) \v -- (-1,0)\v  -- (0,1) \v -- (0,0) \v -- (1,1) \v -- (1,0) \v -- (0,1) -- (-1,0) -- (1,1) (1,0) -- (-1,1) -- (0,0);
@@ -365,7 +365,7 @@
         We know this is true because <m>K_{3,3}</m> is bipartite,
         so does not contain any 3-edge cycles.
         Thus
-        <me>
+        <me permid="me">
           4f \le 2e
         </me>.
       </p>
@@ -444,9 +444,9 @@
       One such projection looks like this:
     </p>
 
-    <sidebyside width="20%">
+    <sidebyside permid="sbs" width="20%">
 
-      <image>
+      <image permid="im">
 
   <latex-image>\begin{tikzpicture}
   \foreach \ang in {45, 135, 225, 315} {
@@ -550,11 +550,11 @@
         Now each vertex has the same degree, say <m>k</m>.
         So the number of edges is also <m>kv/2</m>.
         Putting this together gives
-        <me>
+        <me permid="me1">
           e = \frac{3f}{2} = \frac{k(2+f/2)}{2}
         </me>
         which says
-        <me>
+        <me permid="me2">
           k = \frac{6f}{4+f}
         </me>
       </p>
@@ -582,14 +582,14 @@
         Now we have <m>e = 4f/2 = 2f</m>.
         Using Euler's formula we get <m>v = 2 + f</m>,
         and counting edges using the degree <m>k</m> of each vertex gives us
-        <me>
+        <me permid="me">
           e = 2f = \frac{k(2+f)}{2}
         </me>
       </p>
 
       <p permid="p5">
         Solving for <m>k</m> gives
-        <me>
+        <me permid="me">
           k = \frac{4f}{2+f} = \frac{8f}{4+2f}
         </me>
       </p>
@@ -607,11 +607,11 @@
         We perform the same calculation as above,
         this time getting <m>e = 5f/2</m> so <m>v = 2 + 3f/2</m>.
         Then
-        <me>
+        <me permid="me1">
           e = \frac{5f}{2} = \frac{k(2+3f/2)}{2}
         </me>
         so
-        <me>
+        <me permid="me2">
           k = \frac{10f}{4+3f}
         </me>
       </p>
@@ -627,7 +627,7 @@
       <p permid="p9">
         <b>Case 4</b>: Each face is an <m>n</m>-gon with <m>n \ge 6</m>.
         Following the same procedure as above, we deduce that
-        <me>
+        <me permid="me">
           k = \frac{2nf}{4+(n-2)f}
         </me>
         which will be increasing to a horizontal asymptote of <m>\frac{2n}{n-2}</m>.

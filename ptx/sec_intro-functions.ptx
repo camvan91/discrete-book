@@ -2,7 +2,7 @@
 
 <section permid="sec_intro-functions" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_intro-functions">
   <title>Functions</title>
-  <introduction>
+  <introduction permid="intr">
     <p permid="p1">
       A
       <term>function</term>
@@ -87,9 +87,9 @@
                 <m>h:\{1,2,3\} \to \{1,2,3\}</m> defined as follows:
               </p>
 
-              <sidebyside width="17%">
+              <sidebyside permid="sbs" width="17%">
 
-                <image xml:id="arrow-function-example">
+                <image permid="arrow-function-ex" xml:id="arrow-function-example">
 
                     <latex-image>
                       \begin{tikzpicture}[scale=0.85]
@@ -120,9 +120,9 @@
       A graph of the function in example 3 above would look like this:
     </p>
 
-    <sidebyside width="40%">
+    <sidebyside permid="sbs1" width="40%">
 
-      <image xml:id="discrete-function-graph">
+      <image permid="discrete-function-graph" xml:id="discrete-function-graph">
 
         <latex-image>
           \begin{tikzpicture}[scale=0.75]
@@ -150,7 +150,7 @@
       In fact, writing a table of values would work perfectly:
     </p>
 
-    <sidebyside>
+    <sidebyside permid="sbs2">
 
       <tabular>
         <row bottom="minor">
@@ -175,7 +175,7 @@
 
     <p permid="p8">
       We simplify this further by writing this as a matrix with each input directly over its output:
-      <me>
+      <me permid="me">
         f = \begin{pmatrix}0 \amp 1 \amp 2\amp 3 \amp 4 \\ 3 \amp 3 \amp 2 \amp 4 \amp 1\end{pmatrix}
       </me>
       Note this is just notation and not the same sort of matrix you would find in a linear algebra class
@@ -195,9 +195,9 @@
           Let <m>X = \{1,2,3,4\}</m> and <m>Y = \{a,b,c,d\}</m>.
         </p>
         <!-- Fix this so the three are side-by-side: -->
-        <sidebyside widths="25% 25% 25%" margins="auto">
+        <sidebyside permid="sbs1" widths="25% 25% 25%" margins="auto">
 
-          <image xml:id="f-arrows" width="75%">
+          <image permid="f-arrows" xml:id="f-arrows" width="75%">
 
               <latex-image>
                 \begin{tikzpicture}[scale=0.9]
@@ -210,7 +210,7 @@
               </latex-image>
           </image>
 
-          <image xml:id="g-arrows" width="75%">
+          <image permid="g-arrows" xml:id="g-arrows" width="75%">
 
               <latex-image>
                 \begin{tikzpicture}[scale=0.9]
@@ -224,7 +224,7 @@
               </latex-image>
           </image>
 
-          <image xml:id="h-arrows" width="75%">
+          <image permid="h-arrows" xml:id="h-arrows" width="75%">
 
               <latex-image>
                 \begin{tikzpicture}[scale=0.9]
@@ -248,7 +248,7 @@
           There is no problem with an element of the codomain not being the image of any input,
           and there is no problem with <m>a</m> from the codomain being the image of both 2 and 3 from the domain.
           We could use our two-line notation to write these as
-          <me>
+          <me permid="me">
             f= \begin{pmatrix} 1 \amp 2 \amp 3 \amp 4 \\ d \amp a \amp c \amp b \end{pmatrix} \qquad g = \begin{pmatrix} 1 \amp 2 \amp 3 \amp 4 \\ d \amp a \amp a \amp b \end{pmatrix}
           </me>.
         </p>
@@ -263,9 +263,9 @@
           In general, neither of the following mappings are functions:
         </p>
 
-        <sidebyside widths="18% 27%" margins="auto">
+        <sidebyside permid="sbs2" widths="18% 27%" margins="auto">
 
-          <image xml:id="not-function-a">
+          <image permid="not-function-a" xml:id="not-function-a">
 
               <latex-image>
                 \begin{tikzpicture}[scale=0.9]
@@ -277,7 +277,7 @@
               </latex-image>
           </image>
 
-          <image xml:id="not-function-b">
+          <image permid="not-function-b" xml:id="not-function-b">
 
               <latex-image>
                 \begin{tikzpicture}[scale=0.9]
@@ -296,7 +296,7 @@
         <p permid="p3">
           It might also be helpful to think about how you would write the two-line notation for <m>h</m>.
           We would have something like:
-          <me>
+          <me permid="me">
             h=\begin{pmatrix} 1 \amp 2 \amp 3 \amp 4 \\ \amp a,c? \amp d \amp b\end{pmatrix}
           </me>.
           There is nothing under 1 (bad) and we needed to put more than one thing under 2
@@ -337,9 +337,9 @@
       In pictures:
     </p>
 
-    <sidebyside widths="30% 30%" margins="auto">
+    <sidebyside permid="sbs1" widths="30% 30%" margins="auto">
 
-      <image xml:id="surjective-ex">
+      <image permid="surjective-ex" xml:id="surjective-ex">
 
           <latex-image>
             \begin{tikzpicture}
@@ -354,7 +354,7 @@
           </latex-image>
       </image>
         <!-- <caption>Surjective.</caption> -->
-      <image xml:id="non-surjective-ex">
+      <image permid="non-surjective-ex" xml:id="non-surjective-ex">
 
           <latex-image>
             \begin{tikzpicture}
@@ -390,9 +390,9 @@
                 <m>h:\{1,2,3\} \to \{1,2,3\}</m> defined as follows:
               </p>
 
-              <sidebyside width="20%">
+              <sidebyside permid="sbs" width="20%">
 
-                <image xml:id="ex-surj-q">
+                <image permid="ex-surj-q" xml:id="ex-surj-q">
 
                   <latex-image>
                     \begin{tikzpicture}
@@ -468,9 +468,9 @@
       In pictures:
     </p>
 
-    <sidebyside widths="40% 40%" margins="auto">
+    <sidebyside permid="sbs2" widths="40% 40%" margins="auto">
 
-      <image xml:id="injective-ex">
+      <image permid="injective-ex" xml:id="injective-ex">
 
           <latex-image>
             \begin{tikzpicture}
@@ -485,7 +485,7 @@
           </latex-image>
       </image>
         <!-- <caption>Injective.</caption> -->
-      <image xml:id="non-injective-ex">
+      <image permid="non-injective-ex" xml:id="non-injective-ex">
 
           <latex-image>
             \begin{tikzpicture}
@@ -523,9 +523,9 @@
                 <m>h:\{1,2,3\} \to \{1,2,3\}</m> defined as follows:
               </p>
 
-              <sidebyside width="20%">
+              <sidebyside permid="sbs" width="20%">
 
-                <image>
+                <image permid="im">
 
                   <latex-image>
                     \begin{tikzpicture}
@@ -633,7 +633,7 @@
       <statement>
         <p permid="p">
           Consider the function <m>f:\{1,2,3,4,5,6\} \to \{a,b,c,d\}</m> given by
-          <me>
+          <me permid="me">
             f = \begin{pmatrix}1 \amp 2 \amp 3 \amp 4 \amp 5 \amp 6 \\ a \amp a \amp b \amp c \amp c \amp c\end{pmatrix}
           </me>.
           Find the complete inverse image of each element in the codomain.
@@ -642,16 +642,16 @@
       <solution permid="s">
         <p permid="p">
           Remember, we are looking for sets.
-          <me>
+          <me permid="me1">
             f\inv(a) = \{1,2\}
           </me>
-          <me>
+          <me permid="me2">
             f\inv(b) = \{3\}
           </me>
-          <me>
+          <me permid="me3">
             f\inv(c) = \{4,5,6\}
           </me>
-          <me>
+          <me permid="me4">
             f\inv(d) = \emptyset
           </me>.
         </p>
@@ -713,7 +713,7 @@
           Since there are only five elements in the domain,
           all of them must map to 7.
           So
-          <me>
+          <me permid="me">
             f = \begin{pmatrix}1 \amp 2 \amp 3 \amp 4 \amp 5 \\ 7 \amp 7 \amp 7 \amp 7 \amp 7\end{pmatrix}
           </me>.
         </p>
@@ -747,7 +747,7 @@
             <p permid="p">
               To specify the rule for a function with small domain, use
               <term>two-line notation</term> by writing a matrix with each output directly below its corresponding input, as in:
-              <me>
+              <me permid="me">
                 f = \begin{pmatrix}1 \amp 2 \amp 3 \amp 4 \\ 2 \amp 1 \amp 3 \amp 1 \end{pmatrix}
               </me>.
             </p>

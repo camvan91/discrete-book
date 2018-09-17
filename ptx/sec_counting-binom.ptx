@@ -2,9 +2,9 @@
 
 <section permid="sec_counting-binom" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_counting-binom">
   <title>Binomial Coefficients</title>
-  <introduction>
+  <introduction permid="intr">
     <investigation permid="inv">
-      <p permid="p">
+      <p permid="p1">
         In chess, a rook can move only in straight lines
         (not diagonally).
         Fill in each square of the chess board below with the number of different shortest paths the rook,
@@ -15,9 +15,9 @@
         DRDR, DRRD, RDDR, RDRD and RRDD.
       </p>
 
-      <sidebyside width="50%">
+      <sidebyside permid="sbs" width="50%">
 
-        <image xml:id="chessboard">
+        <image permid="chessboard" xml:id="chessboard">
 
         <latex-image>
 
@@ -37,7 +37,7 @@
 
       </sidebyside>
     </investigation>
-    <p permid="p">
+    <p permid="p2">
       Here are some apparently different discrete objects we can count:
       subsets, bit strings, lattice paths,
       and binomial coefficients.
@@ -147,7 +147,7 @@
       Together there are 20 of these subsets, so 10 each.
     </p>
 
-    <sidebyside>
+    <sidebyside permid="sbs">
 
       <tabular>
         <row bottom="minor" halign="center">
@@ -181,7 +181,7 @@
       is a string of binary digits.
       The <term>binary digits</term> are simply the numbers 0 and 1.
       All of the following are bit strings:
-      <me>
+      <me permid="me">
         1001 \quad 0 \quad 1111 \quad 1010101010
       </me>
     </p>
@@ -284,7 +284,7 @@
       (that is, a 1 followed by a string from <m>\B^4_2</m>)
       or <m>0\B^4_3</m>.
       These two sets are disjoint, so we can use the additive principle:
-      <me>
+      <me permid="me">
         |\B^5_3| = |\B^4_2| + |\B^4_3|
       </me>.
     </p>
@@ -294,7 +294,7 @@
       We represented one instance of our counting problem in terms of two simpler instances of the problem.
       If only we knew the cardinalities of <m>\B^4_2</m> and <m>\B^4_3</m>.
       Repeating the same reasoning,
-      <me>
+      <me permid="me">
         |\B^4_2| = |\B^3_1| + |\B^3_2| \quad \mbox{and} \quad |\B^4_3| = |\B^3_2| + |\B^3_3|
       </me>.
     </p>
@@ -359,9 +359,9 @@
       here are three possible lattice paths from the points <m>(0,0)</m> to <m>(3,2)</m>:
     </p>
 
-    <sidebyside width="30%" margins="auto">
+    <sidebyside permid="sbs1" width="30%" margins="auto">
 
-      <image xml:id="lattice-path-1">
+      <image permid="lattice-path" xml:id="lattice-path-1">
 
           <latex-image>
             \begin{tikzpicture}
@@ -375,7 +375,7 @@
           </latex-image>
       </image>
 
-      <image xml:id="lattice-path-2">
+      <image permid="lattice-path" xml:id="lattice-path-2">
 
           <latex-image>
             \begin{tikzpicture}
@@ -389,7 +389,7 @@
           </latex-image>
       </image>
 
-      <image xml:id="lattice-path-3">
+      <image permid="lattice-path" xml:id="lattice-path-3">
 
           <latex-image>
             \begin{tikzpicture}
@@ -444,9 +444,9 @@
       Consider the lattice shown below:
     </p>
 
-    <sidebyside width="40%">
+    <sidebyside permid="sbs2" width="40%">
 
-      <image xml:id="lattice-ab">
+      <image permid="lattice-ab" xml:id="lattice-ab">
 
           <latex-image>
             \begin{tikzpicture}
@@ -484,16 +484,16 @@
       What happens when we multiply such a binomial out?
       We will expand <m>(x+y)^n</m> for various values of <m>n</m>.
       Each of these are done by multiplying everything out (i.e., FOIL-ing) and then collecting like terms.
-      <me>
+      <me permid="me1">
         (x+y)^1 = x + y
       </me>
-      <me>
+      <me permid="me2">
         (x+y)^2 = x^2 + 2xy + y^2
       </me>
-      <me>
+      <me permid="me3">
         (x+y)^3 = x^3 + 3x^2y + 3xy^2 + y^3
       </me>
-      <me>
+      <me permid="me4">
         (x+y)^4 = x^4 + 4x^3y + 6x^2y^2 + 4xy^3 + y^4
       </me>.
     </p>
@@ -502,7 +502,7 @@
       In fact, there is a quicker way to expand the above binomials.
       For example, consider the next one, <m>(x+y)^5</m>.
       What we are really doing is multiplying out,
-      <me>
+      <me permid="me">
         (x+y)(x+y)(x+y)(x+y)(x+y)
       </me>.
     </p>
@@ -541,7 +541,7 @@
       reason:
       there are 5 ways to pick which of the 5 binomials contribute the single <m>x</m>.
       So far we have
-      <me>
+      <me permid="me">
         (x+y)^5 = x^5 + 5x^4y + \underline{~?~}~x^3y^2 + \underline{~?~}~x^2y^3 + 5 xy^4 + y^5
       </me>.
     </p>
@@ -560,7 +560,7 @@
       (and also <m>x^2y^3</m>)
       will be exactly the same as the number of bit strings of length 5 and weight 3, which we found earlier to be 10.
       So we have:
-      <me>
+      <me permid="me">
         (x+y)^5 = x^5 + 5x^4y + 10x^3y^2 + 10x^2y^3 + 5 xy^4 + y^5
       </me>.
     </p>
@@ -579,7 +579,7 @@
       <title>Binomial Coefficients</title>
       <p permid="p">
             <idx><h>binomial coefficients</h></idx> For each integer <m>n \ge 0</m> and integer <m>k</m> with <m>0 \le k \le n</m> there is a number
-        <me>
+        <me permid="me">
           {n\choose k}
         </me>
         read <q><m>n</m> choose <m>k</m>.</q> We have:
@@ -666,7 +666,7 @@
       look back at how we arrived at the answer 10 in our counting problems above.
       It all came down to bit strings,
       and we have a recurrence relation for bit strings:
-      <me>
+      <me permid="me">
         |\B^n_k| = |\B^{n-1}_{k-1}| + |\B^{n-1}_k|
       </me>.
     </p>
@@ -685,7 +685,7 @@
     <assemblage permid="asm-recurrence-relation-for-n-choose-k">
       <title>Recurrence relation for <m>{n \choose k}</m></title>
       <p permid="p">
-        <me>
+        <me permid="me">
           {n \choose k} = {n-1 \choose k-1} + {n-1 \choose k}
         </me>
       </p>
@@ -699,9 +699,9 @@
       <m>{n \choose k}</m> into a triangle like follows:
     </p>
 
-    <sidebyside width="70%">
+    <sidebyside permid="sbs1" width="70%">
 
-      <image xml:id="pascal-nCk">
+      <image permid="pascal-nck" xml:id="pascal-nCk">
 
           <latex-image>
             \begin{tikzpicture}
@@ -732,9 +732,9 @@
       we can find <m>{12 \choose 6} = 924</m>.
     </p>
 
-    <sidebyside width="100%">
+    <sidebyside permid="sbs2" width="100%">
 
-      <image xml:id="pascal-large">
+      <image permid="pascal-large" xml:id="pascal-large">
         <idx><h>Pascal's triangle</h></idx>
             <latex-image>
               \begin{tikzpicture}

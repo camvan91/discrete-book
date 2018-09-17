@@ -2,7 +2,7 @@
 
 <section permid="sec_seq-induction" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_seq-induction">
   <title>Induction</title>
-  <introduction>
+  <introduction permid="intr">
     <p permid="p">
           <idx><h>induction</h></idx> Mathematical induction is a proof technique, not unlike direct proof or proof by contradiction or combinatorial proof.<fn>
       You might or might not be familiar with these yet.
@@ -56,7 +56,7 @@
       Since for each value of <m>n</m>,
       <m>P(n)</m> is a statement, it is either true or false.
       So if we form the sequence of statements
-      <me>
+      <me permid="me1">
         P(1), P(2), P(3), P(4), \ldots
       </me>
       the sequence will consist of <m>T</m>'s
@@ -64,7 +64,7 @@
       and <m>F</m>'s
       (for false).
       In our particular case the sequence starts
-      <me>
+      <me permid="me2">
         F,F,F,F,T,F,F,T,F,F,T,F,F,T,\ldots
       </me>
       because <m>P(1), P(2), P(3), P(4)</m> are all false
@@ -406,14 +406,14 @@
             That is, we must prove that <m>1 + 2 + 3 + \cdots + k + (k+1) = \frac{(k+1)(k+2)}{2}</m>.
             To prove this equation,
             start by adding <m>k+1</m> to both sides of the inductive hypothesis:
-            <me>
+            <me permid="me">
               1 + 2 + 3 + \cdots + k + (k+1) = \frac{k(k+1)}{2} + (k+1)
             </me>.
           </p>
 
           <p permid="p6">
             Now, simplifying the right side we get:
-            <md>
+            <md permid="md">
               <mrow>\frac{k(k+1)}{2} + k+1 \amp = \frac{k(k+1)}{2} + \frac{2(k+1)}{2}</mrow>
               <mrow>\amp = \frac{k(k+1) + 2(k+1)}{2}</mrow>
               <mrow>\amp = \frac{(k+2)(k+1)}{2}</mrow>
@@ -491,7 +491,7 @@
             Then <m>6^k - 1 = 5j</m> for some integer <m>j</m>.
             This means that <m>6^k = 5j + 1</m>.
             Multiply both sides by <m>6</m>:
-            <me>
+            <me permid="me">
               6^{k+1} = 6(5j+1) = 30j + 6
             </me>.
           </p>
@@ -499,7 +499,7 @@
           <p permid="p6">
             But we want to know about <m>6^{k+1} - 1</m>,
             so subtract 1 from both sides:
-            <me>
+            <me permid="me">
               6^{k+1} - 1 = 30j + 5
             </me>.
           </p>
@@ -548,7 +548,7 @@
           Think about what the difference of two consecutive squares looks like.
           We have <m>(n+1)^2 - n^2</m>.
           This factors:
-          <me>
+          <me permid="me">
             (n+1)^2 - n^2 = (n+1-n)(n+1+n) = 2n+1
           </me>.
         </p>
@@ -588,7 +588,7 @@
             i.e., <m>(k+1)^2 \lt  2^{k+1}</m>.
             To prove such an inequality,
             start with the left-hand side and work towards the right-hand side:
-            <md>
+            <md permid="md">
               <mrow>(k+1)^2 \amp = k^2 + 2k + 1 \amp</mrow>
               <mrow>\amp \lt 2^k + 2k + 1 \amp \ldots\text{by the inductive hypothesis.}</mrow>
               <mrow>\amp \lt 2^k + 2^k \amp \ldots\text{ since } 2k + 1 \lt  2^k \text{ for }k \ge 5.</mrow>

@@ -2,7 +2,7 @@
 
 <section permid="sec_addtops-numbth" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_addtops-numbth">
   <title>Introduction to Number Theory</title>
-  <introduction>
+  <introduction permid="intr">
     <p permid="p1">
       We have used the natural numbers to solve problems.
       This was the right set of numbers to work with in discrete mathematics because we always dealt with a whole number of things.
@@ -110,7 +110,7 @@
       <p permid="p1">
             <idx><h>divisibility relation</h></idx>
 	Given integers <m>m</m> and <m>n</m>, we say <q><m>m</m> divides <m>n</m></q> and write
-        <me>
+        <me permid="me">
           m \mid n
         </me>
         provided <m>n \div m</m> is an integer.
@@ -270,7 +270,7 @@
       For example,
       let's try this to decide whether <m>1642 \mid 136299</m>.
       Start finding multiples of 1642:
-      <me>
+      <me permid="me">
         1642 \cdot 2 = 3284 \qquad 1642 \cdot 3 = 4926 \qquad 1642\cdot 4 = 6568 \qquad \cdots
       </me>
     </p>
@@ -278,7 +278,7 @@
     <p permid="p8">
       All of these are well less than 136299.
       I suppose we can jump ahead a bit:
-      <me>
+      <me permid="me">
         1642 \cdot 50 = 82100 \qquad 1642 \cdot 80 = 131360 \qquad 1642 \cdot 85 = 139570
       </me>
     </p>
@@ -286,7 +286,7 @@
     <p permid="p9">
       Ah, so we need to look somewhere between 80 and 85.
       Try 83:
-      <me>
+      <me permid="me">
         1642 \cdot 83 = 136286
       </me>
     </p>
@@ -297,7 +297,7 @@
       If we subtract, we get <m>136299 - 136286 = 13</m>.
       So we know we cannot go up to 84, that will be too much.
       In other words, we have found that
-      <me>
+      <me permid="me">
         136299 = 83 \cdot 1642 + 13
       </me>
     </p>
@@ -323,7 +323,7 @@
       <p permid="p">
             <idx><h>Division algorithm</h></idx>
 	Given any two integers <m>a</m> and <m>b</m>, we can always find an integer <m>q</m> such that
-        <me>
+        <me permid="me">
           a = qb + r
         </me>
         where <m>r</m> is an integer satisfying <m>0 \le r \lt  |b|</m>
@@ -365,7 +365,7 @@
           Here we are looking for all the numbers divisible by <m>5</m> since <m>a = 5q+0</m>.
           In other words, the multiples of 5.
           We get the infinite set
-          <me>
+          <me permid="me">
             \{\ldots, -15, -10, -5, 0, 5, 10, 15, 20, \ldots\}
           </me>
         </p>
@@ -387,7 +387,7 @@
           So in fact, to get <m>r = 1</m>,
           we would have <m>-4</m>, or <m>-9</m>, etc.
           Thus we get the remainder class
-          <me>
+          <me permid="me">
             \{\ldots, -14, -9, -4, 1, 6, 11, 16, 21, \ldots\}
           </me>
         </p>
@@ -396,13 +396,13 @@
           There are three more to go.
           The remainder classes for <m>2</m>,
           <m>3</m>, and <m>4</m> are, respectively
-          <me>
+          <me permid="me1">
             \{\ldots, -13, -8, -3, 2, 7, 12, 17, 22,\ldots\}
           </me>
-          <me>
+          <me permid="me2">
             \{\ldots, -12, -7, -2, 3, 8, 13, 18, 23, \ldots\}
           </me>
-          <me>
+          <me permid="me3">
             \{\ldots, -11, -6, -1, 4, 9, 14, 19, 24, \ldots\}
           </me>.
         </p>
@@ -452,14 +452,14 @@
       But this is not always true.
       It works if we are thinking division by 5, so we need to denote that somehow.
       What we will actually write is this:
-      <me>
+      <me permid="me1">
         8 \equiv 23 \pmod{5}
       </me>
       which is read, <q>8 is congruent to 23 modulo 5</q>
       (or just <q>mod 5</q>).
           <idx><h>mod</h></idx>
       Of course then we could observe that
-      <me>
+      <me permid="me2">
         8 \not\equiv 23 \pmod{7}
       </me>
     </p>
@@ -471,7 +471,7 @@
             <idx><h>congruence</h></idx>
             <idx><h>modulo <m>n</m></h></idx>
         and write,
-        <me>
+        <me permid="me">
           a \equiv b \pmod{n}
         </me>
         provided <m>a</m> and <m>b</m> have the same remainder when divided by <m>n</m>.
@@ -493,7 +493,7 @@
       To see why, consider two numbers <m>a</m> and <m>b</m> which are congruent modulo <m>n</m>.
       Then <m>a</m> and <m>b</m> have the same remainder when divided by <m>n</m>.
       We have
-      <me>
+      <me permid="me">
         a = q_1 n + r \qquad\qquad b = q_2 n + r
       </me>
     </p>
@@ -501,7 +501,7 @@
     <p permid="p8">
       Here the two <m>r</m>'s really are the same.
       Consider what we get when we take the difference of <m>a</m> and <m>b</m>:
-      <me>
+      <me permid="me">
         a-b = q_1n + r - (q_2n + r) = q_1n - q_2 n = (q_1-q_2)n
       </me>
     </p>
@@ -530,7 +530,7 @@
       <title>Congruence and Divisibility</title>
       <p permid="p">
         For any integers <m>a</m>, <m>b</m>, and <m>n</m>, we have
-        <me>
+        <me permid="me">
           a \equiv b \pmod{n} \qquad \mbox{ if and only if }  \qquad n \mid a-b
         </me>.
       </p>
@@ -552,7 +552,7 @@
       <title>Congruence and Equality</title>
       <p permid="p">
         For any integers <m>a</m>, <m>b</m>, and <m>n</m>, we have
-        <me>
+        <me permid="me">
           a \equiv b \pmod{n} \qquad \mbox{ if and only if }  \qquad a = b + kn \mbox{ for some integer } k 
         </me>.
       </p>
@@ -671,7 +671,7 @@
         That means <m>a = b + kn</m> and
         <m>c = d + jn</m> for integers <m>k</m> and <m>j</m>.
         Add these equations:
-        <me>
+        <me permid="me">
           a+c = b+d + kn + jn
         </me>.
       </p>
@@ -712,7 +712,7 @@
           Why is this okay?
           We are actually subtracting the
           <q>same</q> thing from both sides:
-          <me>
+          <me permid="me">
             \begin{aligned}x \amp  \equiv 3000 + 400 + 90 + 1 \pmod 9 \\
 	- ~~ 0 \amp  \equiv 90 \pmod 9 \\
 	x \amp  \equiv 3000 + 400 + 0 + 1\pmod 9.
@@ -735,10 +735,10 @@
         <p permid="p3">
           Similarly, we can replace 3000 with 3, since <m>1000 = 1 + 999 \equiv 1 \pmod 9</m>.
           So our original congruence becomes
-          <me>
+          <me permid="me1">
             x \equiv 3 + 4 + 0 + 1 \pmod 9
           </me>
-          <me>
+          <me permid="me2">
             x \equiv 8 \pmod 9
           </me>.
           Therefore <m>3491</m> divided by 9 has remainder 8.
@@ -769,20 +769,20 @@
           Of course, we are working with congruence because we want to find the smallest positive <m>x</m> such that <m>x \equiv 3^{123} \pmod 7</m>.
           Now first write <m>3^{123} = (3^3)^{41}</m>.
           We have:
-          <me>
+          <me permid="me1">
             3^{123} = 27^{41} \equiv 6^{41} \pmod 7
           </me>,
           since <m>27 \equiv 6 \pmod 7</m>.
           Notice further that <m>6^2 = 36</m> is congruent to 1 modulo 7.
           Thus we can simplify further:
-          <me>
+          <me permid="me2">
             6^{41} = 6\cdot (6^2)^{20} \equiv 6 \cdot 1^{20} \pmod 7
           </me>.
         </p>
 
         <p permid="p2">
           But <m>1^{20} = 1</m>, so we are done:
-          <me>
+          <me permid="me">
             3^{123} \equiv 6 \pmod 7
           </me>.
         </p>
@@ -805,7 +805,7 @@
       In other words, even if <m>ad \equiv bd \pmod n</m>,
       we do not know that <m>a \equiv b \pmod n</m>.
       Consider, for example:
-      <me>
+      <me permid="me">
         18 \equiv 42 \pmod 8
       </me>.
     </p>
@@ -814,7 +814,7 @@
       This is true.
       Now <m>18</m> and <m>42</m> are both divisible by 6.
       However,
-      <me>
+      <me permid="me">
         3 \not\equiv 7 \pmod 8
       </me>.
     </p>
@@ -877,7 +877,7 @@
         <p permid="p1">
           (a) Both <m>24</m> and <m>39</m> are divisible by <m>3</m>,
           and <m>3</m> and <m>5</m> have no common factors, so we get
-          <me>
+          <me permid="me">
             8 \equiv 13 \pmod 5
           </me>.
         </p>
@@ -889,7 +889,7 @@
           Instead, we must also divide the modulus 15 by the greatest common factor of <m>3</m> and <m>15</m>,
           which is <m>3</m>.
           Again we get
-          <me>
+          <me permid="me">
             8 \equiv 13 \pmod 5
           </me>.
         </p>
@@ -904,7 +904,7 @@
       Now that we have some algebraic rules to govern congruence relations,
       we can attempt to solve for an unknown in a congruence.
       For example, is there a value of <m>x</m> that satisfies,
-      <me>
+      <me permid="me">
         3x + 2 \equiv 4 \pmod{5}
       </me>,
       and if so, what is it?
@@ -932,7 +932,7 @@
       Let's also see how you could solve this using our rules for the algebra of congruences.
       Such an approach would be much simpler than the trial and error tactic if the modulus was larger.
       First, we know we can subtract 2 from both sides:
-      <me>
+      <me permid="me">
         3x \equiv 2 \pmod{5}
       </me>.
     </p>
@@ -942,7 +942,7 @@
       Of course, on the right-hand side, we want that 0 to be a 10
       (yes, <m>10</m> really is 0 since they are congruent modulo 5).
       This gives,
-      <me>
+      <me permid="me">
         3x \equiv 12 \pmod{5}
       </me>.
     </p>
@@ -950,7 +950,7 @@
     <p permid="p6">
       Now divide both sides by 3.
       Since <m>\gcd(3,5) = 1</m>, we do not need to change the modulus:
-      <me>
+      <me permid="me">
         x \equiv 4 \pmod{5}
       </me>.
     </p>
@@ -991,7 +991,7 @@
                 We get <m>25</m>, <m>38</m>, <m>51</m>,
                 <m>64</m>, <m>77</m> <ndash/> got it.
                 So we have:
-                <me>
+                <me permid="me">
                   \begin{aligned}7x \amp  \equiv 12 \pmod{13} \\
 			7x \amp  \equiv 77 \pmod{13} \\
 			x \amp  \equiv 11 \pmod{13}.
@@ -1007,7 +1007,7 @@
                 We have <m>84 \equiv 9</m>,
                 <m>38 \equiv 8</m> and <m>79 \equiv 4</m>.
                 Thus,
-                <me>
+                <me permid="me1">
                   \begin{aligned}84x - 38 \amp  \equiv 79 \pmod{15} \\
 		9x - 8 \amp  \equiv 4 \pmod{15} \\
 		9x \amp  \equiv 12 \pmod{15} \\
@@ -1018,13 +1018,13 @@
                 Now divide both sides by 9.
                 However, since <m>\gcd(9, 15) = 3</m>,
                 we must divide the modulus by 3 as well:
-                <me>
+                <me permid="me2">
                   x \equiv 8 \pmod 5
                 </me>.
                 So the solutions are those values which are congruent to 8, or equivalently 3, modulo 5.
                 This means that in some sense there are 3 solutions modulo 15: 3, 8, and 13.
                 We can write the solution:
-                <me>
+                <me permid="me3">
                   x \equiv 3 \pmod{15}; ~~ x \equiv 8 \pmod{15}; ~~x \equiv 13 \pmod{15}
                 </me>.
               </p>
@@ -1033,15 +1033,15 @@
             <li permid="l_b">
               <p permid="p">
                 First, reduce modulo 14:
-                <me>
+                <me permid="me1">
                   20x \equiv 23 \pmod{14}
                 </me>
-                <me>
+                <me permid="me2">
                   6x \equiv 9 \pmod{14}
                 </me>.
                 We could now divide both sides by 3, or try to increase 9 by a multiple of 14 to get a multiple of 6.
                 If we divide by 3, we get,
-                <me>
+                <me permid="me3">
                   2x \equiv 3 \pmod{14}
                 </me>.
                 Now try adding multiples of 14 to 3, in hopes of getting a number we can divide by 2.
@@ -1062,14 +1062,14 @@
       The last congruence above illustrates the way in which congruences might not have solutions.
       We could have seen this immediately in fact.
       Look at the original congruence:
-      <me>
+      <me permid="me">
         20x \equiv 23 \pmod{14}
       </me>.
     </p>
 
     <p permid="p9">
       If we write this as an equation, we get
-      <me>
+      <me permid="me">
         20x = 23 + 14k
       </me>,
       or equivalently <m>20x - 14k = 23</m>.
@@ -1082,7 +1082,7 @@
 
     <p permid="p10">
       So in general, given the congruence
-      <me>
+      <me permid="me">
         ax \equiv b \pmod{n}
       </me>,
       if <m>a</m> and <m>n</m> are divisible by a number which <m>b</m> is not divisible by,
@@ -1139,7 +1139,7 @@
     <p permid="p2">
       We have the tools we need to solve linear Diophantine equations.
       We will consider, as a main example, the equation
-      <me>
+      <me permid="me">
         51x + 87y = 123
       </me>.
     </p>
@@ -1162,7 +1162,7 @@
       At this point,
       we might as well factor out this greatest common divisor.
       So instead, we will solve:
-      <me>
+      <me permid="me">
         17x + 29y = 41
       </me>.
     </p>
@@ -1175,7 +1175,7 @@
       In particular, if we divide both sides by 17,
       we must get the same remainder.
       Thus we can safely write
-      <me>
+      <me permid="me">
         17x + 29y \equiv 41 \pmod{17}
       </me>.
     </p>
@@ -1187,7 +1187,7 @@
       although there is usually a good reason to select the smaller choice,
       as this will allow us to reduce the other coefficient.
       In our case, we reduce the congruence as follows:
-      <me>
+      <me permid="me">
         \begin{aligned}17x + 29y \amp  \equiv 41 \pmod{17} \\
         0x + 12y \amp  \equiv 7 \pmod{17} \\
         12 y \amp  \equiv 24 \pmod{17} \\
@@ -1200,7 +1200,7 @@
       Now at this point we know <m>y = 2 + 17k</m> will work for any integer <m>k</m>.
       If we haven't made a mistake,
       we should be able to plug this back into our original Diophantine equation to find <m>x</m>:
-      <me>
+      <me permid="me">
         \begin{aligned}17x + 29(2 + 17k) \amp  = 41\\
         17x \amp  = -17 - 29\cdot 17k\\
         x \amp  = -1-29k.
@@ -1238,11 +1238,11 @@
           <p permid="p">
             Pick the smaller of <m>a</m> and <m>b</m> (here,
             assume it is <m>b</m>), and convert to a congruence modulo <m>b</m>:
-            <me>
+            <me permid="me1">
               ax + by \equiv c \pmod{b}
             </me>.
             This will reduce to a congruence with one variable, <m>x</m>:
-            <me>
+            <me permid="me2">
               ax \equiv c \pmod{b}
             </me>.
           </p>
@@ -1252,7 +1252,7 @@
           <p permid="p">
             Solve the congruence as we did in the previous section.
             Write your solution as an equation, such as,
-            <me>
+            <me permid="me">
               x = n + kb
             </me>
           </p>
@@ -1292,14 +1292,14 @@
           Let <m>x</m> be the number of <m>5</m>-cent stamps,
           and <m>y</m> be the number of 8-cent stamps.
           We have:
-          <me>
+          <me permid="me">
             5x + 8y = 637
           </me>.
         </p>
 
         <p permid="p2">
           Convert to a congruence and solve:
-          <me>
+          <me permid="me">
             \begin{aligned}8y \amp  \equiv 367 \pmod{5}\\
 				3y \amp  \equiv 2 \pmod 5\\
 				3y \amp  \equiv 12 \pmod 5\\
@@ -1319,7 +1319,7 @@
           try different values of <m>k</m>.
         </p>
 
-        <sidebyside>
+        <sidebyside permid="sbs">
 
           <tabular>
             <col right="minor"/>
@@ -1387,7 +1387,7 @@
       you can solve linear Diophantine equations of two variables.
       There are times though that solving the linear congruence is a lot of work.
       For example, suppose you need to solve,
-      <me>
+      <me permid="me">
         13x \equiv 6 \pmod{51}
       </me>.
     </p>
@@ -1398,7 +1398,7 @@
       This works, but is really too much work.
       Instead we could convert <em>back</em>
       to a Diophantine equation:
-      <me>
+      <me permid="me">
         13x = 6 + 51k
       </me>
     </p>
@@ -1406,7 +1406,7 @@
     <p permid="p14">
       Now solve <em>this</em> like we have in this section.
       Write it as a congruence modulo 13:
-      <me>
+      <me permid="me1">
         \begin{aligned}0 \amp \equiv 6 + 51k \pmod{13}\\
         -12k \amp \equiv 6 \pmod{13}\\
         2k \amp \equiv -1 \pmod{13}\\
@@ -1416,7 +1416,7 @@
       </me>
       so <m>k = 6 + 13j</m>.
       Now go back and figure out <m>x</m>:
-      <me>
+      <me permid="me2">
         \begin{aligned}13x \amp  = 6 + 51(6+13j)\\
         x \amp  = 24 + 51j.
         \end{aligned}
@@ -1520,7 +1520,7 @@
             <m>c = d + jn</m> for some integers <m>k</m> and <m>j</m>.
             Consider <m>a-c</m>.
             We have:
-            <me>
+            <me permid="me">
               a-c = b+kn - (d+jn) = b-d + (k-j)n
             </me>.
           </p>

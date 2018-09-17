@@ -2,9 +2,9 @@
 
 <section permid="sec_coloring" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_coloring">
   <title>Coloring</title>
-  <introduction>
+  <introduction permid="intr">
     <investigation permid="inv">
-      <p permid="p">
+      <p permid="p1">
         Mapmakers in the fictional land of Euleria have drawn the borders of the various dukedoms of the land.
         To make the map pretty, they wish to color each region.
         Adjacent regions must be colored differently,
@@ -12,9 +12,9 @@
         What is the fewest colors the mapmakers can use and still accomplish this task?
       </p>
 
-      <sidebyside width="75%">
+      <sidebyside permid="sbs" width="75%">
 
-        <image>
+        <image permid="im">
 
 	<latex-image>\begin{tikzpicture}
 	\draw[thick]
@@ -35,7 +35,7 @@
 
       </sidebyside>
     </investigation>
-    <p permid="p1">
+    <p permid="p2">
       Perhaps the most famous graph theory problem is how to color maps.
     </p>
 
@@ -46,7 +46,7 @@
       </p>
     </blockquote>
 
-    <p permid="p2">
+    <p permid="p3">
       Actual map makers usually use around seven colors.
       For one thing,
       they require watery regions to be a specific color,
@@ -54,7 +54,7 @@
       We want to know whether there is a smaller palette that will work for any map.
     </p>
 
-    <p permid="p3">
+    <p permid="p4">
       How is this related to graph theory?
       Well, if we place a vertex in the center of each region
       (say in the capital of each state)
@@ -65,7 +65,7 @@
       our graph cannot have vertices colored the same when those vertices are adjacent.
     </p>
 
-    <p permid="p4">
+    <p permid="p5">
       In general, given any graph <m>G</m>,
       a coloring of the vertices is called
       (not surprisingly)
@@ -97,9 +97,9 @@
           Find the chromatic number of the graphs below.
         </p>
 
-        <sidebyside widths="20% 20% 30%" margins="auto" valign="middle">
+        <sidebyside permid="sbs1" widths="20% 20% 30%" margins="auto" valign="middle">
 
-          <image>
+          <image permid="im1">
 
 	<latex-image>\begin{tikzpicture}
 	      \foreach \x in {0,...,6}
@@ -107,14 +107,14 @@
 	    \end{tikzpicture}</latex-image>
           </image>
 
-          <image>
+          <image permid="im2">
 
 	<latex-image>\begin{tikzpicture}[yscale=.8]
 	      \draw  (-1,0) \v -- (0,0) \v -- (1,0) \v -- (.5,1) \v -- (0,0) -- (-.5,1) \v -- (0,2) \v -- (.5,1) -- (-.5,1) -- (-1,0);
 	    \end{tikzpicture}</latex-image>
           </image>
 
-          <image>
+          <image permid="im3">
 
 	<latex-image>\begin{tikzpicture}[yscale=.8, xscale=1.5]
 	 \draw  (-1, 0) \v -- (-.5,2) \v -- (0,0) \v -- (.5, 2) \v -- (1,0) \v -- (-.5,2) (.5,2) -- (-1,0);
@@ -137,9 +137,9 @@
           For example:
         </p>
 
-        <sidebyside width="25%">
+        <sidebyside permid="sbs2" width="25%">
 
-          <image>
+          <image permid="im">
 
 	<latex-image>\begin{tikzpicture}[yscale=.8]
 	      \draw  (-1,0) \vb{R} -- (0,0) \vb{B} -- (1,0) \vb{G} -- (.5,1) \vr{R} -- (0,0) -- (-.5,1) \vl{G} -- (0,2) \va{B} -- (.5,1) -- (-.5,1) -- (-1,0);
@@ -163,7 +163,7 @@
       </solution>
     </example>
 
-    <p permid="p5">
+    <p permid="p6">
       It appears that there is no limit to how large chromatic numbers can get.
       It should not come as a surprise that <m>K_n</m> has chromatic number <m>n</m>.
       So how could there possibly be an answer to the original map coloring question?
@@ -172,7 +172,7 @@
       But there is.
     </p>
 
-    <p permid="p6">
+    <p permid="p7">
       The key observation is that while it is true that for any number <m>n</m>,
       there is a graph with chromatic number <m>n</m>,
       only some graphs arrive as representations of maps.
@@ -183,7 +183,7 @@
       the graphs representing maps are all <em>planar</em>!
     </p>
 
-    <p permid="p7">
+    <p permid="p8">
       So the question is,
       what is the largest chromatic number of any planar graph?
       The answer is the best known theorem of graph theory:
@@ -201,7 +201,7 @@
       </statement>
     </theorem>
 
-    <p permid="p8">
+    <p permid="p9">
       We will not prove this theorem.
       Really.
       Even though the theorem is easy to state and understand,
@@ -228,7 +228,7 @@
         or are required for seniors).
       </p>
 
-      <sidebyside>
+      <sidebyside permid="sbs">
 
         <tabular>
           <col right="minor" halign="center"/>
@@ -340,9 +340,9 @@
 	<row bottom="minor"><cell>KQEJ</cell> <cell>x</cell><cell></cell><cell>x</cell><cell> </cell><cell></cell><cell>x</cell><cell>x</cell> <cell></cell><cell>x</cell><cell></cell></row>
 	</tabular>
 </table> -->
-        <sidebyside>
+        <sidebyside permid="sbs1">
 
-          <image>
+          <image permid="im">
 
 	<latex-image>
 		\begin{tabular}{c|c|c|c|c|c|c|c|c|c|c|}
@@ -377,9 +377,9 @@
           Notice that the graph contains a copy of the complete graph <m>K_5</m> so no fewer than 5 colors can be used.
         </p>
 
-        <sidebyside widths="35% 30%" margins="auto" valign="bottom">
+        <sidebyside permid="sbs2" widths="35% 30%" margins="auto" valign="bottom">
 
-          <image>
+          <image permid="im1">
 
 	<latex-image>\begin{tikzpicture}[scale=.9]
 	\coordinate (A) at (90:2);
@@ -399,7 +399,7 @@
 	\end{tikzpicture}</latex-image>
           </image>
 
-          <image>
+          <image permid="im2">
 
 	<latex-image>\begin{tikzpicture}[scale=.9]
 	\coordinate (A) at (90:2);
@@ -585,9 +585,9 @@
           In this case, we get the graph <m>K_6</m>:
         </p>
 
-        <sidebyside width="20%">
+        <sidebyside permid="sbs" width="20%">
 
-          <image>
+          <image permid="im">
 
 	<latex-image>\begin{tikzpicture}
 	\foreach \x in {0,...,5}{

@@ -2,7 +2,7 @@
 
 <section permid="sec_comb-proofs" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_comb-proofs">
   <title>Combinatorial Proofs</title>
-  <introduction>
+  <introduction permid="intr">
     <investigation permid="inv">
       <p permid="p">
         <ol permid="ol">
@@ -69,9 +69,9 @@
       What do you notice?
     </p>
 
-    <sidebyside width="80%">
+    <sidebyside permid="sbs" width="80%">
 
-      <image xml:id="pascal-small">
+      <image permid="pascal-small" xml:id="pascal-small">
 
         <latex-image>
           \begin{tikzpicture}
@@ -151,7 +151,7 @@
       (which we will call row 1, even though it is not the top-most row)
       consists of <m>{1 \choose 0}</m> and <m>{1 \choose 1}</m>.
       Row 4 (the row 1, 4, 6, 4, 1) consists of the binomial coefficients
-      <me>
+      <me permid="me">
         {4 \choose 0} ~~ {4 \choose 1} ~~ {4 \choose 2} ~~ {4 \choose 3} ~~ {4 \choose 4}
       </me>.
     </p>
@@ -190,7 +190,7 @@
       These proofs can be done in many ways.
       One option would be to give algebraic proofs,
       using the formula for <m>{n \choose k}</m>:
-      <me>
+      <me permid="me">
         {n \choose k} = \frac{n!}{(n-k)!\,k!}
       </me>.
     </p>
@@ -203,7 +203,7 @@
       <statement>
         <p permid="p">
           Give an algebraic proof for the binomial identity
-          <me>
+          <me permid="me">
             {n \choose k} = {n-1\choose k-1} + {n-1 \choose k}
           </me>.
         </p>
@@ -213,18 +213,18 @@
         <proof permid="pf">
           <p permid="p1">
             By the definition of <m>{n \choose k}</m>, we have
-            <me>
+            <me permid="me1">
               {n-1 \choose k-1} = \frac{(n-1)!}{(n-1-(k-1))!(k-1)!} = \frac{(n-1)!}{(n-k)!(k-1)!}
             </me>
             and
-            <me>
+            <me permid="me2">
               {n-1 \choose k} = \frac{(n-1)!}{(n-1-k)!k!}
             </me>.
           </p>
 
           <p permid="p2">
             Thus, starting with the right-hand side of the equation:
-            <md>
+            <md permid="md">
               <mrow>{n-1 \choose k-1} + {n-1 \choose k} \amp = \frac{(n-1)!}{(n-k)!(k-1)!}+ \frac{(n-1)!}{(n-1-k)!\,k!}</mrow>
               <mrow>\amp = \frac{(n-1)!k}{(n-k)!\,k!} + \frac{(n-1)!(n-k)}{(n-k)!\,k!}</mrow>
               <mrow>\amp = \frac{(n-1)!(k+n-k)}{(n-k)!\,k!}</mrow>
@@ -473,7 +473,7 @@
 
     <p permid="p10">
       Expand the binomial <m>(x+y)^n</m>:
-      <me>
+      <me permid="me">
         (x + y)^n = {n \choose 0}x^n + {n \choose 1}x^{n-1}y + {n \choose 2}x^{n-2}y^2 + \cdots + {n \choose n-1}x\cdot y^n + {n \choose n}y^n
       </me>.
     </p>
@@ -481,14 +481,14 @@
     <p permid="p11">
       Let <m>x = 1</m> and <m>y = 1</m>.
       We get:
-      <me>
+      <me permid="me">
         (1 + 1)^n = {n \choose 0}1^n + {n \choose 1}1^{n-1}1 + {n \choose 2}1^{n-2}1^2 + \cdots + {n \choose n-1}1\cdot 1^n + {n \choose n}1^n
       </me>.
     </p>
 
     <p permid="p12">
       Of course this simplifies to:
-      <me>
+      <me permid="me">
         (2)^n = {n \choose 0} + {n \choose 1} + {n \choose 2} + \cdots + {n \choose n-1} + {n \choose n}
       </me>.
     </p>
@@ -568,7 +568,7 @@
       so we have <m>{3 \choose 2}</m> ways of doing that.
       That leaves just one spot of the D, but we could write that 1 choice as <m>{1 \choose 1}</m>.
       Thus the answer is:
-      <me>
+      <me permid="me">
         {10 \choose 4}{6 \choose 3}{3 \choose 2}{1 \choose 1}
       </me>.
     </p>
@@ -586,7 +586,7 @@
       (that is, only one)
       ways.
       So another answer to the question is
-      <me>
+      <me permid="me">
         {10 \choose 1}{9 \choose 2}{7 \choose 3}{4 \choose 4}
       </me>.
     </p>
@@ -594,7 +594,7 @@
     <p permid="p8">
       Interesting.
       This gives us the binomial identity:
-      <me>
+      <me permid="me">
         {10 \choose 4}{6 \choose 3}{3 \choose 2}{1 \choose 1} = {10 \choose 1}{9 \choose 2}{7 \choose 3}{4 \choose 4}
       </me>.
     </p>
@@ -607,7 +607,7 @@
       <statement>
         <p permid="p">
           Prove the identity
-          <me>
+          <me permid="me">
             1 n + 2(n-1) + 3 (n-2) + \cdots + (n-1) 2 + n 1 = {n+2 \choose 3}
           </me>.
         </p>
@@ -671,7 +671,7 @@
 
           <p permid="p9">
             Therefore the total number of subsets is
-            <me>
+            <me permid="me">
               1 n + 2 (n-1) + 3 (n-2) + \cdots + (n-1)2 + n 1
             </me>.
           </p>
@@ -680,7 +680,7 @@
             Since Answer 1 and Answer 2 are answers to the same question,
             they must be equal.
             Therefore
-            <me>
+            <me permid="me">
               1 n + 2 (n-1) + 3 (n-2) + \cdots + (n-1) 2 + n 1 = {n+2 \choose 3}
             </me>.
           </p>
@@ -693,7 +693,7 @@
       <statement>
         <p permid="p">
           Prove the binomial identity
-          <me>
+          <me permid="me">
             {n \choose 0}^2 + {n \choose 1}^2 + {n \choose 2}^2 + \cdots + {n \choose n}^2 = {2n \choose n}
           </me>.
         </p>
@@ -748,7 +748,7 @@
 
           <p permid="p9">
             Thus the total number of pizzas possible is
-            <me>
+            <me permid="me">
               {n \choose 0}{n \choose n} + {n \choose 1}{n \choose n-1} + {n \choose 2}{n \choose n-2} + \cdots + {n \choose n}{n \choose 0}
             </me>.
           </p>
@@ -759,7 +759,7 @@
             <m>{n \choose n-1} = {n  \choose 1}</m> and so on, by the identity in
             <xref ref="example-symmetry-formula"/>.
             Thus we do indeed get
-            <me>
+            <me permid="me">
               {n \choose 0}^2 + {n \choose 1}^2 + {n \choose 2}^2 + \cdots + {n \choose n}^2
             </me>.
           </p>
@@ -767,7 +767,7 @@
           <p permid="p11">
             Since these two answers are answers to the same question,
             they must be equal, and thus
-            <me>
+            <me permid="me">
               {n \choose 0}^2 + {n \choose 1}^2 + {n \choose 2}^2 + \cdots + {n \choose n}^2 = {2n \choose n}
             </me>.
           </p>
@@ -797,9 +797,9 @@
             For example, this is what happens in the case <m>n = 4</m>:
           </p>
 
-          <sidebyside width="40%">
+          <sidebyside permid="sbs" width="40%">
 
-            <image xml:id="lattice-paths-comb-proof">
+            <image permid="lattice-paths-comb-pf" xml:id="lattice-paths-comb-proof">
 
               <latex-image>
                 \begin{tikzpicture}[scale=0.8]
@@ -841,7 +841,7 @@
 
           <p permid="p19">
             All together then the total paths from <m>(0,0)</m> to <m>(n,n)</m> passing through exactly one of these midpoints is
-            <me>
+            <me permid="me">
               {n \choose 0}^2 + {n \choose 1}^2 + {n \choose 2}^2 + \cdots + {n \choose n}^2
             </me>.
           </p>
@@ -849,7 +849,7 @@
           <p permid="p20">
             Since these two answers are answers to the same question,
             they must be equal, and thus
-            <me>
+            <me permid="me">
               {n \choose 0}^2 + {n \choose 1}^2 + {n \choose 2}^2 + \cdots + {n \choose n}^2 = {2n \choose n}
             </me>.
           </p>

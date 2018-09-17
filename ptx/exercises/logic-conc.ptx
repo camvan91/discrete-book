@@ -8,7 +8,7 @@
       </p>
     </statement>
     <solution permid="s">
-      <sidebyside>
+      <sidebyside permid="sbs1">
 
         <tabular halign="center">
           <col right="minor"/>
@@ -119,7 +119,7 @@
         Explain.
       </p>
 
-      <sidebyside>
+      <sidebyside permid="sbs2">
 
         <tabular halign="center">
           <row>
@@ -144,7 +144,7 @@
         a truth table that includes all three statements in the argument:
       </p>
 
-      <sidebyside>
+      <sidebyside permid="sbs3">
 
         <tabular halign="center">
           <col right="minor"/>
@@ -818,7 +818,7 @@
                   Assume <m>n</m> is odd.
                   So <m>n = 2k+1</m> for some integer <m>k</m>.
                   Then
-                  <me>
+                  <me permid="me">
                     7n = 7(2k+1) = 14k + 7 = 2(7k +3) + 1
                   </me>.
                 </p>
@@ -905,7 +905,7 @@
               including <m>2k</m> nickels, <m>2j</m> dimes, and <m>2l</m> quarters
               (so an even number of each of these three types of coins).
               The number of pennies you have will then be
-              <me>
+              <me permid="me">
                 22 - 2k - 2j - 2l = 2(11-k-j-l)
               </me>
               But this says that the number of pennies is also even

@@ -92,7 +92,7 @@
       </p>
     </statement>
     <solution permid="s">
-      <sidebyside>
+      <sidebyside permid="sbs1">
 
         <tabular halign="center">
           <col right="minor"/>
@@ -137,7 +137,7 @@
       </p>
     </statement>
     <solution permid="s">
-      <sidebyside>
+      <sidebyside permid="sbs2">
 
         <tabular halign="center">
           <col right="minor"/>
@@ -325,7 +325,7 @@
         Determine if the following deduction rule is valid:
       </p>
 
-      <sidebyside>
+      <sidebyside permid="sbs3">
 
         <tabular halign="center">
           <row>
@@ -362,7 +362,7 @@
         Determine if the following is a valid deduction rule:
       </p>
 
-      <sidebyside>
+      <sidebyside permid="sbs4">
 
         <tabular halign="center">
           <row>
@@ -389,7 +389,7 @@
         Determine if the following is a valid deduction rule:
       </p>
 
-      <sidebyside>
+      <sidebyside permid="sbs5">
 
         <tabular halign="center">
           <row>
@@ -427,7 +427,7 @@
               Prove that the following is a valid deduction rule:
             </p>
 
-            <sidebyside>
+            <sidebyside permid="sbs6">
 
               <tabular halign="center">
                 <row>
@@ -453,7 +453,7 @@
               Prove that the following is a valid deduction rule for any <m>n \ge 2</m>:
             </p>
 
-            <sidebyside>
+            <sidebyside permid="sbs7">
 
               <tabular halign="center">
                 <row>
@@ -576,7 +576,7 @@
         Suppose further that
       </p>
 
-      <sidebyside>
+      <sidebyside permid="sbs8">
 
         <tabular>
           <row>
@@ -606,7 +606,7 @@
       <p permid="p2">
         is a valid deduction rule.
         Prove that the statement
-        <me>
+        <me permid="me">
           (P_1 \wedge P_2 \wedge \cdots \wedge P_n) \imp Q
         </me>
         is a tautology.

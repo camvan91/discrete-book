@@ -123,9 +123,9 @@
         Explain why your answer is correct.
       </p>
 
-      <sidebyside width="50%">
+      <sidebyside permid="sbs1" width="50%">
 
-        <image xml:id="triangle-dots">
+        <image permid="triangle-dots" xml:id="triangle-dots">
 
                   <latex-image>
                     \begin{tikzpicture}[scale=0.7]
@@ -155,9 +155,9 @@
         How many quadrilaterals can you draw using the dots below as vertices (corners)?
       </p>
 
-      <sidebyside width="54%">
+      <sidebyside permid="sbs2" width="54%">
 
-        <image xml:id="quad-counting">
+        <image permid="quad-counting" xml:id="quad-counting">
 
                   <latex-image>
                     \begin{tikzpicture}[scale=.9]

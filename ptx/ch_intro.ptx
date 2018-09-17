@@ -2,7 +2,7 @@
 
 <chapter permid="ch_intro" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ch_intro">
   <title>Introduction and Preliminaries</title>
-  <introduction>
+  <introduction permid="intr">
     <p permid="p">
       Welcome to Discrete Mathematics.
       If this is your first time encountering the subject,

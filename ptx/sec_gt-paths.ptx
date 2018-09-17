@@ -2,9 +2,9 @@
 
 <section permid="sec_paths" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_paths">
   <title>Euler Paths and Circuits</title>
-  <introduction>
+  <introduction permid="intr">
     <investigation permid="inv">
-      <p permid="p">
+      <p permid="p1">
         An <term>Euler path</term>, in a graph or multigraph,
         is a walk through the graph which uses every edge exactly once.
         An <term>Euler circuit</term> is an Euler path which starts and stops at the same vertex.
@@ -19,9 +19,9 @@
               Which have Euler circuits?
             </p>
 
-            <sidebyside widths="18% 18% 36% 22%" margins="auto" valign="bottom">
+            <sidebyside permid="sbs1" widths="18% 18% 36% 22%" margins="auto" valign="bottom">
 
-              <image>
+              <image permid="im1">
 
   <latex-image>\begin{tikzpicture}[scale=0.9]
     \draw (-1,0) \v -- (1,0)\v -- (1,2) \v -- (-1, 2) \v -- (-1,0) -- (1,2) (-1,2) -- (1,0) (0,1) \v;
@@ -29,14 +29,14 @@
   \end{tikzpicture}</latex-image>
               </image>
 
-              <image>
+              <image permid="im2">
 
   <latex-image>\begin{tikzpicture}[scale=0.9]
     \draw (-1,0) \v -- (1,0)\v -- (1,2) \v -- (-1, 2) \v -- (-1,0) -- (1,2) (-1,2) -- (1,0) (0,1) \v;
   \end{tikzpicture}</latex-image>
               </image>
 
-              <image>
+              <image permid="im3">
 
   <latex-image>\begin{tikzpicture}[scale=0.9]
     \draw (-1,0) \v -- (1,0)\v -- (1,2) \v -- (-1, 2) \v -- (-1,0) -- (1,2) (-1,2) -- (1,0) (0,1) \v;
@@ -44,7 +44,7 @@
   \end{tikzpicture}</latex-image>
               </image>
 
-              <image>
+              <image permid="im4">
 
   <latex-image>\begin{tikzpicture}[yscale=.45]
    \draw (-1,-2) \v to [out=120, in=240] (-1,0) \v to [out=120, in=240] (-1,2) \v to [out=300, in=60] (-1,0) to [out=300, in=60] (-1,-2);
@@ -88,9 +88,9 @@
               can you deduce whether the graph will have an Euler path or circuit?
             </p>
 
-            <sidebyside width="54%">
+            <sidebyside permid="sbs2" width="54%">
 
-              <image>
+              <image permid="im">
 
   <latex-image>\begin{tikzpicture}[scale=0.9]
     \draw (-2,0) \v -- (0,1) \v -- (2,0) \v;
@@ -109,7 +109,7 @@
         </ol>
       </p>
     </investigation>
-    <p permid="p1">
+    <p permid="p2">
       If we start at a vertex and trace along edges to get to other vertices,
       we create a <em>walk</em> through the graph.
       More precisely, a <term>walk</term>
@@ -127,14 +127,14 @@
       assume all the graphs discussed are connected.
     </p>
 
-    <p permid="p2">
+    <p permid="p3">
       The bridges of Königsberg problem is really a question about the existence of Euler paths.
       There will be a route that crosses every bridge exactly once if and only if the graph below has an Euler path:
     </p>
 
-    <sidebyside width="22%">
+    <sidebyside permid="sbs3" width="22%">
 
-      <image>
+      <image permid="im">
 
   <latex-image>\begin{tikzpicture}[scale=1, yscale=.5]
   \draw (-1,-2) \v to [out=120, in=240] (-1,0) \v to [out=120, in=240] (-1,2) \v to [out=300, in=60] (-1,0) to [out=300, in=60] (-1,-2);
@@ -144,7 +144,7 @@
 
     </sidebyside>
 
-    <p permid="p3">
+    <p permid="p4">
       This graph is small enough that we could actually check every possible walk that does not reuse edges,
       and in doing so convince ourselves that there is no Euler path
       (let alone an Euler circuit).
@@ -154,15 +154,15 @@
       even if the graph is quite large.
     </p>
 
-    <p permid="p4">
+    <p permid="p5">
       One way to guarantee that a graph does <em>not</em>
       have an Euler circuit is to include a
       <q>spike,</q> a vertex of degree 1.
     </p>
 
-    <sidebyside width="23%">
+    <sidebyside permid="sbs4" width="23%">
 
-      <image>
+      <image permid="im">
 
   <latex-image>\begin{tikzpicture}
     \draw (-1,0) \v -- (0,1) \v -- (1,0) \v -- cycle;
@@ -172,7 +172,7 @@
 
     </sidebyside>
 
-    <p permid="p5">
+    <p permid="p6">
       The vertex <m>a</m> has degree 1, and if you try to make an Euler circuit,
       you see that you will get stuck at the vertex.
       It is a dead end.
@@ -185,7 +185,7 @@
       You will end at the vertex of degree 3.
     </p>
 
-    <p permid="p6">
+    <p permid="p7">
       You run into a similar problem whenever you have a vertex of any odd degree.
       If you start at such a vertex,
       you will not be able to end there
@@ -205,7 +205,7 @@
       leaving only an edge to arrive by, and none to leave again.
     </p>
 
-    <p permid="p7">
+    <p permid="p8">
       What all this says is that if a graph has an Euler path and two vertices with odd degree,
       then the Euler path must start at one of the odd degree vertices and end at the other.
       In such a situation, every other vertex <em>must</em>
@@ -217,7 +217,7 @@
       all vertices must have even degree.
     </p>
 
-    <p permid="p8">
+    <p permid="p9">
       The converse is also true:
       if all the vertices of a graph have even degree,
       then the graph has an Euler circuit,
@@ -233,7 +233,7 @@
 
     <assemblage permid="asm-euler-paths-circuits">
       <title>Euler Paths and Circuits</title>
-      <p permid="p">
+      <p permid="p10">
         <ul permid="ul">
           <li permid="l_j">
             <p permid="p">
@@ -250,7 +250,7 @@
       </p>
     </assemblage>
 
-    <p permid="p9">
+    <p permid="p11">
       Since the bridges of Königsberg graph has all four vertices with odd degree,
       there is no Euler path through the graph.
       Thus there is no way for the townspeople to cross every bridge exactly once.
@@ -279,9 +279,9 @@
           Determine whether the graphs below have a Hamilton path.
         </p>
 
-        <sidebyside widths="20% 20%" margins="auto">
+        <sidebyside permid="sbs1" widths="20% 20%" margins="auto">
 
-          <image>
+          <image permid="im1">
 
         <latex-image>
 
@@ -295,7 +295,7 @@
         </latex-image>
           </image>
 
-          <image>
+          <image permid="im2">
 
         <latex-image>
 
@@ -318,9 +318,9 @@
           as shown here:
         </p>
 
-        <sidebyside width="20%">
+        <sidebyside permid="sbs2" width="20%">
 
-          <image>
+          <image permid="im">
 
         <latex-image>
 

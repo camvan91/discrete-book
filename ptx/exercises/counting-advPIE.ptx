@@ -122,7 +122,7 @@
         so <m>{10 \choose 3}</m> ways.
         But this includes the ways that one or more <m>y_i</m> variables can be assigned more than 3 units.
         So subtract, using PIE. We get
-        <me>
+        <me permid="me">
           {10 \choose 3} - {4\choose 1} {6 \choose 3}
         </me>.
       </p>
@@ -151,7 +151,7 @@
       <p permid="p">
         Based on the previous question,
         give a combinatorial proof for the identity:
-        <me>
+        <me permid="me">
           {n \choose k} = {n+k-1 \choose k} - \sum_{j=1}^n (-1)^{j+1}{n \choose j}{n+k-(2j+1) \choose k}
         </me>.
       </p>
@@ -252,7 +252,7 @@
         <m>f(1) \ne a</m> and <m>f(2) \ne b</m>.
         So the total number of functions for which
         <m>f(1) \ne a</m> or <m>f(2) \ne b</m> or both is
-        <me>
+        <me permid="me">
           5 \cdot 6^3 + 5 \cdot 6^3 - 5^2 \cdot 6^2 = 1260
         </me>.
       </p>
@@ -298,13 +298,13 @@
       <p permid="p">
         Let <m>d_n</m> be the number of derangements of <m>n</m> objects.
         For example, using the techniques of this section, we find
-        <me>
+        <me permid="me1">
           d_3 = 3!-\left({3 \choose 1}2! - {3 \choose 2}1! + {3 \choose 3}0! \right)
         </me>
         We can use the formula for
         <m>{n \choose k}</m> to write this all in terms of factorials.
         After simplifying, for <m>d_3</m> we would get
-        <me>
+        <me permid="me2">
           d_3 = 3!\left(1 - \frac{1}{1} + \frac{1}{2} - \frac{1}{6} \right)
         </me>
         Generalize this to find a nicer formula for <m>d_n</m>.

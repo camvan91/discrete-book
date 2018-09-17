@@ -14,9 +14,9 @@
       If so, find one.
     </p>
 
-    <sidebyside width="50%">
+    <sidebyside permid="sbs" width="50%">
 
-      <image>
+      <image permid="im">
 
   <latex-image>\begin{tikzpicture}
   \foreach \x in {0,...,5} {
@@ -147,7 +147,7 @@
     <p permid="p">
           <idx><h>matching condition</h></idx>
       If a bipartite graph <m>G = \{A, B\}</m> has a matching of <m>A</m>, then
-      <me>
+      <me permid="me">
         |N(S)| \ge |S|
       </me>
       for all <m>S \subseteq A</m>.
@@ -177,7 +177,7 @@
             <idx><h>Hall's Marriage Theorem</h></idx>
         Let <m>G</m> be a bipartite graph with sets <m>A</m> and <m>B</m>.
         Then <m>G</m> has a matching of <m>A</m> if and only if
-        <me>
+        <me permid="me">
           |N(S)| \ge |S|
         </me>
         for all <m>S \subseteq A</m>.

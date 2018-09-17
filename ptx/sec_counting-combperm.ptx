@@ -2,9 +2,9 @@
 
 <section permid="sec_counting-combperm" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_counting-combperm">
   <title>Combinations and Permutations</title>
-  <introduction>
+  <introduction permid="intr">
     <investigation permid="inv">
-      <p permid="p">
+      <p permid="p1">
         You have a bunch of chips which come in five different colors:
         red, blue, green, purple and yellow.
 
@@ -42,16 +42,16 @@
         </ol>
       </p>
     </investigation>
-    <p permid="p1">
+    <p permid="p2">
       A <term>permutation</term> is a (possible) rearrangement of objects.
       For example,
       there are 6 permutations of the letters <em>a, b, c</em>:
-      <me>
+      <me permid="me">
         abc, ~~ acb, ~~ bac, ~~bca, ~~ cab, ~~ cba
       </me>.
     </p>
 
-    <p permid="p2">
+    <p permid="p3">
       We know that we have them all listed above
       <mdash/>there are 3 choices for which letter we put first,
       then 2 choices for which letter comes next,
@@ -83,7 +83,7 @@
       </solution>
     </example>
 
-    <p permid="p3">
+    <p permid="p4">
       A piece of notation is helpful here:
       <m>n!</m>, read <q><m>n</m> factorial</q>,
           <idx><h>factorial</h></idx>
@@ -96,7 +96,7 @@
 
     <assemblage permid="asm-permutations-n-elements">
       <title>Permutations of <m>n</m> elements</title>
-      <p permid="p">
+      <p permid="p5">
         There are <m>n! = n\cdot (n-1)\cdot (n-2)\cdot \cdots \cdot 2\cdot 1</m> permutations of <m>n</m> (distinct) elements.
       </p>
     </assemblage>
@@ -113,7 +113,7 @@
           Remember what it means for a function to be bijective:
           each element in the codomain must be the image of exactly one element of the domain.
           Using two-line notation, we could write one of these bijections as
-          <me>
+          <me permid="me">
             f = \twoline{1 \amp 2 \amp 3 \amp 4 \amp 5 \amp 6 \amp 7 \amp 8} {3 \amp 1 \amp 5 \amp 8 \amp 7 \amp 6 \amp 2 \amp 4}
           </me>
           What we are really doing is just rearranging the elements of the codomain,
@@ -133,7 +133,7 @@
       </solution>
     </example>
 
-    <p permid="p4">
+    <p permid="p6">
       Sometimes we do not want to permute all of the letters/numbers/elements we are given.
     </p>
 
@@ -160,7 +160,7 @@
       </solution>
     </example>
 
-    <p permid="p5">
+    <p permid="p7">
       In general, we can ask how many permutations exist of <m>k</m> objects choosing those objects from a larger collection of <m>n</m> objects.
       (In the example above, <m>k = 4</m>, and <m>n = 6</m>.)
       We write this number <m>P(n,k)</m> and sometimes call it a
@@ -169,40 +169,40 @@
       we see that to compute <m>P(n,k)</m> we must apply the multiplicative principle to <m>k</m> numbers,
       starting with <m>n</m> and counting backwards.
       For example
-      <me>
+      <me permid="me">
         P(10, 4) = 10\cdot 9 \cdot 8 \cdot 7
       </me>.
     </p>
 
-    <p permid="p6">
+    <p permid="p8">
       Notice again that <m>P(10,4)</m> starts out looking like <m>10!</m>,
       but we stop after 7.
       We can formally account for this <q>stopping</q>
       by dividing away the part of the factorial we do not want:
-      <me>
+      <me permid="me">
         P(10,4) = \frac{10\cdot 9 \cdot 8 \cdot 7 \cdot 6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1}{6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1} = \frac{10!}{6!}
       </me>.
     </p>
 
-    <p permid="p7">
+    <p permid="p9">
       Careful: The factorial in the denominator is not <m>4!</m> but rather <m>(10-4)!</m>.
     </p>
 
     <assemblage permid="asm-k-permutations-n-elements">
       <title><m>k</m>-permutations of <m>n</m> elements</title>
-      <p permid="p">
+      <p permid="p10">
             <idx><h><em>k</em>-permutation</h></idx>
             <idx><h>permutation</h></idx>
         <m>P(n,k)</m> is the number of <term><m>k</m>-permutations of <m>n</m> elements</term>,
         the number of ways to <em>arrange</em>
         <m>k</m> objects chosen from <m>n</m> distinct objects.
-        <me>
+        <me permid="me">
           P(n,k) = \frac{n!}{(n-k)!}
         </me>.
       </p>
     </assemblage>
 
-    <p permid="p8">
+    <p permid="p11">
       Note that when <m>n = k</m>, we have <m>P(n,n) = \frac{n!}{(n-n)!} = n!</m>
       (since we defined <m>0!</m> to be 1).
       This makes sense
@@ -241,7 +241,7 @@
       </solution>
     </example>
 
-    <p permid="p9">
+    <p permid="p12">
       Here is another way to find the number of <m>k</m>-permutations of <m>n</m> elements:
       first select which <m>k</m> elements will be in the permutation,
       then count how many ways there are to arrange them.
@@ -255,33 +255,33 @@
       we can permute <em>them</em> in <m>k!</m> ways.
       Using the multiplicative principle,
       we get another formula for <m>P(n,k)</m>:
-      <me>
+      <me permid="me">
         P(n,k) = {n \choose k}\cdot k!
       </me>.
     </p>
 
-    <p permid="p10">
+    <p permid="p13">
       Now since we have a closed formula for <m>P(n,k)</m> already,
       we can substitute that in:
-      <me>
+      <me permid="me">
         \frac{n!}{(n-k)!} = {n \choose k} \cdot k!
       </me>.
     </p>
 
-    <p permid="p11">
+    <p permid="p14">
       If we divide both sides by <m>k!</m> we get a closed formula for <m>{n \choose k}</m>.
     </p>
 
     <assemblage permid="asm-closed-formula-for-n-choose-k">
       <title>Closed formula for <m>{n \choose k}</m></title>
-      <p permid="p">
-        <me>
+      <p permid="p15">
+        <me permid="me">
           {n \choose k} = \frac{n!}{(n-k)!k!}
         </me>
       </p>
     </assemblage>
 
-    <p permid="p12">
+    <p permid="p16">
       We say <m>P(n,k)</m> counts <em>permutations</em>,
       and <m>{n \choose k}</m> counts <em>combinations</em>.
           <idx><h>combination</h></idx>
@@ -300,7 +300,7 @@
       not the order in which to combine them.
     </p>
 
-    <p permid="p13">
+    <p permid="p17">
       To further illustrate the connection between combinations and permutations,
       we close with an example.
     </p>
@@ -377,7 +377,7 @@
           We want to select 6 out of 14 friends,
           but we do not care about the order they are selected in.
           To select 6 out of 14 friends, we might try this:
-          <me>
+          <me permid="me">
             14 \cdot 13 \cdot 12 \cdot 11 \cdot 10 \cdot 9
           </me>.
         </p>
@@ -394,14 +394,14 @@
           (so that all of these would count as just one outcome).
           There are precisely <m>6!</m> ways to arrange 6 guests,
           so the correct answer to the first question is
-          <me>
+          <me permid="me">
             \frac{14 \cdot 13 \cdot 12 \cdot 11\cdot 10 \cdot 9}{6!}
           </me>.
         </p>
 
         <p permid="p5">
           Note that another way to write this is
-          <me>
+          <me permid="me">
             \frac{14!}{8!\cdot 6!}
           </me>.
           which is what we had originally.

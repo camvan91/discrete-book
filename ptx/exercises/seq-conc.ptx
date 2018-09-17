@@ -135,7 +135,7 @@
     <statement>
       <p permid="p">
         Use polynomial fitting to find a closed formula for the sequence <m>(a_n)_{n\ge 1}</m>:
-        <me>
+        <me permid="me">
           4, 11, 20, 31, 44, \ldots
         </me>.
       </p>

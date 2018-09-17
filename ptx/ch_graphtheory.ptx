@@ -2,9 +2,9 @@
 
 <chapter permid="ch_graphtheory" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ch_graphtheory">
   <title>Graph Theory</title>
-  <introduction>
+  <introduction permid="intr">
     <investigation permid="inv">
-      <p permid="p">
+      <p permid="p1">
         In the time of Euler, in the town of Königsberg in Prussia,
         there was a river containing two islands.
         The islands were connected to the banks of the river by seven bridges
@@ -17,9 +17,9 @@
         Are you?
       </p>
 
-      <sidebyside>
+      <sidebyside permid="sbs1">
 
-        <image xml:id="gt-bridges-art">
+        <image permid="gt-bridges-art" xml:id="gt-bridges-art">
 
           <latex-image>
             \begin{tikzpicture}[scale=0.9]
@@ -59,13 +59,13 @@
 
       </sidebyside>
     </investigation>
-    <p permid="p1">
+    <p permid="p2">
       Graph Theory is a relatively new area of mathematics,
       first studied by the super famous mathematician Leonhard Euler in 1735.
       Since then it has blossomed in to a powerful tool used in nearly every branch of science and is currently an active area of mathematics research.
     </p>
 
-    <p permid="p2">
+    <p permid="p3">
       The problem above, known as the
       <em>Seven Bridges of Königsberg</em>,
           <idx><h>Königsberg</h></idx>
@@ -75,9 +75,9 @@
       starting and ending on a dot)?
     </p>
 
-    <sidebyside width="25%">
+    <sidebyside permid="sbs2" width="25%">
 
-      <image xml:id="gt-bridges-graph">
+      <image permid="gt-bridges-graph" xml:id="gt-bridges-graph">
 
           <latex-image>
             \begin{tikzpicture}[scale=0.9, yscale=.5]
@@ -89,12 +89,12 @@
 
     </sidebyside>
 
-    <p permid="p3">
+    <p permid="p4">
       There is an obvious connection between these two problems.
       Any path in the dot and line drawing corresponds exactly to a path over the bridges of Königsberg.
     </p>
 
-    <p permid="p4">
+    <p permid="p5">
       Pictures like the dot and line drawing are called <term>graphs</term>.
       Graphs are made up of a collection of dots called <term>vertices</term>
           <idx><h>vertices</h></idx>
@@ -115,7 +115,7 @@
       This was the great insight that Euler had.
     </p>
 
-    <p permid="p5">
+    <p permid="p6">
       We will return to the question of finding paths through graphs later.
       But first, here are a few other situations you can represent with graphs:
     </p>
@@ -140,9 +140,9 @@
           We get the following graph:
         </p>
 
-        <sidebyside width="20%">
+        <sidebyside permid="sbs" width="20%">
 
-          <image xml:id="gt-facebook">
+          <image permid="gt-facebook" xml:id="gt-facebook">
 
             <latex-image>
               \begin{tikzpicture}[scale=0.7]
@@ -172,9 +172,9 @@
           bottom row as the utilities.
         </p>
 
-        <sidebyside width="20%">
+        <sidebyside permid="sbs" width="20%">
 
-          <image xml:id="gt-k33">
+          <image permid="gt-k33" xml:id="gt-k33">
 
             <latex-image>
               \begin{tikzpicture}[yscale=.8]

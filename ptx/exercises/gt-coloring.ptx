@@ -40,23 +40,23 @@
         Find the chromatic number of each of the following graphs.
       </p>
 
-      <sidebyside width="20%" margins="auto" valign="bottom">
+      <sidebyside permid="sbs1" width="20%" margins="auto" valign="bottom">
 
-        <image>
+        <image permid="im1">
 
 	<latex-image>\begin{tikzpicture}
 	    \draw  (-1,1) \v -- (0,2) \v -- (1,1) \v -- (0,0) \v -- (-1,1) -- (0,1) \v -- (1,1);
 	  \end{tikzpicture}</latex-image>
         </image>
 
-        <image>
+        <image permid="im2">
 
 	<latex-image>\begin{tikzpicture}
 	    \draw  (360/7:1) \v -- (2*360/7:1) \v -- (3*360/7:1) \v -- (4*360/7:1) \v -- (5*360/7:1) \v -- (6*360/7:1) \v -- (0:1) \v -- cycle;
 	  \end{tikzpicture}</latex-image>
         </image>
 
-        <image>
+        <image permid="im3">
 
 	<latex-image>\begin{tikzpicture}
 	    \draw (0,0) \v;
@@ -67,9 +67,9 @@
 
       </sidebyside>
 
-      <sidebyside widths="20% 20%" margins="auto" valign="top">
+      <sidebyside permid="sbs2" widths="20% 20%" margins="auto" valign="top">
 
-        <image>
+        <image permid="im1">
 
 	<latex-image>\begin{tikzpicture}
 	    \foreach \x in {0,...,4}
@@ -77,7 +77,7 @@
 	  \end{tikzpicture}</latex-image>
         </image>
 
-        <image>
+        <image permid="im2">
 
 	<latex-image>\begin{tikzpicture}[scale=.5]
 	    \draw  (18:2) -- (90:2) -- (162:2)  -- (234:2) -- (306:2) -- cycle;
@@ -123,7 +123,7 @@
               Now what is the smallest number of conflict-free cars they could take to the cabin?
             </p>
 
-            <sidebyside>
+            <sidebyside permid="sbs3">
 
               <tabular>
                 <row bottom="minor">
@@ -179,9 +179,9 @@
         The cube can be represented as a planar graph and colored with two colors as follows:
       </p>
 
-      <sidebyside width="20%">
+      <sidebyside permid="sbs4" width="20%">
 
-        <image>
+        <image permid="im">
 
 	<latex-image>\begin{tikzpicture}
 			\foreach \ang in {45, 135, 225, 315} {
@@ -213,9 +213,9 @@
               Describe a procedure to color the tree below.
             </p>
 
-            <sidebyside width="35%">
+            <sidebyside permid="sbs5" width="35%">
 
-              <image>
+              <image permid="im">
 
 							<latex-image>
 								\begin{tikzpicture}[scale=.7]
@@ -281,9 +281,9 @@
         the center of the wheel must be different than all the outside vertices.
       </p>
 
-      <sidebyside width="20%">
+      <sidebyside permid="sbs6" width="20%">
 
-        <image>
+        <image permid="im">
 
 	<latex-image>\begin{tikzpicture}
 

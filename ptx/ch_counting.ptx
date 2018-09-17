@@ -2,7 +2,7 @@
 
 <chapter permid="ch_counting" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ch_counting">
   <title>Counting</title>
-  <introduction>
+  <introduction permid="intr">
     <p permid="p1">
       One of the first things you learn in mathematics is how to count.
       Now we want to count large collections of things quickly and precisely.

@@ -59,9 +59,9 @@
         and have degrees (2,2,2,2,3,3).
       </p>
 
-      <sidebyside widths="40% 20%" margins="auto" valign="bottom">
+      <sidebyside permid="sbs1" widths="40% 20%" margins="auto" valign="bottom">
 
-        <image>
+        <image permid="im1">
 
 				<latex-image>
 					\begin{tikzpicture}
@@ -70,7 +70,7 @@
 				</latex-image>
         </image>
 
-        <image>
+        <image permid="im2">
 
 				<latex-image>
 					\begin{tikzpicture}
@@ -104,9 +104,9 @@
         Graph 2:
       </p>
 
-      <sidebyside width="25%">
+      <sidebyside permid="sbs2" width="25%">
 
-        <image>
+        <image permid="im">
 
 					<latex-image>
 						\begin{tikzpicture}
@@ -178,7 +178,7 @@
               The function is given by the following table:
             </p>
 
-            <sidebyside>
+            <sidebyside permid="sbs3">
 
               <tabular>
                 <row bottom="minor">
@@ -225,9 +225,9 @@
               Explain.
             </p>
 
-            <sidebyside width="20%">
+            <sidebyside permid="sbs4" width="20%">
 
-              <image>
+              <image permid="im">
 
 							<latex-image>
 								\begin{tikzpicture}
@@ -254,9 +254,9 @@
         Justify your answers.
       </p>
 
-      <sidebyside widths="20% 20% 20% 20%" margins="auto" valign="middle">
+      <sidebyside permid="sbs5" widths="20% 20% 20% 20%" margins="auto" valign="middle">
 
-        <image>
+        <image permid="im1">
 
 				<latex-image>
 					\begin{tikzpicture}
@@ -265,7 +265,7 @@
 				</latex-image>
         </image>
 
-        <image>
+        <image permid="im2">
 
 				<latex-image>
 					\begin{tikzpicture}
@@ -274,7 +274,7 @@
 				</latex-image>
         </image>
 
-        <image>
+        <image permid="im3">
 
 				<latex-image>
 					\begin{tikzpicture}
@@ -283,7 +283,7 @@
 				</latex-image>
         </image>
 
-        <image>
+        <image permid="im4">
 
 				<latex-image>
 					\begin{tikzpicture}
@@ -307,9 +307,9 @@
       </p>
 
 			<!-- TODO: justify these answers a little better -->
-      <sidebyside widths="20% 23% 20%" margins="auto" valign="middle">
+      <sidebyside permid="sbs6" widths="20% 23% 20%" margins="auto" valign="middle">
 
-        <image>
+        <image permid="im1">
 
 					<latex-image>
 						\begin{tikzpicture}
@@ -318,7 +318,7 @@
 					</latex-image>
         </image>
 
-        <image>
+        <image permid="im2">
 
 					<latex-image>
 						\begin{tikzpicture}
@@ -327,7 +327,7 @@
 					</latex-image>
         </image>
 
-        <image>
+        <image permid="im3">
 
 					<latex-image>
 						\begin{tikzpicture}
@@ -403,9 +403,9 @@
               For example:
             </p>
 
-            <sidebyside widths="20% 20%" margins="auto" valign="bottom">
+            <sidebyside permid="sbs7" widths="20% 20%" margins="auto" valign="bottom">
 
-              <image>
+              <image permid="im1">
 
 								<latex-image>
 									\begin{tikzpicture}
@@ -414,7 +414,7 @@
 								</latex-image>
               </image>
 
-              <image>
+              <image permid="im2">
 
 								<latex-image>
 									\begin{tikzpicture}

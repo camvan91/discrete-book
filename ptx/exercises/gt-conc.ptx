@@ -9,9 +9,9 @@
         Explain.
       </p>
 
-      <sidebyside widths="28% 28% 20%" margins="auto" valign="bottom">
+      <sidebyside permid="sbs1" widths="28% 28% 20%" margins="auto" valign="bottom">
 
-        <image>
+        <image permid="im1">
 
               <latex-image>
                 \begin{tikzpicture}[yscale=.7]
@@ -20,7 +20,7 @@
               </latex-image>
         </image>
 
-        <image>
+        <image permid="im2">
 
               <latex-image>
                 \begin{tikzpicture}[yscale=.7]
@@ -29,7 +29,7 @@
               </latex-image>
         </image>
 
-        <image>
+        <image permid="im3">
 
               <latex-image>
                 \begin{tikzpicture}[yscale=1]
@@ -502,9 +502,9 @@
         Consider the graph below:
       </p>
 
-      <sidebyside width="25%">
+      <sidebyside permid="sbs2" width="25%">
 
-        <image>
+        <image permid="im">
 
             <latex-image>
               \begin{tikzpicture}[scale=.8]

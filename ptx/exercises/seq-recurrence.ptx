@@ -16,7 +16,7 @@
         To find this solve the characteristic polynomial, <m>x^2 - x - 2</m>,
         to get characteristic roots <m>x = 2</m> and <m>x=-1</m>.
         Then solve the system
-        <md>
+        <md permid="md">
           <mrow>3 \amp = a + b</mrow>
           <mrow>5 \amp = 2a - b</mrow>
         </md>
@@ -35,7 +35,7 @@
         <m>a_n = 3 + 2^{n+1}</m>.
         We should use telescoping or iteration here.
         For example, telescoping gives
-        <md>
+        <md permid="md">
           <mrow>a_1 - a_0 \amp = 2^1</mrow>
           <mrow>a_2 - a_1 \amp = 2^2</mrow>
           <mrow>a_3 - a_2 \amp = 2^3</mrow>

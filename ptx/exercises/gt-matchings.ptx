@@ -7,9 +7,9 @@
         Find a matching of the bipartite graphs below or explain why no matching exists.
       </p>
 
-      <sidebyside widths="20% 30% 40%" margins="auto" valign="bottom">
+      <sidebyside permid="sbs1" widths="20% 30% 40%" margins="auto" valign="bottom">
 
-        <image>
+        <image permid="im1">
 
             <latex-image>
               \begin{tikzpicture}
@@ -24,7 +24,7 @@
             </latex-image>
         </image>
 
-        <image>
+        <image permid="im2">
 
             <latex-image>
               \begin{tikzpicture}
@@ -42,7 +42,7 @@
             </latex-image>
         </image>
 
-        <image>
+        <image permid="im3">
 
             <latex-image>
               \begin{tikzpicture}
@@ -75,23 +75,23 @@
         (the three circled vertices form the set <m>S</m>).
       </p>
 
-      <sidebyside widths="20% 30% 40%" margins="auto" valign="bottom">
+      <sidebyside permid="sbs2" widths="20% 30% 40%" margins="auto" valign="bottom">
 
-        <image>
+        <image permid="im1">
 
             <latex-image>
               \begin{tikzpicture} \coordinate (a) at (0,0); \coordinate (A) at (0,1); \coordinate (b) at (1,0); \coordinate (B) at (1,1); \coordinate (c) at (2,0); \coordinate (C) at (2,1); \draw (a) \v -- (B) \v -- (c) \v -- (C) \v -- (a) \v -- (A)\v -- (b) \v; \draw[very thick] (a) -- (C) (A) -- (b) (c) -- (B); \end{tikzpicture}
             </latex-image>
         </image>
 
-        <image>
+        <image permid="im2">
 
             <latex-image>
               \begin{tikzpicture} \coordinate (a) at (0,0); \coordinate (A) at (0,1); \coordinate (b) at (1,0); \coordinate (B) at (1,1); \coordinate (c) at (2,0); \coordinate (C) at (2,1); \coordinate (d) at (3,0); \coordinate (D) at (3,1); \draw (a) \v -- (A) \v (b) \v -- (B) \v (c) \v -- (C) \v (d) \v (D)\v; \draw (a) -- (C) -- (b) -- (D) (A) -- (c) (A) -- (d) -- (C); \draw[dashed] (a) circle (7pt) (c) circle (7pt) (d) circle (7pt); \end{tikzpicture}
             </latex-image>
         </image>
 
-        <image>
+        <image permid="im3">
 
             <latex-image>
               \begin{tikzpicture} \coordinate (a) at (0,0); \coordinate (A) at (0,1); \coordinate (b) at (1,0); \coordinate (B) at (1,1); \coordinate (c) at (2,0); \coordinate (C) at (2,1); \coordinate (d) at (3,0); \coordinate (D) at (3,1); \coordinate (e) at (4,0); \coordinate (E) at (4,1); \draw (a) \v (A) \v (b) \v (B) \v (c) \v (C) \v (d) \v (D)\v (e)\v (E) \v; \draw (a) -- (A) (a) -- (B) (A) -- (b) (A) -- (c) (b) -- (C) (B) -- (c) -- (D) (c) -- (E) (C) -- (d) -- (E) (D) -- (e) -- (E); \draw[very thick] (a) -- (A) (b) -- (C) (c) -- (B) (d) -- (E) (e) -- (D); \end{tikzpicture}
@@ -124,9 +124,9 @@
         Is she correct?
       </p>
 
-      <sidebyside width="40%">
+      <sidebyside permid="sbs3" width="40%">
 
-        <image>
+        <image permid="im">
 
             <latex-image>
 
@@ -166,9 +166,9 @@
               How would this help you find a larger matching?
             </p>
 
-            <sidebyside width="40%">
+            <sidebyside permid="sbs4" width="40%">
 
-              <image>
+              <image permid="im">
 
             <latex-image>
 
@@ -196,9 +196,9 @@
               Is the partial matching the largest one that exists in the graph?
             </p>
 
-            <sidebyside width="50%">
+            <sidebyside permid="sbs5" width="50%">
 
-              <image>
+              <image permid="im">
 
             <latex-image>
 
@@ -235,9 +235,9 @@
         In fact, the graph representing agreeable marriages looks like this:
       </p>
 
-      <sidebyside width="90%">
+      <sidebyside permid="sbs6" width="90%">
 
-        <image>
+        <image permid="im">
 
           <latex-image>
             \begin{tikzpicture}

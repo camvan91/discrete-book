@@ -260,9 +260,9 @@
               <m>A \cup \bar B</m>:
             </p>
 
-            <sidebyside width="20%">
+            <sidebyside permid="sbs1" width="20%">
 
-              <image xml:id="A-or-not-B">
+              <image permid="a-or-not-b" xml:id="A-or-not-B">
 
             <latex-image>
               \begin{tikzpicture}[fill=gray!50, scale=.5]
@@ -285,9 +285,9 @@
               <m>\bar{(A \cup B)}</m>:
             </p>
 
-            <sidebyside width="20%">
+            <sidebyside permid="sbs2" width="20%">
 
-              <image xml:id="not-A-or-B">
+              <image permid="not-a-or-b" xml:id="not-A-or-B">
 
                     <latex-image>
                       \begin{tikzpicture}[scale=.5, fill=gray!50]
@@ -307,9 +307,9 @@
               <m>A \cap (B \cup C)</m>:
             </p>
 
-            <sidebyside width="20%">
+            <sidebyside permid="sbs3" width="20%">
 
-              <image xml:id="A-and-B-or-C">
+              <image permid="a-b-or-c" xml:id="A-and-B-or-C">
 
                     <latex-image>
                       \begin{tikzpicture}[fill=gray!50, scale=.5]
@@ -331,9 +331,9 @@
               <m>(A \cap B) \cup C</m>:
             </p>
 
-            <sidebyside width="20%">
+            <sidebyside permid="sbs4" width="20%">
 
-              <image xml:id="A-and-B-cup-C">
+              <image permid="a-b-cup-c" xml:id="A-and-B-cup-C">
 
             <latex-image>
               \begin{tikzpicture}[fill=gray!50, scale=.5]
@@ -356,9 +356,9 @@
               <m>\bar A \cap B \cap \bar C</m>:
             </p>
 
-            <sidebyside width="20%">
+            <sidebyside permid="sbs5" width="20%">
 
-              <image xml:id="not-A-cap-B-cap-not-C">
+              <image permid="not-a-cap-b-cap-not-c" xml:id="not-A-cap-B-cap-not-C">
 
             <latex-image>
               \begin{tikzpicture}[fill=gray!50, scale=.5]
@@ -382,9 +382,9 @@
               <m>(A \cup B) \setminus C</m>:
             </p>
 
-            <sidebyside width="20%">
+            <sidebyside permid="sbs6" width="20%">
 
-              <image xml:id="A-or-B-less-C">
+              <image permid="a-or-b-less-c" xml:id="A-or-B-less-C">
 
             <latex-image>
               \begin{tikzpicture}[fill=gray!50, scale=.5]
@@ -412,9 +412,9 @@
         which has the following Venn diagram:
       </p>
 
-      <sidebyside width="20%">
+      <sidebyside permid="sbs7" width="20%">
 
-        <image xml:id="not-A-and-B">
+        <image permid="not-a-b" xml:id="not-A-and-B">
 
             <latex-image>
               \begin{tikzpicture}[fill=gray!50, scale=0.5]

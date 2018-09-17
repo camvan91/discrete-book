@@ -2,9 +2,9 @@
 
 <section permid="sec_sequences-conc" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_sequences-conc">
   <title>Chapter Summary</title>
-  <introduction>
+  <introduction permid="intr">
     <investigation permid="inv">
-      <p permid="p">
+      <p permid="p1">
         Each day your supply of magic chocolate covered espresso beans doubles
         (each one splits in half),
         but then you eat 5 of them.
@@ -33,7 +33,7 @@
         </ol>
       </p>
     </investigation>
-    <p permid="p1">
+    <p permid="p2">
       In this chapter we explored sequences and mathematical induction.
       At first these might not seem entirely related,
       but there is a link: recursive reasoning.
@@ -47,7 +47,7 @@
       we can describe why the case for <m>n = k</m> is true on the basis of why the case for <m>n = k-1</m> is true.
     </p>
 
-    <p permid="p2">
+    <p permid="p3">
       While thinking of problems recursively is often easer than thinking of them absolutely
       (at least after you get used to thinking in this way),
       our ultimate goal is to move beyond this recursive description.
@@ -58,7 +58,7 @@
       In this chapter we saw some methods for moving from recursive descriptions to absolute descriptions.
     </p>
 
-    <p permid="p3">
+    <p permid="p4">
       <ul permid="ul">
         <li permid="l_j">
           <p permid="p">
@@ -101,7 +101,7 @@
       </ul>
     </p>
 
-    <p permid="p4">
+    <p permid="p5">
       Throughout the chapter we tried to understand <em>why</em>
       these facts listed above are true.
       In part, that is what proofs,

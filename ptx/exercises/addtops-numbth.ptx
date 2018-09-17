@@ -88,7 +88,7 @@
           <m>c = d + jn</m> for some integers <m>k</m> and <m>j</m>.
           Consider <m>a-c</m>.
           We have:
-          <me>
+          <me permid="me">
             a-c = b+kn - (d+jn) = b-d + (k-j)n
           </me>.
         </p>

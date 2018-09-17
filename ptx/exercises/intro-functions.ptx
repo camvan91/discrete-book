@@ -16,13 +16,13 @@
       <p permid="p">
         There are 8 different functions.
         In two-line notation these are:
-        <me>
+        <me permid="me1">
           f = \begin{pmatrix} 1 \amp 2 \amp 3 \\ a \amp a\amp a \end{pmatrix} \quad f = \begin{pmatrix} 1 \amp 2 \amp 3 \\ b \amp b \amp b \end{pmatrix}
         </me>
-        <me>
+        <me permid="me2">
           f = \begin{pmatrix} 1 \amp 2 \amp 3 \\ a \amp a\amp b \end{pmatrix} \quad f = \begin{pmatrix} 1 \amp 2 \amp 3 \\ a \amp b \amp a \end{pmatrix} \quad f = \begin{pmatrix} 1 \amp 2 \amp 3 \\ b \amp a\amp a \end{pmatrix}
         </me>
-        <me>
+        <me permid="me3">
           \quad f = \begin{pmatrix} 1 \amp 2 \amp 3 \\ b \amp b \amp a \end{pmatrix} \quad f = \begin{pmatrix} 1 \amp 2 \amp 3 \\ b \amp a\amp b \end{pmatrix} \quad f = \begin{pmatrix} 1 \amp 2 \amp 3 \\ a \amp b \amp b \end{pmatrix}
         </me>
         None of the functions are injective.
@@ -51,13 +51,13 @@
         and for each, you have three choices for the output <m>f(2)</m>.
         Of these functions, 6 are injective, 0 are surjective,
         and 0 are both:
-        <me>
+        <me permid="me1">
           f = \twoline{1 \amp 2}{a\amp a} \quad f = \twoline{1 \amp 2}{b \amp b} \quad f = \twoline{1 \amp 2}{c \amp c}
         </me>
-        <me>
+        <me permid="me2">
           f = \twoline{1 \amp 2}{a\amp b} \quad f = \twoline{1 \amp 2}{a \amp c} \quad f = \twoline{1 \amp 2}{b \amp c}
         </me>
-        <me>
+        <me permid="me3">
           f = \twoline{1 \amp 2}{b \amp a} \quad f = \twoline{1 \amp 2}{c \amp a} \quad f = \twoline{1 \amp 2}{c \amp b}
         </me>
       </p>
@@ -70,7 +70,7 @@
         Consider the function <m>f:\{1,2,3,4,5\} \to \{1,2,3,4\}</m> given by the table below:
       </p>
 
-      <sidebyside>
+      <sidebyside permid="sbs1">
 
         <tabular>
           <row bottom="minor">
@@ -125,9 +125,9 @@
         Consider the function <m>f:\{1,2,3,4\} \to \{1,2,3,4\}</m> given by the graph below.
       </p>
 
-      <sidebyside width="45%">
+      <sidebyside permid="sbs2" width="45%">
 
-        <image xml:id="graph-function-ques">
+        <image permid="graph-function-ques" xml:id="graph-function-ques">
 
               <latex-image>
                 \begin{tikzpicture}[scale=1]

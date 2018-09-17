@@ -2,11 +2,11 @@
 
 <section permid="sec_recurrence" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_recurrence">
   <title>Solving Recurrence Relations</title>
-  <introduction>
+  <introduction permid="intr">
     <investigation permid="inv">
-      <p permid="p">
+      <p permid="p1">
         Consider the recurrence relation
-        <me>
+        <me permid="me">
           a_n = 5a_{n-1} - 6a_{n-2}
         </me>.
         <ol permid="ol">
@@ -35,7 +35,7 @@
         </ol>
       </p>
     </investigation>
-    <p permid="p1">
+    <p permid="p2">
       We have seen that it is often easier to find recursive definitions than closed formulas.
       Lucky for us,
       there are a few techniques for converting recursive definitions to closed formulas.
@@ -77,7 +77,7 @@
       </solution>
     </example>
 
-    <p permid="p2">
+    <p permid="p3">
       We are going to try to <em>solve</em>
       these recurrence relations.
       By this we mean something very similar to solving differential equations:
@@ -102,7 +102,7 @@
           Indeed, <m>2^1 + 1 = 3</m>, which is what we want.
           To check that our proposed solution satisfies the recurrence relation,
           try plugging it in.
-          <md>
+          <md permid="md">
             <mrow>2a_{n-1} - 1 \amp = 2(2^{n-1} + 1) - 1</mrow>
             <mrow>\amp = 2^n + 2 - 1</mrow>
             <mrow>\amp = 2^n +1</mrow>
@@ -117,25 +117,25 @@
       </solution>
     </example>
 
-    <p permid="p3">
+    <p permid="p4">
       Sometimes we can be clever and solve a recurrence relation by inspection.
       We generate the sequence using the recurrence relation and keep track of what we are doing so that we can see how to jump to finding just the <m>a_n</m> term.
       Here are two examples of how you might do that.
     </p>
 
-    <p permid="p4">
+    <p permid="p5">
       <term>Telescoping</term>
           <idx><h>telescoping</h></idx>
       refers to the phenomenon when many terms in a large sum cancel out - so the sum
       <q>telescopes.</q> For example:
-      <me>
+      <me permid="me">
         (2 - 1) + (3 - 2) + (4 - 3) + \cdots + (100 - 99) + (101 - 100) = -1 + 101
       </me>
       because every third term looks like:
       <m>2 + -2 = 0</m>, and then <m>3 + -3 = 0</m> and so on.
     </p>
 
-    <p permid="p5">
+    <p permid="p6">
       We can use this behavior to solve recurrence relations.
       Here is an example.
     </p>
@@ -163,7 +163,7 @@
         <p permid="p2">
           Now use this equation over and over again,
           changing <m>n</m> each time:
-          <md>
+          <md permid="md">
             <mrow>a_1 - a_0 \amp = 1</mrow>
             <mrow>a_2 - a_1 \amp = 2</mrow>
             <mrow>a_3 - a_2 \amp = 3</mrow>
@@ -178,7 +178,7 @@
           We already know this can be simplified to <m>\frac{n(n+1)}{2}</m>.
           What happens on the left-hand side?
           We get
-          <me>
+          <me permid="me">
             (a_1 - a_0) + (a_2 - a_1) + (a_3 - a_2) + \cdots (a_{n-1} - a_{n-2})+ (a_n - a_{n-1})
           </me>.
         </p>
@@ -191,7 +191,7 @@
           But we know that <m>a_0 = 4</m>.
           So the solution to the recurrence relation,
           subject to the initial condition is
-          <me>
+          <me permid="me">
             a_n = \frac{n(n+1)}{2} + 4
           </me>.
         </p>
@@ -203,7 +203,7 @@
       </solution>
     </example>
 
-    <p permid="p6">
+    <p permid="p7">
       The above example shows a way to solve recurrence relations of the form <m>a_n = a_{n-1} + f(n)</m> where
       <m>\sum_{k = 1}^n f(k)</m> has a known closed formula.
       If you rewrite the recurrence relation as <m>a_n - a_{n-1} = f(n)</m>,
@@ -213,7 +213,7 @@
       which is why we need to know the closed formula for that sum.
     </p>
 
-    <p permid="p7">
+    <p permid="p8">
       However, telescoping will not help us with a recursion such as
       <m>a_n = 3a_{n-1} + 2</m> since the left-hand side will not telescope.
       You will have <m>-3a_{n-1}</m>'s but only one <m>a_{n-1}</m>.
@@ -221,7 +221,7 @@
       <term>iteration</term>.
     </p>
 
-    <p permid="p8">
+    <p permid="p9">
       We have already seen an example of iteration when we found the closed formula for arithmetic and geometric sequences.
       The idea is, we <em>iterate</em>
           <idx><h>iteration</h></idx>
@@ -234,7 +234,7 @@
       to get from <m>a_n = a + d + d + d + \cdots + d</m> to <m>a_n = a + dn</m>.
     </p>
 
-    <p permid="p9">
+    <p permid="p10">
       To see how this works,
       let's go through the same example we used for telescoping,
       but this time use iteration.
@@ -250,7 +250,7 @@
         <p permid="p1">
           Again, start by writing down the recurrence relation when <m>n = 1</m>.
           This time, don't subtract the <m>a_{n-1}</m> terms to the other side:
-          <me>
+          <me permid="me">
             a_1 = a_0 + 1
           </me>.
         </p>
@@ -258,7 +258,7 @@
         <p permid="p2">
           Now <m>a_2 = a_1 + 2</m>, but we know what <m>a_1</m> is.
           By substitution, we get
-          <me>
+          <me permid="me">
             a_2 = (a_0 + 1) + 2
           </me>.
         </p>
@@ -266,7 +266,7 @@
         <p permid="p3">
           Now go to <m>a_3 = a_2 + 3</m>,
           using our known value of <m>a_2</m>:
-          <me>
+          <me permid="me">
             a_3 = ((a_0 + 1) + 2) + 3
           </me>.
         </p>
@@ -275,7 +275,7 @@
           We notice a pattern.
           Each time, we take the previous term and add the current index.
           So
-          <me>
+          <me permid="me">
             a_n = ((((a_0 + 1) +2)+3)+\cdots + n-1) + n
           </me>.
         </p>
@@ -284,14 +284,14 @@
           Regrouping terms,
           we notice that <m>a_n</m> is just <m>a_0</m> plus the sum of the integers from <m>1</m> to <m>n</m>.
           So, since <m>a_0 = 4</m>,
-          <me>
+          <me permid="me">
             a_n = 4 + \frac{n(n+1)}{2}
           </me>.
         </p>
       </solution>
     </example>
 
-    <p permid="p10">
+    <p permid="p11">
       Of course in this case we still needed to know formula for the sum of <m>1,\ldots,n</m>.
       Let's try iteration with a sequence for which telescoping doesn't work.
     </p>
@@ -307,7 +307,7 @@
         <p permid="p1">
           Again, we iterate the recurrence relation,
           building up to the index <m>n</m>.
-          <md>
+          <md permid="md">
             <mrow>a_1 \amp = 3a_0 + 2</mrow>
             <mrow>a_2 \amp = 3(a_1) + 2 = 3(3a_0 + 2) + 2</mrow>
             <mrow>a_3 \amp = 3[a_2] + 2 = 3[3(3a_0 + 2) + 2] + 2</mrow>
@@ -319,7 +319,7 @@
         <p permid="p2">
           It is difficult to see what is happening here because we have to distribute all those 3's.
           Let's try again, this time simplifying a bit as we go.
-          <md>
+          <md permid="md">
             <mrow>a_1 \amp = 3a_0 + 2</mrow>
             <mrow>a_2 \amp = 3(a_1) + 2 = 3(3a_0 + 2) + 2 = 3^2a_0 + 2\cdot 3 + 2</mrow>
             <mrow>a_3 \amp = 3[a_2] + 2 = 3[3^2a_0 + 2\cdot 3 + 2] + 2 = 3^3 a_0 + 2 \cdot 3^2 + 2 \cdot 3 + 2</mrow>
@@ -337,14 +337,14 @@
           We have seen how to simplify <m>2 + 2\cdot 3 + 2 \cdot 3^2 + \cdots + 2\cdot 3^{n-1}</m>.
           We get <m>\frac{2-2\cdot 3^n}{-2}</m> which simplifies to <m>3^n - 1</m>.
           Putting this together with the first <m>3^n</m> term gives our closed formula:
-          <me>
+          <me permid="me">
             a_n = 2\cdot 3^n - 1
           </me>.
         </p>
       </solution>
     </example>
 
-    <p permid="p11">
+    <p permid="p12">
       Iteration can be messy,
       but when the recurrence relation only refers to one previous term
       (and maybe some function of <m>n</m>)
@@ -383,14 +383,14 @@
       plug it in.
       What happens if we plug in <m>r^n</m> into the recursion above?
       We get
-      <me>
+      <me permid="me">
         r^n - r^{n-1} - 6r^{n-2} = 0
       </me>.
     </p>
 
     <p permid="p3">
       Now solve for <m>r</m>:
-      <me>
+      <me permid="me">
         r^{n-2}(r^2 - r - 6) = 0
       </me>,
       so by factoring, <m>r = -2</m> or <m>r = 3</m>
@@ -426,12 +426,12 @@
       <p permid="p1">
             <idx><h>characteristic roots</h></idx> Given a recurrence relation <m>a_n + \alpha a_{n-1} + \beta a_{n-2} = 0</m>, the
         <term>characteristic polynomial</term> is
-        <me>
+        <me permid="me1">
           x^2 + \alpha x + \beta
         </me>
         giving the
         <term>characteristic equation</term>:
-        <me>
+        <me permid="me2">
           x^2 + \alpha x + \beta = 0
         </me>.
       </p>
@@ -439,7 +439,7 @@
       <p permid="p2">
         If <m>r_1</m> and <m>r_2</m> are two distinct roots of the characteristic polynomial (i.e, solutions to the characteristic equation),
         then the solution to the recurrence relation is
-        <me>
+        <me permid="me">
           a_n = ar_1^n + br_2^n
         </me>,
         where <m>a</m> and <m>b</m> are constants determined by the initial conditions.
@@ -457,16 +457,16 @@
         <p permid="p1">
           Rewrite the recurrence relation <m>a_n - 7a_{n-1} + 10a_{n-2} = 0</m>.
           Now form the characteristic equation:
-          <me>
+          <me permid="me1">
             x^2 - 7x + 10 = 0
           </me>
           and solve for <m>x</m>:
-          <me>
+          <me permid="me2">
             (x - 2) (x - 5) = 0
           </me>
           so <m>x = 2</m> and <m>x = 5</m> are the characteristic roots.
           We therefore know that the solution to the recurrence relation will have the form
-          <me>
+          <me permid="me3">
             a_n = a 2^n + b 5^n
           </me>.
         </p>
@@ -474,7 +474,7 @@
         <p permid="p2">
           To find <m>a</m> and <m>b</m>,
           plug in <m>n =0</m> and <m>n = 1</m> to get a system of two equations with two unknowns:
-          <md>
+          <md permid="md">
             <mrow>2 \amp = a 2^0 + b 5^0 = a + b</mrow>
             <mrow>3 \amp = a 2^1 + b 5^1 = 2a + 5b</mrow>
           </md>
@@ -483,7 +483,7 @@
         <p permid="p3">
           Solving this system gives <m>a = \frac{7}{3}</m> and
           <m>b = -\frac{1}{3}</m> so the solution to the recurrence relation is
-          <me>
+          <me permid="me">
             a_n = \frac{7}{3}2^n - \frac{1}{3} 3^n
           </me>.
         </p>
@@ -527,7 +527,7 @@
         Suppose the recurrence relation
         <m>a_n = \alpha a_{n-1} + \beta a_{n-2}</m> has a characteristic polynomial with only one root <m>r</m>.
         Then the solution to the recurrence relation is
-        <me>
+        <me permid="me">
           a_n = ar^n + bnr^n
         </me>
         where <m>a</m> and <m>b</m> are constants determined by the initial conditions.
@@ -550,27 +550,27 @@
         <p permid="p">
           The characteristic polynomial is <m>x^2 - 6x + 9</m>.
           We solve the characteristic equation
-          <me>
+          <me permid="me1">
             x^2 - 6x + 9 = 0
           </me>
           by factoring:
-          <me>
+          <me permid="me2">
             (x - 3)^2 = 0
           </me>
           so <m>x =3</m> is the only characteristic root.
           Therefore we know that the solution to the recurrence relation has the form
-          <me>
+          <me permid="me3">
             a_n = a 3^n + bn3^n
           </me>
           for some constants <m>a</m> and <m>b</m>.
           Now use the initial conditions:
-          <md>
+          <md permid="md">
             <mrow>a_0 = 1 \amp = a 3^0 + b\cdot 0 \cdot 3^0 = a</mrow>
             <mrow>a_1 = 4 \amp = a\cdot 3 + b\cdot 1 \cdot3 = 3a + 3b</mrow>
           </md>.
           Since <m>a = 1</m>, we find that <m>b = \frac{1}{3}</m>.
           Therefore the solution to the recurrence relation is
-          <me>
+          <me permid="me4">
             a_n = 3^n + \frac{1}{3}n3^n
           </me>.
         </p>

@@ -161,7 +161,7 @@
           Answer 1 and answer 2 are both correct answers to the same question,
           so they must be equal.
           Therefore,
-          <me>
+          <me permid="me">
             1 + 2 + 3 + \cdots + n = {n+1 \choose 2}
           </me>
         </p>
@@ -385,7 +385,7 @@
           <li permid="l_c">
             <p permid="p">
               An example of the Hockey Stick Theorem:
-              <me>
+              <me permid="me">
                 {1 \choose 1} + {2 \choose 1} + {3 \choose 1} + {4 \choose 1} + {5 \choose 1} = {6 \choose 2}
               </me>
             </p>
@@ -448,7 +448,7 @@
           <li permid="l_l">
             <p permid="p">
               Use the above parts to give a combinatorial proof for the identity
-              <me>
+              <me permid="me">
                 {n \choose 0} + 2{n \choose 1} + 2^2{n \choose 2} + 2^3{n \choose 3} + \cdots + 2^n{n \choose n} = 3^n
               </me>.
             </p>
@@ -543,7 +543,7 @@
         the <q>e</q>s in <m>{4 \choose 2}</m> ways and then select one of the remaining two spots to put the <q>n</q>
         (placing the <q>g</q> in the last spot).
         This gives the answer
-        <me>
+        <me permid="me">
           {9 \choose 3}{6 \choose 2}{4 \choose 2}{2\choose 1}{1\choose 1}
         </me>.
       </p>
@@ -552,7 +552,7 @@
         Alternatively,
         we could select the positions of the letters in the opposite order,
         which would give an answer
-        <me>
+        <me permid="me">
           {9 \choose 1}{8\choose 1}{7 \choose 2}{5\choose 2}{3\choose 3}
         </me>.
       </p>
@@ -560,7 +560,7 @@
       <p permid="p3">
         (where the 3 <q>r</q>s go in the remaining 3 spots).
         These two expressions are equal:
-        <me>
+        <me permid="me">
           {9 \choose 3}{6 \choose 2}{4 \choose 2}{2\choose 1}{1\choose 1} = {9 \choose 1}{8\choose 1}{7 \choose 2}{5\choose 2}{3\choose 3}
         </me>.
       </p>
@@ -614,7 +614,7 @@
     <statement>
       <p permid="p">
         Establish the identity below using a combinatorial proof.
-        <me>
+        <me permid="me">
           {2 \choose 2}{n \choose 2} + {3 \choose 2}{n-1 \choose 2} + {4\choose 2}{n-2 \choose 2} + \cdots + {n\choose 2}{2\choose 2} = {n+3 \choose 5}
         </me>.
       </p>
@@ -651,14 +651,14 @@
           In that case there are <m>{n \choose 2}</m> choices for the bottom two numbers and
           <m>{2 \choose 2}</m> choices for the top number.
           Thus the number of 5 element subsets is
-          <me>
+          <me permid="me">
             {2 \choose 2}{n \choose 2} + {3 \choose 2}{n-1 \choose 2} + {4\choose 2}{n-2 \choose 2} + \cdots + {n\choose 2}{2\choose 2}
           </me>.
         </p>
 
         <p permid="p4">
           Since the two answers correctly answer the same question, we have
-          <me>
+          <me permid="me">
             {2 \choose 2}{n \choose 2} + {3 \choose 2}{n-1 \choose 2} + {4\choose 2}{n-2 \choose 2} + \cdots + {n\choose 2}{2\choose 2} = {n+3 \choose 5}
           </me>.
         </p>

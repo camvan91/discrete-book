@@ -2,7 +2,7 @@
 
 <section permid="sec_seq-arithgeom" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_seq-arithgeom">
   <title>Arithmetic and Geometric Sequences</title>
-  <introduction>
+  <introduction permid="intr">
     <investigation permid="inv">
       <p permid="p1">
         For the patterns of dots below,
@@ -14,9 +14,9 @@
         <ol permid="ol">
           <li permid="l_j">
 
-            <sidebyside width="65%">
+            <sidebyside permid="sbs1" width="65%">
 
-              <image xml:id="inv_dots-seq1">
+              <image permid="inv_dots-seq1" xml:id="inv_dots-seq1">
 
         <latex-image>
           \begin{tikzpicture}
@@ -38,9 +38,9 @@
 
           <li permid="l_s">
 
-            <sidebyside width="65%">
+            <sidebyside permid="sbs2" width="65%">
 
-              <image xml:id="inv_dots-seq2">
+              <image permid="inv_dots-seq2" xml:id="inv_dots-seq2">
 
         <latex-image>
           \begin{tikzpicture}
@@ -67,9 +67,9 @@
 
           <li permid="l_b">
 
-            <sidebyside width="90%">
+            <sidebyside permid="sbs3" width="90%">
 
-              <image xml:id="inv_dots-seq3">
+              <image permid="inv_dots-seq3" xml:id="inv_dots-seq3">
 
         <latex-image>
           \begin{tikzpicture}
@@ -94,13 +94,13 @@
         </ol>
       </p>
     </investigation>
-    <p permid="p1">
+    <p permid="p3">
       We now turn to the question of finding closed formulas for particular types of sequences.
     </p>
 
     <assemblage permid="asm-arithmetic-sequences">
       <title>Arithmetic Sequences</title>
-      <p permid="p1">
+      <p permid="p4">
         If the terms of a sequence differ by a constant,
         we say the sequence is <term>arithmetic</term>.
             <idx><h>arithmetic sequence</h></idx>
@@ -109,16 +109,16 @@
         is <m>d</m>, then we have,
       </p>
 
-      <p permid="p2">
+      <p permid="p5">
         Recursive definition: <m>a_n = a_{n-1} + d</m> with <m>a_0 = a</m>.
       </p>
 
-      <p permid="p3">
+      <p permid="p6">
         Closed formula: <m>a_n = a + dn</m>.
       </p>
     </assemblage>
 
-    <p permid="p2">
+    <p permid="p7">
       How do we know this?
       For the recursive definition,
       we need to specify <m>a_0</m>.
@@ -128,14 +128,14 @@
       the difference between successive terms is some constant,
       say <m>d</m>.
       So <m>a_n - a_{n-1} = d</m>, or in other words,
-      <me>
+      <me permid="me">
         a_0 = a \qquad a_n=a_{n-1}+d
       </me>.
     </p>
 
-    <p permid="p3">
+    <p permid="p8">
       To find a closed formula, first write out the sequence in general:
-      <md>
+      <md permid="md">
         <mrow>a_0 \amp = a</mrow>
         <mrow>a_1 \amp = a_0 + d = a+d</mrow>
         <mrow>a_2 \amp = a_1 + d = a+d+d = a+2d</mrow>
@@ -144,7 +144,7 @@
       </md>
     </p>
 
-    <p permid="p4">
+    <p permid="p9">
       We see that to find the <m>n</m>th term,
       we need to start with <m>a</m> and then add <m>d</m> a bunch of times.
       In fact, add it <m>n</m> times.
@@ -196,20 +196,20 @@
       </solution>
     </example>
 
-    <p permid="p5">
+    <p permid="p10">
       What about sequences like <m>2, 6, 18, 54, \ldots</m>?
       This is not arithmetic because the difference between terms is not constant.
       However, the <em>ratio</em> between successive terms is constant.
       We call such sequences <term>geometric</term>.
     </p>
 
-    <p permid="p6">
+    <p permid="p11">
       The recursive definition for the geometric sequence with initial term <m>a</m> and common ratio <m>r</m> is
       <m>a_n = a_{n}\cdot r; a_0 = a</m>.
       To get the next term we multiply the previous term by <m>r</m>.
       We can find the closed formula like we did for the arithmetic progression.
       Write
-      <md>
+      <md permid="md">
         <mrow>a_0 \amp = a</mrow>
         <mrow>a_1 \amp = a_0\cdot r</mrow>
         <mrow>a_2 \amp = a_1 \cdot r = a_0\cdot r\cdot r = a_0\cdot r^2</mrow>
@@ -222,7 +222,7 @@
 
     <assemblage permid="asm-geometric-sequences">
       <title>Geometric Sequences</title>
-      <p permid="p1">
+      <p permid="p12">
         A sequence is called <term>geometric</term>
             <idx><h>geometric sequence</h></idx>
         if the ratio between successive terms is constant.
@@ -231,11 +231,11 @@
         Then we have,
       </p>
 
-      <p permid="p2">
+      <p permid="p13">
         Recursive definition: <m>a_n = ra_{n-1}</m> with <m>a_0 = a</m>.
       </p>
 
-      <p permid="p3">
+      <p permid="p14">
         Closed formula: <m>a_n = a\cdot r^{n}</m>.
       </p>
     </assemblage>
@@ -281,7 +281,7 @@
       </solution>
     </example>
 
-    <p permid="p7">
+    <p permid="p15">
       In the examples and formulas above,
       we assumed that the <em>initial</em> term was <m>a_0</m>.
       If your sequence starts with <m>a_1</m>,
@@ -294,7 +294,7 @@
     </p>
 
     <remark>
-      <p permid="p8">
+      <p permid="p16">
         If you look at other textbooks or online,
         you might find that their closed formulas for arithmetic and geometric sequences differ from ours.
         Specifically, you might find the formulas
@@ -312,9 +312,9 @@
 
   <subsection permid="ssec-sums-arithmetic-geometric-sequences">
     <title>Sums of Arithmetic and Geometric Sequences</title>
-    <introduction>
+    <introduction permid="intr">
       <investigation permid="inv">
-        <p permid="p">
+        <p permid="p1">
           Your neighborhood grocery store has a candy machine full of Skittles.
 
           <ol permid="ol">
@@ -357,7 +357,7 @@
           </ol>
         </p>
       </investigation>
-      <p permid="p1">
+      <p permid="p2">
         Look at the sequence <m>(T_n)_{n\ge 1}</m> which starts <m>1, 3, 6, 10, 15,\ldots</m>.
         These are called the <term>triangular numbers</term>
             <idx><h>triangular numbers</h></idx>
@@ -366,9 +366,9 @@
         a row of 4 plus a row of 3 plus a row of 2 and a row of 1).
       </p>
 
-      <sidebyside width="50%">
+      <sidebyside permid="sbs" width="50%">
 
-        <image>
+        <image permid="im">
 
           <latex-image>
             \begin{tikzpicture}
@@ -389,7 +389,7 @@
 
       </sidebyside>
 
-      <p permid="p2">
+      <p permid="p3">
         Is this sequence arithmetic?
         No, since <m>3-1 = 2</m> and <m>6-3 = 3 \ne 2</m>,
         so there is no common difference.
@@ -399,7 +399,7 @@
         What to do?
       </p>
 
-      <p permid="p3">
+      <p permid="p4">
         Notice that the differences between terms form an arithmetic sequence:
         <m>2, 3, 4, 5, 6,\ldots</m>.
         This says that the <m>n</m>th term of the sequence <m>1,3,6,10,15,\ldots</m> is the <em>sum</em>
@@ -413,9 +413,9 @@
         we could use this to find a closed formula for a sequence whose differences are the terms of that arithmetic sequence.
       </p>
 
-      <p permid="p4">
+      <p permid="p5">
         This should become clearer if we write the triangular numbers like this:
-        <md>
+        <md permid="md">
           <mrow>1 \amp = 1</mrow>
           <mrow>3 \amp = 1+2</mrow>
           <mrow>6 \amp = 1 + 2 + 3</mrow>
@@ -425,7 +425,7 @@
         </md>.
       </p>
 
-      <p permid="p5">
+      <p permid="p6">
         Consider how we could find the sum of the first 100 positive integers
         (that is, <m>T_{100}</m>).
         Instead of adding them in order,
@@ -440,7 +440,7 @@
         who discovered it as a child when his unpleasant elementary teacher thought he would keep the class busy by requiring them to compute the lengthy sum.
         </fn></p>
 
-      <p permid="p6">
+      <p permid="p7">
         In general, using this same sort of regrouping,
         we find that <m>T_n = \frac{n(n+1)}{2}</m>.
         Incidentally,
@@ -450,7 +450,7 @@
         the next shakes an additional <m>n-1</m> hands and so on.
       </p>
 
-      <p permid="p7">
+      <p permid="p8">
         The point of all of this is that some sequences,
         while not arithmetic or geometric,
         can be interpreted as the sequence of partial sums of arithmetic and geometric sequences.
@@ -480,7 +480,7 @@
             Then,
           </p>
 
-          <sidebyside>
+          <sidebyside permid="sbs">
 
             <tabular>
               <col halign="right"/>
@@ -545,14 +545,14 @@
             So <m>n</m> ranges from 0 to 156, giving 157 terms in the sum.
             This is the number of 472's in the sum for <m>2S</m>.
             Thus
-            <me>
+            <me permid="me">
               2S = 157\cdot 472 = 74104
             </me>
           </p>
 
           <p permid="p3">
             It is now easy to find <m>S</m>:
-            <me>
+            <me permid="me">
               S = 74104/2 = 37052
             </me>
           </p>
@@ -596,7 +596,7 @@
             Now reverse and add:
           </p>
 
-          <sidebyside>
+          <sidebyside permid="sbs">
 
             <tabular>
               <col halign="right"/>
@@ -643,7 +643,7 @@
 
           <p permid="p3">
             Since there are <m>n-2</m> terms, we get
-            <me>
+            <me permid="me">
               2S = (n-2)(4n+4)\qquad \mbox{ so } \qquad S = \frac{(n-2)(4n+4)}{2}
             </me>
           </p>
@@ -668,7 +668,7 @@
             you get a sequence of differences:
             <m>1,4,7,10,13, \ldots</m>, which is an arithmetic sequence.
             Written another way:
-            <md>
+            <md permid="md">
               <mrow>a_0 \amp = 2</mrow>
               <mrow>a_1 \amp = 2+1</mrow>
               <mrow>a_2 \amp = 2+1+4</mrow>
@@ -676,7 +676,7 @@
             </md>
             and so on.
             We can write the general term of <m>(a_n)</m> in terms of the arithmetic sequence as follows:
-            <me>
+            <me permid="me">
               a_n = 2 + 1 + 4 + 7 + 10 + \cdots + (1+3(n-1))
             </me>
             (we use <m>1+3(n-1)</m> instead of <m>1+3n</m> to get the indices to line up correctly;
@@ -688,7 +688,7 @@
             This just means we need to keep the 2 out of the reverse part:
           </p>
 
-          <sidebyside>
+          <sidebyside permid="sbs">
 
             <tabular>
               <col halign="right"/>
@@ -742,7 +742,7 @@
 
           <p permid="p4">
             Finally, solving for <m>a_n</m> we get
-            <me>
+            <me permid="me">
               a_n = \d \frac{4+(3n-1)n}{2}
             </me>.
             Just to be sure, we check <m>a_0 = \frac{4}{2} = 2</m>,
@@ -785,7 +785,7 @@
         To better see what happened in the above example, try writing it this way:
       </p>
 
-      <sidebyside>
+      <sidebyside permid="sbs">
 
         <tabular>
           <col halign="right"/>
@@ -834,7 +834,7 @@
             So we have
           </p>
 
-          <sidebyside>
+          <sidebyside permid="sbs">
 
             <tabular>
               <col halign="right"/>
@@ -879,7 +879,7 @@
             We get:
           </p>
 
-          <sidebyside>
+          <sidebyside permid="sbs">
 
             <tabular>
               <col/>

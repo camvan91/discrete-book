@@ -2,7 +2,7 @@
 
 <section permid="sec_intro-sets" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_intro-sets">
   <title>Sets</title>
-  <introduction>
+  <introduction permid="intr">
     <p permid="p1">
       The most fundamental objects we will use in our studies
       (and really in all of math)
@@ -42,7 +42,7 @@
     <p permid="p1">
       We need some notation to make talking about sets easier.
       Consider,
-      <me>
+      <me permid="me">
         A = \{1, 2, 3\}
       </me>.
     </p>
@@ -53,7 +53,7 @@
       We use curly braces <q><m>\{,~~ \}</m></q>
       to enclose elements of a set.
       Some more notation:
-      <me>
+      <me permid="me">
         a \in \{a, b, c\}
       </me>.
     </p>
@@ -66,7 +66,7 @@
       and <m>c</m>.
       Note that this is a true statement.
       It would also be true to say that <m>d</m> is not in that set:
-      <me>
+      <me permid="me">
         d \not\in \{a, b, c\}
       </me>.
     </p>
@@ -75,7 +75,7 @@
       Be warned: we write <q><m>x \in A</m></q>
       when we wish to express that one of the elements of the set <m>A</m> is <m>x</m>.
       For example, consider the set,
-      <me>
+      <me permid="me">
         A = \{1, b, \{x, y, z\}, \emptyset\}
       </me>.
     </p>
@@ -108,12 +108,12 @@
       For instance,
       if we want <m>A</m> to be the set of all even natural numbers,
       would could write,
-      <me>
+      <me permid="me1">
         A = \{0, 2, 4, 6, \ldots\}
       </me>,
       but this is a little imprecise.
       A better way would be
-      <me>
+      <me permid="me2">
         A = \{x \in \N \st \exists n\in \N ( x = 2 n)\}
       </me>.
     </p>
@@ -127,7 +127,7 @@
       </q> is read <q>there exists an <m>n</m> in the natural numbers for which <m>x</m> is two times <m>n</m></q>
       (in other words, <m>x</m> is even).
       Slightly easier might be,
-      <me>
+      <me permid="me">
         A = \{x \st x\text{ is even} \}
       </me>.
     </p>
@@ -560,14 +560,14 @@
       We have already said what it means for two sets to be equal:
       they have exactly the same elements.
       Thus, for example,
-      <me>
+      <me permid="me">
         \{1, 2, 3\} = \{2, 1, 3\}
       </me>.
     </p>
 
     <p permid="p2">
       (Remember, the order the elements are written down in does not matter.) Also,
-      <me>
+      <me permid="me">
         \{1, 2, 3\} = \{1, 1+1, 1+1+1\} = \{I, II, III\}
       </me>
       since these are all ways to write the set containing the first three positive integers
@@ -714,7 +714,7 @@
           <m>\pow(A)</m> is a set of sets,
           all of which are subsets of <m>A</m>.
           So
-          <me>
+          <me permid="me">
             \pow(A) = \{ \emptyset, \{1\}, \{2\}, \{3\}, \{1,2\}, \{1, 3\}, \{2,3\}, \{1,2,3\}\}
           </me>.
         </p>
@@ -835,7 +835,7 @@
       <h>union</h>
       </idx> of the two sets.
       Symbolically,
-      <me>
+      <me permid="me">
         C = A \cup B
       </me>,
       read, <q><m>C</m> is the union of <m>A</m> and <m>B</m>,</q>
@@ -852,7 +852,7 @@
       <h>intersection</h>
       </idx>.
       We write,
-      <me>
+      <me permid="me">
         C = A \cap B
       </me>
       and say, <q><m>C</m> is the intersection of <m>A</m> and <m>B</m>,</q>
@@ -875,7 +875,7 @@
       <idx>
       <h>complement</h>
       </idx> of <m>A</m>, and write,
-      <me>
+      <me permid="me">
         B = \bar A
       </me>
       when <m>B</m> contains every element not contained in <m>A</m>.
@@ -887,7 +887,7 @@
     <p permid="p4">
       Of course we can perform more than one operation at a time.
       For example, consider
-      <me>
+      <me permid="me">
         A \cap \bar B
       </me>.
     </p>
@@ -904,7 +904,7 @@
       <idx>
       <h>difference, of sets</h>
       </idx>:
-      <me>
+      <me permid="me">
         A \cap \bar B = A \setminus B
       </me>.
     </p>
@@ -1006,21 +1006,21 @@
       <m>x</m> is an element of <m>B</m>
       (or both).
       That is,
-      <me>
+      <me permid="me">
         x \in A \cup B \qquad \Iff \qquad x \in A \vee x \in B
       </me>.
     </p>
 
     <p permid="p8">
       Similarly,
-      <me>
+      <me permid="me">
         x \in A \cap B \qquad \Iff \qquad x \in A \wedge x \in B
       </me>.
     </p>
 
     <p permid="p9">
       Also,
-      <me>
+      <me permid="me">
         x \in \bar A \qquad \Iff \qquad \neg (x \in A)
       </me>.
       which says <m>x</m> is an element of the complement of <m>A</m> if <m>x</m> is not an element of <m>A</m>.
@@ -1098,9 +1098,9 @@
       We can also represent cardinality of a particular set by putting the number in the corresponding region.
     </p>
 
-    <sidebyside widths="34% 34%" margins="auto">
+    <sidebyside permid="sbs1" widths="34% 34%" margins="auto">
       <!-- <figure> -->
-      <image xml:id="two-set-venn-empty">
+      <image permid="two-set-venn-empty" xml:id="two-set-venn-empty">
 
           <latex-image>
             \begin{tikzpicture}[fill=gray!50,scale=0.85]
@@ -1110,7 +1110,7 @@
       </image>
       <!-- </figure> -->
       <!-- <figure> -->
-      <image xml:id="three-set-empty">
+      <image permid="three-set-empty" xml:id="three-set-empty">
 
           <latex-image>
             \begin{tikzpicture}[scale=.60, fill=gray!50]
@@ -1129,9 +1129,9 @@
       For example, we could draw <m>A \cap B</m> as:
     </p>
 
-    <sidebyside width="34%">
+    <sidebyside permid="sbs2" width="34%">
 
-      <image xml:id="two-set-cap">
+      <image permid="two-set-cap" xml:id="two-set-cap">
 
         <latex-image>
           \begin{tikzpicture}[fill=gray!50,scale=0.85]
@@ -1151,9 +1151,9 @@
       or equivalently <m>A \setminus B</m>:
     </p>
 
-    <sidebyside width="34%">
+    <sidebyside permid="sbs3" width="34%">
 
-      <image xml:id="two-set-a-minus-b">
+      <image permid="two-set-a-minus-b" xml:id="two-set-a-minus-b">
 
         <latex-image>
           \begin{tikzpicture}[fill=gray!50,scale=0.85]
@@ -1173,9 +1173,9 @@
       as seen below.
     </p>
 
-    <sidebyside width="26%">
+    <sidebyside permid="sbs4" width="26%">
 
-      <image xml:id="three-set-complicated">
+      <image permid="three-set-complicated" xml:id="three-set-complicated">
 
         <latex-image>
           \begin{tikzpicture}[fill=gray!50,scale=0.65]
@@ -1202,7 +1202,7 @@
       That region is <m>(A \cap C) \cap \bar B</m>.
       So the above Venn diagram also represents <m>C \cap \bar{\left((A\cap C)\cap \bar B\right)}</m>.
       So using just the picture, we have determined that
-      <me>
+      <me permid="me">
         (B \cap C) \cup (C \cap \bar A) = C \cap \bar{\left((A\cap C)\cap \bar B\right)}
       </me>.
     </p>

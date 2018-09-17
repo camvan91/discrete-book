@@ -7,9 +7,9 @@
       Which (if any) of the graphs below are the same?
     </p>
 
-    <sidebyside width="18%" margins="auto" valign="bottom">
+    <sidebyside permid="sbs1" width="18%" margins="auto" valign="bottom">
 
-      <image>
+      <image permid="im1">
 
 				<latex-image>
 					\begin{tikzpicture}
@@ -27,7 +27,7 @@
 				</latex-image>
       </image>
 
-      <image>
+      <image permid="im2">
 
 				<latex-image>
 					\begin{tikzpicture}
@@ -45,7 +45,7 @@
 				</latex-image>
       </image>
 
-      <image>
+      <image permid="im3">
 
 				<latex-image>
 					\begin{tikzpicture}
@@ -63,7 +63,7 @@
 				</latex-image>
       </image>
 
-      <image>
+      <image permid="im4">
 
 				<latex-image>
 					\begin{tikzpicture}
@@ -81,7 +81,7 @@
 				</latex-image>
       </image>
 
-      <image>
+      <image permid="im5">
 
 				<latex-image>
 					\begin{tikzpicture}
@@ -107,9 +107,9 @@
       Which (if any) of the graphs below are the same?
     </p>
 
-    <sidebyside width="18%" margins="auto" valign="bottom">
+    <sidebyside permid="sbs2" width="18%" margins="auto" valign="bottom">
 
-      <image>
+      <image permid="im1">
 
 				<latex-image>
 					\begin{tikzpicture}
@@ -128,7 +128,7 @@
 				</latex-image>
       </image>
 
-      <image>
+      <image permid="im2">
 
 				<latex-image>
 					\begin{tikzpicture}
@@ -147,7 +147,7 @@
 				</latex-image>
       </image>
 
-      <image>
+      <image permid="im3">
 
 				<latex-image>
 					\begin{tikzpicture}
@@ -166,7 +166,7 @@
 				</latex-image>
       </image>
 
-      <image>
+      <image permid="im4">
 
 				<latex-image>
 					\begin{tikzpicture}
@@ -262,7 +262,7 @@
     Strange.
     Nowhere in the definition is there talk of dots or lines.
     From the definition, a graph could be
-    <me>
+    <me permid="me">
       (\{a,b,c,d\}, \{\{a,b\}, \{a,c\}, \{b,c\}, \{b,d\}, \{c,d\}\})
     </me>.
     Here we have a graph with four vertices 
@@ -278,9 +278,9 @@
     Thus one way to draw the graph described above is this:
   </p>
 
-  <sidebyside width="25%">
+  <sidebyside permid="sbs3" width="25%">
 
-    <image>
+    <image permid="im">
 
 			<latex-image>
 				\begin{tikzpicture}[scale=0.7]
@@ -296,9 +296,9 @@
     For example either of these:
   </p>
 
-  <sidebyside widths="20% 25%" margins="auto" valign="bottom">
+  <sidebyside permid="sbs4" widths="20% 25%" margins="auto" valign="bottom">
 
-    <image>
+    <image permid="im1">
 
 			<latex-image>
 				\begin{tikzpicture}[scale=0.7]
@@ -307,7 +307,7 @@
 			</latex-image>
     </image>
 
-    <image>
+    <image permid="im2">
 
 			<latex-image>
 				\begin{tikzpicture}[scale=0.7]
@@ -331,7 +331,7 @@
     <statement>
       <p permid="p">
         Are the graphs below equal?
-        <me>
+        <me permid="me">
           G_1 = (\{a,b,c\}, \{\{a,b\}, \{b,c\}\}); \qquad G_2 = (\{a,b,c\}, \{\{a,c\}, \{c, b\}\})
         </me>
         equal?
@@ -361,9 +361,9 @@
     The graphs in the previous example could be drawn like this:
   </p>
 
-  <sidebyside width="60%">
+  <sidebyside permid="sbs5" width="60%">
 
-    <image>
+    <image permid="im">
 
 		 		<latex-image>
 
@@ -416,9 +416,9 @@
         We can draw them as follows:
       </p>
 
-      <sidebyside width="25%" margins="auto" valign="bottom">
+      <sidebyside permid="sbs" width="25%" margins="auto" valign="bottom">
 
-        <image>
+        <image permid="im1">
 
 					<latex-image>
 						\begin{tikzpicture}
@@ -427,7 +427,7 @@
 					</latex-image>
         </image>
 
-        <image>
+        <image permid="im2">
 
 					<latex-image>
 						\begin{tikzpicture}
@@ -526,9 +526,9 @@
         At this point it might be helpful to draw the graphs to see how they should match up.
       </p>
 
-      <sidebyside widths="23% 23%" margins="auto" valign="bottom">
+      <sidebyside permid="sbs" widths="23% 23%" margins="auto" valign="bottom">
 
-        <image>
+        <image permid="im1">
 
 						<latex-image>
 
@@ -546,7 +546,7 @@
 						</latex-image>
         </image>
 
-        <image>
+        <image permid="im2">
 
 						<latex-image>
 
@@ -587,17 +587,17 @@
         It is definitely a bijection.
         We must make sure that the edges are respected.
         The four edges in <m>G_1</m> are
-        <me>
+        <me permid="me">
           \{a,b\}, \{a,c\}, \{a,d\}, \{c,d\}
         </me>
       </p>
 
       <p permid="p6">
         Under the proposed isomorphism these become
-        <me>
+        <me permid="me1">
           \{g(a), g(b)\}, \{g(a), g(c)\}, \{g(a), g(d)\}, \{g(c), g(d)\}
         </me>
-        <me>
+        <me permid="me2">
           \{c,d\}, \{c,b\}, \{c,a\}, \{b,a\}
         </me>
         which are precisely the edges in <m>G_2</m>.
@@ -628,9 +628,9 @@
     For example, compare the following pair of graphs:
   </p>
 
-  <sidebyside width="20%" margins="auto">
+  <sidebyside permid="sbs6" width="20%" margins="auto">
 
-    <image>
+    <image permid="im1">
 
 			<latex-image>\begin{tikzpicture}
 			      \foreach \x in {0,...,6}
@@ -638,7 +638,7 @@
 			    \end{tikzpicture}</latex-image>
     </image>
 
-    <image>
+    <image permid="im2">
 
 			<latex-image>\begin{tikzpicture}
 			      \foreach \x in {0,...,4}
@@ -654,9 +654,9 @@
     especially if we draw it like this:
   </p>
 
-  <sidebyside width="20%">
+  <sidebyside permid="sbs7" width="20%">
 
-    <image>
+    <image permid="im">
 
 			 <latex-image>\begin{tikzpicture}
 						 \foreach \x in {0,...,6}
@@ -711,9 +711,9 @@
         Consider the graphs:
       </p>
 
-      <sidebyside widths="18% 18% 18% 18%" margins="auto" valigns="bottom bottom bottom bottom">
+      <sidebyside permid="sbs" widths="18% 18% 18% 18%" margins="auto" valigns="bottom bottom bottom bottom">
 
-        <image>
+        <image permid="im1">
 
 						<latex-image>\begin{tikzpicture}[yscale=.8]
 						      \draw  (-1,0) \vb{\footnotesize $a$} -- (0,0) \vb{\footnotesize $b$} -- (1,0) \vb{\footnotesize $c$} -- (.5,1) \vb{\footnotesize $e$} -- (0,0) -- (-.5,1) \vb{\footnotesize $d$} -- (0,2) \vb{\footnotesize $f$} -- (.5,1) -- (-.5,1) -- (-1,0);
@@ -721,7 +721,7 @@
 						    \end{tikzpicture}</latex-image>
         </image>
 
-        <image>
+        <image permid="im2">
 
 						<latex-image>\begin{tikzpicture}[yscale=.8]
 									\draw  (-1,0) \vb{\footnotesize $a$} -- (0,0) \vb{\footnotesize $b$} -- (1,0) \vb{\footnotesize $c$}  (0,0) -- (-.5,1) \vb{\footnotesize $d$} (-.5,1) -- (-1,0);
@@ -729,7 +729,7 @@
 								\end{tikzpicture}</latex-image>
         </image>
 
-        <image>
+        <image permid="im3">
 
 						<latex-image>\begin{tikzpicture}[yscale=.8]
 									\draw  (-1,0) \vb{\footnotesize $a$} (0,0) \vb{\footnotesize $b$} -- (1,0) \vb{\footnotesize $c$}  (0,0) -- (-.5,1) \vb{\footnotesize $d$} -- (0,2) \vb{\footnotesize $f$} (-1,0) -- (-.5,1);
@@ -737,7 +737,7 @@
 								\end{tikzpicture}</latex-image>
         </image>
 
-        <image>
+        <image permid="im4">
 
 						<latex-image>\begin{tikzpicture}[yscale=.8]
 									\draw  (-1,0) \vb{\footnotesize $a$} -- (0,0) \vb{\footnotesize $b$} -- (1,0) \vb{\footnotesize $c$} -- (.5,1) (0,0) -- (-.5,1) \vb{\footnotesize $d$} -- (0,2) \vb{\footnotesize $f$} -- (.5,1) (-.5,1) -- (-1,0);
@@ -799,9 +799,9 @@
     the following graph is NOT connected because there is no path from <m>a</m> to <m>b</m>:
   </p>
 
-  <sidebyside width="33%">
+  <sidebyside permid="sbs8" width="33%">
 
-    <image xml:id="ex-gt-non-connected">
+    <image permid="ex-gt-non-connected" xml:id="ex-gt-non-connected">
 
 			<latex-image>
 
@@ -963,9 +963,9 @@
       </dl>
     </p>
 
-    <sidebyside widths="18% 20% 15% 24%" margins="auto" valign="bottom">
+    <sidebyside permid="sbs" widths="18% 20% 15% 24%" margins="auto" valign="bottom">
 
-      <image>
+      <image permid="im1">
 
 				<latex-image>
 					\begin{tikzpicture}[scale=1]
@@ -980,7 +980,7 @@
 				</latex-image>
       </image>
 
-      <image>
+      <image permid="im2">
 
 				<latex-image>
 					\begin{tikzpicture}[scale=.6, xscale=1.5]
@@ -990,7 +990,7 @@
 				</latex-image>
       </image>
 
-      <image>
+      <image permid="im3">
 
 				<latex-image>
 					\begin{tikzpicture}[scale=.6]
@@ -1000,7 +1000,7 @@
 				</latex-image>
       </image>
 
-      <image>
+      <image permid="im4">
 
 				<latex-image>
 					\begin{tikzpicture}[scale=.6]

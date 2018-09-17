@@ -54,7 +54,7 @@
             So <m>a_n = an^2 + bn + c</m>.
             Since <m>a_0 = 0</m>, we know <m>c= 0</m>.
             So just solve the system
-            <md>
+            <md permid="md">
               <mrow>2 \amp = a + b</mrow>
               <mrow>6 \amp = 4a + 2b</mrow>
             </md>
@@ -128,9 +128,9 @@
         tetrahedrons), like those pictured here:
       </p>
 
-      <sidebyside widths="8% 18% 26%" valign="bottom" margins="auto">
+      <sidebyside permid="sbs" widths="8% 18% 26%" valign="bottom" margins="auto">
 
-        <image>
+        <image permid="im1">
 
             <latex-image>
               \begin{tikzpicture}
@@ -141,7 +141,7 @@
             </latex-image>
         </image>
 
-        <image>
+        <image permid="im2">
 
             <latex-image>
               \begin{tikzpicture}
@@ -153,7 +153,7 @@
             </latex-image>
         </image>
 
-        <image>
+        <image permid="im3">
 
             <latex-image>
               \begin{tikzpicture}

@@ -285,9 +285,9 @@
         forming a <m>5 \times 7</m> rectangle:
       </p>
 
-      <sidebyside width="60%">
+      <sidebyside permid="sbs1" width="60%">
 
-        <image>
+        <image permid="im">
 
                       <latex-image>
                         \begin{tikzpicture}[scale=.4]
@@ -376,9 +376,9 @@
         the size 2 grid requires 9 toothpicks.
       </p>
 
-      <sidebyside widths="16% 28%" valign="bottom" margins="auto">
+      <sidebyside permid="sbs2" widths="16% 28%" valign="bottom" margins="auto">
 
-        <image>
+        <image permid="im1">
 
                 <latex-image>
                   \begin{tikzpicture}[scale=.8]
@@ -390,7 +390,7 @@
                 </latex-image>
         </image>
 
-        <image>
+        <image permid="im2">
 
                 <latex-image>
                   \begin{tikzpicture}[scale=.8]

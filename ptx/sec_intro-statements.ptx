@@ -2,7 +2,7 @@
 
 <section permid="sec_intro-statements" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_intro-statements">
   <title>Mathematical Statements</title>
-  <introduction>
+  <introduction permid="intr">
     <investigation permid="inv">
       <p permid="p1">
         While walking through a fictional forest,
@@ -34,7 +34,7 @@
             <idx><h>reference, self</h><see>self reference</see></idx>
       </p>
     </investigation>
-    <p permid="p1">
+    <p permid="p3">
       In order to <em>do</em> mathematics,
       we must be able to <em>talk</em> and
       <em>write</em> about mathematics.
@@ -43,7 +43,7 @@
       writing will play a more prominent role in the mathematical process.
     </p>
 
-    <p permid="p2">
+    <p permid="p4">
       Communication in mathematics requires more precision than many other subjects,
       and thus we should take a few pages here to consider the basic building blocks:
       <em>mathematical statements</em>.
@@ -341,7 +341,7 @@
       <p permid="p1">
         An <term>implication</term> or <term>conditional</term>
         is a molecular statement of the form
-        <me>
+        <me permid="me">
           P \imp Q
         </me>
         where <m>P</m> and <m>Q</m> are statements.
@@ -1087,7 +1087,7 @@
       then <m>n+7</m> is not prime.
       This looks like an implication.
       I would like to write something like
-      <me>
+      <me permid="me">
         P(n) \imp \neg P(n+7)
       </me>
       where <m>P(n)</m> means <q> <m>n</m> is prime.</q>
@@ -1137,7 +1137,7 @@
           <description>existential quantifier</description>
         </notation>
 
-        <me>
+        <me permid="me">
           \exists x (x \lt 0)
         </me>
         asserts that there is a number less than 0.
@@ -1160,7 +1160,7 @@
           <description>universal quantifier</description>
         </notation>
 
-        <me>
+        <me permid="me">
           \forall x (x \ge 0)
         </me>
         asserts that every number is greater than or equal to 0.
@@ -1171,7 +1171,7 @@
       As with all mathematical statements,
       we would like to decide whether quantified statements are true or false.
       Consider the statement
-      <me>
+      <me permid="me">
         \forall x \exists y (y \lt x)
       </me>.
       You would read this,
@@ -1201,7 +1201,7 @@
       (in our domain of discourse).
       Thus we see that the statement is false because there is a number which is less than or equal to all other numbers.
       In symbols,
-      <me>
+      <me permid="me">
         \exists x \forall y (y \ge x)
       </me>.
     </p>

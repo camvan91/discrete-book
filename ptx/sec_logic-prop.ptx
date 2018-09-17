@@ -2,7 +2,7 @@
 
 <section permid="sec_propositional" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_propositional">
   <title>Propositional Logic</title>
-  <introduction>
+  <introduction permid="intr">
     <investigation permid="inv">
       <p permid="p1">
         You stumble upon two trolls playing Stratego<registered/>.
@@ -24,7 +24,7 @@
         Recall that all trolls are either always-truth-telling knights or always-lying knaves.
       </p>
     </investigation>
-    <p permid="p">
+    <p permid="p3">
       A <term>proposition</term>
           <idx><h>proposition</h></idx>
       is simply a statement. <term>Propositional logic</term>
@@ -91,7 +91,7 @@
       Here they are:
     </p>
 
-    <sidebyside width="20%" margins="auto">
+    <sidebyside permid="sbs1" width="20%" margins="auto">
 
       <tabular halign="center">
         <col right="minor"/>
@@ -223,7 +223,7 @@
       The truth table for negation looks like this:
     </p>
 
-    <sidebyside>
+    <sidebyside permid="sbs2">
 
       <tabular halign="center">
         <col right="medium"/>
@@ -266,7 +266,7 @@
           Here is the truth table:
         </p>
 
-        <sidebyside>
+        <sidebyside permid="sbs">
 
           <tabular halign="center">
             <col right="minor"/>
@@ -342,7 +342,7 @@
           Here is the full truth table:
         </p>
 
-        <sidebyside>
+        <sidebyside permid="sbs">
 
           <tabular halign="center">
             <col right="minor"/>
@@ -466,7 +466,7 @@
       <m>\neg P \vee Q</m> is identical to the final column in the truth table for <m>P \imp Q</m>:
     </p>
 
-    <sidebyside>
+    <sidebyside permid="sbs">
 
       <tabular halign="center">
         <col right="minor"/>
@@ -551,7 +551,7 @@
           Make a truth table which includes both statements:
         </p>
 
-        <sidebyside>
+        <sidebyside permid="sbs">
 
           <tabular halign="center">
             <col right="minor"/>
@@ -610,10 +610,10 @@
       <title>De Morgan's Laws</title>
       <p permid="p">
             <idx><h>De Morgan's laws</h></idx>
-        <me>
+        <me permid="me1">
           \neg(P \wedge Q) \text{ is logically equivalent to } \neg P \vee \neg Q
         </me>.
-        <me>
+        <me permid="me2">
           \neg(P \vee Q) \text{ is logically equivalent to } \neg P \wedge \neg Q
         </me>.
       </p>
@@ -633,7 +633,7 @@
       <title>Double Negation</title>
       <p permid="p1">
             <idx><h>double negation</h></idx>
-        <me>
+        <me permid="me">
           \neg \neg P \mbox{ is logically equivalent to } P
         </me>.
       </p>
@@ -661,11 +661,11 @@
           and transform it into the other through a sequence of logically equivalent statements.
           Start with <m>\neg(P \imp Q)</m>.
           We can rewrite the implication as a disjunction this is logically equivalent to
-          <me>
+          <me permid="me1">
             \neg(\neg P \vee Q)
           </me>.
           Now apply DeMorgan's law to get
-          <me>
+          <me permid="me2">
             \neg\neg P \wedge \neg Q
           </me>.
           Finally, use double negation to arrive at <m>P \wedge \neg Q</m>
@@ -702,7 +702,7 @@
           So instead, let's make a truth table:
         </p>
 
-        <sidebyside>
+        <sidebyside permid="sbs">
 
           <tabular halign="center">
             <col right="minor"/>
@@ -836,7 +836,7 @@
       The logical form of the argument is then:
     </p>
 
-    <sidebyside>
+    <sidebyside permid="sbs1">
 
       <tabular halign="center">
         <row>
@@ -866,7 +866,7 @@
       If not, consider the following truth table:
     </p>
 
-    <sidebyside>
+    <sidebyside permid="sbs2">
 
       <tabular halign="center">
         <col right="minor"/>
@@ -924,7 +924,7 @@
           Show that
         </p>
 
-        <sidebyside>
+        <sidebyside permid="sbs1">
 
           <tabular halign="center">
             <row>
@@ -952,7 +952,7 @@
           We make a truth table which contains all the lines of the argument form:
         </p>
 
-        <sidebyside>
+        <sidebyside permid="sbs2">
 
           <tabular halign="center">
             <col right="minor"/>
@@ -1021,7 +1021,7 @@
           Decide whether
         </p>
 
-        <sidebyside>
+        <sidebyside permid="sbs1">
 
           <tabular halign="center">
             <row>
@@ -1053,7 +1053,7 @@
           Let's make a truth table containing all four statements.
         </p>
 
-        <sidebyside>
+        <sidebyside permid="sbs2">
 
           <tabular halign="center">
             <col right="minor"/>
@@ -1153,7 +1153,7 @@
           Thus we have discovered a new deduction rule we know <em>is</em> valid:
         </p>
 
-        <sidebyside>
+        <sidebyside permid="sbs3">
 
           <tabular halign="center">
             <row>
@@ -1196,7 +1196,7 @@
     <p permid="p2">
       To write this statement symbolically, we must use quantifiers.
       We can translate as follows:
-      <me>
+      <me permid="me">
         \forall x ((P(x) \wedge x \gt 2) \imp O(x))
       </me>.
       In this case, we are using <m>P(x)</m> to denote
@@ -1234,7 +1234,7 @@
         <p permid="p1">
           Suppose we claim that there is no smallest number.
           We can translate this into symbols as
-          <me>
+          <me permid="me">
             \neg \exists x \forall y (x \le y)
           </me>
           (literally, <q>it is not true that there is a number <m>x</m> such that for all numbers <m>y</m>,
@@ -1247,7 +1247,7 @@
           (between universal and existential).
           So the statement above should be
           <em>logically equivalent</em> to
-          <me>
+          <me permid="me">
             \forall x \exists y (y \lt x)
           </me>.
           Notice that <m>y \lt x</m> is the negation of <m>x \le y</m>.
@@ -1263,7 +1263,7 @@
         <p permid="p">
           Can you switch the order of quantifiers?
           For example, consider the two statements:
-          <me>
+          <me permid="me">
             \forall x \exists y P(x,y) \qquad \mathrm{ and } \qquad \exists y \forall x P(x,y)
           </me>.
           Are these logically equivalent?
@@ -1296,7 +1296,7 @@
           we do have a valid deduction rule:
         </p>
 
-        <sidebyside>
+        <sidebyside permid="sbs">
 
           <tabular halign="center">
             <row bottom="minor">
@@ -1313,7 +1313,7 @@
 
         <p permid="p4">
           Put yet another way, this says that the single statement
-          <me>
+          <me permid="me">
             \exists y \forall x P(x,y) \imp \forall x \exists y P(x,y)
           </me>
           is always true.

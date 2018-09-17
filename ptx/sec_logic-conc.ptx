@@ -2,7 +2,7 @@
 
 <section permid="sec_logic-conc" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_logic-conc">
   <title>Chapter Summary</title>
-  <introduction>
+  <introduction permid="intr">
     <p permid="p1">
       We have considered logic both as its own sub-discipline of mathematics,
       and as a means to help us better understand and write proofs.

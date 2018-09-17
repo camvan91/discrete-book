@@ -2,7 +2,7 @@
 
 <section permid="sec_count-conc" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_count-conc">
   <title>Chapter Summary</title>
-  <introduction>
+  <introduction permid="intr">
     <investigation permid="inv">
       <p permid="p1">
         Suppose you have a huge box of animal crackers containing plenty of each of 10 different animals.
@@ -11,7 +11,7 @@
         The answers are all one of the following:
       </p>
 
-      <sidebyside>
+      <sidebyside permid="sbs">
 
         <tabular>
           <row>
@@ -76,7 +76,7 @@
         </ol>
       </p>
     </investigation>
-    <p permid="p1">
+    <p permid="p3">
       With all the different counting techniques we have mastered in this last chapter,
       it might be difficult to know when to apply which technique.
       Indeed, it is very easy to get mixed up and use the wrong counting method for a given problem.
@@ -85,7 +85,7 @@
       Here are some suggestions that you might find helpful when deciding how to tackle a counting problem and checking whether your solution is correct.
     </p>
 
-    <p permid="p2">
+    <p permid="p4">
       <ul permid="ul">
         <li permid="l_j">
           <p permid="p">
@@ -149,7 +149,7 @@
       </ul>
     </p>
 
-    <p permid="p3">
+    <p permid="p5">
       While we have covered many counting techniques,
       we have really only scratched the surface of the large subject of
       <em>enumerative combinatorics</em>.
@@ -157,7 +157,7 @@
       Counting can be really hard.
     </p>
 
-    <p permid="p4">
+    <p permid="p6">
       In the next chapter,
       we will approach counting questions from a very different direction,
       and in doing so,

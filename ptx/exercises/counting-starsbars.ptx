@@ -60,7 +60,7 @@
       <p permid="p">
         Each of the counting problems below can be solved with stars and bars.
         For each, say what outcome the diagram
-        <me>
+        <me permid="me">
           ***|*||**|
         </me>
         represents, if there are the correct number of stars and bars for the problem.
@@ -113,7 +113,7 @@
               (for the lollipops)
               and use 5 bars to switch between the 6 kids.
               For example,
-              <me>
+              <me permid="me">
                 **||***|||
               </me>
               would
@@ -136,7 +136,7 @@
               between the different variables.
               We have one too many bars.
               An example of a correct diagram would be
-              <me>
+              <me permid="me">
                 *|**||***
               </me>,
               representing that
