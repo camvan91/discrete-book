@@ -1,60 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <exercises permid="exers_count-conc" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exercises_count-conc">
   <title>Chapter Review</title>
-  <exercise permid="e_xo">
+  <exercise permid="exers_count-conc-e_xo">
     <statement>
-      <p permid="p">
+      <p permid="exers_count-conc-e_xo-p">
         You have 9 presents to give to your 4 kids.
         How many ways can this be done if:
 
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+        <ol permid="exers_count-conc-e_xo-ol">
+          <li permid="exers_count-conc-e_xo-ol-l_j">
+            <p permid="exers_count-conc-e_xo-ol-l_j-p">
               The presents are identical, and each kid gets at least one present?
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_count-conc-e_xo-ol-l_s">
+            <p permid="exers_count-conc-e_xo-ol-l_s-p">
               The presents are identical, and some kids might get no presents?
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_count-conc-e_xo-ol-l_b">
+            <p permid="exers_count-conc-e_xo-ol-l_b-p">
               The presents are unique, and some kids might get no presents?
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_count-conc-e_xo-ol-l_k">
+            <p permid="exers_count-conc-e_xo-ol-l_k-p">
               The presents are unique and each kid gets at least one present?
             </p>
           </li>
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j">
+    <solution permid="exers_count-conc-e_xo-s">
+      <p permid="exers_count-conc-e_xo-s-p">
+        <ol permid="exers_count-conc-e_xo-s-ol">
+          <li permid="exers_count-conc-e_xo-s-ol-l_j">
             <m>{8 \choose 3}</m> ways, after giving one present to each kid,
             you are left with 5 presents (stars) which need to be divide among the 4 kids
             (giving 3 bars).
           </li>
 
-          <li permid="l_s">
+          <li permid="exers_count-conc-e_xo-s-ol-l_s">
             <m>{12 \choose 3}</m> ways.
             You have 9 stars and 3 bars.
           </li>
 
-          <li permid="l_b">
+          <li permid="exers_count-conc-e_xo-s-ol-l_b">
             <m>4^9</m>.
             You have 4 choices for whom to give each present.
             This is like making a function from the set of presents to the set of kids.
           </li>
 
-          <li permid="l_k">
+          <li permid="exers_count-conc-e_xo-s-ol-l_k">
             <m>4^9 - \left[{4 \choose 1}3^9 - {4\choose 2}2^9 + {4 \choose 3}1^9 \right]</m> ways.
             Now the function from the set of presents to the set of kids must be surjective.
           </li>
@@ -63,24 +63,24 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ag">
+  <exercise permid="exers_count-conc-e_ag">
     <statement>
-      <p permid="p">
+      <p permid="exers_count-conc-e_ag-p">
         For each of the following counting problems,
         say whether the answer is <m>{10\choose 4}</m>,
         <m>P(10,4)</m>, or neither.
         If you answer is <q>neither,</q>
         say what the answer should be instead.
 
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+        <ol permid="exers_count-conc-e_ag-ol">
+          <li permid="exers_count-conc-e_ag-ol-l_j">
+            <p permid="exers_count-conc-e_ag-ol-l_j-p">
               How many shortest lattice paths are there from <m>(0,0)</m> to <m>(10,4)</m>?
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-ol-l_s">
+            <p permid="exers_count-conc-e_ag-ol-l_s-p">
               If you have 10 bow ties,
                 <idx><h>bow ties</h></idx>
               and you want to select 4 of them for next week,
@@ -88,131 +88,131 @@
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-ol-l_b">
+            <p permid="exers_count-conc-e_ag-ol-l_b-p">
               Suppose you have 10 bow ties and you will wear one on each of the next 4 days.
               How many choices do you have?
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-ol-l_k">
+            <p permid="exers_count-conc-e_ag-ol-l_k-p">
               If you want to wear 4 of your 10 bow ties next week (Monday through Sunday),
               how many ways can this be accomplished?
             </p>
           </li>
 
-          <li permid="l_t">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-ol-l_t">
+            <p permid="exers_count-conc-e_ag-ol-l_t-p">
               Out of a group of 10 classmates,
               how many ways can you rank your top 4 friends?
             </p>
           </li>
 
-          <li permid="l_c">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-ol-l_c">
+            <p permid="exers_count-conc-e_ag-ol-l_c-p">
               If 10 students come to their professor's office but only 4 can fit at a time,
               how different combinations of 4 students can see the prof first?
             </p>
           </li>
 
-          <li permid="l_l">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-ol-l_l">
+            <p permid="exers_count-conc-e_ag-ol-l_l-p">
               How many 4 letter words can be made from the first 10 letters of the alphabet?
             </p>
           </li>
 
-          <li permid="l_u">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-ol-l_u">
+            <p permid="exers_count-conc-e_ag-ol-l_u-p">
               How many ways can you make the word <q>cake</q>
               from the first 10 letters of the alphabet?
             </p>
           </li>
 
-          <li permid="l_d">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-ol-l_d">
+            <p permid="exers_count-conc-e_ag-ol-l_d-p">
               How many ways are there to distribute 10 apples among 4 children?
             </p>
           </li>
 
-          <li permid="l_m">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-ol-l_m">
+            <p permid="exers_count-conc-e_ag-ol-l_m-p">
               If you have 10 kids
               (and live in a shoe)
               and 4 types of cereal, how many ways can your kids eat breakfast?
             </p>
           </li>
 
-          <li permid="l_v">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-ol-l_v">
+            <p permid="exers_count-conc-e_ag-ol-l_v-p">
               How many ways can you arrange exactly 4 ones in a string of 10 binary digits?
             </p>
           </li>
 
-          <li permid="l_e">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-ol-l_e">
+            <p permid="exers_count-conc-e_ag-ol-l_e-p">
               You want to select 4 single digit numbers as your lotto picks.
               How many choices do you have?
             </p>
           </li>
 
-          <li permid="l_n">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-ol-l_n">
+            <p permid="exers_count-conc-e_ag-ol-l_n-p">
               10 kids want ice-cream.
               You have 4 varieties.
               How many ways are there to give the kids as much ice-cream as they want?
             </p>
           </li>
 
-          <li permid="l_w">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-ol-l_w">
+            <p permid="exers_count-conc-e_ag-ol-l_w-p">
               How many 1-1 functions are there from
               <m>\{1,2,\ldots, 10\}</m> to <m>\{a,b,c,d\}</m>?
             </p>
           </li>
 
-          <li permid="l_f">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-ol-l_f">
+            <p permid="exers_count-conc-e_ag-ol-l_f-p">
               How many surjective functions are there from
               <m>\{1,2,\ldots, 10\}</m> to <m>\{a,b,c,d\}</m>?
             </p>
           </li>
 
-          <li permid="l_o">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-ol-l_o">
+            <p permid="exers_count-conc-e_ag-ol-l_o-p">
               Each of your 10 bow ties match 4 pairs of suspenders.
               How many outfits can you make?
             </p>
           </li>
 
-          <li permid="l_x">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-ol-l_x">
+            <p permid="exers_count-conc-e_ag-ol-l_x-p">
               After the party, the 10 kids each choose one of 4 party-favors.
               How many outcomes?
             </p>
           </li>
 
-          <li permid="l_g">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-ol-l_g">
+            <p permid="exers_count-conc-e_ag-ol-l_g-p">
               How many 6-elements subsets are there of the set <m>\{1,2,\ldots, 10\}</m>
             </p>
           </li>
 
-          <li permid="l_p">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-ol-l_p">
+            <p permid="exers_count-conc-e_ag-ol-l_p-p">
               How many ways can you split up 11 kids into 5 teams?
             </p>
           </li>
 
-          <li permid="l_y">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-ol-l_y">
+            <p permid="exers_count-conc-e_ag-ol-l_y-p">
               How many solutions are there to
               <m>x_1 + x_2 + \cdots + x_5 = 6</m> where each <m>x_i</m> is non-negative?
             </p>
           </li>
 
-          <li permid="l_h">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-ol-l_h">
+            <p permid="exers_count-conc-e_ag-ol-l_h-p">
               Your band goes on tour.
               There are 10 cities within driving distance,
               but only enough time to play 4 of them.
@@ -220,57 +220,57 @@
             </p>
           </li>
 
-          <li permid="l_q">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-ol-l_q">
+            <p permid="exers_count-conc-e_ag-ol-l_q-p">
               In how many different ways can you play the 4 cities you choose?
             </p>
           </li>
 
-          <li permid="l_z">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-ol-l_z">
+            <p permid="exers_count-conc-e_ag-ol-l_z-p">
               Out of the 10 breakfast cereals available, you want to have 4 bowls.
               How many ways can you do this?
             </p>
           </li>
 
-          <li permid="l_i">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-ol-l_i">
+            <p permid="exers_count-conc-e_ag-ol-l_i-p">
               There are 10 types of cookies available.
               You want to make a 4 cookie stack.
               How many different stacks can you make?
             </p>
           </li>
 
-          <li permid="l_r">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-ol-l_r">
+            <p permid="exers_count-conc-e_ag-ol-l_r-p">
               From your home at (0,0) you want to go to either the donut shop at (5,4) or the one at (3,6).
               How many paths could you take?
             </p>
           </li>
 
-          <li permid="l_ad">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-ol-l_ad">
+            <p permid="exers_count-conc-e_ag-ol-l_ad-p">
               How many 10-digit numbers do not contain a sub-string of 4 repeated digits?
             </p>
           </li>
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+    <solution permid="exers_count-conc-e_ag-s">
+      <p permid="exers_count-conc-e_ag-s-p">
+        <ol permid="exers_count-conc-e_ag-s-ol">
+          <li permid="exers_count-conc-e_ag-s-ol-l_j">
+            <p permid="exers_count-conc-e_ag-s-ol-l_j-p">
               Neither. <m>{14 \choose 4}</m> paths.
             </p>
           </li>
 
-          <li permid="l_s"><m>{10\choose 4}</m> bow ties.</li>
+          <li permid="exers_count-conc-e_ag-s-ol-l_s"><m>{10\choose 4}</m> bow ties.</li>
 
-          <li permid="l_b"><m>P(10,4)</m>, since order is important.</li>
+          <li permid="exers_count-conc-e_ag-s-ol-l_b"><m>P(10,4)</m>, since order is important.</li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-s-ol-l_k">
+            <p permid="exers_count-conc-e_ag-s-ol-l_k-p">
               Neither.
               Assuming you will wear each of the 4 ties on just 4 of the 7 days,
               without repeats:
@@ -278,20 +278,20 @@
             </p>
           </li>
 
-          <li permid="l_t"><m>P(10,4)</m>.</li>
+          <li permid="exers_count-conc-e_ag-s-ol-l_t"><m>P(10,4)</m>.</li>
 
-          <li permid="l_c"><m>{10\choose 4}</m>.</li>
+          <li permid="exers_count-conc-e_ag-s-ol-l_c"><m>{10\choose 4}</m>.</li>
 
-          <li permid="l_l">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-s-ol-l_l">
+            <p permid="exers_count-conc-e_ag-s-ol-l_l-p">
               Neither.
               Since you could repeat letters: <m>10^4</m>.
               If no repeats are allowed, it would be <m>P(10,4)</m>.
             </p>
           </li>
 
-          <li permid="l_u">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-s-ol-l_u">
+            <p permid="exers_count-conc-e_ag-s-ol-l_u-p">
               Neither.
               Actually, <q>k</q> is the 11th letter of the alphabet,
               so the answer is 0.
@@ -300,8 +300,8 @@
             </p>
           </li>
 
-          <li permid="l_d">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-s-ol-l_d">
+            <p permid="exers_count-conc-e_ag-s-ol-l_d-p">
               Neither.
               Either <m>{9\choose 3}</m>
               (if every kid gets an apple)
@@ -310,63 +310,63 @@
             </p>
           </li>
 
-          <li permid="l_m">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-s-ol-l_m">
+            <p permid="exers_count-conc-e_ag-s-ol-l_m-p">
               Neither.
               Note that this could not be
               <m>{10 \choose 4}</m> since the 10 things and 4 things are from different groups. <m>4^{10}</m>.
             </p>
           </li>
 
-          <li permid="l_v">
+          <li permid="exers_count-conc-e_ag-s-ol-l_v">
             <m>{10 \choose 4}</m> - don't be fooled by the <q>arrange</q>
             in there - you are picking 4 out of 10
             <em>spots</em> to put the 1's.
           </li>
 
-          <li permid="l_e">
+          <li permid="exers_count-conc-e_ag-s-ol-l_e">
             <m>{10 \choose 4}</m>
             (assuming order is irrelevant).
           </li>
 
-          <li permid="l_n">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-s-ol-l_n">
+            <p permid="exers_count-conc-e_ag-s-ol-l_n-p">
               Neither. <m>16^{10}</m>
               (each kid chooses yes or no to 4 varieties).
             </p>
           </li>
 
-          <li permid="l_w">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-s-ol-l_w">
+            <p permid="exers_count-conc-e_ag-s-ol-l_w-p">
               Neither. 0.
             </p>
           </li>
 
-          <li permid="l_f">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-s-ol-l_f">
+            <p permid="exers_count-conc-e_ag-s-ol-l_f-p">
               Neither. <m>4^{10} - [{4\choose 1}3^{10} - {4\choose 2}2^{10} + {4 \choose 3}1^{10}]</m>.
             </p>
           </li>
 
-          <li permid="l_o">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-s-ol-l_o">
+            <p permid="exers_count-conc-e_ag-s-ol-l_o-p">
               Neither. <m>10\cdot 4</m>.
             </p>
           </li>
 
-          <li permid="l_x">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-s-ol-l_x">
+            <p permid="exers_count-conc-e_ag-s-ol-l_x-p">
               Neither. <m>4^{10}</m>.
             </p>
           </li>
 
-          <li permid="l_g">
+          <li permid="exers_count-conc-e_ag-s-ol-l_g">
             <m>{10 \choose 4}</m>
             (which is the same as <m>{10 \choose 6}</m>).
           </li>
 
-          <li permid="l_p">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-s-ol-l_p">
+            <p permid="exers_count-conc-e_ag-s-ol-l_p-p">
               Neither.
               If all the kids were identical,
               and you wanted no empty teams,
@@ -375,18 +375,18 @@
             </p>
           </li>
 
-          <li permid="l_y"><m>{10 \choose 4}</m>.</li>
+          <li permid="exers_count-conc-e_ag-s-ol-l_y"><m>{10 \choose 4}</m>.</li>
 
-          <li permid="l_h"><m>{10 \choose 4}</m>.</li>
+          <li permid="exers_count-conc-e_ag-s-ol-l_h"><m>{10 \choose 4}</m>.</li>
 
-          <li permid="l_q">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-s-ol-l_q">
+            <p permid="exers_count-conc-e_ag-s-ol-l_q-p">
               Neither. <m>4!</m>.
             </p>
           </li>
 
-          <li permid="l_z">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-s-ol-l_z">
+            <p permid="exers_count-conc-e_ag-s-ol-l_z-p">
               Neither.
               It's <m>{10 \choose 4}</m> if you won't repeat any choices.
               If repetition is allowed,
@@ -395,8 +395,8 @@
             </p>
           </li>
 
-          <li permid="l_i">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-s-ol-l_i">
+            <p permid="exers_count-conc-e_ag-s-ol-l_i-p">
               Neither.
               Since repetition of cookie type is allowed,
               the answer is <m>10^4</m>.
@@ -404,12 +404,12 @@
             </p>
           </li>
 
-          <li permid="l_r">
+          <li permid="exers_count-conc-e_ag-s-ol-l_r">
             <m>{10 \choose 4}</m> since that is equal to <m>{9 \choose 4} + {9 \choose 3}</m>.
           </li>
 
-          <li permid="l_ad">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ag-s-ol-l_ad">
+            <p permid="exers_count-conc-e_ag-s-ol-l_ad-p">
               Neither.
               It will be a complicated
               (possibly PIE)
@@ -421,38 +421,38 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_dp">
+  <exercise permid="exers_count-conc-e_dp">
     <statement>
-      <p permid="p">
+      <p permid="exers_count-conc-e_dp-p">
         Recall, you own 3 regular ties and 5 bow ties.
             <idx><h>bow ties</h></idx>
         You realize that it would be okay to wear more than two ties to your clown college interview.
 
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+        <ol permid="exers_count-conc-e_dp-ol">
+          <li permid="exers_count-conc-e_dp-ol-l_j">
+            <p permid="exers_count-conc-e_dp-ol-l_j-p">
               You must select some of your ties to wear.
               Everything is okay, from no ties up to all ties.
               How many choices do you have?
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_count-conc-e_dp-ol-l_s">
+            <p permid="exers_count-conc-e_dp-ol-l_s-p">
               If you want to wear at least one regular tie and one bow tie,
               but are willing to wear up to all your ties,
               how many choices do you have for which ties to wear?
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_count-conc-e_dp-ol-l_b">
+            <p permid="exers_count-conc-e_dp-ol-l_b-p">
               How many choices do you have if you wear exactly 2 of the 3 regular ties and 3 of the 5 bow ties?
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_count-conc-e_dp-ol-l_k">
+            <p permid="exers_count-conc-e_dp-ol-l_k-p">
               Once you have selected 2 regular and 3 bow ties,
               in how many orders could you put the ties on,
               assuming you must have one of the three bow ties on top?
@@ -461,16 +461,16 @@
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j">
+    <solution permid="exers_count-conc-e_dp-s">
+      <p permid="exers_count-conc-e_dp-s-p">
+        <ol permid="exers_count-conc-e_dp-s-ol">
+          <li permid="exers_count-conc-e_dp-s-ol-l_j">
             <m>2^8 = 256</m> choices.
             You have two choices for each tie: wear it or don't.
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_count-conc-e_dp-s-ol-l_s">
+            <p permid="exers_count-conc-e_dp-s-ol-l_s-p">
               You have 7 choices for regular ties (the 8 choices less the <q>no regular tie</q>
               option) and 31 choices for bow ties (32 total minus the
               <q>no bow tie</q> option).
@@ -478,10 +478,10 @@
             </p>
           </li>
 
-          <li permid="l_b"><m>{3\choose 2}{5\choose 3} = 30</m> choices.</li>
+          <li permid="exers_count-conc-e_dp-s-ol-l_b"><m>{3\choose 2}{5\choose 3} = 30</m> choices.</li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_count-conc-e_dp-s-ol-l_k">
+            <p permid="exers_count-conc-e_dp-s-ol-l_k-p">
               Select one of the 3 bow ties to go on top.
               There are then 4 choices for the next tie, 3 for the tie after that,
               and so on.
@@ -493,15 +493,15 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_gy">
+  <exercise permid="exers_count-conc-e_gy">
     <statement>
-      <p permid="p">
+      <p permid="exers_count-conc-e_gy-p">
         Give a counting question where the answer is <m>8\cdot 3 \cdot 3 \cdot 5</m>.
         Give another question where the answer is <m>8 + 3 + 3 + 5</m>.
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_count-conc-e_gy-s">
+      <p permid="exers_count-conc-e_gy-s-p">
         You own 8 purple bow ties,
             <idx><h>bow ties</h></idx>
         3 red bow ties, 3 blue bow ties and 5 green bow ties.
@@ -511,46 +511,46 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_jq">
+  <exercise permid="exers_count-conc-e_jq">
     <statement>
-      <p permid="p">
+      <p permid="exers_count-conc-e_jq-p">
         Consider five digit numbers <m>\alpha = a_1a_2a_3a_4a_5</m>,
         with each digit from the set <m>\{1,2,3,4\}</m>.
 
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+        <ol permid="exers_count-conc-e_jq-ol">
+          <li permid="exers_count-conc-e_jq-ol-l_j">
+            <p permid="exers_count-conc-e_jq-ol-l_j-p">
               How many such numbers are there?
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_count-conc-e_jq-ol-l_s">
+            <p permid="exers_count-conc-e_jq-ol-l_s-p">
               How many such numbers are there for which the
               <em>sum</em> of the digits is even?
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_count-conc-e_jq-ol-l_b">
+            <p permid="exers_count-conc-e_jq-ol-l_b-p">
               How many such numbers contain more even digits than odd digits?
             </p>
           </li>
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j"><m>4^5</m> numbers.</li>
+    <solution permid="exers_count-conc-e_jq-s">
+      <p permid="exers_count-conc-e_jq-s-p">
+        <ol permid="exers_count-conc-e_jq-s-ol">
+          <li permid="exers_count-conc-e_jq-s-ol-l_j"><m>4^5</m> numbers.</li>
 
-          <li permid="l_s">
+          <li permid="exers_count-conc-e_jq-s-ol-l_s">
             <m>4^4\cdot 2</m> numbers
             (choose any digits for the first four digits - then pick either an even or an odd last digit to make the sum even).
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_count-conc-e_jq-s-ol-l_b">
+            <p permid="exers_count-conc-e_jq-s-ol-l_b-p">
               We need 3 or more even digits. 3 even digits:
               <m>{5 \choose 3}2^3 2^2</m>. 4 even digits:
               <m>{5 \choose 4}2^4 2</m>. 5 even digits:
@@ -564,54 +564,54 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_mz">
+  <exercise permid="exers_count-conc-e_mz">
     <statement>
-      <p permid="p1">
+      <p permid="exers_count-conc-e_mz-p1">
         In a recent small survey of airline passengers, 25 said they had flown American in the last year, 30 had flown Jet Blue,
         and 20 had flown Continental.
         Of those, 10 reported they had flown on American and Jet Blue, 12 had flown on Jet Blue and Continental,
         and 7 had flown on American and Continental. 5 passengers had flown on all three airlines.
       </p>
 
-      <p permid="p2">
+      <p permid="exers_count-conc-e_mz-p2">
         How many passengers were surveyed? (Assume the results above make up the entire survey.)
       </p>
     </statement>
-    <answer permid="a">
-      <p permid="p">
+    <answer permid="exers_count-conc-e_mz-a">
+      <p permid="exers_count-conc-e_mz-a-p">
         51 passengers.
       </p>
     </answer>
   </exercise>
 
-  <exercise permid="e_pi">
+  <exercise permid="exers_count-conc-e_pi">
     <statement>
-      <p permid="p">
+      <p permid="exers_count-conc-e_pi-p">
         Recall, by <m>8</m>-bit strings,
         we mean strings of binary digits, of length 8.
 
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+        <ol permid="exers_count-conc-e_pi-ol">
+          <li permid="exers_count-conc-e_pi-ol-l_j">
+            <p permid="exers_count-conc-e_pi-ol-l_j-p">
               How many <m>8</m>-bit strings are there total?
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_count-conc-e_pi-ol-l_s">
+            <p permid="exers_count-conc-e_pi-ol-l_s-p">
               How many <m>8</m>-bit strings have weight 5?
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_count-conc-e_pi-ol-l_b">
+            <p permid="exers_count-conc-e_pi-ol-l_b-p">
               How many subsets of the set
               <m>\{a,b,c,d,e,f,g,h\}</m> contain exactly 5 elements?
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_count-conc-e_pi-ol-l_k">
+            <p permid="exers_count-conc-e_pi-ol-l_k-p">
               Explain why your answers to parts (b) and (c) are the same.
               Why are these questions equivalent?
             </p>
@@ -619,17 +619,17 @@
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j"><m>2^8</m> strings.</li>
+    <solution permid="exers_count-conc-e_pi-s">
+      <p permid="exers_count-conc-e_pi-s-p">
+        <ol permid="exers_count-conc-e_pi-s-ol">
+          <li permid="exers_count-conc-e_pi-s-ol-l_j"><m>2^8</m> strings.</li>
 
-          <li permid="l_s"><m>{8 \choose 5}</m> strings.</li>
+          <li permid="exers_count-conc-e_pi-s-ol-l_s"><m>{8 \choose 5}</m> strings.</li>
 
-          <li permid="l_b"><m>{8 \choose 5}</m> strings.</li>
+          <li permid="exers_count-conc-e_pi-s-ol-l_b"><m>{8 \choose 5}</m> strings.</li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_count-conc-e_pi-s-ol-l_k">
+            <p permid="exers_count-conc-e_pi-s-ol-l_k-p">
               There is a bijection between subsets and bit strings:
               a 1 means that element in is the subset,
               a 0 means that element is not in the subset.
@@ -643,28 +643,28 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_sa">
+  <exercise permid="exers_count-conc-e_sa">
     <statement>
-      <p permid="p">
+      <p permid="exers_count-conc-e_sa-p">
         What is the coefficient of <m>x^{10}</m> in the expansion of <m>(x+1)^{13} + x^2(x+1)^{17}</m>?
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_count-conc-e_sa-s">
+      <p permid="exers_count-conc-e_sa-s-p">
         <m>{13 \choose 10} + {17 \choose 8}</m>.
       </p>
     </solution>
   </exercise>
 
-  <exercise permid="e_vj">
+  <exercise permid="exers_count-conc-e_vj">
     <statement>
-      <p permid="p">
+      <p permid="exers_count-conc-e_vj-p">
         How many 8-letter words contain exactly 5 vowels (a,e,i,o,u)?
         What if repeated letters were not allowed?
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_count-conc-e_vj-s">
+      <p permid="exers_count-conc-e_vj-s-p">
         With repeated letters allowed:
         <m>{8 \choose 5}5^5 21^3</m> words.
         Without repeats: <m>{8 \choose 5}5!
@@ -673,27 +673,27 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ys">
+  <exercise permid="exers_count-conc-e_ys">
     <statement>
-      <p permid="p">
+      <p permid="exers_count-conc-e_ys-p">
         For each of the following,
         find the number of shortest lattice paths from <m>(0,0)</m> to <m>(8,8)</m> which:
 
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+        <ol permid="exers_count-conc-e_ys-ol">
+          <li permid="exers_count-conc-e_ys-ol-l_j">
+            <p permid="exers_count-conc-e_ys-ol-l_j-p">
               pass through the point <m>(2,3)</m>.
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ys-ol-l_s">
+            <p permid="exers_count-conc-e_ys-ol-l_s-p">
               avoid (do not pass through) the point <m>(7,5)</m>.
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_count-conc-e_ys-ol-l_b">
+            <p permid="exers_count-conc-e_ys-ol-l_b-p">
               either pass through <m>(2,3)</m> or <m>(5,7)</m>
               (or both).
             </p>
@@ -701,16 +701,16 @@
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j"><m>{5 \choose 2}{11 \choose 6}</m> paths.</li>
+    <solution permid="exers_count-conc-e_ys-s">
+      <p permid="exers_count-conc-e_ys-s-p">
+        <ol permid="exers_count-conc-e_ys-s-ol">
+          <li permid="exers_count-conc-e_ys-s-ol-l_j"><m>{5 \choose 2}{11 \choose 6}</m> paths.</li>
 
-          <li permid="l_s">
+          <li permid="exers_count-conc-e_ys-s-ol-l_s">
             <m>{16 \choose 8} - {12 \choose 7}{4 \choose 1}</m> paths.
           </li>
 
-          <li permid="l_b">
+          <li permid="exers_count-conc-e_ys-s-ol-l_b">
             <m>{5 \choose 2}{11 \choose 6} + {12 \choose 5}{4 \choose 3} - {5 \choose 2}{7 \choose 3}{4 \choose 3}</m> paths.
           </li>
         </ol>
@@ -718,72 +718,72 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_bk">
+  <exercise permid="exers_count-conc-e_bk">
     <statement>
-      <p permid="p">
+      <p permid="exers_count-conc-e_bk-p">
         You live in Grid-Town on the corner of 2nd and 3rd,
         and work in a building on the corner of 10th and 13th.
         How many routes are there which take you from home to work and then back home,
         but by a different route?
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_count-conc-e_bk-s">
+      <p permid="exers_count-conc-e_bk-s-p">
         <m>{18 \choose 8}\left({18 \choose 8} - 1\right)</m> routes.
       </p>
     </solution>
   </exercise>
 
-  <exercise permid="e_et">
+  <exercise permid="exers_count-conc-e_et">
     <statement>
-      <p permid="p">
+      <p permid="exers_count-conc-e_et-p">
         How many 10-bit strings start with <m>111</m> or end with <m>101</m> or both?
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_count-conc-e_et-s">
+      <p permid="exers_count-conc-e_et-s-p">
         <m>2^7 + 2^7 - 2^4</m> strings
         (using PIE).
       </p>
     </solution>
   </exercise>
 
-  <exercise permid="e_hc">
+  <exercise permid="exers_count-conc-e_hc">
     <statement>
-      <p permid="p">
+      <p permid="exers_count-conc-e_hc-p">
         How many 10-bit strings of weight 6 start with <m>111</m> or end with <m>101</m> or both?
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_count-conc-e_hc-s">
+      <p permid="exers_count-conc-e_hc-s-p">
         <m>{7 \choose 3} + {7 \choose 4} - {4 \choose 1}</m> strings.
       </p>
     </solution>
   </exercise>
 
-  <exercise permid="e_ku">
+  <exercise permid="exers_count-conc-e_ku">
     <statement>
-      <p permid="p">
+      <p permid="exers_count-conc-e_ku-p">
         How many 6 letter words made from the letters
         <m>a,b,c,d,e,f</m> without repeats do not contain the sub-word <q>bad</q>
         in (a) consecutive letters? or (b) not-necessarily consecutive letters (but in order)?
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_count-conc-e_ku-s">
+      <p permid="exers_count-conc-e_ku-s-p">
         (a) <m>6! - 4\cdot 3!</m> words. (b) <m>6! - {6 \choose 3}3!</m> words.
       </p>
     </solution>
   </exercise>
 
-  <exercise permid="e_nd">
+  <exercise permid="exers_count-conc-e_nd">
     <statement>
-      <p permid="p">
+      <p permid="exers_count-conc-e_nd-p">
         Explain using lattice paths why <m>\sum_{k=0}^n {n \choose k} = 2^n</m>.
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_count-conc-e_nd-s">
+      <p permid="exers_count-conc-e_nd-s-p">
         <m>2^n</m> is the number of lattice paths which have length <m>n</m>,
         since for each step you can go up or right.
         Such a path would end along the line <m>x + y = n</m>.
@@ -800,46 +800,46 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_qm">
+  <exercise permid="exers_count-conc-e_qm">
     <statement>
-      <p permid="p">
+      <p permid="exers_count-conc-e_qm-p">
         Suppose you have 20 one-dollar bills to give out as prizes to your top 5 discrete math students.
         How many ways can you do this if:
 
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+        <ol permid="exers_count-conc-e_qm-ol">
+          <li permid="exers_count-conc-e_qm-ol-l_j">
+            <p permid="exers_count-conc-e_qm-ol-l_j-p">
               Each of the 5 students gets at least 1 dollar?
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_count-conc-e_qm-ol-l_s">
+            <p permid="exers_count-conc-e_qm-ol-l_s-p">
               Some students might get nothing?
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_count-conc-e_qm-ol-l_b">
+            <p permid="exers_count-conc-e_qm-ol-l_b-p">
               Each student gets at least 1 dollar but no more than 7 dollars?
             </p>
           </li>
         </ol>
       </p>
     </statement>
-    <hint permid="h">
-      <p permid="p">
+    <hint permid="exers_count-conc-e_qm-h">
+      <p permid="exers_count-conc-e_qm-h-p">
         Stars and bars.
       </p>
     </hint>
-    <answer permid="a">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j"><m>{19 \choose 4}</m> ways.</li>
+    <answer permid="exers_count-conc-e_qm-a">
+      <p permid="exers_count-conc-e_qm-a-p">
+        <ol permid="exers_count-conc-e_qm-a-ol">
+          <li permid="exers_count-conc-e_qm-a-ol-l_j"><m>{19 \choose 4}</m> ways.</li>
 
-          <li permid="l_s"><m>{24 \choose 4}</m> ways.</li>
+          <li permid="exers_count-conc-e_qm-a-ol-l_s"><m>{24 \choose 4}</m> ways.</li>
 
-          <li permid="l_b">
+          <li permid="exers_count-conc-e_qm-a-ol-l_b">
             <m>{19 \choose 4} - \left[{5 \choose 1}{12 \choose 4} - {5 \choose 2}{5 \choose 4} \right]</m> ways.
           </li>
         </ol>
@@ -847,23 +847,23 @@
     </answer>
   </exercise>
 
-  <exercise permid="e_te">
+  <exercise permid="exers_count-conc-e_te">
     <statement>
-      <p permid="p">
+      <p permid="exers_count-conc-e_te-p">
         How many functions <m>f: \{1,2,3,4,5\} \to \{a,b,c,d,e\}</m> are there satisfying:
 
-        <ol permid="ol">
-          <li permid="l_j"><m>f(1) = a</m> or <m>f(2) = b</m> (or both)?</li>
+        <ol permid="exers_count-conc-e_te-ol">
+          <li permid="exers_count-conc-e_te-ol-l_j"><m>f(1) = a</m> or <m>f(2) = b</m> (or both)?</li>
 
-          <li permid="l_s"><m>f(1) \ne a</m> or <m>f(2) \ne b</m> (or both)?</li>
+          <li permid="exers_count-conc-e_te-ol-l_s"><m>f(1) \ne a</m> or <m>f(2) \ne b</m> (or both)?</li>
 
-          <li permid="l_b">
+          <li permid="exers_count-conc-e_te-ol-l_b">
             <m>f(1) \ne a</m> <em> and</em> <m>f(2) \ne b</m>,
             and <m>f</m> is injective?
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_count-conc-e_te-ol-l_k">
+            <p permid="exers_count-conc-e_te-ol-l_k-p">
               <m>f</m> is surjective, but <m>f(1) \ne a</m>, <m>f(2) \ne b</m>,
               <m>f(3) \ne c</m>, <m>f(4) \ne d</m> and <m>f(5) \ne e</m>?
             </p>
@@ -871,21 +871,21 @@
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j"><m>5^4 + 5^4 - 5^3</m> functions.</li>
+    <solution permid="exers_count-conc-e_te-s">
+      <p permid="exers_count-conc-e_te-s-p">
+        <ol permid="exers_count-conc-e_te-s-ol">
+          <li permid="exers_count-conc-e_te-s-ol-l_j"><m>5^4 + 5^4 - 5^3</m> functions.</li>
 
-          <li permid="l_s">
+          <li permid="exers_count-conc-e_te-s-ol-l_s">
             <m>4\cdot 5^4 + 5 \cdot 4 \cdot 5^3 - 4 \cdot 4 \cdot 5^3</m> functions.
           </li>
 
-          <li permid="l_b">
+          <li permid="exers_count-conc-e_te-s-ol-l_b">
             <m>5! - \left[ 4! + 4! - 3! \right]</m> functions.
             Note we use factorials instead of powers because we are looking for injective functions.
           </li>
 
-          <li permid="l_k">
+          <li permid="exers_count-conc-e_te-s-ol-l_k">
             Note that being surjective here is the same as being injective,
             so we can start with all <m>5!</m> injective functions and subtract those which have one or more <q>fixed point</q>.
             We get <m>5! - \left[{5 \choose 1}4! - {5 \choose 2}3! + {5 \choose 3}2! - {5 \choose 4}1! + {5 \choose 5} 0!\right]</m> functions.
@@ -895,16 +895,16 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_wn">
+  <exercise permid="exers_count-conc-e_wn">
     <statement>
-      <p permid="p">
+      <p permid="exers_count-conc-e_wn-p">
         How many functions map <m>\{1,2,3,4,5,6\}</m> <em>onto</em>
         <m>\{a,b,c,d\}</m> (i.e., how many
         <em>surjections</em> are there)?
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_count-conc-e_wn-s">
+      <p permid="exers_count-conc-e_wn-s-p">
         <m>4^6 - \left[{4 \choose 1}3^6 - {4 \choose 2}2^6 + {4 \choose 3} 1^6 \right]</m>.
       </p>
     </solution>
@@ -912,22 +912,22 @@
 
   <exercise permid="exr_cookie-counting" xml:id="exr_cookie-counting">
     <statement>
-      <p permid="p">
+      <p permid="exr_cookie-counting-p">
         To thank your math professor for doing such an amazing job all semester,
         you decide to bake Oscar cookies.
         You know how to make 10 different types of cookies.
 
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+        <ol permid="exr_cookie-counting-ol">
+          <li permid="exr_cookie-counting-ol-l_j">
+            <p permid="exr_cookie-counting-ol-l_j-p">
               If you want to give your professor 4 different types of cookies,
               how many different combinations of cookie type can you select?
               Explain your answer.
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exr_cookie-counting-ol-l_s">
+            <p permid="exr_cookie-counting-ol-l_s-p">
               To keep things interesting,
               you decide to make a different number of each type of cookie.
               If again you want to select 4 cookie types,
@@ -937,8 +937,8 @@
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exr_cookie-counting-ol-l_b">
+            <p permid="exr_cookie-counting-ol-l_b-p">
               You change your mind again.
               This time you decide you will make a total of 12 cookies.
               Each cookie could be any one of the 10 types of cookies you know how to bake
@@ -948,8 +948,8 @@
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exr_cookie-counting-ol-l_k">
+            <p permid="exr_cookie-counting-ol-l_k-p">
               You realize that the previous plan did not account for presentation.
               This time, you once again want to make 12 cookies,
               each one could be any one of the 10 types of cookies.
@@ -962,8 +962,8 @@
             </p>
           </li>
 
-          <li permid="l_t">
-            <p permid="p">
+          <li permid="exr_cookie-counting-ol-l_t">
+            <p permid="exr_cookie-counting-ol-l_t-p">
               The only flaw with the last plan is that your professor might not get to sample all 10 different varieties of cookies.
               How many choices do you have for which types of cookies to make into which numerals,
               given that each type of cookie should be present at least once?
@@ -973,34 +973,34 @@
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j">
+    <solution permid="exr_cookie-counting-s">
+      <p permid="exr_cookie-counting-s-p">
+        <ol permid="exr_cookie-counting-s-ol">
+          <li permid="exr_cookie-counting-s-ol-l_j">
             <m>{10 \choose 4}</m> combinations.
             You need to choose 4 of the 10 cookie types.
             Order doesn't matter.
           </li>
 
-          <li permid="l_s">
+          <li permid="exr_cookie-counting-s-ol-l_s">
             <m>P(10, 4) = 10 \cdot 9 \cdot 8 \cdot 7</m> ways.
             You are choosing and arranging 4 out of 10 cookies.
             Order matters now.
           </li>
 
-          <li permid="l_b">
+          <li permid="exr_cookie-counting-s-ol-l_b">
             <m>{21 \choose 9}</m> choices.
             You must switch between cookie type 9 times as you make your 12 cookies.
             The cookies are the stars, the switches between cookie types are the bars.
           </li>
 
-          <li permid="l_k">
+          <li permid="exr_cookie-counting-s-ol-l_k">
             <m>10^{12}</m> choices.
             You have 10 choices for the <q>1</q>
             cookie, 10 choices for the <q>2</q> cookie, and so on.
           </li>
 
-          <li permid="l_t">
+          <li permid="exr_cookie-counting-s-ol-l_t">
             <m>10^{12} - \left[{10 \choose 1}9^{12} - {10 \choose 2}8^{12} + \cdots - {10 \choose 10}0^{12} \right]</m> choices.
             We must use PIE to remove all the ways in which one or more cookie type is not selected.
           </li>
@@ -1009,9 +1009,9 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_zw">
+  <exercise permid="exers_count-conc-e_zw">
     <statement>
-      <p permid="p">
+      <p permid="exers_count-conc-e_zw-p">
         For which of the parts of the previous problem
         (<xref ref="exr_cookie-counting"/>)
         does it make sense to interpret the counting question as counting some number of functions?
@@ -1020,11 +1020,11 @@
         surjections, or something else.
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+    <solution permid="exers_count-conc-e_zw-s">
+      <p permid="exers_count-conc-e_zw-s-p">
+        <ol permid="exers_count-conc-e_zw-s-ol">
+          <li permid="exers_count-conc-e_zw-s-ol-l_j">
+            <p permid="exers_count-conc-e_zw-s-ol-l_j-p">
               You are giving your professor 4 types of cookies coming from 10 different types of cookies.
               This does not lend itself well to a function interpretation.
               We <em>could</em> say that the domain contains the 4 types you will give your professor and the codomain contains the 10 you can choose from,
@@ -1034,8 +1034,8 @@
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_count-conc-e_zw-s-ol-l_s">
+            <p permid="exers_count-conc-e_zw-s-ol-l_s-p">
               We want to consider injective functions from the set <m>\{</m>most,
               second most,
               second least, least<m>\}</m> to the set of 10 cookie types.
@@ -1044,8 +1044,8 @@
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_count-conc-e_zw-s-ol-l_b">
+            <p permid="exers_count-conc-e_zw-s-ol-l_b-p">
               This is not a good problem to interpret as a function.
               The problem is that the domain would have to be the 12 cookies you bake,
               but these elements are indistinguishable
@@ -1053,8 +1053,8 @@
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_count-conc-e_zw-s-ol-l_k">
+            <p permid="exers_count-conc-e_zw-s-ol-l_k-p">
               The domain should be the 12 shapes,
               the codomain the 10 types of cookies.
               Since we can use the same type for different shapes,
@@ -1062,8 +1062,8 @@
             </p>
           </li>
 
-          <li permid="l_t">
-            <p permid="p">
+          <li permid="exers_count-conc-e_zw-s-ol-l_t">
+            <p permid="exers_count-conc-e_zw-s-ol-l_t-p">
               Here we insist that each type of cookie be given at least once,
               so now we are asking for the number of surjections of those functions counted in the previous part.
             </p>

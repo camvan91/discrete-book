@@ -1,58 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <exercises permid="exers_counting-binom" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exercises_counting-binom">
 
-  <exercise permid="e_xo">
+  <exercise permid="exers_counting-binom-e_xo">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-binom-e_xo-p">
         Let <m>S = \{1, 2, 3, 4, 5, 6\}</m>
 
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+        <ol permid="exers_counting-binom-e_xo-ol">
+          <li permid="exers_counting-binom-e_xo-ol-l_j">
+            <p permid="exers_counting-binom-e_xo-ol-l_j-p">
               How many subsets are there total?
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_counting-binom-e_xo-ol-l_s">
+            <p permid="exers_counting-binom-e_xo-ol-l_s-p">
               How many subsets have <m>\{2,3,5\}</m> as a subset?
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_counting-binom-e_xo-ol-l_b">
+            <p permid="exers_counting-binom-e_xo-ol-l_b-p">
               How many subsets contain at least one odd number?
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_counting-binom-e_xo-ol-l_k">
+            <p permid="exers_counting-binom-e_xo-ol-l_k-p">
               How many subsets contain exactly one even number?
             </p>
           </li>
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j">
+    <solution permid="exers_counting-binom-e_xo-s">
+      <p permid="exers_counting-binom-e_xo-s-p">
+        <ol permid="exers_counting-binom-e_xo-s-ol">
+          <li permid="exers_counting-binom-e_xo-s-ol-l_j">
             <m>2^6 = 64</m> subsets.
             We need to select yes/no for each of the six elements.
           </li>
 
-          <li permid="l_s">
+          <li permid="exers_counting-binom-e_xo-s-ol-l_s">
             <m>2^3 = 8</m> subsets.
             We need to select yes/no for each of the remaining three elements.
           </li>
 
-          <li permid="l_b">
+          <li permid="exers_counting-binom-e_xo-s-ol-l_b">
             <m>2^6 - 2^3 = 56</m> subsets.
             There are 8 subsets which do not contain any odd numbers
             (select yes/no for each even number).
           </li>
 
-          <li permid="l_k">
+          <li permid="exers_counting-binom-e_xo-s-ol-l_k">
             <m>3\cdot 2^3 = 24</m> subsets.
             First pick the even number.
             Then say yes or no to each of the odd numbers.
@@ -62,54 +62,54 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ag">
+  <exercise permid="exers_counting-binom-e_ag">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-binom-e_ag-p">
         Let <m>S = \{1, 2, 3, 4, 5, 6\}</m>
 
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+        <ol permid="exers_counting-binom-e_ag-ol">
+          <li permid="exers_counting-binom-e_ag-ol-l_j">
+            <p permid="exers_counting-binom-e_ag-ol-l_j-p">
               How many subsets are there of cardinality 4?
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_counting-binom-e_ag-ol-l_s">
+            <p permid="exers_counting-binom-e_ag-ol-l_s-p">
               How many subsets of cardinality 4 have <m>\{2,3,5\}</m> as a subset?
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_counting-binom-e_ag-ol-l_b">
+            <p permid="exers_counting-binom-e_ag-ol-l_b-p">
               How many subsets of cardinality 4 contain at least one odd number?
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_counting-binom-e_ag-ol-l_k">
+            <p permid="exers_counting-binom-e_ag-ol-l_k-p">
               How many subsets of cardinality 4 contain exactly one even number?
             </p>
           </li>
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j"><m>{6\choose 4} = 15</m> subsets.</li>
+    <solution permid="exers_counting-binom-e_ag-s">
+      <p permid="exers_counting-binom-e_ag-s-p">
+        <ol permid="exers_counting-binom-e_ag-s-ol">
+          <li permid="exers_counting-binom-e_ag-s-ol-l_j"><m>{6\choose 4} = 15</m> subsets.</li>
 
-          <li permid="l_s">
+          <li permid="exers_counting-binom-e_ag-s-ol-l_s">
             <m>{3 \choose 1} = 3</m> subsets.
             We need to select 1 of the 3 remaining elements to be in the subset.
           </li>
 
-          <li permid="l_b">
+          <li permid="exers_counting-binom-e_ag-s-ol-l_b">
             <m>{6 \choose 4} = 15</m> subsets.
             All subsets of cardinality 4 must contain at least one odd number.
           </li>
 
-          <li permid="l_k">
+          <li permid="exers_counting-binom-e_ag-s-ol-l_k">
             <m>{3 \choose 1} = 3</m> subsets.
             Select 1 of the 3 even numbers.
             The remaining three odd numbers of <m>S</m> must all be in the set.
@@ -119,36 +119,36 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_dp">
+  <exercise permid="exers_counting-binom-e_dp">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-binom-e_dp-p">
         Let <m>A = \{1,2,3,\ldots,9\}</m>.
 
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+        <ol permid="exers_counting-binom-e_dp-ol">
+          <li permid="exers_counting-binom-e_dp-ol-l_j">
+            <p permid="exers_counting-binom-e_dp-ol-l_j-p">
               How many subsets of <m>A</m> are there?
               That is, find <m>|\pow(A)|</m>.
               Explain.
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_counting-binom-e_dp-ol-l_s">
+            <p permid="exers_counting-binom-e_dp-ol-l_s-p">
               How many subsets of <m>A</m> contain exactly 5 elements?
               Explain.
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_counting-binom-e_dp-ol-l_b">
+            <p permid="exers_counting-binom-e_dp-ol-l_b-p">
               How many subsets of <m>A</m> contain only even numbers?
               Explain.
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_counting-binom-e_dp-ol-l_k">
+            <p permid="exers_counting-binom-e_dp-ol-l_k-p">
               How many subsets of <m>A</m> contain an even number of elements?
               Explain.
             </p>
@@ -158,37 +158,37 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_gy">
+  <exercise permid="exers_counting-binom-e_gy">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-binom-e_gy-p">
         How many <m>9</m>-bit strings
         (that is, bit strings of length 9)
         are there which:
 
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+        <ol permid="exers_counting-binom-e_gy-ol">
+          <li permid="exers_counting-binom-e_gy-ol-l_j">
+            <p permid="exers_counting-binom-e_gy-ol-l_j-p">
               Start with the sub-string 101?
               Explain.
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_counting-binom-e_gy-ol-l_s">
+            <p permid="exers_counting-binom-e_gy-ol-l_s-p">
               Have weight 5 (i.e., contain exactly five 1's) and start with the sub-string 101?
               Explain.
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_counting-binom-e_gy-ol-l_b">
+            <p permid="exers_counting-binom-e_gy-ol-l_b-p">
               Either start with <m>101</m> or end with <m>11</m> (or both)?
               Explain.
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_counting-binom-e_gy-ol-l_k">
+            <p permid="exers_counting-binom-e_gy-ol-l_k-p">
               Have weight 5 and either start with 101 or end with 11 (or both)?
               Explain.
             </p>
@@ -198,34 +198,34 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_jq">
+  <exercise permid="exers_counting-binom-e_jq">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-binom-e_jq-p">
         You break your piggy-bank to discover lots of pennies and nickels.
         You start arranging these in rows of 6 coins.
 
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+        <ol permid="exers_counting-binom-e_jq-ol">
+          <li permid="exers_counting-binom-e_jq-ol-l_j">
+            <p permid="exers_counting-binom-e_jq-ol-l_j-p">
               You find yourself making rows containing an equal number of pennies and nickels.
               For fun, you decide to lay out every possible such row.
               How many coins will you need?
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_counting-binom-e_jq-ol-l_s">
+            <p permid="exers_counting-binom-e_jq-ol-l_s-p">
               How many coins would you need to make all possible rows of 6 coins (not necessarily with equal number of pennies and nickels)?
             </p>
           </li>
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+    <solution permid="exers_counting-binom-e_jq-s">
+      <p permid="exers_counting-binom-e_jq-s-p">
+        <ol permid="exers_counting-binom-e_jq-s-ol">
+          <li permid="exers_counting-binom-e_jq-s-ol-l_j">
+            <p permid="exers_counting-binom-e_jq-s-ol-l_j-p">
               We can think of each row as a 6-bit string of weight 3
               (since of the 6 coins, we require 3 to be pennies).
               Thus there are <m>{6 \choose 3} = 20</m> rows possible.
@@ -235,8 +235,8 @@
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_counting-binom-e_jq-s-ol-l_s">
+            <p permid="exers_counting-binom-e_jq-s-ol-l_s-p">
               Now there are <m>2^6 = 64</m> rows possible,
               which is also <m>{6 \choose 0} + {6\choose 1} + {6 \choose 2} + {6 \choose 3} + {6 \choose 4} + {6 \choose 5} + {6 \choose 6}</m>,
               if you break them up into rows containing 0, 1, 2, etc. pennies.
@@ -248,14 +248,14 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_mz">
+  <exercise permid="exers_counting-binom-e_mz">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-binom-e_mz-p">
         How many 10-bit strings contain 6 or more 1's?
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_counting-binom-e_mz-s">
+      <p permid="exers_counting-binom-e_mz-s-p">
         <m>{10 \choose 6} + {10\choose 7} + {10\choose 8} + {10 \choose 9} + {10\choose 10} = 386</m> strings.
         Count the number of strings with each permissible number of 1's separately,
         then add them up.
@@ -263,27 +263,27 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_pi">
+  <exercise permid="exers_counting-binom-e_pi">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-binom-e_pi-p">
         How many subsets of <m>\{0,1,\ldots, 9\}</m> have cardinality 6 or more?
       </p>
     </statement>
-    <hint permid="h">
-      <p permid="p">
+    <hint permid="exers_counting-binom-e_pi-h">
+      <p permid="exers_counting-binom-e_pi-h-p">
         Break the question into five cases.
       </p>
     </hint>
   </exercise>
 
-  <exercise permid="e_sa">
+  <exercise permid="exers_counting-binom-e_sa">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-binom-e_sa-p">
         What is the coefficient of <m>x^{12}</m> in <m>(x+2)^{15}</m>?
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_counting-binom-e_sa-s">
+      <p permid="exers_counting-binom-e_sa-s-p">
         To get an <m>x^{12}</m>,
         we must pick 12 of the 15 factors to contribute an <m>x</m>,
         leaving the other 3 to contribute a 2.
@@ -295,55 +295,55 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_vj">
+  <exercise permid="exers_counting-binom-e_vj">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-binom-e_vj-p">
         What is the coefficient of <m>x^9</m> in the expansion of <m>(x+1)^{14} + x^3(x+2)^{15}</m>?
       </p>
     </statement>
   </exercise>
 
-  <exercise permid="e_ys">
+  <exercise permid="exers_counting-binom-e_ys">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-binom-e_ys-p">
         How many shortest lattice paths start at (3,3) and
 
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+        <ol permid="exers_counting-binom-e_ys-ol">
+          <li permid="exers_counting-binom-e_ys-ol-l_j">
+            <p permid="exers_counting-binom-e_ys-ol-l_j-p">
               end at (10,10)?
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_counting-binom-e_ys-ol-l_s">
+            <p permid="exers_counting-binom-e_ys-ol-l_s-p">
               end at (10,10) and pass through (5,7)?
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_counting-binom-e_ys-ol-l_b">
+            <p permid="exers_counting-binom-e_ys-ol-l_b-p">
               end at (10,10) and avoid (5,7)?
             </p>
           </li>
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j">
+    <solution permid="exers_counting-binom-e_ys-s">
+      <p permid="exers_counting-binom-e_ys-s-p">
+        <ol permid="exers_counting-binom-e_ys-s-ol">
+          <li permid="exers_counting-binom-e_ys-s-ol-l_j">
             <m>{14 \choose 7} = 3432</m> paths.
             The paths all have length 14 (7 steps up and 7 steps right),
             we just select which 7 of those 14 should be up.
           </li>
 
-          <li permid="l_s">
+          <li permid="exers_counting-binom-e_ys-s-ol-l_s">
             <m>{6 \choose 2}{8\choose 5} = 840</m> paths.
             First travel to (5,7), and then continue on to (10,10).
           </li>
 
-          <li permid="l_b">
+          <li permid="exers_counting-binom-e_ys-s-ol-l_b">
             <m>{14 \choose 7} - {6\choose 2}{8 \choose 5}</m> paths.
             Remove all the paths that you found in part (b).
           </li>
@@ -352,9 +352,9 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_bk">
+  <exercise permid="exers_counting-binom-e_bk">
     <statement>
-      <p permid="p1">
+      <p permid="exers_counting-binom-e_bk-p1">
         Gridtown USA, besides having excellent donut shoppes,
         is known for its precisely laid out grid of streets and avenues.
         Streets run east-west, and avenues north-south,
@@ -362,20 +362,20 @@
         never curving and never interrupted by parks or schools or the like.
       </p>
 
-      <p permid="p2">
+      <p permid="exers_counting-binom-e_bk-p2">
         Suppose you live on the corner of 1st and 1st and work on the corner of 12th and 12th.
         Thus you must travel 22 blocks to get to work as quickly as possible.
 
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+        <ol permid="exers_counting-binom-e_bk-ol">
+          <li permid="exers_counting-binom-e_bk-ol-l_j">
+            <p permid="exers_counting-binom-e_bk-ol-l_j-p">
               How many different routes can you take to work,
               assuming you want to get there as quickly as possible?
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_counting-binom-e_bk-ol-l_s">
+            <p permid="exers_counting-binom-e_bk-ol-l_s-p">
               Now suppose you want to stop and get a donut on the way to work,
               from your favorite donut shoppe on the corner of 8th st and 10th ave.
               How many routes to work,
@@ -384,8 +384,8 @@
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_counting-binom-e_bk-ol-l_b">
+            <p permid="exers_counting-binom-e_bk-ol-l_b-p">
               Disaster Strikes Gridtown:
               there is a pothole on 4th avenue between 5th and 6th street.
               How many routes to work can you take avoiding that unsightly
@@ -394,8 +394,8 @@
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_counting-binom-e_bk-ol-l_k">
+            <p permid="exers_counting-binom-e_bk-ol-l_k-p">
               How many routes are there both avoiding the pothole and visiting the donut shoppe?
             </p>
           </li>
@@ -404,36 +404,36 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_et">
+  <exercise permid="exers_counting-binom-e_et">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-binom-e_et-p">
         Suppose you are ordering a large pizza from
         <em>D.P.<nbsp/>Dough</em>.
         You want 3 distinct toppings,
         chosen from their list of 11 vegetarian toppings.
 
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+        <ol permid="exers_counting-binom-e_et-ol">
+          <li permid="exers_counting-binom-e_et-ol-l_j">
+            <p permid="exers_counting-binom-e_et-ol-l_j-p">
               How many choices do you have for your pizza?
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_counting-binom-e_et-ol-l_s">
+            <p permid="exers_counting-binom-e_et-ol-l_s-p">
               How many choices do you have for your pizza if you refuse to have pineapple as one of your toppings?
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_counting-binom-e_et-ol-l_b">
+            <p permid="exers_counting-binom-e_et-ol-l_b-p">
               How many choices do you have for your pizza if you <em>insist</em>
               on having pineapple as one of your toppings?
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_counting-binom-e_et-ol-l_k">
+            <p permid="exers_counting-binom-e_et-ol-l_k-p">
               How do the three questions above relate to each other?
             </p>
           </li>
@@ -442,9 +442,9 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_hc">
+  <exercise permid="exers_counting-binom-e_hc">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-binom-e_hc-p">
         Explain why the coefficient of <m>x^5y^3</m> the same as the coefficient of <m>x^3y^5</m> in the expansion of <m>(x+y)^8</m>?
       </p>
     </statement>

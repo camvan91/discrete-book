@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <exercises permid="exers_addtops-numbth" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exercises_addtops-numbth">
 
-  <exercise permid="e_xo">
+  <exercise permid="exers_addtops-numbth-e_xo">
     <statement>
-      <p permid="p">
+      <p permid="exers_addtops-numbth-e_xo-p">
         Suppose <m>a</m>, <m>b</m>, and <m>c</m> are integers.
         Prove that if <m>a \mid b</m>, then <m>a \mid bc</m>.
       </p>
     </statement>
-    <solution permid="s">
+    <solution permid="exers_addtops-numbth-e_xo-s">
 
-      <proof permid="pf">
-        <p permid="p">
+      <proof permid="exers_addtops-numbth-e_xo-pf">
+        <p permid="exers_addtops-numbth-e_xo-s-p">
           Suppose <m>a \mid b</m>.
           Then <m>b</m> is a multiple of <m>a</m>,
           or in other words, <m>b = ak</m> for some <m>k</m>.
@@ -25,18 +25,18 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ag">
+  <exercise permid="exers_addtops-numbth-e_ag">
     <statement>
-      <p permid="p">
+      <p permid="exers_addtops-numbth-e_ag-p">
         Suppose <m>a</m>, <m>b</m>, and <m>c</m> are integers.
         Prove that if <m>a \mid b</m> and <m>a \mid c</m> then
         <m>a \mid b+c</m> and <m>a \mid b-c</m>.
       </p>
     </statement>
-    <solution permid="s">
+    <solution permid="exers_addtops-numbth-e_ag-s">
 
-      <proof permid="pf">
-        <p permid="p">
+      <proof permid="exers_addtops-numbth-e_ag-pf">
+        <p permid="exers_addtops-numbth-e_ag-s-p">
           Assume <m>a \mid b</m> and <m>a \mid c</m>.
           This means that <m>b</m> and <m>c</m> are both multiples of <m>a</m>,
           so <m>b = am</m> and <m>c = an</m> for integers <m>m</m> and <m>n</m>.
@@ -52,48 +52,48 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_dp">
+  <exercise permid="exers_addtops-numbth-e_dp">
     <statement>
-      <p permid="p">
+      <p permid="exers_addtops-numbth-e_dp-p">
         Write out the remainder classes for <m>n = 4</m>.
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p1">
+    <solution permid="exers_addtops-numbth-e_dp-s">
+      <p permid="exers_addtops-numbth-e_dp-s-p1">
         <m>\{\ldots, -8, -4, 0, 4, 8, 12, \ldots\}</m>,
         <m>\{\ldots, -7, -3, 1, 5, 9, 13, \ldots\}</m>,
       </p>
 
-      <p permid="p2">
+      <p permid="exers_addtops-numbth-e_dp-s-p2">
         <m>\{\ldots, -6, -2, 2, 6, 10, 14, \ldots\}</m>,
         and <m>\{\ldots, -5, -1, 3, 7, 11, 15, \ldots\}</m>.
       </p>
     </solution>
   </exercise>
 
-  <exercise permid="e_gy">
+  <exercise permid="exers_addtops-numbth-e_gy">
     <statement>
-      <p permid="p">
+      <p permid="exers_addtops-numbth-e_gy-p">
         Let <m>a</m>, <m>b</m>, <m>c</m>, and <m>n</m> be integers.
         Prove that if <m>a \equiv b \pmod{n}</m> and <m>c \equiv d \pmod{n}</m>,
         then <m>a-c \equiv b-d \pmod{n}</m>.
       </p>
     </statement>
-    <solution permid="s">
+    <solution permid="exers_addtops-numbth-e_gy-s">
 
-      <proof permid="pf">
-        <p permid="p1">
+      <proof permid="exers_addtops-numbth-e_gy-pf">
+        <p permid="exers_addtops-numbth-e_gy-s-p1">
           Assume <m>a \equiv b \pmod n</m> and <m>c \equiv d \pmod n</m>.
           This means <m>a = b + kn</m> and
           <m>c = d + jn</m> for some integers <m>k</m> and <m>j</m>.
           Consider <m>a-c</m>.
           We have:
-          <me permid="me">
+          <me permid="exers_addtops-numbth-e_gy-s-p1-me">
             a-c = b+kn - (d+jn) = b-d + (k-j)n
           </me>.
         </p>
 
-        <p permid="p2">
+        <p permid="exers_addtops-numbth-e_gy-s-p2">
           In other words,
           <m>a-c</m> is <m>b-d</m> more than some multiple of <m>n</m>,
           so <m>a-c \equiv b-d \pmod n</m>.
@@ -103,140 +103,140 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_jq">
+  <exercise permid="exers_addtops-numbth-e_jq">
     <statement>
-      <p permid="p">
+      <p permid="exers_addtops-numbth-e_jq-p">
         Find the remainder of <m>3^{456}</m> when divided by
       </p>
 
-      <ol permid="ol">
-        <li permid="l_j">
-          <p permid="p">
+      <ol permid="exers_addtops-numbth-e_jq-ol">
+        <li permid="exers_addtops-numbth-e_jq-ol-l_j">
+          <p permid="exers_addtops-numbth-e_jq-ol-l_j-p">
             2.
           </p>
         </li>
 
-        <li permid="l_s">
-          <p permid="p">
+        <li permid="exers_addtops-numbth-e_jq-ol-l_s">
+          <p permid="exers_addtops-numbth-e_jq-ol-l_s-p">
             5.
           </p>
         </li>
 
-        <li permid="l_b">
-          <p permid="p">
+        <li permid="exers_addtops-numbth-e_jq-ol-l_b">
+          <p permid="exers_addtops-numbth-e_jq-ol-l_b-p">
             7.
           </p>
         </li>
 
-        <li permid="l_k">
-          <p permid="p">
+        <li permid="exers_addtops-numbth-e_jq-ol-l_k">
+          <p permid="exers_addtops-numbth-e_jq-ol-l_k-p">
             9.
           </p>
         </li>
       </ol>
     </statement>
-    <solution permid="s">
-      <ol permid="ol">
-        <li permid="l_j"><m>3^{456} \equiv 1^{456} = 1 \pmod 2</m>.</li>
+    <solution permid="exers_addtops-numbth-e_jq-s">
+      <ol permid="exers_addtops-numbth-e_jq-s-ol">
+        <li permid="exers_addtops-numbth-e_jq-s-ol-l_j"><m>3^{456} \equiv 1^{456} = 1 \pmod 2</m>.</li>
 
-        <li permid="l_s">
+        <li permid="exers_addtops-numbth-e_jq-s-ol-l_s">
           <m>3^{456} = 9^{228} \equiv (-1)^{228} = 1 \pmod{5}</m>.
         </li>
 
-        <li permid="l_b">
+        <li permid="exers_addtops-numbth-e_jq-s-ol-l_b">
           <m>3^{456} = 9^{228} \equiv 2^{228} = 8^{76} \equiv 1^{76} = 1 \pmod 7</m>.
         </li>
 
-        <li permid="l_k">
+        <li permid="exers_addtops-numbth-e_jq-s-ol-l_k">
           <m>3^{456} = 9^{228} \equiv 0^{228} = 0 \pmod{9}</m>.
         </li>
       </ol>
     </solution>
   </exercise>
 
-  <exercise permid="e_mz">
+  <exercise permid="exers_addtops-numbth-e_mz">
     <statement>
-      <p permid="p">
+      <p permid="exers_addtops-numbth-e_mz-p">
         Determine which of the following congruences have solutions,
         and find any solutions (between 0 and the modulus) by trial and error.
       </p>
 
-      <ol permid="ol">
-        <li permid="l_j"><m>4x \equiv 5 \pmod 6</m>.</li>
+      <ol permid="exers_addtops-numbth-e_mz-ol">
+        <li permid="exers_addtops-numbth-e_mz-ol-l_j"><m>4x \equiv 5 \pmod 6</m>.</li>
 
-        <li permid="l_s"><m>4x \equiv 5 \pmod 7</m>.</li>
+        <li permid="exers_addtops-numbth-e_mz-ol-l_s"><m>4x \equiv 5 \pmod 7</m>.</li>
 
-        <li permid="l_b"><m>6x \equiv 3 \pmod 9</m>.</li>
+        <li permid="exers_addtops-numbth-e_mz-ol-l_b"><m>6x \equiv 3 \pmod 9</m>.</li>
 
-        <li permid="l_k"><m>6x \equiv 4 \pmod 9</m>.</li>
+        <li permid="exers_addtops-numbth-e_mz-ol-l_k"><m>6x \equiv 4 \pmod 9</m>.</li>
 
-        <li permid="l_t"><m>x^2 \equiv 2 \pmod 4</m>.</li>
+        <li permid="exers_addtops-numbth-e_mz-ol-l_t"><m>x^2 \equiv 2 \pmod 4</m>.</li>
 
-        <li permid="l_c"><m>x^2 \equiv 2 \pmod 7</m>.</li>
+        <li permid="exers_addtops-numbth-e_mz-ol-l_c"><m>x^2 \equiv 2 \pmod 7</m>.</li>
       </ol>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_addtops-numbth-e_mz-s">
+      <p permid="exers_addtops-numbth-e_mz-s-p">
         For all of these,
         just plug in all integers between 0 and the modulus to see which,
         if any, work.
       </p>
 
-      <ol permid="ol">
-        <li permid="l_j">
-          <p permid="p">
+      <ol permid="exers_addtops-numbth-e_mz-s-ol">
+        <li permid="exers_addtops-numbth-e_mz-s-ol-l_j">
+          <p permid="exers_addtops-numbth-e_mz-s-ol-l_j-p">
             No solutions.
           </p>
         </li>
 
-        <li permid="l_s"><m>x = 3</m>.</li>
+        <li permid="exers_addtops-numbth-e_mz-s-ol-l_s"><m>x = 3</m>.</li>
 
-        <li permid="l_b"><m>x = 2</m>, <m>x = 5</m>, <m>x = 8</m>.</li>
+        <li permid="exers_addtops-numbth-e_mz-s-ol-l_b"><m>x = 2</m>, <m>x = 5</m>, <m>x = 8</m>.</li>
 
-        <li permid="l_k">
-          <p permid="p">
+        <li permid="exers_addtops-numbth-e_mz-s-ol-l_k">
+          <p permid="exers_addtops-numbth-e_mz-s-ol-l_k-p">
             No solutions.
           </p>
         </li>
 
-        <li permid="l_t">
-          <p permid="p">
+        <li permid="exers_addtops-numbth-e_mz-s-ol-l_t">
+          <p permid="exers_addtops-numbth-e_mz-s-ol-l_t-p">
             No solutions.
           </p>
         </li>
 
-        <li permid="l_c"><m>x = 3</m>.</li>
+        <li permid="exers_addtops-numbth-e_mz-s-ol-l_c"><m>x = 3</m>.</li>
       </ol>
     </solution>
   </exercise>
 
-  <exercise permid="e_pi">
+  <exercise permid="exers_addtops-numbth-e_pi">
     <statement>
-      <p permid="p">
+      <p permid="exers_addtops-numbth-e_pi-p">
         Solve the following congruences
         (describe the general solution).
       </p>
 
-      <ol permid="ol">
-        <li permid="l_j"><m>5x + 8 \equiv 11 \pmod{22}</m>.</li>
+      <ol permid="exers_addtops-numbth-e_pi-ol">
+        <li permid="exers_addtops-numbth-e_pi-ol-l_j"><m>5x + 8 \equiv 11 \pmod{22}</m>.</li>
 
-        <li permid="l_s"><m>6x \equiv 4 \pmod{10}</m>.</li>
+        <li permid="exers_addtops-numbth-e_pi-ol-l_s"><m>6x \equiv 4 \pmod{10}</m>.</li>
 
-        <li permid="l_b"><m>4x \equiv 24 \pmod{30}</m>.</li>
+        <li permid="exers_addtops-numbth-e_pi-ol-l_b"><m>4x \equiv 24 \pmod{30}</m>.</li>
 
-        <li permid="l_k"><m>341x \equiv 2941 \pmod{9}</m>.</li>
+        <li permid="exers_addtops-numbth-e_pi-ol-l_k"><m>341x \equiv 2941 \pmod{9}</m>.</li>
       </ol>
     </statement>
-    <solution permid="s">
-      <ol permid="ol">
-        <li permid="l_j"><m>x = 5+22k</m> for <m>k \in \Z</m>.</li>
+    <solution permid="exers_addtops-numbth-e_pi-s">
+      <ol permid="exers_addtops-numbth-e_pi-s-ol">
+        <li permid="exers_addtops-numbth-e_pi-s-ol-l_j"><m>x = 5+22k</m> for <m>k \in \Z</m>.</li>
 
-        <li permid="l_s"><m>x = 4 + 5k</m> for <m>k \in \Z</m>.</li>
+        <li permid="exers_addtops-numbth-e_pi-s-ol-l_s"><m>x = 4 + 5k</m> for <m>k \in \Z</m>.</li>
 
-        <li permid="l_b"><m>x = 6 + 15k</m> for <m>k \in \Z</m>.</li>
+        <li permid="exers_addtops-numbth-e_pi-s-ol-l_b"><m>x = 6 + 15k</m> for <m>k \in \Z</m>.</li>
 
-        <li permid="l_k">
-          <p permid="p">
+        <li permid="exers_addtops-numbth-e_pi-s-ol-l_k">
+          <p permid="exers_addtops-numbth-e_pi-s-ol-l_k-p">
             First reduce each number modulo 9, which can be done by adding up the digits of the numbers.
             Answer: <m>x = 2 + 9k</m> for <m>k \in \Z</m>.
           </p>
@@ -245,17 +245,17 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_sa">
+  <exercise permid="exers_addtops-numbth-e_sa">
     <statement>
-      <p permid="p">
+      <p permid="exers_addtops-numbth-e_sa-p">
         I'm thinking of a number.
         If you multiply my number by 7, add 5, and divide the result by 11,
         you will be left with a remainder of 2.
         What remainder would you get if you divided my original number by 11?
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_addtops-numbth-e_sa-s">
+      <p permid="exers_addtops-numbth-e_sa-s-p">
         We must solve <m>7x + 5 \equiv 2 \pmod{11}</m>.
         This gives <m>x \equiv 9 \pmod{11}</m>.
         In general, <m>x = 9 + 11k</m>,
@@ -264,25 +264,25 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_vj">
+  <exercise permid="exers_addtops-numbth-e_vj">
     <statement>
-      <p permid="p">
+      <p permid="exers_addtops-numbth-e_vj-p">
         Solve the following linear Diophantine equations, using modular arithmetic
         (describe the general solutions).
       </p>
 
-      <ol permid="ol">
-        <li permid="l_j"><m>6x + 10y = 32</m>.</li>
+      <ol permid="exers_addtops-numbth-e_vj-ol">
+        <li permid="exers_addtops-numbth-e_vj-ol-l_j"><m>6x + 10y = 32</m>.</li>
 
-        <li permid="l_s"><m>17x + 8y = 31</m>.</li>
+        <li permid="exers_addtops-numbth-e_vj-ol-l_s"><m>17x + 8y = 31</m>.</li>
 
-        <li permid="l_b"><m>35x + 47y = 1</m>.</li>
+        <li permid="exers_addtops-numbth-e_vj-ol-l_b"><m>35x + 47y = 1</m>.</li>
       </ol>
     </statement>
-    <solution permid="s">
-      <ol permid="ol">
-        <li permid="l_j">
-          <p permid="p">
+    <solution permid="exers_addtops-numbth-e_vj-s">
+      <ol permid="exers_addtops-numbth-e_vj-s-ol">
+        <li permid="exers_addtops-numbth-e_vj-s-ol-l_j">
+          <p permid="exers_addtops-numbth-e_vj-s-ol-l_j-p">
             Divide through by 2: <m>3x + 5y = 16</m>.
             Convert to a congruence, modulo 3:
             <m>5y \equiv 16 \pmod 3</m>, which reduces to <m>2y \equiv 1 \pmod 3</m>.
@@ -294,20 +294,20 @@
           </p>
         </li>
 
-        <li permid="l_s">
+        <li permid="exers_addtops-numbth-e_vj-s-ol-l_s">
           <m>x = 7+8k</m> and <m>y = -11 - 17k</m> for <m>k \in \Z</m>.
         </li>
 
-        <li permid="l_b">
+        <li permid="exers_addtops-numbth-e_vj-s-ol-l_b">
           <m>x = -4-47k</m> and <m>y = 3 + 35k</m> for <m>k \in \Z</m>.
         </li>
       </ol>
     </solution>
   </exercise>
 
-  <exercise permid="e_ys">
+  <exercise permid="exers_addtops-numbth-e_ys">
     <statement>
-      <p permid="p">
+      <p permid="exers_addtops-numbth-e_ys-p">
         You have a 13 oz. bottle and a 20 oz. bottle,
         with which you wish to measure exactly 2 oz.
         However, you have a limited supply of water.
@@ -316,8 +316,8 @@
         What is the least amount of water you can start with and still complete the task?
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_addtops-numbth-e_ys-s">
+      <p permid="exers_addtops-numbth-e_ys-s-p">
         First, solve the Diophantine equation <m>13x + 20 y = 2</m>.
         The general solution is <m>x = -6 - 20k</m> and <m>y = 4+13k</m>.
         Now if <m>k = 0</m>,

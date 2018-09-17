@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <exercises permid="exers_gt-planar" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exercises_gt-planar">
 
-  <exercise permid="e_xo">
+  <exercise permid="exers_gt-planar-e_xo">
     <statement>
-      <p permid="p">
+      <p permid="exers_gt-planar-e_xo-p">
         Is it possible for a planar graph to have 6 vertices, 10 edges and 5 faces?
         Explain.
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_gt-planar-e_xo-s">
+      <p permid="exers_gt-planar-e_xo-s-p">
         No.
         A (connected) planar graph must satisfy Euler's formula:
         <m>v - e + f = 2</m>.
@@ -18,9 +18,9 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ag">
+  <exercise permid="exers_gt-planar-e_ag">
     <statement>
-      <p permid="p">
+      <p permid="exers_gt-planar-e_ag-p">
         The graph <m>G</m> has 6 vertices with degrees <m>2, 2, 3, 4, 4, 5</m>.
         How many edges does <m>G</m> have?
         Could <m>G</m> be planar?
@@ -28,8 +28,8 @@
         If not, explain.
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_gt-planar-e_ag-s">
+      <p permid="exers_gt-planar-e_ag-s-p">
         <m>G</m> has 10 edges, since <m>10 = \frac{2+2+3+4+4+5}{2}</m>.
         It could be planar,
         and then it would have 6 faces, using Euler's formula:
@@ -42,9 +42,9 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_dp">
+  <exercise permid="exers_gt-planar-e_dp">
     <statement>
-      <p permid="p">
+      <p permid="exers_gt-planar-e_dp-p">
         I'm thinking of a polyhedron containing 12 faces.
         Seven are triangles and four are quadralaterals.
         The polyhedron has 11 vertices including those around the mystery face.
@@ -52,8 +52,8 @@
       </p>
     </statement>
 <!-- I should check that this is actually possible as a polyhedron -->
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_gt-planar-e_dp-s">
+      <p permid="exers_gt-planar-e_dp-s-p">
         Say the last polyhedron has <m>n</m> edges,
         and also <m>n</m> vertices.
         The total number of edges the polyhedron has then is <m>(7 \cdot 3 + 4 \cdot 4 + n)/2 = (37 + n)/2</m>.
@@ -67,14 +67,14 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_gy">
+  <exercise permid="exers_gt-planar-e_gy">
     <statement>
-      <p permid="p">
+      <p permid="exers_gt-planar-e_gy-p">
         Consider some classic polyhedrons.
 
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+        <ol permid="exers_gt-planar-e_gy-ol">
+          <li permid="exers_gt-planar-e_gy-ol-l_j">
+            <p permid="exers_gt-planar-e_gy-ol-l_j-p">
               An <em>octahedron</em> is a regular polyhedron made up of 8 equilateral triangles
               (it sort of looks like two pyramids with their bases glued together).
               Draw a planar graph representation of an octahedron.
@@ -84,8 +84,8 @@
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_gt-planar-e_gy-ol-l_s">
+            <p permid="exers_gt-planar-e_gy-ol-l_s-p">
               The traditional design of a soccer ball is in fact a
               (spherical projection of a)
               truncated icosahedron.
@@ -99,8 +99,8 @@
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_gt-planar-e_gy-ol-l_b">
+            <p permid="exers_gt-planar-e_gy-ol-l_b-p">
               Your <q>friend</q> claims that he has constructed a convex polyhedron out of 2 triangles, 2 squares, 6 pentagons and 5 octagons.
               Prove that your friend is lying.
               Hint: each vertex of a convex polyhedron must border at least three faces.
@@ -111,16 +111,16 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_jq">
+  <exercise permid="exers_gt-planar-e_jq">
     <statement>
-      <p permid="p">
+      <p permid="exers_gt-planar-e_jq-p">
         Prove Euler's formula using induction on the number of edges in the graph.
       </p>
     </statement>
-    <solution permid="s">
+    <solution permid="exers_gt-planar-e_jq-s">
 
-      <proof permid="pf">
-        <p permid="p">
+      <proof permid="exers_gt-planar-e_jq-pf">
+        <p permid="exers_gt-planar-e_jq-s-p">
           Let <m>P(n)</m> be the statement,
           <q>every planar graph containing <m>n</m> edges satisfies <m>v - n + f = 2</m>.</q>
           We will show <m>P(n)</m> is true for all <m>n \ge 0</m>.
@@ -136,18 +136,18 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_mz">
+  <exercise permid="exers_gt-planar-e_mz">
     <statement>
-      <p permid="p">
+      <p permid="exers_gt-planar-e_mz-p">
         Prove Euler's formula using induction on the number of
         <em>vertices</em> in the graph.
       </p>
     </statement>
   </exercise>
 
-  <exercise permid="e_pi">
+  <exercise permid="exers_gt-planar-e_pi">
     <statement>
-      <p permid="p">
+      <p permid="exers_gt-planar-e_pi-p">
         Euler's formula (<m>v - e + f = 2</m>) holds for all
         <em>connected</em> planar graphs.
         What if a graph is not connected?
@@ -158,17 +158,17 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_sa">
+  <exercise permid="exers_gt-planar-e_sa">
     <statement>
-      <p permid="p">
+      <p permid="exers_gt-planar-e_sa-p">
         Prove that the <em>Petersen graph</em>
             <idx><h>Petersen graph</h></idx>
         (below) is not planar.
       </p>
 
-      <sidebyside permid="sbs" width="28%">
+      <sidebyside permid="exers_gt-planar-sbs" width="28%">
 
-        <image permid="im">
+        <image permid="exers_gt-planar-sbs-im">
 
           <latex-image>
             \begin{tikzpicture}[scale=.7]
@@ -182,38 +182,38 @@
 
       </sidebyside>
     </statement>
-    <hint permid="h">
-      <p permid="p">
+    <hint permid="exers_gt-planar-e_sa-h">
+      <p permid="exers_gt-planar-e_sa-h-p">
         What is the length of the shortest cycle? (This quantity is usually called the
         <term>girth</term> of the graph.)
       </p>
     </hint>
   </exercise>
 
-  <exercise permid="e_vj">
+  <exercise permid="exers_gt-planar-e_vj">
     <statement>
-      <p permid="p">
+      <p permid="exers_gt-planar-e_vj-p">
         Prove that any planar graph with <m>v</m> vertices and <m>e</m> edges satisfies <m>e \le 3v - 6</m>.
       </p>
     </statement>
-    <solution permid="s">
+    <solution permid="exers_gt-planar-e_vj-s">
 
-      <proof permid="pf">
-        <p permid="p">
+      <proof permid="exers_gt-planar-e_vj-pf">
+        <p permid="exers_gt-planar-e_vj-s-p">
           We know in any planar graph the number of faces <m>f</m> satisfies
           <m>3f \le 2e</m> since each face is bounded by at least three edges,
           but each edge borders two faces.
           Combine this with Euler's formula:
-          <me permid="me1">
+          <me permid="exers_gt-planar-e_vj-s-p-me1">
             v - e + f = 2
           </me>
-          <me permid="me2">
+          <me permid="exers_gt-planar-e_vj-s-p-me2">
             v - e + \frac{2e}{3} \ge 2
           </me>
-          <me permid="me3">
+          <me permid="exers_gt-planar-e_vj-s-p-me3">
             3v - e \ge 6
           </me>
-          <me permid="me4">
+          <me permid="exers_gt-planar-e_vj-s-p-me4">
             3v - 6 \ge e
           </me>.
         </p>
@@ -222,9 +222,9 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ys">
+  <exercise permid="exers_gt-planar-e_ys">
     <statement>
-      <p permid="p">
+      <p permid="exers_gt-planar-e_ys-p">
         Prove that any planar graph must have a vertex of degree 5 or less.
       </p>
     </statement>

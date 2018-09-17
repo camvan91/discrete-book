@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <exercises permid="exers_counting-advpie" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exercises_counting-advPIE">
 
-  <exercise permid="e_xo">
+  <exercise permid="exers_counting-advpie-e_xo">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-advpie-e_xo-p">
         The dollar menu at your favorite tax-free fast food restaurant has 7 items.
         You have
         <dollar/>10 to spend.
         How many different meals can you buy if you spend all your money and:
 
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+        <ol permid="exers_counting-advpie-e_xo-ol">
+          <li permid="exers_counting-advpie-e_xo-ol-l_j">
+            <p permid="exers_counting-advpie-e_xo-ol-l_j-p">
               Purchase at least one of each item.
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_counting-advpie-e_xo-ol-l_s">
+            <p permid="exers_counting-advpie-e_xo-ol-l_s-p">
               Possibly skip some items.
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_counting-advpie-e_xo-ol-l_b">
+            <p permid="exers_counting-advpie-e_xo-ol-l_b-p">
               Don't get more than 2 of any particular item.
             </p>
           </li>
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j"><m>{9 \choose 6}</m> meals.</li>
+    <solution permid="exers_counting-advpie-e_xo-s">
+      <p permid="exers_counting-advpie-e_xo-s-p">
+        <ol permid="exers_counting-advpie-e_xo-s-ol">
+          <li permid="exers_counting-advpie-e_xo-s-ol-l_j"><m>{9 \choose 6}</m> meals.</li>
 
-          <li permid="l_s"><m>{16 \choose 6}</m> meals.</li>
+          <li permid="exers_counting-advpie-e_xo-s-ol-l_s"><m>{16 \choose 6}</m> meals.</li>
 
-          <li permid="l_b">
+          <li permid="exers_counting-advpie-e_xo-s-ol-l_b">
             <m>{16 \choose 6} - \left[{7 \choose 1}{13 \choose 6} - {7 \choose 2}{10 \choose 6} + {7 \choose 3}{7 \choose 6}\right]</m> meals.
             Use PIE to subtract all the meals in which you get 3 or more of a particular item.
           </li>
@@ -46,9 +46,9 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ag">
+  <exercise permid="exers_counting-advpie-e_ag">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-advpie-e_ag-p">
         After a late night of math studying,
         you and your friends decide to go to your favorite tax-free fast food Mexican restaurant,
         <em>Burrito Chime</em>.
@@ -57,24 +57,24 @@
         <dollar/>16 to spend
         (and will spend all of it).
 
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+        <ol permid="exers_counting-advpie-e_ag-ol">
+          <li permid="exers_counting-advpie-e_ag-ol-l_j">
+            <p permid="exers_counting-advpie-e_ag-ol-l_j-p">
               How many different orders are possible?
               Explain.
               (The <em>order</em> in which the order is placed does not matter - just which and how many of each item that is ordered.)
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_counting-advpie-e_ag-ol-l_s">
+            <p permid="exers_counting-advpie-e_ag-ol-l_s-p">
               How many different orders are possible if you want to get at least one of each item?
               Explain.
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_counting-advpie-e_ag-ol-l_b">
+            <p permid="exers_counting-advpie-e_ag-ol-l_b-p">
               How many different orders are possible if you don't get more than 4 of any one item?
               Explain.
             </p>
@@ -84,50 +84,50 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_dp">
+  <exercise permid="exers_counting-advpie-e_dp">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-advpie-e_dp-p">
         After another gym class you are tasked with putting the 14 identical dodgeballs away into 5 bins.
         This time, no bin can hold more than 6 balls.
         How many ways can you clean up?
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_counting-advpie-e_dp-s">
+      <p permid="exers_counting-advpie-e_dp-s-p">
         <m>{18 \choose 4} - \left[ {5 \choose 1}{11 \choose 4} - {5 \choose 2}{4 \choose 4}\right]</m>.
         Subtract all the distributions for which one or more bins contain 7 or more balls.
       </p>
     </solution>
   </exercise>
 
-  <exercise permid="e_gy">
+  <exercise permid="exers_counting-advpie-e_gy">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-advpie-e_gy-p">
         Consider the equation <m>x_1 + x_2 + x_3 + x_4 = 15</m>.
         How many solutions are there with
         <m>2 \le x_i \le 5</m> for all <m>i \in \{1,2,3,4\}</m>?
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p1">
+    <solution permid="exers_counting-advpie-e_gy-s">
+      <p permid="exers_counting-advpie-e_gy-s-p1">
         The easiest way to solve this is to instead count the solutions to
         <m>y_1 + y_2 + y_3 + y_4 = 7</m> with <m>0 \le y_i \le 3</m>.
         By taking <m>x_i = y_i+2</m>,
         each solution to this new equation corresponds to exactly one solution to the original equation.
       </p>
 
-      <p permid="p2">
+      <p permid="exers_counting-advpie-e_gy-s-p2">
         Now all the ways to distribute the 7 units to the four <m>y_i</m> variables can be found using stars and bars,
         specifically 7 stars and 3 bars,
         so <m>{10 \choose 3}</m> ways.
         But this includes the ways that one or more <m>y_i</m> variables can be assigned more than 3 units.
         So subtract, using PIE. We get
-        <me permid="me">
+        <me permid="exers_counting-advpie-e_gy-s-p2-me">
           {10 \choose 3} - {4\choose 1} {6 \choose 3}
         </me>.
       </p>
 
-      <p permid="p3">
+      <p permid="exers_counting-advpie-e_gy-s-p3">
         The <m>{4 \choose 1}</m> counts the number of ways to pick one variable to be over-assigned,
         the <m>{6 \choose 3}</m> is the number of ways to assign the remaining 3 units to the 4 variables.
         Note that this is the final answer because it is not possible to have two variables both get 4 units.
@@ -135,9 +135,9 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_jq">
+  <exercise permid="exers_counting-advpie-e_jq">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-advpie-e_jq-p">
         Suppose you planned on giving 7 gold stars to some of the 13 star students in your class.
         Each student can receive at most one star.
         How many ways can you do this?
@@ -146,42 +146,42 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_mz">
+  <exercise permid="exers_counting-advpie-e_mz">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-advpie-e_mz-p">
         Based on the previous question,
         give a combinatorial proof for the identity:
-        <me permid="me">
+        <me permid="exers_counting-advpie-e_mz-p-me">
           {n \choose k} = {n+k-1 \choose k} - \sum_{j=1}^n (-1)^{j+1}{n \choose j}{n+k-(2j+1) \choose k}
         </me>.
       </p>
     </statement>
   </exercise>
 
-  <exercise permid="e_pi">
+  <exercise permid="exers_counting-advpie-e_pi">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-advpie-e_pi-p">
         Illustrate how the counting of derangements works by writing all permutations of
         <m>\{1,2,3,4\}</m> and the crossing out those which are not derangements.
         Keep track of the permutations you cross out more than once,
         using PIE.
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_counting-advpie-e_pi-s">
+      <p permid="exers_counting-advpie-e_pi-s-p">
         The 9 derangements are: 2143, 2341, 2413, 3142, 3412, 3421, 4123, 4312, 4321.
       </p>
     </solution>
   </exercise>
 
-  <exercise permid="e_sa">
+  <exercise permid="exers_counting-advpie-e_sa">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-advpie-e_sa-p">
         How many permutations of <m>\{1,2,3,4,5\}</m> leave exactly 1 element fixed?
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_counting-advpie-e_sa-s">
+      <p permid="exers_counting-advpie-e_sa-s-p">
         First pick one of the five elements to be fixed.
         For each such choice, derange the remaining four,
         using the standard advanced PIE formula.
@@ -191,9 +191,9 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_vj">
+  <exercise permid="exers_counting-advpie-e_vj">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-advpie-e_vj-p">
         Ten ladies of a certain age drop off their red hats at the hat check of a museum.
         As they are leaving,
         the hat check attendant gives the hats back randomly.
@@ -203,30 +203,30 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_ys">
+  <exercise permid="exers_counting-advpie-e_ys">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-advpie-e_ys-p">
         The Grinch sneaks into a room with 6 Christmas presents to 6 different people.
         He proceeds to switch the name-labels on the presents.
         How many ways could he do this if:
 
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+        <ol permid="exers_counting-advpie-e_ys-ol">
+          <li permid="exers_counting-advpie-e_ys-ol-l_j">
+            <p permid="exers_counting-advpie-e_ys-ol-l_j-p">
               No present is allowed to end up with its original label?
               Explain what each term in your answer represents.
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_counting-advpie-e_ys-ol-l_s">
+            <p permid="exers_counting-advpie-e_ys-ol-l_s-p">
               Exactly 2 presents keep their original labels?
               Explain.
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_counting-advpie-e_ys-ol-l_b">
+            <p permid="exers_counting-advpie-e_ys-ol-l_b-p">
               Exactly 5 presents keep their original labels?
               Explain.
             </p>
@@ -236,38 +236,38 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_bk">
+  <exercise permid="exers_counting-advpie-e_bk">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-advpie-e_bk-p">
         Consider functions <m>f: \{1,2,3,4\} \to \{a,b,c,d,e,f\}</m>.
         How many functions have the property that
         <m>f(1) \ne a</m> or <m>f(2) \ne b</m>, or both?
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_counting-advpie-e_bk-s">
+      <p permid="exers_counting-advpie-e_bk-s-p">
         There are <m>5 \cdot 6^3</m> functions for which <m>f(1) \ne a</m> and another
         <m>5 \cdot 6^3</m> functions for which <m>f(2) \ne b</m>.
         There are <m>5^2 \cdot 6^2</m> functions for which both
         <m>f(1) \ne a</m> and <m>f(2) \ne b</m>.
         So the total number of functions for which
         <m>f(1) \ne a</m> or <m>f(2) \ne b</m> or both is
-        <me permid="me">
+        <me permid="exers_counting-advpie-e_bk-s-p-me">
           5 \cdot 6^3 + 5 \cdot 6^3 - 5^2 \cdot 6^2 = 1260
         </me>.
       </p>
     </solution>
   </exercise>
 
-  <exercise permid="e_et">
+  <exercise permid="exers_counting-advpie-e_et">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-advpie-e_et-p">
         Consider sets <m>A</m> and <m>B</m> with <m>|A| = 10</m> and <m>|B| = 5</m>.
         How many functions <m>f: A \to B</m> are surjective?
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_counting-advpie-e_et-s">
+      <p permid="exers_counting-advpie-e_et-s-p">
         <m>5^{10} - \left[{5 \choose 1}4^{10} - {5 \choose 2}3^{10} + {5 \choose 3}2^{10} - {5 \choose 4}1^{10}\right]</m> functions.
         The <m>5^{10}</m> is all the functions from <m>A</m> to <m>B</m>.
         We subtract those that aren't surjective.
@@ -282,9 +282,9 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_hc">
+  <exercise permid="exers_counting-advpie-e_hc">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-advpie-e_hc-p">
         Let <m>A = \{1,2,3,4,5\}</m>.
         How many injective functions
         <m>f:A \to A</m> have the property that for each <m>x \in A</m>,
@@ -293,18 +293,18 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_ku">
+  <exercise permid="exers_counting-advpie-e_ku">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-advpie-e_ku-p">
         Let <m>d_n</m> be the number of derangements of <m>n</m> objects.
         For example, using the techniques of this section, we find
-        <me permid="me1">
+        <me permid="exers_counting-advpie-e_ku-p-me1">
           d_3 = 3!-\left({3 \choose 1}2! - {3 \choose 2}1! + {3 \choose 3}0! \right)
         </me>
         We can use the formula for
         <m>{n \choose k}</m> to write this all in terms of factorials.
         After simplifying, for <m>d_3</m> we would get
-        <me permid="me2">
+        <me permid="exers_counting-advpie-e_ku-p-me2">
           d_3 = 3!\left(1 - \frac{1}{1} + \frac{1}{2} - \frac{1}{6} \right)
         </me>
         Generalize this to find a nicer formula for <m>d_n</m>.

@@ -2,11 +2,11 @@
 
 <section permid="sec_counting-addmult" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_counting-addmult">
   <title>Additive and Multiplicative Principles</title>
-  <introduction permid="intr">
-    <investigation permid="inv">
-      <p permid="p1">
-        <ol permid="ol1">
-          <li permid="l_j">
+  <introduction permid="sec_counting-addmult-intr">
+    <investigation permid="sec_counting-addmult-inv">
+      <p permid="sec_counting-addmult-intr-p1">
+        <ol permid="sec_counting-addmult-intr-ol1">
+          <li permid="sec_counting-addmult-intr-ol1-l_j">
             <p>
               A restaurant offers 8 appetizers and 14 entrées.
               How many choices do you have if:
@@ -16,35 +16,35 @@
                   you will eat one dish, either an appetizer or an entrée?
                 </li>
 
-                <li permid="l_s">
+                <li permid="sec_counting-addmult-intr-ol1-l_s">
                   you are extra hungry and want to eat both an appetizer and an entrée?
                 </li>
               </ol>
             </p>
           </li>
 
-          <li permid="l_j">
-            <p permid="p">
+          <li permid="sec_counting-addmult-intr-l_j">
+            <p permid="sec_counting-addmult-intr-l_j-p">
               Think about the methods you used to solve question 1.
               Write down the rules for these methods.
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p2">
+          <li permid="sec_counting-addmult-intr-l_s">
+            <p permid="sec_counting-addmult-intr-p2">
               Do your rules work?
               A standard deck of playing cards has 26 red cards and 12 face cards.
 
-              <ol permid="ol2">
-                <li permid="l_j">
+              <ol permid="sec_counting-addmult-intr-ol2">
+                <li permid="sec_counting-addmult-intr-ol2-l_j">
                   How many ways can you select a card which is either red or a face card?
                 </li>
 
-                <li permid="l_s">
+                <li permid="sec_counting-addmult-intr-ol2-l_s">
                   How many ways can you select a card which is both red and a face card?
                 </li>
 
-                <li permid="l_b">
+                <li permid="sec_counting-addmult-intr-ol2-l_b">
                   How many ways can you select two cards so that the first one is red and the second one is a face card?
                 </li>
               </ol>
@@ -53,7 +53,7 @@
         </ol>
       </p>
     </investigation>
-    <p permid="p3">
+    <p permid="sec_counting-addmult-intr-p3">
       Consider this rather simple counting problem:
       at Red Dogs and Donuts,
       there are 14 varieties of donuts, and 16 types of hot dogs.
@@ -64,9 +64,9 @@
       What is important here?
     </p>
 
-    <assemblage permid="asm-additive-prin">
+    <assemblage permid="sec_counting-addmult-asm-additive-prin">
       <title>Additive Principle</title>
-      <p permid="p4">
+      <p permid="sec_counting-addmult-intr-p4">
         The
         <term>additive principle</term>
             <idx><h>additive principle</h></idx>
@@ -78,7 +78,7 @@
       </p>
     </assemblage>
 
-    <p permid="p5">
+    <p permid="sec_counting-addmult-intr-p5">
       It is important that the events be <term>disjoint</term>:
       i.e., that there is no way for <m>A</m> and <m>B</m> to both happen at the same time.
           <idx><h>disjoint</h></idx>
@@ -88,9 +88,9 @@
       This is because there are 6 cards which are both red and face cards.
     </p>
 
-    <example permid="ex1">
+    <example permid="sec_counting-addmult-ex1">
       <statement>
-        <p permid="p">
+        <p permid="sec_counting-addmult-ex1-p">
           How many two letter <q>words</q>
               <idx><h>word</h></idx>
           start with either A or B? (A <term>word</term>
@@ -98,8 +98,8 @@
           it doesn't have to be English, or even pronounceable.)
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p">
+      <solution permid="sec_counting-addmult-ex1-s">
+        <p permid="sec_counting-addmult-ex1-s-p">
           First, how many two letter words start with A? We just need to select the second letter,
           which can be accomplished in 26 ways.
           So there are 26 words starting with A. There are also 26 words that start with B. To select a word which starts with either A or B, we can pick the word from the first 26 or the second 26, for a total of 52 words.
@@ -107,7 +107,7 @@
       </solution>
     </example>
 
-    <p permid="p6">
+    <p permid="sec_counting-addmult-intr-p6">
       The additive principle also works with more than two events.
       Say, in addition to your 14 choices for donuts and 16 for dogs,
       you would also consider eating one of 15 waffles?
@@ -115,14 +115,14 @@
       You would have <m>14 + 16 + 15 = 45</m> options.
     </p>
 
-    <example permid="ex2">
+    <example permid="sec_counting-addmult-ex2">
       <statement>
-        <p permid="p">
+        <p permid="sec_counting-addmult-ex2-p">
           How many two letter words start with one of the 5 vowels?
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p">
+      <solution permid="sec_counting-addmult-ex2-s">
+        <p permid="sec_counting-addmult-ex2-s-p">
           There are 26 two letter words starting with A, another 26 starting with E, and so on.
           We will have 5 groups of 26.
           So we add 26 to itself 5 times.
@@ -133,16 +133,16 @@
       </solution>
     </example>
 
-    <example permid="ex3">
+    <example permid="sec_counting-addmult-ex3">
       <statement>
-        <p permid="p">
+        <p permid="sec_counting-addmult-ex3-p">
           Suppose you are going for some fro-yo.
           You can pick one of 6 yogurt choices, and one of 4 toppings.
           How many choices do you have?
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p">
+      <solution permid="sec_counting-addmult-ex3-s">
+        <p permid="sec_counting-addmult-ex3-s-p">
           Break your choices up into disjoint events:
           <m>A</m> are the choices with the first topping,
           <m>B</m> the choices featuring the second topping, and so on.
@@ -154,7 +154,7 @@
       </solution>
     </example>
 
-    <p permid="p7">
+    <p permid="sec_counting-addmult-intr-p7">
       Note that in both of the previous examples,
       when using the additive principle on a bunch of events all the same size,
       it is quicker to multiply.
@@ -167,9 +167,9 @@
       We have:
     </p>
 
-    <assemblage permid="asm-multiplicative-prin">
+    <assemblage permid="sec_counting-addmult-asm-multiplicative-prin">
       <title>Multiplicative Principle</title>
-      <p permid="p8">
+      <p permid="sec_counting-addmult-intr-p8">
         The
         <term>multiplicative principle</term><idx><h>multiplicative principle</h></idx> states that if event <m>A</m> can occur in <m>m</m> ways,
         and each possibility for <m>A</m> allows for exactly <m>n</m> ways for event <m>B</m>,
@@ -178,18 +178,18 @@
       </p>
     </assemblage>
 
-    <p permid="p9">
+    <p permid="sec_counting-addmult-intr-p9">
       The multiplicative principle generalizes to more than two events as well.
     </p>
 
-    <example permid="ex4">
+    <example permid="sec_counting-addmult-ex4">
       <statement>
-        <p permid="p">
+        <p permid="sec_counting-addmult-ex4-p">
           How many license plates can you make out of three letters followed by three numerical digits?
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p1">
+      <solution permid="sec_counting-addmult-ex4-s">
+        <p permid="sec_counting-addmult-ex4-s-p1">
           Here we have six events:
           the first letter, the second letter, the third letter,
           the first digit, the second digit, and the third digit.
@@ -199,7 +199,7 @@
           using the multiplicative principle.
         </p>
 
-        <p permid="p2">
+        <p permid="sec_counting-addmult-ex4-s-p2">
           Does this make sense?
           Think about how we would pick a license plate.
           How many choices we would have?
@@ -211,7 +211,7 @@
           Or quicker: there are <m>26 \cdot 26</m> choices for the first two letters.
         </p>
 
-        <p permid="p3">
+        <p permid="sec_counting-addmult-ex4-s-p3">
           Now for each choice of the first two letters,
           we have 26 choices for the third letter.
           That is, 26 third letters for the first two letters AA, 26 choices for the third letter after starting AB, and so on.
@@ -221,7 +221,7 @@
           we have a bunch of choices for the remaining digits.
         </p>
 
-        <p permid="p4">
+        <p permid="sec_counting-addmult-ex4-s-p4">
           In fact, there are going to be exactly 1000 choices for the numbers.
           We can see this because there are 1000 three-digit numbers (000 through 999).
           This is 10 choices for the first digit, 10 for the second,
@@ -230,7 +230,7 @@
           <m>10\cdot 10 \cdot 10 = 1000</m>.
         </p>
 
-        <p permid="p5">
+        <p permid="sec_counting-addmult-ex4-s-p5">
           All together,
           there were <m>26^3</m> choices for the three letters,
           and <m>10^3</m> choices for the numbers,
@@ -239,7 +239,7 @@
       </solution>
     </example>
 
-    <p permid="p10">
+    <p permid="sec_counting-addmult-intr-p10">
       Careful: <q>and</q> doesn't mean
       <q>times.</q> For example,
       how many playing cards are both red and a face card?
@@ -247,7 +247,7 @@
       The answer is 6, and we needed to know something about cards to answer that question.
     </p>
 
-    <p permid="p11">
+    <p permid="sec_counting-addmult-intr-p11">
       Another caution: how many ways can you select two cards,
       so that the first one is a red card and the second one is a face card?
       This looks more like the multiplicative principle
@@ -268,12 +268,12 @@
     <example permid="ex-counting-functions-all" xml:id="example-counting-functions-all">
       <title>Counting functions</title>
       <statement>
-        <p permid="p">
+        <p permid="ex-counting-functions-all-p">
           How many functions <m>f:\{1,2,3,4,5\} \to \{a,b,c,d\}</m> are there?
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p1">
+      <solution permid="ex-counting-functions-all-s">
+        <p permid="ex-counting-functions-all-s-p1">
           Remember that a function sends each element of the domain to exactly one element of the codomain.
           To determine a function,
           we just need to specify the image of each element in the domain.
@@ -288,7 +288,7 @@
           Thus there are <m>4 \cdot 4 \cdot 4 \cdot 4 \cdot 4 = 4^5</m> functions.
         </p>
 
-        <p permid="p2">
+        <p permid="ex-counting-functions-all-s-p2">
           This is more than just an example of how we can use the multiplicative principle in a particular counting question.
           What we have here is a general interpretation of certain applications of the multiplicative principle using rigorously defined mathematical objects:
           functions.
@@ -304,7 +304,7 @@
 
   <subsection permid="ssec_countingwithsets" xml:id="subsec_countingWithSets">
     <title>Counting With Sets</title>
-    <p permid="p1">
+    <p permid="ssec_countingwithsets-p1">
       Do you believe the additive and multiplicative principles?
       How would you convince someone they are correct?
       This is surprisingly difficult.
@@ -312,7 +312,7 @@
       But why do they work?
     </p>
 
-    <p permid="p2">
+    <p permid="ssec_countingwithsets-p2">
       To make things clearer,
       and more mathematically rigorous, we will use sets.
       Do not skip this section!
@@ -323,7 +323,7 @@
       and knowing when and when not to apply them at all.
     </p>
 
-    <p permid="p3">
+    <p permid="ssec_countingwithsets-p3">
       We will look at the additive and multiplicative principles in a slightly different way.
       Instead of thinking about event <m>A</m> and event <m>B</m>,
       we want to think of a set <m>A</m> and a set <m>B</m>.
@@ -332,22 +332,22 @@
       Here's what we mean:
     </p>
 
-    <example permid="ex1">
+    <example permid="ssec_countingwithsets-ex1">
       <statement>
-        <p permid="p1">
+        <p permid="ssec_countingwithsets-ex1-p1">
           Suppose you own 9 shirts and 5 pairs of pants.
         </p>
 
-        <p permid="p2">
-          <ol permid="ol">
-            <li permid="l_j">
-              <p permid="p">
+        <p permid="ssec_countingwithsets-ex1-p2">
+          <ol permid="ssec_countingwithsets-ex1-ol">
+            <li permid="ssec_countingwithsets-ex1-ol-l_j">
+              <p permid="ssec_countingwithsets-ex1-ol-l_j-p">
                 How many outfits can you make?
               </p>
             </li>
 
-            <li permid="l_s">
-              <p permid="p">
+            <li permid="ssec_countingwithsets-ex1-ol-l_s">
+              <p permid="ssec_countingwithsets-ex1-ol-l_s-p">
                 If today is half-naked-day,
                 and you will wear only a shirt or only a pair of pants,
                 how many choices do you have?
@@ -356,8 +356,8 @@
           </ol>
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p1">
+      <solution permid="ssec_countingwithsets-ex1-s">
+        <p permid="ssec_countingwithsets-ex1-s-p1">
           By now you should agree that the answer to the first question is
           <m>9 \cdot 5 = 45</m> and the answer to the second question is <m>9 + 5 = 14</m>.
           These are the multiplicative and additive principles.
@@ -367,7 +367,7 @@
           To get just one article of clothing, you add.
         </p>
 
-        <p permid="p2">
+        <p permid="ssec_countingwithsets-ex1-s-p2">
           Now look at this using sets.
           There are two sets, call them <m>S</m> and <m>P</m>.
           The set <m>S</m> contains all 9 shirts so <m>|S| = 9</m> while <m>|P| = 5</m>,
@@ -392,21 +392,21 @@
       </solution>
     </example>
 
-    <p permid="p4">
+    <p permid="ssec_countingwithsets-p4">
       From this example we can see right away how to rephrase our additive principle in terms of sets:
     </p>
 
-    <assemblage permid="asm-additive-prin-with-sets">
+    <assemblage permid="ssec_countingwithsets-asm-additive-prin-with-sets">
       <title>Additive Principle (with sets)</title>
-      <p permid="p">
+      <p permid="ssec_countingwithsets-asm-additive-prin-with-sets-p">
             <idx><h>additive principle</h></idx> Given two sets <m>A</m> and <m>B</m>, if <m>A \cap B = \emptyset</m> (that is, if there is no element in common to both <m>A</m> and <m>B</m>), then
-        <me permid="me">
+        <me permid="ssec_countingwithsets-asm-additive-prin-with-sets-p-me">
           \card{A \cup B} = \card{A} + \card{B}
         </me>.
       </p>
     </assemblage>
 
-    <p permid="p5">
+    <p permid="ssec_countingwithsets-p5">
       This hardly needs a proof.
       To find <m>A \cup B</m>,
       you take everything in <m>A</m> and throw in everything in <m>B</m>.
@@ -416,16 +416,16 @@
       Of course, we can easily extend this to any number of disjoint sets.
     </p>
 
-    <p permid="p6">
+    <p permid="ssec_countingwithsets-p6">
       From the example above,
       we see that in order to investigate the multiplicative principle carefully,
       we need to consider ordered pairs.
       We should define this carefully:
     </p>
 
-    <assemblage permid="asm-cartesian-product">
+    <assemblage permid="ssec_countingwithsets-asm-cartesian-product">
       <title>Cartesian Product</title>
-      <p permid="p">
+      <p permid="ssec_countingwithsets-asm-cartesian-product-p">
         Given sets <m>A</m> and <m>B</m>, we can form the
         <em>set</em> <m>A \times B = \{(x,y) \st x \in A \wedge y \in B\}</m> to be the set of all ordered pairs <m>(x,y)</m> where <m>x</m> is an element of <m>A</m> and <m>y</m> is an element of <m>B</m>.
         We call <m>A \times B</m> the
@@ -435,25 +435,25 @@
       </p>
     </assemblage>
 
-    <example permid="ex2">
+    <example permid="ssec_countingwithsets-ex2">
       <statement>
-        <p permid="p">
+        <p permid="ssec_countingwithsets-ex2-p">
           Let <m>A = \{1,2\}</m> and <m>B=\{3,4,5\}</m>.
           Find <m>A \times B</m>.
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p">
+      <solution permid="ssec_countingwithsets-ex2-s">
+        <p permid="ssec_countingwithsets-ex2-s-p">
           We want to find ordered pairs <m>(a,b)</m> where <m>a</m> can be either <m>1</m> or <m>2</m> and <m>b</m> can be either 3, 4, or 5.
           <m>A \times B</m> is the set of all of these pairs:
-          <me permid="me">
+          <me permid="ssec_countingwithsets-ex2-s-p-me">
             A \times B = \{(1,3), (1,4), (1,5), (2,3), (2,4), (2,5)\}
           </me>
         </p>
       </solution>
     </example>
 
-    <p permid="p7">
+    <p permid="ssec_countingwithsets-p7">
       The question is, what is <m>\card{A \times B}</m>?
       To figure this out, write out <m>A \times B</m>.
       Let <m>A = \{a_1,a_2, a_3, \ldots,
@@ -462,7 +462,7 @@
       The set <m>A \times B</m> contains all pairs with the first half of the pair being some
       <m>a_i \in A</m> and the second being one of the <m>b_j \in B</m>.
       In other words:
-      <md permid="md">
+      <md permid="ssec_countingwithsets-p7-md">
         <mrow>A \times B = \{ \amp (a_1, b_1), (a_1, b_2), (a_1, b_3), \ldots (a_1, b_n),</mrow>
         <mrow>\amp (a_2, b_1), (a_2, b_2), (a_2, b_3), \ldots, (a_2, b_n),</mrow>
         <mrow>\amp (a_3, b_1), (a_3, b_2), (a_3, b_3), \ldots, (a_3, b_n),</mrow>
@@ -471,47 +471,47 @@
       </md>.
     </p>
 
-    <p permid="p8">
+    <p permid="ssec_countingwithsets-p8">
       Notice what we have done here:
       we made <m>m</m> rows of <m>n</m> pairs,
       for a total of <m>m \cdot n</m> pairs.
     </p>
 
-    <p permid="p9">
+    <p permid="ssec_countingwithsets-p9">
       Each row above is really <m>\{a_i\} \times B</m> for some <m>a_i \in A</m>.
       That is, we fixed the <m>A</m>-element.
       Broken up this way, we have
-      <me permid="me">
+      <me permid="ssec_countingwithsets-p9-me">
         A \times B = (\{a_1\} \times B) \cup (\{a_2\} \times B) \cup (\{a_3\}\times B) \cup \cdots \cup (\{a_m\} \times B)
       </me>.
     </p>
 
-    <p permid="p10">
+    <p permid="ssec_countingwithsets-p10">
       So <m>A \times B</m> is really the union of <m>m</m> disjoint sets.
       Each of those sets has <m>n</m> elements in them.
       The total (using the additive principle) is <m>n + n + n + \cdots + n = m \cdot n</m>.
     </p>
 
-    <p permid="p11">
+    <p permid="ssec_countingwithsets-p11">
       To summarize:
     </p>
 
-    <assemblage permid="asm-multiplicative-prin-with-sets">
+    <assemblage permid="ssec_countingwithsets-asm-multiplicative-prin-with-sets">
       <title>Multiplicative Principle (with sets)</title>
-      <p permid="p">
+      <p permid="ssec_countingwithsets-asm-multiplicative-prin-with-sets-p">
             <idx><h>multiplicative principle</h></idx> Given two sets <m>A</m> and <m>B</m>, we have <m>\card{A \times B} = \card{A} \cdot \card{B}</m>.
       </p>
     </assemblage>
 
-    <p permid="p12">
+    <p permid="ssec_countingwithsets-p12">
       Again, we can easily extend this to any number of sets.
     </p>
   </subsection>
 
   <subsection permid="ssec_pie" xml:id="subsec_PIE">
     <title>Principle of Inclusion/Exclusion</title>
-    <investigation permid="inv">
-      <p permid="p1">
+    <investigation permid="ssec_pie-inv">
+      <p permid="ssec_pie-inv-p1">
         A recent buzz marketing campaign for <em>Village Inn</em>
         surveyed patrons on their pie preferences.
         People were asked whether they enjoyed (A) Apple, (B) Blueberry or (C) Cherry pie
@@ -520,7 +520,7 @@
         The following table shows the results of the survey.
       </p>
 
-      <sidebyside permid="sbs1">
+      <sidebyside permid="ssec_pie-sbs1">
 
         <tabular halign="center">
           <row bottom="minor">
@@ -547,12 +547,12 @@
 
       </sidebyside>
 
-      <p permid="p2">
+      <p permid="ssec_pie-inv-p2">
         How many of those asked enjoy at least one of the kinds of pie?
         Also, explain why the answer is not 95.
       </p>
     </investigation>
-    <p permid="p1">
+    <p permid="ssec_pie-p1">
           <idx><h>principle of inclusion/exclusion</h></idx>
           <idx><h>PIE</h></idx>
       While we are thinking about sets,
@@ -571,9 +571,9 @@
       as follows:
     </p>
 
-    <sidebyside permid="sbs2" width="40%">
+    <sidebyside permid="ssec_pie-sbs2" width="40%">
 
-      <image permid="im">
+      <image permid="ssec_pie-sbs2-im">
 
         <latex-image>
           \begin{tikzpicture}
@@ -585,7 +585,7 @@
 
     </sidebyside>
 
-    <p permid="p2">
+    <p permid="ssec_pie-p2">
       This says there are 6 elements in <m>A \cap B</m>, 4 elements in
       <m>A \setminus B</m> and 2 elements in <m>B \setminus A</m>.
       Now <em>these</em> three sets <em>are</em> disjoint,
@@ -593,26 +593,26 @@
       It is <m>6 + 4 + 2 = 12</m>.
     </p>
 
-    <p permid="p3">
+    <p permid="ssec_pie-p3">
       This will always work,
       but drawing a Venn diagram is more than we need to do.
       In fact, it would be nice to relate this problem to the case where <m>A</m> and <m>B</m> are disjoint.
       Is there one rule we can make that works in either case?
     </p>
 
-    <p permid="p4">
+    <p permid="ssec_pie-p4">
       Here is another way to get the answer to the problem above.
       Start by just adding <m>\card{A} + \card{B}</m>.
       This is <m>10 + 8 = 18</m>,
       which would be the answer if <m>\card{A \cap B} = 0</m>.
       We see that we are off by exactly 6, which just so happens to be <m>\card{A \cap B}</m>.
       So perhaps we guess,
-      <me permid="me">
+      <me permid="ssec_pie-p4-me">
         \card{A \cup B} = \card{A} + \card{B} - \card{A \cap B}
       </me>.
     </p>
 
-    <p permid="p5">
+    <p permid="ssec_pie-p5">
       This works for this one example.
       Will it always work?
       Think about what we are doing here.
@@ -630,33 +630,33 @@
       subtracted once, leaving them counted only one time.
     </p>
 
-    <p permid="p6">
+    <p permid="ssec_pie-p6">
       In other words, we have:
     </p>
 
-    <assemblage permid="asm-cardinality-a-union-2-sets">
+    <assemblage permid="ssec_pie-asm-cardinality-a-union-2-sets">
       <title>Cardinality of a union (2 sets)</title>
-      <p permid="p">
+      <p permid="ssec_pie-asm-cardinality-a-union-2-sets-p">
         For any finite sets <m>A</m> and <m>B</m>,
-        <me permid="me">
+        <me permid="ssec_pie-asm-cardinality-a-union-2-sets-p-me">
           \card{A \cup B} = \card{A} + \card{B} - \card{A \cap B}
         </me>.
       </p>
     </assemblage>
 
-    <p permid="p7">
+    <p permid="ssec_pie-p7">
       We can do something similar with three sets.
     </p>
 
-    <example permid="ex">
+    <example permid="ssec_pie-ex">
       <statement>
-        <p permid="p1">
+        <p permid="ssec_pie-ex-p1">
           An examination in three subjects, Algebra, Biology,
           and Chemistry, was taken by 41 students.
           The following table shows how many students failed in each single subject and in their various combinations:
         </p>
 
-        <sidebyside permid="sbs1">
+        <sidebyside permid="ssec_pie-ex-sbs1">
 
           <tabular halign="center">
             <row bottom="minor">
@@ -683,12 +683,12 @@
 
         </sidebyside>
 
-        <p permid="p2">
+        <p permid="ssec_pie-ex-p2">
           How many students failed at least one subject?
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p1">
+      <solution permid="ssec_pie-ex-s">
+        <p permid="ssec_pie-ex-s-p1">
           The answer is not 37, even though the sum of the numbers above is 37.
           For example,
           while 12 students failed Algebra, 2 of those students also failed Biology, 6 also failed Chemestry,
@@ -701,9 +701,9 @@
           Thus, in Venn diagrams:
         </p>
 
-        <sidebyside permid="sbs2" width="36%">
+        <sidebyside permid="ssec_pie-ex-sbs2" width="36%">
 
-          <image permid="im1">
+          <image permid="ssec_pie-ex-s-im1">
 
             <latex-image>
               \begin{tikzpicture}[scale=0.9]
@@ -715,7 +715,7 @@
 
         </sidebyside>
 
-        <p permid="p2">
+        <p permid="ssec_pie-ex-s-p2">
           Now let's fill in the other intersections.
           We know <m>A\cap B</m> contains 2 elements,
           but 1 element has already been counted.
@@ -725,9 +725,9 @@
           and <m>(B \cap C) \setminus A</m>:
         </p>
 
-        <sidebyside permid="sbs3" width="36%">
+        <sidebyside permid="ssec_pie-ex-sbs3" width="36%">
 
-          <image permid="im2">
+          <image permid="ssec_pie-ex-s-im2">
 
             <latex-image>
               \begin{tikzpicture}[scale=0.9]
@@ -739,15 +739,15 @@
 
         </sidebyside>
 
-        <p permid="p3">
+        <p permid="ssec_pie-ex-s-p3">
           Next, we determine the numbers which should go in the remaining regions,
           including outside of all three circles.
           This last number is the number of students who did not fail any subject:
         </p>
 
-        <sidebyside permid="sbs4" width="36%">
+        <sidebyside permid="ssec_pie-ex-sbs4" width="36%">
 
-          <image permid="im3">
+          <image permid="ssec_pie-ex-s-im3">
 
             <latex-image>
               \begin{tikzpicture}[scale=0.9]
@@ -760,7 +760,7 @@
 
         </sidebyside>
 
-        <p permid="p4">
+        <p permid="ssec_pie-ex-s-p4">
           We found 5 goes in the <q><m>A</m> only</q>
           region because the entire circle for <m>A</m> needed to have a total of 12,
           and 7 were already accounted for.
@@ -769,7 +769,7 @@
           region to contain no students.
         </p>
 
-        <p permid="p5">
+        <p permid="ssec_pie-ex-s-p5">
           Thus the number of students who failed at least one class is 15
           (the sum of the numbers in each of the eight disjoint regions).
           The number of students who passed all three classes is 26:
@@ -777,7 +777,7 @@
           less the 15 who failed at least one class.
         </p>
 
-        <p permid="p6">
+        <p permid="ssec_pie-ex-s-p6">
           Note that we can also answer other questions.
           For example, now many students failed just Chemistry?
           None.
@@ -788,7 +788,7 @@
       </solution>
     </example>
 
-    <p permid="p8">
+    <p permid="ssec_pie-p8">
       Could we have solved the problem above in an algebraic way?
       While the additive principle generalizes to any number of sets,
       when we add a third set here, we must be careful.
@@ -801,17 +801,17 @@
       the formula for cardinality of the union of three non-disjoint sets is more complicated:
     </p>
 
-    <assemblage permid="asm-cardinality-a-union-3-sets">
+    <assemblage permid="ssec_pie-asm-cardinality-a-union-3-sets">
       <title>Cardinality of a union (3 sets)</title>
-      <p permid="p">
+      <p permid="ssec_pie-asm-cardinality-a-union-3-sets-p">
         For any finite sets <m>A</m>, <m>B</m>, and <m>C</m>,
-        <me permid="me">
+        <me permid="ssec_pie-asm-cardinality-a-union-3-sets-p-me">
           \card{A \cup B \cup C} = \card{A} + \card{B} + \card{C} - \card{A \cap B} - \card{A \cap C} - \card{B \cap C} + \card{A \cap B \cap C}
         </me>
       </p>
     </assemblage>
 
-    <p permid="p9">
+    <p permid="ssec_pie-p9">
       To determine how many elements are in at least one of <m>A</m>,
       <m>B</m>,
       or <m>C</m> we add up all the elements in each of those sets.
@@ -827,7 +827,7 @@
       Thus we add those elements back in at the end.
     </p>
 
-    <p permid="p10">
+    <p permid="ssec_pie-p10">
       Returning to our example above,
       we have <m>\card{A} = 12</m>,
       <m>\card{B} = 5</m>, <m>\card{C} = 8</m>.
@@ -835,16 +835,16 @@
       <m>\card{A \cap C} = 6</m>,
       <m>\card{B \cap C} = 3</m>, and <m>\card{A \cap B \cap C} = 1</m>.
       Therefore:
-      <me permid="me">
+      <me permid="ssec_pie-p10-me">
         \card{A \cup B \cup C} = 12 + 5 + 8 - 2 - 6 - 3 + 1 = 15
       </me>
     </p>
 
-    <p permid="p11">
+    <p permid="ssec_pie-p11">
       This is what we got when we solved the problem using Venn diagrams.
     </p>
 
-    <p permid="p12">
+    <p permid="ssec_pie-p12">
       This process of adding in, then taking out, then adding back in,
       and so on is called the <em>Principle of Inclusion/Exclusion</em>,
       or simply PIE. We will return to this counting technique later to solve for more complicated problems

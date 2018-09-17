@@ -2,8 +2,8 @@
 
 <section permid="sec_seq-induction" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_seq-induction">
   <title>Induction</title>
-  <introduction permid="intr">
-    <p permid="p">
+  <introduction permid="sec_seq-induction-intr">
+    <p permid="sec_seq-induction-intr-p">
           <idx><h>induction</h></idx> Mathematical induction is a proof technique, not unlike direct proof or proof by contradiction or combinatorial proof.<fn>
       You might or might not be familiar with these yet.
       We will consider these in <xref ref="ch_logic"/>.
@@ -21,15 +21,15 @@
 
   <subsection permid="ssec_induction-stamps" xml:id="subsec_induction-stamps">
     <title>Stamps</title>
-    <investigation permid="inv">
-      <p permid="p">
+    <investigation permid="ssec_induction-stamps-inv">
+      <p permid="ssec_induction-stamps-inv-p">
         You need to mail a package, but don't yet know how much postage you will need.
         You have a large supply of 8-cent stamps and 5-cent stamps.
         Which amounts of postage can you make exactly using these stamps?
         Which amounts are impossible to make?
       </p>
     </investigation>
-    <p permid="p1">
+    <p permid="ssec_induction-stamps-p1">
       Perhaps in investigating the problem above you picked some amounts of postage,
       and then figured out whether you could make that amount using just 8-cent and 5-cent stamps.
       Perhaps you did this in order:
@@ -42,7 +42,7 @@
       Let's see if that helps.
     </p>
 
-    <p permid="p2">
+    <p permid="ssec_induction-stamps-p2">
       Actually, we will not make a sequence of questions,
       but rather a sequence of statements.
       Let <m>P(n)</m>
@@ -56,7 +56,7 @@
       Since for each value of <m>n</m>,
       <m>P(n)</m> is a statement, it is either true or false.
       So if we form the sequence of statements
-      <me permid="me1">
+      <me permid="ssec_induction-stamps-p2-me1">
         P(1), P(2), P(3), P(4), \ldots
       </me>
       the sequence will consist of <m>T</m>'s
@@ -64,7 +64,7 @@
       and <m>F</m>'s
       (for false).
       In our particular case the sequence starts
-      <me permid="me2">
+      <me permid="ssec_induction-stamps-p2-me2">
         F,F,F,F,T,F,F,T,F,F,T,F,F,T,\ldots
       </me>
       because <m>P(1), P(2), P(3), P(4)</m> are all false
@@ -74,7 +74,7 @@
       and so on.
     </p>
 
-    <p permid="p3">
+    <p permid="ssec_induction-stamps-p3">
       Let's think a bit about how we could find the value of <m>P(n)</m> for some specific <m>n</m>
       (the <q>value</q> will be either <m>T</m> or <m>F</m>).
       How did we find the value of the <m>n</m>th term of a sequence of numbers?
@@ -98,7 +98,7 @@
       The same is true here.
     </p>
 
-    <p permid="p4">
+    <p permid="ssec_induction-stamps-p4">
       Suppose I told you that <m>P(43)</m> was true
       (it is).
       Can you determine from this fact the value of <m>P(44)</m> (whether it true or false)?
@@ -118,7 +118,7 @@
       so <m>P(44)</m> is true.
     </p>
 
-    <p permid="p5">
+    <p permid="ssec_induction-stamps-p5">
       Notice that we have not said how to make 44 cents,
       just that we can, on the basis that we can make 43 cents.
       How do we know we can make 43 cents?
@@ -144,22 +144,22 @@
       as the initial condition.
     </p>
 
-    <p permid="p6">
+    <p permid="ssec_induction-stamps-p6">
       Putting this all together we arrive at the following fact:
       it is possible to (exactly) make any amount of postage greater than 27 cents using just 5-cent and 8-cent stamps.<fn>
       This is not claiming that there are no amounts less than 27 cents which can also be made.
       </fn> In other words, <m>P(k)</m> is true for any <m>k \ge 28</m>.
       To prove this, we could do the following:
 
-      <ol permid="ol">
-        <li permid="l_j">
-          <p permid="p">
+      <ol permid="ssec_induction-stamps-ol">
+        <li permid="ssec_induction-stamps-ol-l_j">
+          <p permid="ssec_induction-stamps-ol-l_j-p">
             Demonstrate that <m>P(28)</m> is true.
           </p>
         </li>
 
-        <li permid="l_s">
-          <p permid="p">
+        <li permid="ssec_induction-stamps-ol-l_s">
+          <p permid="ssec_induction-stamps-ol-l_s-p">
             Prove that if <m>P(k)</m> is true,
             then <m>P(k+1)</m> is true
             (for any <m>k \ge 28</m>).
@@ -168,7 +168,7 @@
       </ol>
     </p>
 
-    <p permid="p7">
+    <p permid="ssec_induction-stamps-p7">
       Suppose we have done this.
       Then we know that the 28th term of the sequence above is a <m>T</m>
       (using step 1, the initial condition or <term>base case</term>),
@@ -178,20 +178,20 @@
       Here is what the proof would actually look like.
     </p>
 
-    <proof permid="pf">
-      <p permid="p1">
+    <proof permid="ssec_induction-stamps-pf">
+      <p permid="ssec_induction-stamps-pf-p1">
         Let <m>P(n)</m> be the statement
         <q>it is possible to make exactly <m>n</m> cents of postage using 5-cent and 8-cent stamps.</q>
         We will show <m>P(n)</m> is true for all <m>n \ge 28</m>.
       </p>
 
-      <p permid="p2">
+      <p permid="ssec_induction-stamps-pf-p2">
         First, we show that <m>P(28)</m> is true:
         <m>28 = 4 \cdot 5+ 1\cdot 8</m>,
         so we can make <m>28</m> cents using four 5-cent stamps and one 8-cent stamp.
       </p>
 
-      <p permid="p3">
+      <p permid="ssec_induction-stamps-pf-p3">
         Now suppose <m>P(k)</m> is true for some arbitrary <m>k \ge 28</m>.
         Then it is possible to make <m>k</m> cents using 5-cent and 8-cent stamps.
         Note that since <m>k \ge 28</m>,
@@ -211,7 +211,7 @@
         So in this case as well <m>P(k+1)</m> is true.
       </p>
 
-      <p permid="p4">
+      <p permid="ssec_induction-stamps-pf-p4">
         Therefore, by the principle of mathematical induction,
         <m>P(n)</m> is true for all <m>n \ge 28</m>.
       </p>
@@ -220,7 +220,7 @@
 
   <subsection permid="ssec_induction-formproofs" xml:id="subsec_induction-formproofs">
     <title>Formalizing Proofs</title>
-    <p permid="p1">
+    <p permid="ssec_induction-formproofs-p1">
       What we did in the stamp example above works for many types of problems.
       Proof by induction is useful when trying to prove statements about all natural numbers,
       or all natural numbers greater than some fixed first case (like 28 in the example above),
@@ -229,7 +229,7 @@
       induction should be used when there is some way to go from one case to the next <ndash/> when you can see how to always <q>do one more.</q>
     </p>
 
-    <p permid="p2">
+    <p permid="ssec_induction-formproofs-p2">
       This is a big idea.
       Thinking about a problem <em>inductively</em>
       can give new insight into the problem.
@@ -246,7 +246,7 @@
       how does increasing <m>n</m> change the problem?
     </p>
 
-    <p permid="p3">
+    <p permid="ssec_induction-formproofs-p3">
       But there is another side to proofs by induction as well.
       In mathematics, it is not enough to understand a problem,
       you must also be able to communicate the problem to others.
@@ -257,26 +257,26 @@
       It allows us to keep our ideas organized and might even help us with formulating a proof.
     </p>
 
-    <p permid="p4">
+    <p permid="ssec_induction-formproofs-p4">
       Here is the general structure of a proof by mathematical induction:
     </p>
 
-    <assemblage permid="asm-induction-pf-structure">
+    <assemblage permid="ssec_induction-formproofs-asm-induction-pf-structure">
       <title>Induction Proof Structure</title>
-      <p permid="p1">
+      <p permid="ssec_induction-formproofs-asm-induction-pf-structure-p1">
             <idx><h>induction</h></idx> Start by saying what the statement is that you want to prove: <q>Let <m>P(n)</m> be the statement<ellipsis/></q> To prove that <m>P(n)</m> is true for all <m>n \ge 0</m>, you must prove two facts:
 
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+        <ol permid="ssec_induction-formproofs-asm-induction-pf-structure-ol">
+          <li permid="ssec_induction-formproofs-asm-induction-pf-structure-ol-l_j">
+            <p permid="ssec_induction-formproofs-asm-induction-pf-structure-ol-l_j-p">
               Base case: Prove that <m>P(0)</m> is true.
               You do this directly.
               This is often easy.
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="ssec_induction-formproofs-asm-induction-pf-structure-ol-l_s">
+            <p permid="ssec_induction-formproofs-asm-induction-pf-structure-ol-l_s-p">
               Inductive case: Prove that
               <m>P(k) \imp P(k+1)</m> for all <m>k \ge 0</m>.
               That is, prove that for any <m>k \ge 0</m> if <m>P(k)</m> is true,
@@ -293,7 +293,7 @@
         </ol>
       </p>
 
-      <p permid="p2">
+      <p permid="ssec_induction-formproofs-asm-induction-pf-structure-p2">
         Assuming you are successful on both parts above,
         you can conclude,
         <q>Therefore by the principle of mathematical induction,
@@ -301,14 +301,14 @@
       </p>
     </assemblage>
 
-    <p permid="p5">
+    <p permid="ssec_induction-formproofs-p5">
       Sometimes the statement <m>P(n)</m> will only be true for values of <m>n \ge 4</m>,
       for example, or some other value.
       In such cases, replace all the 0's above with 4's
       (or the other value).
     </p>
 
-    <p permid="p6">
+    <p permid="ssec_induction-formproofs-p6">
       The other advantage of formalizing inductive proofs is it allows us to verify that the logic behind this style of argument is valid.
       Why does induction work?
       Think of a row of dominoes set up standing on their edges.
@@ -324,14 +324,14 @@
       then all the dominoes will fall.
     </p>
 
-    <p permid="p7">
+    <p permid="ssec_induction-formproofs-p7">
       Induction is powerful!
       Think how much easier it is to knock over dominoes when you don't have to push over each domino yourself.
       You just start the chain reaction,
       and the rely on the relative nearness of the dominoes to take care of the rest.
     </p>
 
-    <p permid="p8">
+    <p permid="ssec_induction-formproofs-p8">
       Think about our study of sequences.
       It is easier to find recursive definitions for sequences than closed formulas.
       Going from one case to the next is easier than going directly to a particular case.
@@ -340,7 +340,7 @@
       we just need to say how to get from one case to the next.
     </p>
 
-    <p permid="p9">
+    <p permid="ssec_induction-formproofs-p9">
       When you are asked to prove a statement by mathematical induction,
       you should first think about <em>why</em> the statement is true,
       using inductive reasoning.
@@ -353,18 +353,18 @@
 
   <subsection permid="ssec_induction-examples" xml:id="subsec_induction-examples">
     <title>Examples</title>
-    <p permid="p1">
+    <p permid="ssec_induction-examples-p1">
       Here are some examples of proof by mathematical induction.
     </p>
 
-    <example permid="ex1">
+    <example permid="ssec_induction-examples-ex1">
       <statement>
-        <p permid="p">
+        <p permid="ssec_induction-examples-ex1-p">
           Prove for each natural number <m>n \ge 1</m> that <m>1 + 2 + 3 + \cdots + n = \frac{n(n+1)}{2}</m>.
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p1">
+      <solution permid="ssec_induction-examples-ex1-s">
+        <p permid="ssec_induction-examples-ex1-s-p1">
           First, let's think inductively about this equation.
           In fact, we know this is true for other reasons
           (reverse and add comes to mind).
@@ -383,22 +383,22 @@
           This is why we should use induction.
         </p>
 
-        <p permid="p2">
+        <p permid="ssec_induction-examples-ex1-s-p2">
           Now the formal proof:
         </p>
 
-        <proof permid="pf">
-          <p permid="p3">
+        <proof permid="ssec_induction-examples-ex1-pf">
+          <p permid="ssec_induction-examples-ex1-s-p3">
             Let <m>P(n)</m> be the statement <m>1 + 2 + 3 + \cdots + n = \frac{n(n+2)}{2}</m>.
             We will show that <m>P(n)</m> is true for all natural numbers <m>n \ge 1</m>.
           </p>
 
-          <p permid="p4">
+          <p permid="ssec_induction-examples-ex1-s-p4">
             Base case: <m>P(1)</m> is the statement
             <m>1 = \frac{1(1+1)}{2}</m> which is clearly true.
           </p>
 
-          <p permid="p5">
+          <p permid="ssec_induction-examples-ex1-s-p5">
             Inductive case: Let <m>k \ge 1</m> be a natural number.
             Assume (for induction) that <m>P(k)</m> is true.
             That means <m>1 + 2 + 3 + \cdots + k = \frac{k(k+1)}{2}</m>.
@@ -406,21 +406,21 @@
             That is, we must prove that <m>1 + 2 + 3 + \cdots + k + (k+1) = \frac{(k+1)(k+2)}{2}</m>.
             To prove this equation,
             start by adding <m>k+1</m> to both sides of the inductive hypothesis:
-            <me permid="me">
+            <me permid="ssec_induction-examples-ex1-s-p5-me">
               1 + 2 + 3 + \cdots + k + (k+1) = \frac{k(k+1)}{2} + (k+1)
             </me>.
           </p>
 
-          <p permid="p6">
+          <p permid="ssec_induction-examples-ex1-s-p6">
             Now, simplifying the right side we get:
-            <md permid="md">
+            <md permid="ssec_induction-examples-ex1-s-p6-md">
               <mrow>\frac{k(k+1)}{2} + k+1 \amp = \frac{k(k+1)}{2} + \frac{2(k+1)}{2}</mrow>
               <mrow>\amp = \frac{k(k+1) + 2(k+1)}{2}</mrow>
               <mrow>\amp = \frac{(k+2)(k+1)}{2}</mrow>
             </md>.
           </p>
 
-          <p permid="p7">
+          <p permid="ssec_induction-examples-ex1-s-p7">
             Thus <m>P(k+1)</m> is true,
             so by the principle of mathematical induction <m>P(n)</m> is true for all natural numbers <m>n \ge 1</m>.
           </p>
@@ -429,7 +429,7 @@
       </solution>
     </example>
 
-    <p permid="p2">
+    <p permid="ssec_induction-examples-p2">
       Note that in the part of the proof in which we proved <m>P(k+1)</m> from <m>P(k)</m>,
       we used the equation <m>P(k)</m>.
       This was the inductive hypothesis.
@@ -437,15 +437,15 @@
       In other proofs, it can be less obvious where it fits in.
     </p>
 
-    <example permid="ex2">
+    <example permid="ssec_induction-examples-ex2">
       <statement>
-        <p permid="p">
+        <p permid="ssec_induction-examples-ex2-p">
           Prove that for all <m>n \in \N</m>,
           <m>6^n - 1</m> is a multiple of 5.
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p1">
+      <solution permid="ssec_induction-examples-ex2-s">
+        <p permid="ssec_induction-examples-ex2-s-p1">
           Again, start by understanding the dynamics of the problem.
           What does increasing <m>n</m> do?
           Let's try with a few examples.
@@ -466,49 +466,49 @@
           And then if you subtract 1, you get last digit 5, so a multiple of 5.
         </p>
 
-        <p permid="p2">
+        <p permid="ssec_induction-examples-ex2-s-p2">
           The point is, every time we multiply by just one more six,
           we still get a number with last digit 6, so subtracting 1 gives us a multiple of 5.
           Now the formal proof:
         </p>
 
-        <proof permid="pf">
-          <p permid="p3">
+        <proof permid="ssec_induction-examples-ex2-pf">
+          <p permid="ssec_induction-examples-ex2-s-p3">
             Let <m>P(n)</m> be the statement,
             <q><m>6^n - 1</m> is a multiple of 5.</q>
             We will prove that <m>P(n)</m> is true for all <m>n \in \N</m>.
           </p>
 
-          <p permid="p4">
+          <p permid="ssec_induction-examples-ex2-s-p4">
             Base case: <m>P(0)</m> is true:
             <m>6^0 -1 = 0</m> which is a multiple of 5.
           </p>
 
-          <p permid="p5">
+          <p permid="ssec_induction-examples-ex2-s-p5">
             Inductive case: Let <m>k</m> be an arbitrary natural number.
             Assume, for induction, that <m>P(k)</m> is true.
             That is, <m>6^k - 1</m> is a multiple of <m>5</m>.
             Then <m>6^k - 1 = 5j</m> for some integer <m>j</m>.
             This means that <m>6^k = 5j + 1</m>.
             Multiply both sides by <m>6</m>:
-            <me permid="me">
+            <me permid="ssec_induction-examples-ex2-s-p5-me">
               6^{k+1} = 6(5j+1) = 30j + 6
             </me>.
           </p>
 
-          <p permid="p6">
+          <p permid="ssec_induction-examples-ex2-s-p6">
             But we want to know about <m>6^{k+1} - 1</m>,
             so subtract 1 from both sides:
-            <me permid="me">
+            <me permid="ssec_induction-examples-ex2-s-p6-me">
               6^{k+1} - 1 = 30j + 5
             </me>.
           </p>
 
-          <p permid="p7">
+          <p permid="ssec_induction-examples-ex2-s-p7">
             Of course <m>30j+5 = 5(6j+1)</m>, so is a multiple of 5.
           </p>
 
-          <p permid="p8">
+          <p permid="ssec_induction-examples-ex2-s-p8">
             Therefore <m>6^{k+1} - 1</m> is a multiple of 5, or in other words,
             <m>P(k+1)</m> is true.
             Thus, by the principle of mathematical induction <m>P(n)</m> is true for all <m>n \in \N</m>.
@@ -518,25 +518,25 @@
       </solution>
     </example>
 
-    <p permid="p3">
+    <p permid="ssec_induction-examples-p3">
       We had to be a little bit clever (i.e., use some algebra) to locate the <m>6^k - 1</m> inside of
       <m>6^{k+1} - 1</m> before we could apply the inductive hypothesis.
       This is what can make inductive proofs challenging.
     </p>
 
-    <p permid="p4">
+    <p permid="ssec_induction-examples-p4">
       In the two examples above, we started with <m>n = 1</m> or <m>n = 0</m>.
       We can start later if we need to.
     </p>
 
-    <example permid="ex3">
+    <example permid="ssec_induction-examples-ex3">
       <statement>
-        <p permid="p">
+        <p permid="ssec_induction-examples-ex3-p">
           Prove that <m>n^2 \lt 2^n</m> for all integers <m>n \ge 5</m>.
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p1">
+      <solution permid="ssec_induction-examples-ex3-s">
+        <p permid="ssec_induction-examples-ex3-s-p1">
           First, the idea of the argument.
           What happens when we increase <m>n</m> by 1?
           On the left-hand side,
@@ -548,18 +548,18 @@
           Think about what the difference of two consecutive squares looks like.
           We have <m>(n+1)^2 - n^2</m>.
           This factors:
-          <me permid="me">
+          <me permid="ssec_induction-examples-ex3-s-p1-me">
             (n+1)^2 - n^2 = (n+1-n)(n+1+n) = 2n+1
           </me>.
         </p>
 
-        <p permid="p2">
+        <p permid="ssec_induction-examples-ex3-s-p2">
           But doubling the right-hand side increases it by <m>2^n</m>,
           since <m>2^{n+1} = 2^n + 2^n</m>.
           When <m>n</m> is large enough, <m>2^n &gt; 2n + 1</m>.
         </p>
 
-        <p permid="p3">
+        <p permid="ssec_induction-examples-ex3-s-p3">
           What we are saying here is that each time <m>n</m> increases,
           the left-hand side grows by less than the right-hand side.
           So if the left-hand side starts smaller
@@ -568,19 +568,19 @@
           Now the formal proof:
         </p>
 
-        <proof permid="pf">
-          <p permid="p4">
+        <proof permid="ssec_induction-examples-ex3-pf">
+          <p permid="ssec_induction-examples-ex3-s-p4">
             Let <m>P(n)</m> be the statement <m>n^2 \lt 2^n</m>.
             We will prove <m>P(n)</m> is true for all integers <m>n \ge 5</m>.
           </p>
 
-          <p permid="p5">
+          <p permid="ssec_induction-examples-ex3-s-p5">
             Base case: <m>P(5)</m> is the statement <m>5^2 \lt 2^5</m>.
             Since <m>5^2 = 25</m> and <m>2^5 = 32</m>,
             we see that <m>P(5)</m> is indeed true.
           </p>
 
-          <p permid="p6">
+          <p permid="ssec_induction-examples-ex3-s-p6">
             Inductive case: Let <m>k \ge 5</m> be an arbitrary integer.
             Assume, for induction, that <m>P(k)</m> is true.
             That is, assume <m>k^2 \lt  2^k</m>.
@@ -588,7 +588,7 @@
             i.e., <m>(k+1)^2 \lt  2^{k+1}</m>.
             To prove such an inequality,
             start with the left-hand side and work towards the right-hand side:
-            <md permid="md">
+            <md permid="ssec_induction-examples-ex3-s-p6-md">
               <mrow>(k+1)^2 \amp = k^2 + 2k + 1 \amp</mrow>
               <mrow>\amp \lt 2^k + 2k + 1 \amp \ldots\text{by the inductive hypothesis.}</mrow>
               <mrow>\amp \lt 2^k + 2^k \amp \ldots\text{ since } 2k + 1 \lt  2^k \text{ for }k \ge 5.</mrow>
@@ -596,7 +596,7 @@
             </md>
           </p>
 
-          <p permid="p7">
+          <p permid="ssec_induction-examples-ex3-s-p7">
             Following the equalities and inequalities through,
             we get <m>(k+1)^2 \lt 2^{k+1}</m>,
             in other words, <m>P(k+1)</m>.
@@ -608,7 +608,7 @@
       </solution>
     </example>
 
-    <p permid="p5">
+    <p permid="ssec_induction-examples-p5">
       The previous example might remind you of the
       <em>racetrack principle</em> from calculus,
       which says that if <m>f(a) \lt g(a)</m>,
@@ -622,9 +622,9 @@
       Thus induction is the way to go.
     </p>
 
-    <paragraphs permid="ps-warn">
+    <paragraphs permid="ssec_induction-examples-ps-warn">
       <title>Warning:</title>
-      <p permid="p1">
+      <p permid="ssec_induction-examples-ps-warn-p1">
         With great power, comes great responsibility.
         Induction isn't magic.
         It seems very powerful to be able to assume <m>P(k)</m> is true.
@@ -635,7 +635,7 @@
         We assume <m>P(k)</m> is true only for the sake of proving that <m>P(k+1)</m> is true.
       </p>
 
-      <p permid="p2">
+      <p permid="ssec_induction-examples-ps-warn-p2">
         Still you might start to believe that you can prove anything with induction.
         Consider this incorrect <q>proof</q> that every Canadian
             <idx><h>Canadians</h></idx>
@@ -655,7 +655,7 @@
         <m>P(n)</m> is true for all <m>n</m>.
       </p>
 
-      <p permid="p3">
+      <p permid="ssec_induction-examples-ps-warn-p3">
         Clearly something went wrong.
         The problem is that the proof that <m>P(k)</m> implies <m>P(k+1)</m> assumes that <m>k \ge 2</m>.
         We have only shown <m>P(1)</m> is true.
@@ -667,8 +667,8 @@
 
   <subsection permid="ssec_induction-strong" xml:id="subsec_induction-strong">
     <title>Strong Induction</title>
-    <investigation permid="inv">
-      <p permid="p">
+    <investigation permid="ssec_induction-strong-inv">
+      <p permid="ssec_induction-strong-inv-p">
         Start with a square piece of paper.
         You want to cut this square into smaller squares, leaving no waste
         (every piece of paper you end up with must be a square).
@@ -679,7 +679,7 @@
         What other numbers of squares could you end up with?
       </p>
     </investigation>
-    <p permid="p1">
+    <p permid="ssec_induction-strong-p1">
       Sometimes, to prove that <m>P(k+1)</m> is true,
       it would be helpful to know that <m>P(k)</m>
       <em>and</em> <m>P(k-1)</m> <em>and</em>
@@ -687,8 +687,8 @@
       Consider the following puzzle:
     </p>
 
-    <blockquote permid="bq">
-      <p permid="p">
+    <blockquote permid="ssec_induction-strong-bq">
+      <p permid="ssec_induction-strong-bq-p">
         You have a rectangular chocolate bar,
         made up of <m>n</m> identical squares of chocolate.
         You can take such a bar and break it along any row or column.
@@ -696,13 +696,13 @@
       </p>
     </blockquote>
 
-    <p permid="p2">
+    <p permid="ssec_induction-strong-p2">
       At first, this question might seem impossible.
       Perhaps I meant to ask for the <em>smallest</em> number of breaks needed?
       Let's investigate.
     </p>
 
-    <p permid="p3">
+    <p permid="ssec_induction-strong-p3">
       Start with some small cases.
       If <m>n=2</m>, you must have a <m>1\times 2</m> rectangle,
       which can be reduced to single pieces in one break.
@@ -712,7 +712,7 @@
       which we know takes one (more) break.
     </p>
 
-    <p permid="p4">
+    <p permid="ssec_induction-strong-p4">
       What about <m>n=4</m>?
       Now we could have a <m>2\times 2</m> bar,
       or a <m>1 \times 4</m> bar.
@@ -729,23 +729,23 @@
       we still need two more breaks, giving a total of three.
     </p>
 
-    <p permid="p5">
+    <p permid="ssec_induction-strong-p5">
       It is starting to look like no matter how we break the bar
       (and no matter how the <m>n</m> squares are arranged into a rectangle),
       we will always have the same number of breaks required.
       It also looks like that number is one less than <m>n</m>:
     </p>
 
-    <conjecture permid="conj">
+    <conjecture permid="ssec_induction-strong-conj">
       <statement>
-        <p permid="p">
+        <p permid="ssec_induction-strong-conj-p">
           Given a <m>n</m>-square rectangular chocolate bar,
           it always takes <m>n-1</m> breaks to reduce the bar to single squares.
         </p>
       </statement>
     </conjecture>
 
-    <p permid="p6">
+    <p permid="ssec_induction-strong-p6">
       It makes sense to prove this by induction because after breaking the bar once,
       you are left with <em>smaller</em> chocolate bars.
       Reducing to smaller cases is what induction is all about.
@@ -756,7 +756,7 @@
       So we really need to assume that our conjecture is true for all cases less than <m>k+1</m>.
     </p>
 
-    <p permid="p7">
+    <p permid="ssec_induction-strong-p7">
       Is it valid to make this stronger assumption?
       Remember, in induction we are attempting to prove that <m>P(n)</m> is true for all <m>n</m>.
       What if that were not the case?
@@ -767,7 +767,7 @@
       based on the assumption that <m>P(n)</m> is true for all smaller <m>n</m>.
     </p>
 
-    <p permid="p8">
+    <p permid="ssec_induction-strong-p8">
       This is quite an advantage: we now have a stronger inductive hypothesis.
       We can assume that <m>P(1)</m>, <m>P(2)</m>, <m>P(3)</m>,
       <ellipsis/> <m>P(k)</m> is true,
@@ -775,29 +775,29 @@
       Previously, we just assumed <m>P(k)</m> for this purpose.
     </p>
 
-    <p permid="p9">
+    <p permid="ssec_induction-strong-p9">
       It is slightly easier if we change our variables for strong induction.
       Here is what the formal proof would look like:
     </p>
 
-    <assemblage permid="asm-strong-induction-pf-structure">
+    <assemblage permid="ssec_induction-strong-asm-strong-induction-pf-structure">
       <title>Strong Induction Proof Structure</title>
       <idx><h>induction</h><h>strong induction</h></idx>
 
-      <p permid="p">
+      <p permid="ssec_induction-strong-asm-strong-induction-pf-structure-p">
         Again, start by saying what you want to prove:
         <q>Let <m>P(n)</m> be the statement<ellipsis/></q>
         Then establish two facts:
 
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+        <ol permid="ssec_induction-strong-asm-strong-induction-pf-structure-ol">
+          <li permid="ssec_induction-strong-asm-strong-induction-pf-structure-ol-l_j">
+            <p permid="ssec_induction-strong-asm-strong-induction-pf-structure-ol-l_j-p">
               Base case: Prove that <m>P(0)</m> is true.
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="ssec_induction-strong-asm-strong-induction-pf-structure-ol-l_s">
+            <p permid="ssec_induction-strong-asm-strong-induction-pf-structure-ol-l_s-p">
               Inductive case: Assume <m>P(k)</m> is true for all <m>k \lt n</m>.
               Prove that <m>P(n)</m> is true.
             </p>
@@ -809,7 +809,7 @@
       </p>
     </assemblage>
 
-    <p permid="p10">
+    <p permid="ssec_induction-strong-p10">
       Of course, it is acceptable to replace 0 with a larger base case if needed.<fn>
       Technically,
       strong induction does not require you to prove a separate base case.
@@ -820,23 +820,23 @@
       To be on the safe side, we will always include the base case separately.
       </fn></p>
 
-    <p permid="p11">
+    <p permid="ssec_induction-strong-p11">
       Let's prove our conjecture about the chocolate bar puzzle:
     </p>
 
-    <proof permid="pf">
-      <p permid="p1">
+    <proof permid="ssec_induction-strong-pf">
+      <p permid="ssec_induction-strong-pf-p1">
         Let <m>P(n)</m> be the statement,
         <q>it takes <m>n-1</m> breaks to reduce a <m>n</m>-square chocolate bar to single squares.</q>
       </p>
 
-      <p permid="p2">
+      <p permid="ssec_induction-strong-pf-p2">
         Base case: Consider <m>P(2)</m>.
         The squares must be arranged into a <m>1\times 2</m> rectangle,
         and we require <m>2-1 = 1</m> breaks to reduce this to single squares.
       </p>
 
-      <p permid="p3">
+      <p permid="ssec_induction-strong-pf-p3">
         Inductive case:
         Fix an arbitrary <m>n\ge 2</m> and assume <m>P(k)</m> is true for all <m>k \lt n</m>.
         Consider a <m>n</m>-square rectangular chocolate bar.
@@ -847,7 +847,7 @@
         a <m>b</m>-square rectangular chocolate bar, and <m>a+b = n</m>.
       </p>
 
-      <p permid="p4">
+      <p permid="ssec_induction-strong-pf-p4">
         We also know that <m>a \lt n</m> and <m>b \lt n</m>,
         so by our inductive hypothesis,
         <m>P(a)</m> and <m>P(b)</m> are true.
@@ -860,26 +860,26 @@
         Thus <m>P(n)</m> is true.
       </p>
 
-      <p permid="p5">
+      <p permid="ssec_induction-strong-pf-p5">
         Therefore, by strong induction,
         <m>P(n)</m> is true for all <m>n \ge 2</m>.
       </p>
     </proof>
 
-    <p permid="p12">
+    <p permid="ssec_induction-strong-p12">
       Here is a more mathematically relevant example:
     </p>
 
-    <example permid="ex">
+    <example permid="ssec_induction-strong-ex">
       <statement>
-        <p permid="p">
+        <p permid="ssec_induction-strong-ex-p">
           Prove that any natural number greater than 1 is either prime
               <idx><h>prime numbers</h></idx>
           or can be written as the product of primes.
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p1">
+      <solution permid="ssec_induction-strong-ex-s">
+        <p permid="ssec_induction-strong-ex-s-p1">
           First, the idea:
           if we take some number <m>n</m>, maybe it is prime.
           If so, we are done.
@@ -891,22 +891,22 @@
           We have reduced to a smaller case.
         </p>
 
-        <p permid="p2">
+        <p permid="ssec_induction-strong-ex-s-p2">
           Now the formal proof:
         </p>
 
-        <proof permid="pf">
-          <p permid="p3">
+        <proof permid="ssec_induction-strong-ex-pf">
+          <p permid="ssec_induction-strong-ex-s-p3">
             Let <m>P(n)</m> be the statement,
             <q><m>n</m> is either prime or can be written as the product of primes.</q>
             We will prove <m>P(n)</m> is true for all <m>n \ge 2</m>.
           </p>
 
-          <p permid="p4">
+          <p permid="ssec_induction-strong-ex-s-p4">
             Base case: <m>P(2)</m> is true because <m>2</m> is indeed prime.
           </p>
 
-          <p permid="p5">
+          <p permid="ssec_induction-strong-ex-s-p5">
             Inductive case: assume <m>P(k)</m> is true for all <m>k \lt n</m>.
             We want to show that <m>P(n)</m> is true.
             That is, we want to show that <m>n</m> is either prime or is the product of primes.
@@ -921,7 +921,7 @@
             we have that <m>n</m> is written as the product of primes.
           </p>
 
-          <p permid="p6">
+          <p permid="ssec_induction-strong-ex-s-p6">
             Thus by the strong induction,
             <m>P(n)</m> is true for all <m>n \ge 2</m>.
           </p>
@@ -930,7 +930,7 @@
       </solution>
     </example>
 
-    <p permid="p13">
+    <p permid="ssec_induction-strong-p13">
       Whether you use regular induction or strong induction depends on the statement you want to prove.
       If you wanted to be safe, you could always use strong induction.
       It really is <em>stronger</em>,
@@ -941,7 +941,7 @@
       If you can prove a statement using simpler tools, it is nice to do so.
     </p>
 
-    <p permid="p14">
+    <p permid="ssec_induction-strong-p14">
       As a final contrast between the two forms of induction,
       consider once more the stamp problem.
       Regular induction worked by showing how to increase postage by one cent

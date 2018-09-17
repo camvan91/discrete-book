@@ -2,29 +2,29 @@
 
 <section permid="sec_propositional" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_propositional">
   <title>Propositional Logic</title>
-  <introduction permid="intr">
-    <investigation permid="inv">
-      <p permid="p1">
+  <introduction permid="sec_propositional-intr">
+    <investigation permid="sec_propositional-inv">
+      <p permid="sec_propositional-intr-p1">
         You stumble upon two trolls playing Stratego<registered/>.
         They tell you:
       </p>
 
-      <blockquote permid="bq">
-        <p permid="p1">
+      <blockquote permid="sec_propositional-intr-bq">
+        <p permid="sec_propositional-intr-bq-p1">
           Troll 1: If we are cousins, then we are both knaves.
         </p>
 
-        <p permid="p2">
+        <p permid="sec_propositional-intr-bq-p2">
           Troll 2: We are cousins or we are both knaves.
         </p>
       </blockquote>
 
-      <p permid="p2">
+      <p permid="sec_propositional-intr-p2">
         Could both trolls be knights?
         Recall that all trolls are either always-truth-telling knights or always-lying knaves.
       </p>
     </investigation>
-    <p permid="p3">
+    <p permid="sec_propositional-intr-p3">
       A <term>proposition</term>
           <idx><h>proposition</h></idx>
       is simply a statement. <term>Propositional logic</term>
@@ -37,22 +37,22 @@
     </p>
   </introduction>
 
-  <subsection permid="ssec-truth-tables">
+  <subsection permid="-ssec-truth-tables">
     <title>Truth Tables</title>
     <idx><h>truth table</h></idx>
 
-    <p permid="p1">
+    <p permid="-ssec-truth-tables-p1">
       Here's a question about playing Monopoly:
     </p>
 
-    <blockquote permid="bq">
-      <p permid="p">
+    <blockquote permid="-ssec-truth-tables-bq">
+      <p permid="-ssec-truth-tables-bq-p">
         If you get more doubles than any other player then you will lose,
         or if you lose then you must have bought the most properties.
       </p>
     </blockquote>
 
-    <p permid="p2">
+    <p permid="-ssec-truth-tables-p2">
       True or false?
       We will answer this question,
       and won't need to know anything about Monopoly.
@@ -60,7 +60,7 @@
       <em>form</em> of the statement.
     </p>
 
-    <p permid="p3">
+    <p permid="-ssec-truth-tables-p3">
       We need to decide when the statement <m>(P \imp Q) \vee (Q \imp R)</m> is true.
       Using the definitions of the connectives in
       <xref ref="sec_intro-statements"/>, we see that for this to be true,
@@ -85,13 +85,13 @@
       as a way of breaking up our task into smaller, more manageable pieces.
     </p>
 
-    <p permid="p4">
+    <p permid="-ssec-truth-tables-p4">
       Since the truth value of a statement is completely determined by the truth values of its parts and how they are connected,
       all you really need to know is the truth tables for each of the logical connectives.
       Here they are:
     </p>
 
-    <sidebyside permid="sbs1" width="20%" margins="auto">
+    <sidebyside permid="-ssec-truth-tables-sbs1" width="20%" margins="auto">
 
       <tabular halign="center">
         <col right="minor"/>
@@ -219,11 +219,11 @@
 
     </sidebyside>
 
-    <p permid="p5">
+    <p permid="-ssec-truth-tables-p5">
       The truth table for negation looks like this:
     </p>
 
-    <sidebyside permid="sbs2">
+    <sidebyside permid="-ssec-truth-tables-sbs2">
 
       <tabular halign="center">
         <col right="medium"/>
@@ -247,26 +247,26 @@
 
     </sidebyside>
 
-    <p permid="p6">
+    <p permid="-ssec-truth-tables-p6">
       None of these truth tables should come as a surprise;
       they are all just restating the definitions of the connectives.
       Let's try another one.
     </p>
 
-    <example permid="ex1">
+    <example permid="-ssec-truth-tables-ex1">
       <statement>
-        <p permid="p">
+        <p permid="-ssec-truth-tables-ex1-p">
           Make a truth table for the statement <m>\neg P \vee Q</m>.
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p1">
+      <solution permid="-ssec-truth-tables-ex1-s">
+        <p permid="-ssec-truth-tables-ex1-s-p1">
           Note that this statement is not <m>\neg(P \vee Q)</m>,
           the negation belongs to <m>P</m> alone.
           Here is the truth table:
         </p>
 
-        <sidebyside permid="sbs">
+        <sidebyside permid="-ssec-truth-tables-ex1-sbs">
 
           <tabular halign="center">
             <col right="minor"/>
@@ -307,7 +307,7 @@
 
         </sidebyside>
 
-        <p permid="p2">
+        <p permid="-ssec-truth-tables-ex1-s-p2">
           We added a column for <m>\neg P</m> to make filling out the last column easier.
           The entries in the <m>\neg P</m> column were determined by the entries in the <m>P</m> column.
           Then to fill in the final column,
@@ -316,20 +316,20 @@
       </solution>
     </example>
 
-    <p permid="p7">
+    <p permid="-ssec-truth-tables-p7">
       Now let's answer our question about monopoly:
     </p>
 
-    <example permid="ex2">
+    <example permid="-ssec-truth-tables-ex2">
       <statement>
-        <p permid="p">
+        <p permid="-ssec-truth-tables-ex2-p">
           Analyze the statement,
           <q>if you get more doubles than any other player you will lose,
           or that if you lose you must have bought the most properties,</q> using truth tables.
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p1">
+      <solution permid="-ssec-truth-tables-ex2-s">
+        <p permid="-ssec-truth-tables-ex2-s-p1">
           Represent the statement in symbols as <m>(P \imp Q) \vee (Q \imp R)</m>,
           where <m>P</m> is the statement
           <q>you get more doubles than any other player,</q>
@@ -337,12 +337,12 @@
           and <m>R</m> is the statement <q>you must have bought the most properties.</q> Now make a truth table.
         </p>
 
-        <p permid="p2">
+        <p permid="-ssec-truth-tables-ex2-s-p2">
           The truth table needs to contain 8 rows in order to account for every possible combination of truth and falsity among the three statements.
           Here is the full truth table:
         </p>
 
-        <sidebyside permid="sbs">
+        <sidebyside permid="-ssec-truth-tables-ex2-sbs">
 
           <tabular halign="center">
             <col right="minor"/>
@@ -427,7 +427,7 @@
 
         </sidebyside>
 
-        <p permid="p3">
+        <p permid="-ssec-truth-tables-ex2-s-p3">
           The first three columns are simply a systematic listing of all possible combinations of T and F for the three statements
           (do you see how you would list the 16 possible combinations for four statements?).
           The next two columns are determined by the values of <m>P</m>,
@@ -436,7 +436,7 @@
           It is this final column we care about.
         </p>
 
-        <p permid="p4">
+        <p permid="-ssec-truth-tables-ex2-s-p4">
           Notice that in each of the eight possible cases,
           the statement in question is true.
           So our statement about monopoly is true
@@ -446,7 +446,7 @@
       </solution>
     </example>
 
-    <p permid="p8">
+    <p permid="-ssec-truth-tables-p8">
       The statement about monopoly is an example of a <term>tautology</term>,
           <idx><h>tautology</h></idx>
       a statement which is true on the basis of its logical form alone.
@@ -459,14 +459,14 @@
     </p>
   </subsection>
 
-  <subsection permid="ssec-logical-equivalence">
+  <subsection permid="-ssec-logical-equivalence">
     <title>Logical Equivalence</title>
-    <p permid="p1">
+    <p permid="-ssec-logical-equivalence-p1">
       You might have noticed that the final column in the truth table from
       <m>\neg P \vee Q</m> is identical to the final column in the truth table for <m>P \imp Q</m>:
     </p>
 
-    <sidebyside permid="sbs">
+    <sidebyside permid="-ssec-logical-equivalence-sbs">
 
       <tabular halign="center">
         <col right="minor"/>
@@ -507,7 +507,7 @@
 
     </sidebyside>
 
-    <p permid="p2">
+    <p permid="-ssec-logical-equivalence-p2">
       This says that no matter what <m>P</m> and <m>Q</m> are,
       the statements <m>\neg P \vee Q</m> and
       <m>P \imp Q</m> either both true or both false.
@@ -515,9 +515,9 @@
       <term>logically equivalent</term>.
     </p>
 
-    <assemblage permid="asm-logical-equivalence">
+    <assemblage permid="-ssec-logical-equivalence-asm-logical-equivalence">
       <title>Logical Equivalence</title>
-      <p permid="p1">
+      <p permid="-ssec-logical-equivalence-asm-logical-equivalence-p1">
         Two (molecular) statements <m>P</m> and <m>Q</m> are
         <term>logically equivalent</term> 
             <idx><h>logical equivalence</h></idx>
@@ -525,33 +525,33 @@
         That is, <m>P</m> and <m>Q</m> have the same truth value under any assignment of truth values to their atomic parts.
       </p>
 
-      <p permid="p2">
+      <p permid="-ssec-logical-equivalence-asm-logical-equivalence-p2">
         To verify that two statements are logically equivalent,
         you can make a truth table for each and check whether the columns for the two statements are identical.
       </p>
     </assemblage>
 
-    <p permid="p3">
+    <p permid="-ssec-logical-equivalence-p3">
       Recognizing two statements as logically equivalent can be very helpful.
       Rephrasing a mathematical statement can often lends insight into what it is saying,
       or how to prove or refute it.
       Using truth tables we can systematically verify that two statements are indeed logically equivalent.
     </p>
 
-    <example permid="ex1">
+    <example permid="-ssec-logical-equivalence-ex1">
       <statement>
-        <p permid="p">
+        <p permid="-ssec-logical-equivalence-ex1-p">
           Are the statements, <q>it will not rain or snow</q>
           and <q>it will not rain and it will not snow</q> logically equivalent?
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p1">
+      <solution permid="-ssec-logical-equivalence-ex1-s">
+        <p permid="-ssec-logical-equivalence-ex1-s-p1">
           We want to know whether <m>\neg(P \vee Q)</m> is logically equivalent to <m>\neg P \wedge \neg Q</m>.
           Make a truth table which includes both statements:
         </p>
 
-        <sidebyside permid="sbs">
+        <sidebyside permid="-ssec-logical-equivalence-ex1-sbs">
 
           <tabular halign="center">
             <col right="minor"/>
@@ -592,34 +592,34 @@
 
         </sidebyside>
 
-        <p permid="p2">
+        <p permid="-ssec-logical-equivalence-ex1-s-p2">
           Since in every row the truth values for the two statements are equal,
           the two statements are logically equivalent.
         </p>
       </solution>
     </example>
 
-    <p permid="p4">
+    <p permid="-ssec-logical-equivalence-p4">
       Notice that this example gives us a way to <q>distribute</q>
       a negation over a disjunction
       (an <q>or</q>).
       We have a similar rule for distributing over conjunctions (<q>and</q>s):
     </p>
 
-    <assemblage permid="asm-de-morgans-laws">
+    <assemblage permid="-ssec-logical-equivalence-asm-de-morgans-laws">
       <title>De Morgan's Laws</title>
-      <p permid="p">
+      <p permid="-ssec-logical-equivalence-asm-de-morgans-laws-p">
             <idx><h>De Morgan's laws</h></idx>
-        <me permid="me1">
+        <me permid="-ssec-logical-equivalence-asm-de-morgans-laws-p-me1">
           \neg(P \wedge Q) \text{ is logically equivalent to } \neg P \vee \neg Q
         </me>.
-        <me permid="me2">
+        <me permid="-ssec-logical-equivalence-asm-de-morgans-laws-p-me2">
           \neg(P \vee Q) \text{ is logically equivalent to } \neg P \wedge \neg Q
         </me>.
       </p>
     </assemblage>
 
-    <p permid="p5">
+    <p permid="-ssec-logical-equivalence-p5">
       This suggests there might be a sort of <q>algebra</q>
       you could apply to statements (okay, there is:
       it is called <em>Boolean algebra</em>) to transform one statement into another.
@@ -629,43 +629,43 @@
       We will probably also want a way to deal with double negation:
     </p>
 
-    <assemblage permid="asm-double-negation">
+    <assemblage permid="-ssec-logical-equivalence-asm-double-negation">
       <title>Double Negation</title>
-      <p permid="p1">
+      <p permid="-ssec-logical-equivalence-asm-double-negation-p1">
             <idx><h>double negation</h></idx>
-        <me permid="me">
+        <me permid="-ssec-logical-equivalence-asm-double-negation-p1-me">
           \neg \neg P \mbox{ is logically equivalent to } P
         </me>.
       </p>
 
-      <p permid="p2">
+      <p permid="-ssec-logical-equivalence-asm-double-negation-p2">
         Example: <q>It is not the case that <m>c</m> is not odd</q>
         means <q><m>c</m> is odd.</q>
       </p>
     </assemblage>
 
-    <p permid="p6">
+    <p permid="-ssec-logical-equivalence-p6">
       Let's see how we can apply the equivalences we have encountered so far.
     </p>
 
-    <example permid="ex2">
+    <example permid="-ssec-logical-equivalence-ex2">
       <statement>
-        <p permid="p">
+        <p permid="-ssec-logical-equivalence-ex2-p">
           Prove that the statements <m>\neg(P \imp Q)</m> and
           <m>P\wedge \neg Q</m> are logically equivalent without using truth tables.
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p">
+      <solution permid="-ssec-logical-equivalence-ex2-s">
+        <p permid="-ssec-logical-equivalence-ex2-s-p">
           We want to start with one of the statements,
           and transform it into the other through a sequence of logically equivalent statements.
           Start with <m>\neg(P \imp Q)</m>.
           We can rewrite the implication as a disjunction this is logically equivalent to
-          <me permid="me1">
+          <me permid="-ssec-logical-equivalence-ex2-s-p-me1">
             \neg(\neg P \vee Q)
           </me>.
           Now apply DeMorgan's law to get
-          <me permid="me2">
+          <me permid="-ssec-logical-equivalence-ex2-s-p-me2">
             \neg\neg P \wedge \neg Q
           </me>.
           Finally, use double negation to arrive at <m>P \wedge \neg Q</m>
@@ -673,21 +673,21 @@
       </solution>
     </example>
 
-    <p permid="p7">
+    <p permid="-ssec-logical-equivalence-p7">
       Notice that the above example illustrates that the negation of an implication is NOT an implication:
       it is a conjunction!
     </p>
 
-    <p permid="p8">
+    <p permid="-ssec-logical-equivalence-p8">
       To verify that two statements are logically equivalent,
       you can use truth tables or a sequence of logically equivalent replacements.
       The truth table method, although cumbersome,
       has the advantage that it can verify that two statements are NOT logically equivalent.
     </p>
 
-    <example permid="ex3">
+    <example permid="-ssec-logical-equivalence-ex3">
       <statement>
-        <p permid="p">
+        <p permid="-ssec-logical-equivalence-ex3-p">
           Are the statements
           <m>(P \vee Q) \imp R</m>
           and
@@ -695,14 +695,14 @@
           logically equivalent?
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p1">
+      <solution permid="-ssec-logical-equivalence-ex3-s">
+        <p permid="-ssec-logical-equivalence-ex3-s-p1">
           Note that while we could start rewriting these statements with logically equivalent replacements in the hopes of transforming one into another,
           we will never be sure that our failure is due to their lack of logical equivalence rather than our lack of imagination.
           So instead, let's make a truth table:
         </p>
 
-        <sidebyside permid="sbs">
+        <sidebyside permid="-ssec-logical-equivalence-ex3-sbs">
 
           <tabular halign="center">
             <col right="minor"/>
@@ -780,7 +780,7 @@
 
         </sidebyside>
 
-        <p permid="p2">
+        <p permid="-ssec-logical-equivalence-ex3-s-p2">
           Look at the fourth
           (or sixth)
           row.
@@ -789,7 +789,7 @@
           Therefore the statements are not logically equivalent.
         </p>
 
-        <p permid="p3">
+        <p permid="-ssec-logical-equivalence-ex3-s-p3">
           While we don't have logical equivalence,
           it is the case that whenever <m>(P \vee Q) \imp R</m> is true,
           so is <m>(P \imp R) \vee (Q \imp R)</m>.
@@ -801,10 +801,10 @@
     </example>
   </subsection>
 
-  <subsection permid="ssec-deductions">
+  <subsection permid="-ssec-deductions">
     <title>Deductions</title>
-    <investigation permid="inv">
-      <p permid="p">
+    <investigation permid="-ssec-deductions-inv">
+      <p permid="-ssec-deductions-inv-p">
         Holmes owns two suits: one black and one tweed.
         He always wears either a tweed suit or sandals.
         Whenever he wears his tweed suit and a purple shirt,
@@ -815,12 +815,12 @@
         What else did he wear?
       </p>
     </investigation>
-    <p permid="p1">
+    <p permid="-ssec-deductions-p1">
       Earlier we claimed that the following was a valid argument:
     </p>
 
-    <blockquote permid="bq">
-      <p permid="p">
+    <blockquote permid="-ssec-deductions-bq">
+      <p permid="-ssec-deductions-bq-p">
         If Edith eats her vegetables,
         then she can have a cookie.
         Edith ate her vegetables.
@@ -828,7 +828,7 @@
       </p>
     </blockquote>
 
-    <p permid="p2">
+    <p permid="-ssec-deductions-p2">
       How do we know this is valid?
       Let's look at the form of the statements.
       Let <m>P</m> denote <q>Edith eats her vegetables</q>
@@ -836,7 +836,7 @@
       The logical form of the argument is then:
     </p>
 
-    <sidebyside permid="sbs1">
+    <sidebyside permid="-ssec-deductions-sbs1">
 
       <tabular halign="center">
         <row>
@@ -855,7 +855,7 @@
 
     </sidebyside>
 
-    <p permid="p3">
+    <p permid="-ssec-deductions-p3">
       This is an example of a <term>deduction rule</term>,
           <idx><h>deduction rule</h></idx>
       an argument form which is always valid.
@@ -866,7 +866,7 @@
       If not, consider the following truth table:
     </p>
 
-    <sidebyside permid="sbs2">
+    <sidebyside permid="-ssec-deductions-sbs2">
 
       <tabular halign="center">
         <col right="minor"/>
@@ -901,7 +901,7 @@
 
     </sidebyside>
 
-    <p permid="p4">
+    <p permid="-ssec-deductions-p4">
       This is just the truth table for <m>P \imp Q</m>,
       but what matters here is that all the lines in the deduction rule have their own column in the truth table.
       Remember that an argument is valid provided the conclusion must be true given that the premises are true.
@@ -914,17 +914,17 @@
       we see that <m>Q</m> must be true as well.
     </p>
 
-    <p permid="p5">
+    <p permid="-ssec-deductions-p5">
       Here are a few more examples.
     </p>
 
-    <example permid="ex1">
+    <example permid="-ssec-deductions-ex1">
       <statement>
-        <p permid="p1">
+        <p permid="-ssec-deductions-ex1-p1">
           Show that
         </p>
 
-        <sidebyside permid="sbs1">
+        <sidebyside permid="-ssec-deductions-ex1-sbs1">
 
           <tabular halign="center">
             <row>
@@ -943,16 +943,16 @@
 
         </sidebyside>
 
-        <p permid="p2">
+        <p permid="-ssec-deductions-ex1-p2">
           is a valid deduction rule.
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p1">
+      <solution permid="-ssec-deductions-ex1-s">
+        <p permid="-ssec-deductions-ex1-s-p1">
           We make a truth table which contains all the lines of the argument form:
         </p>
 
-        <sidebyside permid="sbs2">
+        <sidebyside permid="-ssec-deductions-ex1-sbs2">
 
           <tabular halign="center">
             <col right="minor"/>
@@ -999,11 +999,11 @@
 
         </sidebyside>
 
-        <p permid="p2">
+        <p permid="-ssec-deductions-ex1-s-p2">
           (we include a column for <m>\neg P</m> just as a step to help getting the column for <m>\neg P \imp Q</m>).
         </p>
 
-        <p permid="p3">
+        <p permid="-ssec-deductions-ex1-s-p3">
           Now look at all the rows for which both
           <m>P \imp Q</m> and <m>\neg P \imp Q</m> are true.
           This happens only in rows 1 and 3.
@@ -1015,13 +1015,13 @@
       </solution>
     </example>
 
-    <example permid="ex2">
+    <example permid="-ssec-deductions-ex2">
       <statement>
-        <p permid="p1">
+        <p permid="-ssec-deductions-ex2-p1">
           Decide whether
         </p>
 
-        <sidebyside permid="sbs1">
+        <sidebyside permid="-ssec-deductions-ex2-sbs1">
 
           <tabular halign="center">
             <row>
@@ -1044,16 +1044,16 @@
 
         </sidebyside>
 
-        <p permid="p2">
+        <p permid="-ssec-deductions-ex2-p2">
           is a valid deduction rule.
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p1">
+      <solution permid="-ssec-deductions-ex2-s">
+        <p permid="-ssec-deductions-ex2-s-p1">
           Let's make a truth table containing all four statements.
         </p>
 
-        <sidebyside permid="sbs2">
+        <sidebyside permid="-ssec-deductions-ex2-sbs2">
 
           <tabular halign="center">
             <col right="minor"/>
@@ -1138,14 +1138,14 @@
 
         </sidebyside>
 
-        <p permid="p2">
+        <p permid="-ssec-deductions-ex2-s-p2">
           Look at the second to last row.
           Here all three premises of the argument are true,
           but the conclusion is false.
           Thus this is not a valid deduction rule.
         </p>
 
-        <p permid="p3">
+        <p permid="-ssec-deductions-ex2-s-p3">
           While we have the truth table in front of us, look at rows 1 and 5.
           These are the only rows in which all of the statements statements <m>P \imp R</m>,
           <m>Q \imp R</m>, and <m>P\vee Q</m> are true.
@@ -1153,7 +1153,7 @@
           Thus we have discovered a new deduction rule we know <em>is</em> valid:
         </p>
 
-        <sidebyside permid="sbs3">
+        <sidebyside permid="-ssec-deductions-ex2-sbs3">
 
           <tabular halign="center">
             <row>
@@ -1179,24 +1179,24 @@
     </example>
   </subsection>
 
-  <subsection permid="ssec-beyond-propositions">
+  <subsection permid="-ssec-beyond-propositions">
     <title>Beyond Propositions</title>
-    <p permid="p1">
+    <p permid="-ssec-beyond-propositions-p1">
       As we saw in <xref ref="sec_intro-statements"/>,
       not every statement can be analyzed using logical connectives alone.
       For example, we might want to work with the statement:
     </p>
 
-    <blockquote permid="bq">
-      <p permid="p">
+    <blockquote permid="-ssec-beyond-propositions-bq">
+      <p permid="-ssec-beyond-propositions-bq-p">
         All primes greater than 2 are odd.
       </p>
     </blockquote>
 
-    <p permid="p2">
+    <p permid="-ssec-beyond-propositions-p2">
       To write this statement symbolically, we must use quantifiers.
       We can translate as follows:
-      <me permid="me">
+      <me permid="-ssec-beyond-propositions-p2-me">
         \forall x ((P(x) \wedge x \gt 2) \imp O(x))
       </me>.
       In this case, we are using <m>P(x)</m> to denote
@@ -1211,7 +1211,7 @@
       we need to use <term>predicate logic</term>.
     </p>
 
-    <p permid="p3">
+    <p permid="-ssec-beyond-propositions-p3">
       It is important to stress that predicate logic
       <em>extends</em> propositional logic
       (much in the way quantum mechanics extends classical mechanics).
@@ -1222,32 +1222,32 @@
       <m>Q</m>, etc.
     </p>
 
-    <p permid="p4">
+    <p permid="-ssec-beyond-propositions-p4">
       A full treatment of predicate logic is beyond the scope of this text.
       One reason is that there is no systematic procedure for deciding whether two statements in predicate logic are logically equivalent (i.e., there is no analogue to truth tables here).
       Rather, we end with a couple of examples of logical equivalence and deduction,
       to pique your interest.
     </p>
 
-    <example permid="ex1">
+    <example permid="-ssec-beyond-propositions-ex1">
       <statement>
-        <p permid="p1">
+        <p permid="-ssec-beyond-propositions-ex1-p1">
           Suppose we claim that there is no smallest number.
           We can translate this into symbols as
-          <me permid="me">
+          <me permid="-ssec-beyond-propositions-ex1-p1-me">
             \neg \exists x \forall y (x \le y)
           </me>
           (literally, <q>it is not true that there is a number <m>x</m> such that for all numbers <m>y</m>,
           <m>x</m> is less than or equal to <m>y</m></q>).
         </p>
 
-        <p permid="p2">
+        <p permid="-ssec-beyond-propositions-ex1-p2">
           However, we know how negation interacts with quantifiers:
           we can pass a negation over a quantifier by switching the quantifier type
           (between universal and existential).
           So the statement above should be
           <em>logically equivalent</em> to
-          <me permid="me">
+          <me permid="-ssec-beyond-propositions-ex1-p2-me">
             \forall x \exists y (y \lt x)
           </me>.
           Notice that <m>y \lt x</m> is the negation of <m>x \le y</m>.
@@ -1258,25 +1258,25 @@
       </statement>
     </example>
 
-    <example permid="ex2">
+    <example permid="-ssec-beyond-propositions-ex2">
       <statement>
-        <p permid="p">
+        <p permid="-ssec-beyond-propositions-ex2-p">
           Can you switch the order of quantifiers?
           For example, consider the two statements:
-          <me permid="me">
+          <me permid="-ssec-beyond-propositions-ex2-p-me">
             \forall x \exists y P(x,y) \qquad \mathrm{ and } \qquad \exists y \forall x P(x,y)
           </me>.
           Are these logically equivalent?
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p1">
+      <solution permid="-ssec-beyond-propositions-ex2-s">
+        <p permid="-ssec-beyond-propositions-ex2-s-p1">
           These statements are NOT logically equivalent.
           To see this,
           we should provide an interpretation of the predicate <m>P(x,y)</m> which makes one of the statements true and the other false.
         </p>
 
-        <p permid="p2">
+        <p permid="-ssec-beyond-propositions-ex2-s-p2">
           Let <m>P(x,y)</m> be the predicate <m>x \lt y</m>.
           It is true, in the natural numbers,
           that for all <m>x</m> there is some <m>y</m> greater than it
@@ -1285,7 +1285,7 @@
           Thus it is possible for <m>\forall x \exists y P(x,y)</m> to be true while <m>\exists y \forall x P(x,y)</m> is false.
         </p>
 
-        <p permid="p3">
+        <p permid="-ssec-beyond-propositions-ex2-s-p3">
           We cannot do the reverse of this though.
           If there is some <m>y</m> for which every <m>x</m> satisfies <m>P(x,y)</m>,
           then certainly for every <m>x</m> there is some <m>y</m> which satisfies <m>P(x,y)</m>.
@@ -1296,7 +1296,7 @@
           we do have a valid deduction rule:
         </p>
 
-        <sidebyside permid="sbs">
+        <sidebyside permid="-ssec-beyond-propositions-ex2-sbs">
 
           <tabular halign="center">
             <row bottom="minor">
@@ -1311,9 +1311,9 @@
 
         </sidebyside>
 
-        <p permid="p4">
+        <p permid="-ssec-beyond-propositions-ex2-s-p4">
           Put yet another way, this says that the single statement
-          <me permid="me">
+          <me permid="-ssec-beyond-propositions-ex2-s-p4-me">
             \exists y \forall x P(x,y) \imp \forall x \exists y P(x,y)
           </me>
           is always true.

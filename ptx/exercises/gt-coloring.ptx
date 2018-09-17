@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <exercises permid="exers_gt-coloring" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exercises_gt-coloring">
 
-  <exercise permid="e_xo">
+  <exercise permid="exers_gt-coloring-e_xo">
     <statement>
-      <p permid="p">
+      <p permid="exers_gt-coloring-e_xo-p">
         What is the smallest number of colors you need to properly color the vertices of <m>K_{4,5}</m>?
         That is, find the chromatic number of the graph.
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_gt-coloring-e_xo-s">
+      <p permid="exers_gt-coloring-e_xo-s-p">
         2, since the graph is bipartite.
         One color for the top set of vertices,
         another color for the bottom set of vertices.
@@ -17,16 +17,16 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ag">
+  <exercise permid="exers_gt-coloring-e_ag">
     <statement>
-      <p permid="p">
+      <p permid="exers_gt-coloring-e_ag-p">
         Draw a graph with chromatic number 6 (i.e., which requires 6 colors to properly color the vertices).
         Could your graph be planar?
         Explain.
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_gt-coloring-e_ag-s">
+      <p permid="exers_gt-coloring-e_ag-s-p">
         For example, <m>K_6</m>.
         If the chromatic number is 6, then the graph is not planar;
         the 4-color theorem states that all planar graphs can be colored with 4 or fewer colors.
@@ -34,29 +34,29 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_dp">
+  <exercise permid="exers_gt-coloring-e_dp">
     <statement>
-      <p permid="p">
+      <p permid="exers_gt-coloring-e_dp-p">
         Find the chromatic number of each of the following graphs.
       </p>
 
-      <sidebyside permid="sbs1" width="20%" margins="auto" valign="bottom">
+      <sidebyside permid="exers_gt-coloring-sbs1" width="20%" margins="auto" valign="bottom">
 
-        <image permid="im1">
+        <image permid="exers_gt-coloring-sbs1-im1">
 
 	<latex-image>\begin{tikzpicture}
 	    \draw  (-1,1) \v -- (0,2) \v -- (1,1) \v -- (0,0) \v -- (-1,1) -- (0,1) \v -- (1,1);
 	  \end{tikzpicture}</latex-image>
         </image>
 
-        <image permid="im2">
+        <image permid="exers_gt-coloring-sbs1-im2">
 
 	<latex-image>\begin{tikzpicture}
 	    \draw  (360/7:1) \v -- (2*360/7:1) \v -- (3*360/7:1) \v -- (4*360/7:1) \v -- (5*360/7:1) \v -- (6*360/7:1) \v -- (0:1) \v -- cycle;
 	  \end{tikzpicture}</latex-image>
         </image>
 
-        <image permid="im3">
+        <image permid="exers_gt-coloring-sbs1-im3">
 
 	<latex-image>\begin{tikzpicture}
 	    \draw (0,0) \v;
@@ -67,9 +67,9 @@
 
       </sidebyside>
 
-      <sidebyside permid="sbs2" widths="20% 20%" margins="auto" valign="top">
+      <sidebyside permid="exers_gt-coloring-sbs2" widths="20% 20%" margins="auto" valign="top">
 
-        <image permid="im1">
+        <image permid="exers_gt-coloring-sbs2-im1">
 
 	<latex-image>\begin{tikzpicture}
 	    \foreach \x in {0,...,4}
@@ -77,7 +77,7 @@
 	  \end{tikzpicture}</latex-image>
         </image>
 
-        <image permid="im2">
+        <image permid="exers_gt-coloring-sbs2-im2">
 
 	<latex-image>\begin{tikzpicture}[scale=.5]
 	    \draw  (18:2) -- (90:2) -- (162:2)  -- (234:2) -- (306:2) -- cycle;
@@ -89,16 +89,16 @@
 
       </sidebyside>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_gt-coloring-e_dp-s">
+      <p permid="exers_gt-coloring-e_dp-s-p">
         The chromatic numbers are 2, 3, 4, 5, and 3 respectively from left to right.
       </p>
     </solution>
   </exercise>
 
-  <exercise permid="e_gy">
+  <exercise permid="exers_gt-coloring-e_gy">
     <statement>
-      <p permid="p">
+      <p permid="exers_gt-coloring-e_gy-p">
         A group of 10 friends decides to head up to a cabin in the woods
         (where nothing could possibly go wrong).
         Unfortunately,
@@ -107,23 +107,23 @@
         To get the cabin, they need to divide up into some number of cars,
         and no two people who dated should be in the same car.
 
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+        <ol permid="exers_gt-coloring-e_gy-ol">
+          <li permid="exers_gt-coloring-e_gy-ol-l_j">
+            <p permid="exers_gt-coloring-e_gy-ol-l_j-p">
               What is the smallest number of cars you need if all the relationships were strictly heterosexual?
               Represent an example of such a situation with a graph.
               What kind of graph do you get?
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_gt-coloring-e_gy-ol-l_s">
+            <p permid="exers_gt-coloring-e_gy-ol-l_s-p">
               Because a number of these friends dated there are also conflicts between friends of the same gender,
               listed below.
               Now what is the smallest number of conflict-free cars they could take to the cabin?
             </p>
 
-            <sidebyside permid="sbs3">
+            <sidebyside permid="exers_gt-coloring-sbs3">
 
               <tabular>
                 <row bottom="minor">
@@ -158,8 +158,8 @@
 
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_gt-coloring-e_gy-ol-l_b">
+            <p permid="exers_gt-coloring-e_gy-ol-l_b-p">
               What do these questions have to do with coloring?
             </p>
           </li>
@@ -168,20 +168,20 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_jq">
+  <exercise permid="exers_gt-coloring-e_jq">
     <statement>
-      <p permid="p">
+      <p permid="exers_gt-coloring-e_jq-p">
         What is the smallest number of colors that can be used to color the vertices of a cube so that no two adjacent vertices are colored identically?
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p1">
+    <solution permid="exers_gt-coloring-e_jq-s">
+      <p permid="exers_gt-coloring-e_jq-s-p1">
         The cube can be represented as a planar graph and colored with two colors as follows:
       </p>
 
-      <sidebyside permid="sbs4" width="20%">
+      <sidebyside permid="exers_gt-coloring-sbs4" width="20%">
 
-        <image permid="im">
+        <image permid="exers_gt-coloring-e_jq-s-im">
 
 	<latex-image>\begin{tikzpicture}
 			\foreach \ang in {45, 135, 225, 315} {
@@ -193,7 +193,7 @@
 
       </sidebyside>
 
-      <p permid="p2">
+      <p permid="exers_gt-coloring-e_jq-s-p2">
         Since it would be impossible to color the vertices with a single color,
         we see that the cube has chromatic number 2
         (it is bipartite).
@@ -201,21 +201,21 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_mz">
+  <exercise permid="exers_gt-coloring-e_mz">
     <statement>
-      <p permid="p">
+      <p permid="exers_gt-coloring-e_mz-p">
         Prove the chromatic number of any tree is two.
         Recall, a tree is a connected graph with no cycles.
 
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+        <ol permid="exers_gt-coloring-e_mz-ol">
+          <li permid="exers_gt-coloring-e_mz-ol-l_j">
+            <p permid="exers_gt-coloring-e_mz-ol-l_j-p">
               Describe a procedure to color the tree below.
             </p>
 
-            <sidebyside permid="sbs5" width="35%">
+            <sidebyside permid="exers_gt-coloring-sbs5" width="35%">
 
-              <image permid="im">
+              <image permid="exers_gt-coloring-e_mz-ol-l_j-im">
 
 							<latex-image>
 								\begin{tikzpicture}[scale=.7]
@@ -232,21 +232,21 @@
 
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_gt-coloring-e_mz-ol-l_s">
+            <p permid="exers_gt-coloring-e_mz-ol-l_s-p">
               The chromatic number of <m>C_n</m> is two when <m>n</m> is even.
               What goes wrong when <m>n</m> is odd?
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_gt-coloring-e_mz-ol-l_b">
+            <p permid="exers_gt-coloring-e_mz-ol-l_b-p">
               Prove that your procedure from part (a) always works for any tree.
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_gt-coloring-e_mz-ol-l_k">
+            <p permid="exers_gt-coloring-e_mz-ol-l_k-p">
               Now, prove using induction that every tree has chromatic number 2.
             </p>
           </li>
@@ -255,9 +255,9 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_pi">
+  <exercise permid="exers_gt-coloring-e_pi">
     <statement>
-      <p permid="p">
+      <p permid="exers_gt-coloring-e_pi-p">
         Prove the 6-color theorem: every planar graph has chromatic number 6 or less.
         Do not assume the 4-color theorem
         (whose proof is MUCH harder),
@@ -266,24 +266,24 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_sa">
+  <exercise permid="exers_gt-coloring-e_sa">
     <statement>
-      <p permid="p">
+      <p permid="exers_gt-coloring-e_sa-p">
         Not all graphs are perfect.
         Give an example of a graph with chromatic number 4 that does not contain a copy of <m>K_4</m>.
         That is, there should be no 4 vertices all pairwise adjacent.
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_gt-coloring-e_sa-s">
+      <p permid="exers_gt-coloring-e_sa-s-p">
         The wheel graph below has this property.
         The outside of the wheel forms an odd cycle, so requires 3 colors,
         the center of the wheel must be different than all the outside vertices.
       </p>
 
-      <sidebyside permid="sbs6" width="20%">
+      <sidebyside permid="exers_gt-coloring-sbs6" width="20%">
 
-        <image permid="im">
+        <image permid="exers_gt-coloring-e_sa-s-im">
 
 	<latex-image>\begin{tikzpicture}
 
@@ -298,9 +298,9 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_vj">
+  <exercise permid="exers_gt-coloring-e_vj">
     <statement>
-      <p permid="p">
+      <p permid="exers_gt-coloring-e_vj-p">
         Prove by induction on vertices that any graph <m>G</m> which contains at least one vertex of degree less than <m>\Delta(G)</m>
         (the maximal degree of all vertices in <m>G</m>)
         has chromatic number at most <m>\Delta(G)</m>.
@@ -308,9 +308,9 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_ys">
+  <exercise permid="exers_gt-coloring-e_ys">
     <statement>
-      <p permid="p">
+      <p permid="exers_gt-coloring-e_ys-p">
         You have a set of magnetic alphabet letters
         (one of each of the 26 letters in the alphabet)
         that you need to put into boxes.
@@ -319,8 +319,8 @@
         What is the fewest number of boxes you need (assuming the boxes are able to hold as many letters as they need to)?
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_gt-coloring-e_ys-s">
+      <p permid="exers_gt-coloring-e_ys-s-p">
         If we drew a graph with each letter representing a vertex,
         and each edge connecting two letters that were consecutive in the alphabet,
         we would have a graph containing two vertices of degree 1 (A and Z) and the remaining 24 vertices all of degree 2
@@ -333,9 +333,9 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_bk">
+  <exercise permid="exers_gt-coloring-e_bk">
     <statement>
-      <p permid="p">
+      <p permid="exers_gt-coloring-e_bk-p">
         Prove that if you color every edge of <m>K_6</m> either red or blue,
         you are guaranteed a monochromatic triangle
         (that is, an all red or an all blue triangle).

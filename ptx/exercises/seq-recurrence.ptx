@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <exercises permid="exers-sec-recurrence" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exercises-sec-recurrence">
 
-  <exercise permid="e_xo">
+  <exercise permid="exers-sec-recurrence-e_xo">
     <statement>
-      <p permid="p">
+      <p permid="exers-sec-recurrence-e_xo-p">
         Find the next two terms in <m>(a_n)_{n\ge 0}</m> beginning
         <m>3, 5, 11, 21, 43, 85\ldots</m>.. Then give a recursive definition for the sequence.
         Finally, use the characteristic root technique to find a closed formula for the sequence.
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers-sec-recurrence-e_xo-s">
+      <p permid="exers-sec-recurrence-e_xo-s-p">
         171 and 341. <m>a_n = a_{n-1} + 2a_{n-2}</m> with <m>a_0 = 3</m> and <m>a_1 = 5</m>.
         Closed formula: <m>a_n = \frac{8}{3}2^n + \frac{1}{3}(-1)^n</m>.
         To find this solve the characteristic polynomial, <m>x^2 - x - 2</m>,
         to get characteristic roots <m>x = 2</m> and <m>x=-1</m>.
         Then solve the system
-        <md permid="md">
+        <md permid="exers-sec-recurrence-e_xo-s-p-md">
           <mrow>3 \amp = a + b</mrow>
           <mrow>5 \amp = 2a - b</mrow>
         </md>
@@ -24,18 +24,18 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ag">
+  <exercise permid="exers-sec-recurrence-e_ag">
     <statement>
-      <p permid="p">
+      <p permid="exers-sec-recurrence-e_ag-p">
         Solve the recurrence relation <m>a_n = a_{n-1} + 2^n</m> with <m>a_0 = 5</m>.
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers-sec-recurrence-e_ag-s">
+      <p permid="exers-sec-recurrence-e_ag-s-p">
         <m>a_n = 3 + 2^{n+1}</m>.
         We should use telescoping or iteration here.
         For example, telescoping gives
-        <md permid="md">
+        <md permid="exers-sec-recurrence-e_ag-s-p-md">
           <mrow>a_1 - a_0 \amp = 2^1</mrow>
           <mrow>a_2 - a_1 \amp = 2^2</mrow>
           <mrow>a_3 - a_2 \amp = 2^3</mrow>
@@ -49,14 +49,14 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_dp">
+  <exercise permid="exers-sec-recurrence-e_dp">
     <statement>
-      <p permid="p">
+      <p permid="exers-sec-recurrence-e_dp-p">
         Show that <m>4^n</m> is a solution to the recurrence relation <m>a_n = 3a_{n-1} + 4a_{n-2}</m>.
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers-sec-recurrence-e_dp-s">
+      <p permid="exers-sec-recurrence-e_dp-s-p">
         We claim <m>a_n = 4^n</m> works.
         Plug it in: <m>4^n = 3(4^{n-1}) + 4(4^{n-2})</m>.
         This works - just simplify the right-hand side.
@@ -64,50 +64,50 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_gy">
+  <exercise permid="exers-sec-recurrence-e_gy">
     <statement>
-      <p permid="p">
+      <p permid="exers-sec-recurrence-e_gy-p">
         Find the solution to the recurrence relation
         <m>a_n = 3a_{n-1} + 4a_{n-2}</m> with initial terms <m>a_0 = 2</m> and <m>a_1 = 3</m>.
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers-sec-recurrence-e_gy-s">
+      <p permid="exers-sec-recurrence-e_gy-s-p">
         By the Characteristic Root Technique. <m>a_n = 4^n + (-1)^n</m>.
       </p>
     </solution>
   </exercise>
 
-  <exercise permid="e_jq">
+  <exercise permid="exers-sec-recurrence-e_jq">
     <statement>
-      <p permid="p">
+      <p permid="exers-sec-recurrence-e_jq-p">
         Find the solution to the recurrence relation
         <m>a_n = 3a_{n-1} + 4a_{n-2}</m> with initial terms <m>a_0 = 5</m> and <m>a_1 = 8</m>.
       </p>
     </statement>
   </exercise>
 
-  <exercise permid="e_mz">
+  <exercise permid="exers-sec-recurrence-e_mz">
     <statement>
-      <p permid="p">
+      <p permid="exers-sec-recurrence-e_mz-p">
         Solve the recurrence relation <m>a_n = 2a_{n-1} - a_{n-2}</m>.
       </p>
 
-      <ol permid="ol">
-        <li permid="l_j">
-          <p permid="p">
+      <ol permid="exers-sec-recurrence-e_mz-ol">
+        <li permid="exers-sec-recurrence-e_mz-ol-l_j">
+          <p permid="exers-sec-recurrence-e_mz-ol-l_j-p">
             What is the solution if the initial terms are <m>a_0 = 1</m> and <m>a_1 = 2</m>?
           </p>
         </li>
 
-        <li permid="l_s">
-          <p permid="p">
+        <li permid="exers-sec-recurrence-e_mz-ol-l_s">
+          <p permid="exers-sec-recurrence-e_mz-ol-l_s-p">
             What do the initial terms need to be in order for <m>a_9 = 30</m>?
           </p>
         </li>
 
-        <li permid="l_b">
-          <p permid="p">
+        <li permid="exers-sec-recurrence-e_mz-ol-l_b">
+          <p permid="exers-sec-recurrence-e_mz-ol-l_b-p">
             For which <m>x</m> are there initial terms which make <m>a_9 = x</m>?
           </p>
         </li>
@@ -115,18 +115,18 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_pi">
+  <exercise permid="exers-sec-recurrence-e_pi">
     <statement>
-      <p permid="p">
+      <p permid="exers-sec-recurrence-e_pi-p">
         Solve the recurrence relation
         <m>a_n = 3a_{n-1} + 10a_{n-2}</m> with initial terms <m>a_0 = 4</m> and <m>a_1 = 1</m>.
       </p>
     </statement>
   </exercise>
 
-  <exercise permid="e_sa">
+  <exercise permid="exers-sec-recurrence-e_sa">
     <statement>
-      <p permid="p">
+      <p permid="exers-sec-recurrence-e_sa-p">
         Suppose that <m>r^n</m> and <m>q^n</m> are both solutions to a recurrence relation of the form <m>a_n = \alpha a_{n-1} + \beta a_{n-2}</m>.
         Prove that <m>c\cdot r^n + d \cdot q^n</m> is also a solution to the recurrence relation,
         for any constants <m>c, d</m>.
@@ -134,24 +134,24 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_vj">
+  <exercise permid="exers-sec-recurrence-e_vj">
     <statement>
-      <p permid="p">
+      <p permid="exers-sec-recurrence-e_vj-p">
         Think back to the magical candy machine at your neighborhood grocery store.
         Suppose that the first time a quarter is put into the machine 1 Skittle comes out.
         The second time, 4 Skittles,
         the third time 16 Skittles, the fourth time 64 Skittles, etc.
 
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+        <ol permid="exers-sec-recurrence-e_vj-ol">
+          <li permid="exers-sec-recurrence-e_vj-ol-l_j">
+            <p permid="exers-sec-recurrence-e_vj-ol-l_j-p">
               Find both a recursive and closed formula for how many Skittles the
               <em>n</em>th customer gets.
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers-sec-recurrence-e_vj-ol-l_s">
+            <p permid="exers-sec-recurrence-e_vj-ol-l_s-p">
               Check your solution for the closed formula by solving the recurrence relation using the Characteristic Root technique.
             </p>
           </li>
@@ -160,24 +160,24 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_ys">
+  <exercise permid="exers-sec-recurrence-e_ys">
     <statement>
-      <p permid="p">
+      <p permid="exers-sec-recurrence-e_ys-p">
         You have access to <m>1 \times 1</m> tiles which come in 2 different colors and
         <m>1\times 2</m> tiles which come in 3 different colors.
         We want to figure out how many different
         <m>1 \times n</m> path designs we can make out of these tiles.
       </p>
 
-      <ol permid="ol">
-        <li permid="l_j">
-          <p permid="p">
+      <ol permid="exers-sec-recurrence-e_ys-ol">
+        <li permid="exers-sec-recurrence-e_ys-ol-l_j">
+          <p permid="exers-sec-recurrence-e_ys-ol-l_j-p">
             Find a recursive definition for the sequence <m>a_n</m> of paths of length <m>n</m>.
           </p>
         </li>
 
-        <li permid="l_s">
-          <p permid="p">
+        <li permid="exers-sec-recurrence-e_ys-ol-l_s">
+          <p permid="exers-sec-recurrence-e_ys-ol-l_s-p">
             Solve the recurrence relation using the Characteristic Root technique.
           </p>
         </li>
@@ -185,32 +185,32 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_bk">
+  <exercise permid="exers-sec-recurrence-e_bk">
     <statement>
-      <p permid="p">
+      <p permid="exers-sec-recurrence-e_bk-p">
         Let <m>a_n</m> be the number of
         <m>1 \times n</m> tile designs you can make using
         <m>1 \times 1</m> squares available in 4 colors and
         <m>1 \times 2</m> dominoes available in 5 colors.
       </p>
 
-      <ol permid="ol">
-        <li permid="l_j">
-          <p permid="p">
+      <ol permid="exers-sec-recurrence-e_bk-ol">
+        <li permid="exers-sec-recurrence-e_bk-ol-l_j">
+          <p permid="exers-sec-recurrence-e_bk-ol-l_j-p">
             First, find a recurrence relation to describe the problem.
             Explain why the recurrence relation is correct
             (in the context of the problem).
           </p>
         </li>
 
-        <li permid="l_s">
-          <p permid="p">
+        <li permid="exers-sec-recurrence-e_bk-ol-l_s">
+          <p permid="exers-sec-recurrence-e_bk-ol-l_s-p">
             Write out the first 6 terms of the sequence <m>a_1, a_2, \ldots</m>.
           </p>
         </li>
 
-        <li permid="l_b">
-          <p permid="p">
+        <li permid="exers-sec-recurrence-e_bk-ol-l_b">
+          <p permid="exers-sec-recurrence-e_bk-ol-l_b-p">
             Solve the recurrence relation.
             That is, find a closed formula for <m>a_n</m>.
           </p>
@@ -219,28 +219,28 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_et">
+  <exercise permid="exers-sec-recurrence-e_et">
     <statement>
-      <p permid="p">
+      <p permid="exers-sec-recurrence-e_et-p">
         Consider the recurrence relation <m>a_n = 4a_{n-1} - 4a_{n-2}</m>.
       </p>
 
-      <ol permid="ol">
-        <li permid="l_j">
-          <p permid="p">
+      <ol permid="exers-sec-recurrence-e_et-ol">
+        <li permid="exers-sec-recurrence-e_et-ol-l_j">
+          <p permid="exers-sec-recurrence-e_et-ol-l_j-p">
             Find the general solution to the recurrence relation
             (beware the repeated root).
           </p>
         </li>
 
-        <li permid="l_s">
-          <p permid="p">
+        <li permid="exers-sec-recurrence-e_et-ol-l_s">
+          <p permid="exers-sec-recurrence-e_et-ol-l_s-p">
             Find the solution when <m>a_0 = 1</m> and <m>a_1 = 2</m>.
           </p>
         </li>
 
-        <li permid="l_b">
-          <p permid="p">
+        <li permid="exers-sec-recurrence-e_et-ol-l_b">
+          <p permid="exers-sec-recurrence-e_et-ol-l_b-p">
             Find the solution when <m>a_0 = 1</m> and <m>a_1 = 8</m>.
           </p>
         </li>

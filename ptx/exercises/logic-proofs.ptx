@@ -1,56 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <exercises permid="exers_logic-proofs" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exercises_logic-proofs">
 
-  <exercise permid="e_xo">
+  <exercise permid="exers_logic-proofs-e_xo">
     <statement>
-      <p permid="p1">
+      <p permid="exers_logic-proofs-e_xo-p1">
         Consider the statement <q>for all integers <m>a</m> and <m>b</m>,
         if <m>a + b</m> is even, then <m>a</m> and <m>b</m> are even</q>
       </p>
 
-      <p permid="p2">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+      <p permid="exers_logic-proofs-e_xo-p2">
+        <ol permid="exers_logic-proofs-e_xo-ol">
+          <li permid="exers_logic-proofs-e_xo-ol-l_j">
+            <p permid="exers_logic-proofs-e_xo-ol-l_j-p">
               Write the contrapositive of the statement.
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_logic-proofs-e_xo-ol-l_s">
+            <p permid="exers_logic-proofs-e_xo-ol-l_s-p">
               Write the converse of the statement.
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_logic-proofs-e_xo-ol-l_b">
+            <p permid="exers_logic-proofs-e_xo-ol-l_b-p">
               Write the negation of the statement.
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_logic-proofs-e_xo-ol-l_k">
+            <p permid="exers_logic-proofs-e_xo-ol-l_k-p">
               Is the original statement true or false?
               Prove your answer.
             </p>
           </li>
 
-          <li permid="l_t">
-            <p permid="p">
+          <li permid="exers_logic-proofs-e_xo-ol-l_t">
+            <p permid="exers_logic-proofs-e_xo-ol-l_t-p">
               Is the contrapositive of the original statement true or false?
               Prove your answer.
             </p>
           </li>
 
-          <li permid="l_c">
-            <p permid="p">
+          <li permid="exers_logic-proofs-e_xo-ol-l_c">
+            <p permid="exers_logic-proofs-e_xo-ol-l_c-p">
               Is the converse of the original statement true or false?
               Prove your answer.
             </p>
           </li>
 
-          <li permid="l_l">
-            <p permid="p">
+          <li permid="exers_logic-proofs-e_xo-ol-l_l">
+            <p permid="exers_logic-proofs-e_xo-ol-l_l-p">
               Is the negation of the original statement true or false?
               Prove your answer.
             </p>
@@ -58,46 +58,46 @@
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+    <solution permid="exers_logic-proofs-e_xo-s">
+      <p permid="exers_logic-proofs-e_xo-s-p">
+        <ol permid="exers_logic-proofs-e_xo-s-ol">
+          <li permid="exers_logic-proofs-e_xo-s-ol-l_j">
+            <p permid="exers_logic-proofs-e_xo-s-ol-l_j-p">
               For all integers <m>a</m> and <m>b</m>,
               if <m>a</m> or <m>b</m> is not even,
               then <m>a+b</m> is not even.
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_logic-proofs-e_xo-s-ol-l_s">
+            <p permid="exers_logic-proofs-e_xo-s-ol-l_s-p">
               For all integers <m>a</m> and <m>b</m>,
               if <m>a</m> and <m>b</m> are even, then <m>a+b</m> is even.
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_logic-proofs-e_xo-s-ol-l_b">
+            <p permid="exers_logic-proofs-e_xo-s-ol-l_b-p">
               There are numbers <m>a</m> and <m>b</m> such that <m>a+b</m> is even but <m>a</m> and <m>b</m> are not both even.
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_logic-proofs-e_xo-s-ol-l_k">
+            <p permid="exers_logic-proofs-e_xo-s-ol-l_k-p">
               False.
               For example, <m>a = 3</m> and <m>b = 5</m>. <m>a+b = 8</m>,
               but neither <m>a</m> nor <m>b</m> are even.
             </p>
           </li>
 
-          <li permid="l_t">
-            <p permid="p">
+          <li permid="exers_logic-proofs-e_xo-s-ol-l_t">
+            <p permid="exers_logic-proofs-e_xo-s-ol-l_t-p">
               False, since it is equivalent to the original statement.
             </p>
           </li>
 
-          <li permid="l_c">
-            <p permid="p">
+          <li permid="exers_logic-proofs-e_xo-s-ol-l_c">
+            <p permid="exers_logic-proofs-e_xo-s-ol-l_c-p">
               True.
               Let <m>a</m> and <m>b</m> be integers.
               Assume both are even.
@@ -106,8 +106,8 @@
             </p>
           </li>
 
-          <li permid="l_l">
-            <p permid="p">
+          <li permid="exers_logic-proofs-e_xo-s-ol-l_l">
+            <p permid="exers_logic-proofs-e_xo-s-ol-l_l-p">
               True, since the statement is false.
             </p>
           </li>
@@ -116,24 +116,24 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ag">
+  <exercise permid="exers_logic-proofs-e_ag">
     <statement>
-      <p permid="p1">
+      <p permid="exers_logic-proofs-e_ag-p1">
         Consider the statement: for all integers <m>n</m>,
         if <m>n</m> is even then <m>8n</m> is even.
       </p>
 
-      <p permid="p2">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+      <p permid="exers_logic-proofs-e_ag-p2">
+        <ol permid="exers_logic-proofs-e_ag-ol">
+          <li permid="exers_logic-proofs-e_ag-ol-l_j">
+            <p permid="exers_logic-proofs-e_ag-ol-l_j-p">
               Prove the statement.
               What sort of proof are you using?
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_logic-proofs-e_ag-ol-l_s">
+            <p permid="exers_logic-proofs-e_ag-ol-l_s-p">
               Is the converse true?
               Prove or disprove.
             </p>
@@ -141,15 +141,15 @@
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+    <solution permid="exers_logic-proofs-e_ag-s">
+      <p permid="exers_logic-proofs-e_ag-s-p">
+        <ol permid="exers_logic-proofs-e_ag-s-ol">
+          <li permid="exers_logic-proofs-e_ag-s-ol-l_j">
+            <p permid="exers_logic-proofs-e_ag-s-ol-l_j-p">
               Direct proof.
 
-              <proof permid="pf">
-                <p permid="p">
+              <proof permid="exers_logic-proofs-e_ag-pf">
+                <p permid="exers_logic-proofs-e_ag-pf-p">
                   Let <m>n</m> be an integer.
                   Assume <m>n</m> is even.
                   Then <m>n = 2k</m> for some integer <m>k</m>.
@@ -161,8 +161,8 @@
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_logic-proofs-e_ag-s-ol-l_s">
+            <p permid="exers_logic-proofs-e_ag-s-ol-l_s-p">
               The converse is false.
               That is, there is an integer <m>n</m> such that <m>8n</m> is even but <m>n</m> is odd.
               For example, consider <m>n = 3</m>.
@@ -174,16 +174,16 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_dp">
+  <exercise permid="exers_logic-proofs-e_dp">
     <statement>
-      <p permid="p1">
+      <p permid="exers_logic-proofs-e_dp-p1">
         Your <q>friend</q> has shown you a <q>proof</q>
         he wrote to show that <m>1 = 3</m>.
         Here is the proof:
       </p>
 
-      <proof permid="pf">
-        <p permid="p">
+      <proof permid="exers_logic-proofs-e_dp-pf">
+        <p permid="exers_logic-proofs-e_dp-pf-p">
           I claim that <m>1 = 3</m>.
           Of course we can do anything to one side of an equation as long as we also do it to the other side.
           So subtract 2 from both sides.
@@ -193,7 +193,7 @@
         </p>
       </proof>
 
-      <p permid="p2">
+      <p permid="exers_logic-proofs-e_dp-p2">
         What is going on here?
         Is your friend's argument valid?
         Is the argument a proof of the claim <m>1=3</m>?
@@ -203,30 +203,30 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_gy">
+  <exercise permid="exers_logic-proofs-e_gy">
     <statement>
-      <p permid="p">
+      <p permid="exers_logic-proofs-e_gy-p">
         Suppose you have a collection of 5-cent stamps and 8-cent stamps.
         We saw earlier that it is possible to make any amount of postage greater than 27 cents using combinations of both these types of stamps.
         But, let's ask some other questions:
 
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+        <ol permid="exers_logic-proofs-e_gy-ol">
+          <li permid="exers_logic-proofs-e_gy-ol-l_j">
+            <p permid="exers_logic-proofs-e_gy-ol-l_j-p">
               What amounts of postage can you make if you only use an even number of both types of stamps?
               Prove your answer.
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_logic-proofs-e_gy-ol-l_s">
+            <p permid="exers_logic-proofs-e_gy-ol-l_s-p">
               Suppose you made an even amount of postage.
               Prove that you used an even number of at least one of the types of stamps.
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_logic-proofs-e_gy-ol-l_b">
+            <p permid="exers_logic-proofs-e_gy-ol-l_b-p">
               Suppose you made exactly 72 cents of postage.
               Prove that you used at least 6 of one type of stamp.
             </p>
@@ -236,45 +236,45 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_jq">
+  <exercise permid="exers_logic-proofs-e_jq">
     <statement>
-      <p permid="p1">
+      <p permid="exers_logic-proofs-e_jq-p1">
         Suppose that you would like to prove the following implication:
       </p>
 
-      <blockquote permid="bq">
-        <p permid="p">
+      <blockquote permid="exers_logic-proofs-e_jq-bq">
+        <p permid="exers_logic-proofs-e_jq-bq-p">
           For all numbers <m>n</m>, if <m>n</m> is prime then <m>n</m> is solitary.
         </p>
       </blockquote>
 
-      <p permid="p2">
+      <p permid="exers_logic-proofs-e_jq-p2">
         Write out the beginning and end of the argument if you were to prove the statement,
       </p>
 
-      <p permid="p3">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+      <p permid="exers_logic-proofs-e_jq-p3">
+        <ol permid="exers_logic-proofs-e_jq-ol">
+          <li permid="exers_logic-proofs-e_jq-ol-l_j">
+            <p permid="exers_logic-proofs-e_jq-ol-l_j-p">
               Directly
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_logic-proofs-e_jq-ol-l_s">
+            <p permid="exers_logic-proofs-e_jq-ol-l_s-p">
               By contrapositive
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_logic-proofs-e_jq-ol-l_b">
+            <p permid="exers_logic-proofs-e_jq-ol-l_b-p">
               By contradiction
             </p>
           </li>
         </ol>
       </p>
 
-      <p permid="p4">
+      <p permid="exers_logic-proofs-e_jq-p4">
         You do not need to provide details for the proofs
         (since you do not know what solitary means).
         However, make sure that you provide the first few and last few lines of the proofs so that we can see that logical structure you would follow.
@@ -282,46 +282,46 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_mz">
+  <exercise permid="exers_logic-proofs-e_mz">
     <statement>
-      <p permid="p">
+      <p permid="exers_logic-proofs-e_mz-p">
         Prove that <m>\sqrt 3</m> is irrational.
       </p>
     </statement>
-    <solution permid="s">
+    <solution permid="exers_logic-proofs-e_mz-s">
 
-      <proof permid="pf">
-        <p permid="p1">
+      <proof permid="exers_logic-proofs-e_mz-pf">
+        <p permid="exers_logic-proofs-e_mz-s-p1">
           Suppose <m>\sqrt{3}</m> were rational.
           Then <m>\sqrt{3} = \frac{a}{b}</m> for some integers <m>a</m> and <m>b \ne 0</m>.
           Without loss of generality, assume <m>\frac{a}{b}</m> is reduced.
           Now
-          <me permid="me1">
+          <me permid="exers_logic-proofs-e_mz-s-p1-me1">
             3 = \frac{a^2}{b^2}
           </me>
-          <me permid="me2">
+          <me permid="exers_logic-proofs-e_mz-s-p1-me2">
             b^2 3 = a^2
           </me>
         </p>
 
-        <p permid="p2">
+        <p permid="exers_logic-proofs-e_mz-s-p2">
           So <m>a^2</m> is a multiple of 3.
           This can only happen if <m>a</m> is a multiple of 3, so <m>a = 3k</m> for some integer <m>k</m>.
           Then we have
-          <me permid="me1">
+          <me permid="exers_logic-proofs-e_mz-s-p2-me1">
             b^2 3 = 9k^2
           </me>
-          <me permid="me2">
+          <me permid="exers_logic-proofs-e_mz-s-p2-me2">
             b^2 = 3k^2
           </me>
         </p>
 
-        <p permid="p3">
+        <p permid="exers_logic-proofs-e_mz-s-p3">
           So <m>b^2</m> is a multiple of 3, making <m>b</m> a multiple of 3 as well.
           But this contradicts our assumption that <m>\frac{a}{b}</m> is in lowest terms.
         </p>
 
-        <p permid="p4">
+        <p permid="exers_logic-proofs-e_mz-s-p4">
           Therefore, <m>\sqrt{3}</m> is irrational.
         </p>
       </proof>
@@ -329,24 +329,24 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_pi">
+  <exercise permid="exers_logic-proofs-e_pi">
     <statement>
-      <p permid="p1">
+      <p permid="exers_logic-proofs-e_pi-p1">
         Consider the statement: for all integers <m>a</m> and <m>b</m>,
         if <m>a</m> is even and <m>b</m> is a multiple of 3, then <m>ab</m> is a multiple of 6.
       </p>
 
-      <p permid="p2">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+      <p permid="exers_logic-proofs-e_pi-p2">
+        <ol permid="exers_logic-proofs-e_pi-ol">
+          <li permid="exers_logic-proofs-e_pi-ol-l_j">
+            <p permid="exers_logic-proofs-e_pi-ol-l_j-p">
               Prove the statement.
               What sort of proof are you using?
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_logic-proofs-e_pi-ol-l_s">
+            <p permid="exers_logic-proofs-e_pi-ol-l_s-p">
               State the converse.
               Is it true?
               Prove or disprove.
@@ -357,22 +357,22 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_sa">
+  <exercise permid="exers_logic-proofs-e_sa">
     <statement>
-      <p permid="p">
+      <p permid="exers_logic-proofs-e_sa-p">
         Prove the statement: For all integers <m>n</m>,
         if <m>5n</m> is odd, then <m>n</m> is odd.
         Clearly state the style of proof you are using.
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p1">
+    <solution permid="exers_logic-proofs-e_sa-s">
+      <p permid="exers_logic-proofs-e_sa-s-p1">
         We will prove the contrapositive:
         if <m>n</m> is even, then <m>5n</m> is even.
       </p>
 
-      <proof permid="pf">
-        <p permid="p2">
+      <proof permid="exers_logic-proofs-e_sa-pf">
+        <p permid="exers_logic-proofs-e_sa-s-p2">
           Let <m>n</m> be an arbitrary integer,
           and suppose <m>n</m> is even.
           Then <m>n = 2k</m> for some integer <m>k</m>.
@@ -386,9 +386,9 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_vj">
+  <exercise permid="exers_logic-proofs-e_vj">
     <statement>
-      <p permid="p">
+      <p permid="exers_logic-proofs-e_vj-p">
         Prove the statement: For all integers <m>a</m>, <m>b</m>,
         and <m>c</m>,
         if <m>a^2 + b^2 = c^2</m>, then <m>a</m> or <m>b</m> is even.
@@ -396,9 +396,9 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_ys">
+  <exercise permid="exers_logic-proofs-e_ys">
     <statement>
-      <p permid="p">
+      <p permid="exers_logic-proofs-e_ys-p">
         Prove: <m>x=y</m> if and only if <m>xy=\dfrac{(x+y)^2}{4}</m>.
         Note, you will need to prove two
         <q>directions</q> here:
@@ -407,20 +407,20 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_bk">
+  <exercise permid="exers_logic-proofs-e_bk">
     <statement>
-      <p permid="p">
+      <p permid="exers_logic-proofs-e_bk-p">
         The game TENZI comes with 40 six-sided dice
         (each numbered 1 to 6).
         Suppose you roll all 40 dice.
 
-        <ol permid="ol">
-          <li permid="l_j">
+        <ol permid="exers_logic-proofs-e_bk-ol">
+          <li permid="exers_logic-proofs-e_bk-ol-l_j">
             Prove that there will be at least seven dice that land on the same number.
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_logic-proofs-e_bk-ol-l_s">
+            <p permid="exers_logic-proofs-e_bk-ol-l_s-p">
               How many dice would you have to roll before you were guaranteed that some four of them would all match or all be different?
               Prove your answer.
             </p>
@@ -428,17 +428,17 @@
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p1">
+    <solution permid="exers_logic-proofs-e_bk-s">
+      <p permid="exers_logic-proofs-e_bk-s-p">
+        <ol permid="exers_logic-proofs-e_bk-s-ol">
+          <li permid="exers_logic-proofs-e_bk-s-ol-l_j">
+            <p permid="exers_logic-proofs-e_bk-s-ol-l_j-p1">
               This is an example of the pigeonhole principle.
               We can prove it by contrapositive.
             </p>
 
-            <proof permid="pf1">
-              <p permid="p2">
+            <proof permid="exers_logic-proofs-e_bk-pf1">
+              <p permid="exers_logic-proofs-e_bk-s-ol-l_j-p2">
                 Suppose that each number only came up 6 or fewer times.
                 So there are at most six 1's, six 2's, and so on.
                 That's a total of 36 dice, so you must not have rolled all 40 dice.
@@ -447,16 +447,16 @@
 
           </li>
 
-          <li permid="l_s">
-            <p permid="p1">
+          <li permid="exers_logic-proofs-e_bk-s-ol-l_s">
+            <p permid="exers_logic-proofs-e_bk-s-ol-l_s-p1">
               We can have 9 dice without any four matching or any four being all different:
               three 1's, three 2's, three 3's.
               We will prove that whenever you roll 10 dice,
               you will always get four matching or all being different.
             </p>
 
-            <proof permid="pf2">
-              <p permid="p2">
+            <proof permid="exers_logic-proofs-e_bk-pf2">
+              <p permid="exers_logic-proofs-e_bk-s-ol-l_s-p2">
                 Suppose you roll 10 dice, but that there are NOT four matching rolls.
                 This means at most, there are three of any given value.
                 If we only had three different values,
@@ -472,35 +472,35 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_et">
+  <exercise permid="exers_logic-proofs-e_et">
     <statement>
-      <p permid="p">
+      <p permid="exers_logic-proofs-e_et-p">
         Prove that <m>\log(7)</m> is irrational.
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p1">
+    <solution permid="exers_logic-proofs-e_et-s">
+      <p permid="exers_logic-proofs-e_et-s-p1">
         We give a proof by contradiction.
       </p>
 
-      <proof permid="pf">
-        <p permid="p2">
+      <proof permid="exers_logic-proofs-e_et-pf">
+        <p permid="exers_logic-proofs-e_et-s-p2">
           Suppose, contrary to stipulation that <m>\log(7)</m> is rational.
           Then <m>\log(7) = \frac{a}{b}</m> with <m>a</m> and <m>b \ne 0</m> integers.
           By properties of logarithms, this implies
-          <me permid="me">
+          <me permid="exers_logic-proofs-e_et-s-p2-me">
             7 = 10^{\frac{a}{b}}
           </me>
         </p>
 
-        <p permid="p3">
+        <p permid="exers_logic-proofs-e_et-s-p3">
           Equivalently,
-          <me permid="me">
+          <me permid="exers_logic-proofs-e_et-s-p3-me">
             7^b = 10^a
           </me>
         </p>
 
-        <p permid="p4">
+        <p permid="exers_logic-proofs-e_et-s-p4">
           But this is impossible as any power of 7 will be odd while any power of 10 will be even.
           Therefore, <m>\log(7)</m> is irrational.
         </p>
@@ -509,53 +509,53 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_hc">
+  <exercise permid="exers_logic-proofs-e_hc">
     <statement>
-      <p permid="p">
+      <p permid="exers_logic-proofs-e_hc-p">
         Prove that there are no integer solutions to the equation <m>x^2 = 4y + 3</m>.
       </p>
     </statement>
   </exercise>
 
-  <exercise permid="e_ku">
+  <exercise permid="exers_logic-proofs-e_ku">
     <statement>
-      <p permid="p">
+      <p permid="exers_logic-proofs-e_ku-p">
         Prove that every prime number greater than 3 is either one more or one less than a multiple of 6.
       </p>
     </statement>
-    <hint permid="h">
-      <p permid="p">
+    <hint permid="exers_logic-proofs-e_ku-h">
+      <p permid="exers_logic-proofs-e_ku-h-p">
         Prove the contrapositive by cases.
       </p>
     </hint>
   </exercise>
 
-  <exercise permid="e_nd">
+  <exercise permid="exers_logic-proofs-e_nd">
     <statement>
-      <p permid="p1">
+      <p permid="exers_logic-proofs-e_nd-p1">
         For each of the statements below,
         say what method of proof you should use to prove them.
         Then say how the proof starts and how it ends.
         Bonus points for filling in the middle.
       </p>
 
-      <p permid="p2">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+      <p permid="exers_logic-proofs-e_nd-p2">
+        <ol permid="exers_logic-proofs-e_nd-ol">
+          <li permid="exers_logic-proofs-e_nd-ol-l_j">
+            <p permid="exers_logic-proofs-e_nd-ol-l_j-p">
               There are no integers <m>x</m> and <m>y</m> such that <m>x</m> is a prime greater than 5 and <m>x = 6y + 3</m>.
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_logic-proofs-e_nd-ol-l_s">
+            <p permid="exers_logic-proofs-e_nd-ol-l_s-p">
               For all integers <m>n</m>,
               if <m>n</m> is a multiple of 3, then <m>n</m> can be written as the sum of consecutive integers.
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_logic-proofs-e_nd-ol-l_b">
+            <p permid="exers_logic-proofs-e_nd-ol-l_b-p">
               For all integers <m>a</m> and <m>b</m>,
               if <m>a^2 + b^2</m> is odd, then <m>a</m> or <m>b</m> is odd.
             </p>
@@ -563,11 +563,11 @@
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+    <solution permid="exers_logic-proofs-e_nd-s">
+      <p permid="exers_logic-proofs-e_nd-s-p">
+        <ol permid="exers_logic-proofs-e_nd-s-ol">
+          <li permid="exers_logic-proofs-e_nd-s-ol-l_j">
+            <p permid="exers_logic-proofs-e_nd-s-ol-l_j-p">
               Proof by contradiction.
               Start of proof: Assume, for the sake of contradiction,
               that there are integers <m>x</m> and <m>y</m> such that <m>x</m> is a prime greater than 5 and <m>x = 6y + 3</m>.
@@ -577,8 +577,8 @@
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_logic-proofs-e_nd-s-ol-l_s">
+            <p permid="exers_logic-proofs-e_nd-s-ol-l_s-p">
               Direct proof.
               Start of proof: Let <m>n</m> be an integer.
               Assume <m>n</m> is a multiple of 3.
@@ -586,8 +586,8 @@
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_logic-proofs-e_nd-s-ol-l_b">
+            <p permid="exers_logic-proofs-e_nd-s-ol-l_b-p">
               Proof by contrapositive.
               Start of proof: Let <m>a</m> and <m>b</m> be integers.
               Assume that <m>a</m> and <m>b</m> are even.
@@ -599,9 +599,9 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_qm">
+  <exercise permid="exers_logic-proofs-e_qm">
     <statement>
-      <p permid="p1">
+      <p permid="exers_logic-proofs-e_qm-p1">
         A standard deck of 52 cards consists of 4 suites (hearts,
         diamonds,
         spades and clubs) each containing 13 different values (Ace, 2, 3, <ellipsis/>, 10, J, Q, K).
@@ -615,24 +615,24 @@
         Prove your answers.
       </p>
 
-      <p permid="p2">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+      <p permid="exers_logic-proofs-e_qm-p2">
+        <ol permid="exers_logic-proofs-e_qm-ol">
+          <li permid="exers_logic-proofs-e_qm-ol-l_j">
+            <p permid="exers_logic-proofs-e_qm-ol-l_j-p">
               Three of a kind
               (for example, three 7's).
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_logic-proofs-e_qm-ol-l_s">
+            <p permid="exers_logic-proofs-e_qm-ol-l_s-p">
               A flush of five cards
               (for example, five hearts).
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_logic-proofs-e_qm-ol-l_b">
+            <p permid="exers_logic-proofs-e_qm-ol-l_b-p">
               Three cards that are either all the same suit or all different suits.
             </p>
           </li>
@@ -641,9 +641,9 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_te">
+  <exercise permid="exers_logic-proofs-e_te">
     <statement>
-      <p permid="p">
+      <p permid="exers_logic-proofs-e_te-p">
         Suppose you are at a party with 19 of your closest friends
         (so including you, there are 20 people there).
         Explain why there must be least two people at the party who are friends with the same number of people at the party.
@@ -652,9 +652,9 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_wn">
+  <exercise permid="exers_logic-proofs-e_wn">
     <statement>
-      <p permid="p">
+      <p permid="exers_logic-proofs-e_wn-p">
         Your friend has given you his list of 115 best Doctor Who episodes
         (in order of greatness).
         It turns out that you have seen 60 of them.
@@ -663,9 +663,9 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_zw">
+  <exercise permid="exers_logic-proofs-e_zw">
     <statement>
-      <p permid="p">
+      <p permid="exers_logic-proofs-e_zw-p">
         Suppose you have an <m>n\times n</m> chessboard but your dog has eaten one of the corner squares.
         Can you still cover the remaining squares with dominoes?
         What needs to be true about <m>n</m>?
@@ -674,9 +674,9 @@
         Prove your answers.
       </p>
 
-      <sidebyside permid="sbs1" width="20%">
+      <sidebyside permid="exers_logic-proofs-sbs1" width="20%">
 
-        <image permid="im">
+        <image permid="exers_logic-proofs-sbs1-im">
 
           <latex-image>
             \begin{tikzpicture}[scale=.25]
@@ -695,17 +695,17 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_co">
+  <exercise permid="exers_logic-proofs-e_co">
     <statement>
-      <p permid="p">
+      <p permid="exers_logic-proofs-e_co-p">
         What if your <m>n\times n</m> chessboard is missing two opposite corners?
         Prove that no matter what <m>n</m> is,
         you will not be able to cover the remaining squares with dominoes.
       </p>
 
-      <sidebyside permid="sbs2" width="20%">
+      <sidebyside permid="exers_logic-proofs-sbs2" width="20%">
 
-        <image permid="im">
+        <image permid="exers_logic-proofs-sbs2-im">
 
             <latex-image>
               \begin{tikzpicture}[scale=.25]

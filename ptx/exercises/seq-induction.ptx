@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <exercises permid="exers_seq-induction" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exercises_seq-induction">
 
-  <exercise permid="e_xo">
+  <exercise permid="exers_seq-induction-e_xo">
     <statement>
-      <p permid="p">
+      <p permid="exers_seq-induction-e_xo-p">
         Use induction to prove for all
         <m>n \in \N</m> that <m>\d\sum_{k=0}^n 2^k = 2^{n+1} - 1</m>.
       </p>
     </statement>
-    <solution permid="s">
+    <solution permid="exers_seq-induction-e_xo-s">
 
-      <proof permid="pf">
-        <p permid="p1">
+      <proof permid="exers_seq-induction-e_xo-pf">
+        <p permid="exers_seq-induction-e_xo-s-p1">
           We must prove that <m>1 + 2 + 2^2 + 2^3 + \cdots +2^n = 2^{n+1} - 1</m> for all <m>n \in \N</m>.
           Thus let <m>P(n)</m> be the statement <m>1 + 2 + 2^2 + \cdots + 2^n = 2^{n+1} - 1</m>.
           We will prove that <m>P(n)</m> is true for all <m>n \in \N</m>.
@@ -24,14 +24,14 @@
           That is, <m>1 + 2 + 2^2 + \cdots + 2^k = 2^{k+1} - 1</m>.
           We must show that <m>P(k+1)</m> is true (i.e., that <m>1 + 2 + 2^2 + \cdots + 2^{k+1} = 2^{k+2} - 1</m>).
           To do this, we start with the left-hand side of <m>P(k+1)</m> and work to the right-hand side:
-          <md permid="md">
+          <md permid="exers_seq-induction-e_xo-s-p1-md">
             <mrow>1 + 2 + 2^2 + \cdots + 2^k + 2^{k+1} = \amp ~ 2^{k+1} - 1 + 2^{k+1} \amp \text{by inductive hypothesis}</mrow>
             <mrow>= \amp ~2\cdot 2^{k+1} - 1 \amp</mrow>
             <mrow>= \amp ~ 2^{k+2} - 1 \amp</mrow>
           </md>
         </p>
 
-        <p permid="p2">
+        <p permid="exers_seq-induction-e_xo-s-p2">
           Thus <m>P(k+1)</m> is true so by the principle of mathematical induction,
           <m>P(n)</m> is true for all <m>n \in \N</m>.
         </p>
@@ -40,16 +40,16 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ag">
+  <exercise permid="exers_seq-induction-e_ag">
     <statement>
-      <p permid="p">
+      <p permid="exers_seq-induction-e_ag-p">
         Prove that <m>7^n - 1</m> is a multiple of 6 for all <m>n \in \N</m>.
       </p>
     </statement>
-    <solution permid="s">
+    <solution permid="exers_seq-induction-e_ag-s">
 
-      <proof permid="pf">
-        <p permid="p1">
+      <proof permid="exers_seq-induction-e_ag-pf">
+        <p permid="exers_seq-induction-e_ag-s-p1">
           Let <m>P(n)</m> be the statement
           <q><m>7^n - 1</m> is a multiple of 6.</q>
           We will show <m>P(n)</m> is true for all <m>n \in \N</m>.
@@ -61,7 +61,7 @@
           That is, <m>7^k - 1</m> is a multiple of 6, or in other words,
           <m>7^k - 1 = 6j</m> for some integer <m>j</m>.
           Now consider <m>7^{k+1} - 1</m>:
-          <md permid="md">
+          <md permid="exers_seq-induction-e_ag-s-p1-md">
             <mrow>7^{k+1} - 1 ~ \amp = 7^{k+1} - 7 + 6 \amp \text{by cleverness:} -1 = -7 + 6</mrow>
             <mrow>\amp = 7(7^k - 1) + 6 \amp \text{factor out a 7 from the first two terms}</mrow>
             <mrow>\amp = 7(6j) + 6 \amp \text{by the inductive hypothesis}</mrow>
@@ -69,7 +69,7 @@
           </md>
         </p>
 
-        <p permid="p2">
+        <p permid="exers_seq-induction-e_ag-s-p2">
           Therefore <m>7^{k+1} - 1</m> is a multiple of 6, or in other words,
           <m>P(k+1)</m> is true.
           Therefore by the principle of mathematical induction,
@@ -80,16 +80,16 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_dp">
+  <exercise permid="exers_seq-induction-e_dp">
     <statement>
-      <p permid="p">
+      <p permid="exers_seq-induction-e_dp-p">
         Prove that <m>1 + 3 + 5 + \cdots + (2n-1) = n^2</m> for all <m>n \ge 1</m>.
       </p>
     </statement>
-    <solution permid="s">
+    <solution permid="exers_seq-induction-e_dp-s">
 
-      <proof permid="pf">
-        <p permid="p1">
+      <proof permid="exers_seq-induction-e_dp-pf">
+        <p permid="exers_seq-induction-e_dp-s-p1">
           Let <m>P(n)</m> be the statement <m>1+3 +5 + \cdots + (2n-1) = n^2</m>.
           We will prove that <m>P(n)</m> is true for all <m>n \ge 1</m>.
           First the base case, <m>P(1)</m>.
@@ -100,13 +100,13 @@
           That is, <m>1 + 3 + 5 + \cdots + (2k-1) = k^2</m>.
           We will now prove that <m>P(k+1)</m> is also true (i.e., that <m>1 + 3 + 5 + \cdots + (2k+1) = (k+1)^2</m>).
           We start with the left-hand side of <m>P(k+1)</m> and work to the right-hand side:
-          <md permid="md">
+          <md permid="exers_seq-induction-e_dp-s-p1-md">
             <mrow>1 + 3 + 5 + \cdots + (2k-1) + (2k+1) ~ \amp = k^2 + (2k+1) \amp \text{by ind. hyp.}</mrow>
             <mrow>\amp = (k+1)^2 \amp \text{by factoring}</mrow>
           </md>
         </p>
 
-        <p permid="p2">
+        <p permid="exers_seq-induction-e_dp-s-p2">
           Thus <m>P(k+1)</m> holds,
           so by the principle of mathematical induction,
           <m>P(n)</m> is true for all <m>n \ge 1</m>.
@@ -116,16 +116,16 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_gy">
+  <exercise permid="exers_seq-induction-e_gy">
     <statement>
-      <p permid="p">
+      <p permid="exers_seq-induction-e_gy-p">
         Prove that <m>F_0 + F_2 + F_4 + \cdots + F_{2n} = F_{2n+1} - 1</m> where <m>F_n</m> is the <m>n</m>th Fibonacci number.
       </p>
     </statement>
-    <solution permid="s">
+    <solution permid="exers_seq-induction-e_gy-s">
 
-      <proof permid="pf">
-        <p permid="p1">
+      <proof permid="exers_seq-induction-e_gy-pf">
+        <p permid="exers_seq-induction-e_gy-s-p1">
           Let <m>P(n)</m> be the statement <m>F_0 + F_2 + F_4 + \cdots + F_{2n} = F_{2n+1} - 1</m>.
           We will show that <m>P(n)</m> is true for all <m>n \ge 0</m>.
           First the base case is easy because <m>F_0 = 0</m> and <m>F_1 = 1</m> so <m>F_0 = F_1 - 1</m>.
@@ -133,14 +133,14 @@
           Assume <m>P(k)</m> is true, that is,
           assume <m>F_0 + F_2 + F_4 + \cdots + F_{2k} = F_{2k+1} - 1</m>.
           To establish <m>P(k+1)</m> we work from left to right:
-          <md permid="md">
+          <md permid="exers_seq-induction-e_gy-s-p1-md">
             <mrow>F_0 + F_2 + \cdots + F_{2k} + F_{2k+2} ~ \amp = F_{2k+1} - 1 + F_{2k+2} \amp \text{by ind. hyp.}</mrow>
             <mrow>\amp = F_{2k+1} + F_{2k+2} - 1 \amp</mrow>
             <mrow>\amp = F_{2k+3} - 1 \amp \text{by recursive def.}</mrow>
           </md>
         </p>
 
-        <p permid="p2">
+        <p permid="exers_seq-induction-e_gy-s-p2">
           Therefore <m>F_0 + F_2 + F_4 + \cdots + F_{2k+2} = F_{2k+3} - 1</m>,
           which is to say <m>P(k+1)</m> holds.
           Therefore by the principle of mathematical induction,
@@ -151,17 +151,17 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_jq">
+  <exercise permid="exers_seq-induction-e_jq">
     <statement>
-      <p permid="p">
+      <p permid="exers_seq-induction-e_jq-p">
         Prove that <m>2^n \lt n!</m> for all <m>n \ge 4</m>.
         (Recall, <m>n! = 1\cdot 2 \cdot 3 \cdot \cdots\cdot n</m>.)
       </p>
     </statement>
-    <solution permid="s">
+    <solution permid="exers_seq-induction-e_jq-s">
 
-      <proof permid="pf">
-        <p permid="p1">
+      <proof permid="exers_seq-induction-e_jq-pf">
+        <p permid="exers_seq-induction-e_jq-s-p1">
           Let <m>P(n)</m> be the statement <m>2^n \lt  n!</m>.
           We will show <m>P(n)</m> is true for all <m>n \ge 4</m>.
           First, we check the base case and see that yes, <m>2^4 \lt  4!</m>
@@ -173,7 +173,7 @@
           Now consider <m>P(k+1)</m>: <m>2^{k+1} \lt  (k+1)!</m>.
           To prove this,
           we start with the left side and work to the right side.
-          <md permid="md">
+          <md permid="exers_seq-induction-e_jq-s-p1-md">
             <mrow>2^{k+1}~ \amp = 2\cdot 2^k \amp</mrow>
             <mrow>\amp \lt 2\cdot k! \amp \text{by the inductive hypothesis}</mrow>
             <mrow>\amp \lt (k+1) \cdot k! \amp \text{ since } k+1 \gt 2</mrow>
@@ -181,7 +181,7 @@
           </md>
         </p>
 
-        <p permid="p2">
+        <p permid="exers_seq-induction-e_jq-s-p2">
           Therefore <m>2^{k+1} \lt (k+1)!</m> so we have established <m>P(k+1)</m>.
           Thus by the principle of mathematical induction <m>P(n)</m> is true for all <m>n \ge 4</m>.
         </p>
@@ -190,9 +190,9 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_mz">
+  <exercise permid="exers_seq-induction-e_mz">
     <statement>
-      <p permid="p">
+      <p permid="exers_seq-induction-e_mz-p">
         Prove, by mathematical induction,
         that <m>F_0 + F_1 + F_2 + \cdots + F_{n} = F_{n+2} - 1</m>,
         where <m>F_n</m> is the <m>n</m>th Fibonacci number
@@ -202,9 +202,9 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_pi">
+  <exercise permid="exers_seq-induction-e_pi">
     <statement>
-      <p permid="p">
+      <p permid="exers_seq-induction-e_pi-p">
         Zombie Euler and Zombie Cauchy,
         two famous zombie mathematicians,
         have just signed up for Twitter accounts.
@@ -219,9 +219,9 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_sa">
+  <exercise permid="exers_seq-induction-e_sa">
     <statement>
-      <p permid="p">
+      <p permid="exers_seq-induction-e_sa-p">
         Find the largest number of points which a football team cannot get exactly using just 3-point field goals and 7-point touchdowns
         (ignore the possibilities of safeties,
         missed extra points, and two point conversions).
@@ -230,27 +230,27 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_vj">
+  <exercise permid="exers_seq-induction-e_vj">
     <statement>
-      <p permid="p">
+      <p permid="exers_seq-induction-e_vj-p">
         Prove that the sum of <m>n</m> squares can be found as follows
-        <me permid="me">
+        <me permid="exers_seq-induction-e_vj-p-me">
           1^2 +2^2 +3^2+...+n^2 = \frac{n(n+1)(2n+1)}{6}
         </me>
       </p>
     </statement>
   </exercise>
 
-  <exercise permid="e_ys">
+  <exercise permid="exers_seq-induction-e_ys">
     <statement>
-      <p permid="p">
+      <p permid="exers_seq-induction-e_ys-p">
         What is wrong with the following
         <q>proof</q> of the <q>fact</q>
         that <m>n+3 = n+7</m> for all values of <m>n</m> (besides of course that the thing it is claiming to prove is false)?
       </p>
 
-      <proof permid="pf">
-        <p permid="p">
+      <proof permid="exers_seq-induction-e_ys-pf">
+        <p permid="exers_seq-induction-e_ys-pf-p">
           Let <m>P(n)</m> be the statement that <m>n + 3 = n + 7</m>.
           We will prove that <m>P(n)</m> is true for all <m>n \in \N</m>.
           Assume, for induction that <m>P(k)</m> is true.
@@ -265,17 +265,17 @@
       </proof>
 
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_seq-induction-e_ys-s">
+      <p permid="exers_seq-induction-e_ys-s-p">
         The only problem is that we never established the base case.
         Of course, when <m>n = 0</m>, <m>0+3 \ne 0+7</m>.
       </p>
     </solution>
   </exercise>
 
-  <exercise permid="e_bk">
+  <exercise permid="exers_seq-induction-e_bk">
     <statement>
-      <p permid="p">
+      <p permid="exers_seq-induction-e_bk-p">
         The proof in the previous problem does not work.
         But if we modify the <q>fact,</q>
         we can get a working proof.
@@ -285,10 +285,10 @@
         but the goal of this exercise is to write out a valid induction proof.
       </p>
     </statement>
-    <solution permid="s">
+    <solution permid="exers_seq-induction-e_bk-s">
 
-      <proof permid="pf">
-        <p permid="p">
+      <proof permid="exers_seq-induction-e_bk-pf">
+        <p permid="exers_seq-induction-e_bk-s-p">
           Let <m>P(n)</m> be the statement that <m>n + 3 \lt n + 7</m>.
           We will prove that <m>P(n)</m> is true for all <m>n \in \N</m>.
           First, note that the base case holds: <m>0+3 \lt 0+7</m>.
@@ -306,15 +306,15 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_et">
+  <exercise permid="exers_seq-induction-e_et">
     <statement>
-      <p permid="p">
+      <p permid="exers_seq-induction-e_et-p">
         Find the flaw in the following <q>proof</q> of the <q>fact</q>
         that <m>n \lt 100</m> for every <m>n \in \N</m>.
       </p>
 
-      <proof permid="pf">
-        <p permid="p">
+      <proof permid="exers_seq-induction-e_et-pf">
+        <p permid="exers_seq-induction-e_et-pf-p">
           Let <m>P(n)</m> be the statement <m>n \lt 100</m>.
           We will prove <m>P(n)</m> is true for all <m>n \in \N</m>.
           First we establish the base case:
@@ -332,8 +332,8 @@
       </proof>
 
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_seq-induction-e_et-s">
+      <p permid="exers_seq-induction-e_et-s-p">
         The problem here is that while <m>P(0)</m> is true,
         and while <m>P(k) \imp P(k+1)</m> for
         <em>some</em> values of <m>k</m>,
@@ -346,9 +346,9 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_hc">
+  <exercise permid="exers_seq-induction-e_hc">
     <statement>
-      <p permid="p">
+      <p permid="exers_seq-induction-e_hc-p">
         While the above proof does not work
         (it better not since the statement it is trying to prove is false!)
         we can prove something similar.
@@ -360,10 +360,10 @@
         So each term must be larger than the last.)
       </p>
     </statement>
-    <solution permid="s">
+    <solution permid="exers_seq-induction-e_hc-s">
 
-      <proof permid="pf">
-        <p permid="p">
+      <proof permid="exers_seq-induction-e_hc-pf">
+        <p permid="exers_seq-induction-e_hc-s-p">
           Let <m>P(n)</m> be the statement
           <q>there is a strictly increasing sequence
           <m>a_1, a_2, \ldots,
@@ -390,17 +390,17 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ku">
+  <exercise permid="exers_seq-induction-e_ku">
     <statement>
-      <p permid="p">
+      <p permid="exers_seq-induction-e_ku-p">
         What is wrong with the following
         <q>proof</q> of the <q>fact</q>
         that for all <m>n \in \N</m>,
         the number <m>n^2 + n</m> is odd?
       </p>
 
-      <proof permid="pf">
-        <p permid="p">
+      <proof permid="exers_seq-induction-e_ku-pf">
+        <p permid="exers_seq-induction-e_ku-pf-p">
           Let <m>P(n)</m> be the statement
           <q><m>n^2 + n</m> is odd.</q>
           We will prove that <m>P(n)</m> is true for all <m>n \in \N</m>.
@@ -420,9 +420,9 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_nd">
+  <exercise permid="exers_seq-induction-e_nd">
     <statement>
-      <p permid="p">
+      <p permid="exers_seq-induction-e_nd-p">
         Now give a valid proof
         (by induction,
         even though you might be able to do so without using induction)
@@ -432,17 +432,17 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_qm">
+  <exercise permid="exers_seq-induction-e_qm">
     <statement>
-      <p permid="p">
+      <p permid="exers_seq-induction-e_qm-p">
         Prove that there is a sequence of positive real numbers
         <m>a_0, a_1, a_2, \ldots</m> such that the partial sum
         <m>a_0 + a_1 + a_2 + \cdots + a_n</m> is strictly less than <m>2</m> for all <m>n \in \N</m>.
         Hint: think about how you could define what <m>a_{k+1}</m> is to make the induction argument work.
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p1">
+    <solution permid="exers_seq-induction-e_qm-s">
+      <p permid="exers_seq-induction-e_qm-s-p1">
         The idea is to define the sequence so that <m>a_n</m> is less than the distance between the previous partial sum and 2.
         That way when you add it into the next partial sum,
         the partial sum is still less than 2.
@@ -450,25 +450,25 @@
         or use a clever <m>P(n)</m> in the induction proof.
       </p>
 
-      <proof permid="pf">
-        <p permid="p2">
+      <proof permid="exers_seq-induction-e_qm-pf">
+        <p permid="exers_seq-induction-e_qm-s-p2">
           Let <m>P(n)</m> be the statement,
           <q>there is a sequence of positive real numbers
           <m>a_0, a_1, a_2, \ldots,
           a_n</m> such that <m>a_0 + a_1 + a_2 + \cdots + a_n \lt 2</m>.</q>
         </p>
 
-        <p permid="p3">
+        <p permid="exers_seq-induction-e_qm-s-p3">
           Base case: Pick any <m>a_0 \lt 2</m>.
         </p>
 
-        <p permid="p4">
+        <p permid="exers_seq-induction-e_qm-s-p4">
           Inductive case: Assume that <m>a_1 + a_2 + \cdots + a_k \lt 2</m>.
           Now let <m>a_{k+1} = \frac{2- a_1 + a_2 + \cdots + a_k}{2}</m>.
           Then <m>a_1 + a_2 + \cdots +a_k + a_{k+1} \lt 2</m>.
         </p>
 
-        <p permid="p5">
+        <p permid="exers_seq-induction-e_qm-s-p5">
           Therefore, by the principle of mathematical induction,
           <m>P(n)</m> is true for all <m>n \in \N</m>
         </p>
@@ -477,29 +477,29 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_te">
+  <exercise permid="exers_seq-induction-e_te">
     <statement>
-      <p permid="p">
+      <p permid="exers_seq-induction-e_te-p">
         Prove that every positive integer is either a power of 2, or can be written as the sum of distinct powers of 2.
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p1">
+    <solution permid="exers_seq-induction-e_te-s">
+      <p permid="exers_seq-induction-e_te-s-p1">
         The proof will by by strong induction.
       </p>
 
-      <proof permid="pf">
-        <p permid="p2">
+      <proof permid="exers_seq-induction-e_te-pf">
+        <p permid="exers_seq-induction-e_te-s-p2">
           Let <m>P(n)</m> be the statement
           <q><m>n</m> is either a power of 2 or can be written as the sum of distinct powers of 2.</q>
           We will show that <m>P(n)</m> is true for all <m>n \ge 1</m>.
         </p>
 
-        <p permid="p3">
+        <p permid="exers_seq-induction-e_te-s-p3">
           Base case: <m>1 = 2^0</m> is a power of 2, so <m>P(1)</m> is true.
         </p>
 
-        <p permid="p4">
+        <p permid="exers_seq-induction-e_te-s-p4">
           Inductive case: Suppose <m>P(k)</m> is true for all <m>k \lt n</m>.
           Now if <m>n</m> is a power of 2, we are done.
           If not, let <m>2^x</m> be the largest power of 2 strictly less than <m>n</m>.
@@ -509,7 +509,7 @@
           so the together with <m>2^x</m> we have written <m>n</m> as the sum of distinct powers of 2.
         </p>
 
-        <p permid="p5">
+        <p permid="exers_seq-induction-e_te-s-p5">
           Therefore, by the principle of (strong) mathematical induction,
           <m>P(n)</m> is true for all <m>n \ge 1</m>.
         </p>
@@ -518,9 +518,9 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_wn">
+  <exercise permid="exers_seq-induction-e_wn">
     <statement>
-      <p permid="p">
+      <p permid="exers_seq-induction-e_wn-p">
         Prove, using strong induction,
         that every natural number is either a Fibonacci number or can be written as the <em>sum</em>
         of <em>distinct</em> Fibonacci numbers.
@@ -528,34 +528,34 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_zw">
+  <exercise permid="exers_seq-induction-e_zw">
     <statement>
-      <p permid="p">
+      <p permid="exers_seq-induction-e_zw-p">
         Use induction to prove that if <m>n</m> people all shake hands with each other,
         that the total number of handshakes is <m>\frac{n(n-1)}{2}</m>.
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p1">
+    <solution permid="exers_seq-induction-e_zw-s">
+      <p permid="exers_seq-induction-e_zw-s-p1">
         Note, we have already proven this without using induction,
         but looking at it inductively sheds light onto the problem
         (and is fun).
       </p>
 
-      <proof permid="pf">
-        <p permid="p2">
+      <proof permid="exers_seq-induction-e_zw-pf">
+        <p permid="exers_seq-induction-e_zw-s-p2">
           Let <m>P(n)</m> be the statement
           <q>when <m>n</m> people shake hands with each other,
           there are a total of <m>\frac{n(n-1)}{2}</m> handshakes.</q>
         </p>
 
-        <p permid="p3">
+        <p permid="exers_seq-induction-e_zw-s-p3">
           Base case: When <m>n=2</m>,
           there will be one handshake, and <m>\frac{2(2-1)}{2} = 1</m>.
           Thus <m>P(2)</m> is true.
         </p>
 
-        <p permid="p4">
+        <p permid="exers_seq-induction-e_zw-s-p4">
           Inductive case: Assume <m>P(k)</m> is true for arbitrary <m>k\ge 2</m> (that the number of handshakes among <m>k</m> people is <m>\frac{k(k-1)}{2}</m>.
           What happens if a <m>k+1</m>st person shows up?
           How many <em>new</em> handshakes take place?
@@ -565,7 +565,7 @@
           as needed.
         </p>
 
-        <p permid="p5">
+        <p permid="exers_seq-induction-e_zw-s-p5">
           Therefore, by the principle of mathematical induction,
           <m>P(n)</m> is true for all <m>n \ge 2</m>.
         </p>
@@ -574,15 +574,15 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_co">
+  <exercise permid="exers_seq-induction-e_co">
     <statement>
-      <p permid="p">
+      <p permid="exers_seq-induction-e_co-p">
         Suppose that a particular real number <m>x</m> has the property that <m>x + \frac{1}{x}</m> is an integer.
         Prove that <m>x^n + \frac{1}{x^n}</m> is an integer for all natural numbers <m>n</m>.
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p1">
+    <solution permid="exers_seq-induction-e_co-s">
+      <p permid="exers_seq-induction-e_co-s-p1">
         When <m>n = 0</m>,
         we get <m>x^0 +\frac{1}{x^0} = 2</m> and when <m>n = 1</m>,
         <m>x + \frac{1}{x}</m> is an integer, so the base case holds.
@@ -591,56 +591,56 @@
         <m>x^{k-1} + \frac{1}{x^{k-1}}</m> and <m>x + \frac{1}{x}</m> are both integers.
         Thus their product is also an integer.
         But,
-        <md permid="md">
+        <md permid="exers_seq-induction-e_co-s-p1-md">
           <mrow>\left(x^{k-1} + \frac{1}{x^{k-1}}\right)\left(x + \frac{1}{x}\right) \amp = x^k + \frac{x^{k-1}}{x} + \frac{x}{x^{k-1}} + \frac{1}{x^k}</mrow>
           <mrow>\amp = x^k + \frac{1}{x^k} + x^{k-2} + \frac{1}{x^{k-2}}</mrow>
         </md>
       </p>
 
-      <p permid="p2">
+      <p permid="exers_seq-induction-e_co-s-p2">
         Note also that <m>x^{k-2} + \frac{1}{x^{k-2}}</m> is an integer by the induction hypothesis,
         so we can conclude that <m>x^k + \frac{1}{x^k}</m> is an integer.
       </p>
     </solution>
   </exercise>
 
-  <exercise permid="e_fx">
+  <exercise permid="exers_seq-induction-e_fx">
     <statement>
-      <p permid="p">
+      <p permid="exers_seq-induction-e_fx-p">
         Use induction to prove that <m>\d\sum_{k=0}^n {n \choose k} = 2^n</m>.
         That is, the sum of the <m>n</m>th row of Pascal's Triangle is <m>2^n</m>.
       </p>
     </statement>
   </exercise>
 
-  <exercise permid="e_ig">
+  <exercise permid="exers_seq-induction-e_ig">
     <statement>
-      <p permid="p">
+      <p permid="exers_seq-induction-e_ig-p">
         Use induction to prove <m>{4 \choose 0} + {5 \choose 1} + {6 \choose 2} + \cdots + {4+n \choose n} = {5+n \choose n}</m>.
         (This is an example of the hockey stick theorem.)
       </p>
     </statement>
   </exercise>
 
-  <exercise permid="e_ly">
+  <exercise permid="exers_seq-induction-e_ly">
     <statement>
-      <p permid="p">
+      <p permid="exers_seq-induction-e_ly-p">
         Use the product rule for logarithms (<m>\log(ab) = \log(a) + \log(b)</m>) to prove,
         by induction on <m>n</m>,
         that <m>\log(a^n) = n \log(a)</m>,
         for all natural numbers <m>n \ge 2</m>.
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p1">
+    <solution permid="exers_seq-induction-e_ly-s">
+      <p permid="exers_seq-induction-e_ly-s-p1">
         The idea here is that if we take the logarithm of <m>a^n</m>,
         we can increase <m>n</m> by 1 if we multiply by another <m>a</m>
         (inside the logarithm).
         This results in adding 1 more <m>\log(a)</m> to the total.
       </p>
 
-      <proof permid="pf">
-        <p permid="p2">
+      <proof permid="exers_seq-induction-e_ly-pf">
+        <p permid="exers_seq-induction-e_ly-s-p2">
           Let <m>P(n)</m> be the statement <m>\log(a^n) = n \log(a)</m>.
           The base case, <m>P(2)</m> is true,
           because <m>\log(a^2) = \log(a\cdot a) = \log(a) + \log(a) = 2\log(a)</m>,
@@ -649,7 +649,7 @@
           That is, <m>\log(a^k) = k\log(a)</m>.
           Consider <m>\log(a^{k+1})</m>.
           We have
-          <me permid="me">
+          <me permid="exers_seq-induction-e_ly-s-p2-me">
             \log(a^{k+1}) = \log(a^k\cdot a) = \log(a^k) + \log(a) = k\log(a) + \log(a)
           </me>
           with the last equality due to the inductive hypothesis.
@@ -663,22 +663,22 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_oh">
+  <exercise permid="exers_seq-induction-e_oh">
     <statement>
-      <p permid="p1">
+      <p permid="exers_seq-induction-e_oh-p1">
         Let <m>f_1, f_2,\ldots, f_n</m> be differentiable functions.
         Prove, using induction, that
-        <me permid="me">
+        <me permid="exers_seq-induction-e_oh-p1-me">
           (f_1 + f_2 + \cdots + f_n)' = f_1' + f_2' + \cdots + f_n'
         </me>
       </p>
 
-      <p permid="p2">
+      <p permid="exers_seq-induction-e_oh-p2">
         You may assume <m>(f+g)' = f' + g'</m> for any differentiable functions <m>f</m> and <m>g</m>.
       </p>
     </statement>
-    <hint permid="h">
-      <p permid="p">
+    <hint permid="exers_seq-induction-e_oh-h">
+      <p permid="exers_seq-induction-e_oh-h-p">
         You are allowed to assume the base case.
         For the inductive case,
         group all but the last function together as one sum of functions,
@@ -688,29 +688,29 @@
     </hint>
   </exercise>
 
-  <exercise permid="e_rq">
+  <exercise permid="exers_seq-induction-e_rq">
     <statement>
-      <p permid="p1">
+      <p permid="exers_seq-induction-e_rq-p1">
         Suppose <m>f_1, f_2, \ldots, f_n</m> are differentiable functions.
         Use mathematical induction to prove the generalized product rule:
-        <me permid="me">
+        <me permid="exers_seq-induction-e_rq-p1-me">
           (f_1 f_2 f_3 \cdots f_n)' = f_1' f_2 f_3 \cdots f_n + f_1 f_2' f_3 \cdots f_n + f_1 f_2 f_3' \cdots f_n + \cdots + f_1 f_2 f_3 \cdots f_n'
         </me>
       </p>
 
-      <p permid="p2">
+      <p permid="exers_seq-induction-e_rq-p2">
         You may assume the product rule for two functions is true.
       </p>
     </statement>
-    <hint permid="h">
-      <p permid="p1">
+    <hint permid="exers_seq-induction-e_rq-h">
+      <p permid="exers_seq-induction-e_rq-h-p1">
         For the inductive step, we know by the product rule for two functions that
-        <me permid="me">
+        <me permid="exers_seq-induction-e_rq-h-p1-me">
           (f_1f_2f_3 \cdots f_k f_{k+1})' = (f_1f_2f_3\cdots f_k)'f_{k+1} + (f_1f_2f_3\cdots f_k)f_{k+1}'
         </me>
       </p>
 
-      <p permid="p2">
+      <p permid="exers_seq-induction-e_rq-h-p2">
         Then use the inductive hypothesis on the first summand,
         and distribute.
       </p>

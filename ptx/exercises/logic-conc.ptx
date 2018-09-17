@@ -3,12 +3,12 @@
   <title>Chapter Review</title>
   <exercise permid="tt" xml:id="tt">
     <statement>
-      <p permid="p">
+      <p permid="tt-p">
         Complete a truth table for the statement <m>\neg P \imp (Q \wedge R)</m>.
       </p>
     </statement>
-    <solution permid="s">
-      <sidebyside permid="sbs1">
+    <solution permid="tt-s">
+      <sidebyside permid="exers_logic-conc-sbs1">
 
         <tabular halign="center">
           <col right="minor"/>
@@ -75,9 +75,9 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_xo">
+  <exercise permid="exers_logic-conc-e_xo">
     <statement>
-      <p permid="p">
+      <p permid="exers_logic-conc-e_xo-p">
         Suppose you know that the statement
         <q>if Peter is not tall,
         then Quincy is fat and Robert is skinny</q> is <u>false</u>.
@@ -88,38 +88,38 @@
         <xref ref="tt">problem</xref>).
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_logic-conc-e_xo-s">
+      <p permid="exers_logic-conc-e_xo-s-p">
         Peter is not tall and Robert is not skinny.
         You must be in row 6 in the truth table above.
       </p>
     </solution>
   </exercise>
 
-  <exercise permid="e_ag">
+  <exercise permid="exers_logic-conc-e_ag">
     <statement>
-      <p permid="p">
+      <p permid="exers_logic-conc-e_ag-p">
         Are the statements <m>P \imp (Q \vee R)</m> and
         <m>(P \imp Q) \vee (P \imp R)</m> logically equivalent?
         Explain your answer.
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_logic-conc-e_ag-s">
+      <p permid="exers_logic-conc-e_ag-s-p">
         Yes.
         To see this, make a truth table for each statement and compare.
       </p>
     </solution>
   </exercise>
 
-  <exercise permid="e_dp">
+  <exercise permid="exers_logic-conc-e_dp">
     <statement>
-      <p permid="p">
+      <p permid="exers_logic-conc-e_dp-p">
         Is the following a valid deduction rule?
         Explain.
       </p>
 
-      <sidebyside permid="sbs2">
+      <sidebyside permid="exers_logic-conc-sbs2">
 
         <tabular halign="center">
           <row>
@@ -138,13 +138,13 @@
 
       </sidebyside>
     </statement>
-    <solution permid="s">
-      <p permid="p1">
+    <solution permid="exers_logic-conc-e_dp-s">
+      <p permid="exers_logic-conc-e_dp-s-p1">
         Make
         a truth table that includes all three statements in the argument:
       </p>
 
-      <sidebyside permid="sbs3">
+      <sidebyside permid="exers_logic-conc-sbs3">
 
         <tabular halign="center">
           <col right="minor"/>
@@ -229,7 +229,7 @@
 
       </sidebyside>
 
-      <p permid="p2">
+      <p permid="exers_logic-conc-e_dp-s-p2">
         Notice that in every row for which both
         <m>P \imp Q</m> and <m>P \imp R</m> is true,
         so is <m>P \imp (Q \wedge R)</m>.
@@ -240,67 +240,67 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_gy">
+  <exercise permid="exers_logic-conc-e_gy">
     <statement>
-      <p permid="p1">
+      <p permid="exers_logic-conc-e_gy-p1">
         Write the negation,
         converse and contrapositive for each of the statements below.
       </p>
 
-      <p permid="p2">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+      <p permid="exers_logic-conc-e_gy-p2">
+        <ol permid="exers_logic-conc-e_gy-ol">
+          <li permid="exers_logic-conc-e_gy-ol-l_j">
+            <p permid="exers_logic-conc-e_gy-ol-l_j-p">
               If the power goes off, then the food will spoil.
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_logic-conc-e_gy-ol-l_s">
+            <p permid="exers_logic-conc-e_gy-ol-l_s-p">
               If the door is closed, then the light is off.
             </p>
           </li>
 
-          <li permid="l_b"><m>\forall x (x \lt 1 \imp x^2 \lt 1)</m>.</li>
+          <li permid="exers_logic-conc-e_gy-ol-l_b"><m>\forall x (x \lt 1 \imp x^2 \lt 1)</m>.</li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_logic-conc-e_gy-ol-l_k">
+            <p permid="exers_logic-conc-e_gy-ol-l_k-p">
               For all natural numbers <m>n</m>,
               if <m>n</m> is prime, then <m>n</m> is solitary.
             </p>
           </li>
 
-          <li permid="l_t">
-            <p permid="p">
+          <li permid="exers_logic-conc-e_gy-ol-l_t">
+            <p permid="exers_logic-conc-e_gy-ol-l_t-p">
               For all functions <m>f</m>,
               if <m>f</m> is differentiable,
               then <m>f</m> is continuous.
             </p>
           </li>
 
-          <li permid="l_c">
-            <p permid="p">
+          <li permid="exers_logic-conc-e_gy-ol-l_c">
+            <p permid="exers_logic-conc-e_gy-ol-l_c-p">
               For all integers <m>a</m> and <m>b</m>,
               if <m>a\cdot b</m> is even, then <m>a</m> and <m>b</m> are even.
             </p>
           </li>
 
-          <li permid="l_l">
-            <p permid="p">
+          <li permid="exers_logic-conc-e_gy-ol-l_l">
+            <p permid="exers_logic-conc-e_gy-ol-l_l-p">
               For every integer <m>x</m> and every integer <m>y</m> there is an integer <m>n</m> such that if
               <m>x &gt; 0</m> then <m>nx &gt; y</m>.
             </p>
           </li>
 
-          <li permid="l_u">
-            <p permid="p">
+          <li permid="exers_logic-conc-e_gy-ol-l_u">
+            <p permid="exers_logic-conc-e_gy-ol-l_u-p">
               For all real numbers <m>x</m> and <m>y</m>,
               if <m>xy = 0</m> then <m>x = 0</m> or <m>y = 0</m>.
             </p>
           </li>
 
-          <li permid="l_d">
-            <p permid="p">
+          <li permid="exers_logic-conc-e_gy-ol-l_d">
+            <p permid="exers_logic-conc-e_gy-ol-l_d-p">
               For every student in Math 228,
               if they do not understand implications,
               then they will fail the exam.
@@ -309,145 +309,145 @@
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p1">
+    <solution permid="exers_logic-conc-e_gy-s">
+      <p permid="exers_logic-conc-e_gy-s-p">
+        <ol permid="exers_logic-conc-e_gy-s-ol">
+          <li permid="exers_logic-conc-e_gy-s-ol-l_j">
+            <p permid="exers_logic-conc-e_gy-s-ol-l_j-p1">
               Negation: The power goes off and the food does not spoil.
             </p>
 
-            <p permid="p2">
+            <p permid="exers_logic-conc-e_gy-s-ol-l_j-p2">
               Converse: If the food spoils, then the power went off.
             </p>
 
-            <p permid="p3">
+            <p permid="exers_logic-conc-e_gy-s-ol-l_j-p3">
               Contrapositive: If the food does not spoil,
               then the power did not go off.
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p1">
+          <li permid="exers_logic-conc-e_gy-s-ol-l_s">
+            <p permid="exers_logic-conc-e_gy-s-ol-l_s-p1">
               Negation: The door is closed and the light is on.
             </p>
 
-            <p permid="p2">
+            <p permid="exers_logic-conc-e_gy-s-ol-l_s-p2">
               Converse: If the light is off then the door is closed.
             </p>
 
-            <p permid="p3">
+            <p permid="exers_logic-conc-e_gy-s-ol-l_s-p3">
               Contrapositive: If the light is on then the door is open.
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p1">
+          <li permid="exers_logic-conc-e_gy-s-ol-l_b">
+            <p permid="exers_logic-conc-e_gy-s-ol-l_b-p1">
               Negation: <m>\exists x (x \lt 1 \wedge x^2 \ge 1)</m>
             </p>
 
-            <p permid="p2">
+            <p permid="exers_logic-conc-e_gy-s-ol-l_b-p2">
               Converse: <m>\forall x( x^2 \lt 1 \imp x \lt 1)</m>
             </p>
 
-            <p permid="p3">
+            <p permid="exers_logic-conc-e_gy-s-ol-l_b-p3">
               Contrapositive: <m>\forall x (x^2 \ge 1 \imp x \ge 1)</m>.
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p1">
+          <li permid="exers_logic-conc-e_gy-s-ol-l_k">
+            <p permid="exers_logic-conc-e_gy-s-ol-l_k-p1">
               Negation: There is a natural number <m>n</m> which is prime but not solitary.
             </p>
 
-            <p permid="p2">
+            <p permid="exers_logic-conc-e_gy-s-ol-l_k-p2">
               Converse: For all natural numbers <m>n</m>,
               if <m>n</m> is solitary, then <m>n</m> is prime.
             </p>
 
-            <p permid="p3">
+            <p permid="exers_logic-conc-e_gy-s-ol-l_k-p3">
               Contrapositive: For all natural numbers <m>n</m>,
               if <m>n</m> is not solitary then <m>n</m> is not prime.
             </p>
           </li>
 
-          <li permid="l_t">
-            <p permid="p1">
+          <li permid="exers_logic-conc-e_gy-s-ol-l_t">
+            <p permid="exers_logic-conc-e_gy-s-ol-l_t-p1">
               Negation: There is a function which is differentiable and not continuous.
             </p>
 
-            <p permid="p2">
+            <p permid="exers_logic-conc-e_gy-s-ol-l_t-p2">
               Converse: For all functions <m>f</m>,
               if <m>f</m> is continuous then <m>f</m> is differentiable.
             </p>
 
-            <p permid="p3">
+            <p permid="exers_logic-conc-e_gy-s-ol-l_t-p3">
               Contrapositive: For all functions <m>f</m>,
               if <m>f</m> is not continuous then <m>f</m> is not differentiable.
             </p>
           </li>
 
-          <li permid="l_c">
-            <p permid="p1">
+          <li permid="exers_logic-conc-e_gy-s-ol-l_c">
+            <p permid="exers_logic-conc-e_gy-s-ol-l_c-p1">
               Negation: There are integers <m>a</m> and <m>b</m> for which
               <m>a\cdot b</m> is even but <m>a</m> or <m>b</m> is odd.
             </p>
 
-            <p permid="p2">
+            <p permid="exers_logic-conc-e_gy-s-ol-l_c-p2">
               Converse: For all integers <m>a</m> and <m>b</m>,
               if <m>a</m> and <m>b</m> are even then <m>ab</m> is even.
             </p>
 
-            <p permid="p3">
+            <p permid="exers_logic-conc-e_gy-s-ol-l_c-p3">
               Contrapositive: For all integers <m>a</m> and <m>b</m>,
               if <m>a</m> or <m>b</m> is odd, then <m>ab</m> is odd.
             </p>
           </li>
 
-          <li permid="l_l">
-            <p permid="p1">
+          <li permid="exers_logic-conc-e_gy-s-ol-l_l">
+            <p permid="exers_logic-conc-e_gy-s-ol-l_l-p1">
               Negation: There are integers <m>x</m> and <m>y</m> such that for every integer <m>n</m>,
               <m>x \gt 0</m> and <m>nx \le y</m>.
             </p>
 
-            <p permid="p2">
+            <p permid="exers_logic-conc-e_gy-s-ol-l_l-p2">
               Converse: For every integer <m>x</m> and every integer <m>y</m> there is an integer <m>n</m> such that if
               <m>nx &gt;
               y</m> then <m>x &gt; 0</m>.
             </p>
 
-            <p permid="p3">
+            <p permid="exers_logic-conc-e_gy-s-ol-l_l-p3">
               Contrapositive: For every integer <m>x</m> and every integer <m>y</m> there is an integer <m>n</m> such that if <m>nx \le y</m> then <m>x \le 0</m>.
             </p>
           </li>
 
-          <li permid="l_u">
-            <p permid="p1">
+          <li permid="exers_logic-conc-e_gy-s-ol-l_u">
+            <p permid="exers_logic-conc-e_gy-s-ol-l_u-p1">
               Negation: There are real numbers <m>x</m> and <m>y</m> such that <m>xy = 0</m> but <m>x \ne 0</m> and <m>y \ne 0</m>.
             </p>
 
-            <p permid="p2">
+            <p permid="exers_logic-conc-e_gy-s-ol-l_u-p2">
               Converse: For all real numbers <m>x</m> and <m>y</m>,
               if <m>x = 0</m> or <m>y = 0</m> then <m>xy = 0</m>
             </p>
 
-            <p permid="p3">
+            <p permid="exers_logic-conc-e_gy-s-ol-l_u-p3">
               Contrapositive: For all real numbers <m>x</m> and <m>y</m>,
               if <m>x \ne 0</m> and <m>y \ne 0</m> then <m>xy \ne 0</m>.
             </p>
           </li>
 
-          <li permid="l_d">
-            <p permid="p1">
+          <li permid="exers_logic-conc-e_gy-s-ol-l_d">
+            <p permid="exers_logic-conc-e_gy-s-ol-l_d-p1">
               Negation: There is at least one student in Math 228 who does not understand implications but will still pass the exam.
             </p>
 
-            <p permid="p2">
+            <p permid="exers_logic-conc-e_gy-s-ol-l_d-p2">
               Converse: For every student in Math 228,
               if they fail the exam, then they did not understand implications.
             </p>
 
-            <p permid="p3">
+            <p permid="exers_logic-conc-e_gy-s-ol-l_d-p3">
               Contrapositive: For every student in Math 228,
               if they pass the exam, then they understood implications.
             </p>
@@ -457,40 +457,40 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_jq">
+  <exercise permid="exers_logic-conc-e_jq">
     <statement>
-      <p permid="p1">
+      <p permid="exers_logic-conc-e_jq-p1">
         Consider the statement: for all integers <m>n</m>,
         if <m>n</m> is even and <m>n \le 7</m> then <m>n</m> is negative or <m>n \in \{0,2,4,6\}</m>.
       </p>
 
-      <p permid="p2">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+      <p permid="exers_logic-conc-e_jq-p2">
+        <ol permid="exers_logic-conc-e_jq-ol">
+          <li permid="exers_logic-conc-e_jq-ol-l_j">
+            <p permid="exers_logic-conc-e_jq-ol-l_j-p">
               Is the statement true?
               Explain why.
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_logic-conc-e_jq-ol-l_s">
+            <p permid="exers_logic-conc-e_jq-ol-l_s-p">
               Write the negation of the statement.
               Is it true?
               Explain.
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_logic-conc-e_jq-ol-l_b">
+            <p permid="exers_logic-conc-e_jq-ol-l_b-p">
               State the contrapositive of the statement.
               Is it true?
               Explain.
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_logic-conc-e_jq-ol-l_k">
+            <p permid="exers_logic-conc-e_jq-ol-l_k-p">
               State the converse of the statement.
               Is it true?
               Explain.
@@ -499,25 +499,25 @@
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+    <solution permid="exers_logic-conc-e_jq-s">
+      <p permid="exers_logic-conc-e_jq-s-p">
+        <ol permid="exers_logic-conc-e_jq-s-ol">
+          <li permid="exers_logic-conc-e_jq-s-ol-l_j">
+            <p permid="exers_logic-conc-e_jq-s-ol-l_j-p">
               The statement is true.
               If <m>n</m> is an even integer less than or equal to 7, then the only way it could not be negative is if <m>n</m> was equal to 0, 2, 4, or 6.
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_logic-conc-e_jq-s-ol-l_s">
+            <p permid="exers_logic-conc-e_jq-s-ol-l_s-p">
               There is an integer <m>n</m> such that <m>n</m> is even and <m>n \le 7</m> but <m>n</m> is not negative and <m>n \not\in \{0,2,4,6\}</m>.
               This is false, since the original statement is true.
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_logic-conc-e_jq-s-ol-l_b">
+            <p permid="exers_logic-conc-e_jq-s-ol-l_b-p">
               For all integers <m>n</m>,
               if <m>n</m> is not negative and
               <m>n \not\in\{0,2,4,6\}</m> then <m>n</m> is odd or <m>n &gt; 7</m>.
@@ -527,8 +527,8 @@
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_logic-conc-e_jq-s-ol-l_k">
+            <p permid="exers_logic-conc-e_jq-s-ol-l_k-p">
               For all integers <m>n</m>,
               if <m>n</m> is negative or
               <m>n \in \{0,2,4,6\}</m> then <m>n</m> is even and <m>n \le 7</m>.
@@ -540,41 +540,41 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_mz">
+  <exercise permid="exers_logic-conc-e_mz">
     <statement>
-      <p permid="p1">
+      <p permid="exers_logic-conc-e_mz-p1">
         Consider the statement:
         <m>\forall x (\forall y (x + y = y) \imp \forall z (x\cdot z = 0))</m>.
       </p>
 
-      <p permid="p2">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+      <p permid="exers_logic-conc-e_mz-p2">
+        <ol permid="exers_logic-conc-e_mz-ol">
+          <li permid="exers_logic-conc-e_mz-ol-l_j">
+            <p permid="exers_logic-conc-e_mz-ol-l_j-p">
               Explain what the statement says in words.
               Is this statement true?
               Be sure to state what you are taking the universe of discourse to be.
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_logic-conc-e_mz-ol-l_s">
+            <p permid="exers_logic-conc-e_mz-ol-l_s-p">
               Write the converse of the statement,
               both in words and in symbols.
               Is the converse true?
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_logic-conc-e_mz-ol-l_b">
+            <p permid="exers_logic-conc-e_mz-ol-l_b-p">
               Write the contrapositive of the statement,
               both in words and in symbols.
               Is the contrapositive true?
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_logic-conc-e_mz-ol-l_k">
+            <p permid="exers_logic-conc-e_mz-ol-l_k-p">
               Write the negation of the statement,
               both in words and in symbols.
               Is the negation true?
@@ -583,11 +583,11 @@
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+    <solution permid="exers_logic-conc-e_mz-s">
+      <p permid="exers_logic-conc-e_mz-s-p">
+        <ol permid="exers_logic-conc-e_mz-s-ol">
+          <li permid="exers_logic-conc-e_mz-s-ol-l_j">
+            <p permid="exers_logic-conc-e_mz-s-ol-l_j-p">
               For any number <m>x</m>,
               if it is the case that adding any number to <m>x</m> gives that number back,
               then multiplying any number by <m>x</m> will give 0.
@@ -598,8 +598,8 @@
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_logic-conc-e_mz-s-ol-l_s">
+            <p permid="exers_logic-conc-e_mz-s-ol-l_s-p">
               The converse in words is this:
               for any number <m>x</m>,
               if everything times <m>x</m> is zero,
@@ -612,8 +612,8 @@
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_logic-conc-e_mz-s-ol-l_b">
+            <p permid="exers_logic-conc-e_mz-s-ol-l_b-p">
               The contrapositive in words is:
               for any number <m>x</m>,
               if there is some number which when multiplied by <m>x</m> does not give zero,
@@ -623,8 +623,8 @@
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_logic-conc-e_mz-s-ol-l_k">
+            <p permid="exers_logic-conc-e_mz-s-ol-l_k-p">
               The negation:
               there is a number <m>x</m> such that any number added to <m>x</m> gives the number back again,
               but there is a number you can multiply <m>x</m> by and not get 0.
@@ -637,55 +637,55 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_pi">
+  <exercise permid="exers_logic-conc-e_pi">
     <statement>
-      <p permid="p1">
+      <p permid="exers_logic-conc-e_pi-p1">
         Write each of the following statements in the form,
         <q>if <ellipsis/>, then <ellipsis/>.</q> Careful,
         some of the statements might be false
         (which is alright for the purposes of this question).
       </p>
 
-      <p permid="p2">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+      <p permid="exers_logic-conc-e_pi-p2">
+        <ol permid="exers_logic-conc-e_pi-ol">
+          <li permid="exers_logic-conc-e_pi-ol-l_j">
+            <p permid="exers_logic-conc-e_pi-ol-l_j-p">
               To lose weight, you must exercise.
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_logic-conc-e_pi-ol-l_s">
+            <p permid="exers_logic-conc-e_pi-ol-l_s-p">
               To lose weight, all you need to do is exercise.
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_logic-conc-e_pi-ol-l_b">
+            <p permid="exers_logic-conc-e_pi-ol-l_b-p">
               Every American is patriotic.
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_logic-conc-e_pi-ol-l_k">
+            <p permid="exers_logic-conc-e_pi-ol-l_k-p">
               You are patriotic only if you are American.
             </p>
           </li>
 
-          <li permid="l_t">
-            <p permid="p">
+          <li permid="exers_logic-conc-e_pi-ol-l_t">
+            <p permid="exers_logic-conc-e_pi-ol-l_t-p">
               The set of rational numbers is a subset of the real numbers.
             </p>
           </li>
 
-          <li permid="l_c">
-            <p permid="p">
+          <li permid="exers_logic-conc-e_pi-ol-l_c">
+            <p permid="exers_logic-conc-e_pi-ol-l_c-p">
               A number is prime if it is not even.
             </p>
           </li>
 
-          <li permid="l_l">
-            <p permid="p">
+          <li permid="exers_logic-conc-e_pi-ol-l_l">
+            <p permid="exers_logic-conc-e_pi-ol-l_l-p">
               Either the Broncos will win the Super Bowl,
               or they won't play in the Super Bowl.
             </p>
@@ -693,49 +693,49 @@
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+    <solution permid="exers_logic-conc-e_pi-s">
+      <p permid="exers_logic-conc-e_pi-s-p">
+        <ol permid="exers_logic-conc-e_pi-s-ol">
+          <li permid="exers_logic-conc-e_pi-s-ol-l_j">
+            <p permid="exers_logic-conc-e_pi-s-ol-l_j-p">
               If you have lost weight, then you exercised.
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_logic-conc-e_pi-s-ol-l_s">
+            <p permid="exers_logic-conc-e_pi-s-ol-l_s-p">
               If you exercise, then you will lose weight.
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_logic-conc-e_pi-s-ol-l_b">
+            <p permid="exers_logic-conc-e_pi-s-ol-l_b-p">
               If you are American, then you are patriotic.
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_logic-conc-e_pi-s-ol-l_k">
+            <p permid="exers_logic-conc-e_pi-s-ol-l_k-p">
               If you are patriotic, then you are American.
             </p>
           </li>
 
-          <li permid="l_t">
-            <p permid="p">
+          <li permid="exers_logic-conc-e_pi-s-ol-l_t">
+            <p permid="exers_logic-conc-e_pi-s-ol-l_t-p">
               If a number is rational, then it is real.
             </p>
           </li>
 
-          <li permid="l_c">
-            <p permid="p">
+          <li permid="exers_logic-conc-e_pi-s-ol-l_c">
+            <p permid="exers_logic-conc-e_pi-s-ol-l_c-p">
               If a number is not even, then it is prime.
               (Or the contrapositive:
               if a number is not prime, then it is even.)
             </p>
           </li>
 
-          <li permid="l_l">
-            <p permid="p">
+          <li permid="exers_logic-conc-e_pi-s-ol-l_l">
+            <p permid="exers_logic-conc-e_pi-s-ol-l_l-p">
               If the Broncos don't win the Super Bowl,
               then they didn't play in the Super Bowl.
               Alternatively, if the Broncos play in the Super Bowl,
@@ -747,32 +747,32 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_sa">
+  <exercise permid="exers_logic-conc-e_sa">
     <statement>
-      <p permid="p1">
+      <p permid="exers_logic-conc-e_sa-p1">
         Simplify the following.
       </p>
 
-      <p permid="p2">
-        <ol permid="ol">
-          <li permid="l_j">
+      <p permid="exers_logic-conc-e_sa-p2">
+        <ol permid="exers_logic-conc-e_sa-ol">
+          <li permid="exers_logic-conc-e_sa-ol-l_j">
             <m>\neg (\neg (P \wedge \neg Q) \imp \neg(\neg R \vee \neg(P \imp R)))</m>.
           </li>
 
-          <li permid="l_s">
+          <li permid="exers_logic-conc-e_sa-ol-l_s">
             <m>\neg \exists x \neg \forall y \neg \exists z (z = x + y \imp \exists w (x - y = w))</m>.
           </li>
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j">
+    <solution permid="exers_logic-conc-e_sa-s">
+      <p permid="exers_logic-conc-e_sa-s-p">
+        <ol permid="exers_logic-conc-e_sa-s-ol">
+          <li permid="exers_logic-conc-e_sa-s-ol-l_j">
             <m>(\neg P \vee Q) \wedge (\neg R \vee (P \wedge \neg R))</m>.
           </li>
 
-          <li permid="l_s">
+          <li permid="exers_logic-conc-e_sa-s-ol-l_s">
             <m>\forall x \forall y \forall z (z = x+y \wedge \forall w (x-y \ne w))</m>.
           </li>
         </ol>
@@ -780,24 +780,24 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_vj">
+  <exercise permid="exers_logic-conc-e_vj">
     <statement>
-      <p permid="p1">
+      <p permid="exers_logic-conc-e_vj-p1">
         Consider the statement: for all integers <m>n</m>,
         if <m>n</m> is odd, then <m>7n</m> is odd.
       </p>
 
-      <p permid="p2">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+      <p permid="exers_logic-conc-e_vj-p2">
+        <ol permid="exers_logic-conc-e_vj-ol">
+          <li permid="exers_logic-conc-e_vj-ol-l_j">
+            <p permid="exers_logic-conc-e_vj-ol-l_j-p">
               Prove the statement.
               What sort of proof are you using?
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_logic-conc-e_vj-ol-l_s">
+            <p permid="exers_logic-conc-e_vj-ol-l_s-p">
               Prove the converse.
               What sort of proof are you using?
             </p>
@@ -805,25 +805,25 @@
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p1">
+    <solution permid="exers_logic-conc-e_vj-s">
+      <p permid="exers_logic-conc-e_vj-s-p">
+        <ol permid="exers_logic-conc-e_vj-s-ol">
+          <li permid="exers_logic-conc-e_vj-s-ol-l_j">
+            <p permid="exers_logic-conc-e_vj-s-ol-l_j-p1">
               Direct proof.
 
-              <proof permid="pf1">
-                <p permid="p">
+              <proof permid="exers_logic-conc-e_vj-pf1">
+                <p permid="exers_logic-conc-e_vj-pf1-p">
                   Let <m>n</m> be an integer.
                   Assume <m>n</m> is odd.
                   So <m>n = 2k+1</m> for some integer <m>k</m>.
                   Then
-                  <me permid="me">
+                  <me permid="exers_logic-conc-e_vj-s-p-me">
                     7n = 7(2k+1) = 14k + 7 = 2(7k +3) + 1
                   </me>.
                 </p>
 
-                <p permid="p2">
+                <p permid="exers_logic-conc-e_vj-s-ol-l_j-p2">
                   Since <m>7k + 3</m> is an integer,
                   we see that <m>7n</m> is odd.
                 </p>
@@ -832,14 +832,14 @@
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_logic-conc-e_vj-s-ol-l_s">
+            <p permid="exers_logic-conc-e_vj-s-ol-l_s-p">
               The converse is: for all integers <m>n</m>,
               if <m>7n</m> is odd, then <m>n</m> is odd.
               We will prove this by contrapositive.
 
-              <proof permid="pf2">
-                <p permid="p">
+              <proof permid="exers_logic-conc-e_vj-pf2">
+                <p permid="exers_logic-conc-e_vj-pf2-p">
                   Let <m>n</m> be an integer.
                   Assume <m>n</m> is not odd.
                   Then <m>n = 2k</m> for some integer <m>k</m>.
@@ -855,30 +855,30 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ys">
+  <exercise permid="exers_logic-conc-e_ys">
     <statement>
-      <p permid="p1">
+      <p permid="exers_logic-conc-e_ys-p1">
         Suppose you break your piggy bank and scoop up a handful of 22 coins
         (pennies, nickels, dimes and quarters).
       </p>
 
-      <p permid="p2">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+      <p permid="exers_logic-conc-e_ys-p2">
+        <ol permid="exers_logic-conc-e_ys-ol">
+          <li permid="exers_logic-conc-e_ys-ol-l_j">
+            <p permid="exers_logic-conc-e_ys-ol-l_j-p">
               Prove that you must have at least 6 coins of a single denomination.
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_logic-conc-e_ys-ol-l_s">
+            <p permid="exers_logic-conc-e_ys-ol-l_s-p">
               Suppose you have an odd number of pennies.
               Prove that you must have an odd number of at least one of the other types of coins.
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_logic-conc-e_ys-ol-l_b">
+            <p permid="exers_logic-conc-e_ys-ol-l_b-p">
               How many coins would you need to scoop up to be sure that you either had 4 coins that were all the same or 4 coins that were all different?
               Prove your answer.
             </p>
@@ -886,11 +886,11 @@
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+    <solution permid="exers_logic-conc-e_ys-s">
+      <p permid="exers_logic-conc-e_ys-s-p">
+        <ol permid="exers_logic-conc-e_ys-s-ol">
+          <li permid="exers_logic-conc-e_ys-s-ol-l_j">
+            <p permid="exers_logic-conc-e_ys-s-ol-l_j-p">
               Suppose you only had 5 coins of each denomination.
               This means you have 5 pennies, 5 nickels, 5 dimes and 5 quarters.
               This is a total of 20 coins.
@@ -899,13 +899,13 @@
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_logic-conc-e_ys-s-ol-l_s">
+            <p permid="exers_logic-conc-e_ys-s-ol-l_s-p">
               Suppose you have 22 coins,
               including <m>2k</m> nickels, <m>2j</m> dimes, and <m>2l</m> quarters
               (so an even number of each of these three types of coins).
               The number of pennies you have will then be
-              <me permid="me">
+              <me permid="exers_logic-conc-e_ys-s-ol-l_s-p-me">
                 22 - 2k - 2j - 2l = 2(11-k-j-l)
               </me>
               But this says that the number of pennies is also even
@@ -915,8 +915,8 @@
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_logic-conc-e_ys-s-ol-l_b">
+            <p permid="exers_logic-conc-e_ys-s-ol-l_b-p">
               You need 10 coins.
               You could have 3 pennies, 3 nickels, and 3 dimes.
               The 10th coin must either be a quarter,
@@ -934,32 +934,32 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_bk">
+  <exercise permid="exers_logic-conc-e_bk">
     <statement>
-      <p permid="p1">
+      <p permid="exers_logic-conc-e_bk-p1">
         You come across four trolls playing bridge.
         They declare:
       </p>
 
-      <blockquote permid="bq">
-        <p permid="p1">
+      <blockquote permid="exers_logic-conc-e_bk-bq">
+        <p permid="exers_logic-conc-e_bk-bq-p1">
           Troll 1: All trolls here see at least one knave.
         </p>
 
-        <p permid="p2">
+        <p permid="exers_logic-conc-e_bk-bq-p2">
           Troll 2: I see at least one troll that sees only knaves.
         </p>
 
-        <p permid="p3">
+        <p permid="exers_logic-conc-e_bk-bq-p3">
           Troll 3: Some trolls are scared of goats.
         </p>
 
-        <p permid="p4">
+        <p permid="exers_logic-conc-e_bk-bq-p4">
           Troll 4: All trolls are scared of goats.
         </p>
       </blockquote>
 
-      <p permid="p2">
+      <p permid="exers_logic-conc-e_bk-p2">
         Are there any trolls that are not scared of goats?
         Recall, of course, that all trolls are either knights
         (who always tell the truth)

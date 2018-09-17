@@ -2,16 +2,16 @@
 
 <chapter permid="ch_solutions" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ch_solutions">
   <title>Solutions to Exercises</title>
-  <p permid="p1">
+  <p permid="ch_solutions-p1">
     IIII
   </p>
 
-  <p permid="p2">
+  <p permid="ch_solutions-p2">
     \printnoidxglossary[type=symbols,style=myglosses,
     nogroupskip=true, sort=def]
   </p>
 
-  <p permid="p3">
+  <p permid="ch_solutions-p3">
     \listoftodos
   </p>
 </chapter>

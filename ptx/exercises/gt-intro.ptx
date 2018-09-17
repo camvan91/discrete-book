@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <exercises permid="exers_gt-intro" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exercises_gt-intro">
 
-  <exercise permid="e_xo">
+  <exercise permid="exers_gt-intro-e_xo">
     <statement>
-      <p permid="p">
+      <p permid="exers_gt-intro-e_xo-p">
         If 10 people each shake hands with each other,
         how many handshakes took place?
         What does this question have to do with graph theory?
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_gt-intro-e_xo-s">
+      <p permid="exers_gt-intro-e_xo-s-p">
         This is asking for the number of edges in <m>K_{10}</m>.
         Each vertex (person) has degree
         (shook hands with)
@@ -24,16 +24,16 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ag">
+  <exercise permid="exers_gt-intro-e_ag">
     <statement>
-      <p permid="p">
+      <p permid="exers_gt-intro-e_ag-p">
         Among a group of 5 people,
         is it possible for everyone to be friends with exactly 2 of the people in the group?
         What about 3 of the people in the group?
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_gt-intro-e_ag-s">
+      <p permid="exers_gt-intro-e_ag-s-p">
         It is possible for everyone to be friends with exactly 2 people.
         You could arrange the 5 people in a circle and say that everyone is friends with the two people on either side of them
         (so you get the graph <m>C_5</m>).
@@ -43,25 +43,25 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_dp">
+  <exercise permid="exers_gt-intro-e_dp">
     <statement>
-      <p permid="p">
+      <p permid="exers_gt-intro-e_dp-p">
         Is it possible for two <em>different</em>
         (non-isomorphic) graphs to have the same number of vertices and the same number of edges?
         What if the degrees of the vertices in the two graphs are the same (so both graphs have vertices with degrees 1, 2, 2, 3, and 4, for example)?
         Draw two such graphs or explain why not.
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_gt-intro-e_dp-s">
+      <p permid="exers_gt-intro-e_dp-s-p">
         Yes.
         For example, both graphs below contain 6 vertices, 7 edges,
         and have degrees (2,2,2,2,3,3).
       </p>
 
-      <sidebyside permid="sbs1" widths="40% 20%" margins="auto" valign="bottom">
+      <sidebyside permid="exers_gt-intro-sbs1" widths="40% 20%" margins="auto" valign="bottom">
 
-        <image permid="im1">
+        <image permid="exers_gt-intro-e_dp-s-im1">
 
 				<latex-image>
 					\begin{tikzpicture}
@@ -70,7 +70,7 @@
 				</latex-image>
         </image>
 
-        <image permid="im2">
+        <image permid="exers_gt-intro-e_dp-s-im2">
 
 				<latex-image>
 					\begin{tikzpicture}
@@ -85,28 +85,28 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_gy">
+  <exercise permid="exers_gt-intro-e_gy">
     <statement>
-      <p permid="p1">
+      <p permid="exers_gt-intro-e_gy-p1">
         Are the two graphs below equal?
         Are they isomorphic?
         If they are isomorphic, give the isomorphism.
         If not, explain.
       </p>
 
-      <p permid="p2">
+      <p permid="exers_gt-intro-e_gy-p2">
         Graph 1: <m>V = \{a,b,c,d,e\}</m>,
         <m>E = \{\{a,b\}, \{a,c\}, \{a,e\}, \{b,d\}, \{b,e\}, \{c,d\}\}</m>.
 			<!-- <footnote>Corrected the last edge of graph 1 to make solution correct</footnote> -->
       </p>
 
-      <p permid="p3">
+      <p permid="exers_gt-intro-e_gy-p3">
         Graph 2:
       </p>
 
-      <sidebyside permid="sbs2" width="25%">
+      <sidebyside permid="exers_gt-intro-sbs2" width="25%">
 
-        <image permid="im">
+        <image permid="exers_gt-intro-sbs2-im">
 
 					<latex-image>
 						\begin{tikzpicture}
@@ -119,8 +119,8 @@
 
       </sidebyside>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_gt-intro-e_gy-s">
+      <p permid="exers_gt-intro-e_gy-s-p">
         The graphs are not equal.
         For example,
         graph 1 has an edge <m>\{a,b\}</m> but graph 2 does not have that edge.
@@ -133,52 +133,52 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_jq">
+  <exercise permid="exers_gt-intro-e_jq">
     <statement>
-      <p permid="p1">
+      <p permid="exers_gt-intro-e_jq-p1">
         Consider the following two graphs:
-        <dl permid="dl" width="narrow">
-          <li permid="l_g_1">
+        <dl permid="exers_gt-intro-e_jq-dl" width="narrow">
+          <li permid="exers_gt-intro-e_jq-dl-l_g_1">
             <title><m>G_1</m></title>
-            <p permid="p1">
+            <p permid="exers_gt-intro-e_jq-dl-l_g_1-p1">
               <m>V_1=\{a,b,c,d,e,f,g\}</m>
             </p>
 
-            <p permid="p2">
+            <p permid="exers_gt-intro-e_jq-dl-l_g_1-p2">
               <m>E_1=\{\{a,b\},\{a,d\},\{b,c\},\{b,d\},\{b,e\},\{b,f\},\{c,g\},\{d,e\}</m>,
             </p>
 
-            <p permid="p3">
+            <p permid="exers_gt-intro-e_jq-dl-l_g_1-p3">
               <m>\{e,f\},\{f,g\}\}</m>.
             </p>
           </li>
 
-          <li permid="l_g_2">
+          <li permid="exers_gt-intro-e_jq-dl-l_g_2">
             <title><m>G_2</m></title>
-            <p permid="p1">
+            <p permid="exers_gt-intro-e_jq-dl-l_g_2-p1">
               <m>V_2=\{v_1,v_2,v_3,v_4,v_5,v_6,v_7\}</m>,
             </p>
 
-            <p permid="p2">
+            <p permid="exers_gt-intro-e_jq-dl-l_g_2-p2">
               <m>E_2=\{\{v_1,v_4\},\{v_1,v_5\},\{v_1,v_7\},\{v_2,v_3\},\{v_2,v_6\}</m>,
             </p>
 
-            <p permid="p3">
+            <p permid="exers_gt-intro-e_jq-dl-l_g_2-p3">
               <m>\{v_3,v_5\},\{v_3,v_7\},\{v_4,v_5\},\{v_5,v_6\},\{v_5,v_7\}\}</m>
             </p>
           </li>
         </dl>
       </p>
 
-      <p permid="p2">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p1">
+      <p permid="exers_gt-intro-e_jq-p2">
+        <ol permid="exers_gt-intro-e_jq-ol">
+          <li permid="exers_gt-intro-e_jq-ol-l_j">
+            <p permid="exers_gt-intro-e_jq-ol-l_j-p1">
               Let <m>f:G_1 \rightarrow G_2</m> be a function that takes the vertices of Graph 1 to vertices of Graph 2.
               The function is given by the following table:
             </p>
 
-            <sidebyside permid="sbs3">
+            <sidebyside permid="exers_gt-intro-sbs3">
 
               <tabular>
                 <row bottom="minor">
@@ -205,29 +205,29 @@
 
             </sidebyside>
 
-            <p permid="p2">
+            <p permid="exers_gt-intro-e_jq-ol-l_j-p2">
               Does <m>f</m> define an isomorphism between Graph 1 and Graph 2?
               Explain.
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_gt-intro-e_jq-ol-l_s">
+            <p permid="exers_gt-intro-e_jq-ol-l_s-p">
               Define a new function <m>g</m>
               (with <m>g\not=f</m>)
               that defines an isomorphism between Graph 1 and Graph 2.
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_gt-intro-e_jq-ol-l_b">
+            <p permid="exers_gt-intro-e_jq-ol-l_b-p">
               Is the graph pictured below isomorphic to Graph 1 and Graph 2?
               Explain.
             </p>
 
-            <sidebyside permid="sbs4" width="20%">
+            <sidebyside permid="exers_gt-intro-sbs4" width="20%">
 
-              <image permid="im">
+              <image permid="exers_gt-intro-e_jq-ol-l_b-im">
 
 							<latex-image>
 								\begin{tikzpicture}
@@ -247,16 +247,16 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_mz">
+  <exercise permid="exers_gt-intro-e_mz">
     <statement>
-      <p permid="p">
+      <p permid="exers_gt-intro-e_mz-p">
         Which of the graphs below are bipartite?
         Justify your answers.
       </p>
 
-      <sidebyside permid="sbs5" widths="20% 20% 20% 20%" margins="auto" valign="middle">
+      <sidebyside permid="exers_gt-intro-sbs5" widths="20% 20% 20% 20%" margins="auto" valign="middle">
 
-        <image permid="im1">
+        <image permid="exers_gt-intro-sbs5-im1">
 
 				<latex-image>
 					\begin{tikzpicture}
@@ -265,7 +265,7 @@
 				</latex-image>
         </image>
 
-        <image permid="im2">
+        <image permid="exers_gt-intro-sbs5-im2">
 
 				<latex-image>
 					\begin{tikzpicture}
@@ -274,7 +274,7 @@
 				</latex-image>
         </image>
 
-        <image permid="im3">
+        <image permid="exers_gt-intro-sbs5-im3">
 
 				<latex-image>
 					\begin{tikzpicture}
@@ -283,7 +283,7 @@
 				</latex-image>
         </image>
 
-        <image permid="im4">
+        <image permid="exers_gt-intro-sbs5-im4">
 
 				<latex-image>
 					\begin{tikzpicture}
@@ -296,8 +296,8 @@
 
       </sidebyside>
     </statement>
-    <solution permid="s">
-      <p permid="p1">
+    <solution permid="exers_gt-intro-e_mz-s">
+      <p permid="exers_gt-intro-e_mz-s-p1">
         Three of the graphs are bipartite.
         The one which is not is <m>C_7</m>
         (second from the right).
@@ -307,9 +307,9 @@
       </p>
 
 			<!-- TODO: justify these answers a little better -->
-      <sidebyside permid="sbs6" widths="20% 23% 20%" margins="auto" valign="middle">
+      <sidebyside permid="exers_gt-intro-sbs6" widths="20% 23% 20%" margins="auto" valign="middle">
 
-        <image permid="im1">
+        <image permid="exers_gt-intro-e_mz-s-im1">
 
 					<latex-image>
 						\begin{tikzpicture}
@@ -318,7 +318,7 @@
 					</latex-image>
         </image>
 
-        <image permid="im2">
+        <image permid="exers_gt-intro-e_mz-s-im2">
 
 					<latex-image>
 						\begin{tikzpicture}
@@ -327,7 +327,7 @@
 					</latex-image>
         </image>
 
-        <image permid="im3">
+        <image permid="exers_gt-intro-e_mz-s-im3">
 
 					<latex-image>
 						\begin{tikzpicture}
@@ -340,7 +340,7 @@
 
       </sidebyside>
 
-      <p permid="p2">
+      <p permid="exers_gt-intro-e_mz-s-p2">
         The graph <m>C_7</m> is not bipartite because it is an <em>odd</em> cycle.
         You would want to put every other vertex into the set <m>A</m>,
         but if you travel clockwise in this fashion,
@@ -351,61 +351,61 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_pi">
+  <exercise permid="exers_gt-intro-e_pi">
     <statement>
-      <p permid="p">
+      <p permid="exers_gt-intro-e_pi-p">
         For which <m>n \ge 3</m> is the graph <m>C_n</m> bipartite?
       </p>
     </statement>
   </exercise>
 
-  <exercise permid="e_sa">
+  <exercise permid="exers_gt-intro-e_sa">
     <statement>
-      <p permid="p">
+      <p permid="exers_gt-intro-e_sa-p">
         For each of the following,
         try to give two <em>different</em>
         unlabeled graphs with the given properties,
         or explain why doing so is impossible.
 
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+        <ol permid="exers_gt-intro-e_sa-ol">
+          <li permid="exers_gt-intro-e_sa-ol-l_j">
+            <p permid="exers_gt-intro-e_sa-ol-l_j-p">
               Two different trees with the same number of vertices and the same number of edges.
               A tree is a connected graph with no cycles.
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_gt-intro-e_sa-ol-l_s">
+            <p permid="exers_gt-intro-e_sa-ol-l_s-p">
               Two different graphs with 8 vertices all of degree 2.
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_gt-intro-e_sa-ol-l_b">
+            <p permid="exers_gt-intro-e_sa-ol-l_b-p">
               Two different graphs with 5 vertices all of degree 4.
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_gt-intro-e_sa-ol-l_k">
+            <p permid="exers_gt-intro-e_sa-ol-l_k-p">
               Two different graphs with 5 vertices all of degree 3.
             </p>
           </li>
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+    <solution permid="exers_gt-intro-e_sa-s">
+      <p permid="exers_gt-intro-e_sa-s-p">
+        <ol permid="exers_gt-intro-e_sa-s-ol">
+          <li permid="exers_gt-intro-e_sa-s-ol-l_j">
+            <p permid="exers_gt-intro-e_sa-s-ol-l_j-p">
               For example:
             </p>
 
-            <sidebyside permid="sbs7" widths="20% 20%" margins="auto" valign="bottom">
+            <sidebyside permid="exers_gt-intro-sbs7" widths="20% 20%" margins="auto" valign="bottom">
 
-              <image permid="im1">
+              <image permid="exers_gt-intro-e_sa-s-ol-l_j-im1">
 
 								<latex-image>
 									\begin{tikzpicture}
@@ -414,7 +414,7 @@
 								</latex-image>
               </image>
 
-              <image permid="im2">
+              <image permid="exers_gt-intro-e_sa-s-ol-l_j-im2">
 
 								<latex-image>
 									\begin{tikzpicture}
@@ -427,23 +427,23 @@
 
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_gt-intro-e_sa-s-ol-l_s">
+            <p permid="exers_gt-intro-e_sa-s-ol-l_s-p">
               This is not possible if we require the graphs to be connected.
               If not, we could take <m>C_8</m> as one graph and two copies of <m>C_4</m> as the other.
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_gt-intro-e_sa-s-ol-l_b">
+            <p permid="exers_gt-intro-e_sa-s-ol-l_b-p">
               Not possible.
               If you have a graph with 5 vertices all of degree 4, then every vertex must be adjacent to every other vertex.
               This is the graph <m>K_5</m>.
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_gt-intro-e_sa-s-ol-l_k">
+            <p permid="exers_gt-intro-e_sa-s-ol-l_k-p">
               This is not possible.
               In fact, there is not even one graph with this property
               (such a graph would have <m>5\cdot 3/2 = 7.5</m> edges).

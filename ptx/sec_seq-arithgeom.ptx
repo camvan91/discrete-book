@@ -2,19 +2,19 @@
 
 <section permid="sec_seq-arithgeom" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_seq-arithgeom">
   <title>Arithmetic and Geometric Sequences</title>
-  <introduction permid="intr">
-    <investigation permid="inv">
-      <p permid="p1">
+  <introduction permid="sec_seq-arithgeom-intr">
+    <investigation permid="sec_seq-arithgeom-inv">
+      <p permid="sec_seq-arithgeom-intr-p1">
         For the patterns of dots below,
         draw the next pattern in the sequence.
         Then give a recursive definition and a closed formula for the number of dots in the <m>n</m>th pattern.
       </p>
 
-      <p permid="p2">
-        <ol permid="ol">
-          <li permid="l_j">
+      <p permid="sec_seq-arithgeom-intr-p2">
+        <ol permid="sec_seq-arithgeom-intr-ol">
+          <li permid="sec_seq-arithgeom-intr-ol-l_j">
 
-            <sidebyside permid="sbs1" width="65%">
+            <sidebyside permid="sec_seq-arithgeom-sbs1" width="65%">
 
               <image permid="inv_dots-seq1" xml:id="inv_dots-seq1">
 
@@ -36,9 +36,9 @@
 
           </li>
 
-          <li permid="l_s">
+          <li permid="sec_seq-arithgeom-intr-ol-l_s">
 
-            <sidebyside permid="sbs2" width="65%">
+            <sidebyside permid="sec_seq-arithgeom-sbs2" width="65%">
 
               <image permid="inv_dots-seq2" xml:id="inv_dots-seq2">
 
@@ -65,9 +65,9 @@
 
           </li>
 
-          <li permid="l_b">
+          <li permid="sec_seq-arithgeom-intr-ol-l_b">
 
-            <sidebyside permid="sbs3" width="90%">
+            <sidebyside permid="sec_seq-arithgeom-sbs3" width="90%">
 
               <image permid="inv_dots-seq3" xml:id="inv_dots-seq3">
 
@@ -94,13 +94,13 @@
         </ol>
       </p>
     </investigation>
-    <p permid="p3">
+    <p permid="sec_seq-arithgeom-intr-p3">
       We now turn to the question of finding closed formulas for particular types of sequences.
     </p>
 
-    <assemblage permid="asm-arithmetic-sequences">
+    <assemblage permid="sec_seq-arithgeom-asm-arithmetic-sequences">
       <title>Arithmetic Sequences</title>
-      <p permid="p4">
+      <p permid="sec_seq-arithgeom-intr-p4">
         If the terms of a sequence differ by a constant,
         we say the sequence is <term>arithmetic</term>.
             <idx><h>arithmetic sequence</h></idx>
@@ -109,16 +109,16 @@
         is <m>d</m>, then we have,
       </p>
 
-      <p permid="p5">
+      <p permid="sec_seq-arithgeom-intr-p5">
         Recursive definition: <m>a_n = a_{n-1} + d</m> with <m>a_0 = a</m>.
       </p>
 
-      <p permid="p6">
+      <p permid="sec_seq-arithgeom-intr-p6">
         Closed formula: <m>a_n = a + dn</m>.
       </p>
     </assemblage>
 
-    <p permid="p7">
+    <p permid="sec_seq-arithgeom-intr-p7">
       How do we know this?
       For the recursive definition,
       we need to specify <m>a_0</m>.
@@ -128,14 +128,14 @@
       the difference between successive terms is some constant,
       say <m>d</m>.
       So <m>a_n - a_{n-1} = d</m>, or in other words,
-      <me permid="me">
+      <me permid="sec_seq-arithgeom-intr-p7-me">
         a_0 = a \qquad a_n=a_{n-1}+d
       </me>.
     </p>
 
-    <p permid="p8">
+    <p permid="sec_seq-arithgeom-intr-p8">
       To find a closed formula, first write out the sequence in general:
-      <md permid="md">
+      <md permid="sec_seq-arithgeom-intr-p8-md">
         <mrow>a_0 \amp = a</mrow>
         <mrow>a_1 \amp = a_0 + d = a+d</mrow>
         <mrow>a_2 \amp = a_1 + d = a+d+d = a+2d</mrow>
@@ -144,37 +144,37 @@
       </md>
     </p>
 
-    <p permid="p9">
+    <p permid="sec_seq-arithgeom-intr-p9">
       We see that to find the <m>n</m>th term,
       we need to start with <m>a</m> and then add <m>d</m> a bunch of times.
       In fact, add it <m>n</m> times.
       Thus <m>a_n = a+dn</m>.
     </p>
 
-    <example permid="ex1">
+    <example permid="sec_seq-arithgeom-ex1">
       <statement>
-        <p permid="p1">
+        <p permid="sec_seq-arithgeom-ex1-p1">
           Find recursive definitions and closed formulas for the sequences below.
           Assume the first term listed is <m>a_0</m>.
         </p>
 
-        <p permid="p2">
-          <ol permid="ol">
-            <li permid="l_j"><m>2, 5, 8, 11, 14, \ldots</m>.</li>
+        <p permid="sec_seq-arithgeom-ex1-p2">
+          <ol permid="sec_seq-arithgeom-ex1-ol">
+            <li permid="sec_seq-arithgeom-ex1-ol-l_j"><m>2, 5, 8, 11, 14, \ldots</m>.</li>
 
-            <li permid="l_s"><m>50, 43, 36, 29, \ldots</m>.</li>
+            <li permid="sec_seq-arithgeom-ex1-ol-l_s"><m>50, 43, 36, 29, \ldots</m>.</li>
           </ol>
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p1">
+      <solution permid="sec_seq-arithgeom-ex1-s">
+        <p permid="sec_seq-arithgeom-ex1-s-p1">
           First we should check that these sequences really are arithmetic by taking differences of successive terms.
           Doing so will reveal the common difference <m>d</m>.
         </p>
 
-        <p permid="p2">
-          <ol permid="ol">
-            <li permid="l_j">
+        <p permid="sec_seq-arithgeom-ex1-s-p2">
+          <ol permid="sec_seq-arithgeom-ex1-s-ol">
+            <li permid="sec_seq-arithgeom-ex1-s-ol-l_j">
               <m>5-2 = 3</m>, <m>8-5 = 3</m>, etc.
               To get from each term to the next,
               we add three, so <m>d = 3</m>.
@@ -182,8 +182,8 @@
               The closed formula is <m>a_n = 2 + 3n</m>.
             </li>
 
-            <li permid="l_s">
-              <p permid="p">
+            <li permid="sec_seq-arithgeom-ex1-s-ol-l_s">
+              <p permid="sec_seq-arithgeom-ex1-s-ol-l_s-p">
                 Here the common difference is <m>-7</m>,
                 since we add <m>-7</m> to 50 to get 43, and so on.
                 Thus we have a recursive definition of
@@ -196,20 +196,20 @@
       </solution>
     </example>
 
-    <p permid="p10">
+    <p permid="sec_seq-arithgeom-intr-p10">
       What about sequences like <m>2, 6, 18, 54, \ldots</m>?
       This is not arithmetic because the difference between terms is not constant.
       However, the <em>ratio</em> between successive terms is constant.
       We call such sequences <term>geometric</term>.
     </p>
 
-    <p permid="p11">
+    <p permid="sec_seq-arithgeom-intr-p11">
       The recursive definition for the geometric sequence with initial term <m>a</m> and common ratio <m>r</m> is
       <m>a_n = a_{n}\cdot r; a_0 = a</m>.
       To get the next term we multiply the previous term by <m>r</m>.
       We can find the closed formula like we did for the arithmetic progression.
       Write
-      <md permid="md">
+      <md permid="sec_seq-arithgeom-intr-p11-md">
         <mrow>a_0 \amp = a</mrow>
         <mrow>a_1 \amp = a_0\cdot r</mrow>
         <mrow>a_2 \amp = a_1 \cdot r = a_0\cdot r\cdot r = a_0\cdot r^2</mrow>
@@ -220,9 +220,9 @@
       We get <m>a_n = a\cdot r^{n}</m>.
     </p>
 
-    <assemblage permid="asm-geometric-sequences">
+    <assemblage permid="sec_seq-arithgeom-asm-geometric-sequences">
       <title>Geometric Sequences</title>
-      <p permid="p12">
+      <p permid="sec_seq-arithgeom-intr-p12">
         A sequence is called <term>geometric</term>
             <idx><h>geometric sequence</h></idx>
         if the ratio between successive terms is constant.
@@ -231,37 +231,37 @@
         Then we have,
       </p>
 
-      <p permid="p13">
+      <p permid="sec_seq-arithgeom-intr-p13">
         Recursive definition: <m>a_n = ra_{n-1}</m> with <m>a_0 = a</m>.
       </p>
 
-      <p permid="p14">
+      <p permid="sec_seq-arithgeom-intr-p14">
         Closed formula: <m>a_n = a\cdot r^{n}</m>.
       </p>
     </assemblage>
 
-    <example permid="ex2">
+    <example permid="sec_seq-arithgeom-ex2">
       <statement>
-        <p permid="p">
+        <p permid="sec_seq-arithgeom-ex2-p">
           Find the recursive and closed formula for the sequences below.
           Again, the first term listed is <m>a_0</m>.
 
-          <ol permid="ol">
-            <li permid="l_j"><m>3, 6, 12, 24, 48, \ldots</m></li>
+          <ol permid="sec_seq-arithgeom-ex2-ol">
+            <li permid="sec_seq-arithgeom-ex2-ol-l_j"><m>3, 6, 12, 24, 48, \ldots</m></li>
 
-            <li permid="l_s"><m>27, 9, 3, 1, 1/3, \ldots</m></li>
+            <li permid="sec_seq-arithgeom-ex2-ol-l_s"><m>27, 9, 3, 1, 1/3, \ldots</m></li>
           </ol>
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p">
+      <solution permid="sec_seq-arithgeom-ex2-s">
+        <p permid="sec_seq-arithgeom-ex2-s-p">
           Again, we should first check that these sequences really are geometric,
           this time by dividing each term by its previous term.
           Assuming this ratio is constant,
           we will have found <m>r</m>.
 
-          <ol permid="ol">
-            <li permid="l_j">
+          <ol permid="sec_seq-arithgeom-ex2-s-ol">
+            <li permid="sec_seq-arithgeom-ex2-s-ol-l_j">
               <m>6/3 = 2</m>, <m>12/6 = 2</m>, <m>24/12 = 2</m>, etc.
               Yes, to get from any term to the next,
               we multiply by <m>r = 2</m>.
@@ -269,8 +269,8 @@
               The closed formula is <m>a_n = 3\cdot 2^{n}</m>.
             </li>
 
-            <li permid="l_s">
-              <p permid="p">
+            <li permid="sec_seq-arithgeom-ex2-s-ol-l_s">
+              <p permid="sec_seq-arithgeom-ex2-s-ol-l_s-p">
                 The common ratio is <m>r = 1/3</m>.
                 So the sequence has recursive definition <m>a_n = \frac{1}{3}a_{n-1}</m> with
                 <m>a_0 = 27</m> and closed formula <m>a_n = 27\cdot \frac{1}{3}^{n}</m>.
@@ -281,7 +281,7 @@
       </solution>
     </example>
 
-    <p permid="p15">
+    <p permid="sec_seq-arithgeom-intr-p15">
       In the examples and formulas above,
       we assumed that the <em>initial</em> term was <m>a_0</m>.
       If your sequence starts with <m>a_1</m>,
@@ -294,7 +294,7 @@
     </p>
 
     <remark>
-      <p permid="p16">
+      <p permid="sec_seq-arithgeom-intr-p16">
         If you look at other textbooks or online,
         you might find that their closed formulas for arithmetic and geometric sequences differ from ours.
         Specifically, you might find the formulas
@@ -310,16 +310,16 @@
     </remark>
   </introduction>
 
-  <subsection permid="ssec-sums-arithmetic-geometric-sequences">
+  <subsection permid="-ssec-sums-arithmetic-geometric-sequences">
     <title>Sums of Arithmetic and Geometric Sequences</title>
-    <introduction permid="intr">
-      <investigation permid="inv">
-        <p permid="p1">
+    <introduction permid="-ssec-sums-arithmetic-geometric-sequences-intr">
+      <investigation permid="-ssec-sums-arithmetic-geometric-sequences-inv">
+        <p permid="-ssec-sums-arithmetic-geometric-sequences-intr-p1">
           Your neighborhood grocery store has a candy machine full of Skittles.
 
-          <ol permid="ol">
-            <li permid="l_j">
-              <p permid="p">
+          <ol permid="-ssec-sums-arithmetic-geometric-sequences-intr-ol">
+            <li permid="-ssec-sums-arithmetic-geometric-sequences-intr-ol-l_j">
+              <p permid="-ssec-sums-arithmetic-geometric-sequences-intr-ol-l_j-p">
                 Suppose that the candy machine currently holds exactly 650 Skittles,
                 and every time someone inserts a quarter,
                 exactly 7 Skittles come out of the machine.
@@ -331,8 +331,8 @@
                     </p>
                   </li>
 
-                  <li permid="l_s">
-                    <p permid="p">
+                  <li permid="-ssec-sums-arithmetic-geometric-sequences-intr-ol-l_s">
+                    <p permid="-ssec-sums-arithmetic-geometric-sequences-intr-ol-l_s-p">
                       Will there ever be exactly zero Skittles left in the machine?
                       Explain.
                     </p>
@@ -341,15 +341,15 @@
               </p>
             </li>
 
-            <li permid="l_j">
-              <p permid="p">
+            <li permid="-ssec-sums-arithmetic-geometric-sequences-intr-l_j">
+              <p permid="-ssec-sums-arithmetic-geometric-sequences-intr-l_j-p">
                 What if the candy machine gives 7 Skittles to the first customer who put in a quarter, 10 to the second, 13 to the third, 16 to the fourth, etc.
                 How many Skittles has the machine given out after 20 quarters are put into the machine?
               </p>
             </li>
 
-            <li permid="l_s">
-              <p permid="p">
+            <li permid="-ssec-sums-arithmetic-geometric-sequences-intr-l_s">
+              <p permid="-ssec-sums-arithmetic-geometric-sequences-intr-l_s-p">
                 Now, what if the machine gives 4 Skittles to the first customer, 7 to the second, 12 to the third, 19 to the fourth, etc.
                 How many Skittles has the machine given out after 20 quarters are put into the machine?
               </p>
@@ -357,7 +357,7 @@
           </ol>
         </p>
       </investigation>
-      <p permid="p2">
+      <p permid="-ssec-sums-arithmetic-geometric-sequences-intr-p2">
         Look at the sequence <m>(T_n)_{n\ge 1}</m> which starts <m>1, 3, 6, 10, 15,\ldots</m>.
         These are called the <term>triangular numbers</term>
             <idx><h>triangular numbers</h></idx>
@@ -366,9 +366,9 @@
         a row of 4 plus a row of 3 plus a row of 2 and a row of 1).
       </p>
 
-      <sidebyside permid="sbs" width="50%">
+      <sidebyside permid="-ssec-sums-arithmetic-geometric-sequences-sbs" width="50%">
 
-        <image permid="im">
+        <image permid="-ssec-sums-arithmetic-geometric-sequences-sbs-im">
 
           <latex-image>
             \begin{tikzpicture}
@@ -389,7 +389,7 @@
 
       </sidebyside>
 
-      <p permid="p3">
+      <p permid="-ssec-sums-arithmetic-geometric-sequences-intr-p3">
         Is this sequence arithmetic?
         No, since <m>3-1 = 2</m> and <m>6-3 = 3 \ne 2</m>,
         so there is no common difference.
@@ -399,7 +399,7 @@
         What to do?
       </p>
 
-      <p permid="p4">
+      <p permid="-ssec-sums-arithmetic-geometric-sequences-intr-p4">
         Notice that the differences between terms form an arithmetic sequence:
         <m>2, 3, 4, 5, 6,\ldots</m>.
         This says that the <m>n</m>th term of the sequence <m>1,3,6,10,15,\ldots</m> is the <em>sum</em>
@@ -413,9 +413,9 @@
         we could use this to find a closed formula for a sequence whose differences are the terms of that arithmetic sequence.
       </p>
 
-      <p permid="p5">
+      <p permid="-ssec-sums-arithmetic-geometric-sequences-intr-p5">
         This should become clearer if we write the triangular numbers like this:
-        <md permid="md">
+        <md permid="-ssec-sums-arithmetic-geometric-sequences-intr-p5-md">
           <mrow>1 \amp = 1</mrow>
           <mrow>3 \amp = 1+2</mrow>
           <mrow>6 \amp = 1 + 2 + 3</mrow>
@@ -425,7 +425,7 @@
         </md>.
       </p>
 
-      <p permid="p6">
+      <p permid="-ssec-sums-arithmetic-geometric-sequences-intr-p6">
         Consider how we could find the sum of the first 100 positive integers
         (that is, <m>T_{100}</m>).
         Instead of adding them in order,
@@ -440,7 +440,7 @@
         who discovered it as a child when his unpleasant elementary teacher thought he would keep the class busy by requiring them to compute the lengthy sum.
         </fn></p>
 
-      <p permid="p7">
+      <p permid="-ssec-sums-arithmetic-geometric-sequences-intr-p7">
         In general, using this same sort of regrouping,
         we find that <m>T_n = \frac{n(n+1)}{2}</m>.
         Incidentally,
@@ -450,7 +450,7 @@
         the next shakes an additional <m>n-1</m> hands and so on.
       </p>
 
-      <p permid="p8">
+      <p permid="-ssec-sums-arithmetic-geometric-sequences-intr-p8">
         The point of all of this is that some sequences,
         while not arithmetic or geometric,
         can be interpreted as the sequence of partial sums of arithmetic and geometric sequences.
@@ -458,20 +458,20 @@
       </p>
     </introduction>
 
-    <subsubsection permid="sssec-summing-arithmetic-sequences-reverse-add">
+    <subsubsection permid="-sssec-summing-arithmetic-sequences-reverse-add">
       <title>Summing Arithmetic Sequences: Reverse and Add</title>
-      <p permid="p1">
+      <p permid="-sssec-summing-arithmetic-sequences-reverse-add-p1">
         Here is a technique that allows us to quickly find the sum of an arithmetic sequence.
       </p>
 
-      <example permid="ex1">
+      <example permid="-sssec-summing-arithmetic-sequences-reverse-add-ex1">
         <statement>
-          <p permid="p">
+          <p permid="-sssec-summing-arithmetic-sequences-reverse-add-ex1-p">
             Find the sum: <m>2 + 5 + 8 + 11 + 14 + \cdots + 470</m>.
           </p>
         </statement>
-        <solution permid="s">
-          <p permid="p1">
+        <solution permid="-sssec-summing-arithmetic-sequences-reverse-add-ex1-s">
+          <p permid="-sssec-summing-arithmetic-sequences-reverse-add-ex1-s-p1">
             The idea is to mimic how we found the formula for triangular numbers.
             If we add the first and last terms, we get 472.
             The second term and second-to-last term also add up to 472.
@@ -480,7 +480,7 @@
             Then,
           </p>
 
-          <sidebyside permid="sbs">
+          <sidebyside permid="-sssec-summing-arithmetic-sequences-reverse-add-ex1-sbs">
 
             <tabular>
               <col halign="right"/>
@@ -533,7 +533,7 @@
 
           </sidebyside>
 
-          <p permid="p2">
+          <p permid="-sssec-summing-arithmetic-sequences-reverse-add-ex1-s-p2">
             To find <m>2S</m> then we add 472 to itself a number of times.
             What number?
             We need to decide how many terms (<term>summands</term>) are in the sum.
@@ -545,21 +545,21 @@
             So <m>n</m> ranges from 0 to 156, giving 157 terms in the sum.
             This is the number of 472's in the sum for <m>2S</m>.
             Thus
-            <me permid="me">
+            <me permid="-sssec-summing-arithmetic-sequences-reverse-add-ex1-s-p2-me">
               2S = 157\cdot 472 = 74104
             </me>
           </p>
 
-          <p permid="p3">
+          <p permid="-sssec-summing-arithmetic-sequences-reverse-add-ex1-s-p3">
             It is now easy to find <m>S</m>:
-            <me permid="me">
+            <me permid="-sssec-summing-arithmetic-sequences-reverse-add-ex1-s-p3-me">
               S = 74104/2 = 37052
             </me>
           </p>
         </solution>
       </example>
 
-      <p permid="p2">
+      <p permid="-sssec-summing-arithmetic-sequences-reverse-add-p2">
         This will work for any sum of <em>arithmetic</em> sequences.
         Call the sum <m>S</m>.
         Reverse and add.
@@ -570,14 +570,14 @@
         Done.
       </p>
 
-      <example permid="ex2">
+      <example permid="-sssec-summing-arithmetic-sequences-reverse-add-ex2">
         <statement>
-          <p permid="p">
+          <p permid="-sssec-summing-arithmetic-sequences-reverse-add-ex2-p">
             Find a closed formula for <m>6 + 10 + 14 + \cdots + (4n - 2)</m>.
           </p>
         </statement>
-        <solution permid="s">
-          <p permid="p1">
+        <solution permid="-sssec-summing-arithmetic-sequences-reverse-add-ex2-s">
+          <p permid="-sssec-summing-arithmetic-sequences-reverse-add-ex2-s-p1">
             Again, we have a sum of an arithmetic sequence.
             We need to know how many terms are in the sequence.
             Clearly each term in the sequence has the form <m>4k -2</m>
@@ -592,11 +592,11 @@
             so one less if we start with 2.)
           </p>
 
-          <p permid="p2">
+          <p permid="-sssec-summing-arithmetic-sequences-reverse-add-ex2-s-p2">
             Now reverse and add:
           </p>
 
-          <sidebyside permid="sbs">
+          <sidebyside permid="-sssec-summing-arithmetic-sequences-reverse-add-ex2-sbs">
 
             <tabular>
               <col halign="right"/>
@@ -641,34 +641,34 @@
 
           </sidebyside>
 
-          <p permid="p3">
+          <p permid="-sssec-summing-arithmetic-sequences-reverse-add-ex2-s-p3">
             Since there are <m>n-2</m> terms, we get
-            <me permid="me">
+            <me permid="-sssec-summing-arithmetic-sequences-reverse-add-ex2-s-p3-me">
               2S = (n-2)(4n+4)\qquad \mbox{ so } \qquad S = \frac{(n-2)(4n+4)}{2}
             </me>
           </p>
         </solution>
       </example>
 
-      <p permid="p3">
+      <p permid="-sssec-summing-arithmetic-sequences-reverse-add-p3">
         Besides finding sums,
         we can use this technique to find closed formulas for sequences we recognize as sequences of partial sums.
       </p>
 
       <example permid="ex-sum-arithmetic" xml:id="example-sum-of-arithmetic">
         <statement>
-          <p permid="p">
+          <p permid="ex-sum-arithmetic-p">
             Use partial sums to find a closed formula for
             <m>(a_n)_{n\ge 0}</m> which starts <m>2, 3, 7, 14, 24, 37,\ldots \ldots</m>
           </p>
         </statement>
-        <solution permid="s">
-          <p permid="p1">
+        <solution permid="ex-sum-arithmetic-s">
+          <p permid="ex-sum-arithmetic-s-p1">
             First, if you look at the differences between terms,
             you get a sequence of differences:
             <m>1,4,7,10,13, \ldots</m>, which is an arithmetic sequence.
             Written another way:
-            <md permid="md">
+            <md permid="ex-sum-arithmetic-s-p1-md">
               <mrow>a_0 \amp = 2</mrow>
               <mrow>a_1 \amp = 2+1</mrow>
               <mrow>a_2 \amp = 2+1+4</mrow>
@@ -676,19 +676,19 @@
             </md>
             and so on.
             We can write the general term of <m>(a_n)</m> in terms of the arithmetic sequence as follows:
-            <me permid="me">
+            <me permid="ex-sum-arithmetic-s-p1-me">
               a_n = 2 + 1 + 4 + 7 + 10 + \cdots + (1+3(n-1))
             </me>
             (we use <m>1+3(n-1)</m> instead of <m>1+3n</m> to get the indices to line up correctly;
             for <m>a_3</m> we add up to 7, which is <m>1+3(3-1)</m>).
           </p>
 
-          <p permid="p2">
+          <p permid="ex-sum-arithmetic-s-p2">
             We can reverse and add, but the initial 2 does not fit our pattern.
             This just means we need to keep the 2 out of the reverse part:
           </p>
 
-          <sidebyside permid="sbs">
+          <sidebyside permid="ex-sum-arithmetic-sbs">
 
             <tabular>
               <col halign="right"/>
@@ -735,14 +735,14 @@
 
           </sidebyside>
 
-          <p permid="p3">
+          <p permid="ex-sum-arithmetic-s-p3">
             Not counting the first term (the 4) there are <m>n</m> summands of
             <m>2+3(n-1) = 3n-1</m> so the right-hand side becomes <m>2+(3n-1)n</m>.
           </p>
 
-          <p permid="p4">
+          <p permid="ex-sum-arithmetic-s-p4">
             Finally, solving for <m>a_n</m> we get
-            <me permid="me">
+            <me permid="ex-sum-arithmetic-s-p4-me">
               a_n = \d \frac{4+(3n-1)n}{2}
             </me>.
             Just to be sure, we check <m>a_0 = \frac{4}{2} = 2</m>,
@@ -753,9 +753,9 @@
       </example>
     </subsubsection>
 
-    <subsubsection permid="sssec-summing-geometric-sequences-multiply-shift-subtract">
+    <subsubsection permid="-sssec-summing-geometric-sequences-multiply-shift-subtract">
       <title>Summing Geometric Sequences: Multiply, Shift and Subtract</title>
-      <p permid="p1">
+      <p permid="-sssec-summing-geometric-sequences-multiply-shift-subtract-p1">
         To find the sum of a geometric sequence,
         we cannot just reverse and add.
         Do you see why?
@@ -765,14 +765,14 @@
         For geometric sums, we have a different technique.
       </p>
 
-      <example permid="ex1">
+      <example permid="-sssec-summing-geometric-sequences-multiply-shift-subtract-ex1">
         <statement>
-          <p permid="p">
+          <p permid="-sssec-summing-geometric-sequences-multiply-shift-subtract-ex1-p">
             What is <m>3 + 6 + 12 + 24 + \cdots + 12288</m>?
           </p>
         </statement>
-        <solution permid="s">
-          <p permid="p">
+        <solution permid="-sssec-summing-geometric-sequences-multiply-shift-subtract-ex1-s">
+          <p permid="-sssec-summing-geometric-sequences-multiply-shift-subtract-ex1-s-p">
             Multiply each term by 2, the common ratio.
             You get <m>2S = 6 + 12 + 24 + \cdots + 24576</m>.
             Now subtract: <m>2S - S = -3 + 24576 = 24573</m>.
@@ -781,11 +781,11 @@
         </solution>
       </example>
 
-      <p permid="p2">
+      <p permid="-sssec-summing-geometric-sequences-multiply-shift-subtract-p2">
         To better see what happened in the above example, try writing it this way:
       </p>
 
-      <sidebyside permid="sbs">
+      <sidebyside permid="-sssec-summing-geometric-sequences-multiply-shift-subtract-sbs">
 
         <tabular>
           <col halign="right"/>
@@ -814,7 +814,7 @@
 
       </sidebyside>
 
-      <p permid="p3">
+      <p permid="-sssec-summing-geometric-sequences-multiply-shift-subtract-p3">
         Then divide both sides by <m>-1</m> and we have the same result for <m>S</m>.
         The idea is, by multiplying the sum by the common ratio,
         each term becomes the next term.
@@ -822,19 +822,19 @@
         leaving just the first term and new last term.
       </p>
 
-      <example permid="ex2">
+      <example permid="-sssec-summing-geometric-sequences-multiply-shift-subtract-ex2">
         <statement>
-          <p permid="p">
+          <p permid="-sssec-summing-geometric-sequences-multiply-shift-subtract-ex2-p">
             Find a closed formula for <m>S(n) = 2 + 10 + 50 + \cdots + 2\cdot 5^n</m>.
           </p>
         </statement>
-        <solution permid="s">
-          <p permid="p1">
+        <solution permid="-sssec-summing-geometric-sequences-multiply-shift-subtract-ex2-s">
+          <p permid="-sssec-summing-geometric-sequences-multiply-shift-subtract-ex2-s-p1">
             The common ratio is 5.
             So we have
           </p>
 
-          <sidebyside permid="sbs">
+          <sidebyside permid="-sssec-summing-geometric-sequences-multiply-shift-subtract-ex2-sbs">
 
             <tabular>
               <col halign="right"/>
@@ -855,31 +855,31 @@
 
           </sidebyside>
 
-          <p permid="p2">
+          <p permid="-sssec-summing-geometric-sequences-multiply-shift-subtract-ex2-s-p2">
             Thus <m>S = \dfrac{2-2\cdot 5^{n+1}}{-4}</m>
           </p>
         </solution>
       </example>
 
-      <p permid="p4">
+      <p permid="-sssec-summing-geometric-sequences-multiply-shift-subtract-p4">
         Even though this might seem like a new technique,
         you have probably used it before.
       </p>
 
-      <example permid="ex3">
+      <example permid="-sssec-summing-geometric-sequences-multiply-shift-subtract-ex3">
         <statement>
-          <p permid="p">
+          <p permid="-sssec-summing-geometric-sequences-multiply-shift-subtract-ex3-p">
             Express <m>0.464646\ldots</m> as a fraction.
           </p>
         </statement>
-        <solution permid="s">
-          <p permid="p1">
+        <solution permid="-sssec-summing-geometric-sequences-multiply-shift-subtract-ex3-s">
+          <p permid="-sssec-summing-geometric-sequences-multiply-shift-subtract-ex3-s-p1">
             Let <m>N = 0.46464646\ldots</m>.
             Consider <m>0.01N</m>.
             We get:
           </p>
 
-          <sidebyside permid="sbs">
+          <sidebyside permid="-sssec-summing-geometric-sequences-multiply-shift-subtract-ex3-sbs">
 
             <tabular>
               <col/>
@@ -904,7 +904,7 @@
 
           </sidebyside>
 
-          <p permid="p2">
+          <p permid="-sssec-summing-geometric-sequences-multiply-shift-subtract-ex3-s-p2">
             So <m>N = \frac{46}{99}</m>.
             What have we done?
             We viewed the repeating decimal
@@ -920,9 +920,9 @@
       </example>
     </subsubsection>
 
-    <subsubsection permid="sssec-sum-prod-notation">
+    <subsubsection permid="-sssec-sum-prod-notation">
       <title><m>\sum</m> and <m>\prod</m> notation</title>
-      <p permid="p1">
+      <p permid="-sssec-sum-prod-notation-p1">
         To simplify writing out sums,
         we will use notation like <m>\d\sum_{k=1}^n a_k</m>.
         This means add up the <m>a_k</m>'s where <m>k</m> changes from 1 to <m>n</m>.
@@ -930,36 +930,36 @@
             <idx><h>Sigma notation</h></idx>
       </p>
 
-      <example permid="ex">
+      <example permid="-sssec-sum-prod-notation-ex">
         <statement>
-          <p permid="p1">
+          <p permid="-sssec-sum-prod-notation-ex-p1">
             Use <m>\sum</m> notation to rewrite the sums:
           </p>
 
-          <p permid="p2">
-            <ol permid="ol">
-              <li permid="l_j"><m>1 + 2 + 3 + 4 + \cdots + 100</m></li>
+          <p permid="-sssec-sum-prod-notation-ex-p2">
+            <ol permid="-sssec-sum-prod-notation-ex-ol">
+              <li permid="-sssec-sum-prod-notation-ex-ol-l_j"><m>1 + 2 + 3 + 4 + \cdots + 100</m></li>
 
-              <li permid="l_s"><m>1 + 2 + 4 + 8 + \cdots + 2^{50}</m></li>
+              <li permid="-sssec-sum-prod-notation-ex-ol-l_s"><m>1 + 2 + 4 + 8 + \cdots + 2^{50}</m></li>
 
-              <li permid="l_b"><m>6 + 10 + 14 + \cdots + (4n - 2)</m>.</li>
+              <li permid="-sssec-sum-prod-notation-ex-ol-l_b"><m>6 + 10 + 14 + \cdots + (4n - 2)</m>.</li>
             </ol>
           </p>
         </statement>
-        <solution permid="s">
-          <p permid="p">
-            <ol permid="ol">
-              <li permid="l_j"><m>\d\sum_{k=1}^{100} k</m></li>
+        <solution permid="-sssec-sum-prod-notation-ex-s">
+          <p permid="-sssec-sum-prod-notation-ex-s-p">
+            <ol permid="-sssec-sum-prod-notation-ex-s-ol">
+              <li permid="-sssec-sum-prod-notation-ex-s-ol-l_j"><m>\d\sum_{k=1}^{100} k</m></li>
 
-              <li permid="l_s"><m>\d\sum_{k=0}^{50} 2^k</m></li>
+              <li permid="-sssec-sum-prod-notation-ex-s-ol-l_s"><m>\d\sum_{k=0}^{50} 2^k</m></li>
 
-              <li permid="l_b"><m>\d\sum_{k=2}^{n} (4k -2)</m></li>
+              <li permid="-sssec-sum-prod-notation-ex-s-ol-l_b"><m>\d\sum_{k=2}^{n} (4k -2)</m></li>
             </ol>
           </p>
         </solution>
       </example>
 
-      <p permid="p2">
+      <p permid="-sssec-sum-prod-notation-p2">
         If we want to multiply the <m>a_k</m> instead,
         we would write <m>\d\prod_{k=1}^n a_k</m>.
         For example, <m>\d\prod_{k=1}^n k = n!</m>.

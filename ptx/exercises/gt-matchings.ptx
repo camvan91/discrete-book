@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <exercises permid="exers_gt-matchings" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exercises_gt-matchings">
 
-  <exercise permid="e_xo">
+  <exercise permid="exers_gt-matchings-e_xo">
     <statement>
-      <p permid="p">
+      <p permid="exers_gt-matchings-e_xo-p">
         Find a matching of the bipartite graphs below or explain why no matching exists.
       </p>
 
-      <sidebyside permid="sbs1" widths="20% 30% 40%" margins="auto" valign="bottom">
+      <sidebyside permid="exers_gt-matchings-sbs1" widths="20% 30% 40%" margins="auto" valign="bottom">
 
-        <image permid="im1">
+        <image permid="exers_gt-matchings-sbs1-im1">
 
             <latex-image>
               \begin{tikzpicture}
@@ -24,7 +24,7 @@
             </latex-image>
         </image>
 
-        <image permid="im2">
+        <image permid="exers_gt-matchings-sbs1-im2">
 
             <latex-image>
               \begin{tikzpicture}
@@ -42,7 +42,7 @@
             </latex-image>
         </image>
 
-        <image permid="im3">
+        <image permid="exers_gt-matchings-sbs1-im3">
 
             <latex-image>
               \begin{tikzpicture}
@@ -64,8 +64,8 @@
 
       </sidebyside>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_gt-matchings-e_xo-s">
+      <p permid="exers_gt-matchings-e_xo-s-p">
         The first and third graphs have a matching, shown in bold
         (there are other matchings as well).
         The middle graph does not have a matching.
@@ -75,23 +75,23 @@
         (the three circled vertices form the set <m>S</m>).
       </p>
 
-      <sidebyside permid="sbs2" widths="20% 30% 40%" margins="auto" valign="bottom">
+      <sidebyside permid="exers_gt-matchings-sbs2" widths="20% 30% 40%" margins="auto" valign="bottom">
 
-        <image permid="im1">
+        <image permid="exers_gt-matchings-e_xo-s-im1">
 
             <latex-image>
               \begin{tikzpicture} \coordinate (a) at (0,0); \coordinate (A) at (0,1); \coordinate (b) at (1,0); \coordinate (B) at (1,1); \coordinate (c) at (2,0); \coordinate (C) at (2,1); \draw (a) \v -- (B) \v -- (c) \v -- (C) \v -- (a) \v -- (A)\v -- (b) \v; \draw[very thick] (a) -- (C) (A) -- (b) (c) -- (B); \end{tikzpicture}
             </latex-image>
         </image>
 
-        <image permid="im2">
+        <image permid="exers_gt-matchings-e_xo-s-im2">
 
             <latex-image>
               \begin{tikzpicture} \coordinate (a) at (0,0); \coordinate (A) at (0,1); \coordinate (b) at (1,0); \coordinate (B) at (1,1); \coordinate (c) at (2,0); \coordinate (C) at (2,1); \coordinate (d) at (3,0); \coordinate (D) at (3,1); \draw (a) \v -- (A) \v (b) \v -- (B) \v (c) \v -- (C) \v (d) \v (D)\v; \draw (a) -- (C) -- (b) -- (D) (A) -- (c) (A) -- (d) -- (C); \draw[dashed] (a) circle (7pt) (c) circle (7pt) (d) circle (7pt); \end{tikzpicture}
             </latex-image>
         </image>
 
-        <image permid="im3">
+        <image permid="exers_gt-matchings-e_xo-s-im3">
 
             <latex-image>
               \begin{tikzpicture} \coordinate (a) at (0,0); \coordinate (A) at (0,1); \coordinate (b) at (1,0); \coordinate (B) at (1,1); \coordinate (c) at (2,0); \coordinate (C) at (2,1); \coordinate (d) at (3,0); \coordinate (D) at (3,1); \coordinate (e) at (4,0); \coordinate (E) at (4,1); \draw (a) \v (A) \v (b) \v (B) \v (c) \v (C) \v (d) \v (D)\v (e)\v (E) \v; \draw (a) -- (A) (a) -- (B) (A) -- (b) (A) -- (c) (b) -- (C) (B) -- (c) -- (D) (c) -- (E) (C) -- (d) -- (E) (D) -- (e) -- (E); \draw[very thick] (a) -- (A) (b) -- (C) (c) -- (B) (d) -- (E) (e) -- (D); \end{tikzpicture}
@@ -102,9 +102,9 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ag">
+  <exercise permid="exers_gt-matchings-e_ag">
     <statement>
-      <p permid="p1">
+      <p permid="exers_gt-matchings-e_ag-p1">
         A bipartite graph that doesn't have a matching might still have a
         <term>partial matching</term>.
         By this we mean a set of <em>edges</em>
@@ -116,7 +116,7 @@
         so we can look for the largest partial matching in a graph.
       </p>
 
-      <p permid="p2">
+      <p permid="exers_gt-matchings-e_ag-p2">
         Your <q>friend</q> claims that she has found the largest partial matching for the graph below
         (her matching is in bold).
         She explains that no other edge can be added,
@@ -124,9 +124,9 @@
         Is she correct?
       </p>
 
-      <sidebyside permid="sbs3" width="40%">
+      <sidebyside permid="exers_gt-matchings-sbs3" width="40%">
 
-        <image permid="im">
+        <image permid="exers_gt-matchings-sbs3-im">
 
             <latex-image>
 
@@ -146,9 +146,9 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_dp">
+  <exercise permid="exers_gt-matchings-e_dp">
     <statement>
-      <p permid="p">
+      <p permid="exers_gt-matchings-e_dp-p">
         One way you might check to see whether a partial matching is maximal is to construct an
         <term>alternating path</term>.
         This is a sequence of adjacent edges,
@@ -158,17 +158,17 @@
         <em>not</em> in the matching,
         then it is called an <term>augmenting path</term>.
 
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+        <ol permid="exers_gt-matchings-e_dp-ol">
+          <li permid="exers_gt-matchings-e_dp-ol-l_j">
+            <p permid="exers_gt-matchings-e_dp-ol-l_j-p">
               Find the largest possible alternating path for the partial matching of your friend's graph.
               Is it an augmenting path?
               How would this help you find a larger matching?
             </p>
 
-            <sidebyside permid="sbs4" width="40%">
+            <sidebyside permid="exers_gt-matchings-sbs4" width="40%">
 
-              <image permid="im">
+              <image permid="exers_gt-matchings-e_dp-ol-l_j-im">
 
             <latex-image>
 
@@ -189,16 +189,16 @@
 
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_gt-matchings-e_dp-ol-l_s">
+            <p permid="exers_gt-matchings-e_dp-ol-l_s-p">
               Find the largest possible alternating path for the partial matching below.
               Are there any augmenting paths?
               Is the partial matching the largest one that exists in the graph?
             </p>
 
-            <sidebyside permid="sbs5" width="50%">
+            <sidebyside permid="exers_gt-matchings-sbs5" width="50%">
 
-              <image permid="im">
+              <image permid="exers_gt-matchings-e_dp-ol-l_s-im">
 
             <latex-image>
 
@@ -223,9 +223,9 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_gy">
+  <exercise permid="exers_gt-matchings-e_gy">
     <statement>
-      <p permid="p1">
+      <p permid="exers_gt-matchings-e_gy-p1">
         The two richest families in Westeros have decided to enter into an alliance by marriage.
         The first family has 10 sons, the second has 10 girls.
         The ages of the kids in the two families match up.
@@ -235,9 +235,9 @@
         In fact, the graph representing agreeable marriages looks like this:
       </p>
 
-      <sidebyside permid="sbs6" width="90%">
+      <sidebyside permid="exers_gt-matchings-sbs6" width="90%">
 
-        <image permid="im">
+        <image permid="exers_gt-matchings-sbs6-im">
 
           <latex-image>
             \begin{tikzpicture}
@@ -254,33 +254,33 @@
 
       </sidebyside>
 
-      <p permid="p2">
+      <p permid="exers_gt-matchings-e_gy-p2">
         The question:
         how many different acceptable marriage arrangements which marry off all 20 children are possible?
 
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+        <ol permid="exers_gt-matchings-e_gy-ol">
+          <li permid="exers_gt-matchings-e_gy-ol-l_j">
+            <p permid="exers_gt-matchings-e_gy-ol-l_j-p">
               How many marriage arrangements are possible if we insist that there are exactly 6 boys marry girls not their own age?
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_gt-matchings-e_gy-ol-l_s">
+            <p permid="exers_gt-matchings-e_gy-ol-l_s-p">
               Could you generalize the previous answer to arrive at the total number of marriage arrangements?
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_gt-matchings-e_gy-ol-l_b">
+            <p permid="exers_gt-matchings-e_gy-ol-l_b-p">
               How do you know you are correct?
               Try counting in a different way.
               Look at smaller family sizes and get a sequence.
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_gt-matchings-e_gy-ol-l_k">
+            <p permid="exers_gt-matchings-e_gy-ol-l_k-p">
               Can you give a recurrence relation that fits the problem?
             </p>
           </li>
@@ -289,9 +289,9 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_jq">
+  <exercise permid="exers_gt-matchings-e_jq">
     <statement>
-      <p permid="p">
+      <p permid="exers_gt-matchings-e_jq-p">
         We say that a set of vertices
         <m>A \subseteq V</m> is a <term>vertex cover</term>
         if every edge of the graph is incident to a vertex in the cover
@@ -302,20 +302,20 @@
         <term>minimal</term> vertex cover,
         one that uses the fewest possible number of vertices.
 
-        <ol permid="ol">
-          <li permid="l_j">
+        <ol permid="exers_gt-matchings-e_jq-ol">
+          <li permid="exers_gt-matchings-e_jq-ol-l_j">
             Suppose you had a matching of a graph.
             How can you use that to get a minimal vertex cover?
             Will your method always work?
           </li>
 
-          <li permid="l_s">
+          <li permid="exers_gt-matchings-e_jq-ol-l_s">
             Suppose you had a minimal vertex cover for a graph.
             How can you use that to get a partial matching?
             Will your method always work?
           </li>
 
-          <li permid="l_b">
+          <li permid="exers_gt-matchings-e_jq-ol-l_b">
             What is the relationship between the size of the minimal vertex cover and the size of the maximal partial matching in a graph?
           </li>
         </ol>
@@ -323,31 +323,31 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_mz">
+  <exercise permid="exers_gt-matchings-e_mz">
     <statement>
-      <p permid="p">
+      <p permid="exers_gt-matchings-e_mz-p">
         For many applications of matchings,
         it makes sense to use bipartite graphs.
         You might wonder, however,
         whether there is a way to find matchings in graphs in general.
 
-        <ol permid="ol">
-          <li permid="l_j">
+        <ol permid="exers_gt-matchings-e_mz-ol">
+          <li permid="exers_gt-matchings-e_mz-ol-l_j">
             For which <m>n</m> does the complete graph <m>K_n</m> have a matching?
           </li>
 
-          <li permid="l_s">
+          <li permid="exers_gt-matchings-e_mz-ol-l_s">
             Prove that if a graph has a matching,
             then <m>\card{V}</m> is even.
           </li>
 
-          <li permid="l_b">
+          <li permid="exers_gt-matchings-e_mz-ol-l_b">
             Is the converse true?
             That is, do all graphs with
             <m>\card{V}</m> even have a matching?
           </li>
 
-          <li permid="l_k">
+          <li permid="exers_gt-matchings-e_mz-ol-l_k">
             What if we also require the matching condition?
             Prove or disprove: If a graph with an even number of vertices satisfies
             <m>\card{N(S)} \ge \card{S}</m> for all <m>S \subseteq V</m>,

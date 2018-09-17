@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <exercises permid="exers_counting-combperm" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exercises_counting-combperm">
 
-  <exercise permid="e_xo">
+  <exercise permid="exers_counting-combperm-e_xo">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-combperm-e_xo-p">
         A pizza parlor offers 10 toppings.
 
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+        <ol permid="exers_counting-combperm-e_xo-ol">
+          <li permid="exers_counting-combperm-e_xo-ol-l_j">
+            <p permid="exers_counting-combperm-e_xo-ol-l_j-p">
               How many 3-topping pizzas could they put on their menu?
               Assume double toppings are not allowed.
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_counting-combperm-e_xo-ol-l_s">
+            <p permid="exers_counting-combperm-e_xo-ol-l_s-p">
               How many total pizzas are possible,
               with between zero and ten toppings
               (but not double toppings)
@@ -23,8 +23,8 @@
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_counting-combperm-e_xo-ol-l_b">
+            <p permid="exers_counting-combperm-e_xo-ol-l_b-p">
               The pizza parlor will list the 10 toppings in two equal-sized columns on their menu.
               How many ways can they arrange the toppings in the left column?
             </p>
@@ -32,22 +32,22 @@
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j">
+    <solution permid="exers_counting-combperm-e_xo-s">
+      <p permid="exers_counting-combperm-e_xo-s-p">
+        <ol permid="exers_counting-combperm-e_xo-s-ol">
+          <li permid="exers_counting-combperm-e_xo-s-ol-l_j">
             <m>{10 \choose 3} = 120</m> pizzas.
             We must choose
             (in no particular order)
             3 out of the 10 toppings.
           </li>
 
-          <li permid="l_s">
+          <li permid="exers_counting-combperm-e_xo-s-ol-l_s">
             <m>2^{10} = 1024</m> pizzas.
             Say yes or no to each topping.
           </li>
 
-          <li permid="l_b">
+          <li permid="exers_counting-combperm-e_xo-s-ol-l_b">
             <m>P(10,5) = 30240</m> ways.
             Assign each of the 5 spots in the left column to a unique pizza topping.
           </li>
@@ -56,9 +56,9 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ag">
+  <exercise permid="exers_counting-combperm-e_ag">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-combperm-e_ag-p">
         A combination lock consists of a dial with 40 numbers on it.
         To open the lock,
         you turn the dial to the right until you reach a first number,
@@ -68,8 +68,8 @@
         How many different combinations are possible?
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_counting-combperm-e_ag-s">
+      <p permid="exers_counting-combperm-e_ag-s-p">
         Despite its name, we are not looking for a combination here.
         The order in which the three numbers appears matters.
         There are <m>P(40,3) = 40\cdot 39 \cdot 38</m> different possibilities for the <q>combination</q>.
@@ -79,32 +79,32 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_dp">
+  <exercise permid="exers_counting-combperm-e_dp">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-combperm-e_dp-p">
         Using the digits 2 through 8, find the number of different 5-digit numbers such that:
 
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+        <ol permid="exers_counting-combperm-e_dp-ol">
+          <li permid="exers_counting-combperm-e_dp-ol-l_j">
+            <p permid="exers_counting-combperm-e_dp-ol-l_j-p">
               Digits can be used more than once.
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_counting-combperm-e_dp-ol-l_s">
+            <p permid="exers_counting-combperm-e_dp-ol-l_s-p">
               Digits cannot be repeated, but can come in any order.
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_counting-combperm-e_dp-ol-l_b">
+            <p permid="exers_counting-combperm-e_dp-ol-l_b-p">
               Digits cannot be repeated and must be written in increasing order.
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_counting-combperm-e_dp-ol-l_k">
+            <p permid="exers_counting-combperm-e_dp-ol-l_k-p">
               Which of the above counting questions is a combination and which is a permutation?
               Explain why this makes sense.
             </p>
@@ -114,16 +114,16 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_gy">
+  <exercise permid="exers_counting-combperm-e_gy">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-combperm-e_gy-p">
         How many triangles are there with vertices from the points shown below?
         Note, we are not allowing degenerate triangles - ones with all three vertices on the same line,
         but we do allow non-right triangles.
         Explain why your answer is correct.
       </p>
 
-      <sidebyside permid="sbs1" width="50%">
+      <sidebyside permid="exers_counting-combperm-sbs1" width="50%">
 
         <image permid="triangle-dots" xml:id="triangle-dots">
 
@@ -141,21 +141,21 @@
 
       </sidebyside>
     </statement>
-    <hint permid="h">
-      <p permid="p">
+    <hint permid="exers_counting-combperm-e_gy-h">
+      <p permid="exers_counting-combperm-e_gy-h-p">
         You need exactly two points on either the <m>x</m>- or <m>y</m>-axis,
         but don't over-count the right triangles.
       </p>
     </hint>
   </exercise>
 
-  <exercise permid="e_jq">
+  <exercise permid="exers_counting-combperm-e_jq">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-combperm-e_jq-p">
         How many quadrilaterals can you draw using the dots below as vertices (corners)?
       </p>
 
-      <sidebyside permid="sbs2" width="54%">
+      <sidebyside permid="exers_counting-combperm-sbs2" width="54%">
 
         <image permid="quad-counting" xml:id="quad-counting">
 
@@ -170,8 +170,8 @@
 
       </sidebyside>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_counting-combperm-e_jq-s">
+      <p permid="exers_counting-combperm-e_jq-s-p">
         <m>{7\choose 2}{7\choose 2} = 441</m> quadrilaterals.
         We must pick two of the seven dots from the top row and two of the seven dots on the bottom row.
         However, it does not make a difference which of the two
@@ -182,32 +182,32 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_mz">
+  <exercise permid="exers_counting-combperm-e_mz">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-combperm-e_mz-p">
         How many of the quadrilaterals possible in the previous problem are:
 
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+        <ol permid="exers_counting-combperm-e_mz-ol">
+          <li permid="exers_counting-combperm-e_mz-ol-l_j">
+            <p permid="exers_counting-combperm-e_mz-ol-l_j-p">
               Squares?
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_counting-combperm-e_mz-ol-l_s">
+            <p permid="exers_counting-combperm-e_mz-ol-l_s-p">
               Rectangles?
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_counting-combperm-e_mz-ol-l_b">
+            <p permid="exers_counting-combperm-e_mz-ol-l_b-p">
               Parallelograms?
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_counting-combperm-e_mz-ol-l_k">
+            <p permid="exers_counting-combperm-e_mz-ol-l_k-p">
               Trapezoids?<fn>
               Here, as in calculus,
               a trapezoid is defined as a quadrilateral with <em>at least</em>
@@ -216,19 +216,19 @@
               </fn></p>
           </li>
 
-          <li permid="l_t">
-            <p permid="p">
+          <li permid="exers_counting-combperm-e_mz-ol-l_t">
+            <p permid="exers_counting-combperm-e_mz-ol-l_t-p">
               Trapezoids that are not parallelograms?
             </p>
           </li>
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+    <solution permid="exers_counting-combperm-e_mz-s">
+      <p permid="exers_counting-combperm-e_mz-s-p">
+        <ol permid="exers_counting-combperm-e_mz-s-ol">
+          <li permid="exers_counting-combperm-e_mz-s-ol-l_j">
+            <p permid="exers_counting-combperm-e_mz-s-ol-l_j-p">
               5 squares.
               You need to skip exactly one dot on the top and on the bottom to make the side lengths equal.
               Once you pick a dot on the top,
@@ -236,14 +236,14 @@
             </p>
           </li>
 
-          <li permid="l_s">
+          <li permid="exers_counting-combperm-e_mz-s-ol-l_s">
             <m>{7 \choose 2}</m> rectangles.
             Once you select the two dots on the top,
             the bottom two are determined.
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_counting-combperm-e_mz-s-ol-l_b">
+            <p permid="exers_counting-combperm-e_mz-s-ol-l_b-p">
               This is tricky since you need to worry about running out of space.
               One way to count:
               break into cases by the location of the top left corner.
@@ -251,14 +251,14 @@
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_counting-combperm-e_mz-s-ol-l_k">
+            <p permid="exers_counting-combperm-e_mz-s-ol-l_k-p">
               All of them
             </p>
           </li>
 
-          <li permid="l_t">
-            <p permid="p">
+          <li permid="exers_counting-combperm-e_mz-s-ol-l_t">
+            <p permid="exers_counting-combperm-e_mz-s-ol-l_t-p">
               <m>{7\choose 2}{7\choose 2} - \left[ {7 \choose 2} + ({7 \choose 2}-1) + ({7 \choose 2} - 3) + ({7 \choose 2} - 6) + ({7 \choose 2} - 10) + ({7 \choose 2} - 15) \right]</m>.
               All of them, except the parallelograms.
             </p>
@@ -268,9 +268,9 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_pi">
+  <exercise permid="exers_counting-combperm-e_pi">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-combperm-e_pi-p">
         An <em>anagram</em> of a word is just a rearrangement of its letters.
         How many different anagrams of <q>uncopyrightable</q>
         are there? (This happens to be the longest common English word without any repeated letters.)
@@ -278,15 +278,15 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_sa">
+  <exercise permid="exers_counting-combperm-e_sa">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-combperm-e_sa-p">
         How many anagrams are there of the word <q>assesses</q>
         that start with the letter <q>a</q>?
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_counting-combperm-e_sa-s">
+      <p permid="exers_counting-combperm-e_sa-s-p">
         After the first letter (a), we must rearrange the remaining 7 letters.
         There are only two letters (s and e),
         so this is really just a bit-string question
@@ -296,31 +296,31 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_vj">
+  <exercise permid="exers_counting-combperm-e_vj">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-combperm-e_vj-p">
         How many anagrams are there of <q>anagram</q>?
       </p>
     </statement>
   </exercise>
 
-  <exercise permid="e_ys">
+  <exercise permid="exers_counting-combperm-e_ys">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-combperm-e_ys-p">
         On a business retreat,
         your company of 20 businessmen and businesswomen go golfing.
 
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+        <ol permid="exers_counting-combperm-e_ys-ol">
+          <li permid="exers_counting-combperm-e_ys-ol-l_j">
+            <p permid="exers_counting-combperm-e_ys-ol-l_j-p">
               You need to divide up into foursomes (groups of 4 people):
               a first foursome, a second foursome, and so on.
               How many ways can you do this?
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_counting-combperm-e_ys-ol-l_s">
+            <p permid="exers_counting-combperm-e_ys-ol-l_s-p">
               After all your hard work, you realize that in fact,
               you want each foursome to include one of the five Board members.
               How many ways can you do this?
@@ -329,17 +329,17 @@
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j">
+    <solution permid="exers_counting-combperm-e_ys-s">
+      <p permid="exers_counting-combperm-e_ys-s-p">
+        <ol permid="exers_counting-combperm-e_ys-s-ol">
+          <li permid="exers_counting-combperm-e_ys-s-ol-l_j">
             <m>{20 \choose 4}{16 \choose 4}{12 \choose 4}{8 \choose 4}{4 \choose 4}</m> ways.
             Pick 4 out of 20 people to be in the first foursome,
             then 4 of the remaining 16 for the second foursome, and so on
             (use the multiplicative principle to combine).
           </li>
 
-          <li permid="l_s">
+          <li permid="exers_counting-combperm-e_ys-s-ol-l_s">
             <m>5!{15 \choose 3}{12 \choose 3}{9 \choose 3}{6 \choose 3}{3 \choose 3}</m> ways.
             First determine the tee time of the 5 board members,
             then select 3 of the 15 non board members to golf with the first board member,
@@ -350,14 +350,14 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_bk">
+  <exercise permid="exers_counting-combperm-e_bk">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-combperm-e_bk-p">
         How many different seating arrangements are possible for King Arthur and his 9 knights around their round table?
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_counting-combperm-e_bk-s">
+      <p permid="exers_counting-combperm-e_bk-s-p">
         <m>9!</m>
         (there are 10 people seated around the table,
         but it does not matter where King Arthur sits,
@@ -366,35 +366,35 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_et">
+  <exercise permid="exers_counting-combperm-e_et">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-combperm-e_et-p">
         Consider sets <m>A</m> and <m>B</m> with <m>|A| = 10</m> and <m>|B| = 17</m>.
 
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+        <ol permid="exers_counting-combperm-e_et-ol">
+          <li permid="exers_counting-combperm-e_et-ol-l_j">
+            <p permid="exers_counting-combperm-e_et-ol-l_j-p">
               How many functions <m>f: A \to B</m> are there?
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_counting-combperm-e_et-ol-l_s">
+            <p permid="exers_counting-combperm-e_et-ol-l_s-p">
               How many functions <m>f: A \to B</m> are injective?
             </p>
           </li>
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j">
+    <solution permid="exers_counting-combperm-e_et-s">
+      <p permid="exers_counting-combperm-e_et-s-p">
+        <ol permid="exers_counting-combperm-e_et-s-ol">
+          <li permid="exers_counting-combperm-e_et-s-ol-l_j">
             <m>17^{10}</m> functions.
             There are 17 choices for the image of each element in the domain.
           </li>
 
-          <li permid="l_s">
+          <li permid="exers_counting-combperm-e_et-s-ol-l_s">
             <m>P(17, 10)</m> injective functions.
             There are 17 choices for image of the first element of the domain,
             then only 16 choices for the second, and so on.
@@ -404,26 +404,26 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_hc">
+  <exercise permid="exers_counting-combperm-e_hc">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-combperm-e_hc-p">
         Consider functions <m>f: \{1,2,3,4\} \to \{1,2,3,4,5,6\}</m>.
 
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+        <ol permid="exers_counting-combperm-e_hc-ol">
+          <li permid="exers_counting-combperm-e_hc-ol-l_j">
+            <p permid="exers_counting-combperm-e_hc-ol-l_j-p">
               How many functions are there total?
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_counting-combperm-e_hc-ol-l_s">
+            <p permid="exers_counting-combperm-e_hc-ol-l_s-p">
               How many functions are injective?
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_counting-combperm-e_hc-ol-l_b">
+            <p permid="exers_counting-combperm-e_hc-ol-l_b-p">
               How many of the injective functions are <em>increasing</em>?
               To be increasing means that if <m>a \lt b</m> then <m>f(a) \lt f(b)</m>,
               or in other words, the outputs get larger as the inputs get larger.
@@ -434,24 +434,24 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_ku">
+  <exercise permid="exers_counting-combperm-e_ku">
     <statement>
-      <p permid="p">
+      <p permid="exers_counting-combperm-e_ku-p">
         We have seen that the formula for <m>P(n,k)</m> is <m>\dfrac{n!}{(n-k)!}</m>.
         Your task here is to explain <em>why</em>
         this is the right formula.
 
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+        <ol permid="exers_counting-combperm-e_ku-ol">
+          <li permid="exers_counting-combperm-e_ku-ol-l_j">
+            <p permid="exers_counting-combperm-e_ku-ol-l_j-p">
               Suppose you have 12 chips, each a different color.
               How many different stacks of 5 chips can you make?
               Explain your answer and why it is the same as using the formula for <m>P(12,5)</m>.
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_counting-combperm-e_ku-ol-l_s">
+            <p permid="exers_counting-combperm-e_ku-ol-l_s-p">
               Using the scenario of the 12 chips again,
               what does <m>12!</m> count?
               What does <m>7!</m> count?
@@ -459,15 +459,15 @@
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_counting-combperm-e_ku-ol-l_b">
+            <p permid="exers_counting-combperm-e_ku-ol-l_b-p">
               Explain why it makes sense to divide <m>12!</m> by <m>7!</m> when computing <m>P(12,5)</m>
               (in terms of the chips).
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_counting-combperm-e_ku-ol-l_k">
+            <p permid="exers_counting-combperm-e_ku-ol-l_k-p">
               Does your explanation work for numbers other than 12 and 5?
               Explain the formula <m>P(n,k) = \frac{n!}{(n-k)!}</m> using the variables <m>n</m> and <m>k</m>.
             </p>

@@ -2,9 +2,9 @@
 
 <section permid="sec_intro-statements" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_intro-statements">
   <title>Mathematical Statements</title>
-  <introduction permid="intr">
-    <investigation permid="inv">
-      <p permid="p1">
+  <introduction permid="sec_intro-statements-intr">
+    <investigation permid="sec_intro-statements-inv">
+      <p permid="sec_intro-statements-intr-p1">
         While walking through a fictional forest,
         you encounter three trolls guarding a bridge.
         Each is either a <em>knight</em>,
@@ -14,27 +14,27 @@
         Each troll makes a single statement:
       </p>
 
-      <blockquote permid="bq">
-        <p permid="p1">
+      <blockquote permid="sec_intro-statements-intr-bq">
+        <p permid="sec_intro-statements-intr-bq-p1">
           Troll 1: If I am a knave, then there are exactly two knights here.
         </p>
 
-        <p permid="p2">
+        <p permid="sec_intro-statements-intr-bq-p2">
           Troll 2: Troll 1 is lying.
         </p>
 
-        <p permid="p3">
+        <p permid="sec_intro-statements-intr-bq-p3">
           Troll 3: Either we are all knaves or at least one of us is a knight.
         </p>
       </blockquote>
 
-      <p permid="p2">
+      <p permid="sec_intro-statements-intr-p2">
         Which troll is which?
             <idx><h>self reference</h><see>reference, self</see></idx>
             <idx><h>reference, self</h><see>self reference</see></idx>
       </p>
     </investigation>
-    <p permid="p3">
+    <p permid="sec_intro-statements-intr-p3">
       In order to <em>do</em> mathematics,
       we must be able to <em>talk</em> and
       <em>write</em> about mathematics.
@@ -43,7 +43,7 @@
       writing will play a more prominent role in the mathematical process.
     </p>
 
-    <p permid="p4">
+    <p permid="sec_intro-statements-intr-p4">
       Communication in mathematics requires more precision than many other subjects,
       and thus we should take a few pages here to consider the basic building blocks:
       <em>mathematical statements</em>.
@@ -52,7 +52,7 @@
 
   <subsection permid="atomic-molecular-statements" xml:id="atomic-molecular-statements">
     <title>Atomic and Molecular Statements</title>
-    <p permid="p1">
+    <p permid="atomic-molecular-statements-p1">
       A <term>statement</term><idx>
       <h>statement</h>
       </idx> is any declarative sentence which is either true or false.
@@ -62,39 +62,39 @@
       <term>molecular</term>.
     </p>
 
-    <example permid="ex">
+    <example permid="atomic-molecular-statements-ex">
       <statement>
-        <p permid="p">
+        <p permid="atomic-molecular-statements-ex-p">
           These are statements (in fact,
           <em>atomic</em> statements):
 
-          <ul permid="ul1">
-            <li permid="l_j">
-              <p permid="p">
+          <ul permid="atomic-molecular-statements-ex-ul1">
+            <li permid="atomic-molecular-statements-ex-ul1-l_j">
+              <p permid="atomic-molecular-statements-ex-ul1-l_j-p">
                 Telephone numbers in the USA have 10 digits.
               </p>
             </li>
 
-            <li permid="l_s">
-              <p permid="p">
+            <li permid="atomic-molecular-statements-ex-ul1-l_s">
+              <p permid="atomic-molecular-statements-ex-ul1-l_s-p">
                 The moon is made of cheese.
               </p>
             </li>
 
-            <li permid="l_b">
-              <p permid="p">
+            <li permid="atomic-molecular-statements-ex-ul1-l_b">
+              <p permid="atomic-molecular-statements-ex-ul1-l_b-p">
                 42 is a perfect square.
               </p>
             </li>
 
-            <li permid="l_k">
-              <p permid="p">
+            <li permid="atomic-molecular-statements-ex-ul1-l_k">
+              <p permid="atomic-molecular-statements-ex-ul1-l_k-p">
                 Every even number greater than 2 can be expressed as the sum of two primes.
               </p>
             </li>
 
-            <li permid="l_t">
-              <p permid="p">
+            <li permid="atomic-molecular-statements-ex-ul1-l_t">
+              <p permid="atomic-molecular-statements-ex-ul1-l_t-p">
                 <m>3+7 = 12</m>
               </p>
             </li>
@@ -102,29 +102,29 @@
 
           And these are not statements:
 
-          <ul permid="ul2">
-            <li permid="l_j">
-              <p permid="p">
+          <ul permid="atomic-molecular-statements-ex-ul2">
+            <li permid="atomic-molecular-statements-ex-ul2-l_j">
+              <p permid="atomic-molecular-statements-ex-ul2-l_j-p">
                 Would you like some cake?
               </p>
             </li>
 
-            <li permid="l_s">
-              <p permid="p">
+            <li permid="atomic-molecular-statements-ex-ul2-l_s">
+              <p permid="atomic-molecular-statements-ex-ul2-l_s-p">
                 The sum of two squares.
               </p>
             </li>
 
-            <li permid="l_b"><m>1+3+5+7+\cdots+2n+1</m>.</li>
+            <li permid="atomic-molecular-statements-ex-ul2-l_b"><m>1+3+5+7+\cdots+2n+1</m>.</li>
 
-            <li permid="l_k">
-              <p permid="p">
+            <li permid="atomic-molecular-statements-ex-ul2-l_k">
+              <p permid="atomic-molecular-statements-ex-ul2-l_k-p">
                 Go to your room!
               </p>
             </li>
 
-            <li permid="l_t">
-              <p permid="p">
+            <li permid="atomic-molecular-statements-ex-ul2-l_t">
+              <p permid="atomic-molecular-statements-ex-ul2-l_t-p">
                 <m>3+x = 12</m>
               </p>
             </li>
@@ -133,7 +133,7 @@
       </statement>
     </example>
 
-    <p permid="p2">
+    <p permid="atomic-molecular-statements-p2">
       The reason the last sentence is not a statement is because it contains a variable.
       Depending on what
       <m>x</m> is, the sentence is either true or false,
@@ -149,7 +149,7 @@
       which we will discuss more in a bit.
     </p>
 
-    <p permid="p3">
+    <p permid="atomic-molecular-statements-p3">
       You can build more complicated (molecular) statements out of simpler
       (atomic or molecular)
       ones using
@@ -159,13 +159,13 @@
       For example, this is a molecular statement:
     </p>
 
-    <blockquote permid="bq">
-      <p permid="p">
+    <blockquote permid="atomic-molecular-statements-bq">
+      <p permid="atomic-molecular-statements-bq-p">
         Telephone numbers in the USA have 10 digits and 42 is a perfect square.
       </p>
     </blockquote>
 
-    <p permid="p4">
+    <p permid="atomic-molecular-statements-p4">
       Note that we can break this down into two smaller statements.
       The two shorter statements are
       <em>connected</em> by an
@@ -185,7 +185,7 @@
       (since it applies to a single statement).
     </p>
 
-    <p permid="p5">
+    <p permid="atomic-molecular-statements-p5">
       Which connective we use to modify statement(s) will determine the
       <term>truth value</term>
           <idx><h>truth value</h></idx>
@@ -213,11 +213,11 @@
       <m>\neg</m>.
     </p>
 
-    <assemblage permid="asm-logical-connectives">
+    <assemblage permid="atomic-molecular-statements-asm-logical-connectives">
       <title>Logical Connectives</title>
-      <p permid="p">
-        <ul permid="ul">
-          <li permid="l_j">
+      <p permid="atomic-molecular-statements-asm-logical-connectives-p">
+        <ul permid="atomic-molecular-statements-asm-logical-connectives-ul">
+          <li permid="atomic-molecular-statements-asm-logical-connectives-ul-l_j">
             <m>P \wedge Q</m> means <m>P</m> and <m>Q</m>,
             called a <term>conjunction</term>.
                 <idx><h>conjunction</h></idx>
@@ -230,7 +230,7 @@
 
           </li>
 
-          <li permid="l_s">
+          <li permid="atomic-molecular-statements-asm-logical-connectives-ul-l_s">
             <m>P \vee Q</m> means <m>P</m> or <m>Q</m>,
             called a <term>disjunction</term>.
                 <idx> <h>disjunction</h> </idx>
@@ -243,7 +243,7 @@
 
           </li>
 
-          <li permid="l_b">
+          <li permid="atomic-molecular-statements-asm-logical-connectives-ul-l_b">
             <m>P \imp Q</m> means if <m>P</m> then <m>Q</m>,
             called an <term>implication</term>
             or <term>conditional</term>.
@@ -253,7 +253,7 @@
                 <idx> <h>if<ellipsis/>, then<ellipsis/></h> </idx>
           </li>
 
-          <li permid="l_k">
+          <li permid="atomic-molecular-statements-asm-logical-connectives-ul-l_k">
             <m>P \iff Q</m> means <m>P</m> if and only if <m>Q</m>,
             called a <term>biconditional</term>.
                 <idx> <h>biconditional</h> </idx>
@@ -261,7 +261,7 @@
                 <idx> <h>if and only if</h> </idx>
         </li>
 
-          <li permid="l_t">
+          <li permid="atomic-molecular-statements-asm-logical-connectives-ul-l_t">
             <m>\neg P</m> means not <m>P</m>,
             called a <term>negation</term>.
                 <idx> <h>negation</h> </idx>
@@ -277,39 +277,39 @@
       </p>
     </assemblage>
 
-    <p permid="p6">
+    <p permid="atomic-molecular-statements-p6">
       The
       <term>truth value</term> of a statement is determined by the truth value(s) of its part(s),
       depending on the connectives:
     </p>
 
-    <assemblage permid="asm-truth-conditions-for-connectives">
+    <assemblage permid="atomic-molecular-statements-asm-truth-conditions-for-connectives">
       <title>Truth Conditions for Connectives</title>
-      <p permid="p">
-        <ul permid="ul">
-          <li permid="l_j">
+      <p permid="atomic-molecular-statements-asm-truth-conditions-for-connectives-p">
+        <ul permid="atomic-molecular-statements-asm-truth-conditions-for-connectives-ul">
+          <li permid="atomic-molecular-statements-asm-truth-conditions-for-connectives-ul-l_j">
             <m>P \wedge Q</m> is true when both <m>P</m> and <m>Q</m> are true
           </li>
 
-          <li permid="l_s">
+          <li permid="atomic-molecular-statements-asm-truth-conditions-for-connectives-ul-l_s">
             <m>P \vee Q</m> is true when <m>P</m> or <m>Q</m> or both are true.
           </li>
 
-          <li permid="l_b">
+          <li permid="atomic-molecular-statements-asm-truth-conditions-for-connectives-ul-l_b">
             <m>P \imp Q</m> is true when <m>P</m> is false or <m>Q</m> is true or both.
           </li>
 
-          <li permid="l_k">
+          <li permid="atomic-molecular-statements-asm-truth-conditions-for-connectives-ul-l_k">
             <m>P \iff Q</m> is true when <m>P</m> and <m>Q</m> are both true,
             or both false.
           </li>
 
-          <li permid="l_t"><m>\neg P</m> is true when <m>P</m> is false.</li>
+          <li permid="atomic-molecular-statements-asm-truth-conditions-for-connectives-ul-l_t"><m>\neg P</m> is true when <m>P</m> is false.</li>
         </ul>
       </p>
     </assemblage>
 
-    <p permid="p7">
+    <p permid="atomic-molecular-statements-p7">
       Note that for us, <em>or</em> is the
       <term>inclusive or</term> 
           <idx> <h>inclusive or</h> </idx>
@@ -331,36 +331,36 @@
 
   <subsection permid="ssec_implications" xml:id="subsec_implications">
     <title>Implications</title>
-    <assemblage permid="asm-implications">
+    <assemblage permid="ssec_implications-asm-implications">
       <title>Implications</title>
       <idx>antecedent</idx>
       <idx>consequent</idx>
       <idx>hypothesis</idx>
       <idx>conclusion</idx>
 
-      <p permid="p1">
+      <p permid="ssec_implications-asm-implications-p1">
         An <term>implication</term> or <term>conditional</term>
         is a molecular statement of the form
-        <me permid="me">
+        <me permid="ssec_implications-asm-implications-p1-me">
           P \imp Q
         </me>
         where <m>P</m> and <m>Q</m> are statements.
         We say that
 
-        <ul permid="ul">
-          <li permid="l_j">
+        <ul permid="ssec_implications-asm-implications-ul">
+          <li permid="ssec_implications-asm-implications-ul-l_j">
             <m>P</m> is the <term>hypothesis</term>
             (or <term>antecedent</term>).
           </li>
 
-          <li permid="l_s">
+          <li permid="ssec_implications-asm-implications-ul-l_s">
             <m>Q</m> is the <term>conclusion</term>
             (or <term>consequent</term>).
           </li>
         </ul>
       </p>
 
-      <p permid="p2">
+      <p permid="ssec_implications-asm-implications-p2">
         An implication is <em>true</em>
         provided <m>P</m> is false or <m>Q</m> is true
         (or both),
@@ -371,7 +371,7 @@
       </p>
     </assemblage>
 
-    <p permid="p1">
+    <p permid="ssec_implications-p1">
       Easily the most common type of statement in mathematics is the conditional,
       or implication.
       Even statements that do not at first look like they have this form conceal an implication at their heart.
@@ -387,21 +387,21 @@
       In other words:
     </p>
 
-    <blockquote permid="bq">
-      <p permid="p">
+    <blockquote permid="ssec_implications-bq">
+      <p permid="ssec_implications-bq-p">
         <em>If</em> <m>a</m> and <m>b</m> are the legs of a right triangle with hypotenuse <m>c</m>,
         <em>then </em> <m>a^2 + b^2 = c^2</m>.
       </p>
     </blockquote>
 
-    <p permid="p2">
+    <p permid="ssec_implications-p2">
       This is a reasonable way to think about implications:
       our claim is that the conclusion (<q>then</q> part) is true,
       but on the assumption that the hypothesis (<q>if</q> part) is true.
       We make no claim about the conclusion in situations when the hypothesis is false.
     </p>
 
-    <p permid="p3">
+    <p permid="ssec_implications-p3">
       Still, it is important to remember that an implication is a statement,
       and therefore is either true or false.
       The truth value of the implication is determined by the truth values of its two parts.
@@ -412,26 +412,26 @@
       when the hypothesis is true and the conclusion is false.
     </p>
 
-    <example permid="ex1">
+    <example permid="ssec_implications-ex1">
       <statement>
-        <p permid="p1">
+        <p permid="ssec_implications-ex1-p1">
           Consider the statement:
         </p>
 
-        <blockquote permid="bq">
-          <p permid="p">
+        <blockquote permid="ssec_implications-ex1-bq">
+          <p permid="ssec_implications-ex1-bq-p">
             If Bob gets a 90 on the final,
             then Bob will pass the class.
           </p>
         </blockquote>
 
-        <p permid="p2">
+        <p permid="ssec_implications-ex1-p2">
           This is definitely an implication:
           <m>P</m> is the statement <q>Bob gets a 90 on the final,</q>
           and <m>Q</m> is the statement <q>Bob will pass the class.</q>
         </p>
 
-        <p permid="p3">
+        <p permid="ssec_implications-ex1-p3">
           Suppose I made that statement to Bob.
           In what circumstances would it be fair to call me a liar?
           What if Bob really did get a 90 on the final,
@@ -452,7 +452,7 @@
       </statement>
     </example>
 
-    <p permid="p4">
+    <p permid="ssec_implications-p4">
       Just to be clear,
       although we sometimes read <m>P \imp Q</m> as <q> <m>P</m>
       <em>implies</em> <m>Q</m> </q>,
@@ -463,23 +463,23 @@
       but rather that <m>P</m> is true and <m>Q</m> is false.
     </p>
 
-    <example permid="ex2">
+    <example permid="ssec_implications-ex2">
       <statement>
-        <p permid="p">
+        <p permid="ssec_implications-ex2-p">
           Decide which of the following statements are true and which are false.
           Briefly explain.
 
-          <ol permid="ol">
-            <li permid="l_j"><m>0=1 ~~ \imp ~~ 1=1</m></li>
+          <ol permid="ssec_implications-ex2-ol">
+            <li permid="ssec_implications-ex2-ol-l_j"><m>0=1 ~~ \imp ~~ 1=1</m></li>
 
-            <li permid="l_s"><m>1=1 ~~ \imp ~~</m> most horses have 4 legs</li>
+            <li permid="ssec_implications-ex2-ol-l_s"><m>1=1 ~~ \imp ~~</m> most horses have 4 legs</li>
 
-            <li permid="l_b">
+            <li permid="ssec_implications-ex2-ol-l_b">
               If 8 is a prime number, then the 7624th digit of
               <m>\pi</m> is an 8.
             </li>
 
-            <li permid="l_k">
+            <li permid="ssec_implications-ex2-ol-l_k">
               If the 7624th digit of
               <m>\pi</m> is an 8, then
               <m>2+2 = 4</m>
@@ -487,33 +487,33 @@
           </ol>
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p">
+      <solution permid="ssec_implications-ex2-s">
+        <p permid="ssec_implications-ex2-s-p">
           All four of the statements are true.
           Remember, the only way for an implication to be false is for the
           <em>if</em> part to be true and the
           <em>then</em> part to be false.
 
-          <ol permid="ol">
-            <li permid="l_j">
+          <ol permid="ssec_implications-ex2-s-ol">
+            <li permid="ssec_implications-ex2-s-ol-l_j">
               Here the hypothesis is false and the conclusion is true,
               so the implication is true.
             </li>
 
-            <li permid="l_s">
+            <li permid="ssec_implications-ex2-s-ol-l_s">
               Here both the hypothesis and the conclusion are true,
               so the implication is true.
               It does not matter that there is no meaningful connection between the true mathematical fact and the fact about horses.
             </li>
 
-            <li permid="l_b">
+            <li permid="ssec_implications-ex2-s-ol-l_b">
               I have no idea what the 7624th digit of
               <m>\pi</m> is, but this does not matter.
               Since the hypothesis is false,
               the implication is automatically true.
             </li>
 
-            <li permid="l_k">
+            <li permid="ssec_implications-ex2-s-ol-l_k">
               Similarly here, regardless of the truth value of the hypothesis,
               the conclusion is true, making the implication true.
             </li>
@@ -522,7 +522,7 @@
       </solution>
     </example>
 
-    <p permid="p5">
+    <p permid="ssec_implications-p5">
       It is important to understand the conditions under which an implication is true not only to decide whether a mathematical statement is true,
       but in order to
       <em>prove</em> that it is.
@@ -535,9 +535,9 @@
       you already have the outline for a proof.
     </p>
 
-    <assemblage permid="asm-direct-proofs-implications">
+    <assemblage permid="ssec_implications-asm-direct-proofs-implications">
       <title>Direct Proofs of Implications</title>
-      <p permid="p">
+      <p permid="ssec_implications-asm-direct-proofs-implications-p">
         To prove an implication
         <m>P \imp Q</m>, it is enough to assume
         <m>P</m>, and from it, deduce
@@ -545,7 +545,7 @@
       </p>
     </assemblage>
 
-    <p permid="p6">
+    <p permid="ssec_implications-p6">
       There are other techniques to prove statements
       (implications and others)
       that we will encounter throughout our studies,
@@ -554,17 +554,17 @@
       <em>why</em> the statement is true.
     </p>
 
-    <example permid="ex3">
+    <example permid="ssec_implications-ex3">
       <statement>
-        <p permid="p">
+        <p permid="ssec_implications-ex3-p">
           Prove: If two numbers
           <m>a</m> and
           <m>b</m> are even, then their sum
           <m>a+b</m> is even.
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p1">
+      <solution permid="ssec_implications-ex3-s">
+        <p permid="ssec_implications-ex3-s-p1">
           Suppose the numbers
           <m>a</m> and
           <m>b</m> are even.
@@ -580,7 +580,7 @@
           <m>a+b</m> is even.
         </p>
 
-        <p permid="p2">
+        <p permid="ssec_implications-ex3-s-p2">
           Notice that since we get to assume the hypothesis of the implication we immediately have a place to start.
           The proof proceeds essentially by repeatedly asking and answering,
           <q>what does that mean?</q>
@@ -588,24 +588,24 @@
       </solution>
     </example>
 
-    <p permid="p7">
+    <p permid="ssec_implications-p7">
       This sort of argument shows up outside of math as well.
       If you ever found yourself starting an argument with
       <q>hypothetically, let's assume
       <ellipsis/>,</q> then you have attempted a direct proof of your desired conclusion.
     </p>
 
-    <p permid="p8">
+    <p permid="ssec_implications-p8">
       Since implications are so prevalent in mathematics,
       we have some special language to help discuss them:
     </p>
 
-    <assemblage permid="asm-converse-contrapositive">
+    <assemblage permid="ssec_implications-asm-converse-contrapositive">
       <title>Converse and Contrapositive</title>
-      <p permid="p">
-        <ul permid="ul">
-          <li permid="l_j">
-            <p permid="p">
+      <p permid="ssec_implications-asm-converse-contrapositive-p">
+        <ul permid="ssec_implications-asm-converse-contrapositive-ul">
+          <li permid="ssec_implications-asm-converse-contrapositive-ul-l_j">
+            <p permid="ssec_implications-asm-converse-contrapositive-ul-l_j-p">
               The
               <term>converse</term>
               <idx>
@@ -619,8 +619,8 @@
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="ssec_implications-asm-converse-contrapositive-ul-l_s">
+            <p permid="ssec_implications-asm-converse-contrapositive-ul-l_s-p">
               The
               <term>contrapositive</term>
               <idx>
@@ -636,7 +636,7 @@
       </p>
     </assemblage>
 
-    <p permid="p9">
+    <p permid="ssec_implications-p9">
       Mathematics is overflowing with examples of true implications with a false converse.
       If a number greater than 2 is prime, then that number is odd.
       However, just because a number is odd does not mean it is prime.
@@ -653,23 +653,23 @@
       it is always reasonable to ask whether the converse is true.
     </p>
 
-    <p permid="p10">
+    <p permid="ssec_implications-p10">
       The contrapositive, on the other hand,
       always has the same truth value as its original implication.
       This can be very helpful in deciding whether an implication is true:
       often it is easier to analyze the contrapositive.
     </p>
 
-    <example permid="ex4">
+    <example permid="ssec_implications-ex4">
       <statement>
-        <p permid="p">
+        <p permid="ssec_implications-ex4-p">
           True or false: If you draw any nine playing cards from a regular deck,
           then you will have at least three cards all of the same suit.
           Is the converse true?
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p1">
+      <solution permid="ssec_implications-ex4-s">
+        <p permid="ssec_implications-ex4-s-p1">
           True.
           The original implication is a little hard to analyze because there are so many different combinations of nine cards.
           But consider the contrapositive: If you
@@ -681,7 +681,7 @@
           (or fewer).
         </p>
 
-        <p permid="p2">
+        <p permid="ssec_implications-ex4-s-p2">
           The converse: If you have at least three cards all of the same suit,
           then you have nine cards.
           This is false.
@@ -696,33 +696,33 @@
       </solution>
     </example>
 
-    <p permid="p11">
+    <p permid="ssec_implications-p11">
       Understanding converses and contrapositives can help understand implications and their truth values:
     </p>
 
-    <example permid="ex5">
+    <example permid="ssec_implications-ex5">
       <statement>
-        <p permid="p1">
+        <p permid="ssec_implications-ex5-p1">
           Suppose I tell Sue that if she gets a 93<percent/> on her final,
           then she will get an A in the class.
           Assuming that what I said is true,
           what can you conclude in the following cases:
         </p>
 
-        <p permid="p2">
-          <ol permid="ol">
-            <li permid="l_j">Sue gets a 93<percent/> on her final.</li>
+        <p permid="ssec_implications-ex5-p2">
+          <ol permid="ssec_implications-ex5-ol">
+            <li permid="ssec_implications-ex5-ol-l_j">Sue gets a 93<percent/> on her final.</li>
 
-            <li permid="l_s">Sue gets an A in the class.</li>
+            <li permid="ssec_implications-ex5-ol-l_s">Sue gets an A in the class.</li>
 
-            <li permid="l_b">Sue does not get a 93<percent/> on her final.</li>
+            <li permid="ssec_implications-ex5-ol-l_b">Sue does not get a 93<percent/> on her final.</li>
 
-            <li permid="l_k">Sue does not get an A in the class.</li>
+            <li permid="ssec_implications-ex5-ol-l_k">Sue does not get an A in the class.</li>
           </ol>
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p1">
+      <solution permid="ssec_implications-ex5-s">
+        <p permid="ssec_implications-ex5-s-p1">
           Note first that whenever
           <m>P \imp Q</m> and
           <m>P</m> are both true statements,
@@ -735,9 +735,9 @@
           <q>Sue will get an A in the class.</q>
         </p>
 
-        <p permid="p2">
-          <ol permid="ol">
-            <li permid="l_j">
+        <p permid="ssec_implications-ex5-s-p2">
+          <ol permid="ssec_implications-ex5-s-ol">
+            <li permid="ssec_implications-ex5-s-ol-l_j">
               We have
               <m>P \imp Q</m> and
               <m>P</m>, so
@@ -745,7 +745,7 @@
               Sue gets an A.
             </li>
 
-            <li permid="l_s">
+            <li permid="ssec_implications-ex5-s-ol-l_s">
               You cannot conclude anything.
               Sue could have gotten the A because she did extra credit for example.
               Notice that we do not know that if Sue gets an
@@ -754,7 +754,7 @@
               so it might or might not be true.
             </li>
 
-            <li permid="l_b">
+            <li permid="ssec_implications-ex5-s-ol-l_b">
               The contrapositive of the converse of
               <m>P \imp Q</m> is
               <m>\neg P \imp \neg Q</m>,
@@ -765,7 +765,7 @@
               Sue could have done extra credit.
             </li>
 
-            <li permid="l_k">
+            <li permid="ssec_implications-ex5-s-ol-l_k">
               What would happen if Sue does not get an A but <em>did</em>
               get a 93<percent/> on the final?
               Then <m>P</m> would be true and <m>Q</m> would be false.
@@ -781,7 +781,7 @@
       </solution>
     </example>
 
-    <p permid="p12">
+    <p permid="ssec_implications-p12">
       As we said above,
       an implication is not logically equivalent to its converse,
       but it is possible that both are true.
@@ -793,15 +793,15 @@
       This is the biconditional we mentioned earlier:
     </p>
 
-    <assemblage permid="asm-if-only-if">
+    <assemblage permid="ssec_implications-asm-if-only-if">
       <title>If and only if</title>
-      <blockquote permid="bq">
-        <p permid="p">
+      <blockquote permid="ssec_implications-asm-if-only-if-bq">
+        <p permid="ssec_implications-asm-if-only-if-bq-p">
           <m>P \iff Q</m> is logically equivalent to <m>(P \imp Q) \wedge (Q \imp P)</m>.
         </p>
       </blockquote>
 
-      <p permid="p">
+      <p permid="ssec_implications-asm-if-only-if-p">
         Example: Given an integer <m>n</m>,
         it is true that <m>n</m> is even if and only if <m>n^2</m> is even.
         That is, if <m>n</m> is even,
@@ -810,7 +810,7 @@
       </p>
     </assemblage>
 
-    <p permid="p13">
+    <p permid="ssec_implications-p13">
       You can think of <q>if and only if</q>
       statements as having two parts:
       an implication and its converse.
@@ -823,16 +823,16 @@
       which is really just sloppy notation for <m>Q \imp P</m>).
     </p>
 
-    <p permid="p14">
+    <p permid="ssec_implications-p14">
       Let's think a little about which part is which.
       Is <m>P \imp Q</m> the <q>if</q>
       part or the <q>only if</q> part?
       Perhaps we should look at an example:
     </p>
 
-    <example permid="ex6">
+    <example permid="ssec_implications-ex6">
       <statement>
-        <p permid="p1">
+        <p permid="ssec_implications-ex6-p1">
           Suppose it is true that I sing if and only if I'm in the shower.
           We know this means both that if I sing, then I'm in the shower,
           and also the converse, that if I'm in the shower, then I sing.
@@ -843,7 +843,7 @@
           then I'm in the shower.</q> Which part of the if and only if statement is this?
         </p>
 
-        <p permid="p2">
+        <p permid="ssec_implications-ex6-p2">
           What we are really asking is what is the meaning of
           <q>I sing if I'm in the shower</q>
           and <q>I sing only if I'm in the shower.</q> When is the first one
@@ -862,7 +862,7 @@
       </statement>
     </example>
 
-    <p permid="p15">
+    <p permid="ssec_implications-p15">
       It is not terribly important to know which part is the
       <q>if</q> or <q>only if</q> part,
       but this does get at something very, very important:
@@ -872,52 +872,52 @@
       Instead, we just need good English skills.
     </p>
 
-    <example permid="ex7">
+    <example permid="ssec_implications-ex7">
       <statement>
-        <p permid="p">
+        <p permid="ssec_implications-ex7-p">
           Rephrase the implication,
           <q>if I dream, then I am asleep</q>
           in as many different ways as possible.
           Then do the same for the converse.
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p">
+      <solution permid="ssec_implications-ex7-s">
+        <p permid="ssec_implications-ex7-s-p">
           The following are all equivalent to the original implication:
 
-          <ol permid="ol1">
-            <li permid="l_j">
-              <p permid="p">
+          <ol permid="ssec_implications-ex7-s-ol1">
+            <li permid="ssec_implications-ex7-s-ol1-l_j">
+              <p permid="ssec_implications-ex7-s-ol1-l_j-p">
                 I am asleep if I dream.
               </p>
             </li>
 
-            <li permid="l_s">
-              <p permid="p">
+            <li permid="ssec_implications-ex7-s-ol1-l_s">
+              <p permid="ssec_implications-ex7-s-ol1-l_s-p">
                 I dream only if I am asleep.
               </p>
             </li>
 
-            <li permid="l_b">
-              <p permid="p">
+            <li permid="ssec_implications-ex7-s-ol1-l_b">
+              <p permid="ssec_implications-ex7-s-ol1-l_b-p">
                 In order to dream, I must be asleep.
               </p>
             </li>
 
-            <li permid="l_k">
-              <p permid="p">
+            <li permid="ssec_implications-ex7-s-ol1-l_k">
+              <p permid="ssec_implications-ex7-s-ol1-l_k-p">
                 To dream, it is necessary that I am asleep.
               </p>
             </li>
 
-            <li permid="l_t">
-              <p permid="p">
+            <li permid="ssec_implications-ex7-s-ol1-l_t">
+              <p permid="ssec_implications-ex7-s-ol1-l_t-p">
                 To be asleep, it is sufficient to dream.
               </p>
             </li>
 
-            <li permid="l_c">
-              <p permid="p">
+            <li permid="ssec_implications-ex7-s-ol1-l_c">
+              <p permid="ssec_implications-ex7-s-ol1-l_c-p">
                 I am not dreaming unless I am asleep.
               </p>
             </li>
@@ -926,33 +926,33 @@
           The following are equivalent to the converse (if I am asleep,
           then I dream):
 
-          <ol permid="ol2">
-            <li permid="l_j">
-              <p permid="p">
+          <ol permid="ssec_implications-ex7-s-ol2">
+            <li permid="ssec_implications-ex7-s-ol2-l_j">
+              <p permid="ssec_implications-ex7-s-ol2-l_j-p">
                 I dream if I am asleep.
               </p>
             </li>
 
-            <li permid="l_s">
-              <p permid="p">
+            <li permid="ssec_implications-ex7-s-ol2-l_s">
+              <p permid="ssec_implications-ex7-s-ol2-l_s-p">
                 I am asleep only if I dream.
               </p>
             </li>
 
-            <li permid="l_b">
-              <p permid="p">
+            <li permid="ssec_implications-ex7-s-ol2-l_b">
+              <p permid="ssec_implications-ex7-s-ol2-l_b-p">
                 It is necessary that I dream in order to be asleep.
               </p>
             </li>
 
-            <li permid="l_k">
-              <p permid="p">
+            <li permid="ssec_implications-ex7-s-ol2-l_k">
+              <p permid="ssec_implications-ex7-s-ol2-l_k-p">
                 It is sufficient that I be asleep in order to dream.
               </p>
             </li>
 
-            <li permid="l_t">
-              <p permid="p">
+            <li permid="ssec_implications-ex7-s-ol2-l_t">
+              <p permid="ssec_implications-ex7-s-ol2-l_t-p">
                 If I don't dream, then I'm not asleep.
               </p>
             </li>
@@ -961,7 +961,7 @@
       </solution>
     </example>
 
-    <p permid="p16">
+    <p permid="ssec_implications-p16">
       Hopefully you agree with the above example.
       We include the
       <q>necessary and sufficient</q>
@@ -969,25 +969,25 @@
       In fact, let's agree once and for all what they mean:
     </p>
 
-    <assemblage permid="asm-necessary-sufficient">
+    <assemblage permid="ssec_implications-asm-necessary-sufficient">
       <title>Necessary and Sufficient</title>
-      <p permid="p1">
+      <p permid="ssec_implications-asm-necessary-sufficient-p1">
             <idx> <h>necessary condition</h> </idx>
             <idx> <h>sufficient condition</h> </idx>
       </p>
 
-      <p permid="p2">
-        <ul permid="ul">
-          <li permid="l_j">
+      <p permid="ssec_implications-asm-necessary-sufficient-p2">
+        <ul permid="ssec_implications-asm-necessary-sufficient-ul">
+          <li permid="ssec_implications-asm-necessary-sufficient-ul-l_j">
             <q> <m>P</m> is necessary for <m>Q</m> </q> means <m>Q \imp P</m>.
           </li>
 
-          <li permid="l_s">
+          <li permid="ssec_implications-asm-necessary-sufficient-ul-l_s">
             <q> <m>P</m> is sufficient for <m>Q</m> </q> means <m>P \imp Q</m>.
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="ssec_implications-asm-necessary-sufficient-ul-l_b">
+            <p permid="ssec_implications-asm-necessary-sufficient-ul-l_b-p">
               If <m>P</m> is necessary and sufficient for <m>Q</m>, then <m>P \iff Q</m>.
             </p>
           </li>
@@ -995,14 +995,14 @@
       </p>
     </assemblage>
 
-    <p permid="p17">
+    <p permid="ssec_implications-p17">
       To be honest, I have trouble with these if I'm not very careful.
       I find it helps to have an example in mind:
     </p>
 
-    <example permid="ex8">
+    <example permid="ssec_implications-ex8">
       <statement>
-        <p permid="p">
+        <p permid="ssec_implications-ex8-p">
           Recall from calculus, if a function is differentiable at a point
           <m>c</m>, then it is continuous at
           <m>c</m>, but that the converse of this statement is not true (for example,
@@ -1010,8 +1010,8 @@
           Restate this fact using <q>necessary and sufficient</q> language.
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p1">
+      <solution permid="ssec_implications-ex8-s">
+        <p permid="ssec_implications-ex8-s-p1">
           It is true that in order for a function to be differentiable at a point
           <m>c</m>, it is necessary for the function to be continuous at
           <m>c</m>.
@@ -1020,7 +1020,7 @@
           <m>c</m>.
         </p>
 
-        <p permid="p2">
+        <p permid="ssec_implications-ex8-s-p2">
           It is true that to be continuous at a point
           <m>c</m>, it is sufficient that the function be differentiable at
           <m>c</m>.
@@ -1031,7 +1031,7 @@
       </solution>
     </example>
 
-    <p permid="p18">
+    <p permid="ssec_implications-p18">
       Thinking about the necessity and sufficiency of conditions can also help when writing proofs and justifying conclusions.
       If you want to establish some mathematical fact,
       it is helpful to think what other facts would
@@ -1045,49 +1045,49 @@
 
   <subsection permid="ssec_quantifiers" xml:id="subsec_quantifiers">
     <title>Quantifiers</title>
-    <investigation permid="inv">
-      <p permid="p1">
+    <investigation permid="ssec_quantifiers-inv">
+      <p permid="ssec_quantifiers-inv-p1">
         Consider the statement below.
         Decide whether any are equivalent to each other,
         or whether any imply any others.
       </p>
 
-      <p permid="p2">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+      <p permid="ssec_quantifiers-inv-p2">
+        <ol permid="ssec_quantifiers-inv-ol">
+          <li permid="ssec_quantifiers-inv-ol-l_j">
+            <p permid="ssec_quantifiers-inv-ol-l_j-p">
               You can fool some people all of the time.
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="ssec_quantifiers-inv-ol-l_s">
+            <p permid="ssec_quantifiers-inv-ol-l_s-p">
               You can fool everyone some of the time.
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="ssec_quantifiers-inv-ol-l_b">
+            <p permid="ssec_quantifiers-inv-ol-l_b-p">
               You can always fool some people.
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="ssec_quantifiers-inv-ol-l_k">
+            <p permid="ssec_quantifiers-inv-ol-l_k-p">
               Sometimes you can fool everyone.
             </p>
           </li>
         </ol>
       </p>
     </investigation>
-    <p permid="p1">
+    <p permid="ssec_quantifiers-p1">
       It would be nice to use variables in our mathematical sentences.
       For example,
       suppose we wanted to claim that if <m>n</m> is prime,
       then <m>n+7</m> is not prime.
       This looks like an implication.
       I would like to write something like
-      <me permid="me">
+      <me permid="ssec_quantifiers-p1-me">
         P(n) \imp \neg P(n+7)
       </me>
       where <m>P(n)</m> means <q> <m>n</m> is prime.</q>
@@ -1105,22 +1105,22 @@
       We need to <em>quantify</em> the variable.
     </p>
 
-    <p permid="p2">
+    <p permid="ssec_quantifiers-p2">
       Although there are many types of
       <em>quantifiers</em> in English (e.g., many, few, most,
       etc.) in mathematics we, for the most part, stick to two:
       existential and universal.
     </p>
 
-    <assemblage permid="asm-universal-existential-quantifiers">
+    <assemblage permid="ssec_quantifiers-asm-universal-existential-quantifiers">
       <title>Universal and Existential Quantifiers</title>
-      <p permid="p1">
+      <p permid="ssec_quantifiers-asm-universal-existential-quantifiers-p1">
         <idx>
         <h>quantifiers</h>
         </idx>
       </p>
 
-      <p permid="p2">
+      <p permid="ssec_quantifiers-asm-universal-existential-quantifiers-p2">
         The existential quantifier is
         <m>\exists</m> and is read
         <q>there exists</q> or
@@ -1137,13 +1137,13 @@
           <description>existential quantifier</description>
         </notation>
 
-        <me permid="me">
+        <me permid="ssec_quantifiers-asm-universal-existential-quantifiers-p2-me">
           \exists x (x \lt 0)
         </me>
         asserts that there is a number less than 0.
       </p>
 
-      <p permid="p3">
+      <p permid="ssec_quantifiers-asm-universal-existential-quantifiers-p3">
         The universal quantifier is
         <m>\forall</m> and is read
         <q>for all</q> or
@@ -1160,18 +1160,18 @@
           <description>universal quantifier</description>
         </notation>
 
-        <me permid="me">
+        <me permid="ssec_quantifiers-asm-universal-existential-quantifiers-p3-me">
           \forall x (x \ge 0)
         </me>
         asserts that every number is greater than or equal to 0.
       </p>
     </assemblage>
 
-    <p permid="p3">
+    <p permid="ssec_quantifiers-p3">
       As with all mathematical statements,
       we would like to decide whether quantified statements are true or false.
       Consider the statement
-      <me permid="me">
+      <me permid="ssec_quantifiers-p3-me">
         \forall x \exists y (y \lt x)
       </me>.
       You would read this,
@@ -1186,7 +1186,7 @@
       <ellipsis/>, so let's take that for our domain of discourse here.
     </p>
 
-    <p permid="p4">
+    <p permid="ssec_quantifiers-p4">
       For the statement to be true,
       we need it to be the case that no matter what natural number we select,
       there is always some natural number that is strictly smaller.
@@ -1201,27 +1201,27 @@
       (in our domain of discourse).
       Thus we see that the statement is false because there is a number which is less than or equal to all other numbers.
       In symbols,
-      <me permid="me">
+      <me permid="ssec_quantifiers-p4-me">
         \exists x \forall y (y \ge x)
       </me>.
     </p>
 
-    <p permid="p5">
+    <p permid="ssec_quantifiers-p5">
       To show that the original statement is false, we proved that the
       <em>negation</em> was true.
       Notice how the negation and original statement compare.
       This is typical.
     </p>
 
-    <assemblage permid="asm-quantifiers-negation">
+    <assemblage permid="ssec_quantifiers-asm-quantifiers-negation">
       <title>Quantifiers and Negation</title>
-      <blockquote permid="bq">
-        <p permid="p1">
+      <blockquote permid="ssec_quantifiers-asm-quantifiers-negation-bq">
+        <p permid="ssec_quantifiers-asm-quantifiers-negation-bq-p1">
           <m>\neg \forall x P(x)</m> is equivalent to
           <m>\exists x \neg P(x)</m>.
         </p>
 
-        <p permid="p2">
+        <p permid="ssec_quantifiers-asm-quantifiers-negation-bq-p2">
           <m>\neg \exists x P(x)</m> is equivalent to
           <m>\forall x \neg P(x)
           </m>.
@@ -1229,7 +1229,7 @@
       </blockquote>
     </assemblage>
 
-    <p permid="p6">
+    <p permid="ssec_quantifiers-p6">
       Essentially, we can pass the negation symbol over a quantifier,
       but that causes the quantifier to switch type.
       This should not be surprising:

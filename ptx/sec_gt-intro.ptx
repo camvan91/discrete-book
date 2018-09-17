@@ -2,14 +2,14 @@
 
 <section permid="sec_gt-intro" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_gt-intro">
   <title>Definitions</title>
-  <investigation permid="inv">
-    <p permid="p1">
+  <investigation permid="sec_gt-intro-inv">
+    <p permid="sec_gt-intro-inv-p1">
       Which (if any) of the graphs below are the same?
     </p>
 
-    <sidebyside permid="sbs1" width="18%" margins="auto" valign="bottom">
+    <sidebyside permid="sec_gt-intro-sbs1" width="18%" margins="auto" valign="bottom">
 
-      <image permid="im1">
+      <image permid="sec_gt-intro-sbs1-im1">
 
 				<latex-image>
 					\begin{tikzpicture}
@@ -27,7 +27,7 @@
 				</latex-image>
       </image>
 
-      <image permid="im2">
+      <image permid="sec_gt-intro-sbs1-im2">
 
 				<latex-image>
 					\begin{tikzpicture}
@@ -45,7 +45,7 @@
 				</latex-image>
       </image>
 
-      <image permid="im3">
+      <image permid="sec_gt-intro-sbs1-im3">
 
 				<latex-image>
 					\begin{tikzpicture}
@@ -63,7 +63,7 @@
 				</latex-image>
       </image>
 
-      <image permid="im4">
+      <image permid="sec_gt-intro-sbs1-im4">
 
 				<latex-image>
 					\begin{tikzpicture}
@@ -81,7 +81,7 @@
 				</latex-image>
       </image>
 
-      <image permid="im5">
+      <image permid="sec_gt-intro-sbs1-im5">
 
 				<latex-image>
 					\begin{tikzpicture}
@@ -101,15 +101,15 @@
 
     </sidebyside>
 
-    <p permid="p2">
+    <p permid="sec_gt-intro-inv-p2">
       The graphs above are unlabeled.
       Usually we think of a graph as having a specific set of vertices.
       Which (if any) of the graphs below are the same?
     </p>
 
-    <sidebyside permid="sbs2" width="18%" margins="auto" valign="bottom">
+    <sidebyside permid="sec_gt-intro-sbs2" width="18%" margins="auto" valign="bottom">
 
-      <image permid="im1">
+      <image permid="sec_gt-intro-sbs2-im1">
 
 				<latex-image>
 					\begin{tikzpicture}
@@ -128,7 +128,7 @@
 				</latex-image>
       </image>
 
-      <image permid="im2">
+      <image permid="sec_gt-intro-sbs2-im2">
 
 				<latex-image>
 					\begin{tikzpicture}
@@ -147,7 +147,7 @@
 				</latex-image>
       </image>
 
-      <image permid="im3">
+      <image permid="sec_gt-intro-sbs2-im3">
 
 				<latex-image>
 					\begin{tikzpicture}
@@ -166,7 +166,7 @@
 				</latex-image>
       </image>
 
-      <image permid="im4">
+      <image permid="sec_gt-intro-sbs2-im4">
 
 				<latex-image>
 					\begin{tikzpicture}
@@ -187,37 +187,37 @@
 
     </sidebyside>
 
-    <p permid="p3">
+    <p permid="sec_gt-intro-inv-p3">
       Actually, all the graphs we have seen above are just
       <em>drawings</em> of graphs.
       A graph is really an abstract mathematical object consisting of two sets <m>V</m> and <m>E</m> where <m>E</m> is a set of 2-element subsets of <m>V</m>.
 			Are the graphs below the same or different?
-      <dl permid="dl" width="narrow">
-        <li permid="l_graph-1">
+      <dl permid="sec_gt-intro-inv-dl" width="narrow">
+        <li permid="sec_gt-intro-inv-dl-l_graph-1">
           <title>Graph 1:</title>
-          <p permid="p1">
+          <p permid="sec_gt-intro-inv-dl-l_graph-1-p1">
             <m>V = \{a, b, c, d, e\}</m>,
           </p>
 
-          <p permid="p2">
+          <p permid="sec_gt-intro-inv-dl-l_graph-1-p2">
             <m>E = \{\{a,b\}, \{a, c\}, \{a,d\}, \{a,e\}, \{b,c\}, \{d,e\}\}</m>.
           </p>
         </li>
 
-        <li permid="l_graph-2">
+        <li permid="sec_gt-intro-inv-dl-l_graph-2">
           <title>Graph 2:</title>
-          <p permid="p1">
+          <p permid="sec_gt-intro-inv-dl-l_graph-2-p1">
             <m>V = \{v_1, v_2, v_3, v_4, v_5\}</m>,
           </p>
 
-          <p permid="p2">
+          <p permid="sec_gt-intro-inv-dl-l_graph-2-p2">
             <m>E = \{\{v_1, v_3\}, \{v_1, v_5\}, \{v_2, v_4\}, \{v_2, v_5\}, \{v_3, v_5\}, \{v_4, v_5\}\}</m>.
           </p>
         </li>
       </dl>
     </p>
   </investigation>
-  <p permid="p1">
+  <p permid="sec_gt-intro-p1">
     Before we start studying graphs,
     we need to agree upon what a graph is.  		While we almost always think of graphs as pictures
     (dots connected by lines)
@@ -228,7 +228,7 @@
     Can one line connect three dots?
   </p>
 
-  <p permid="p2">
+  <p permid="sec_gt-intro-p2">
     The way we avoid ambiguities in mathematics is to provide concrete and rigorous <em>definitions</em>.
     Crafting good definitions is not easy,
     but it is incredibly important.
@@ -237,7 +237,7 @@
     We have to look at the definition to see if this is possible.
   </p>
 
-  <p permid="p3">
+  <p permid="sec_gt-intro-p3">
     We want our definition to be precise and unambiguous,
     but it also must agree with our intuition for the objects we are studying.
     It needs to be useful: we <em>could</em>
@@ -246,9 +246,9 @@
     Instead, here is the (now) standard definition of a graph.
   </p>
 
-  <assemblage permid="asm-graph-d">
+  <assemblage permid="sec_gt-intro-asm-graph-d">
     <title>Graph Definition</title>
-    <p permid="p">
+    <p permid="sec_gt-intro-asm-graph-d-p">
       A <term>graph</term> is an ordered pair
       <m>G = (V, E)</m> consisting of a nonempty set <m>V</m>
       (called the <term>vertices</term>)
@@ -258,11 +258,11 @@
     </p>
   </assemblage>
 
-  <p permid="p4">
+  <p permid="sec_gt-intro-p4">
     Strange.
     Nowhere in the definition is there talk of dots or lines.
     From the definition, a graph could be
-    <me permid="me">
+    <me permid="sec_gt-intro-p4-me">
       (\{a,b,c,d\}, \{\{a,b\}, \{a,c\}, \{b,c\}, \{b,d\}, \{c,d\}\})
     </me>.
     Here we have a graph with four vertices 
@@ -270,7 +270,7 @@
     and four edges (the pairs <m>\{a,b\}, \{a,c\}, \{b,c\}, \{b,d\}, \{c,d\})</m>).
   </p>
 
-  <p permid="p5">
+  <p permid="sec_gt-intro-p5">
     Looking at sets and sets of 2-element sets is difficult to process.
     That is why we often draw a representation of these sets.
     We put a dot down for each vertex,
@@ -278,9 +278,9 @@
     Thus one way to draw the graph described above is this:
   </p>
 
-  <sidebyside permid="sbs3" width="25%">
+  <sidebyside permid="sec_gt-intro-sbs3" width="25%">
 
-    <image permid="im">
+    <image permid="sec_gt-intro-sbs3-im">
 
 			<latex-image>
 				\begin{tikzpicture}[scale=0.7]
@@ -291,14 +291,14 @@
 
   </sidebyside>
 
-  <p permid="p6">
+  <p permid="sec_gt-intro-p6">
     However we could also have drawn the graph differently.
     For example either of these:
   </p>
 
-  <sidebyside permid="sbs4" widths="20% 25%" margins="auto" valign="bottom">
+  <sidebyside permid="sec_gt-intro-sbs4" widths="20% 25%" margins="auto" valign="bottom">
 
-    <image permid="im1">
+    <image permid="sec_gt-intro-sbs4-im1">
 
 			<latex-image>
 				\begin{tikzpicture}[scale=0.7]
@@ -307,7 +307,7 @@
 			</latex-image>
     </image>
 
-    <image permid="im2">
+    <image permid="sec_gt-intro-sbs4-im2">
 
 			<latex-image>
 				\begin{tikzpicture}[scale=0.7]
@@ -318,7 +318,7 @@
 
   </sidebyside>
 
-  <p permid="p7">
+  <p permid="sec_gt-intro-p7">
     We should be careful about what it means for two graphs to be
     <q>the same.</q> Actually,
     given our definition, this is easy: Are the vertex sets equal?
@@ -327,18 +327,18 @@
     and graphs are nothing but a pair of two special sorts of sets.
   </p>
 
-  <example permid="ex1">
+  <example permid="sec_gt-intro-ex1">
     <statement>
-      <p permid="p">
+      <p permid="sec_gt-intro-ex1-p">
         Are the graphs below equal?
-        <me permid="me">
+        <me permid="sec_gt-intro-ex1-p-me">
           G_1 = (\{a,b,c\}, \{\{a,b\}, \{b,c\}\}); \qquad G_2 = (\{a,b,c\}, \{\{a,c\}, \{c, b\}\})
         </me>
         equal?
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="sec_gt-intro-ex1-s">
+      <p permid="sec_gt-intro-ex1-s-p">
         No.
         Here the vertex sets of each graph are equal, which is a good start.
         Also, both graphs have two edges.
@@ -355,15 +355,15 @@
     </solution>
   </example>
 
-  <p permid="p8">
+  <p permid="sec_gt-intro-p8">
     Even if two graphs are not <em>equal</em>,
     they might be <em>basically</em> the same.
     The graphs in the previous example could be drawn like this:
   </p>
 
-  <sidebyside permid="sbs5" width="60%">
+  <sidebyside permid="sec_gt-intro-sbs5" width="60%">
 
-    <image permid="im">
+    <image permid="sec_gt-intro-sbs5-im">
 
 		 		<latex-image>
 
@@ -378,37 +378,37 @@
 
   </sidebyside>
 
-  <p permid="p9">
+  <p permid="sec_gt-intro-p9">
     Graphs that are basically the same
     (but perhaps not equal)
     are called <term>isomorphic</term>.
     We will give a precise definition of this term after a quick example:
   </p>
 
-  <example permid="ex2">
+  <example permid="sec_gt-intro-ex2">
     <statement>
-      <p permid="p1">
+      <p permid="sec_gt-intro-ex2-p1">
         Consider the graphs:
       </p>
 
-      <blockquote permid="bq">
-        <p permid="p1">
+      <blockquote permid="sec_gt-intro-ex2-bq">
+        <p permid="sec_gt-intro-ex2-bq-p1">
           <m>G_1 = \{V_1, E_1\}</m> where
           <m>V_1 = \{a, b, c\}</m> and <m>E_1 = \{\{a,b\}, \{a,c\}, \{b,c\}\}</m>;
         </p>
 
-        <p permid="p2">
+        <p permid="sec_gt-intro-ex2-bq-p2">
           <m>G_2 = \{V_2, E_2\}</m> where
           <m>V_2 = \{u,v,w\}</m> and <m>E_2 = \{\{u,v\}, \{u,w\}, \{v,w\}\}</m>.
         </p>
       </blockquote>
 
-      <p permid="p2">
+      <p permid="sec_gt-intro-ex2-p2">
         Are these graphs the same?
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p1">
+    <solution permid="sec_gt-intro-ex2-s">
+      <p permid="sec_gt-intro-ex2-s-p1">
         The two graphs are NOT equal.
         It is enough to notice that <m>V_1 \ne V_2</m> since
         <m>a \in V_1</m> but <m>a \notin V_2</m>.
@@ -416,9 +416,9 @@
         We can draw them as follows:
       </p>
 
-      <sidebyside permid="sbs" width="25%" margins="auto" valign="bottom">
+      <sidebyside permid="sec_gt-intro-ex2-sbs" width="25%" margins="auto" valign="bottom">
 
-        <image permid="im1">
+        <image permid="sec_gt-intro-ex2-s-im1">
 
 					<latex-image>
 						\begin{tikzpicture}
@@ -427,7 +427,7 @@
 					</latex-image>
         </image>
 
-        <image permid="im2">
+        <image permid="sec_gt-intro-ex2-s-im2">
 
 					<latex-image>
 						\begin{tikzpicture}
@@ -438,7 +438,7 @@
 
       </sidebyside>
 
-      <p permid="p2">
+      <p permid="sec_gt-intro-ex2-s-p2">
         Clearly we want to say these graphs are basically the same,
         so while they are not equal, they will be <em>isomorphic</em>.
         The reason is we can rename the vertices of one graph and get the second graph as the result.
@@ -446,7 +446,7 @@
     </solution>
   </example>
 
-  <p permid="p10">
+  <p permid="sec_gt-intro-p10">
     Intuitively, graphs are <term>isomorphic</term> 
         <idx><h>isomorphic</h></idx>
     if they are basically the same, or better yet,
@@ -455,44 +455,44 @@
     we give the following definitions:
   </p>
 
-  <assemblage permid="asm-isomorphic-graphs">
+  <assemblage permid="sec_gt-intro-asm-isomorphic-graphs">
     <title>Isomorphic Graphs</title>
-    <p permid="p1">
+    <p permid="sec_gt-intro-asm-isomorphic-graphs-p1">
           <idx><h>isomorphic</h></idx> An
 			<term>isomorphism</term><idx><h>isomorphism</h></idx> between two graphs <m>G_1</m> and <m>G_2</m> is a bijection <m>f:V_1 \to V_2</m> between the vertices of the graphs such that if <m>\{a,b\}</m> is an edge in <m>G_1</m> then <m>\{f(a), f(b)\}</m> is an edge in <m>G_2</m>.
     </p>
 
-    <p permid="p2">
+    <p permid="sec_gt-intro-asm-isomorphic-graphs-p2">
       Two graphs are
 			<term>isomorphic</term> if there is an isomorphism between them. In this case we write <m>G_1 \isom G_2</m>.
     </p>
   </assemblage>
 
-  <p permid="p11">
+  <p permid="sec_gt-intro-p11">
     An isomorphism is simply a function which renames the vertices.
     It must be a bijection so every vertex gets a new name.
     These newly named vertices must be connected by edges precisely if they were connected by edges with their old names.
   </p>
 
-  <example permid="ex3">
+  <example permid="sec_gt-intro-ex3">
     <statement>
-      <p permid="p1">
+      <p permid="sec_gt-intro-ex3-p1">
         Decide whether the graphs <m>G_1 = \{V_1, E_1\}</m> and
         <m>G_2 = \{V_2, E_2\}</m> are equal or isomorphic.
       </p>
 
-      <p permid="p2">
+      <p permid="sec_gt-intro-ex3-p2">
         <m>V_1 = \{a,b,c,d\}</m>,
         <m>E_1 = \{\{a,b\}, \{a,c\}, \{a,d\}, \{c,d\}\}</m>
       </p>
 
-      <p permid="p3">
+      <p permid="sec_gt-intro-ex3-p3">
         <m>V_2 = \{a,b,c,d\}</m>,
         <m>E_2 = \{\{a,b\}, \{a,c\}, \{b,c\}, \{c,d\}\}</m>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p1">
+    <solution permid="sec_gt-intro-ex3-s">
+      <p permid="sec_gt-intro-ex3-s-p1">
         The graphs are NOT equal,
         since <m>\{a,d\} \in E_1</m> but <m>\{a,d\} \notin E_2</m>.
         However, since both graphs contain the same number of vertices and same number of edges,
@@ -500,7 +500,7 @@
         (this is not enough in most cases, but it is a good start).
       </p>
 
-      <p permid="p2">
+      <p permid="sec_gt-intro-ex3-s-p2">
         We can try to build an isomorphism.
         How about we say <m>f(a) = b</m>,
         <m>f(b) = c</m>, <m>f(c) = d</m> and <m>f(d) = a</m>.
@@ -519,16 +519,16 @@
         Thus <m>f</m> is NOT an isomorphism.
       </p>
 
-      <p permid="p3">
+      <p permid="sec_gt-intro-ex3-s-p3">
         Not all hope is lost, however.
         Just because <m>f</m> is not an isomorphism does not mean that there is no isomorphism at all.
         We can try again.
         At this point it might be helpful to draw the graphs to see how they should match up.
       </p>
 
-      <sidebyside permid="sbs" widths="23% 23%" margins="auto" valign="bottom">
+      <sidebyside permid="sec_gt-intro-ex3-sbs" widths="23% 23%" margins="auto" valign="bottom">
 
-        <image permid="im1">
+        <image permid="sec_gt-intro-ex3-s-im1">
 
 						<latex-image>
 
@@ -546,7 +546,7 @@
 						</latex-image>
         </image>
 
-        <image permid="im2">
+        <image permid="sec_gt-intro-ex3-s-im2">
 
 						<latex-image>
 
@@ -566,7 +566,7 @@
 
       </sidebyside>
 
-      <p permid="p4">
+      <p permid="sec_gt-intro-ex3-s-p4">
         Alternatively, notice that in <m>G_1</m>,
         the vertex <m>a</m> is adjacent to every other vertex.
         In <m>G_2</m>,
@@ -582,22 +582,22 @@
         (switching these would be fine as well).
       </p>
 
-      <p permid="p5">
+      <p permid="sec_gt-intro-ex3-s-p5">
         We should check that this really is an isomorphism.
         It is definitely a bijection.
         We must make sure that the edges are respected.
         The four edges in <m>G_1</m> are
-        <me permid="me">
+        <me permid="sec_gt-intro-ex3-s-p5-me">
           \{a,b\}, \{a,c\}, \{a,d\}, \{c,d\}
         </me>
       </p>
 
-      <p permid="p6">
+      <p permid="sec_gt-intro-ex3-s-p6">
         Under the proposed isomorphism these become
-        <me permid="me1">
+        <me permid="sec_gt-intro-ex3-s-p6-me1">
           \{g(a), g(b)\}, \{g(a), g(c)\}, \{g(a), g(d)\}, \{g(c), g(d)\}
         </me>
-        <me permid="me2">
+        <me permid="sec_gt-intro-ex3-s-p6-me2">
           \{c,d\}, \{c,b\}, \{c,a\}, \{b,a\}
         </me>
         which are precisely the edges in <m>G_2</m>.
@@ -606,7 +606,7 @@
     </solution>
   </example>
 
-  <p permid="p12">
+  <p permid="sec_gt-intro-p12">
     Sometimes we will talk about a graph with a special name
     (like <m>K_n</m> or the <em>Peterson graph</em>)
     or perhaps draw a graph without any labels.
@@ -622,15 +622,15 @@
     we say <em>congruent</em>.
     </fn></p>
 
-  <p permid="p13">
+  <p permid="sec_gt-intro-p13">
     There are other relationships between graphs that we care about,
     other than equality and being isomorphic.
     For example, compare the following pair of graphs:
   </p>
 
-  <sidebyside permid="sbs6" width="20%" margins="auto">
+  <sidebyside permid="sec_gt-intro-sbs6" width="20%" margins="auto">
 
-    <image permid="im1">
+    <image permid="sec_gt-intro-sbs6-im1">
 
 			<latex-image>\begin{tikzpicture}
 			      \foreach \x in {0,...,6}
@@ -638,7 +638,7 @@
 			    \end{tikzpicture}</latex-image>
     </image>
 
-    <image permid="im2">
+    <image permid="sec_gt-intro-sbs6-im2">
 
 			<latex-image>\begin{tikzpicture}
 			      \foreach \x in {0,...,4}
@@ -648,15 +648,15 @@
 
   </sidebyside>
 
-  <p permid="p14">
+  <p permid="sec_gt-intro-p14">
     These are definitely not isomorphic,
     but notice that the graph on the right looks like it might be part of the graph on the left,
     especially if we draw it like this:
   </p>
 
-  <sidebyside permid="sbs7" width="20%">
+  <sidebyside permid="sec_gt-intro-sbs7" width="20%">
 
-    <image permid="im">
+    <image permid="sec_gt-intro-sbs7-im">
 
 			 <latex-image>\begin{tikzpicture}
 						 \foreach \x in {0,...,6}
@@ -667,26 +667,26 @@
 
   </sidebyside>
 
-  <p permid="p15">
+  <p permid="sec_gt-intro-p15">
     We would like to say that the smaller graph is a
     <em>subgraph</em> of the larger.
   </p>
 
-  <p permid="p16">
+  <p permid="sec_gt-intro-p16">
     We should give a careful definition of this.
     In fact, there are two reasonable notions for what a subgroup should mean.
   </p>
 
-  <assemblage permid="asm-subgraphs">
+  <assemblage permid="sec_gt-intro-asm-subgraphs">
     <title>Subgraphs</title>
-    <p permid="p1">
+    <p permid="sec_gt-intro-asm-subgraphs-p1">
       We say that <m>G_1 = (V_1, E_1)</m> is a <term>subgraph</term>
           <idx><h>subgraph</h></idx>
       of <m>G_2 = (V_2, E_2)</m> provided
       <m>V_1 \subseteq V_2</m> and <m>E_1 \subseteq E_2</m>.
     </p>
 
-    <p permid="p2">
+    <p permid="sec_gt-intro-asm-subgraphs-p2">
       We say that <m>G_1 = (V_1, E_1)</m> is an
       <term>induced subgraph</term>
           <idx><h>subgraph</h><h>induced</h></idx>
@@ -696,7 +696,7 @@
     </p>
   </assemblage>
 
-  <p permid="p17">
+  <p permid="sec_gt-intro-p17">
     Notice that every induced subgraph is also an ordinary subgraph,
     but not conversely.
     Think of a subgraph as the result of deleting some vertices and edges from the larger graph.
@@ -705,15 +705,15 @@
     but now we only delete those edges that included the deleted vertices.
   </p>
 
-  <example permid="ex4">
+  <example permid="sec_gt-intro-ex4">
     <statement>
-      <p permid="p1">
+      <p permid="sec_gt-intro-ex4-p1">
         Consider the graphs:
       </p>
 
-      <sidebyside permid="sbs" widths="18% 18% 18% 18%" margins="auto" valigns="bottom bottom bottom bottom">
+      <sidebyside permid="sec_gt-intro-ex4-sbs" widths="18% 18% 18% 18%" margins="auto" valigns="bottom bottom bottom bottom">
 
-        <image permid="im1">
+        <image permid="sec_gt-intro-ex4-im1">
 
 						<latex-image>\begin{tikzpicture}[yscale=.8]
 						      \draw  (-1,0) \vb{\footnotesize $a$} -- (0,0) \vb{\footnotesize $b$} -- (1,0) \vb{\footnotesize $c$} -- (.5,1) \vb{\footnotesize $e$} -- (0,0) -- (-.5,1) \vb{\footnotesize $d$} -- (0,2) \vb{\footnotesize $f$} -- (.5,1) -- (-.5,1) -- (-1,0);
@@ -721,7 +721,7 @@
 						    \end{tikzpicture}</latex-image>
         </image>
 
-        <image permid="im2">
+        <image permid="sec_gt-intro-ex4-im2">
 
 						<latex-image>\begin{tikzpicture}[yscale=.8]
 									\draw  (-1,0) \vb{\footnotesize $a$} -- (0,0) \vb{\footnotesize $b$} -- (1,0) \vb{\footnotesize $c$}  (0,0) -- (-.5,1) \vb{\footnotesize $d$} (-.5,1) -- (-1,0);
@@ -729,7 +729,7 @@
 								\end{tikzpicture}</latex-image>
         </image>
 
-        <image permid="im3">
+        <image permid="sec_gt-intro-ex4-im3">
 
 						<latex-image>\begin{tikzpicture}[yscale=.8]
 									\draw  (-1,0) \vb{\footnotesize $a$} (0,0) \vb{\footnotesize $b$} -- (1,0) \vb{\footnotesize $c$}  (0,0) -- (-.5,1) \vb{\footnotesize $d$} -- (0,2) \vb{\footnotesize $f$} (-1,0) -- (-.5,1);
@@ -737,7 +737,7 @@
 								\end{tikzpicture}</latex-image>
         </image>
 
-        <image permid="im4">
+        <image permid="sec_gt-intro-ex4-im4">
 
 						<latex-image>\begin{tikzpicture}[yscale=.8]
 									\draw  (-1,0) \vb{\footnotesize $a$} -- (0,0) \vb{\footnotesize $b$} -- (1,0) \vb{\footnotesize $c$} -- (.5,1) (0,0) -- (-.5,1) \vb{\footnotesize $d$} -- (0,2) \vb{\footnotesize $f$} -- (.5,1) (-.5,1) -- (-1,0);
@@ -747,7 +747,7 @@
 
       </sidebyside>
 
-      <p permid="p2">
+      <p permid="sec_gt-intro-ex4-p2">
         Here both <m>G_2</m> and <m>G_3</m> are subgraphs of <m>G_1</m>.
         But only <m>G_2</m> is an <em>induced</em> subgraph.
         Every edge in <m>G_1</m> that connects vertices in <m>G_2</m> is also an edge in <m>G_2</m>.
@@ -756,7 +756,7 @@
         even though vertices <m>a</m> and <m>b</m> are in <m>V_3</m>.
       </p>
 
-      <p permid="p3">
+      <p permid="sec_gt-intro-ex4-p3">
         The graph <m>G_4</m> is NOT a subgraph of <m>G_1</m>,
         even though it looks like all we did is remove vertex <m>e</m>.
         The reason is that in <m>E_4</m> we have the edge <m>\{c,f\}</m> but this is not an element of <m>E_1</m>,
@@ -765,7 +765,7 @@
     </statement>
   </example>
 
-  <p permid="p18">
+  <p permid="sec_gt-intro-p18">
     Back to some basic graph theory definitions.
     Notice that all the graphs we have drawn above have the property that no pair of vertices is connected more than once,
     and no vertex is connected to itself.
@@ -778,7 +778,7 @@
     we cannot have a single vertex connected to itself by an edge.
   </p>
 
-  <p permid="p19">
+  <p permid="sec_gt-intro-p19">
     That said, there are times we want to consider double
     (or more)
     edges and single edge loops.
@@ -790,7 +790,7 @@
     is a set in which we are allowed to include a single element multiple times.
   </p>
 
-  <p permid="p20">
+  <p permid="sec_gt-intro-p20">
     The graphs above are also <term>connected</term>
         <idx><h>connected</h></idx>
     : you can get from any vertex to any other vertex by following some path of edges.
@@ -799,7 +799,7 @@
     the following graph is NOT connected because there is no path from <m>a</m> to <m>b</m>:
   </p>
 
-  <sidebyside permid="sbs8" width="33%">
+  <sidebyside permid="sec_gt-intro-sbs8" width="33%">
 
     <image permid="ex-gt-non-connected" xml:id="ex-gt-non-connected">
 
@@ -815,14 +815,14 @@
 
   </sidebyside>
 
-  <p permid="p21">
+  <p permid="sec_gt-intro-p21">
     Most of the time,
     it makes sense to treat non-connected graphs as separate graphs
     (think of the above graph as two squares),
     so unless otherwise stated, we will assume all our graphs are connected.
   </p>
 
-  <p permid="p22">
+  <p permid="sec_gt-intro-p22">
     Vertices in a graph do not always have edges between them.
     If we add all possible edges,
     then the resulting graph is called <term>complete</term>.
@@ -840,7 +840,7 @@
     is the complete graph on <m>n</m> vertices.
   </p>
 
-  <p permid="p23">
+  <p permid="sec_gt-intro-p23">
     Each vertex in <m>K_n</m> is adjacent to <m>n-1</m> other vertices.
     We call the number of edges emanating from a given vertex the
     <term>degree</term> of that vertex.
@@ -856,7 +856,7 @@
     since to draw an edge we must choose 2 of the <m>n</m> vertices.
   </p>
 
-  <p permid="p24">
+  <p permid="sec_gt-intro-p24">
     In general, if we know the degrees of all the vertices in a graph,
     we can find the number of edges.
     The sum of the degrees of all vertices will always be
@@ -865,15 +865,15 @@
     Notice this means that the sum of the degrees of all vertices in any graph must be even!
   </p>
 
-  <example permid="ex5">
+  <example permid="sec_gt-intro-ex5">
     <statement>
-      <p permid="p">
+      <p permid="sec_gt-intro-ex5-p">
         At a recent math seminar, 9 mathematicians greeted each other by shaking hands.
         Is it possible that each mathematician shook hands with exactly 7 people at the seminar?
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="sec_gt-intro-ex5-s">
+      <p permid="sec_gt-intro-ex5-s-p">
         It seems like this should be possible.
         Each mathematician chooses one person to not shake hands with.
         But this cannot happen.
@@ -890,7 +890,7 @@
     </solution>
   </example>
 
-  <p permid="p25">
+  <p permid="sec_gt-intro-p25">
     One final definition: we say a graph is <term>bipartite</term>
         <idx><h>bipartite</h></idx>
     if the vertices can be divided into two sets, <m>A</m> and <m>B</m>,
@@ -904,14 +904,14 @@
   </p>
 
 	<!-- TODO: give picture example of bipartite and not bipartite graphs -->
-  <assemblage permid="asm-named-graphs">
+  <assemblage permid="sec_gt-intro-asm-named-graphs">
     <title>Named Graphs</title>
-    <p permid="p">
+    <p permid="sec_gt-intro-asm-named-graphs-p">
       Some graphs are used more than others, and get special names.
-      <dl permid="dl" width="narrow">
-        <li permid="l_k_n">
+      <dl permid="sec_gt-intro-asm-named-graphs-dl" width="narrow">
+        <li permid="sec_gt-intro-asm-named-graphs-dl-l_k_n">
           <title><m>K_n</m></title>
-          <p permid="p">
+          <p permid="sec_gt-intro-asm-named-graphs-dl-l_k_n-p">
             The complete graph on <m>n</m> vertices.
 
             <notation>
@@ -922,9 +922,9 @@
           </p>
         </li>
 
-        <li permid="l_k_mn">
+        <li permid="sec_gt-intro-asm-named-graphs-dl-l_k_mn">
           <title><m>K_{m,n}</m></title>
-          <p permid="p">
+          <p permid="sec_gt-intro-asm-named-graphs-dl-l_k_mn-p">
             The complete bipartite graph with sets of <m>m</m> and <m>n</m> vertices.
 
             <notation>
@@ -935,9 +935,9 @@
           </p>
         </li>
 
-        <li permid="l_c_n">
+        <li permid="sec_gt-intro-asm-named-graphs-dl-l_c_n">
           <title><m>C_n</m></title>
-          <p permid="p">
+          <p permid="sec_gt-intro-asm-named-graphs-dl-l_c_n-p">
             The cycle on <m>n</m> vertices, just one big loop.
 
             <notation>
@@ -948,9 +948,9 @@
           </p>
         </li>
 
-        <li permid="l_p_n">
+        <li permid="sec_gt-intro-asm-named-graphs-dl-l_p_n">
           <title><m>P_n</m></title>
-          <p permid="p">
+          <p permid="sec_gt-intro-asm-named-graphs-dl-l_p_n-p">
             The path on <m>n</m> vertices, just one long path.
 
             <notation>
@@ -963,9 +963,9 @@
       </dl>
     </p>
 
-    <sidebyside permid="sbs" widths="18% 20% 15% 24%" margins="auto" valign="bottom">
+    <sidebyside permid="sec_gt-intro-asm-named-graphs-sbs" widths="18% 20% 15% 24%" margins="auto" valign="bottom">
 
-      <image permid="im1">
+      <image permid="sec_gt-intro-asm-named-graphs-sbs-im1">
 
 				<latex-image>
 					\begin{tikzpicture}[scale=1]
@@ -980,7 +980,7 @@
 				</latex-image>
       </image>
 
-      <image permid="im2">
+      <image permid="sec_gt-intro-asm-named-graphs-sbs-im2">
 
 				<latex-image>
 					\begin{tikzpicture}[scale=.6, xscale=1.5]
@@ -990,7 +990,7 @@
 				</latex-image>
       </image>
 
-      <image permid="im3">
+      <image permid="sec_gt-intro-asm-named-graphs-sbs-im3">
 
 				<latex-image>
 					\begin{tikzpicture}[scale=.6]
@@ -1000,7 +1000,7 @@
 				</latex-image>
       </image>
 
-      <image permid="im4">
+      <image permid="sec_gt-intro-asm-named-graphs-sbs-im4">
 
 				<latex-image>
 					\begin{tikzpicture}[scale=.6]
@@ -1013,142 +1013,142 @@
     </sidebyside>
   </assemblage>
 
-  <p permid="p26">
+  <p permid="sec_gt-intro-p26">
     There are a lot of definitions to keep track of in graph theory.
     Here is a glossary of the terms we have already used and will soon encounter.
   </p>
 
-  <assemblage permid="asm-graph-theory-definitions">
+  <assemblage permid="sec_gt-intro-asm-graph-theory-definitions">
     <title>Graph Theory Definitions</title>
-    <p permid="p">
-      <dl permid="dl" width="medium">
-        <li permid="l_graph">
+    <p permid="sec_gt-intro-asm-graph-theory-definitions-p">
+      <dl permid="sec_gt-intro-asm-graph-theory-definitions-dl" width="medium">
+        <li permid="sec_gt-intro-asm-graph-theory-definitions-dl-l_graph">
           <title>Graph</title>
-          <p permid="p">
+          <p permid="sec_gt-intro-asm-graph-theory-definitions-dl-l_graph-p">
               <idx><h>graph</h></idx> A collection of
 						<term>vertices</term>, some of which are connected by
 						<term>edges</term>. More precisely, a pair of sets <m>V</m> and <m>E</m> where <m>V</m> is a set of vertices and <m>E</m> is a set of 2-element subsets of <m>V</m>.
           </p>
         </li>
 
-        <li permid="l_adjacent">
+        <li permid="sec_gt-intro-asm-graph-theory-definitions-dl-l_adjacent">
           <title>Adjacent</title>
-          <p permid="p">
+          <p permid="sec_gt-intro-asm-graph-theory-definitions-dl-l_adjacent-p">
               <idx><h>adjacent</h></idx> Two vertices are
 						<term>adjacent</term> if they are connected by an edge. Two edges are
 						<term>adjacent</term> if they share a vertex.
           </p>
         </li>
 
-        <li permid="l_bipartite-graph">
+        <li permid="sec_gt-intro-asm-graph-theory-definitions-dl-l_bipartite-graph">
           <title>Bipartite graph</title>
-          <p permid="p">
+          <p permid="sec_gt-intro-asm-graph-theory-definitions-dl-l_bipartite-graph-p">
               <idx><h>bipartite</h></idx> A graph for which it is possible to divide the vertices into two disjoint sets such that there are no edges between any two vertices in the same set.
           </p>
         </li>
 
-        <li permid="l_complete-bipartite-graph">
+        <li permid="sec_gt-intro-asm-graph-theory-definitions-dl-l_complete-bipartite-graph">
           <title>Complete bipartite graph</title>
-          <p permid="p">
+          <p permid="sec_gt-intro-asm-graph-theory-definitions-dl-l_complete-bipartite-graph-p">
             A bipartite graph for which every vertex in the first set is adjacent to every vertex in the second set.
           </p>
         </li>
 
-        <li permid="l_complete-graph">
+        <li permid="sec_gt-intro-asm-graph-theory-definitions-dl-l_complete-graph">
           <title>Complete graph</title>
-          <p permid="p">
+          <p permid="sec_gt-intro-asm-graph-theory-definitions-dl-l_complete-graph-p">
               <idx><h>complete graph</h></idx> A graph in which every pair of vertices is adjacent.
           </p>
         </li>
 
-        <li permid="l_connected">
+        <li permid="sec_gt-intro-asm-graph-theory-definitions-dl-l_connected">
           <title>Connected</title>
-          <p permid="p">
+          <p permid="sec_gt-intro-asm-graph-theory-definitions-dl-l_connected-p">
               <idx><h>connected</h></idx> A graph is
 						<term>connected</term> if there is a path from any vertex to any other vertex.
           </p>
         </li>
 
-        <li permid="l_chromatic-number">
+        <li permid="sec_gt-intro-asm-graph-theory-definitions-dl-l_chromatic-number">
           <title>Chromatic number</title>
-          <p permid="p">
+          <p permid="sec_gt-intro-asm-graph-theory-definitions-dl-l_chromatic-number-p">
               <idx><h>chromatic number</h></idx> The minimum number of colors required in a proper vertex coloring of the graph.
           </p>
         </li>
 
-        <li permid="l_cycle">
+        <li permid="sec_gt-intro-asm-graph-theory-definitions-dl-l_cycle">
           <title>Cycle</title>
-          <p permid="p">
+          <p permid="sec_gt-intro-asm-graph-theory-definitions-dl-l_cycle-p">
               <idx><h>cycle</h></idx> A path (see below) that starts and stops at the same vertex, but contains no other repeated vertices.
           </p>
         </li>
 
-        <li permid="l_degree-a-vertex">
+        <li permid="sec_gt-intro-asm-graph-theory-definitions-dl-l_degree-a-vertex">
           <title>Degree of a vertex</title>
-          <p permid="p">
+          <p permid="sec_gt-intro-asm-graph-theory-definitions-dl-l_degree-a-vertex-p">
               <idx><h>degree</h></idx> The number of edges incident to a vertex.
           </p>
         </li>
 
-        <li permid="l_euler-path">
+        <li permid="sec_gt-intro-asm-graph-theory-definitions-dl-l_euler-path">
           <title>Euler path</title>
-          <p permid="p">
+          <p permid="sec_gt-intro-asm-graph-theory-definitions-dl-l_euler-path-p">
             A walk which uses each edge exactly once.
           </p>
         </li>
 
-        <li permid="l_euler-circuit">
+        <li permid="sec_gt-intro-asm-graph-theory-definitions-dl-l_euler-circuit">
           <title>Euler circuit</title>
-          <p permid="p">
+          <p permid="sec_gt-intro-asm-graph-theory-definitions-dl-l_euler-circuit-p">
               <idx><h>Euler path</h></idx> An Euler path which starts and stops at the same vertex.
           </p>
         </li>
 
-        <li permid="l_multigraph">
+        <li permid="sec_gt-intro-asm-graph-theory-definitions-dl-l_multigraph">
           <title>Multigraph</title>
-          <p permid="p">
+          <p permid="sec_gt-intro-asm-graph-theory-definitions-dl-l_multigraph-p">
               <idx><h>multigraph</h></idx> A
 						<term>multigraph</term> is just like a graph but can contain multiple edges between two vertices as well as single edge loops (that is an edge from a vertex to itself).
           </p>
         </li>
 
-        <li permid="l_planar">
+        <li permid="sec_gt-intro-asm-graph-theory-definitions-dl-l_planar">
           <title>Planar</title>
-          <p permid="p">
+          <p permid="sec_gt-intro-asm-graph-theory-definitions-dl-l_planar-p">
               <idx><h>planar</h></idx> A graph which can be drawn (in the plane) without any edges crossing.
           </p>
         </li>
 
-        <li permid="l_subgraph">
+        <li permid="sec_gt-intro-asm-graph-theory-definitions-dl-l_subgraph">
           <title>Subgraph</title>
-          <p permid="p">
+          <p permid="sec_gt-intro-asm-graph-theory-definitions-dl-l_subgraph-p">
               <idx><h>subgraph</h></idx> We say that <m>H</m> is a
 						<term>subgraph</term> of <m>G</m> if every vertex and edge of <m>H</m> is also a vertex or edge of <m>G</m>. We say <m>H</m> is an
 						<term>induced</term> subgraph of <m>G</m> if every vertex of <m>H</m> is a vertex of <m>G</m> and each pair of vertices in <m>H</m> are adjacent in <m>H</m> if and only if they are adjacent in <m>G</m>.
           </p>
         </li>
 
-        <li permid="l_tree">
+        <li permid="sec_gt-intro-asm-graph-theory-definitions-dl-l_tree">
           <title>Tree</title>
-          <p permid="p">
+          <p permid="sec_gt-intro-asm-graph-theory-definitions-dl-l_tree-p">
               <idx><h>tree</h></idx> A (connected) graph with no cycles. (A non-connected graph with no cycles is called a
 						<term>forest</term>.) The vertices in a tree with degree 1 are called
 						<term>leaves</term>.
           </p>
         </li>
 
-        <li permid="l_vertex-coloring">
+        <li permid="sec_gt-intro-asm-graph-theory-definitions-dl-l_vertex-coloring">
           <title>Vertex coloring</title>
-          <p permid="p">
+          <p permid="sec_gt-intro-asm-graph-theory-definitions-dl-l_vertex-coloring-p">
               <idx><h>vertex coloring</h></idx> An assignment of colors to each of the vertices of a graph.
             A vertex coloring is
 						<term>proper</term> if adjacent vertices are always colored differently.
           </p>
         </li>
 
-        <li permid="l_walk">
+        <li permid="sec_gt-intro-asm-graph-theory-definitions-dl-l_walk">
           <title>Walk</title>
-          <p permid="p">
+          <p permid="sec_gt-intro-asm-graph-theory-definitions-dl-l_walk-p">
               <idx><h>walk</h></idx> A sequence of vertices such that consecutive vertices (in the sequence) are adjacent (in the graph).
             A walk in which no vertex is repeated is called
 						<term>simple</term>.

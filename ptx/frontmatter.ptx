@@ -40,13 +40,13 @@
   </colophon>
 
   <dedication>
-    <p permid="p1">
+    <p permid="frontm-p1">
       For Madeline and Teagan
     </p>
   </dedication>
 
   <acknowledgement>
-    <p permid="p2">
+    <p permid="frontm-p2">
       This book would not exist if not for
       <q>Discrete and Combinatorial Mathematics</q>
       by Richard Grassl and Tabitha Mingus.
@@ -57,7 +57,7 @@
       Some of the best exposition and exercises here were graciously donated from this source.
     </p>
 
-    <p permid="p3">
+    <p permid="frontm-p3">
       Thanks to Alees Seehausen who co-taught the Discrete Mathematics course with me in 2015 and helped develop many of the <em>Investigate!</em>
       activities and other problems currently used in the text.
       She also offered many suggestions for improvement of the expository text,
@@ -65,25 +65,25 @@
       Thanks also to Katie Morrison and Nate Eldredge for their suggestions after using parts of this text in their class.
     </p>
 
-    <p permid="p4">
+    <p permid="frontm-p4">
       While odds are that there are still errors and typos in the current book,
       there are many fewer thanks to the work of Michelle Morgan over the summer of 2016.
     </p>
 
-    <p permid="p5">
+    <p permid="frontm-p5">
       The book is now available in an interactive online format,
       and this is entirely thanks to the work of Rob Beezer and David Farmer along with the rest of the participants of the
       <url href="https://groups.google.com/forum/?fromgroups#!forum/mathbook-xml-support">mathbook-xml-support group</url>.
       Thanks for
     </p>
 
-    <p permid="p6">
+    <p permid="frontm-p6">
       Finally, a thank you to the numerous students who have pointed out typos and made suggestions over the years and a thanks in advance to those who will do so in the future.
     </p>
   </acknowledgement>
 
   <preface permid="pref" xml:id="preface">
-    <p permid="p7">
+    <p permid="frontm-p7">
       This text aims to give an introduction to select topics in discrete mathematics at a level appropriate for first or second year undergraduate math majors,
       especially those who intend to teach middle and high school mathematics.
       The book began as a set of notes for the Discrete Mathematics course at the University of Northern Colorado.
@@ -98,7 +98,7 @@
       unlike the majority of textbooks on the subject.
     </p>
 
-    <p permid="p8">
+    <p permid="frontm-p8">
       Another difference between this text and most other discrete math books is that this book is intended to be used in a class taught using problem oriented or inquiry based methods.
       When I teach the class, I will assign sections for reading <em>after</em>
       first introducing them in class by using a mix of group work and class discussion on a few interesting problems.
@@ -109,7 +109,7 @@
       in a way that hopefully mimics an inquiry based classroom.
     </p>
 
-    <p permid="p9">
+    <p permid="frontm-p9">
       The topics covered in this text were chosen to match the needs of the students I teach at UNC. The main areas of study are combinatorics,
       sequences, logic and proofs, and graph theory, in that order.
       Induction is covered at the end of the chapter on sequences.
@@ -124,7 +124,7 @@
       which should provide enough common language to discuss the logical content of combinatorics and sequences.
     </p>
 
-    <p permid="p10">
+    <p permid="frontm-p10">
       Depending on the speed of the class,
       it might be possible to include additional material.
       In past semesters I have included generating functions
@@ -134,7 +134,7 @@
       These additional topics are covered in the last chapter.
     </p>
 
-    <p permid="p11">
+    <p permid="frontm-p11">
       While I (currently) believe this selection and order of topics is optimal,
       you should feel free to skip around to what interests you.
       There are occasionally examples and exercises that rely on earlier material,
@@ -145,23 +145,23 @@
 
     <paragraphs permid="pref_editions" xml:id="pref_editions">
       <title>Previous and future editions</title>
-      <p permid="p1">
+      <p permid="pref_editions-p1">
         This current 2nd edition brings a few major improvements,
         as well as <em>lots</em> of minor corrections.
         The highlights include:
 
-        <ul permid="ul">
-          <li permid="l_j">
+        <ul permid="pref_editions-ul">
+          <li permid="pref_editions-ul-l_j">
             Some of the material from chapter 3
             (on logic)
             is now part of an introduction section on mathematical statements.
           </li>
 
-          <li permid="l_s">
+          <li permid="pref_editions-ul-l_s">
             Content from the section on counting functions (previously 1.7) is now integrated with the rest of chapter 1.
           </li>
 
-          <li permid="l_b">
+          <li permid="pref_editions-ul-l_b">
             To accommodate instructors, some of the solutions to exercises were removed,
             and the more involved <q>homework</q>
             problems were integrated in the main exercises.
@@ -169,14 +169,14 @@
             Currently there are about 360 exercises of which roughly 2/3 have solutions or answers.
           </li>
 
-          <li permid="l_k">
+          <li permid="pref_editions-ul-l_k">
             Behind the scenes,
             the source of the text transitioned from <latex/> to Mathbook XML, which allows for conversion to <latex/> as well as the creation of an interactive online version.
           </li>
         </ul>
       </p>
 
-      <p permid="p2">
+      <p permid="pref_editions-p2">
         The previous <em>Fall 2015 edition</em>
         was essentially the first edition of the book.
         I had previously compiled many of the sections in a book format for easy distribution,
@@ -185,7 +185,7 @@
         very little in the way of consistent formatting).
       </p>
 
-      <p permid="p3">
+      <p permid="pref_editions-p3">
         My intent is to compile a new edition prior to each fall semester which incorporate additions and corrections suggested by instructors and students who use the text the previous semesters.
         Thus I encourage you to send along any suggestions and comments as you have them.
       </p>
@@ -195,16 +195,16 @@
     <line>University of Northern Colorado, 2016</line></attribution>
   </preface>
 
-  <preface permid="pref-how-to-use-this-book">
+  <preface permid="-pref-how-to-use-this-book">
     <title>How to use this book</title>
-    <p permid="p12">
+    <p permid="frontm-p12">
       In addition to expository text,
       this book has a few features designed to encourage you to interact with the mathematics.
     </p>
 
-    <paragraphs permid="ps-em-investigate-em-activities">
+    <paragraphs permid="frontm-ps-em-investigate-em-activities">
       <title><em>Investigate!</em> activities</title>
-      <p permid="p">
+      <p permid="frontm-ps-em-investigate-em-activities-p">
         Sprinkled throughout the sections
         (usually at the very beginning of a topic)
         you will find activities designed to get you acquainted with the topic soon to be discussed.
@@ -223,9 +223,9 @@
       </p>
     </paragraphs>
 
-    <paragraphs permid="ps-examples">
+    <paragraphs permid="frontm-ps-examples">
       <title>Examples</title>
-      <p permid="p">
+      <p permid="frontm-ps-examples-p">
         I have tried to include the <q>correct</q> number of examples.
         For those examples which include <em>problems</em>,
         full solutions are included.
@@ -239,9 +239,9 @@
       </p>
     </paragraphs>
 
-    <paragraphs permid="ps-exers">
+    <paragraphs permid="frontm-ps-exers">
       <title>Exercises</title>
-      <p permid="p">
+      <p permid="frontm-ps-exers-p">
         You get good at math through practice.
         Each section concludes with a small number of exercises meant to solidify concepts and basic skills presented in that section.
         At the end of each chapter,

@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <exercises permid="exers_intro-statements" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exercises_intro-statements">
 
-  <exercise permid="e_xo">
+  <exercise permid="exers_intro-statements-e_xo">
     <statement>
-      <p permid="p">
+      <p permid="exers_intro-statements-e_xo-p">
         Classify each of the sentences below as an atomic statement,
         and molecular statement, or not a statement at all.
         If the statement is molecular, say what kind it is
         (conjuction,
         disjunction, conditional, biconditional, negation).
 
-        <ol permid="ol">
-          <li permid="l_j">The sum of the first 100 odd positive integers.</li>
+        <ol permid="exers_intro-statements-e_xo-ol">
+          <li permid="exers_intro-statements-e_xo-ol-l_j">The sum of the first 100 odd positive integers.</li>
 
-          <li permid="l_s">Everybody needs somebody sometime.</li>
+          <li permid="exers_intro-statements-e_xo-ol-l_s">Everybody needs somebody sometime.</li>
 
-          <li permid="l_b">
+          <li permid="exers_intro-statements-e_xo-ol-l_b">
             The Broncos will win the Super Bowl or I'll eat my hat.
           </li>
 
-          <li permid="l_k">
+          <li permid="exers_intro-statements-e_xo-ol-l_k">
             We can have donuts for dinner, but only if it rains.
           </li>
 
-          <li permid="l_t">
+          <li permid="exers_intro-statements-e_xo-ol-l_t">
             Every natural number greater than 1 is either prime or composite.
           </li>
 
-          <li permid="l_c">This sentence is false.</li>
+          <li permid="exers_intro-statements-e_xo-ol-l_c">This sentence is false.</li>
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j">
+    <solution permid="exers_intro-statements-e_xo-s">
+      <p permid="exers_intro-statements-e_xo-s-p">
+        <ol permid="exers_intro-statements-e_xo-s-ol">
+          <li permid="exers_intro-statements-e_xo-s-ol-l_j">
             This is not a statement; it does not make sense to say it is true or false.
           </li>
 
-          <li permid="l_s">
+          <li permid="exers_intro-statements-e_xo-s-ol-l_s">
             This is an atomic statement
             (there are some quantifiers, but no connectives).
           </li>
 
-          <li permid="l_b">
+          <li permid="exers_intro-statements-e_xo-s-ol-l_b">
             This is a molecular statement,
             specifically a disjunction.
             Although if we read into it a bit more,
@@ -51,9 +51,9 @@
             then he will eat his hat, which would be a conditional.
           </li>
 
-          <li permid="l_k">This is a molecular statement, a conditional.</li>
+          <li permid="exers_intro-statements-e_xo-s-ol-l_k">This is a molecular statement, a conditional.</li>
 
-          <li permid="l_t">
+          <li permid="exers_intro-statements-e_xo-s-ol-l_t">
             This is an atomic statement.
             Even though there is an <q>or</q> in the statement,
             it would not make sense to consider the two halves of the disjuction.
@@ -64,7 +64,7 @@
             since there is a free variable.
           </li>
 
-          <li permid="l_c">
+          <li permid="exers_intro-statements-e_xo-s-ol-l_c">
             This is not a statement, although it certainly looks like one.
             Remember that statements must be true or false.
             If this sentence were true, that would make it false.
@@ -76,80 +76,80 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ag">
+  <exercise permid="exers_intro-statements-e_ag">
     <statement>
-      <p permid="p1">
+      <p permid="exers_intro-statements-e_ag-p1">
         Suppose <m>P</m> and <m>Q</m> are the statements:
         <m>P</m>: Jack passed math.
         <m>Q</m>: Jill passed math.
       </p>
 
-      <ol permid="ol">
-        <li permid="l_j">
-          <p permid="p">
+      <ol permid="exers_intro-statements-e_ag-ol">
+        <li permid="exers_intro-statements-e_ag-ol-l_j">
+          <p permid="exers_intro-statements-e_ag-ol-l_j-p">
             Translate <q>Jack and Jill both passed math</q> into symbols.
           </p>
         </li>
 
-        <li permid="l_s">
-          <p permid="p">
+        <li permid="exers_intro-statements-e_ag-ol-l_s">
+          <p permid="exers_intro-statements-e_ag-ol-l_s-p">
             Translate <q>If Jack passed math,
             then Jill did not</q> into symbols.
           </p>
         </li>
 
-        <li permid="l_b">
-          <p permid="p">
+        <li permid="exers_intro-statements-e_ag-ol-l_b">
+          <p permid="exers_intro-statements-e_ag-ol-l_b-p">
             Translate <q><m>P \vee Q</m></q> into English.
           </p>
         </li>
 
-        <li permid="l_k">
-          <p permid="p">
+        <li permid="exers_intro-statements-e_ag-ol-l_k">
+          <p permid="exers_intro-statements-e_ag-ol-l_k-p">
             Translate <q><m>\neg(P \wedge Q) \imp Q</m></q> into English.
           </p>
         </li>
 
-        <li permid="l_t">
-          <p permid="p2">
+        <li permid="exers_intro-statements-e_ag-ol-l_t">
+          <p permid="exers_intro-statements-e_ag-p2">
             Suppose you know that if Jack passed math, then so did Jill.
             What can you conclude if you know that:
 
             <ol>
               <li>Jill passed math?</li>
 
-              <li permid="l_c">Jill did not pass math?</li>
+              <li permid="exers_intro-statements-e_ag-ol-l_c">Jill did not pass math?</li>
             </ol>
           </p>
         </li>
       </ol>
     </statement>
-    <solution permid="s">
-      <p permid="p1">
-        <ol permid="ol">
-          <li permid="l_j"><m>P \wedge Q</m>.</li>
+    <solution permid="exers_intro-statements-e_ag-s">
+      <p permid="exers_intro-statements-e_ag-s-p1">
+        <ol permid="exers_intro-statements-e_ag-s-ol">
+          <li permid="exers_intro-statements-e_ag-s-ol-l_j"><m>P \wedge Q</m>.</li>
 
-          <li permid="l_s"><m>P \imp \neg Q</m>.</li>
+          <li permid="exers_intro-statements-e_ag-s-ol-l_s"><m>P \imp \neg Q</m>.</li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_intro-statements-e_ag-s-ol-l_b">
+            <p permid="exers_intro-statements-e_ag-s-ol-l_b-p">
               Jack passed math or Jill passed math
               (or both).
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_intro-statements-e_ag-s-ol-l_k">
+            <p permid="exers_intro-statements-e_ag-s-ol-l_k-p">
               If Jack and Jill did not both pass math, then Jill did.
             </p>
           </li>
 
-          <li permid="l_t">
-            <p permid="p2">
+          <li permid="exers_intro-statements-e_ag-s-ol-l_t">
+            <p permid="exers_intro-statements-e_ag-s-p2">
               <ol>
                 <li>Nothing else.</li>
 
-                <li permid="l_c">Jack did not pass math either.</li>
+                <li permid="exers_intro-statements-e_ag-s-ol-l_c">Jack did not pass math either.</li>
               </ol>
             </p>
           </li>
@@ -158,9 +158,9 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_dp">
+  <exercise permid="exers_intro-statements-e_dp">
     <statement>
-      <p permid="p">
+      <p permid="exers_intro-statements-e_dp-p">
         Geoff Poshingten is out at a fancy pizza joint,
         and decides to order a calzone.
         When the waiter asks what he would like in it, he replies,
@@ -169,23 +169,23 @@
         Oh, and if I have pepperoni or quail then I must also have ricotta cheese.</q>
       </p>
 
-      <ol permid="ol">
-        <li permid="l_j">
-          <p permid="p">
+      <ol permid="exers_intro-statements-e_dp-ol">
+        <li permid="exers_intro-statements-e_dp-ol-l_j">
+          <p permid="exers_intro-statements-e_dp-ol-l_j-p">
             Translate Geoff's order into logical symbols.
           </p>
         </li>
 
-        <li permid="l_s">
-          <p permid="p">
+        <li permid="exers_intro-statements-e_dp-ol-l_s">
+          <p permid="exers_intro-statements-e_dp-ol-l_s-p">
             The waiter knows that Geoff is either a liar or a truth-teller
             (so either everything he says is false, or everything is true).
             Which is it?
           </p>
         </li>
 
-        <li permid="l_b">
-          <p permid="p">
+        <li permid="exers_intro-statements-e_dp-ol-l_b">
+          <p permid="exers_intro-statements-e_dp-ol-l_b-p">
             What, if anything,
             can the waiter conclude about the ingredients in Geoff's desired calzone?
           </p>
@@ -194,34 +194,34 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_gy">
+  <exercise permid="exers_intro-statements-e_gy">
     <statement>
-      <p permid="p">
+      <p permid="exers_intro-statements-e_gy-p">
         Consider the statement <q>If Oscar eats Chinese food, then he drinks milk.</q>
       </p>
 
-      <ol permid="ol">
-        <li permid="l_j">
-          <p permid="p">
+      <ol permid="exers_intro-statements-e_gy-ol">
+        <li permid="exers_intro-statements-e_gy-ol-l_j">
+          <p permid="exers_intro-statements-e_gy-ol-l_j-p">
             Write the converse of the statement.
           </p>
         </li>
 
-        <li permid="l_s">
-          <p permid="p">
+        <li permid="exers_intro-statements-e_gy-ol-l_s">
+          <p permid="exers_intro-statements-e_gy-ol-l_s-p">
             Write the contrapositive of the statement.
           </p>
         </li>
 
-        <li permid="l_b">
-          <p permid="p">
+        <li permid="exers_intro-statements-e_gy-ol-l_b">
+          <p permid="exers_intro-statements-e_gy-ol-l_b-p">
             Is it possible for the contrapositive to be false?
             If it was, what would that tell you?
           </p>
         </li>
 
-        <li permid="l_k">
-          <p permid="p">
+        <li permid="exers_intro-statements-e_gy-ol-l_k">
+          <p permid="exers_intro-statements-e_gy-ol-l_k-p">
             Suppose the original statement is true,
             and that Oscar drinks milk.
             Can you conclude anything (about his eating Chinese food)?
@@ -229,8 +229,8 @@
           </p>
         </li>
 
-        <li permid="l_t">
-          <p permid="p">
+        <li permid="exers_intro-statements-e_gy-ol-l_t">
+          <p permid="exers_intro-statements-e_gy-ol-l_t-p">
             Suppose the original statement is true,
             and that Oscar does not drink milk.
             Can you conclude anything (about his eating Chinese food)?
@@ -241,163 +241,163 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_jq">
+  <exercise permid="exers_intro-statements-e_jq">
     <statement>
-      <p permid="p">
+      <p permid="exers_intro-statements-e_jq-p">
         Which of the following statements are equivalent to the implication,
         <q>if you win the lottery,
         then you will be rich,</q> and which are equivalent to the converse of the implication?
       </p>
 
-      <ol permid="ol">
-        <li permid="l_j">
-          <p permid="p">
+      <ol permid="exers_intro-statements-e_jq-ol">
+        <li permid="exers_intro-statements-e_jq-ol-l_j">
+          <p permid="exers_intro-statements-e_jq-ol-l_j-p">
             Either you win the lottery or else you are not rich.
           </p>
         </li>
 
-        <li permid="l_s">
-          <p permid="p">
+        <li permid="exers_intro-statements-e_jq-ol-l_s">
+          <p permid="exers_intro-statements-e_jq-ol-l_s-p">
             Either you don't win the lottery or else you are rich.
           </p>
         </li>
 
-        <li permid="l_b">
-          <p permid="p">
+        <li permid="exers_intro-statements-e_jq-ol-l_b">
+          <p permid="exers_intro-statements-e_jq-ol-l_b-p">
             You will win the lottery and be rich.
           </p>
         </li>
 
-        <li permid="l_k">
-          <p permid="p">
+        <li permid="exers_intro-statements-e_jq-ol-l_k">
+          <p permid="exers_intro-statements-e_jq-ol-l_k-p">
             You will be rich if you win the lottery.
           </p>
         </li>
 
-        <li permid="l_t">
-          <p permid="p">
+        <li permid="exers_intro-statements-e_jq-ol-l_t">
+          <p permid="exers_intro-statements-e_jq-ol-l_t-p">
             You will win the lottery if you are rich.
           </p>
         </li>
 
-        <li permid="l_c">
-          <p permid="p">
+        <li permid="exers_intro-statements-e_jq-ol-l_c">
+          <p permid="exers_intro-statements-e_jq-ol-l_c-p">
             It is necessary for you to win the lottery to be rich.
           </p>
         </li>
 
-        <li permid="l_l">
-          <p permid="p">
+        <li permid="exers_intro-statements-e_jq-ol-l_l">
+          <p permid="exers_intro-statements-e_jq-ol-l_l-p">
             It is sufficient to win the lottery to be rich.
           </p>
         </li>
 
-        <li permid="l_u">
-          <p permid="p">
+        <li permid="exers_intro-statements-e_jq-ol-l_u">
+          <p permid="exers_intro-statements-e_jq-ol-l_u-p">
             You will be rich only if you win the lottery.
           </p>
         </li>
 
-        <li permid="l_d">
-          <p permid="p">
+        <li permid="exers_intro-statements-e_jq-ol-l_d">
+          <p permid="exers_intro-statements-e_jq-ol-l_d-p">
             Unless you win the lottery, you won't be rich.
           </p>
         </li>
 
-        <li permid="l_m">
-          <p permid="p">
+        <li permid="exers_intro-statements-e_jq-ol-l_m">
+          <p permid="exers_intro-statements-e_jq-ol-l_m-p">
             If you are rich, you must have won the lottery.
           </p>
         </li>
 
-        <li permid="l_v">
-          <p permid="p">
+        <li permid="exers_intro-statements-e_jq-ol-l_v">
+          <p permid="exers_intro-statements-e_jq-ol-l_v-p">
             If you are not rich, then you did not win the lottery.
           </p>
         </li>
 
-        <li permid="l_e">
-          <p permid="p">
+        <li permid="exers_intro-statements-e_jq-ol-l_e">
+          <p permid="exers_intro-statements-e_jq-ol-l_e-p">
             You will win the lottery if and only if you are rich.
           </p>
         </li>
       </ol>
     </statement>
-    <answer permid="a">
-      <p permid="p">
+    <answer permid="exers_intro-statements-e_jq-a">
+      <p permid="exers_intro-statements-e_jq-a-p">
         The statements are equivalent to the<ellipsis/>
 
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+        <ol permid="exers_intro-statements-e_jq-a-ol">
+          <li permid="exers_intro-statements-e_jq-a-ol-l_j">
+            <p permid="exers_intro-statements-e_jq-a-ol-l_j-p">
               converse.
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_intro-statements-e_jq-a-ol-l_s">
+            <p permid="exers_intro-statements-e_jq-a-ol-l_s-p">
               implication.
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_intro-statements-e_jq-a-ol-l_b">
+            <p permid="exers_intro-statements-e_jq-a-ol-l_b-p">
               neither.
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_intro-statements-e_jq-a-ol-l_k">
+            <p permid="exers_intro-statements-e_jq-a-ol-l_k-p">
               implication.
             </p>
           </li>
 
-          <li permid="l_t">
-            <p permid="p">
+          <li permid="exers_intro-statements-e_jq-a-ol-l_t">
+            <p permid="exers_intro-statements-e_jq-a-ol-l_t-p">
               converse.
             </p>
           </li>
 
-          <li permid="l_c">
-            <p permid="p">
+          <li permid="exers_intro-statements-e_jq-a-ol-l_c">
+            <p permid="exers_intro-statements-e_jq-a-ol-l_c-p">
               converse.
             </p>
           </li>
 
-          <li permid="l_l">
-            <p permid="p">
+          <li permid="exers_intro-statements-e_jq-a-ol-l_l">
+            <p permid="exers_intro-statements-e_jq-a-ol-l_l-p">
               implication.
             </p>
           </li>
 
-          <li permid="l_u">
-            <p permid="p">
+          <li permid="exers_intro-statements-e_jq-a-ol-l_u">
+            <p permid="exers_intro-statements-e_jq-a-ol-l_u-p">
               converse.
             </p>
           </li>
 
-          <li permid="l_d">
-            <p permid="p">
+          <li permid="exers_intro-statements-e_jq-a-ol-l_d">
+            <p permid="exers_intro-statements-e_jq-a-ol-l_d-p">
               converse.
             </p>
           </li>
 
-          <li permid="l_m">
-            <p permid="p">
+          <li permid="exers_intro-statements-e_jq-a-ol-l_m">
+            <p permid="exers_intro-statements-e_jq-a-ol-l_m-p">
               converse
               (in fact, this <em>is</em> the converse).
             </p>
           </li>
 
-          <li permid="l_v">
-            <p permid="p">
+          <li permid="exers_intro-statements-e_jq-a-ol-l_v">
+            <p permid="exers_intro-statements-e_jq-a-ol-l_v-p">
               implication
               (the statement is the contrapositive of the implication).
             </p>
           </li>
 
-          <li permid="l_e">
-            <p permid="p">
+          <li permid="exers_intro-statements-e_jq-a-ol-l_e">
+            <p permid="exers_intro-statements-e_jq-a-ol-l_e-p">
               neither.
             </p>
           </li>
@@ -406,16 +406,16 @@
     </answer>
   </exercise>
 
-  <exercise permid="e_mz">
+  <exercise permid="exers_intro-statements-e_mz">
     <statement>
-      <p permid="p">
+      <p permid="exers_intro-statements-e_mz-p">
         Consider the implication, <q>if you clean your room,
         then you can watch TV.</q> Rephrase the implication in as many ways as possible.
         Then do the same for the converse.
       </p>
     </statement>
-    <hint permid="h">
-      <p permid="p">
+    <hint permid="exers_intro-statements-e_mz-h">
+      <p permid="exers_intro-statements-e_mz-h-p">
         Of course there are many answers.
         It helps to assume that the statement is true and the converse is <em>not</em> true.
         Think about what that means in the real world and then start saying it in different ways.
@@ -426,110 +426,110 @@
     </hint>
   </exercise>
 
-  <exercise permid="e_pi">
+  <exercise permid="exers_intro-statements-e_pi">
     <statement>
-      <p permid="p">
+      <p permid="exers_intro-statements-e_pi-p">
         Translate into symbols.
         Use <m>E(x)</m> for <q><m>x</m> is even</q>
         and <m>O(x)</m> for <q><m>x</m> is odd.</q>
       </p>
 
-      <ol permid="ol">
-        <li permid="l_j">
-          <p permid="p">
+      <ol permid="exers_intro-statements-e_pi-ol">
+        <li permid="exers_intro-statements-e_pi-ol-l_j">
+          <p permid="exers_intro-statements-e_pi-ol-l_j-p">
             No number is both even and odd.
           </p>
         </li>
 
-        <li permid="l_s">
-          <p permid="p">
+        <li permid="exers_intro-statements-e_pi-ol-l_s">
+          <p permid="exers_intro-statements-e_pi-ol-l_s-p">
             One more than any even number is an odd number.
           </p>
         </li>
 
-        <li permid="l_b">
-          <p permid="p">
+        <li permid="exers_intro-statements-e_pi-ol-l_b">
+          <p permid="exers_intro-statements-e_pi-ol-l_b-p">
             There is prime number that is even.
           </p>
         </li>
 
-        <li permid="l_k">
-          <p permid="p">
+        <li permid="exers_intro-statements-e_pi-ol-l_k">
+          <p permid="exers_intro-statements-e_pi-ol-l_k-p">
             Between any two numbers there is a third number.
           </p>
         </li>
 
-        <li permid="l_t">
-          <p permid="p">
+        <li permid="exers_intro-statements-e_pi-ol-l_t">
+          <p permid="exers_intro-statements-e_pi-ol-l_t-p">
             There is no number between a number and one more than that number.
           </p>
         </li>
       </ol>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j"><m>\neg \exists x (E(x) \wedge O(x))</m>.</li>
+    <solution permid="exers_intro-statements-e_pi-s">
+      <p permid="exers_intro-statements-e_pi-s-p">
+        <ol permid="exers_intro-statements-e_pi-s-ol">
+          <li permid="exers_intro-statements-e_pi-s-ol-l_j"><m>\neg \exists x (E(x) \wedge O(x))</m>.</li>
 
-          <li permid="l_s"><m>\forall x (E(x) \imp O(x+1))</m>.</li>
+          <li permid="exers_intro-statements-e_pi-s-ol-l_s"><m>\forall x (E(x) \imp O(x+1))</m>.</li>
 
-          <li permid="l_b">
+          <li permid="exers_intro-statements-e_pi-s-ol-l_b">
             <m>\exists x(P(x) \wedge E(x))</m> (where <m>P(x)</m> means
             <q><m>x</m> is prime</q>).
           </li>
 
-          <li permid="l_k">
+          <li permid="exers_intro-statements-e_pi-s-ol-l_k">
             <m>\forall x \forall y \exists z(x \lt z \lt y \vee y \lt z \lt x)</m>.
           </li>
 
-          <li permid="l_t"><m>\forall x \neg \exists y (x \lt y \lt x+1)</m>.</li>
+          <li permid="exers_intro-statements-e_pi-s-ol-l_t"><m>\forall x \neg \exists y (x \lt y \lt x+1)</m>.</li>
         </ol>
       </p>
     </solution>
   </exercise>
 
-  <exercise permid="e_sa">
+  <exercise permid="exers_intro-statements-e_sa">
     <statement>
-      <p permid="p">
+      <p permid="exers_intro-statements-e_sa-p">
         Translate into English:
 
-        <ol permid="ol">
-          <li permid="l_j"><m>\forall x (E(x) \imp E(x +2))</m>.</li>
+        <ol permid="exers_intro-statements-e_sa-ol">
+          <li permid="exers_intro-statements-e_sa-ol-l_j"><m>\forall x (E(x) \imp E(x +2))</m>.</li>
 
-          <li permid="l_s"><m>\forall x \exists y (\sin(x) = y)</m>.</li>
+          <li permid="exers_intro-statements-e_sa-ol-l_s"><m>\forall x \exists y (\sin(x) = y)</m>.</li>
 
-          <li permid="l_b"><m>\forall y \exists x (\sin(x) = y)</m>.</li>
+          <li permid="exers_intro-statements-e_sa-ol-l_b"><m>\forall y \exists x (\sin(x) = y)</m>.</li>
 
-          <li permid="l_k"><m>\forall x \forall y (x^3 = y^3 \imp x = y)</m>.</li>
+          <li permid="exers_intro-statements-e_sa-ol-l_k"><m>\forall x \forall y (x^3 = y^3 \imp x = y)</m>.</li>
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+    <solution permid="exers_intro-statements-e_sa-s">
+      <p permid="exers_intro-statements-e_sa-s-p">
+        <ol permid="exers_intro-statements-e_sa-s-ol">
+          <li permid="exers_intro-statements-e_sa-s-ol-l_j">
+            <p permid="exers_intro-statements-e_sa-s-ol-l_j-p">
               Any even number plus 2 is an even number.
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_intro-statements-e_sa-s-ol-l_s">
+            <p permid="exers_intro-statements-e_sa-s-ol-l_s-p">
               For any <m>x</m> there is a <m>y</m> such that <m>\sin(x) = y</m>.
               In other words, every number <m>x</m> is in the domain of sine.
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_intro-statements-e_sa-s-ol-l_b">
+            <p permid="exers_intro-statements-e_sa-s-ol-l_b-p">
               For every <m>y</m> there is an <m>x</m> such that <m>\sin(x) = y</m>.
               In other words, every number <m>y</m> is in the range of sine
               (which is false).
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_intro-statements-e_sa-s-ol-l_k">
+            <p permid="exers_intro-statements-e_sa-s-ol-l_k-p">
               For any numbers, if the cubes of two numbers are equal,
               then the numbers are equal.
             </p>
@@ -539,9 +539,9 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_vj">
+  <exercise permid="exers_intro-statements-e_vj">
     <statement>
-      <p permid="p">
+      <p permid="exers_intro-statements-e_vj-p">
         Suppose <m>P(x)</m> is some predicate for which the statement <m>\forall x P(x)</m> is true.
         Is it also the case that <m>\exists x P(x)</m> is true?
         In other words,
@@ -552,34 +552,34 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_ys">
+  <exercise permid="exers_intro-statements-e_ys">
     <statement>
-      <p permid="p1">
+      <p permid="exers_intro-statements-e_ys-p1">
         For each of the statements below,
         give a domain of discourse for which the statement is true,
         and a domain for which the statement is false.
       </p>
 
-      <p permid="p2">
-        <ol permid="ol">
-          <li permid="l_j"><m>\forall x \exists y (y^2 = x)</m>.</li>
+      <p permid="exers_intro-statements-e_ys-p2">
+        <ol permid="exers_intro-statements-e_ys-ol">
+          <li permid="exers_intro-statements-e_ys-ol-l_j"><m>\forall x \exists y (y^2 = x)</m>.</li>
 
-          <li permid="l_s">
+          <li permid="exers_intro-statements-e_ys-ol-l_s">
             <m>\forall x \forall y \exists z (x \lt z \lt y)</m>.
           </li>
 
-          <li permid="l_b">
+          <li permid="exers_intro-statements-e_ys-ol-l_b">
             <m>\exists x \forall y \forall z (y \lt z \imp y \le x \le z)</m> Hint:
             domains need not be infinite.
           </li>
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+    <solution permid="exers_intro-statements-e_ys-s">
+      <p permid="exers_intro-statements-e_ys-s-p">
+        <ol permid="exers_intro-statements-e_ys-s-ol">
+          <li permid="exers_intro-statements-e_ys-s-ol-l_j">
+            <p permid="exers_intro-statements-e_ys-s-ol-l_j-p">
               This says that everything has a square root
               (every element is the square of something).
               This is true of the positive real numbers,
@@ -589,8 +589,8 @@
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_intro-statements-e_ys-s-ol-l_s">
+            <p permid="exers_intro-statements-e_ys-s-ol-l_s-p">
               This asserts that between every pair of numbers there is some number strictly between them.
               This is true of the rationals
               (and reals)
@@ -600,8 +600,8 @@
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_intro-statements-e_ys-s-ol-l_b">
+            <p permid="exers_intro-statements-e_ys-s-ol-l_b-p">
               Here we are saying that something is between every pair of numbers.
               For almost every domain, this is false.
               In fact, if the domain contains <m>\{1,2,3, 4\}</m>,

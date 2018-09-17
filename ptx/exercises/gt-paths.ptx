@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <exercises permid="exers_gt-paths" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exercises_gt-paths">
 
-  <exercise permid="e_xo">
+  <exercise permid="exers_gt-paths-e_xo">
     <statement>
-      <p permid="p">
+      <p permid="exers_gt-paths-e_xo-p">
         You and your friends want to tour the southwest by car.
         You will visit the nine states below,
         with the following rather odd rule:
@@ -15,9 +15,9 @@
         What fact about graph theory solves this problem?
       </p>
 
-      <sidebyside permid="sbs1" width="40%" margins="auto">
+      <sidebyside permid="exers_gt-paths-sbs1" width="40%" margins="auto">
 
-        <image permid="im">
+        <image permid="exers_gt-paths-sbs1-im">
 
             <latex-image>
               \begin{tikzpicture}[scale=.25]
@@ -28,8 +28,8 @@
 
       </sidebyside>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_gt-paths-e_xo-s">
+      <p permid="exers_gt-paths-e_xo-s-p">
         This is a question about finding Euler paths.
         Draw a graph with a vertex in each state,
         and connect vertices if their states share a border.
@@ -40,65 +40,65 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ag">
+  <exercise permid="exers_gt-paths-e_ag">
     <statement>
-      <p permid="p">
+      <p permid="exers_gt-paths-e_ag-p">
         Which of the following graphs contain an Euler path?
         Which contain an Euler circuit?
 
-        <ol permid="ol">
-          <li permid="l_j"><m>K_4</m></li>
+        <ol permid="exers_gt-paths-e_ag-ol">
+          <li permid="exers_gt-paths-e_ag-ol-l_j"><m>K_4</m></li>
 
-          <li permid="l_s"><m>K_5</m>.</li>
+          <li permid="exers_gt-paths-e_ag-ol-l_s"><m>K_5</m>.</li>
 
-          <li permid="l_b"><m>K_{5,7}</m></li>
+          <li permid="exers_gt-paths-e_ag-ol-l_b"><m>K_{5,7}</m></li>
 
-          <li permid="l_k"><m>K_{2,7}</m></li>
+          <li permid="exers_gt-paths-e_ag-ol-l_k"><m>K_{2,7}</m></li>
 
-          <li permid="l_t"><m>C_7</m></li>
+          <li permid="exers_gt-paths-e_ag-ol-l_t"><m>C_7</m></li>
 
-          <li permid="l_c"><m>P_7</m></li>
+          <li permid="exers_gt-paths-e_ag-ol-l_c"><m>P_7</m></li>
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j"><m>K_4</m> does not have an Euler path or circuit.</li>
+    <solution permid="exers_gt-paths-e_ag-s">
+      <p permid="exers_gt-paths-e_ag-s-p">
+        <ol permid="exers_gt-paths-e_ag-s-ol">
+          <li permid="exers_gt-paths-e_ag-s-ol-l_j"><m>K_4</m> does not have an Euler path or circuit.</li>
 
-          <li permid="l_s">
+          <li permid="exers_gt-paths-e_ag-s-ol-l_s">
             <m>K_5</m> has an Euler circuit
             (so also an Euler path).
           </li>
 
-          <li permid="l_b">
+          <li permid="exers_gt-paths-e_ag-s-ol-l_b">
             <m>K_{5,7}</m> does not have an Euler path or circuit.
           </li>
 
-          <li permid="l_k">
+          <li permid="exers_gt-paths-e_ag-s-ol-l_k">
             <m>K_{2,7}</m> has an Euler path but not an Euler circuit.
           </li>
 
-          <li permid="l_t">
+          <li permid="exers_gt-paths-e_ag-s-ol-l_t">
             <m>C_7</m> has an Euler circuit (it is a circuit graph!)
           </li>
 
-          <li permid="l_c"><m>P_7</m> has an Euler path but no Euler circuit.</li>
+          <li permid="exers_gt-paths-e_ag-s-ol-l_c"><m>P_7</m> has an Euler path but no Euler circuit.</li>
         </ol>
       </p>
     </solution>
   </exercise>
 
-  <exercise permid="e_dp">
+  <exercise permid="exers_gt-paths-e_dp">
     <statement>
-      <p permid="p1">
+      <p permid="exers_gt-paths-e_dp-p1">
         Edward A. Mouse has just finished his brand new house.
         The floor plan is shown below:
       </p>
 
-      <sidebyside permid="sbs2" width="48%">
+      <sidebyside permid="exers_gt-paths-sbs2" width="48%">
 
-        <image permid="im">
+        <image permid="exers_gt-paths-sbs2-im">
 
           <latex-image>
             \begin{tikzpicture}[scale=.8]
@@ -113,10 +113,10 @@
 
       </sidebyside>
 
-      <p permid="p2">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+      <p permid="exers_gt-paths-e_dp-p2">
+        <ol permid="exers_gt-paths-e_dp-ol">
+          <li permid="exers_gt-paths-e_dp-ol-l_j">
+            <p permid="exers_gt-paths-e_dp-ol-l_j-p">
               Edward wants to give a tour of his new pad to a lady-mouse-friend.
               Is it possible for them to walk through every doorway exactly once?
               If so, in which rooms must they begin and end the tour?
@@ -124,15 +124,15 @@
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_gt-paths-e_dp-ol-l_s">
+            <p permid="exers_gt-paths-e_dp-ol-l_s-p">
               Is it possible to tour the house visiting each room exactly once (not necessarily using every doorway)?
               Explain.
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_gt-paths-e_dp-ol-l_b">
+            <p permid="exers_gt-paths-e_dp-ol-l_b-p">
               After a few mouse-years, Edward decides to remodel.
               He would like to add some new doors between the rooms he has.
               Of course, he cannot add any doors to the exterior of the house.
@@ -145,15 +145,15 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_gy">
+  <exercise permid="exers_gt-paths-e_gy">
     <statement>
-      <p permid="p">
+      <p permid="exers_gt-paths-e_gy-p">
         For which <m>n</m> does the graph <m>K_n</m> contain an Euler circuit?
         Explain.
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_gt-paths-e_gy-s">
+      <p permid="exers_gt-paths-e_gy-s-p">
         When <m>n</m> is odd, <m>K_n</m> contains an Euler circuit.
         This is because every vertex has degree <m>n-1</m>,
         so an odd <m>n</m> results in all degrees being even.
@@ -161,16 +161,16 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_jq">
+  <exercise permid="exers_gt-paths-e_jq">
     <statement>
-      <p permid="p">
+      <p permid="exers_gt-paths-e_jq-p">
         For which <m>m</m> and <m>n</m> does the graph <m>K_{m,n}</m> contain an Euler path?
         An Euler circuit?
         Explain.
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_gt-paths-e_jq-s">
+      <p permid="exers_gt-paths-e_jq-s-p">
         If both <m>m</m> and <m>n</m> are even,
         then <m>K_{m,n}</m> has an Euler circuit.
         When both are odd, there is no Euler path or circuit.
@@ -180,16 +180,16 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_mz">
+  <exercise permid="exers_gt-paths-e_mz">
     <statement>
-      <p permid="p">
+      <p permid="exers_gt-paths-e_mz-p">
         For which <m>n</m> does <m>K_n</m> contain a Hamilton path?
         A Hamilton cycle?
         Explain.
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_gt-paths-e_mz-s">
+      <p permid="exers_gt-paths-e_mz-s-p">
         All values of <m>n</m>.
         In particular, <m>K_n</m> contains <m>C_n</m> as a subgroup,
         which is a cycle that includes every vertex.
@@ -197,16 +197,16 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_pi">
+  <exercise permid="exers_gt-paths-e_pi">
     <statement>
-      <p permid="p">
+      <p permid="exers_gt-paths-e_pi-p">
         For which <m>m</m> and <m>n</m> does the graph <m>K_{m,n}</m> contain a Hamilton path?
         A Hamilton cycle?
         Explain.
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_gt-paths-e_pi-s">
+      <p permid="exers_gt-paths-e_pi-s-p">
         As long as <m>|m-n| \le 1</m>,
         the graph <m>K_{m,n}</m> will have a Hamilton path.
         To have a Hamilton cycle, we must have <m>m=n</m>.
@@ -214,23 +214,23 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_sa">
+  <exercise permid="exers_gt-paths-e_sa">
     <statement>
-      <p permid="p">
+      <p permid="exers_gt-paths-e_sa-p">
         A bridge builder has come to Königsberg and would like to add bridges so that it <em>is</em>
         possible to travel over every bridge exactly once.
         How many bridges must be built?
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_gt-paths-e_sa-s">
+      <p permid="exers_gt-paths-e_sa-s-p">
         If we build one bridge, we can have an Euler path.
         Two bridges must be built for an Euler circuit.
       </p>
 
-      <sidebyside permid="sbs3" width="20%">
+      <sidebyside permid="exers_gt-paths-sbs3" width="20%">
 
-        <image permid="im">
+        <image permid="exers_gt-paths-e_sa-s-im">
 
           <latex-image>
             \begin{tikzpicture}[scale=1, yscale=.5]
@@ -246,18 +246,18 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_vj">
+  <exercise permid="exers_gt-paths-e_vj">
     <statement>
-      <p permid="p">
+      <p permid="exers_gt-paths-e_vj-p">
         Below is a graph representing friendships between a group of students
         (each vertex is a student and each edge is a friendship).
         Is it possible for the students to sit around a round table in such a way that every student sits between two friends?
         What does this question have to do with paths?
       </p>
 
-      <sidebyside permid="sbs4" width="30%">
+      <sidebyside permid="exers_gt-paths-sbs4" width="30%">
 
-        <image permid="im">
+        <image permid="exers_gt-paths-sbs4-im">
 
           <latex-image>
             \begin{tikzpicture}
@@ -273,15 +273,15 @@
 
       </sidebyside>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_gt-paths-e_vj-s">
+      <p permid="exers_gt-paths-e_vj-s-p">
         We are looking for a Hamiltonian cycle,
         and this graph does have one:
       </p>
 
-      <sidebyside permid="sbs5" width="30%">
+      <sidebyside permid="exers_gt-paths-sbs5" width="30%">
 
-        <image permid="im">
+        <image permid="exers_gt-paths-e_vj-s-im">
 
           <latex-image>
             \begin{tikzpicture}
@@ -301,20 +301,20 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ys">
+  <exercise permid="exers_gt-paths-e_ys">
     <statement>
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+      <p permid="exers_gt-paths-e_ys-p">
+        <ol permid="exers_gt-paths-e_ys-ol">
+          <li permid="exers_gt-paths-e_ys-ol-l_j">
+            <p permid="exers_gt-paths-e_ys-ol-l_j-p">
               Suppose a graph has a Hamilton path.
               What is the maximum number of vertices of degree one the graph can have?
               Explain why your answer is correct.
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_gt-paths-e_ys-ol-l_s">
+            <p permid="exers_gt-paths-e_ys-ol-l_s-p">
               Find a graph which does not have a Hamilton path even though no vertex has degree one.
               Explain why your example works.
             </p>
@@ -324,15 +324,15 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_bk">
+  <exercise permid="exers_gt-paths-e_bk">
     <statement>
-      <p permid="p1">
+      <p permid="exers_gt-paths-e_bk-p1">
         Consider the following graph:
       </p>
 
-      <sidebyside permid="sbs6" width="28%">
+      <sidebyside permid="exers_gt-paths-sbs6" width="28%">
 
-        <image permid="im">
+        <image permid="exers_gt-paths-sbs6-im">
 
           <latex-image>
 
@@ -349,23 +349,23 @@
 
       </sidebyside>
 
-      <p permid="p2">
-        <ol permid="ol">
-          <li permid="l_j">
+      <p permid="exers_gt-paths-e_bk-p2">
+        <ol permid="exers_gt-paths-e_bk-ol">
+          <li permid="exers_gt-paths-e_bk-ol-l_j">
             Find a Hamilton path.
             Can your path be extended to a Hamilton cycle?
           </li>
 
-          <li permid="l_s">
+          <li permid="exers_gt-paths-e_bk-ol-l_s">
             Is the graph bipartite?
             If so, how many vertices are in each <q>part</q>?
           </li>
 
-          <li permid="l_b">
+          <li permid="exers_gt-paths-e_bk-ol-l_b">
             Use your answer to part (b) to prove that the graph has no Hamilton cycle.
           </li>
 
-          <li permid="l_k">
+          <li permid="exers_gt-paths-e_bk-ol-l_k">
             Suppose you have a bipartite graph <m>G</m> in which one part has at least two more vertices than the other.
             Prove that <m>G</m> does not have a Hamilton path.
           </li>

@@ -4,9 +4,9 @@
   <title>Polynomial Fitting</title>
   <idx><h>polynomial fitting</h></idx>
 
-  <introduction permid="intr">
-    <investigation permid="inv">
-      <p permid="p1">
+  <introduction permid="sec_polyfit-intr">
+    <investigation permid="sec_polyfit-inv">
+      <p permid="sec_polyfit-intr-p1">
         A standard <m>8 \times 8</m> chessboard contains 64 squares.
         Actually, this is just the number of unit squares.
         How many squares of all sizes are there on a chessboard?
@@ -15,7 +15,7 @@
         Find a formula for the total number of squares in an <m>n\times n</m> board.
       </p>
     </investigation>
-    <p permid="p2">
+    <p permid="sec_polyfit-intr-p2">
       So far we have seen methods for finding the closed formulas for arithmetic and geometric sequences.
       Since we know how to compute the sum of the first <m>n</m> terms of arithmetic and geometric sequences,
       we can compute the closed formulas for sequences which have an arithmetic
@@ -24,7 +24,7 @@
       But what if we consider a sequence which is the sum of the first <m>n</m> terms of a sequence which is itself the sum of an arithmetic sequence?
     </p>
 
-    <p permid="p3">
+    <p permid="sec_polyfit-intr-p3">
       Before we get too carried away,
       let's consider an example: How many squares
       (of all sizes)
@@ -38,22 +38,22 @@
       the second term will be the number of squares on a <m>2 \times 2</m> board,
       and so on.
       After a little thought, we arrive at the sequence
-      <me permid="me">
+      <me permid="sec_polyfit-intr-p3-me">
         1,5,14,30, 55,\ldots
       </me>
     </p>
 
-    <p permid="p4">
+    <p permid="sec_polyfit-intr-p4">
       This sequence is not arithmetic
       (or geometric for that matter),
       but perhaps it's sequence of differences is.
       For differences we get
-      <me permid="me">
+      <me permid="sec_polyfit-intr-p4-me">
         4, 9, 16, 25, \ldots
       </me>
     </p>
 
-    <p permid="p5">
+    <p permid="sec_polyfit-intr-p5">
       Not a huge surprise: one way to count the number of squares in a
       <m>4 \times 4</m> chessboard is to notice that there are <m>16</m> squares with side length 1, 9 with side length 2, 4 with side length 3 and 1 with side length 4.
       So the original sequence is just the sum of squares.
@@ -61,7 +61,7 @@
       (the differences of the differences of the original sequence)
       is not constant.
       In fact, this sequence of <term>second differences</term> is
-      <me permid="me">
+      <me permid="sec_polyfit-intr-p5-me">
         5, 7, 9, \ldots
       </me>
       which <em>is</em> an arithmetic sequence
@@ -87,23 +87,23 @@
 
     <example permid="ex-deltak" xml:id="example-deltak">
       <statement>
-        <p permid="p">
+        <p permid="ex-deltak-p">
           Which of the following sequences are
           <m>\Delta^k</m>-constant for some value of <m>k</m>?
 
-          <ol permid="ol">
-            <li permid="l_j"><m>2, 3, 7, 14, 24, 37,\ldots</m>.</li>
+          <ol permid="ex-deltak-ol">
+            <li permid="ex-deltak-ol-l_j"><m>2, 3, 7, 14, 24, 37,\ldots</m>.</li>
 
-            <li permid="l_s"><m>1, 8, 27, 64, 125, 216, \ldots</m>.</li>
+            <li permid="ex-deltak-ol-l_s"><m>1, 8, 27, 64, 125, 216, \ldots</m>.</li>
 
-            <li permid="l_b"><m>1,2,4,8,16,64,128,\ldots</m>.</li>
+            <li permid="ex-deltak-ol-l_b"><m>1,2,4,8,16,64,128,\ldots</m>.</li>
           </ol>
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p">
-          <ol permid="ol">
-            <li permid="l_j">
+      <solution permid="ex-deltak-s">
+        <p permid="ex-deltak-s-p">
+          <ol permid="ex-deltak-s-ol">
+            <li permid="ex-deltak-s-ol-l_j">
               This is the sequence from
               <xref ref="example-sum-of-arithmetic"/>,
               in which we found a closed formula by recognizing the sequence as the sequence of partial sums of an arithmetic sequence.
@@ -112,7 +112,7 @@
               Thus <m>2, 3, 7, 14, 24, 37,\ldots</m> is a <m>\Delta^2</m>-constant sequence.
             </li>
 
-            <li permid="l_s">
+            <li permid="ex-deltak-s-ol-l_s">
               These are the perfect cubes.
               The sequence of first differences is <m>7, 19, 37, 61, 91, \ldots</m>;
               the sequence of second differences is <m>12, 18, 24, 30,\ldots</m>;
@@ -120,7 +120,7 @@
               Thus the perfect cubes are a <m>\Delta^3</m>-constant sequence.
             </li>
 
-            <li permid="l_b">
+            <li permid="ex-deltak-s-ol-l_b">
               If we take first differences we get <m>1,2,4,8,16,\ldots</m>.
               Wait, what?
               That's the sequence we started with.
@@ -134,7 +134,7 @@
       </solution>
     </example>
 
-    <p permid="p6">
+    <p permid="sec_polyfit-intr-p6">
       The <m>\Delta^0</m>-constant sequences are themselves constant,
       so a closed formula for them is easy to compute
       (it's just the constant).
@@ -164,25 +164,25 @@
       then the function must be quadratic.
     </p>
 
-    <p permid="p7">
+    <p permid="sec_polyfit-intr-p7">
       This works in general:
     </p>
 
-    <assemblage permid="asm-finite-differences">
+    <assemblage permid="sec_polyfit-asm-finite-differences">
       <title>Finite Differences</title>
-      <p permid="p8">
+      <p permid="sec_polyfit-intr-p8">
             <idx><h>finite differences</h></idx> The closed formula for a sequence will be a degree <m>k</m> polynomial if and only if the sequence is <m>\Delta^k</m>-constant (i.e., the <m>k</m>th sequence of differences is constant).
       </p>
     </assemblage>
 
-    <p permid="p9">
+    <p permid="sec_polyfit-intr-p9">
       This tells us that the sequence of numbers of squares on a chessboard,
       <m>1, 5, 14, 30, 55, \ldots</m>,
       which we saw to be <m>\Delta^3</m>-constant,
       will have a cubic (degree 3 polynomial) for its closed formula.
     </p>
 
-    <p permid="p10">
+    <p permid="sec_polyfit-intr-p10">
       Now once we know what format the closed formula for a sequence will take,
       it is much easier to actually find the closed formula.
       In the case that the closed formula is a degree <m>k</m> polynomial,
@@ -190,15 +190,15 @@
       the polynomial to the data.
     </p>
 
-    <example permid="ex1">
+    <example permid="sec_polyfit-ex1">
       <statement>
-        <p permid="p">
+        <p permid="sec_polyfit-ex1-p">
           Find a formula for the sequence <m>3, 7, 14, 24,\ldots</m>.
           Assume <m>a_1 = 3</m>.
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p1">
+      <solution permid="sec_polyfit-ex1-s">
+        <p permid="sec_polyfit-ex1-s-p1">
           First, check to see if the formula has constant differences at some level.
           The sequence of first differences is <m>4, 7, 10, \ldots</m> which is arithmetic,
           so the sequence of second differences is constant.
@@ -206,33 +206,33 @@
           so the formula for <m>a_n</m> will be a degree 2 polynomial.
           That is, we know that for some constants <m>a</m>, <m>b</m>,
           and <m>c</m>,
-          <me permid="me">
+          <me permid="sec_polyfit-ex1-s-p1-me">
             a_n = an^2 + bn + c
           </me>.
         </p>
 
-        <p permid="p2">
+        <p permid="sec_polyfit-ex1-s-p2">
           Now to find <m>a</m>, <m>b</m>, and <m>c</m>.
           First, it would be nice to know what <m>a_0</m> is,
           since plugging in <m>n = 0</m> simplifies the above formula greatly.
           In this case, <m>a_0 = 2</m>
           (work backwards from the sequence of constant differences).
           Thus
-          <me permid="me1">
+          <me permid="sec_polyfit-ex1-s-p2-me1">
             a_0 = 2 = a\cdot 0^2 + b \cdot 0 + c
           </me>,
           so <m>c = 2</m>.
           Now plug in <m>n =1</m> and <m>n = 2</m>.
           We get
-          <me permid="me2">
+          <me permid="sec_polyfit-ex1-s-p2-me2">
             a_1 = 3 = a + b + 2
           </me>
-          <me permid="me3">
+          <me permid="sec_polyfit-ex1-s-p2-me3">
             a_2 = 7 = a4 + b 2 + 2
           </me>.
         </p>
 
-        <p permid="p3">
+        <p permid="sec_polyfit-ex1-s-p3">
           At this point we have two (linear) equations and two unknowns,
           so we can solve the system for <m>a</m> and <m>b</m>
           (using substitution or elimination or even matrices).
@@ -242,38 +242,38 @@
       </solution>
     </example>
 
-    <example permid="ex2">
+    <example permid="sec_polyfit-ex2">
       <statement>
-        <p permid="p">
+        <p permid="sec_polyfit-ex2-p">
           Find a closed formula for the number of squares on an <m>n \times n</m> chessboard.
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p1">
+      <solution permid="sec_polyfit-ex2-s">
+        <p permid="sec_polyfit-ex2-s-p1">
           We have seen that the sequence
           <m>1, 5, 14, 30, 55, \ldots</m> is <m>\Delta^3</m>-constant,
           so we are looking for a degree 3 polynomial.
           That is,
-          <me permid="me">
+          <me permid="sec_polyfit-ex2-s-p1-me">
             a_n = an^3 + bn^2 + cn + d
           </me>.
         </p>
 
-        <p permid="p2">
+        <p permid="sec_polyfit-ex2-s-p2">
           We can find <m>d</m> if we know what <m>a_0</m> is.
           Working backwards from the third differences, we find <m>a_0 = 0</m>
           (unsurprisingly,
           since there are no squares on a <m>0\times 0</m> chessboard).
           Thus <m>d = 0</m>.
           Now plug in <m>n = 1</m>, <m>n =2</m>, and <m>n =3</m>:
-          <md permid="md">
+          <md permid="sec_polyfit-ex2-s-p2-md">
             <mrow>1 = \amp a + b + c</mrow>
             <mrow>5 = \amp 8a + 4b + 2c</mrow>
             <mrow>14 = \amp 27a + 9b + 3c</mrow>
           </md>.
         </p>
 
-        <p permid="p3">
+        <p permid="sec_polyfit-ex2-s-p3">
           If we solve this system of equations we get <m>a = \frac{1}{3}</m>,
           <m>b = \frac{1}{2}</m> and <m>c = \frac{1}{6}</m>.
           Therefore the number of squares on an
@@ -282,36 +282,36 @@
       </solution>
     </example>
 
-    <p permid="p11">
+    <p permid="sec_polyfit-intr-p11">
       Note: Since the squares-on-a-chessboard problem is really asking for the sum of squares,
       we now have a nice formula for <m>\d\sum_{k=1}^n k^2</m>.
     </p>
 
-    <p permid="p12">
+    <p permid="sec_polyfit-intr-p12">
       Not all sequences will have polynomials as their closed formula.
       We can use the theory of finite differences to identify these.
     </p>
 
-    <example permid="ex3">
+    <example permid="sec_polyfit-ex3">
       <statement>
-        <p permid="p">
+        <p permid="sec_polyfit-ex3-p">
           Determine whether the following sequences can be described by a polynomial,
           and if so, of what degree.
 
-          <ol permid="ol">
-            <li permid="l_j"><m>1, 2, 4, 8, 16, \ldots</m></li>
+          <ol permid="sec_polyfit-ex3-ol">
+            <li permid="sec_polyfit-ex3-ol-l_j"><m>1, 2, 4, 8, 16, \ldots</m></li>
 
-            <li permid="l_s"><m>0, 7, 50, 183, 484, 1055, \ldots</m></li>
+            <li permid="sec_polyfit-ex3-ol-l_s"><m>0, 7, 50, 183, 484, 1055, \ldots</m></li>
 
-            <li permid="l_b"><m>1,1,2,3,5,8,13,\ldots</m></li>
+            <li permid="sec_polyfit-ex3-ol-l_b"><m>1,1,2,3,5,8,13,\ldots</m></li>
           </ol>
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p">
-          <ol permid="ol">
-            <li permid="l_j">
-              <p permid="p">
+      <solution permid="sec_polyfit-ex3-s">
+        <p permid="sec_polyfit-ex3-s-p">
+          <ol permid="sec_polyfit-ex3-s-ol">
+            <li permid="sec_polyfit-ex3-s-ol-l_j">
+              <p permid="sec_polyfit-ex3-s-ol-l_j-p">
                 As we saw in
                 <xref ref="example-deltak"/>,
                 this sequence is not <m>\Delta^k</m>-constant for any <m>k</m>.
@@ -322,8 +322,8 @@
               </p>
             </li>
 
-            <li permid="l_s">
-              <p permid="p">
+            <li permid="sec_polyfit-ex3-s-ol-l_s">
+              <p permid="sec_polyfit-ex3-s-ol-l_s-p">
                 The sequence of first differences is <m>7, 43, 133, 301, 571,\ldots</m>.
                 The second differences are: <m>36, 90, 168, 270,\ldots</m>.
                 Third difference: <m>54, 78, 102,\ldots</m>.
@@ -334,8 +334,8 @@
               </p>
             </li>
 
-            <li permid="l_b">
-              <p permid="p">
+            <li permid="sec_polyfit-ex3-s-ol-l_b">
+              <p permid="sec_polyfit-ex3-s-ol-l_b-p">
                 This is the Fibonacci sequence.
                   <idx><h>Fibonacci sequence</h></idx>
               The sequence of first differences is <m>0, 1, 1, 2, 3, 5, 8, \ldots</m>,

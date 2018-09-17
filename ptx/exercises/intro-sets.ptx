@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <exercises permid="exers_intro-sets" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exercises_intro-sets">
 
-  <exercise permid="e_xo">
+  <exercise permid="exers_intro-sets-e_xo">
     <statement>
-      <p permid="p1">
+      <p permid="exers_intro-sets-e_xo-p1">
         Let <m>A = \{1,2,3,4,5\}</m>,
         <m>B = \{3,4,5,6,7\}</m>, and <m>C = \{2,3,5\}</m>.
       </p>
 
-      <p permid="p2">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+      <p permid="exers_intro-sets-e_xo-p2">
+        <ol permid="exers_intro-sets-e_xo-ol">
+          <li permid="exers_intro-sets-e_xo-ol-l_j">
+            <p permid="exers_intro-sets-e_xo-ol-l_j-p">
               Find <m>A \cap B</m>.
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_intro-sets-e_xo-ol-l_s">
+            <p permid="exers_intro-sets-e_xo-ol-l_s-p">
               Find <m>A \cup B</m>.
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_intro-sets-e_xo-ol-l_b">
+            <p permid="exers_intro-sets-e_xo-ol-l_b-p">
               Find <m>A \setminus B</m>.
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_intro-sets-e_xo-ol-l_k">
+            <p permid="exers_intro-sets-e_xo-ol-l_k-p">
               Find <m>A \cap \overline{(B \cup C)}</m>.
             </p>
           </li>
 
-          <li permid="l_t">
-            <p permid="p">
+          <li permid="exers_intro-sets-e_xo-ol-l_t">
+            <p permid="exers_intro-sets-e_xo-ol-l_t-p">
               Find <m>A \times C</m>.
             </p>
           </li>
 
-          <li permid="l_c">
-            <p permid="p">
+          <li permid="exers_intro-sets-e_xo-ol-l_c">
+            <p permid="exers_intro-sets-e_xo-ol-l_c-p">
               Is <m>C \subseteq A</m>?
               Explain.
             </p>
           </li>
 
-          <li permid="l_l">
-            <p permid="p">
+          <li permid="exers_intro-sets-e_xo-ol-l_l">
+            <p permid="exers_intro-sets-e_xo-ol-l_l-p">
               Is <m>C \subseteq B</m>?
               Explain.
             </p>
@@ -56,31 +56,31 @@
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j"><m>A \cap B = \{3,4,5\}</m>.</li>
+    <solution permid="exers_intro-sets-e_xo-s">
+      <p permid="exers_intro-sets-e_xo-s-p">
+        <ol permid="exers_intro-sets-e_xo-s-ol">
+          <li permid="exers_intro-sets-e_xo-s-ol-l_j"><m>A \cap B = \{3,4,5\}</m>.</li>
 
-          <li permid="l_s"><m>A \cup B = \{1,2,3,4,5,6,7\}</m>.</li>
+          <li permid="exers_intro-sets-e_xo-s-ol-l_s"><m>A \cup B = \{1,2,3,4,5,6,7\}</m>.</li>
 
-          <li permid="l_b"><m>A \setminus B = \{1,2\}</m>.</li>
+          <li permid="exers_intro-sets-e_xo-s-ol-l_b"><m>A \setminus B = \{1,2\}</m>.</li>
 
-          <li permid="l_k"><m>A \cap \bar{(B \cup C)} = \{1\}</m>.</li>
+          <li permid="exers_intro-sets-e_xo-s-ol-l_k"><m>A \cap \bar{(B \cup C)} = \{1\}</m>.</li>
 
-          <li permid="l_t">
+          <li permid="exers_intro-sets-e_xo-s-ol-l_t">
             <m>A \times C = \{ (1,2), (1,3), (1,5), (2,2), (2,3), (2,5), (3,2), (3,3), (3,5), (4,2)</m>,
             <m>(4,3), (4,5), (5,2), (5,3), (5,5)\}</m>
           </li>
 
-          <li permid="l_c">
-            <p permid="p">
+          <li permid="exers_intro-sets-e_xo-s-ol-l_c">
+            <p permid="exers_intro-sets-e_xo-s-ol-l_c-p">
               Yes.
               All three elements of <m>C</m> are also elements of <m>A</m>.
             </p>
           </li>
 
-          <li permid="l_l">
-            <p permid="p">
+          <li permid="exers_intro-sets-e_xo-s-ol-l_l">
+            <p permid="exers_intro-sets-e_xo-s-ol-l_l-p">
               No.
               There is an element of <m>C</m>,
               namely the element 2, which is not an element of <m>B</m>.
@@ -91,36 +91,36 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ag">
+  <exercise permid="exers_intro-sets-e_ag">
     <statement>
-      <p permid="p1">
+      <p permid="exers_intro-sets-e_ag-p1">
         Let <m>A = \{x \in \N \st 3 \le x \le 13\}</m>,
         <m>B = \{x \in \N \st x \mbox{ is even} \}</m>,
         and <m>C = \{x \in \N \st x \mbox{ is odd} \}</m>.
       </p>
 
-      <p permid="p2">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+      <p permid="exers_intro-sets-e_ag-p2">
+        <ol permid="exers_intro-sets-e_ag-ol">
+          <li permid="exers_intro-sets-e_ag-ol-l_j">
+            <p permid="exers_intro-sets-e_ag-ol-l_j-p">
               Find <m>A \cap B</m>.
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_intro-sets-e_ag-ol-l_s">
+            <p permid="exers_intro-sets-e_ag-ol-l_s-p">
               Find <m>A \cup B</m>.
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_intro-sets-e_ag-ol-l_b">
+            <p permid="exers_intro-sets-e_ag-ol-l_b-p">
               Find <m>B \cap C</m>.
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_intro-sets-e_ag-ol-l_k">
+            <p permid="exers_intro-sets-e_ag-ol-l_k-p">
               Find <m>B \cup C</m>.
             </p>
           </li>
@@ -129,32 +129,32 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_dp">
+  <exercise permid="exers_intro-sets-e_dp">
     <statement>
-      <p permid="p">
+      <p permid="exers_intro-sets-e_dp-p">
         Find an example of sets <m>A</m> and <m>B</m> such that
         <m>A\cap B = \{3, 5\}</m> and <m>A \cup B = \{2, 3, 5, 7, 8\}</m>.
       </p>
     </statement>
   </exercise>
 
-  <exercise permid="e_gy">
+  <exercise permid="exers_intro-sets-e_gy">
     <statement>
-      <p permid="p">
+      <p permid="exers_intro-sets-e_gy-p">
         Find an example of sets <m>A</m> and <m>B</m> such that <m>A \subseteq B</m> and <m>A \in B</m>.
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_intro-sets-e_gy-s">
+      <p permid="exers_intro-sets-e_gy-s-p">
         For example,
         <m>A = \{1,2,3\}</m> and <m>B = \{1,2,3,4,5,\{1,2,3\}\}</m>
       </p>
     </solution>
   </exercise>
 
-  <exercise permid="e_jq">
+  <exercise permid="exers_intro-sets-e_jq">
     <statement>
-      <p permid="p1">
+      <p permid="exers_intro-sets-e_jq-p1">
         Recall <m>\Z = \{\ldots,-2,-1,0, 1,2,\ldots\}</m>
         (the integers).
         Let <m>\Z^+ = \{1, 2, 3, \ldots\}</m> be the positive integers.
@@ -162,67 +162,67 @@
         <m>3\Z</m> be the multiples of 3, and so on.
       </p>
 
-      <p permid="p2">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+      <p permid="exers_intro-sets-e_jq-p2">
+        <ol permid="exers_intro-sets-e_jq-ol">
+          <li permid="exers_intro-sets-e_jq-ol-l_j">
+            <p permid="exers_intro-sets-e_jq-ol-l_j-p">
               Is <m>\Z^+ \subseteq 2\Z</m>?
               Explain.
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_intro-sets-e_jq-ol-l_s">
+            <p permid="exers_intro-sets-e_jq-ol-l_s-p">
               Is <m>2\Z \subseteq \Z^+</m>?
               Explain.
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_intro-sets-e_jq-ol-l_b">
+            <p permid="exers_intro-sets-e_jq-ol-l_b-p">
               Find <m>2\Z \cap 3\Z</m>.
               Describe the set in words, and using set notation.
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_intro-sets-e_jq-ol-l_k">
+            <p permid="exers_intro-sets-e_jq-ol-l_k-p">
               Express <m>\{x \in \Z \st \exists y\in \Z (x = 2y \vee x = 3y)\}</m> as a union or intersection of two sets already described in this problem.
             </p>
           </li>
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+    <solution permid="exers_intro-sets-e_jq-s">
+      <p permid="exers_intro-sets-e_jq-s-p">
+        <ol permid="exers_intro-sets-e_jq-s-ol">
+          <li permid="exers_intro-sets-e_jq-s-ol-l_j">
+            <p permid="exers_intro-sets-e_jq-s-ol-l_j-p">
               No.
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_intro-sets-e_jq-s-ol-l_s">
+            <p permid="exers_intro-sets-e_jq-s-ol-l_s-p">
               No.
             </p>
           </li>
 
-          <li permid="l_b">
+          <li permid="exers_intro-sets-e_jq-s-ol-l_b">
             <m>2\Z \cap 3\Z</m> is the set of all integers which are multiples of both 2 and 3
             (so multiples of 6).
             Therefore <m>2\Z \cap 3\Z = \{x \in \Z \st \exists y\in \Z(x = 6y)\}</m>.
           </li>
 
-          <li permid="l_k"><m>2\Z \cup 3\Z</m>.</li>
+          <li permid="exers_intro-sets-e_jq-s-ol-l_k"><m>2\Z \cup 3\Z</m>.</li>
         </ol>
       </p>
     </solution>
   </exercise>
 
-  <exercise permid="e_mz">
+  <exercise permid="exers_intro-sets-e_mz">
     <statement>
-      <p permid="p">
+      <p permid="exers_intro-sets-e_mz-p">
         Let <m>A_2</m> be the set of all multiples of 2 except for <m>2</m>.
         Let <m>A_3</m> be the set of all multiples of 3 except for 3.
         And so on, so that <m>A_n</m> is the set of all multiple of <m>n</m> except for <m>n</m>,
@@ -232,35 +232,35 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_pi">
+  <exercise permid="exers_intro-sets-e_pi">
     <statement>
-      <p permid="p">
+      <p permid="exers_intro-sets-e_pi-p">
         Draw a Venn diagram to represent each of the following:
 
-        <ol permid="ol">
-          <li permid="l_j"><m>A \cup \bar B</m></li>
+        <ol permid="exers_intro-sets-e_pi-ol">
+          <li permid="exers_intro-sets-e_pi-ol-l_j"><m>A \cup \bar B</m></li>
 
-          <li permid="l_s"><m>\bar{(A \cup B)}</m></li>
+          <li permid="exers_intro-sets-e_pi-ol-l_s"><m>\bar{(A \cup B)}</m></li>
 
-          <li permid="l_b"><m>A \cap (B \cup C)</m></li>
+          <li permid="exers_intro-sets-e_pi-ol-l_b"><m>A \cap (B \cup C)</m></li>
 
-          <li permid="l_k"><m>(A \cap B) \cup C</m></li>
+          <li permid="exers_intro-sets-e_pi-ol-l_k"><m>(A \cap B) \cup C</m></li>
 
-          <li permid="l_t"><m>\bar A \cap B \cap \bar C</m></li>
+          <li permid="exers_intro-sets-e_pi-ol-l_t"><m>\bar A \cap B \cap \bar C</m></li>
 
-          <li permid="l_c"><m>(A \cup B) \setminus C</m></li>
+          <li permid="exers_intro-sets-e_pi-ol-l_c"><m>(A \cup B) \setminus C</m></li>
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+    <solution permid="exers_intro-sets-e_pi-s">
+      <p permid="exers_intro-sets-e_pi-s-p">
+        <ol permid="exers_intro-sets-e_pi-s-ol">
+          <li permid="exers_intro-sets-e_pi-s-ol-l_j">
+            <p permid="exers_intro-sets-e_pi-s-ol-l_j-p">
               <m>A \cup \bar B</m>:
             </p>
 
-            <sidebyside permid="sbs1" width="20%">
+            <sidebyside permid="exers_intro-sets-sbs1" width="20%">
 
               <image permid="a-or-not-b" xml:id="A-or-not-B">
 
@@ -280,12 +280,12 @@
 
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_intro-sets-e_pi-s-ol-l_s">
+            <p permid="exers_intro-sets-e_pi-s-ol-l_s-p">
               <m>\bar{(A \cup B)}</m>:
             </p>
 
-            <sidebyside permid="sbs2" width="20%">
+            <sidebyside permid="exers_intro-sets-sbs2" width="20%">
 
               <image permid="not-a-or-b" xml:id="not-A-or-B">
 
@@ -302,12 +302,12 @@
 
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_intro-sets-e_pi-s-ol-l_b">
+            <p permid="exers_intro-sets-e_pi-s-ol-l_b-p">
               <m>A \cap (B \cup C)</m>:
             </p>
 
-            <sidebyside permid="sbs3" width="20%">
+            <sidebyside permid="exers_intro-sets-sbs3" width="20%">
 
               <image permid="a-b-or-c" xml:id="A-and-B-or-C">
 
@@ -326,12 +326,12 @@
 
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_intro-sets-e_pi-s-ol-l_k">
+            <p permid="exers_intro-sets-e_pi-s-ol-l_k-p">
               <m>(A \cap B) \cup C</m>:
             </p>
 
-            <sidebyside permid="sbs4" width="20%">
+            <sidebyside permid="exers_intro-sets-sbs4" width="20%">
 
               <image permid="a-b-cup-c" xml:id="A-and-B-cup-C">
 
@@ -351,12 +351,12 @@
 
           </li>
 
-          <li permid="l_t">
-            <p permid="p">
+          <li permid="exers_intro-sets-e_pi-s-ol-l_t">
+            <p permid="exers_intro-sets-e_pi-s-ol-l_t-p">
               <m>\bar A \cap B \cap \bar C</m>:
             </p>
 
-            <sidebyside permid="sbs5" width="20%">
+            <sidebyside permid="exers_intro-sets-sbs5" width="20%">
 
               <image permid="not-a-cap-b-cap-not-c" xml:id="not-A-cap-B-cap-not-C">
 
@@ -377,12 +377,12 @@
 
           </li>
 
-          <li permid="l_c">
-            <p permid="p">
+          <li permid="exers_intro-sets-e_pi-s-ol-l_c">
+            <p permid="exers_intro-sets-e_pi-s-ol-l_c-p">
               <m>(A \cup B) \setminus C</m>:
             </p>
 
-            <sidebyside permid="sbs6" width="20%">
+            <sidebyside permid="exers_intro-sets-sbs6" width="20%">
 
               <image permid="a-or-b-less-c" xml:id="A-or-B-less-C">
 
@@ -404,15 +404,15 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_sa">
+  <exercise permid="exers_intro-sets-e_sa">
     <statement>
-      <p permid="p">
+      <p permid="exers_intro-sets-e_sa-p">
         Describe a set in terms of <m>A</m> and <m>B</m>
         (using set notation)
         which has the following Venn diagram:
       </p>
 
-      <sidebyside permid="sbs7" width="20%">
+      <sidebyside permid="exers_intro-sets-sbs7" width="20%">
 
         <image permid="not-a-b" xml:id="not-A-and-B">
 
@@ -439,41 +439,41 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_vj">
+  <exercise permid="exers_intro-sets-e_vj">
     <statement>
-      <p permid="p">
+      <p permid="exers_intro-sets-e_vj-p">
         Find the following cardinalities:
 
-        <ol permid="ol">
-          <li permid="l_j"><m>|A|</m> when <m>A = \{4,5,6,\ldots,37\}</m></li>
+        <ol permid="exers_intro-sets-e_vj-ol">
+          <li permid="exers_intro-sets-e_vj-ol-l_j"><m>|A|</m> when <m>A = \{4,5,6,\ldots,37\}</m></li>
 
-          <li permid="l_s">
+          <li permid="exers_intro-sets-e_vj-ol-l_s">
             <m>|A|</m> when <m>A = \{x \in \Z \st -2 \le x \le 100\}</m>
           </li>
 
-          <li permid="l_b">
+          <li permid="exers_intro-sets-e_vj-ol-l_b">
             <m>|A \cap B|</m> when <m>A = \{x \in \N \st x \le 20\}</m> and <m>B = \{x \in \N \st x \mbox{ is prime} \}</m>
           </li>
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+    <solution permid="exers_intro-sets-e_vj-s">
+      <p permid="exers_intro-sets-e_vj-s-p">
+        <ol permid="exers_intro-sets-e_vj-s-ol">
+          <li permid="exers_intro-sets-e_vj-s-ol-l_j">
+            <p permid="exers_intro-sets-e_vj-s-ol-l_j-p">
               34.
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_intro-sets-e_vj-s-ol-l_s">
+            <p permid="exers_intro-sets-e_vj-s-ol-l_s-p">
               103.
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_intro-sets-e_vj-s-ol-l_b">
+            <p permid="exers_intro-sets-e_vj-s-ol-l_b-p">
               8.
             </p>
           </li>
@@ -482,23 +482,23 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_ys">
+  <exercise permid="exers_intro-sets-e_ys">
     <statement>
-      <p permid="p">
+      <p permid="exers_intro-sets-e_ys-p">
         Let <m>A = \{a, b, c, d\}</m>.
         Find <m>\pow(A)</m>.
       </p>
     </statement>
-    <hint permid="h">
-      <p permid="p">
+    <hint permid="exers_intro-sets-e_ys-h">
+      <p permid="exers_intro-sets-e_ys-h-p">
         We are looking for a set containing 16 sets.
       </p>
     </hint>
   </exercise>
 
-  <exercise permid="e_bk">
+  <exercise permid="exers_intro-sets-e_bk">
     <statement>
-      <p permid="p">
+      <p permid="exers_intro-sets-e_bk-p">
         Let <m>A = \{1,2,\ldots, 10\}</m>.
         How many subsets of <m>A</m> contain exactly one element (i.e., how many
         <term>singleton</term> subsets are there)?
@@ -509,42 +509,42 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_et">
+  <exercise permid="exers_intro-sets-e_et">
     <statement>
-      <p permid="p">
+      <p permid="exers_intro-sets-e_et-p">
         Let <m>A = \{1,2,3,4,5,6\}</m>.
         Find all sets <m>B \in \pow(A)</m> which have the property <m>\{2,3,5\} \subseteq B</m>.
       </p>
     </statement>
   </exercise>
 
-  <exercise permid="e_hc">
+  <exercise permid="exers_intro-sets-e_hc">
     <statement>
-      <p permid="p">
+      <p permid="exers_intro-sets-e_hc-p">
         Find an example of sets <m>A</m> and <m>B</m> such that <m>|A| = 4</m>,
         <m>|B| = 5</m>, and <m>|A \cup B| = 9</m>.
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_intro-sets-e_hc-s">
+      <p permid="exers_intro-sets-e_hc-s-p">
         For example, <m>A = \{1,2,3,4\}</m> and
         <m>B = \{5,6,7,8,9\}</m> gives <m>A \cup B = \{1,2,3,4,5,6,7,8,9\}</m>.
       </p>
     </solution>
   </exercise>
 
-  <exercise permid="e_ku">
+  <exercise permid="exers_intro-sets-e_ku">
     <statement>
-      <p permid="p">
+      <p permid="exers_intro-sets-e_ku-p">
         Find an example of sets <m>A</m> and <m>B</m> such that <m>|A| = 3</m>,
         <m>|B| = 4</m>, and <m>|A \cup B| = 5</m>.
       </p>
     </statement>
   </exercise>
 
-  <exercise permid="e_nd">
+  <exercise permid="exers_intro-sets-e_nd">
     <statement>
-      <p permid="p">
+      <p permid="exers_intro-sets-e_nd-p">
         Are there sets <m>A</m> and <m>B</m> such that <m>|A| = |B|</m>,
         <m>|A\cup B| = 10</m>, and <m>|A\cap B| = 5</m>?
         Explain.
@@ -552,9 +552,9 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_qm">
+  <exercise permid="exers_intro-sets-e_qm">
     <statement>
-      <p permid="p">
+      <p permid="exers_intro-sets-e_qm-p">
         In a regular deck of playing cards there are 26 red cards and 12 face cards.
         Explain, using sets and what you have learned about cardinalities,
         why there are only 32 cards which are either red or a face card.

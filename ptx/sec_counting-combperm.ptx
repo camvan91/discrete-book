@@ -2,37 +2,37 @@
 
 <section permid="sec_counting-combperm" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_counting-combperm">
   <title>Combinations and Permutations</title>
-  <introduction permid="intr">
-    <investigation permid="inv">
-      <p permid="p1">
+  <introduction permid="sec_counting-combperm-intr">
+    <investigation permid="sec_counting-combperm-inv">
+      <p permid="sec_counting-combperm-intr-p1">
         You have a bunch of chips which come in five different colors:
         red, blue, green, purple and yellow.
 
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+        <ol permid="sec_counting-combperm-intr-ol">
+          <li permid="sec_counting-combperm-intr-ol-l_j">
+            <p permid="sec_counting-combperm-intr-ol-l_j-p">
               How many different two-chip stacks can you make if the bottom chip must be red or blue?
               Explain your answer using both the additive and multiplicative principles.
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="sec_counting-combperm-intr-ol-l_s">
+            <p permid="sec_counting-combperm-intr-ol-l_s-p">
               How many different three-chip stacks can you make if the bottom chip must be red or blue and the top chip must be green,
               purple or yellow?
               How does this problem relate to the previous one?
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="sec_counting-combperm-intr-ol-l_b">
+            <p permid="sec_counting-combperm-intr-ol-l_b-p">
               How many different three-chip stacks are there in which no color is repeated?
               What about four-chip stacks?
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="sec_counting-combperm-intr-ol-l_k">
+            <p permid="sec_counting-combperm-intr-ol-l_k-p">
               Suppose you wanted to take three different colored chips and put them in your pocket.
               How many different choices do you have?
               What if you wanted four different colored chips?
@@ -42,16 +42,16 @@
         </ol>
       </p>
     </investigation>
-    <p permid="p2">
+    <p permid="sec_counting-combperm-intr-p2">
       A <term>permutation</term> is a (possible) rearrangement of objects.
       For example,
       there are 6 permutations of the letters <em>a, b, c</em>:
-      <me permid="me">
+      <me permid="sec_counting-combperm-intr-p2-me">
         abc, ~~ acb, ~~ bac, ~~bca, ~~ cab, ~~ cba
       </me>.
     </p>
 
-    <p permid="p3">
+    <p permid="sec_counting-combperm-intr-p3">
       We know that we have them all listed above
       <mdash/>there are 3 choices for which letter we put first,
       then 2 choices for which letter comes next,
@@ -59,15 +59,15 @@
       The multiplicative principle says we multiply <m>3\cdot 2 \cdot 1</m>.
     </p>
 
-    <example permid="ex1">
+    <example permid="sec_counting-combperm-ex1">
       <statement>
-        <p permid="p">
+        <p permid="sec_counting-combperm-ex1-p">
           How many permutations are there of the letters
           <em>a, b, c, d, e, f</em>?
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p">
+      <solution permid="sec_counting-combperm-ex1-s">
+        <p permid="sec_counting-combperm-ex1-s-p">
           We do NOT want to try to list all of these out.
           However, if we did,
           we would need to pick a letter to write down first.
@@ -83,7 +83,7 @@
       </solution>
     </example>
 
-    <p permid="p4">
+    <p permid="sec_counting-combperm-intr-p4">
       A piece of notation is helpful here:
       <m>n!</m>, read <q><m>n</m> factorial</q>,
           <idx><h>factorial</h></idx>
@@ -94,9 +94,9 @@
       This generalizes:
     </p>
 
-    <assemblage permid="asm-permutations-n-elements">
+    <assemblage permid="sec_counting-combperm-asm-permutations-n-elements">
       <title>Permutations of <m>n</m> elements</title>
-      <p permid="p5">
+      <p permid="sec_counting-combperm-intr-p5">
         There are <m>n! = n\cdot (n-1)\cdot (n-2)\cdot \cdots \cdot 2\cdot 1</m> permutations of <m>n</m> (distinct) elements.
       </p>
     </assemblage>
@@ -104,16 +104,16 @@
     <example permid="ex-counting-functions-bijective" xml:id="example-counting-functions-bijective">
       <title>Counting Bijective Functions</title>
       <statement>
-        <p permid="p">
+        <p permid="ex-counting-functions-bijective-p">
           How many functions <m>f:\{1,2,\ldots,8\} \to \{1,2,\ldots, 8\}</m> are <em>bijective</em>?
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p1">
+      <solution permid="ex-counting-functions-bijective-s">
+        <p permid="ex-counting-functions-bijective-s-p1">
           Remember what it means for a function to be bijective:
           each element in the codomain must be the image of exactly one element of the domain.
           Using two-line notation, we could write one of these bijections as
-          <me permid="me">
+          <me permid="ex-counting-functions-bijective-s-p1-me">
             f = \twoline{1 \amp 2 \amp 3 \amp 4 \amp 5 \amp 6 \amp 7 \amp 8} {3 \amp 1 \amp 5 \amp 8 \amp 7 \amp 6 \amp 2 \amp 4}
           </me>
           What we are really doing is just rearranging the elements of the codomain,
@@ -121,7 +121,7 @@
           In fact, <q>permutation</q> is another term used to describe bijective functions from a finite set to itself.
         </p>
 
-        <p permid="p2">
+        <p permid="ex-counting-functions-bijective-s-p2">
           If you believe this,
           then you see the answer must be <m>8! = 8 \cdot 7 \cdot\cdots\cdot 1 = 40320</m>.
           You can see this directly as well:
@@ -133,20 +133,20 @@
       </solution>
     </example>
 
-    <p permid="p6">
+    <p permid="sec_counting-combperm-intr-p6">
       Sometimes we do not want to permute all of the letters/numbers/elements we are given.
     </p>
 
-    <example permid="ex2">
+    <example permid="sec_counting-combperm-ex2">
       <statement>
-        <p permid="p">
+        <p permid="sec_counting-combperm-ex2-p">
           How many 4 letter <q>words</q>
           can you make from the letters <em>a</em>
           through <em>f</em>, with no repeated letters?
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p">
+      <solution permid="sec_counting-combperm-ex2-s">
+        <p permid="sec_counting-combperm-ex2-s-p">
           This is just like the problem of permuting 4 letters,
           only now we have more choices for each letter.
           For the first letter, there are 6 choices.
@@ -160,7 +160,7 @@
       </solution>
     </example>
 
-    <p permid="p7">
+    <p permid="sec_counting-combperm-intr-p7">
       In general, we can ask how many permutations exist of <m>k</m> objects choosing those objects from a larger collection of <m>n</m> objects.
       (In the example above, <m>k = 4</m>, and <m>n = 6</m>.)
       We write this number <m>P(n,k)</m> and sometimes call it a
@@ -169,40 +169,40 @@
       we see that to compute <m>P(n,k)</m> we must apply the multiplicative principle to <m>k</m> numbers,
       starting with <m>n</m> and counting backwards.
       For example
-      <me permid="me">
+      <me permid="sec_counting-combperm-intr-p7-me">
         P(10, 4) = 10\cdot 9 \cdot 8 \cdot 7
       </me>.
     </p>
 
-    <p permid="p8">
+    <p permid="sec_counting-combperm-intr-p8">
       Notice again that <m>P(10,4)</m> starts out looking like <m>10!</m>,
       but we stop after 7.
       We can formally account for this <q>stopping</q>
       by dividing away the part of the factorial we do not want:
-      <me permid="me">
+      <me permid="sec_counting-combperm-intr-p8-me">
         P(10,4) = \frac{10\cdot 9 \cdot 8 \cdot 7 \cdot 6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1}{6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1} = \frac{10!}{6!}
       </me>.
     </p>
 
-    <p permid="p9">
+    <p permid="sec_counting-combperm-intr-p9">
       Careful: The factorial in the denominator is not <m>4!</m> but rather <m>(10-4)!</m>.
     </p>
 
-    <assemblage permid="asm-k-permutations-n-elements">
+    <assemblage permid="sec_counting-combperm-asm-k-permutations-n-elements">
       <title><m>k</m>-permutations of <m>n</m> elements</title>
-      <p permid="p10">
+      <p permid="sec_counting-combperm-intr-p10">
             <idx><h><em>k</em>-permutation</h></idx>
             <idx><h>permutation</h></idx>
         <m>P(n,k)</m> is the number of <term><m>k</m>-permutations of <m>n</m> elements</term>,
         the number of ways to <em>arrange</em>
         <m>k</m> objects chosen from <m>n</m> distinct objects.
-        <me permid="me">
+        <me permid="sec_counting-combperm-intr-p10-me">
           P(n,k) = \frac{n!}{(n-k)!}
         </me>.
       </p>
     </assemblage>
 
-    <p permid="p11">
+    <p permid="sec_counting-combperm-intr-p11">
       Note that when <m>n = k</m>, we have <m>P(n,n) = \frac{n!}{(n-n)!} = n!</m>
       (since we defined <m>0!</m> to be 1).
       This makes sense
@@ -212,12 +212,12 @@
     <example permid="ex-counting-functions-injective" xml:id="example-counting-functions-injective">
       <title>Counting injective functions</title>
       <statement>
-        <p permid="p">
+        <p permid="ex-counting-functions-injective-p">
           How many functions <m>f:\{1,2,3\} \to \{1,2,3,4,5,6,7,8\}</m> are <em>injective</em>?
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p1">
+      <solution permid="ex-counting-functions-injective-s">
+        <p permid="ex-counting-functions-injective-s-p1">
           Note that it doesn't make sense to ask for the number of
           <em>bijections</em> here, as there are none
           (because the codomain is larger than the domain,
@@ -226,7 +226,7 @@
           we just can't use an element of the codomain more than once.
         </p>
 
-        <p permid="p2">
+        <p permid="ex-counting-functions-injective-s-p2">
           We need to pick an element from the codomain to be the image of 1.
           There are 8 choices.
           Then we need to pick one of the remaining 7 elements to be the image of 2.
@@ -234,14 +234,14 @@
           So the total number of functions is <m>8\cdot 7 \cdot 6 = P(8,3)</m>.
         </p>
 
-        <p permid="p3">
+        <p permid="ex-counting-functions-injective-s-p3">
           What this demonstrates in general is that the number of injections <m>f:A \to B</m>,
           where <m>\card{A} = k</m> and <m>\card{B} = n</m>, is <m>P(n,k)</m>.
         </p>
       </solution>
     </example>
 
-    <p permid="p12">
+    <p permid="sec_counting-combperm-intr-p12">
       Here is another way to find the number of <m>k</m>-permutations of <m>n</m> elements:
       first select which <m>k</m> elements will be in the permutation,
       then count how many ways there are to arrange them.
@@ -255,33 +255,33 @@
       we can permute <em>them</em> in <m>k!</m> ways.
       Using the multiplicative principle,
       we get another formula for <m>P(n,k)</m>:
-      <me permid="me">
+      <me permid="sec_counting-combperm-intr-p12-me">
         P(n,k) = {n \choose k}\cdot k!
       </me>.
     </p>
 
-    <p permid="p13">
+    <p permid="sec_counting-combperm-intr-p13">
       Now since we have a closed formula for <m>P(n,k)</m> already,
       we can substitute that in:
-      <me permid="me">
+      <me permid="sec_counting-combperm-intr-p13-me">
         \frac{n!}{(n-k)!} = {n \choose k} \cdot k!
       </me>.
     </p>
 
-    <p permid="p14">
+    <p permid="sec_counting-combperm-intr-p14">
       If we divide both sides by <m>k!</m> we get a closed formula for <m>{n \choose k}</m>.
     </p>
 
-    <assemblage permid="asm-closed-formula-for-n-choose-k">
+    <assemblage permid="sec_counting-combperm-asm-closed-formula-for-n-choose-k">
       <title>Closed formula for <m>{n \choose k}</m></title>
-      <p permid="p15">
-        <me permid="me">
+      <p permid="sec_counting-combperm-intr-p15">
+        <me permid="sec_counting-combperm-intr-p15-me">
           {n \choose k} = \frac{n!}{(n-k)!k!}
         </me>
       </p>
     </assemblage>
 
-    <p permid="p16">
+    <p permid="sec_counting-combperm-intr-p16">
       We say <m>P(n,k)</m> counts <em>permutations</em>,
       and <m>{n \choose k}</m> counts <em>combinations</em>.
           <idx><h>combination</h></idx>
@@ -300,29 +300,29 @@
       not the order in which to combine them.
     </p>
 
-    <p permid="p17">
+    <p permid="sec_counting-combperm-intr-p17">
       To further illustrate the connection between combinations and permutations,
       we close with an example.
     </p>
 
-    <example permid="ex3">
+    <example permid="sec_counting-combperm-ex3">
       <statement>
-        <p permid="p1">
+        <p permid="sec_counting-combperm-ex3-p1">
           You decide to have a dinner party.
           Even though you are incredibly popular and have 14 different friends,
           you only have enough chairs to invite 6 of them.
         </p>
 
-        <p permid="p2">
-          <ol permid="ol">
-            <li permid="l_j">
-              <p permid="p">
+        <p permid="sec_counting-combperm-ex3-p2">
+          <ol permid="sec_counting-combperm-ex3-ol">
+            <li permid="sec_counting-combperm-ex3-ol-l_j">
+              <p permid="sec_counting-combperm-ex3-ol-l_j-p">
                 How many choices do you have for which 6 friends to invite?
               </p>
             </li>
 
-            <li permid="l_s">
-              <p permid="p">
+            <li permid="sec_counting-combperm-ex3-ol-l_s">
+              <p permid="sec_counting-combperm-ex3-ol-l_s-p">
                 What if you need to decide not only which friends to invite but also where to seat them along your long table?
                 How many choices do you have then?
               </p>
@@ -330,11 +330,11 @@
           </ol>
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p1">
-          <ol permid="ol">
-            <li permid="l_j">
-              <p permid="p">
+      <solution permid="sec_counting-combperm-ex3-s">
+        <p permid="sec_counting-combperm-ex3-s-p1">
+          <ol permid="sec_counting-combperm-ex3-s-ol">
+            <li permid="sec_counting-combperm-ex3-s-ol-l_j">
+              <p permid="sec_counting-combperm-ex3-s-ol-l_j-p">
                 You must simply choose 6 friends from a group of 14.
                 This can be done in <m>{14 \choose 6}</m> ways.
                 We can find this number either by using Pascal's triangle or the closed formula:
@@ -342,14 +342,14 @@
               </p>
             </li>
 
-            <li permid="l_s">
-              <p permid="p1">
+            <li permid="sec_counting-combperm-ex3-s-ol-l_s">
+              <p permid="sec_counting-combperm-ex3-s-ol-l_s-p1">
                 Here you must count all the ways you can permute 6 friends chosen from a group of 14.
                 So the answer is <m>P(14, 6)</m>,
                 which can be calculated as <m>\frac{14!}{8!} = 2192190</m>.
               </p>
 
-              <p permid="p2">
+              <p permid="sec_counting-combperm-ex3-s-ol-l_s-p2">
                 Notice that we can think of this counting problem as a question about counting functions:
                 how many injective functions are there from your set of 6 chairs to your set of 14 friends
                 (the functions are injective because you can't have a single chair go to two of your friends).
@@ -358,7 +358,7 @@
           </ol>
         </p>
 
-        <p permid="p2">
+        <p permid="sec_counting-combperm-ex3-s-p2">
           How are these numbers related?
           Notice that <m>P(14,6)</m> is <em>much</em>
           larger than <m>{14 \choose 6}</m>.
@@ -372,17 +372,17 @@
           So now we have <m>3003\cdot 6!</m> choices and that is exactly <m>2192190</m>.
         </p>
 
-        <p permid="p3">
+        <p permid="sec_counting-combperm-ex3-s-p3">
           Alternatively, look at the first problem another way.
           We want to select 6 out of 14 friends,
           but we do not care about the order they are selected in.
           To select 6 out of 14 friends, we might try this:
-          <me permid="me">
+          <me permid="sec_counting-combperm-ex3-s-p3-me">
             14 \cdot 13 \cdot 12 \cdot 11 \cdot 10 \cdot 9
           </me>.
         </p>
 
-        <p permid="p4">
+        <p permid="sec_counting-combperm-ex3-s-p4">
           This is a reasonable guess,
           since we have 14 choices for the first guest,
           then 13 for the second, and so on.
@@ -394,14 +394,14 @@
           (so that all of these would count as just one outcome).
           There are precisely <m>6!</m> ways to arrange 6 guests,
           so the correct answer to the first question is
-          <me permid="me">
+          <me permid="sec_counting-combperm-ex3-s-p4-me">
             \frac{14 \cdot 13 \cdot 12 \cdot 11\cdot 10 \cdot 9}{6!}
           </me>.
         </p>
 
-        <p permid="p5">
+        <p permid="sec_counting-combperm-ex3-s-p5">
           Note that another way to write this is
-          <me permid="me">
+          <me permid="sec_counting-combperm-ex3-s-p5-me">
             \frac{14!}{8!\cdot 6!}
           </me>.
           which is what we had originally.

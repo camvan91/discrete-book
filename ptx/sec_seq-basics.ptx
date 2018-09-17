@@ -2,17 +2,17 @@
 
 <section permid="sec_seq_intro" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_seq_intro">
   <title>Definitions</title>
-  <introduction permid="intr">
-    <investigation permid="inv1">
+  <introduction permid="sec_seq_intro-intr">
+    <investigation permid="sec_seq_intro-inv1">
     <!-- TODO: Make a better intro problem -->
-      <p permid="p1">
+      <p permid="sec_seq_intro-intr-p1">
         What comes next:
-        <me permid="me">
+        <me permid="sec_seq_intro-intr-p1-me">
           1, ~~11, ~~21, ~~1211, ~~111221, ~~312211, ~~\ldots
         </me>
       </p>
     </investigation>
-    <p permid="p2">
+    <p permid="sec_seq_intro-intr-p2">
       A <term>sequence</term>
           <idx><h>sequence</h></idx>
       is simply an ordered list of numbers.
@@ -22,7 +22,7 @@
       in the sequence we very much care what order the numbers come in.
       For this reason,
       when we use variables to represent terms in a sequence they will look like this:
-      <me permid="me">
+      <me permid="sec_seq_intro-intr-p2-me">
         a_0, a_1, a_2, a_3, \ldots
       </me>
       To refer to the <em>entire</em> sequence at once,
@@ -37,7 +37,7 @@
 
     </p>
 
-    <p permid="p3">
+    <p permid="sec_seq_intro-intr-p3">
       We might replace the <m>a</m> with another letter,
       and sometimes we omit <m>a_0</m>, starting with <m>a_1</m>,
       in which case we would use
@@ -46,7 +46,7 @@
       (the plural of <term>index</term>).
     </p>
 
-    <p permid="p4">
+    <p permid="sec_seq_intro-intr-p4">
       While we often just think of sequences as an ordered list of numbers,
       they really are a type of function.
       Specifically, the sequence
@@ -57,97 +57,97 @@
       These are done exactly as you would for functions.
     </p>
 
-    <p permid="p5">
+    <p permid="sec_seq_intro-intr-p5">
       That said, while keeping the rigorous mathematical definition in mind is helpful,
       we often describe sequences by writing out the first few terms.
     </p>
 
-    <example permid="ex1">
+    <example permid="sec_seq_intro-ex1">
       <statement>
-        <p permid="p1">
+        <p permid="sec_seq_intro-ex1-p1">
           Can you find the next term in the following sequences?
         </p>
 
-        <p permid="p2">
-          <ol permid="ol">
-            <li permid="l_j"><m>7,7,7,7,7, \ldots</m></li>
+        <p permid="sec_seq_intro-ex1-p2">
+          <ol permid="sec_seq_intro-ex1-ol">
+            <li permid="sec_seq_intro-ex1-ol-l_j"><m>7,7,7,7,7, \ldots</m></li>
 
-            <li permid="l_s"><m>3, -3, 3, -3, 3, \ldots</m></li>
+            <li permid="sec_seq_intro-ex1-ol-l_s"><m>3, -3, 3, -3, 3, \ldots</m></li>
 
-            <li permid="l_b"><m>1, 5, 2, 10, 3, 15, \ldots</m></li>
+            <li permid="sec_seq_intro-ex1-ol-l_b"><m>1, 5, 2, 10, 3, 15, \ldots</m></li>
 
-            <li permid="l_k"><m>1, 2, 4, 8, 16, 32, \ldots</m></li>
+            <li permid="sec_seq_intro-ex1-ol-l_k"><m>1, 2, 4, 8, 16, 32, \ldots</m></li>
 
-            <li permid="l_t"><m>1, 4, 9, 16, 25, 36, \ldots</m></li>
+            <li permid="sec_seq_intro-ex1-ol-l_t"><m>1, 4, 9, 16, 25, 36, \ldots</m></li>
 
-            <li permid="l_c"><m>1, 2, 3, 5, 8, 13, 21, \ldots</m></li>
+            <li permid="sec_seq_intro-ex1-ol-l_c"><m>1, 2, 3, 5, 8, 13, 21, \ldots</m></li>
 
-            <li permid="l_l"><m>1, 3, 6, 10, 15, 21, \ldots</m></li>
+            <li permid="sec_seq_intro-ex1-ol-l_l"><m>1, 3, 6, 10, 15, 21, \ldots</m></li>
 
-            <li permid="l_u"><m>2, 3, 5, 7, 11, 13, \ldots</m></li>
+            <li permid="sec_seq_intro-ex1-ol-l_u"><m>2, 3, 5, 7, 11, 13, \ldots</m></li>
 
-            <li permid="l_d"><m>3, 2, 1, 0, -1, \ldots</m></li>
+            <li permid="sec_seq_intro-ex1-ol-l_d"><m>3, 2, 1, 0, -1, \ldots</m></li>
 
-            <li permid="l_m"><m>1, 1, 2, 6, \ldots</m></li>
+            <li permid="sec_seq_intro-ex1-ol-l_m"><m>1, 1, 2, 6, \ldots</m></li>
           </ol>
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p1">
+      <solution permid="sec_seq_intro-ex1-s">
+        <p permid="sec_seq_intro-ex1-s-p1">
           No you cannot.
           You might guess that the next terms are:
         </p>
 
-        <p permid="p2">
-          <ol permid="ol">
-            <li permid="l_j"><m>7</m></li>
+        <p permid="sec_seq_intro-ex1-s-p2">
+          <ol permid="sec_seq_intro-ex1-s-ol">
+            <li permid="sec_seq_intro-ex1-s-ol-l_j"><m>7</m></li>
 
-            <li permid="l_s"><m>-3</m></li>
+            <li permid="sec_seq_intro-ex1-s-ol-l_s"><m>-3</m></li>
 
-            <li permid="l_b"><m>4</m></li>
+            <li permid="sec_seq_intro-ex1-s-ol-l_b"><m>4</m></li>
 
-            <li permid="l_k">
-              <p permid="p">
+            <li permid="sec_seq_intro-ex1-s-ol-l_k">
+              <p permid="sec_seq_intro-ex1-s-ol-l_k-p">
                 64
               </p>
             </li>
 
-            <li permid="l_t">
-              <p permid="p">
+            <li permid="sec_seq_intro-ex1-s-ol-l_t">
+              <p permid="sec_seq_intro-ex1-s-ol-l_t-p">
                 49
               </p>
             </li>
 
-            <li permid="l_c">
-              <p permid="p">
+            <li permid="sec_seq_intro-ex1-s-ol-l_c">
+              <p permid="sec_seq_intro-ex1-s-ol-l_c-p">
                 34
               </p>
             </li>
 
-            <li permid="l_l">
-              <p permid="p">
+            <li permid="sec_seq_intro-ex1-s-ol-l_l">
+              <p permid="sec_seq_intro-ex1-s-ol-l_l-p">
                 28
               </p>
             </li>
 
-            <li permid="l_u">
-              <p permid="p">
+            <li permid="sec_seq_intro-ex1-s-ol-l_u">
+              <p permid="sec_seq_intro-ex1-s-ol-l_u-p">
                 17
               </p>
             </li>
 
-            <li permid="l_d"><m>-2</m></li>
+            <li permid="sec_seq_intro-ex1-s-ol-l_d"><m>-2</m></li>
 
-            <li permid="l_m"><m>24</m></li>
+            <li permid="sec_seq_intro-ex1-s-ol-l_m"><m>24</m></li>
           </ol>
         </p>
 
-        <p permid="p3">
+        <p permid="sec_seq_intro-ex1-s-p3">
           In fact, those are the next terms of the sequences I had in mind when I made up the example,
           but there is no way to be sure they are correct.
         </p>
 
-        <p permid="p4">
+        <p permid="sec_seq_intro-ex1-s-p4">
           Still, we will often do this.
           Given the first few terms of a sequence,
           we can ask what the pattern in the sequence suggests the next terms are.
@@ -155,15 +155,15 @@
       </solution>
     </example>
 
-    <p permid="p6">
+    <p permid="sec_seq_intro-intr-p6">
       Given that no number of initial terms in a sequence is enough to say for certain which sequence we are dealing with,
       we need to find another way to specify a sequence.
       We consider two ways to do this:
     </p>
 
-    <assemblage permid="asm-closed-formula">
+    <assemblage permid="sec_seq_intro-asm-closed-formula">
       <title>Closed formula</title>
-      <p permid="p7">
+      <p permid="sec_seq_intro-intr-p7">
         A <term>closed formula</term>
             <idx><h>closed formula</h></idx>
         for a sequence <m>(a_n)_{n\in\N}</m> is a formula for <m>a_n</m> using a fixed finite number of operations on <m>n</m>.
@@ -173,9 +173,9 @@
       </p>
     </assemblage>
 
-    <assemblage permid="asm-recursive-d">
+    <assemblage permid="sec_seq_intro-asm-recursive-d">
       <title>Recursive definition</title>
-      <p permid="p8">
+      <p permid="sec_seq_intro-intr-p8">
         A <term>recursive definition</term>
             <idx><h>recursive definition</h></idx>
         (sometimes called an <term>inductive definition</term>) for a sequence <m>(a_n)_{n\in\N}</m> consists of a
@@ -189,27 +189,27 @@
       </p>
     </assemblage>
 
-    <p permid="p9">
+    <p permid="sec_seq_intro-intr-p9">
       It is easier to understand what is going on here with an example:
     </p>
 
-    <example permid="ex2">
+    <example permid="sec_seq_intro-ex2">
       <statement>
-        <p permid="p1">
+        <p permid="sec_seq_intro-ex2-p1">
           Here are a few closed formulas for sequences:
 
-          <ul permid="ul1">
-            <li permid="l_j"><m>a_n = n^2</m>.</li>
+          <ul permid="sec_seq_intro-ex2-ul1">
+            <li permid="sec_seq_intro-ex2-ul1-l_j"><m>a_n = n^2</m>.</li>
 
-            <li permid="l_s"><m>\d a_n = \frac{n(n+1)}{2}</m>.</li>
+            <li permid="sec_seq_intro-ex2-ul1-l_s"><m>\d a_n = \frac{n(n+1)}{2}</m>.</li>
 
-            <li permid="l_b">
+            <li permid="sec_seq_intro-ex2-ul1-l_b">
               <m>\d a_n = \frac{\left(\frac{1 + \sqrt 5}{2}\right)^n - \left(\frac{1 + \sqrt 5}{2}\right)^{-n}}{5}</m>.
             </li>
           </ul>
         </p>
 
-        <p permid="p2">
+        <p permid="sec_seq_intro-ex2-p2">
           Note in each case, if you are given <m>n</m>,
           you can calculate <m>a_n</m> directly:
           just plug in <m>n</m>.
@@ -217,21 +217,21 @@
           just compute <m>a_3 = \frac{3(3+1)}{2} = 6</m>.
         </p>
 
-        <p permid="p3">
+        <p permid="sec_seq_intro-ex2-p3">
           Here are a few recursive definitions for sequences:
 
-          <ul permid="ul2">
-            <li permid="l_j"><m>a_n = 2a_{n-1}</m> with <m>a_0 = 1</m>.</li>
+          <ul permid="sec_seq_intro-ex2-ul2">
+            <li permid="sec_seq_intro-ex2-ul2-l_j"><m>a_n = 2a_{n-1}</m> with <m>a_0 = 1</m>.</li>
 
-            <li permid="l_s"><m>a_n = 2a_{n-1}</m> with <m>a_0 = 27</m>.</li>
+            <li permid="sec_seq_intro-ex2-ul2-l_s"><m>a_n = 2a_{n-1}</m> with <m>a_0 = 27</m>.</li>
 
-            <li permid="l_b">
+            <li permid="sec_seq_intro-ex2-ul2-l_b">
               <m>a_n = a_{n-1} + a_{n-2}</m> with <m>a_0 = 0</m> and <m>a_1 = 1</m>.
             </li>
           </ul>
         </p>
 
-        <p permid="p4">
+        <p permid="sec_seq_intro-ex2-p4">
           In these cases, if you are given <m>n</m>,
           you cannot calculate <m>a_n</m> directly,
           you first need to find <m>a_{n-1}</m>
@@ -246,16 +246,16 @@
       </statement>
     </example>
 
-    <investigation permid="inv2">
-      <p permid="p10">
+    <investigation permid="sec_seq_intro-inv2">
+      <p permid="sec_seq_intro-intr-p10">
         You have a large collection of
         <m>1\times 1</m> squares and <m>1\times 2</m> dominoes.
         You want to arrange these to make a <m>1 \times 15</m> strip.
         How many ways can you do this?
 
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+        <ol permid="sec_seq_intro-intr-ol">
+          <li permid="sec_seq_intro-intr-ol-l_j">
+            <p permid="sec_seq_intro-intr-ol-l_j-p">
               Start by collecting data.
               How many length <m>1\times 1</m> strips can you make?
               How many <m>1\times 2</m> strips?
@@ -264,21 +264,21 @@
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="sec_seq_intro-intr-ol-l_s">
+            <p permid="sec_seq_intro-intr-ol-l_s-p">
               How are the <m>1\times 3</m> and
               <m>1 \times 4</m> strips related to the <m>1\times 5</m> strips?
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="sec_seq_intro-intr-ol-l_b">
+            <p permid="sec_seq_intro-intr-ol-l_b-p">
               How many <m>1\times 15</m> strips can you make?
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="sec_seq_intro-intr-ol-l_k">
+            <p permid="sec_seq_intro-intr-ol-l_k-p">
               What if I asked you to find the number of <m>1\times 1000</m> strips?
               Would the method you used to calculate the number fo <m>1 \times 15</m> strips be helpful?
             </p>
@@ -286,7 +286,7 @@
         </ol>
       </p>
     </investigation>
-    <p permid="p11">
+    <p permid="sec_seq_intro-intr-p11">
       You might wonder why we would bother with recursive definitions for sequences.
       After all, it is harder to find <m>a_n</m> with a recursive definition than with a closed formula.
       This is true,
@@ -296,36 +296,36 @@
       then use that to find the closed formula.
     </p>
 
-    <p permid="p12">
+    <p permid="sec_seq_intro-intr-p12">
       This is not to say that recursive definitions aren't useful in finding <m>a_n</m>.
       You can always calculate <m>a_n</m> given a recursive definition,
       it might just take a while.
     </p>
 
-    <example permid="ex3">
+    <example permid="sec_seq_intro-ex3">
       <statement>
-        <p permid="p">
+        <p permid="sec_seq_intro-ex3-p">
           Find <m>a_6</m> in the sequence defined by
           <m>a_n = 2a_{n-1} - a_{n-2}</m> with <m>a_0 = 3</m> and <m>a_1 = 4</m>.
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p1">
+      <solution permid="sec_seq_intro-ex3-s">
+        <p permid="sec_seq_intro-ex3-s-p1">
           We know that <m>a_6 = 2a_5 - a_4</m>.
           So to find <m>a_6</m> we need to find <m>a_5</m> and <m>a_4</m>.
           Well
-          <me permid="me1">
+          <me permid="sec_seq_intro-ex3-s-p1-me1">
             a_5 = 2a_4 - a_3 \qquad \text{and} \qquad a_4 = 2a_3 - a_2
           </me>,
           so if we can only find <m>a_3</m> and <m>a_2</m> we would be set.
           Of course
-          <me permid="me2">
+          <me permid="sec_seq_intro-ex3-s-p1-me2">
             a_3 = 2a_2 - a_1 \qquad \text{and} \qquad a_2 = 2a_1 - a_0
           </me>,
           so we only need to find <m>a_1</m> and <m>a_0</m>.
           But we are given these.
           Thus
-          <md permid="md">
+          <md permid="sec_seq_intro-ex3-s-p1-md">
             <mrow>a_0 \amp = 3</mrow>
             <mrow>a_1 \amp = 4</mrow>
             <mrow>a_2 \amp = 2\cdot 4 - 3 = 5</mrow>
@@ -336,12 +336,12 @@
           </md>.
         </p>
 
-        <p permid="p2">
+        <p permid="sec_seq_intro-ex3-s-p2">
           Note that now we can guess a closed formula for the <m>n</m>th term of the sequence:
           <m>a_n = n+3</m>.
           To be sure this will always work,
           we could plug in this formula into the recurrence relation:
-          <md permid="md">
+          <md permid="sec_seq_intro-ex3-s-p2-md">
             <mrow>2a_{n-1} - a_{n-2} \amp = 2((n-1) + 3) - ((n-2) + 3)</mrow>
             <mrow>\amp = 2n + 4 - n - 1</mrow>
             <mrow>\amp = n + 3</mrow>
@@ -349,7 +349,7 @@
           </md>.
         </p>
 
-        <p permid="p3">
+        <p permid="sec_seq_intro-ex3-s-p3">
           That is not quite enough though,
           since there can be multiple closed formulas that satisfy the same recurrence relation;
           we must also check that our closed formula agrees on the initial terms of the sequence.
@@ -360,7 +360,7 @@
       </solution>
     </example>
 
-    <p permid="p13">
+    <p permid="sec_seq_intro-intr-p13">
       Finding closed formulas,
       or even recursive definitions,
       for sequences is not trivial.
@@ -370,76 +370,76 @@
       but sometimes there is no easy answer.
     </p>
 
-    <p permid="p14">
+    <p permid="sec_seq_intro-intr-p14">
       One useful method is to relate a given sequence to another sequence for which we already know the closed formula.
     </p>
 
-    <example permid="ex4">
+    <example permid="sec_seq_intro-ex4">
       <statement>
-        <p permid="p">
+        <p permid="sec_seq_intro-ex4-p">
           Use the formulas <m>T_n = \frac{n(n+1)}{2}</m> and
           <m>a_n = 2^n</m> to find closed formulas for the following sequences.
 
-          <ol permid="ol">
-            <li permid="l_j">
-              <p permid="p">
+          <ol permid="sec_seq_intro-ex4-ol">
+            <li permid="sec_seq_intro-ex4-ol-l_j">
+              <p permid="sec_seq_intro-ex4-ol-l_j-p">
                 <m>(b_n)</m>: <m>1, 2, 4, 7, 11, 16, 22, \ldots </m>.
               </p>
             </li>
 
-            <li permid="l_s">
-              <p permid="p">
+            <li permid="sec_seq_intro-ex4-ol-l_s">
+              <p permid="sec_seq_intro-ex4-ol-l_s-p">
                 <m>(c_n)</m>: <m>3, 5, 9, 17, 33,\ldots </m>.
               </p>
             </li>
 
-            <li permid="l_b">
-              <p permid="p">
+            <li permid="sec_seq_intro-ex4-ol-l_b">
+              <p permid="sec_seq_intro-ex4-ol-l_b-p">
                 <m>(d_n)</m>: <m>0, 2, 6, 12, 20, 30, 42,\ldots </m>.
               </p>
             </li>
 
-            <li permid="l_k">
-              <p permid="p">
+            <li permid="sec_seq_intro-ex4-ol-l_k">
+              <p permid="sec_seq_intro-ex4-ol-l_k-p">
                 <m>(e_n)</m>: <m>3, 6, 10, 15, 21, 28, \ldots</m>.
               </p>
             </li>
 
-            <li permid="l_t">
-              <p permid="p">
+            <li permid="sec_seq_intro-ex4-ol-l_t">
+              <p permid="sec_seq_intro-ex4-ol-l_t-p">
                 <m>(f_n)</m>: <m>0, 1, 3, 7, 15, 31, \ldots </m>.
               </p>
             </li>
 
-            <li permid="l_c">
-              <p permid="p">
+            <li permid="sec_seq_intro-ex4-ol-l_c">
+              <p permid="sec_seq_intro-ex4-ol-l_c-p">
                 <m>(g_n)</m> <m>3, 6, 12, 24, 48, \ldots </m>.
               </p>
             </li>
 
-            <li permid="l_l">
-              <p permid="p">
+            <li permid="sec_seq_intro-ex4-ol-l_l">
+              <p permid="sec_seq_intro-ex4-ol-l_l-p">
                 <m>(h_n)</m>: <m>6, 10, 18, 34, 66, \ldots </m>.
               </p>
             </li>
 
-            <li permid="l_u">
-              <p permid="p">
+            <li permid="sec_seq_intro-ex4-ol-l_u">
+              <p permid="sec_seq_intro-ex4-ol-l_u-p">
                 <m>(j_n)</m>: <m>15, 33, 57, 87, 123, \ldots</m>.
               </p>
             </li>
           </ol>
         </p>
       </statement>
-      <solution permid="s">
-        <p permid="p1">
+      <solution permid="sec_seq_intro-ex4-s">
+        <p permid="sec_seq_intro-ex4-s-p1">
           Before you say this is impossible,
           what we are asking for is simply to find a closed formula which agrees with all of the initial terms of the sequences.
           Of course there is no way to read into the mind of the person who wrote the numbers down,
           but we can at least do this.
         </p>
 
-        <p permid="p2">
+        <p permid="sec_seq_intro-ex4-s-p2">
           The first few terms of <m>(T_n)_{n\ge 0}</m>
 
           <notation>
@@ -453,9 +453,9 @@
           The first few terms of <m>(a_n)_{n\ge 0}</m> are <m>1, 2, 4, 8, 16, \ldots</m>.
           Let's try to find formulas for the given sequences:
 
-          <ol permid="ol">
-            <li permid="l_j">
-              <p permid="p">
+          <ol permid="sec_seq_intro-ex4-s-ol">
+            <li permid="sec_seq_intro-ex4-s-ol-l_j">
+              <p permid="sec_seq_intro-ex4-s-ol-l_j-p">
                 <m>(1, 2, 4, 7, 11, 16, 22, \ldots)</m>.
                 Note that if subtract 1 from each term,
                 we get the sequence <m>(T_n)</m>.
@@ -465,8 +465,8 @@
               </p>
             </li>
 
-            <li permid="l_s">
-              <p permid="p">
+            <li permid="sec_seq_intro-ex4-s-ol-l_s">
+              <p permid="sec_seq_intro-ex4-s-ol-l_s-p">
                 <m>(3, 5, 9, 17, 33, \ldots )</m>.
                 Each term in this sequence is one more than a power of 2, so we might guess the closed formula is <m>c_n = a_n+1 = 2^n + 1</m>.
                 If we try this though, we get
@@ -476,8 +476,8 @@
               </p>
             </li>
 
-            <li permid="l_b">
-              <p permid="p">
+            <li permid="sec_seq_intro-ex4-s-ol-l_b">
+              <p permid="sec_seq_intro-ex4-s-ol-l_b-p">
                 (<m>0, 2, 6, 12, 20, 30, 42,\ldots </m>).
                 Notice that all these terms are even.
                 What happens if we factor out a 2?
@@ -487,8 +487,8 @@
               </p>
             </li>
 
-            <li permid="l_k">
-              <p permid="p">
+            <li permid="sec_seq_intro-ex4-s-ol-l_k">
+              <p permid="sec_seq_intro-ex4-s-ol-l_k-p">
                 <m>(3, 6, 10, 15, 21, 28, \ldots)</m>.
                 These are all triangular numbers.
                 However, we are starting with 3 as our initial term instead of as our third term.
@@ -502,8 +502,8 @@
               </p>
             </li>
 
-            <li permid="l_t">
-              <p permid="p">
+            <li permid="sec_seq_intro-ex4-s-ol-l_t">
+              <p permid="sec_seq_intro-ex4-s-ol-l_t-p">
                 <m>(0, 1, 3, 7, 15, 31, \ldots )</m>.
                 Try adding 1 to each term and we get powers of 2.
                 You might guess this because each term is a little more than twice the previous term
@@ -513,8 +513,8 @@
               </p>
             </li>
 
-            <li permid="l_c">
-              <p permid="p">
+            <li permid="sec_seq_intro-ex4-s-ol-l_c">
+              <p permid="sec_seq_intro-ex4-s-ol-l_c-p">
                 <m>(3, 6, 12, 24, 48, \ldots )</m>.
                 These numbers are also doubling each time,
                 but are also all multiples of 3.
@@ -524,8 +524,8 @@
               </p>
             </li>
 
-            <li permid="l_l">
-              <p permid="p">
+            <li permid="sec_seq_intro-ex4-s-ol-l_l">
+              <p permid="sec_seq_intro-ex4-s-ol-l_l-p">
                 <m>(6, 10, 18, 34, 66, \ldots )</m>.
                 To get from one term to the next,
                 we almost double each term.
@@ -544,8 +544,8 @@
               </p>
             </li>
 
-            <li permid="l_u">
-              <p permid="p">
+            <li permid="sec_seq_intro-ex4-s-ol-l_u">
+              <p permid="sec_seq_intro-ex4-s-ol-l_u-p">
                 <m>(15, 33, 57, 87, 123, \ldots)</m>.
                 Try dividing each term by 3.
                 That gives the sequence <m>5, 11, 19, 29, 41,\ldots</m>.

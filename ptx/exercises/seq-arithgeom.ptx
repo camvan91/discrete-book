@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <exercises permid="exers_seq-arithgeom" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exercises_seq-arithgeom">
 
-  <exercise permid="e_xo">
+  <exercise permid="exers_seq-arithgeom-e_xo">
     <statement>
-      <p permid="p1">
+      <p permid="exers_seq-arithgeom-e_xo-p1">
         Consider the sequence <m>5, 9, 13, 17, 21, \ldots</m> with <m>a_1 = 5</m>
       </p>
 
-      <p permid="p2">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+      <p permid="exers_seq-arithgeom-e_xo-p2">
+        <ol permid="exers_seq-arithgeom-e_xo-ol">
+          <li permid="exers_seq-arithgeom-e_xo-ol-l_j">
+            <p permid="exers_seq-arithgeom-e_xo-ol-l_j-p">
               Give a recursive definition for the sequence.
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_seq-arithgeom-e_xo-ol-l_s">
+            <p permid="exers_seq-arithgeom-e_xo-ol-l_s-p">
               Give a closed formula for the <m>n</m>th term of the sequence.
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_seq-arithgeom-e_xo-ol-l_b">
+            <p permid="exers_seq-arithgeom-e_xo-ol-l_b-p">
               Is <m>2013</m> a term in the sequence?
               Explain.
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_seq-arithgeom-e_xo-ol-l_k">
+            <p permid="exers_seq-arithgeom-e_xo-ol-l_k-p">
               How many terms does the sequence <m>5, 9, 13, 17, 21, \ldots, 533</m> have?
             </p>
           </li>
 
-          <li permid="l_t">
-            <p permid="p">
+          <li permid="exers_seq-arithgeom-e_xo-ol-l_t">
+            <p permid="exers_seq-arithgeom-e_xo-ol-l_t-p">
               Find the sum: <m>5 + 9 + 13 + 17 + 21 + \cdots + 533</m>.
               Show your work.
             </p>
           </li>
 
-          <li permid="l_c">
-            <p permid="p">
+          <li permid="exers_seq-arithgeom-e_xo-ol-l_c">
+            <p permid="exers_seq-arithgeom-e_xo-ol-l_c-p">
               Use what you found above to find <m>b_n</m>,
               the <m>n^{th}</m> term of <m>1, 6, 15, 28, 45, \ldots</m>,
               where <m>b_0 = 1</m>
@@ -51,56 +51,56 @@
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j"><m>a_n = a_{n-1} + 4</m> with <m>a_1 = 5</m>.</li>
+    <solution permid="exers_seq-arithgeom-e_xo-s">
+      <p permid="exers_seq-arithgeom-e_xo-s-p">
+        <ol permid="exers_seq-arithgeom-e_xo-s-ol">
+          <li permid="exers_seq-arithgeom-e_xo-s-ol-l_j"><m>a_n = a_{n-1} + 4</m> with <m>a_1 = 5</m>.</li>
 
-          <li permid="l_s"><m>a_n = 5 + 4(n-1)</m>.</li>
+          <li permid="exers_seq-arithgeom-e_xo-s-ol-l_s"><m>a_n = 5 + 4(n-1)</m>.</li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_seq-arithgeom-e_xo-s-ol-l_b">
+            <p permid="exers_seq-arithgeom-e_xo-s-ol-l_b-p">
               Yes, since <m>2013 = 5 + 4(503-1)</m>
               (so <m>a_{503} = 2013</m>).
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_seq-arithgeom-e_xo-s-ol-l_k">
+            <p permid="exers_seq-arithgeom-e_xo-s-ol-l_k-p">
               133
             </p>
           </li>
 
-          <li permid="l_t"><m>\frac{538\cdot 133}{2} = 35777</m>.</li>
+          <li permid="exers_seq-arithgeom-e_xo-s-ol-l_t"><m>\frac{538\cdot 133}{2} = 35777</m>.</li>
 
-          <li permid="l_c"><m>b_n = 1 + \frac{(4n+6)n}{2}</m>.</li>
+          <li permid="exers_seq-arithgeom-e_xo-s-ol-l_c"><m>b_n = 1 + \frac{(4n+6)n}{2}</m>.</li>
         </ol>
       </p>
     </solution>
   </exercise>
 
-  <exercise permid="e_ag">
+  <exercise permid="exers_seq-arithgeom-e_ag">
     <statement>
-      <p permid="p1">
+      <p permid="exers_seq-arithgeom-e_ag-p1">
         Consider the sequence <m>(a_n)_{n \ge 0}</m> which starts <m>8, 14, 20, 26, \ldots</m>.
       </p>
 
-      <p permid="p2">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+      <p permid="exers_seq-arithgeom-e_ag-p2">
+        <ol permid="exers_seq-arithgeom-e_ag-ol">
+          <li permid="exers_seq-arithgeom-e_ag-ol-l_j">
+            <p permid="exers_seq-arithgeom-e_ag-ol-l_j-p">
               What is the next term in the sequence?
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_seq-arithgeom-e_ag-ol-l_s">
+            <p permid="exers_seq-arithgeom-e_ag-ol-l_s-p">
               Find a formula for the <m>n</m>th term of this sequence.
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_seq-arithgeom-e_ag-ol-l_b">
+            <p permid="exers_seq-arithgeom-e_ag-ol-l_b-p">
               Find the sum of the first 100 terms of the sequence:
               <m>\sum_{k=0}^{99}a_k</m>.
             </p>
@@ -108,18 +108,18 @@
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+    <solution permid="exers_seq-arithgeom-e_ag-s">
+      <p permid="exers_seq-arithgeom-e_ag-s-p">
+        <ol permid="exers_seq-arithgeom-e_ag-s-ol">
+          <li permid="exers_seq-arithgeom-e_ag-s-ol-l_j">
+            <p permid="exers_seq-arithgeom-e_ag-s-ol-l_j-p">
               <m>32</m>, which is <m>26+6</m>.
             </p>
           </li>
 
-          <li permid="l_s"><m>a_n = 8 + 6n</m>.</li>
+          <li permid="exers_seq-arithgeom-e_ag-s-ol-l_s"><m>a_n = 8 + 6n</m>.</li>
 
-          <li permid="l_b">
+          <li permid="exers_seq-arithgeom-e_ag-s-ol-l_b">
             <m>30500</m>.
             We want <m>8 + 14 + \cdots + 602</m>.
             Reverse and add to get 100 sums of 610,
@@ -130,22 +130,22 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_dp">
+  <exercise permid="exers_seq-arithgeom-e_dp">
     <statement>
-      <p permid="p1">
+      <p permid="exers_seq-arithgeom-e_dp-p1">
         Consider the sum <m>4 + 11 + 18 + 25 + \cdots + 249</m>.
       </p>
 
-      <p permid="p2">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+      <p permid="exers_seq-arithgeom-e_dp-p2">
+        <ol permid="exers_seq-arithgeom-e_dp-ol">
+          <li permid="exers_seq-arithgeom-e_dp-ol-l_j">
+            <p permid="exers_seq-arithgeom-e_dp-ol-l_j-p">
               How many terms (summands) are in the sum?
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_seq-arithgeom-e_dp-ol-l_s">
+            <p permid="exers_seq-arithgeom-e_dp-ol-l_s-p">
               Compute the sum.
               Remember to show all your work.
             </p>
@@ -153,64 +153,64 @@
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+    <solution permid="exers_seq-arithgeom-e_dp-s">
+      <p permid="exers_seq-arithgeom-e_dp-s-p">
+        <ol permid="exers_seq-arithgeom-e_dp-s-ol">
+          <li permid="exers_seq-arithgeom-e_dp-s-ol-l_j">
+            <p permid="exers_seq-arithgeom-e_dp-s-ol-l_j-p">
               36.
             </p>
           </li>
 
-          <li permid="l_s"><m>\frac{253 \cdot 36}{2} = 4554</m>.</li>
+          <li permid="exers_seq-arithgeom-e_dp-s-ol-l_s"><m>\frac{253 \cdot 36}{2} = 4554</m>.</li>
         </ol>
       </p>
     </solution>
   </exercise>
 
-  <exercise permid="e_gy">
+  <exercise permid="exers_seq-arithgeom-e_gy">
     <statement>
-      <p permid="p1">
+      <p permid="exers_seq-arithgeom-e_gy-p1">
         Consider the sequence <m>1, 7, 13, 19, \ldots, 6n + 7</m>.
       </p>
 
-      <p permid="p2">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+      <p permid="exers_seq-arithgeom-e_gy-p2">
+        <ol permid="exers_seq-arithgeom-e_gy-ol">
+          <li permid="exers_seq-arithgeom-e_gy-ol-l_j">
+            <p permid="exers_seq-arithgeom-e_gy-ol-l_j-p">
               How many terms are there in the sequence?
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_seq-arithgeom-e_gy-ol-l_s">
+            <p permid="exers_seq-arithgeom-e_gy-ol-l_s-p">
               What is the second-to-last term?
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_seq-arithgeom-e_gy-ol-l_b">
+            <p permid="exers_seq-arithgeom-e_gy-ol-l_b-p">
               Find the sum of all the terms in the sequence.
             </p>
           </li>
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j">
+    <solution permid="exers_seq-arithgeom-e_gy-s">
+      <p permid="exers_seq-arithgeom-e_gy-s-p">
+        <ol permid="exers_seq-arithgeom-e_gy-s-ol">
+          <li permid="exers_seq-arithgeom-e_gy-s-ol-l_j">
             <m>n+2</m> terms,
             since to get 1 using the formula <m>6n+7</m> we must use <m>n=-1</m>.
             Thus we have <m>n</m> terms, plus the <m>n=0</m> and <m>n=-1</m> terms.
           </li>
 
-          <li permid="l_s">
+          <li permid="exers_seq-arithgeom-e_gy-s-ol-l_s">
             <m>6n+1</m>, which is 6 less than <m>6n+7</m>
             (or plug in <m>n-1</m> for <m>n</m>).
           </li>
 
-          <li permid="l_b">
+          <li permid="exers_seq-arithgeom-e_gy-s-ol-l_b">
             <m>\frac{(6n+8)(n+2)}{2}</m>.
             Reverse and add.
             Each sum gives the constant <m>6n+8</m> and there are <m>n+2</m> terms.
@@ -220,14 +220,14 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_jq">
+  <exercise permid="exers_seq-arithgeom-e_jq">
     <statement>
-      <p permid="p">
+      <p permid="exers_seq-arithgeom-e_jq-p">
         Find <m>5 + 7 + 9 + 11+ \cdots + 521</m>.
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_seq-arithgeom-e_jq-s">
+      <p permid="exers_seq-arithgeom-e_jq-s-p">
         <m>68117</m>.
         If we take <m>a_0 = 5</m>,
         the terms of the sum are an arithmetic sequence with closed formula <m>a_n = 5+2n</m>.
@@ -238,14 +238,14 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_mz">
+  <exercise permid="exers_seq-arithgeom-e_mz">
     <statement>
-      <p permid="p">
+      <p permid="exers_seq-arithgeom-e_mz-p">
         Find <m>5 + 15 + 45 + \cdots + 5\cdot 3^{20}</m>.
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_seq-arithgeom-e_mz-s">
+      <p permid="exers_seq-arithgeom-e_mz-s-p">
         <m>\frac{5-5\cdot 3^{21}}{-2}</m>.
         Let the sum be <m>S</m>, and compute <m>S - 3S = -2S</m>,
         which causes terms except <m>5</m> and <m>-5\cdot 3^{21}</m> to cancel.
@@ -254,17 +254,17 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_pi">
+  <exercise permid="exers_seq-arithgeom-e_pi">
     <statement>
-      <p permid="p">
+      <p permid="exers_seq-arithgeom-e_pi-p">
         Find <m>1 - \frac{2}{3} + \frac{4}{9} - \cdots + \frac{2^{30}}{3^{30}}</m>.
       </p>
     </statement>
   </exercise>
 
-  <exercise permid="e_sa">
+  <exercise permid="exers_seq-arithgeom-e_sa">
     <statement>
-      <p permid="p">
+      <p permid="exers_seq-arithgeom-e_sa-p">
         Find <m>x</m> and <m>y</m> such that
         <m>27,
         x, y, 1</m> is part of an arithmetic sequence.
@@ -275,9 +275,9 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_vj">
+  <exercise permid="exers_seq-arithgeom-e_vj">
     <statement>
-      <p permid="p1">
+      <p permid="exers_seq-arithgeom-e_vj-p1">
         Starting with any rectangle, we can create a new,
         larger rectangle by attaching a square to the longer side.
         For example, if we start with a <m>2\times 5</m> rectangle,
@@ -285,9 +285,9 @@
         forming a <m>5 \times 7</m> rectangle:
       </p>
 
-      <sidebyside permid="sbs1" width="60%">
+      <sidebyside permid="exers_seq-arithgeom-sbs1" width="60%">
 
-        <image permid="im">
+        <image permid="exers_seq-arithgeom-sbs1-im">
 
                       <latex-image>
                         \begin{tikzpicture}[scale=.4]
@@ -304,10 +304,10 @@
 
       </sidebyside>
 
-      <p permid="p2">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+      <p permid="exers_seq-arithgeom-e_vj-p2">
+        <ol permid="exers_seq-arithgeom-e_vj-ol">
+          <li permid="exers_seq-arithgeom-e_vj-ol-l_j">
+            <p permid="exers_seq-arithgeom-e_vj-ol-l_j-p">
               Create a sequence of rectangles using this rule starting with a <m>1\times 2</m> rectangle.
               Then write out the sequence of <em>perimeters</em> for the rectangles
               (the first term of the sequence would be 6, since the perimeter of a
@@ -315,21 +315,21 @@
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_seq-arithgeom-e_vj-ol-l_s">
+            <p permid="exers_seq-arithgeom-e_vj-ol-l_s-p">
               Repeat the above part this time starting with a <m>1 \times 3</m> rectangle.
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_seq-arithgeom-e_vj-ol-l_b">
+            <p permid="exers_seq-arithgeom-e_vj-ol-l_b-p">
               Find recursive formulas for each of the sequences of perimeters you found in parts (a) and (b).
               Don't forget to give the initial conditions as well.
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_seq-arithgeom-e_vj-ol-l_k">
+            <p permid="exers_seq-arithgeom-e_vj-ol-l_k-p">
               Are the sequences arithmetic?
               Geometric?
               If not, are they <em>close</em>
@@ -343,9 +343,9 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_ys">
+  <exercise permid="exers_seq-arithgeom-e_ys">
     <statement>
-      <p permid="p">
+      <p permid="exers_seq-arithgeom-e_ys-p">
         Consider the sequence <m>2, 7, 15, 26, 40, 57, \ldots</m>
         (with <m>a_0 = 2</m>).
         By looking at the differences between terms,
@@ -353,8 +353,8 @@
         Then find a closed formula for the sequence by computing the <m>n</m>th partial sum.
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
+    <solution permid="exers_seq-arithgeom-e_ys-s">
+      <p permid="exers_seq-arithgeom-e_ys-s-p">
         We have <m>2 = 2</m>, <m>7 = 2+5</m>,
         <m>15 = 2 + 5 + 8</m>, <m>26 = 2+5+8+11</m>, and so on.
         The terms in the sums are given by the arithmetic sequence <m>b_n = 2+3n</m>.
@@ -366,9 +366,9 @@
     </solution>
   </exercise>
 
-  <exercise permid="e_bk">
+  <exercise permid="exers_seq-arithgeom-e_bk">
     <statement>
-      <p permid="p1">
+      <p permid="exers_seq-arithgeom-e_bk-p1">
         If you have enough toothpicks,
         you can make a large triangular grid.
         Below, are the triangular grids of size 1 and of size 2.
@@ -376,9 +376,9 @@
         the size 2 grid requires 9 toothpicks.
       </p>
 
-      <sidebyside permid="sbs2" widths="16% 28%" valign="bottom" margins="auto">
+      <sidebyside permid="exers_seq-arithgeom-sbs2" widths="16% 28%" valign="bottom" margins="auto">
 
-        <image permid="im1">
+        <image permid="exers_seq-arithgeom-sbs2-im1">
 
                 <latex-image>
                   \begin{tikzpicture}[scale=.8]
@@ -390,7 +390,7 @@
                 </latex-image>
         </image>
 
-        <image permid="im2">
+        <image permid="exers_seq-arithgeom-sbs2-im2">
 
                 <latex-image>
                   \begin{tikzpicture}[scale=.8]
@@ -407,32 +407,32 @@
 
       </sidebyside>
 
-      <p permid="p2">
-        <ol permid="ol">
-          <li permid="l_j">
-            <p permid="p">
+      <p permid="exers_seq-arithgeom-e_bk-p2">
+        <ol permid="exers_seq-arithgeom-e_bk-ol">
+          <li permid="exers_seq-arithgeom-e_bk-ol-l_j">
+            <p permid="exers_seq-arithgeom-e_bk-ol-l_j-p">
               Let <m>t_n</m> be the number of toothpicks required to make a size <m>n</m> triangular grid.
               Write out the first 5 terms of the sequence <m>t_1, t_2, \ldots</m>.
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="exers_seq-arithgeom-e_bk-ol-l_s">
+            <p permid="exers_seq-arithgeom-e_bk-ol-l_s-p">
               Find a recursive definition for the sequence.
               Explain why you are correct.
             </p>
           </li>
 
-          <li permid="l_b">
-            <p permid="p">
+          <li permid="exers_seq-arithgeom-e_bk-ol-l_b">
+            <p permid="exers_seq-arithgeom-e_bk-ol-l_b-p">
               Is the sequence arithmetic or geometric?
               If not, is it the sequence of partial sums of an arithmetic or geometric sequence?
               Explain why your answer is correct.
             </p>
           </li>
 
-          <li permid="l_k">
-            <p permid="p">
+          <li permid="exers_seq-arithgeom-e_bk-ol-l_k">
+            <p permid="exers_seq-arithgeom-e_bk-ol-l_k-p">
               Use your results from part (c) to find a closed formula for the sequence.
               Show your work.
             </p>
@@ -442,88 +442,88 @@
     </statement>
   </exercise>
 
-  <exercise permid="e_et">
+  <exercise permid="exers_seq-arithgeom-e_et">
     <statement>
-      <p permid="p1">
+      <p permid="exers_seq-arithgeom-e_et-p1">
         Use summation (<m>\sum</m>) or product (<m>\prod</m>) notation to rewrite the following.
       </p>
 
-      <p permid="p2">
-        <ol permid="ol">
-          <li permid="l_j"><m>2 + 4 + 6 + 8 + \cdots + 2n</m>.</li>
+      <p permid="exers_seq-arithgeom-e_et-p2">
+        <ol permid="exers_seq-arithgeom-e_et-ol">
+          <li permid="exers_seq-arithgeom-e_et-ol-l_j"><m>2 + 4 + 6 + 8 + \cdots + 2n</m>.</li>
 
-          <li permid="l_s"><m>1 + 5 + 9 + 13 + \cdots + 425</m>.</li>
+          <li permid="exers_seq-arithgeom-e_et-ol-l_s"><m>1 + 5 + 9 + 13 + \cdots + 425</m>.</li>
 
-          <li permid="l_b">
+          <li permid="exers_seq-arithgeom-e_et-ol-l_b">
             <m>1 + \frac{1}{2} + \frac{1}{3} + \frac{1}{4} + \cdots + \frac{1}{50}</m>.
           </li>
 
-          <li permid="l_k"><m>2 \cdot 4 \cdot 6 \cdot \cdots \cdot 2n</m>.</li>
+          <li permid="exers_seq-arithgeom-e_et-ol-l_k"><m>2 \cdot 4 \cdot 6 \cdot \cdots \cdot 2n</m>.</li>
 
-          <li permid="l_t">
+          <li permid="exers_seq-arithgeom-e_et-ol-l_t">
             <m>(\frac{1}{2})(\frac{2}{3})(\frac{3}{4})\cdots(\frac{100}{101})</m>.
           </li>
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j"><m>\d\sum_{k=1}^n 2k</m>.</li>
+    <solution permid="exers_seq-arithgeom-e_et-s">
+      <p permid="exers_seq-arithgeom-e_et-s-p">
+        <ol permid="exers_seq-arithgeom-e_et-s-ol">
+          <li permid="exers_seq-arithgeom-e_et-s-ol-l_j"><m>\d\sum_{k=1}^n 2k</m>.</li>
 
-          <li permid="l_s"><m>\d\sum_{k=1}^{107} (1 + 4(k-1))</m>.</li>
+          <li permid="exers_seq-arithgeom-e_et-s-ol-l_s"><m>\d\sum_{k=1}^{107} (1 + 4(k-1))</m>.</li>
 
-          <li permid="l_b"><m>\d\sum_{k=1}^{50} \frac{1}{k}</m>.</li>
+          <li permid="exers_seq-arithgeom-e_et-s-ol-l_b"><m>\d\sum_{k=1}^{50} \frac{1}{k}</m>.</li>
 
-          <li permid="l_k"><m>\d\prod_{k=1}^n 2k</m>.</li>
+          <li permid="exers_seq-arithgeom-e_et-s-ol-l_k"><m>\d\prod_{k=1}^n 2k</m>.</li>
 
-          <li permid="l_t"><m>\d\prod_{k=1}^{100} \frac{k}{k+1}</m>.</li>
+          <li permid="exers_seq-arithgeom-e_et-s-ol-l_t"><m>\d\prod_{k=1}^{100} \frac{k}{k+1}</m>.</li>
         </ol>
       </p>
     </solution>
   </exercise>
 
-  <exercise permid="e_hc">
+  <exercise permid="exers_seq-arithgeom-e_hc">
     <statement>
-      <p permid="p1">
+      <p permid="exers_seq-arithgeom-e_hc-p1">
         Expand the following sums and products.
         That is, write them out the long way.
       </p>
 
-      <p permid="p2">
-        <ol permid="ol">
-          <li permid="l_j"><m>\d\sum_{k=1}^{100} (3+4k)</m>.</li>
+      <p permid="exers_seq-arithgeom-e_hc-p2">
+        <ol permid="exers_seq-arithgeom-e_hc-ol">
+          <li permid="exers_seq-arithgeom-e_hc-ol-l_j"><m>\d\sum_{k=1}^{100} (3+4k)</m>.</li>
 
-          <li permid="l_s"><m>\d\sum_{k=0}^n 2^k</m>.</li>
+          <li permid="exers_seq-arithgeom-e_hc-ol-l_s"><m>\d\sum_{k=0}^n 2^k</m>.</li>
 
-          <li permid="l_b"><m>\d\sum_{k=2}^{50}\frac{1}{(k^2 - 1)}</m>.</li>
+          <li permid="exers_seq-arithgeom-e_hc-ol-l_b"><m>\d\sum_{k=2}^{50}\frac{1}{(k^2 - 1)}</m>.</li>
 
-          <li permid="l_k"><m>\d\prod_{k=2}^{100}\frac{k^2}{(k^2-1)}</m>.</li>
+          <li permid="exers_seq-arithgeom-e_hc-ol-l_k"><m>\d\prod_{k=2}^{100}\frac{k^2}{(k^2-1)}</m>.</li>
 
-          <li permid="l_t"><m>\d\prod_{k=0}^n (2+3k)</m>.</li>
+          <li permid="exers_seq-arithgeom-e_hc-ol-l_t"><m>\d\prod_{k=0}^n (2+3k)</m>.</li>
         </ol>
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p">
-        <ol permid="ol">
-          <li permid="l_j">
+    <solution permid="exers_seq-arithgeom-e_hc-s">
+      <p permid="exers_seq-arithgeom-e_hc-s-p">
+        <ol permid="exers_seq-arithgeom-e_hc-s-ol">
+          <li permid="exers_seq-arithgeom-e_hc-s-ol-l_j">
             <m>\d\sum_{k=1}^{100} (3+4k) = 7 + 11 + 15 + \cdots + 403</m>.
           </li>
 
-          <li permid="l_s">
+          <li permid="exers_seq-arithgeom-e_hc-s-ol-l_s">
             <m>\d\sum_{k=0}^n 2^k = 1 + 2 + 4 + 8 + \cdots + 2^n</m>.
           </li>
 
-          <li permid="l_b">
+          <li permid="exers_seq-arithgeom-e_hc-s-ol-l_b">
             <m>\d\sum_{k=2}^{50}\frac{1}{(k^2 - 1)} = 1 + \frac{1}{3} + \frac{1}{8} + \frac{1}{15} + \cdots + \frac{1}{2499}</m>.
           </li>
 
-          <li permid="l_k">
+          <li permid="exers_seq-arithgeom-e_hc-s-ol-l_k">
             <m>\d\prod_{k=2}^{100}\frac{k^2}{(k^2-1)} = \frac{4}{3}\cdot\frac{9}{8}\cdot\frac{16}{15}\cdots\frac{10000}{9999}</m>.
           </li>
 
-          <li permid="l_t">
+          <li permid="exers_seq-arithgeom-e_hc-s-ol-l_t">
             <m>\d\prod_{k=0}^n (2+3k) = (2)(5)(8)(11)(14)\cdots(2+3n)</m>.
           </li>
         </ol>

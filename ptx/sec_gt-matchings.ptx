@@ -2,21 +2,21 @@
 
 <section permid="sec_matchings" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_matchings">
   <title>Matching in Bipartite Graphs</title>
-  <investigation permid="inv">
-    <p permid="p1">
+  <investigation permid="sec_matchings-inv">
+    <p permid="sec_matchings-inv-p1">
       Given a bipartite graph,
       a <term>matching</term> is a subset of the edges for which every vertex belongs to exactly one of the edges.
       Our goal in this activity is to discover some criterion for when a bipartite graph has a matching.
     </p>
 
-    <p permid="p2">
+    <p permid="sec_matchings-inv-p2">
       Does the graph below contain a matching?
       If so, find one.
     </p>
 
-    <sidebyside permid="sbs" width="50%">
+    <sidebyside permid="sec_matchings-sbs" width="50%">
 
-      <image permid="im">
+      <image permid="sec_matchings-sbs-im">
 
   <latex-image>\begin{tikzpicture}
   \foreach \x in {0,...,5} {
@@ -35,7 +35,7 @@
 
     </sidebyside>
 
-    <p permid="p3">
+    <p permid="sec_matchings-inv-p3">
       Not all bipartite graphs have matchings.
       Draw as many fundamentally different examples of bipartite graphs which do NOT have matchings.
       Your goal is to find all the possible obstructions to a graph having a perfect matching.
@@ -47,11 +47,11 @@
       (is it true that if <fillin/>, then the graph has a matching?).
     </p>
   </investigation>
-  <p permid="p1">
+  <p permid="sec_matchings-p1">
     We conclude with one more example of a graph theory problem to illustrate the variety and vastness of the subject.
   </p>
 
-  <p permid="p2">
+  <p permid="sec_matchings-p2">
     Suppose you have a bipartite graph <m>G</m>.
     This will consist of two sets of vertices <m>A</m> and <m>B</m> with some edges connecting some vertices of <m>A</m> to some vertices in <m>B</m>
     (but of course,
@@ -70,7 +70,7 @@
     We will call those <em>partial</em> matchings.
     </fn></p>
 
-  <p permid="p3">
+  <p permid="sec_matchings-p3">
     Some context might make this easier to understand.
     Think of the vertices in <m>A</m> as representing students in a class,
     and the vertices in <m>B</m> as representing presentation topics.
@@ -91,7 +91,7 @@
     We have chosen a more progressive context for the sake of political correctness.
     </fn></p>
 
-  <p permid="p4">
+  <p permid="sec_matchings-p4">
     The question is:
     when does a bipartite graph contain a matching of <m>A</m>?
     To begin to answer this question,
@@ -101,7 +101,7 @@
     but at least it is a start.
   </p>
 
-  <p permid="p5">
+  <p permid="sec_matchings-p5">
     One way <m>G</m> could not have a matching is if there is a vertex in <m>A</m> not adjacent to any vertex in <m>B</m>
     (so having degree 0).
     What else?
@@ -116,14 +116,14 @@
 <!-- \todo{write exercise asking for a proof by induction for this} -->
   </p>
 
-  <p permid="p6">
+  <p permid="sec_matchings-p6">
     It should be clear at this point that if there is every a group of <m>n</m> students who as a group like <m>n-1</m> or fewer topics,
     then no matching is possible.
     This is true for any value of <m>n</m>,
     and any group of <m>n</m> students.
   </p>
 
-  <p permid="p7">
+  <p permid="sec_matchings-p7">
     To make this more graph-theoretic,
     say you have a set <m>S \subseteq A</m> of vertices.
     Define <m>N(S)</m>
@@ -142,19 +142,19 @@
     <m>N(S)</m> is the set of topics liked by the students of <m>S</m>.) Our discussion above can be summarized as follows:
   </p>
 
-  <assemblage permid="asm-matching-condition">
+  <assemblage permid="sec_matchings-asm-matching-condition">
     <title>Matching Condition</title>
-    <p permid="p">
+    <p permid="sec_matchings-asm-matching-condition-p">
           <idx><h>matching condition</h></idx>
       If a bipartite graph <m>G = \{A, B\}</m> has a matching of <m>A</m>, then
-      <me permid="me">
+      <me permid="sec_matchings-asm-matching-condition-p-me">
         |N(S)| \ge |S|
       </me>
       for all <m>S \subseteq A</m>.
     </p>
   </assemblage>
 
-  <p permid="p8">
+  <p permid="sec_matchings-p8">
     Is the converse true?
     Suppose <m>G</m> satisfies the matching condition
     <m>|N(S)| \ge |S|</m> for all <m>S \subseteq A</m>
@@ -170,14 +170,14 @@
     The name is a coincidence though as the two Halls are not related.
     </fn></p>
 
-  <theorem permid="t-halls-marriage-t">
+  <theorem permid="sec_matchings-t-halls-marriage-t">
     <title>Hall's Marriage Theorem</title>
     <statement>
-      <p permid="p">
+      <p permid="sec_matchings-t-halls-marriage-t-p">
             <idx><h>Hall's Marriage Theorem</h></idx>
         Let <m>G</m> be a bipartite graph with sets <m>A</m> and <m>B</m>.
         Then <m>G</m> has a matching of <m>A</m> if and only if
-        <me permid="me">
+        <me permid="sec_matchings-t-halls-marriage-t-p-me">
           |N(S)| \ge |S|
         </me>
         for all <m>S \subseteq A</m>.
@@ -185,26 +185,26 @@
     </statement>
   </theorem>
 
-  <p permid="p9">
+  <p permid="sec_matchings-p9">
     There are quite a few different proofs of this theorem <ndash/> a quick internet search will get you started.
   </p>
 
-  <p permid="p10">
+  <p permid="sec_matchings-p10">
     In addition to its application to marriage and student presentation topics,
     matchings have applications all over the place.
     We conclude with one such example.
   </p>
 
-  <example permid="ex">
+  <example permid="sec_matchings-ex">
     <statement>
-      <p permid="p">
+      <p permid="sec_matchings-ex-p">
         Suppose you deal 52 regular playing cards into 13 piles of 4 cards each.
         Prove that you can always select one card from each pile to get one of each of the 13 card values Ace, 2, 3, <ellipsis/>, 10, Jack, Queen,
         and King.
       </p>
     </statement>
-    <solution permid="s">
-      <p permid="p1">
+    <solution permid="sec_matchings-ex-s">
+      <p permid="sec_matchings-ex-s-p1">
         Doing this directly would be difficult,
         but we can use the matching condition to help.
         Construct a graph <m>G</m> with 13 vertices in the set <m>A</m>,
@@ -216,7 +216,7 @@
         each value needs to be found in the piles exactly once.
       </p>
 
-      <p permid="p2">
+      <p permid="sec_matchings-ex-s-p2">
         We will have a matching if the matching condition holds.
         Given any set of card values (a set
         <m>S \subseteq A</m>) we must show that <m>|N(S)| \ge |S|</m>.

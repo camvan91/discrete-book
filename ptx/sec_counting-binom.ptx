@@ -2,9 +2,9 @@
 
 <section permid="sec_counting-binom" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_counting-binom">
   <title>Binomial Coefficients</title>
-  <introduction permid="intr">
-    <investigation permid="inv">
-      <p permid="p1">
+  <introduction permid="sec_counting-binom-intr">
+    <investigation permid="sec_counting-binom-inv">
+      <p permid="sec_counting-binom-intr-p1">
         In chess, a rook can move only in straight lines
         (not diagonally).
         Fill in each square of the chess board below with the number of different shortest paths the rook,
@@ -15,7 +15,7 @@
         DRDR, DRRD, RDDR, RDRD and RRDD.
       </p>
 
-      <sidebyside permid="sbs" width="50%">
+      <sidebyside permid="sec_counting-binom-sbs" width="50%">
 
         <image permid="chessboard" xml:id="chessboard">
 
@@ -37,7 +37,7 @@
 
       </sidebyside>
     </investigation>
-    <p permid="p2">
+    <p permid="sec_counting-binom-intr-p2">
       Here are some apparently different discrete objects we can count:
       subsets, bit strings, lattice paths,
       and binomial coefficients.
@@ -47,16 +47,16 @@
     </p>
   </introduction>
 
-  <subsection permid="ssec-subsets">
+  <subsection permid="-ssec-subsets">
     <title>Subsets</title>
-    <p permid="p1">
+    <p permid="-ssec-subsets-p1">
       Subsets should be familiar, otherwise read over
       <xref ref="sec_intro-sets"/> again.
       Suppose we look at the set <m>A = \{1,2,3,4,5\}</m>.
       How many subsets of <m>A</m> contain exactly 3 elements?
     </p>
 
-    <p permid="p2">
+    <p permid="-ssec-subsets-p2">
       First, a simpler question: How many subsets of <m>A</m> are there total?
       In other words,
       what is <m>|\pow(A)|</m> (the cardinality of the power set of <m>A</m>)?
@@ -74,7 +74,7 @@
       (by the multiplicative principle).
     </p>
 
-    <p permid="p3">
+    <p permid="-ssec-subsets-p3">
       Of those 32 subsets, how many have 3 elements?
       This is not obvious.
       Note that we cannot just use the multiplicative principle.
@@ -85,7 +85,7 @@
       What a mess!
     </p>
 
-    <p permid="p4">
+    <p permid="-ssec-subsets-p4">
       Another (bad) idea:
       we need to pick three elements to be in our subset.
       There are 5 elements to choose from.
@@ -111,7 +111,7 @@
       10 3-element subsets of <m>A</m>.
     </p>
 
-    <p permid="p5">
+    <p permid="-ssec-subsets-p5">
       Is this right?
       Well, we could list out all 10 of them,
       being very systematic in doing so,
@@ -135,7 +135,7 @@
       <q>no</q> to exactly one element.
     </p>
 
-    <p permid="p6">
+    <p permid="-ssec-subsets-p6">
       So far we have counted 12 of the 32 subsets.
       We have not yet counted the subsets with cardinality 2 and with cardinality 3.
       There are a total of 20 subsets left to split up between these two groups.
@@ -147,7 +147,7 @@
       Together there are 20 of these subsets, so 10 each.
     </p>
 
-    <sidebyside permid="sbs">
+    <sidebyside permid="-ssec-subsets-sbs">
 
       <tabular>
         <row bottom="minor" halign="center">
@@ -173,20 +173,20 @@
     </sidebyside>
   </subsection>
 
-  <subsection permid="ssec-bit-strings">
+  <subsection permid="-ssec-bit-strings">
     <title>Bit Strings</title>
-    <p permid="p1">
+    <p permid="-ssec-bit-strings-p1">
       <q>Bit</q> is short for <q>binary digit,</q>
       so a <term>bit string</term>
       is a string of binary digits.
       The <term>binary digits</term> are simply the numbers 0 and 1.
       All of the following are bit strings:
-      <me permid="me">
+      <me permid="-ssec-bit-strings-p1-me">
         1001 \quad 0 \quad 1111 \quad 1010101010
       </me>
     </p>
 
-    <p permid="p2">
+    <p permid="-ssec-bit-strings-p2">
       The number of bits (0's or 1's) in the string is the
       <term>length</term> of the string;
       the strings above have lengths 4, 1, 4, and 10 respectively.
@@ -196,14 +196,14 @@
       the weights of the above strings are 2, 0, 4, and 5 respectively.
     </p>
 
-    <assemblage permid="asm-bit-strings">
+    <assemblage permid="-ssec-bit-strings-asm-bit-strings">
       <title>Bit Strings</title>
-      <p permid="p">
+      <p permid="-ssec-bit-strings-asm-bit-strings-p">
             <idx><h>bit string</h></idx>
 
-        <ul permid="ul">
-          <li permid="l_j">
-            <p permid="p">
+        <ul permid="-ssec-bit-strings-asm-bit-strings-ul">
+          <li permid="-ssec-bit-strings-asm-bit-strings-ul-l_j">
+            <p permid="-ssec-bit-strings-asm-bit-strings-ul-l_j-p">
               An <term><m>n</m>-bit string</term>
               is a bit string of length <m>n</m>.
               That is, it is a string containing <m>n</m> symbols,
@@ -211,15 +211,15 @@
             </p>
           </li>
 
-          <li permid="l_s">
-            <p permid="p">
+          <li permid="-ssec-bit-strings-asm-bit-strings-ul-l_s">
+            <p permid="-ssec-bit-strings-asm-bit-strings-ul-l_s-p">
               The <term>weight</term>
                 <idx><h>weight, of a string</h></idx>
               of a bit string is the number of 1's in it.
             </p>
           </li>
 
-          <li permid="l_b">
+          <li permid="-ssec-bit-strings-asm-bit-strings-ul-l_b">
             <m>\B^n</m>
 
             <notation>
@@ -230,7 +230,7 @@
             is the <em>set</em> of all <m>n</m>-bit strings.
           </li>
 
-          <li permid="l_k">
+          <li permid="-ssec-bit-strings-asm-bit-strings-ul-l_k">
             <m>\B^n_k</m>
 
             <notation>
@@ -244,20 +244,20 @@
       </p>
     </assemblage>
 
-    <p permid="p3">
+    <p permid="-ssec-bit-strings-p3">
       For example,
       the elements of the set <m>\B^3_2</m> are the bit strings 011, 101, and 110.
       Those are the only strings containing three bits exactly two of which are 1's.
     </p>
 
-    <p permid="p4">
+    <p permid="-ssec-bit-strings-p4">
       The counting questions: How many bit strings have length 5?
       How many of those have weight 3?
       In other words,
       we are asking for the cardinalities <m>|\B^5|</m> and <m>|\B^5_3|</m>.
     </p>
 
-    <p permid="p5">
+    <p permid="-ssec-bit-strings-p5">
       To find the number of 5-bit strings is straight forward.
       We have 5 bits, and each can either be a 0 or a 1.
       So there are 2 choices for the first bit, 2 choices for the second,
@@ -266,7 +266,7 @@
       there are <m>2 \cdot 2 \cdot 2\cdot 2 \cdot 2 = 2^5 = 32</m> such strings.
     </p>
 
-    <p permid="p6">
+    <p permid="-ssec-bit-strings-p6">
       Finding the number of 5-bit strings of weight 3 is harder.
       Think about how such a string could start.
       The first bit must be either a 0 or a 1.
@@ -284,22 +284,22 @@
       (that is, a 1 followed by a string from <m>\B^4_2</m>)
       or <m>0\B^4_3</m>.
       These two sets are disjoint, so we can use the additive principle:
-      <me permid="me">
+      <me permid="-ssec-bit-strings-p6-me">
         |\B^5_3| = |\B^4_2| + |\B^4_3|
       </me>.
     </p>
 
-    <p permid="p7">
+    <p permid="-ssec-bit-strings-p7">
       This is an example of a <term>recurrence relation</term>.
       We represented one instance of our counting problem in terms of two simpler instances of the problem.
       If only we knew the cardinalities of <m>\B^4_2</m> and <m>\B^4_3</m>.
       Repeating the same reasoning,
-      <me permid="me">
+      <me permid="-ssec-bit-strings-p7-me">
         |\B^4_2| = |\B^3_1| + |\B^3_2| \quad \mbox{and} \quad |\B^4_3| = |\B^3_2| + |\B^3_3|
       </me>.
     </p>
 
-    <p permid="p8">
+    <p permid="-ssec-bit-strings-p8">
       We can keep going down, but this should be good enough.
       Both <m>\B^3_1</m> and <m>\B^3_2</m> contain 3 bit strings:
       we must pick one of the three bits to be a 1
@@ -311,7 +311,7 @@
       which puts <m>\B^5_3</m> at a total of 10 strings.
     </p>
 
-    <p permid="p9">
+    <p permid="-ssec-bit-strings-p9">
       But wait
       <mdash/>32 and 10 were the answers to the counting questions about subsets.
       Coincidence?
@@ -326,7 +326,7 @@
       Instead of yes, we put a 1; instead of no, we put a 0.
     </p>
 
-    <p permid="p10">
+    <p permid="-ssec-bit-strings-p10">
       For example,
       the bit string <m>11001</m> represents the subset <m>\{1,2,5\}</m> since the first,
       second and fifth bits are 1's.
@@ -334,7 +334,7 @@
       What we really have here is a bijection from <m>\pow(A)</m> to <m>\B^5</m>.
     </p>
 
-    <p permid="p11">
+    <p permid="-ssec-bit-strings-p11">
       Now for a subset to contain exactly three elements,
       the corresponding bit string must contain exactly three 1's.
       In other words, the weight must be 3.
@@ -342,15 +342,15 @@
     </p>
   </subsection>
 
-  <subsection permid="ssec-lattice-paths">
+  <subsection permid="-ssec-lattice-paths">
     <title>Lattice Paths</title>
-    <p permid="p1">
+    <p permid="-ssec-lattice-paths-p1">
       The <term>integer lattice</term> is the set of all points in the Cartesian plane for which both the <m>x</m> and <m>y</m> coordinates are integers.
       If you like to draw graphs on graph paper,
       the lattice is the set of all the intersections of the grid lines.
     </p>
 
-    <p permid="p2">
+    <p permid="-ssec-lattice-paths-p2">
       A <term>lattice path</term>
           <idx><h>lattice path</h></idx>
       is one of the shortest possible paths connecting two points on the lattice,
@@ -359,7 +359,7 @@
       here are three possible lattice paths from the points <m>(0,0)</m> to <m>(3,2)</m>:
     </p>
 
-    <sidebyside permid="sbs1" width="30%" margins="auto">
+    <sidebyside permid="-ssec-lattice-paths-sbs1" width="30%" margins="auto">
 
       <image permid="lattice-path" xml:id="lattice-path-1">
 
@@ -405,7 +405,7 @@
 
     </sidebyside>
 
-    <p permid="p3">
+    <p permid="-ssec-lattice-paths-p3">
       Notice to ensure the path is the
       <em>shortest</em> possible,
       each move must be either to the right or up.
@@ -417,7 +417,7 @@
       Thus each path has <em>length</em> 5.
     </p>
 
-    <p permid="p4">
+    <p permid="-ssec-lattice-paths-p4">
       The counting question:
       how many lattice paths are there between <m>(0,0)</m> and <m>(3,2)</m>?
       We could try to draw all of these,
@@ -428,7 +428,7 @@
       So how many such strings of R's and U's are there?
     </p>
 
-    <p permid="p5">
+    <p permid="-ssec-lattice-paths-p5">
       Notice that each of these strings must contain 5 symbols.
       Exactly 3 of them must be R's
       (since our destination is 3 units to the right).
@@ -438,13 +438,13 @@
       There are 10 of those, so there are 10 lattice paths from (0,0) to (3,2).
     </p>
 
-    <p permid="p6">
+    <p permid="-ssec-lattice-paths-p6">
       The correspondence between bit strings and lattice paths does not stop there.
       Here is another way to count lattice paths.
       Consider the lattice shown below:
     </p>
 
-    <sidebyside permid="sbs2" width="40%">
+    <sidebyside permid="-ssec-lattice-paths-sbs2" width="40%">
 
       <image permid="lattice-ab" xml:id="lattice-ab">
 
@@ -462,7 +462,7 @@
 
     </sidebyside>
 
-    <p permid="p7">
+    <p permid="-ssec-lattice-paths-p7">
       Any lattice path from (0,0) to (3,2) must pass through exactly one of <m>A</m> and <m>B</m>.
       The point <m>A</m> is 4 steps away from (0,0) and two of them are towards the right.
       The number of lattice paths to <m>A</m> is the same as the number of 4-bit strings of weight 2, namely 6.
@@ -475,39 +475,39 @@
     </p>
   </subsection>
 
-  <subsection permid="ssec-binomial-coefficients">
+  <subsection permid="-ssec-binomial-coefficients">
     <title>Binomial Coefficients</title>
-    <p permid="p1">
+    <p permid="-ssec-binomial-coefficients-p1">
       <term>Binomial coefficients</term>
       are the coefficients in the expanded version of a binomial,
       such as <m>(x+y)^5</m>.
       What happens when we multiply such a binomial out?
       We will expand <m>(x+y)^n</m> for various values of <m>n</m>.
       Each of these are done by multiplying everything out (i.e., FOIL-ing) and then collecting like terms.
-      <me permid="me1">
+      <me permid="-ssec-binomial-coefficients-p1-me1">
         (x+y)^1 = x + y
       </me>
-      <me permid="me2">
+      <me permid="-ssec-binomial-coefficients-p1-me2">
         (x+y)^2 = x^2 + 2xy + y^2
       </me>
-      <me permid="me3">
+      <me permid="-ssec-binomial-coefficients-p1-me3">
         (x+y)^3 = x^3 + 3x^2y + 3xy^2 + y^3
       </me>
-      <me permid="me4">
+      <me permid="-ssec-binomial-coefficients-p1-me4">
         (x+y)^4 = x^4 + 4x^3y + 6x^2y^2 + 4xy^3 + y^4
       </me>.
     </p>
 
-    <p permid="p2">
+    <p permid="-ssec-binomial-coefficients-p2">
       In fact, there is a quicker way to expand the above binomials.
       For example, consider the next one, <m>(x+y)^5</m>.
       What we are really doing is multiplying out,
-      <me permid="me">
+      <me permid="-ssec-binomial-coefficients-p2-me">
         (x+y)(x+y)(x+y)(x+y)(x+y)
       </me>.
     </p>
 
-    <p permid="p3">
+    <p permid="-ssec-binomial-coefficients-p3">
       If that looks daunting,
       go back to the case of <m>(x+y)^3 = (x+y)(x+y)(x+y)</m>.
       Why do we only have one <m>x^3</m> and <m>y^3</m> but three <m>x^2y</m> and <m>xy^2</m> terms?
@@ -524,7 +524,7 @@
       <q>contribute</q> their <m>y</m>.
     </p>
 
-    <p permid="p4">
+    <p permid="-ssec-binomial-coefficients-p4">
       Similarly, in the expansion of <m>(x+y)^5</m>,
       there will be only one <m>x^5</m> term and one <m>y^5</m> term.
       This is because to get an <m>x^5</m>,
@@ -541,12 +541,12 @@
       reason:
       there are 5 ways to pick which of the 5 binomials contribute the single <m>x</m>.
       So far we have
-      <me permid="me">
+      <me permid="-ssec-binomial-coefficients-p4-me">
         (x+y)^5 = x^5 + 5x^4y + \underline{~?~}~x^3y^2 + \underline{~?~}~x^2y^3 + 5 xy^4 + y^5
       </me>.
     </p>
 
-    <p permid="p5">
+    <p permid="-ssec-binomial-coefficients-p5">
       We still need the coefficients of <m>x^3y^2</m> and <m>x^2y^3</m>.
       In both cases,
       we need to pick exactly 3 of the 5 binomials to contribute one variable,
@@ -560,12 +560,12 @@
       (and also <m>x^2y^3</m>)
       will be exactly the same as the number of bit strings of length 5 and weight 3, which we found earlier to be 10.
       So we have:
-      <me permid="me">
+      <me permid="-ssec-binomial-coefficients-p5-me">
         (x+y)^5 = x^5 + 5x^4y + 10x^3y^2 + 10x^2y^3 + 5 xy^4 + y^5
       </me>.
     </p>
 
-    <p permid="p6">
+    <p permid="-ssec-binomial-coefficients-p6">
       These numbers we keep seeing over and over again.
       They are the number of subsets of a particular size,
       the number of bit strings of a particular weight,
@@ -575,52 +575,52 @@
       <m>{n \choose k}</m>.
     </p>
 
-    <assemblage permid="asm-binomial-coefficients">
+    <assemblage permid="-ssec-binomial-coefficients-asm-binomial-coefficients">
       <title>Binomial Coefficients</title>
-      <p permid="p">
+      <p permid="-ssec-binomial-coefficients-asm-binomial-coefficients-p">
             <idx><h>binomial coefficients</h></idx> For each integer <m>n \ge 0</m> and integer <m>k</m> with <m>0 \le k \le n</m> there is a number
-        <me permid="me">
+        <me permid="-ssec-binomial-coefficients-asm-binomial-coefficients-p-me">
           {n\choose k}
         </me>
         read <q><m>n</m> choose <m>k</m>.</q> We have:
 
-        <ul permid="ul">
-          <li permid="l_j">
+        <ul permid="-ssec-binomial-coefficients-asm-binomial-coefficients-ul">
+          <li permid="-ssec-binomial-coefficients-asm-binomial-coefficients-ul-l_j">
             <m>{n\choose k} = |\B^n_k|</m>,
             the number of <m>n</m>-bit strings of weight <m>k</m>.
           </li>
 
-          <li permid="l_s">
+          <li permid="-ssec-binomial-coefficients-asm-binomial-coefficients-ul-l_s">
             <m>{n \choose k}</m> is the number of subsets of a set of size <m>n</m> each with cardinality <m>k</m>.
           </li>
 
-          <li permid="l_b">
+          <li permid="-ssec-binomial-coefficients-asm-binomial-coefficients-ul-l_b">
             <m>{n \choose k}</m> is the number of lattice paths of length <m>n</m> containing <m>k</m> steps to the right.
           </li>
 
-          <li permid="l_k">
+          <li permid="-ssec-binomial-coefficients-asm-binomial-coefficients-ul-l_k">
             <m>{n \choose k}</m> is the coefficient of
             <m>x^ky^{n-k}</m> in the expansion of <m>(x+y)^n</m>.
           </li>
 
-          <li permid="l_t">
+          <li permid="-ssec-binomial-coefficients-asm-binomial-coefficients-ul-l_t">
             <m>{n \choose k}</m> is the number of ways to select <m>k</m> objects from a total of <m>n</m> objects.
           </li>
         </ul>
       </p>
     </assemblage>
 
-    <p permid="p7">
+    <p permid="-ssec-binomial-coefficients-p7">
       The last bullet point is usually taken as the definition of <m>{n \choose k}</m>.
       Out of <m>n</m> objects we must choose <m>k</m> of them,
       so there are <m>n</m> choose <m>k</m> ways of doing this.
       Each of our counting problems above can be viewed in this way:
     </p>
 
-    <p permid="p8">
-      <ul permid="ul">
-        <li permid="l_j">
-          <p permid="p">
+    <p permid="-ssec-binomial-coefficients-p8">
+      <ul permid="-ssec-binomial-coefficients-ul">
+        <li permid="-ssec-binomial-coefficients-ul-l_j">
+          <p permid="-ssec-binomial-coefficients-ul-l_j-p">
             How many subsets of <m>\{1,2,3,4,5\}</m> contain exactly 3 elements?
             We must choose <m>3</m> of the 5 elements to be in our subset.
             There are <m>{5 \choose 3}</m> ways to do this,
@@ -628,8 +628,8 @@
           </p>
         </li>
 
-        <li permid="l_s">
-          <p permid="p">
+        <li permid="-ssec-binomial-coefficients-ul-l_s">
+          <p permid="-ssec-binomial-coefficients-ul-l_s-p">
             How many bit strings have length 5 and weight 3?
             We must choose <m>3</m> of the 5 bits to be 1's.
             There are <m>{5 \choose 3}</m> ways to do this,
@@ -637,8 +637,8 @@
           </p>
         </li>
 
-        <li permid="l_b">
-          <p permid="p">
+        <li permid="-ssec-binomial-coefficients-ul-l_b">
+          <p permid="-ssec-binomial-coefficients-ul-l_b-p">
             How many lattice paths are there from (0,0) to (3,2)?
             We must choose 3 of the 5 steps to be towards the right.
             There are <m>{5 \choose 3}</m> ways to do this,
@@ -646,8 +646,8 @@
           </p>
         </li>
 
-        <li permid="l_k">
-          <p permid="p">
+        <li permid="-ssec-binomial-coefficients-ul-l_k">
+          <p permid="-ssec-binomial-coefficients-ul-l_k-p">
             What is the coefficient of <m>x^3y^2</m> in the expansion of <m>(x+y)^5</m>?
             We must choose 3 of the 5 copies of the binomial to contribute an <m>x</m>.
             There are <m>{5 \choose 3}</m> ways to do this,
@@ -657,7 +657,7 @@
       </ul>
     </p>
 
-    <p permid="p9">
+    <p permid="-ssec-binomial-coefficients-p9">
       It should be clear that in each case above, we have the right answer.
       All we had to do is phrase the question correctly and it became obvious that <m>{5 \choose 3}</m> is correct.
       However, this does not tell us that the answer is in fact 10 in each case.
@@ -666,26 +666,26 @@
       look back at how we arrived at the answer 10 in our counting problems above.
       It all came down to bit strings,
       and we have a recurrence relation for bit strings:
-      <me permid="me">
+      <me permid="-ssec-binomial-coefficients-p9-me">
         |\B^n_k| = |\B^{n-1}_{k-1}| + |\B^{n-1}_k|
       </me>.
     </p>
 
-    <p permid="p10">
+    <p permid="-ssec-binomial-coefficients-p10">
       Remember, this is because we can start the bit string with either a 1 or a 0.
       In both cases, we have <m>n-1</m> more bits to pick.
       The strings starting with 1 must contain <m>k-1</m> more 1's, while the strings starting with 0 still need <m>k</m> more 1's.
     </p>
 
-    <p permid="p11">
+    <p permid="-ssec-binomial-coefficients-p11">
       Since <m>|\B^n_k| = {n \choose k}</m>,
       the same recurrence relation holds for binomial coefficients:
     </p>
 
-    <assemblage permid="asm-recurrence-relation-for-n-choose-k">
+    <assemblage permid="-ssec-binomial-coefficients-asm-recurrence-relation-for-n-choose-k">
       <title>Recurrence relation for <m>{n \choose k}</m></title>
-      <p permid="p">
-        <me permid="me">
+      <p permid="-ssec-binomial-coefficients-asm-recurrence-relation-for-n-choose-k-p">
+        <me permid="-ssec-binomial-coefficients-asm-recurrence-relation-for-n-choose-k-p-me">
           {n \choose k} = {n-1 \choose k-1} + {n-1 \choose k}
         </me>
       </p>
@@ -694,12 +694,12 @@
 
   <subsection permid="ssec_pascal" xml:id="subsec_Pascal">
     <title>Pascal's Triangle</title>
-    <p permid="p1">
+    <p permid="ssec_pascal-p1">
       Let's arrange the binomial coefficients
       <m>{n \choose k}</m> into a triangle like follows:
     </p>
 
-    <sidebyside permid="sbs1" width="70%">
+    <sidebyside permid="ssec_pascal-sbs1" width="70%">
 
       <image permid="pascal-nck" xml:id="pascal-nCk">
 
@@ -714,7 +714,7 @@
 
     </sidebyside>
 
-    <p permid="p2">
+    <p permid="ssec_pascal-p2">
       This can continue as far down as we like.
       The recurrence relation for
       <m>{n \choose k}</m> tells us that each entry in the triangle is the sum of the two entries above it.
@@ -726,13 +726,13 @@
       Doing so gives us <term>Pascal's triangle</term>.
     </p>
 
-    <p permid="p3">
+    <p permid="ssec_pascal-p3">
       We can use Pascal's triangle to calculate binomial coefficients.
       For example, using the triangle below,
       we can find <m>{12 \choose 6} = 924</m>.
     </p>
 
-    <sidebyside permid="sbs2" width="100%">
+    <sidebyside permid="ssec_pascal-sbs2" width="100%">
 
       <image permid="pascal-large" xml:id="pascal-large">
         <idx><h>Pascal's triangle</h></idx>
